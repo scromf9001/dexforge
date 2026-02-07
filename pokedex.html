@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>User Pokédex</title>
+
+  <!-- Pokémon-style font (optional but nice) -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/pokedex.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div id="pokedex-app">
+
+    <!-- Header / User Info -->
+    <header class="trainer-header">
+      <img id="trainer-avatar" src="assets/placeholder.png" alt="Trainer Avatar">
+      <div class="trainer-info">
+        <h1 id="trainer-name">Trainer Name</h1>
+        <p id="pokemon-count">Pokémon caught: --</p>
+      </div>
+    </header>
+
+    <!-- Pokédex Grid -->
+    <main>
+      <ul id="pokedex-grid">
+        <!-- Pokémon cards injected here by JS -->
+      </ul>
+    </main>
+
+  </div>
+
+  <!-- JS -->
+  <script src="js/pokedex.js"></script>
+</body>
+</html>

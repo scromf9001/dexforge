@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  background: #e60012;
+  font-family: "Press Start 2P", monospace;
+}
+
+#pokedex-app {
+  max-width: 1200px;
+  margin: auto;
+  background: #f8f8f8;
+  min-height: 100vh;
+}
+
+.trainer-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #cc0000;
+  color: white;
+}
+
+.trainer-header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 4px solid white;
+}
+
+main {
+  padding: 20px;
+}
+
+#pokedex-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+  padding: 0;
+}
+
+.pokemon-card {
+  background: white;
+  border: 3px solid #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.dex-number {
+  font-size: 10px;
+  color: #666;
+}
+
+.pokemon-name {
+  margin: 6px 0;
+  font-size: 12px;
+}
+
+.pokemon-count {
+  font-size: 10px;
+  margin-bottom: 6px;
+}
+
+.pokemon-types {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.type {
+  font-size: 8px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  color: white;
+}
+
+.type.grass { background: #78c850; }
+.type.poison { background: #a040a0; }
+.type.fire { background: #f08030; }
+.type.flying { background: #a890f0; }
