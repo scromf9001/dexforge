@@ -1,0 +1,83 @@
+C:\Users\sebas\AppData\Local\Temp\1fcc3109-a97c-4146-a968-546b6736a380.py:63: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "updated_at": datetime.utcnow().isoformat() + "Z",
+{
+  "user": {
+    "username": "budgierampage",
+    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/38c5f8e1-aa53-4f80-9fcd-3730579a74dc-profile_image-300x300.png"
+  },
+  "updated_at": "2026-02-03T19:49:51.472175Z",
+  "pokemon": [
+    {
+      "name": "Pidgey",
+      "count": 1,
+      "pokedex_number": 16,
+      "primary_type": "Normal",
+      "secondary_type": "Flying",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Spearow",
+      "count": 1,
+      "pokedex_number": 21,
+      "primary_type": "Normal",
+      "secondary_type": "Flying",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Vulpix",
+      "count": 1,
+      "pokedex_number": 37,
+      "primary_type": "Fire",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Meowth",
+      "count": 1,
+      "pokedex_number": 52,
+      "primary_type": "Normal",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Magnemite",
+      "count": 1,
+      "pokedex_number": 81,
+      "primary_type": "Electric",
+      "secondary_type": "Steel",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Grimer",
+      "count": 1,
+      "pokedex_number": 88,
+      "primary_type": "Poison",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Kabuto",
+      "count": 1,
+      "pokedex_number": 140,
+      "primary_type": "Rock",
+      "secondary_type": "Water",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Mew",
+      "count": 1,
+      "pokedex_number": 151,
+      "primary_type": "Psychic",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    }
+  ]
+}

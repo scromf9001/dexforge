@@ -1,0 +1,992 @@
+C:\Users\sebas\AppData\Local\Temp\9d6a6f99-5b09-422b-85f6-8a11b2bef3ac.py:63: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "updated_at": datetime.utcnow().isoformat() + "Z",
+{
+  "user": {
+    "username": "litlpotatr",
+    "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/998f01ae-def8-11e9-b95c-784f43822e80-profile_image-300x300.png"
+  },
+  "updated_at": "2026-02-06T21:31:20.736088Z",
+  "pokemon": [
+    {
+      "name": "Ivysaur",
+      "count": 1,
+      "pokedex_number": 2,
+      "primary_type": "Grass",
+      "secondary_type": "Poison",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Charmander",
+      "count": 1,
+      "pokedex_number": 4,
+      "primary_type": "Fire",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Wartortle",
+      "count": 1,
+      "pokedex_number": 8,
+      "primary_type": "Water",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Caterpie",
+      "count": 2,
+      "pokedex_number": 10,
+      "primary_type": "Bug",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Butterfree",
+      "count": 1,
+      "pokedex_number": 12,
+      "primary_type": "Bug",
+      "secondary_type": "Flying",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Weedle",
+      "count": 2,
+      "pokedex_number": 13,
+      "primary_type": "Bug",
+      "secondary_type": "Poison",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Beedrill",
+      "count": 1,
+      "pokedex_number": 15,
+      "primary_type": "Bug",
+      "secondary_type": "Poison",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Pidgey",
+      "count": 2,
+      "pokedex_number": 16,
+      "primary_type": "Normal",
+      "secondary_type": "Flying",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Pidgeotto",
+      "count": 1,
+      "pokedex_number": 17,
+      "primary_type": "Normal",
+      "secondary_type": "Flying",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Pidgeot",
+      "count": 1,
+      "pokedex_number": 18,
+      "primary_type": "Normal",
+      "secondary_type": "Flying",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Rattata",
+      "count": 1,
+      "pokedex_number": 19,
+      "primary_type": "Normal",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Raticate",
+      "count": 8,
+      "pokedex_number": 20,
+      "primary_type": "Normal",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Fearow",
+      "count": 2,
+      "pokedex_number": 22,
+      "primary_type": "Normal",
+      "secondary_type": "Flying",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Ekans",
+      "count": 2,
+      "pokedex_number": 23,
+      "primary_type": "Poison",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Arbok",
+      "count": 2,
+      "pokedex_number": 24,
+      "primary_type": "Poison",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Raichu",
+      "count": 1,
+      "pokedex_number": 26,
+      "primary_type": "Electric",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Sandslash",
+      "count": 3,
+      "pokedex_number": 28,
+      "primary_type": "Ground",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Nidoran (F)",
+      "count": 2,
+      "pokedex_number": 29,
+      "primary_type": "Poison",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Nidoqueen",
+      "count": 1,
+      "pokedex_number": 31,
+      "primary_type": "Poison",
+      "secondary_type": "Ground",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Nidoran (M)",
+      "count": 1,
+      "pokedex_number": 32,
+      "primary_type": "Poison",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Nidoking",
+      "count": 1,
+      "pokedex_number": 34,
+      "primary_type": "Poison",
+      "secondary_type": "Ground",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Clefairy",
+      "count": 1,
+      "pokedex_number": 35,
+      "primary_type": "Fairy",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Clefable",
+      "count": 1,
+      "pokedex_number": 36,
+      "primary_type": "Fairy",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Vulpix",
+      "count": 4,
+      "pokedex_number": 37,
+      "primary_type": "Fire",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Ninetales",
+      "count": 1,
+      "pokedex_number": 38,
+      "primary_type": "Fire",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Jigglypuff",
+      "count": 7,
+      "pokedex_number": 39,
+      "primary_type": "Normal",
+      "secondary_type": "Fairy",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Wigglytuff",
+      "count": 1,
+      "pokedex_number": 40,
+      "primary_type": "Normal",
+      "secondary_type": "Fairy",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Zubat",
+      "count": 2,
+      "pokedex_number": 41,
+      "primary_type": "Poison",
+      "secondary_type": "Flying",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Golbat",
+      "count": 5,
+      "pokedex_number": 42,
+      "primary_type": "Poison",
+      "secondary_type": "Flying",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Gloom",
+      "count": 3,
+      "pokedex_number": 44,
+      "primary_type": "Grass",
+      "secondary_type": "Poison",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Vileplume",
+      "count": 1,
+      "pokedex_number": 45,
+      "primary_type": "Grass",
+      "secondary_type": "Poison",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Paras",
+      "count": 1,
+      "pokedex_number": 46,
+      "primary_type": "Bug",
+      "secondary_type": "Grass",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Parasect",
+      "count": 1,
+      "pokedex_number": 47,
+      "primary_type": "Bug",
+      "secondary_type": "Grass",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Venonat",
+      "count": 2,
+      "pokedex_number": 48,
+      "primary_type": "Bug",
+      "secondary_type": "Poison",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Venomoth",
+      "count": 2,
+      "pokedex_number": 49,
+      "primary_type": "Bug",
+      "secondary_type": "Poison",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Diglett",
+      "count": 2,
+      "pokedex_number": 50,
+      "primary_type": "Ground",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Dugtrio",
+      "count": 5,
+      "pokedex_number": 51,
+      "primary_type": "Ground",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Meowth",
+      "count": 2,
+      "pokedex_number": 52,
+      "primary_type": "Normal",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Persian",
+      "count": 5,
+      "pokedex_number": 53,
+      "primary_type": "Normal",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Golduck",
+      "count": 3,
+      "pokedex_number": 55,
+      "primary_type": "Water",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Mankey",
+      "count": 3,
+      "pokedex_number": 56,
+      "primary_type": "Fighting",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Growlithe",
+      "count": 3,
+      "pokedex_number": 58,
+      "primary_type": "Fire",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Arcanine",
+      "count": 2,
+      "pokedex_number": 59,
+      "primary_type": "Fire",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Poliwag",
+      "count": 1,
+      "pokedex_number": 60,
+      "primary_type": "Water",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Poliwrath",
+      "count": 1,
+      "pokedex_number": 62,
+      "primary_type": "Water",
+      "secondary_type": "Fighting",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Abra",
+      "count": 2,
+      "pokedex_number": 63,
+      "primary_type": "Psychic",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Alakazam",
+      "count": 1,
+      "pokedex_number": 65,
+      "primary_type": "Psychic",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Machop",
+      "count": 2,
+      "pokedex_number": 66,
+      "primary_type": "Fighting",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Machoke",
+      "count": 3,
+      "pokedex_number": 67,
+      "primary_type": "Fighting",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Bellsprout",
+      "count": 2,
+      "pokedex_number": 69,
+      "primary_type": "Grass",
+      "secondary_type": "Poison",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Weepinbell",
+      "count": 1,
+      "pokedex_number": 70,
+      "primary_type": "Grass",
+      "secondary_type": "Poison",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Victreebel",
+      "count": 1,
+      "pokedex_number": 71,
+      "primary_type": "Grass",
+      "secondary_type": "Poison",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Tentacool",
+      "count": 2,
+      "pokedex_number": 72,
+      "primary_type": "Water",
+      "secondary_type": "Poison",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Tentacruel",
+      "count": 2,
+      "pokedex_number": 73,
+      "primary_type": "Water",
+      "secondary_type": "Poison",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Geodude",
+      "count": 1,
+      "pokedex_number": 74,
+      "primary_type": "Rock",
+      "secondary_type": "Ground",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Graveler",
+      "count": 1,
+      "pokedex_number": 75,
+      "primary_type": "Rock",
+      "secondary_type": "Ground",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Golem",
+      "count": 1,
+      "pokedex_number": 76,
+      "primary_type": "Rock",
+      "secondary_type": "Ground",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Ponyta",
+      "count": 3,
+      "pokedex_number": 77,
+      "primary_type": "Fire",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Rapidash",
+      "count": 4,
+      "pokedex_number": 78,
+      "primary_type": "Fire",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Slowpoke",
+      "count": 1,
+      "pokedex_number": 79,
+      "primary_type": "Water",
+      "secondary_type": "Psychic",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Slowbro",
+      "count": 1,
+      "pokedex_number": 80,
+      "primary_type": "Water",
+      "secondary_type": "Psychic",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Magnemite",
+      "count": 2,
+      "pokedex_number": 81,
+      "primary_type": "Electric",
+      "secondary_type": "Steel",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Magneton",
+      "count": 2,
+      "pokedex_number": 82,
+      "primary_type": "Electric",
+      "secondary_type": "Steel",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Doduo",
+      "count": 2,
+      "pokedex_number": 84,
+      "primary_type": "Normal",
+      "secondary_type": "Flying",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Dodrio",
+      "count": 3,
+      "pokedex_number": 85,
+      "primary_type": "Normal",
+      "secondary_type": "Flying",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Seel",
+      "count": 1,
+      "pokedex_number": 86,
+      "primary_type": "Water",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Dewgong",
+      "count": 1,
+      "pokedex_number": 87,
+      "primary_type": "Water",
+      "secondary_type": "Ice",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Grimer",
+      "count": 1,
+      "pokedex_number": 88,
+      "primary_type": "Poison",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Muk",
+      "count": 2,
+      "pokedex_number": 89,
+      "primary_type": "Poison",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Shellder",
+      "count": 2,
+      "pokedex_number": 90,
+      "primary_type": "Water",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Cloyster",
+      "count": 1,
+      "pokedex_number": 91,
+      "primary_type": "Water",
+      "secondary_type": "Ice",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Gastly",
+      "count": 3,
+      "pokedex_number": 92,
+      "primary_type": "Ghost",
+      "secondary_type": "Poison",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Haunter",
+      "count": 2,
+      "pokedex_number": 93,
+      "primary_type": "Ghost",
+      "secondary_type": "Poison",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Hypno",
+      "count": 2,
+      "pokedex_number": 97,
+      "primary_type": "Psychic",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Krabby",
+      "count": 2,
+      "pokedex_number": 98,
+      "primary_type": "Water",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Kingler",
+      "count": 4,
+      "pokedex_number": 99,
+      "primary_type": "Water",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Voltorb",
+      "count": 1,
+      "pokedex_number": 100,
+      "primary_type": "Electric",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Electrode",
+      "count": 1,
+      "pokedex_number": 101,
+      "primary_type": "Electric",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Exeggcute",
+      "count": 2,
+      "pokedex_number": 102,
+      "primary_type": "Grass",
+      "secondary_type": "Psychic",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Exeggutor",
+      "count": 1,
+      "pokedex_number": 103,
+      "primary_type": "Grass",
+      "secondary_type": "Psychic",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Marowak",
+      "count": 1,
+      "pokedex_number": 105,
+      "primary_type": "Ground",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Hitmonlee",
+      "count": 1,
+      "pokedex_number": 106,
+      "primary_type": "Fighting",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Hitmonchan",
+      "count": 2,
+      "pokedex_number": 107,
+      "primary_type": "Fighting",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Weezing",
+      "count": 1,
+      "pokedex_number": 110,
+      "primary_type": "Poison",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Rhyhorn",
+      "count": 2,
+      "pokedex_number": 111,
+      "primary_type": "Ground",
+      "secondary_type": "Rock",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Tangela",
+      "count": 2,
+      "pokedex_number": 114,
+      "primary_type": "Grass",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Kangaskhan",
+      "count": 2,
+      "pokedex_number": 115,
+      "primary_type": "Normal",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Horsea",
+      "count": 1,
+      "pokedex_number": 116,
+      "primary_type": "Water",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Seadra",
+      "count": 4,
+      "pokedex_number": 117,
+      "primary_type": "Water",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Goldeen",
+      "count": 2,
+      "pokedex_number": 118,
+      "primary_type": "Water",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Seaking",
+      "count": 3,
+      "pokedex_number": 119,
+      "primary_type": "Water",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Staryu",
+      "count": 3,
+      "pokedex_number": 120,
+      "primary_type": "Water",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Starmie",
+      "count": 1,
+      "pokedex_number": 121,
+      "primary_type": "Water",
+      "secondary_type": "Psychic",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Scyther",
+      "count": 1,
+      "pokedex_number": 123,
+      "primary_type": "Bug",
+      "secondary_type": "Flying",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Electabuzz",
+      "count": 1,
+      "pokedex_number": 125,
+      "primary_type": "Electric",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Magmar",
+      "count": 1,
+      "pokedex_number": 126,
+      "primary_type": "Fire",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Pinsir",
+      "count": 1,
+      "pokedex_number": 127,
+      "primary_type": "Bug",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Tauros",
+      "count": 1,
+      "pokedex_number": 128,
+      "primary_type": "Normal",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Magikarp",
+      "count": 14,
+      "pokedex_number": 129,
+      "primary_type": "Water",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Lapras",
+      "count": 2,
+      "pokedex_number": 131,
+      "primary_type": "Water",
+      "secondary_type": "Ice",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Eevee",
+      "count": 1,
+      "pokedex_number": 133,
+      "primary_type": "Normal",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Porygon",
+      "count": 3,
+      "pokedex_number": 137,
+      "primary_type": "Normal",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Omanyte",
+      "count": 1,
+      "pokedex_number": 138,
+      "primary_type": "Rock",
+      "secondary_type": "Water",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Kabuto",
+      "count": 2,
+      "pokedex_number": 140,
+      "primary_type": "Rock",
+      "secondary_type": "Water",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Aerodactyl",
+      "count": 1,
+      "pokedex_number": 142,
+      "primary_type": "Rock",
+      "secondary_type": "Flying",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Snorlax",
+      "count": 2,
+      "pokedex_number": 143,
+      "primary_type": "Normal",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Articuno",
+      "count": 2,
+      "pokedex_number": 144,
+      "primary_type": "Ice",
+      "secondary_type": "Flying",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Dratini",
+      "count": 2,
+      "pokedex_number": 147,
+      "primary_type": "Dragon",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
+      "name": "Mew",
+      "count": 1,
+      "pokedex_number": 151,
+      "primary_type": "Psychic",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    }
+  ]
+}
