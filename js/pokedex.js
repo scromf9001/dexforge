@@ -1,7 +1,12 @@
-fetch("data/user_pokedex.json")
+const params = new URLSearchParams(window.location.search);
+const userParam = params.get("user") || "scromf9001"; // default
+
+const jsonPath = `data/${userParam}.json`;
+
+fetch(jsonPath)
   .then(response => {
     if (!response.ok) {
-      throw new Error("Failed to load Pokédex data");
+      throw new Error(`Failed to load ${jsonPath}`);
     }
     return response.json();
   })
