@@ -57,5 +57,5 @@ function renderPokemon(pokemonList) {
   });
 
   document.getElementById("pokemon-count").textContent =
-    `Pokémon caught: ${pokemonList.length}`;
+    `Pokémon: ${pokemonList.length}`;
 }
