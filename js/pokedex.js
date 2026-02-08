@@ -1,7 +1,13 @@
 const params = new URLSearchParams(window.location.search);
-const userParam = params.get("user") || "scromf9001"; // default
+const userParam = params.get("user");
+
+if (!userParam) {
+  console.error("No ?user= parameter provided");
+}
 
 const jsonPath = `data/${userParam}.json`;
+
+console.log("Loading Pokédex from:", jsonPath);
 
 fetch(jsonPath)
   .then(response => {
@@ -27,7 +33,6 @@ function renderPokemon(pokemonList) {
   const grid = document.getElementById("pokedex-grid");
   grid.innerHTML = "";
 
-  // Sort by Pokédex number
   pokemonList.sort((a, b) => a.pokedex_number - b.pokedex_number);
 
   pokemonList.forEach(pokemon => {
