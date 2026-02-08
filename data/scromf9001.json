@@ -1,11 +1,9 @@
-C:\Users\sebas\AppData\Local\Temp\c29d7520-991c-4e58-957a-33bd1e5bfac1.py:63: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
-  "updated_at": datetime.utcnow().isoformat() + "Z",
 {
   "user": {
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-06T19:16:51.916982Z",
+  "updated_at": "2026-02-08T05:58:26.892261+00:00",
   "pokemon": [
     {
       "name": "Bulbasaur",
@@ -405,7 +403,7 @@ C:\Users\sebas\AppData\Local\Temp\c29d7520-991c-4e58-957a-33bd1e5bfac1.py:63: De
     },
     {
       "name": "Meowth",
-      "count": 6,
+      "count": 7,
       "pokedex_number": 52,
       "primary_type": "Normal",
       "secondary_type": "Null",
@@ -486,7 +484,7 @@ C:\Users\sebas\AppData\Local\Temp\c29d7520-991c-4e58-957a-33bd1e5bfac1.py:63: De
     },
     {
       "name": "Abra",
-      "count": 2,
+      "count": 3,
       "pokedex_number": 63,
       "primary_type": "Psychic",
       "secondary_type": "Null",
@@ -621,7 +619,7 @@ C:\Users\sebas\AppData\Local\Temp\c29d7520-991c-4e58-957a-33bd1e5bfac1.py:63: De
     },
     {
       "name": "Farfetch'd",
-      "count": 1,
+      "count": 2,
       "pokedex_number": 83,
       "primary_type": "Normal",
       "secondary_type": "Flying",
@@ -630,7 +628,7 @@ C:\Users\sebas\AppData\Local\Temp\c29d7520-991c-4e58-957a-33bd1e5bfac1.py:63: De
     },
     {
       "name": "Doduo",
-      "count": 5,
+      "count": 6,
       "pokedex_number": 84,
       "primary_type": "Normal",
       "secondary_type": "Flying",
@@ -738,7 +736,7 @@ C:\Users\sebas\AppData\Local\Temp\c29d7520-991c-4e58-957a-33bd1e5bfac1.py:63: De
     },
     {
       "name": "Krabby",
-      "count": 9,
+      "count": 10,
       "pokedex_number": 98,
       "primary_type": "Water",
       "secondary_type": "Null",
@@ -783,7 +781,7 @@ C:\Users\sebas\AppData\Local\Temp\c29d7520-991c-4e58-957a-33bd1e5bfac1.py:63: De
     },
     {
       "name": "Cubone",
-      "count": 5,
+      "count": 6,
       "pokedex_number": 104,
       "primary_type": "Ground",
       "secondary_type": "Null",
@@ -845,6 +843,15 @@ C:\Users\sebas\AppData\Local\Temp\c29d7520-991c-4e58-957a-33bd1e5bfac1.py:63: De
       "pokedex_entry": ""
     },
     {
+      "name": "Tangela",
+      "count": 1,
+      "pokedex_number": 114,
+      "primary_type": "Grass",
+      "secondary_type": "Null",
+      "evolution": false,
+      "pokedex_entry": ""
+    },
+    {
       "name": "Kangaskhan",
       "count": 1,
       "pokedex_number": 115,
@@ -891,7 +898,7 @@ C:\Users\sebas\AppData\Local\Temp\c29d7520-991c-4e58-957a-33bd1e5bfac1.py:63: De
     },
     {
       "name": "Staryu",
-      "count": 3,
+      "count": 4,
       "pokedex_number": 120,
       "primary_type": "Water",
       "secondary_type": "Null",
@@ -981,7 +988,7 @@ C:\Users\sebas\AppData\Local\Temp\c29d7520-991c-4e58-957a-33bd1e5bfac1.py:63: De
     },
     {
       "name": "Eevee",
-      "count": 1,
+      "count": 2,
       "pokedex_number": 133,
       "primary_type": "Normal",
       "secondary_type": "Null",
@@ -990,7 +997,7 @@ C:\Users\sebas\AppData\Local\Temp\c29d7520-991c-4e58-957a-33bd1e5bfac1.py:63: De
     },
     {
       "name": "Kabuto",
-      "count": 1,
+      "count": 2,
       "pokedex_number": 140,
       "primary_type": "Rock",
       "secondary_type": "Water",
