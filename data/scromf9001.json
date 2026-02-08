@@ -3,7 +3,7 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-08T05:58:26.892261+00:00",
+  "updated_at": "2026-02-08T06:42:40.879213+00:00",
   "pokemon": [
     {
       "name": "Bulbasaur",
@@ -124,7 +124,7 @@
     },
     {
       "name": "Rattata",
-      "count": 10,
+      "count": 12,
       "pokedex_number": 19,
       "primary_type": "Normal",
       "secondary_type": "Null",
