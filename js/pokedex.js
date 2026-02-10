@@ -37,9 +37,24 @@ function renderPokemon(pokemonList) {
 
   pokemonList.forEach(pokemon => {
     const li = document.createElement("li");
-    li.className = "pokemon-card";
+    li.classList.add("pokemon-card");
+
+    li.classList.add(`type-${pokemon.primary_type.toLowerCase()}`);
+
+    if (pokemon.secondary_type) {
+      li.classList.add(`type2-${pokemon.secondary_type.toLowerCase()}`);
+    }
+
+    li.classList.add(pokemon.owned ? "owned" : "unowned");
+
 
     li.innerHTML = `
+      <img 
+        class="pokemon-image"
+        src="${pokemon.image}"
+        alt="${pokemon.name}"
+        loading="lazy"
+      />
       <div class="dex-number">#${String(pokemon.pokedex_number).padStart(3, "0")}</div>
       <div class="pokemon-name">${pokemon.name}</div>
       <div class="pokemon-count">x${pokemon.count}</div>
