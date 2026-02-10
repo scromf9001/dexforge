@@ -3,13 +3,13 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-10T08:33:19.344783+00:00",
+  "updated_at": "2026-02-10T09:26:19.921573+00:00",
   "trainer_stats": {
     "pokedex": {
-      "total_available": 283,
+      "total_available": 278,
       "unique_owned": 114,
       "total_owned": 383,
-      "completion_percent": 40.28
+      "completion_percent": 41.01
     },
     "generation_progress": {
       "1": {
@@ -19,8 +19,8 @@
       },
       "0": {
         "owned": 108,
-        "total": 274,
-        "completion_percent": 39.42
+        "total": 269,
+        "completion_percent": 40.15
       }
     },
     "evolution": {
@@ -56,8 +56,8 @@
       },
       "normal": {
         "owned": 19,
-        "total": 43,
-        "completion_percent": 44.19
+        "total": 38,
+        "completion_percent": 50.0
       },
       "poison": {
         "owned": 12,
@@ -123,7 +123,7 @@
     "rarity": {
       "": {
         "owned": 114,
-        "total": 283
+        "total": 278
       }
     },
     "pokeballs": {
@@ -145,7 +145,7 @@
       "watch_hours": 875,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
-      "commands_run": 35450
+      "commands_run": 35454
     }
   },
   "pokemon": [
@@ -4257,161 +4257,6 @@
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
-      "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
-        "sp_attack": 0,
-        "sp_defense": 0,
-        "speed": 0
-      },
-      "physical": {
-        "height": 0.0,
-        "weight": 0.0
-      },
-      "pokedex_entry": "",
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/133.svg"
-    },
-    {
-      "name": "Eevee Water",
-      "count": 0,
-      "owned": false,
-      "pokedex_number": 133,
-      "primary_type": "Normal",
-      "secondary_type": "Null",
-      "generation": 0,
-      "region": "",
-      "rarity": "",
-      "evolution": false,
-      "evolution_stage": "",
-      "evolution_line_id": "",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Water Stone",
-      "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
-        "sp_attack": 0,
-        "sp_defense": 0,
-        "speed": 0
-      },
-      "physical": {
-        "height": 0.0,
-        "weight": 0.0
-      },
-      "pokedex_entry": "",
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/133.svg"
-    },
-    {
-      "name": "Eevee Electric",
-      "count": 0,
-      "owned": false,
-      "pokedex_number": 133,
-      "primary_type": "Normal",
-      "secondary_type": "Null",
-      "generation": 0,
-      "region": "",
-      "rarity": "",
-      "evolution": false,
-      "evolution_stage": "",
-      "evolution_line_id": "",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Thunder Stone",
-      "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
-        "sp_attack": 0,
-        "sp_defense": 0,
-        "speed": 0
-      },
-      "physical": {
-        "height": 0.0,
-        "weight": 0.0
-      },
-      "pokedex_entry": "",
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/133.svg"
-    },
-    {
-      "name": "Eevee Fire",
-      "count": 0,
-      "owned": false,
-      "pokedex_number": 133,
-      "primary_type": "Normal",
-      "secondary_type": "Null",
-      "generation": 0,
-      "region": "",
-      "rarity": "",
-      "evolution": false,
-      "evolution_stage": "",
-      "evolution_line_id": "",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Fire Stone",
-      "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
-        "sp_attack": 0,
-        "sp_defense": 0,
-        "speed": 0
-      },
-      "physical": {
-        "height": 0.0,
-        "weight": 0.0
-      },
-      "pokedex_entry": "",
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/133.svg"
-    },
-    {
-      "name": "Eevee Psychic",
-      "count": 0,
-      "owned": false,
-      "pokedex_number": 133,
-      "primary_type": "Normal",
-      "secondary_type": "Null",
-      "generation": 0,
-      "region": "",
-      "rarity": "",
-      "evolution": false,
-      "evolution_stage": "",
-      "evolution_line_id": "",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Friendship",
-      "stats": {
-        "hp": 0,
-        "attack": 0,
-        "defense": 0,
-        "sp_attack": 0,
-        "sp_defense": 0,
-        "speed": 0
-      },
-      "physical": {
-        "height": 0.0,
-        "weight": 0.0
-      },
-      "pokedex_entry": "",
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/133.svg"
-    },
-    {
-      "name": "Eevee Dark",
-      "count": 0,
-      "owned": false,
-      "pokedex_number": 133,
-      "primary_type": "Normal",
-      "secondary_type": "Null",
-      "generation": 0,
-      "region": "",
-      "rarity": "",
-      "evolution": false,
-      "evolution_stage": "",
-      "evolution_line_id": "",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Friendship",
       "stats": {
         "hp": 0,
         "attack": 0,
