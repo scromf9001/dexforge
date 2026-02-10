@@ -3,16 +3,130 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-10T07:27:38.330923+00:00",
+  "updated_at": "2026-02-10T08:33:19.344783+00:00",
   "trainer_stats": {
-    "total_owned": 114,
-    "total_available": 283,
-    "completion_percent": 40.28,
-    "watch_hours": 875,
-    "follow_age": "Not Following",
-    "sub_age": "Not Subscribed",
-    "commands_run": 35446,
-    "balls": {
+    "pokedex": {
+      "total_available": 283,
+      "unique_owned": 114,
+      "total_owned": 383,
+      "completion_percent": 40.28
+    },
+    "generation_progress": {
+      "1": {
+        "owned": 6,
+        "total": 9,
+        "completion_percent": 66.67
+      },
+      "0": {
+        "owned": 108,
+        "total": 274,
+        "completion_percent": 39.42
+      }
+    },
+    "evolution": {
+      "evolvable_owned": 40,
+      "lines_completed": 0,
+      "by_stage": {
+        "1": 3,
+        "2": 2,
+        "3": 1,
+        "": 108
+      }
+    },
+    "types": {
+      "grass": {
+        "owned": 9,
+        "total": 21,
+        "completion_percent": 42.86
+      },
+      "fire": {
+        "owned": 9,
+        "total": 20,
+        "completion_percent": 45.0
+      },
+      "water": {
+        "owned": 23,
+        "total": 44,
+        "completion_percent": 52.27
+      },
+      "bug": {
+        "owned": 9,
+        "total": 22,
+        "completion_percent": 40.91
+      },
+      "normal": {
+        "owned": 19,
+        "total": 43,
+        "completion_percent": 44.19
+      },
+      "poison": {
+        "owned": 12,
+        "total": 15,
+        "completion_percent": 80.0
+      },
+      "electric": {
+        "owned": 6,
+        "total": 15,
+        "completion_percent": 40.0
+      },
+      "ground": {
+        "owned": 7,
+        "total": 11,
+        "completion_percent": 63.64
+      },
+      "fairy": {
+        "owned": 2,
+        "total": 7,
+        "completion_percent": 28.57
+      },
+      "fighting": {
+        "owned": 4,
+        "total": 9,
+        "completion_percent": 44.44
+      },
+      "psychic": {
+        "owned": 6,
+        "total": 42,
+        "completion_percent": 14.29
+      },
+      "rock": {
+        "owned": 5,
+        "total": 13,
+        "completion_percent": 38.46
+      },
+      "ghost": {
+        "owned": 2,
+        "total": 4,
+        "completion_percent": 50.0
+      },
+      "ice": {
+        "owned": 0,
+        "total": 7,
+        "completion_percent": 0.0
+      },
+      "dragon": {
+        "owned": 1,
+        "total": 3,
+        "completion_percent": 33.33
+      },
+      "dark": {
+        "owned": 0,
+        "total": 5,
+        "completion_percent": 0.0
+      },
+      "steel": {
+        "owned": 0,
+        "total": 2,
+        "completion_percent": 0.0
+      }
+    },
+    "rarity": {
+      "": {
+        "owned": 114,
+        "total": 283
+      }
+    },
+    "pokeballs": {
       "thrown": 4,
       "success": 4,
       "accuracy_percent": 100.0,
@@ -26,6 +140,12 @@
         "Ultra Ball Success": 1,
         "Ultra Balls Thrown": 1
       }
+    },
+    "journey": {
+      "watch_hours": 875,
+      "follow_age": "Not Following",
+      "sub_age": "Not Subscribed",
+      "commands_run": 35450
     }
   },
   "pokemon": [
