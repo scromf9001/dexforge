@@ -55,8 +55,10 @@ function renderPokemon(pokemonList) {
         alt="${pokemon.name}"
         loading="lazy"
       />
-      <div class="dex-number">#${String(pokemon.pokedex_number).padStart(3, "0")}</div>
-      <div class="pokemon-name">${pokemon.name}</div>
+      <div class="pokemon-header">
+        <div class="pokemon-name">${pokemon.name}</div>
+        <div class="dex-number">#${String(pokemon.pokedex_number).padStart(3, "0")}</div>
+      </div>
       <div class="pokemon-count">x${pokemon.count}</div>
       <div class="pokemon-types">
         <span class="type ${pokemon.primary_type.toLowerCase()}">${pokemon.primary_type}</span>
