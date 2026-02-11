@@ -83,16 +83,19 @@ main {
 
 .pokemon-image {
   position: absolute;
-  right: 6px;
+  right: 4px;
   bottom: -6px;
   width: 88px;
   height: 88px;
   opacity: 0.95;
   pointer-events: none;
+  z-index: 1;
 }
 
 .pokemon-header {
   margin-bottom: 6px;
+  position: relative;
+  z-index: 2;
 }
 
 .pokemon-name {
@@ -117,6 +120,8 @@ main {
 .pokemon-count {
   font-size: 10px;
   margin-bottom: 6px;
+  position: relative;
+  z-index: 2;
 }
 
 .pokemon-types {
@@ -125,6 +130,8 @@ main {
   align-items: flex-start;
   gap: 4px;
   margin-top: 6px;
+  position: relative;
+  z-index: 2;
 }
 
 .type {
@@ -154,4 +161,16 @@ main {
 .type.steel    { background: #B7B7CE; color: #000; }
 .type.dark     { background: #705746; }
 .type.fairy    { background: #D685AD; }
+
+@media (max-width: 480px) {
+  .pokemon-image {
+    width: 72px;
+    height: 72px;
+    opacity: 0.9;
+  }
+
+  .pokemon-card {
+    padding-right: 64px;
+  }
+}
 
