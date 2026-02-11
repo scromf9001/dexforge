@@ -31,10 +31,7 @@ fetch(`${jsonPath}?v=${Date.now()}`)
   .then(data => {
     renderUser(data.user);
     renderPokemon(data.pokemon);
-
-    if (data.trainer_stats) {
-      renderTrainerSummary(data.trainer_stats);
-    }
+    renderTrainerSummary(data.trainer_stats);
   })
   .catch(error => {
     console.error(error);
