@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>User Pokédex</title>
+  <title>Pokédex</title>
 
   <!-- Pokémon-style font (optional but nice) -->
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -24,6 +24,25 @@
         <p id="pokemon-count">Pokémon: --</p>
       </div>
     </header>
+
+    <section class="trainer-card">
+      <div class="trainer-tabs">
+        <button class="tab active" data-tab="summary">Summary</button>
+        <button class="tab" data-tab="pokedex">Pokédex</button>
+        <button class="tab" data-tab="types">Types</button>
+        <button class="tab" data-tab="pokeballs">Poké Balls</button>
+        <button class="tab" data-tab="journey">Journey</button>
+      </div>
+
+      <div class="trainer-content">
+        <div class="tab-panel active" id="tab-summary"></div>
+        <div class="tab-panel" id="tab-pokedex"></div>
+        <div class="tab-panel" id="tab-types"></div>
+        <div class="tab-panel" id="tab-pokeballs"></div>
+        <div class="tab-panel" id="tab-journey"></div>
+      </div>
+    </section>
+
 
     <!-- Pokédex Grid -->
     <main>

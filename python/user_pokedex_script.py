@@ -204,8 +204,15 @@ def run():
 
     for p in pokemon_list:
         gen = p["generation"]
+
+        # Skip invalid or unknown generations
+        if gen <= 0:
+            continue
+
         if gen not in generation_progress:
             generation_progress[gen] = {
+                "generation": gen,
+                "region": p["region"],
                 "owned": 0,
                 "total": 0
             }
@@ -214,10 +221,16 @@ def run():
         if p["owned"]:
             generation_progress[gen]["owned"] += 1
 
-    for gen, data in generation_progress.items():
-        data["completion_percent"] = round(
-            (data["owned"] / data["total"]) * 100, 2
-        ) if data["total"] > 0 else 0
+
+    for gen in generation_progress:
+        owned = generation_progress[gen]["owned"]
+        total = generation_progress[gen]["total"]
+
+        generation_progress[gen]["completion_percent"] = round(
+            (owned / total) * 100, 2
+        ) if total > 0 else 0
+
+    generation_progress = dict(sorted(generation_progress.items()))
 
 
     # ---- EVOLUTION PROGRESS ----

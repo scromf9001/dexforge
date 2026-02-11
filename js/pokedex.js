@@ -9,7 +9,19 @@ const jsonPath = `data/${userParam}.json`;
 
 console.log("Loading Pokédex from:", jsonPath);
 
-fetch(jsonPath)
+
+document.addEventListener("click", (e) => {
+  if (!e.target.classList.contains("tab")) return;
+
+  document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+  document.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
+
+  e.target.classList.add("active");
+  document.getElementById(`tab-${e.target.dataset.tab}`).classList.add("active");
+});
+
+
+fetch(`${jsonPath}?v=${Date.now()}`)
   .then(response => {
     if (!response.ok) {
       throw new Error(`Failed to load ${jsonPath}`);
@@ -19,6 +31,10 @@ fetch(jsonPath)
   .then(data => {
     renderUser(data.user);
     renderPokemon(data.pokemon);
+
+    if (data.trainer_stats) {
+      renderTrainerSummary(data.trainer_stats);
+    }
   })
   .catch(error => {
     console.error(error);
@@ -28,6 +44,33 @@ function renderUser(user) {
   document.getElementById("trainer-name").textContent = user.username;
   document.getElementById("trainer-avatar").src = user.avatar;
 }
+
+function renderTrainerSummary(stats) {
+  document.getElementById("tab-summary").innerHTML = `
+    <div class="summary-grid">
+      <div class="summary-stat">
+        <strong>${stats.pokedex.completion_percent}%</strong>
+        <span>Pokédex Complete</span>
+      </div>
+
+      <div class="summary-stat">
+        <strong>${stats.pokedex.unique_owned} / ${stats.pokedex.total_available}</strong>
+        <span>Unique Pokémon</span>
+      </div>
+
+      <div class="summary-stat">
+        <strong>${stats.pokedex.total_owned}</strong>
+        <span>Total Caught</span>
+      </div>
+
+      <div class="summary-stat">
+        <strong>${stats.pokeballs.accuracy_percent}%</strong>
+        <span>Catch Accuracy</span>
+      </div>
+    </div>
+  `;
+}
+
 
 function renderPokemon(pokemonList) {
   const grid = document.getElementById("pokedex-grid");
@@ -76,3 +119,5 @@ function renderPokemon(pokemonList) {
   document.getElementById("pokemon-count").textContent =
     `Pokémon: ${pokemonList.length}`;
 }
+
+
