@@ -46,30 +46,31 @@ function renderUser(user) {
 }
 
 function renderTrainerSummary(stats) {
-  document.getElementById("tab-summary").innerHTML = `
-    <div class="summary-grid">
-      <div class="summary-stat">
-        <strong>${stats.pokedex.completion_percent}%</strong>
-        <span>Pokédex Complete</span>
-      </div>
+  // Hero
+  document.getElementById("hero-completion").textContent =
+    `${stats.pokedex.completion_percent}%`;
 
-      <div class="summary-stat">
-        <strong>${stats.pokedex.unique_owned} / ${stats.pokedex.total_available}</strong>
-        <span>Unique Pokémon</span>
-      </div>
+  // Core stats
+  document.getElementById("stat-unique").textContent =
+    `${stats.pokedex.unique_owned} / ${stats.pokedex.total_available}`;
 
-      <div class="summary-stat">
-        <strong>${stats.pokedex.total_owned}</strong>
-        <span>Total Caught</span>
-      </div>
+  document.getElementById("stat-total").textContent =
+    stats.pokedex.total_owned;
 
-      <div class="summary-stat">
-        <strong>${stats.pokeballs.accuracy_percent}%</strong>
-        <span>Catch Accuracy</span>
-      </div>
-    </div>
-  `;
+  document.getElementById("stat-evolvable").textContent =
+    stats.evolution.evolvable_owned;
+
+  document.getElementById("stat-lines").textContent =
+    stats.evolution.lines_completed;
+
+  // Catch performance
+  document.getElementById("catch-percent").textContent =
+    `${stats.pokeballs.accuracy_percent}%`;
+
+  document.getElementById("catch-fill").style.width =
+    `${stats.pokeballs.accuracy_percent}%`;
 }
+
 
 
 function renderPokemon(pokemonList) {

@@ -21,7 +21,6 @@
       <img id="trainer-avatar" src="assets/placeholder.png" alt="Trainer Avatar">
       <div class="trainer-info">
         <h1 id="trainer-name">Trainer Name</h1>
-        <p id="pokemon-count">Pokémon: --</p>
       </div>
     </header>
 
@@ -36,6 +35,53 @@
 
       <div class="trainer-content">
         <div class="tab-panel active" id="tab-summary"></div>
+          <div class="trainer-dashboard">
+
+            <!-- HERO STAT -->
+            <div class="dashboard-hero">
+              <div class="hero-ring">
+                <div class="hero-percent" id="hero-completion">--%</div>
+                <div class="hero-label">Pokédex Complete</div>
+              </div>
+            </div>
+
+            <!-- CORE STATS -->
+            <div class="dashboard-stats">
+              <div class="stat-tile">
+                <strong id="stat-unique">--</strong>
+                <span>Unique Pokémon</span>
+              </div>
+
+              <div class="stat-tile">
+                <strong id="stat-total">--</strong>
+                <span>Total Caught</span>
+              </div>
+
+              <div class="stat-tile">
+                <strong id="stat-evolvable">--</strong>
+                <span>Evolutions Ready</span>
+              </div>
+
+              <div class="stat-tile">
+                <strong id="stat-lines">--</strong>
+                <span>Lines Completed</span>
+              </div>
+            </div>
+
+            <!-- CATCH PERFORMANCE -->
+            <div class="dashboard-catch">
+              <div class="catch-header">
+                <span>Catch Accuracy</span>
+                <strong id="catch-percent">--%</strong>
+              </div>
+
+              <div class="catch-bar">
+                <div class="catch-fill" id="catch-fill"></div>
+              </div>
+            </div>
+
+          </div>
+
         <div class="tab-panel" id="tab-pokedex"></div>
         <div class="tab-panel" id="tab-types"></div>
         <div class="tab-panel" id="tab-pokeballs"></div>

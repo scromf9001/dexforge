@@ -27,13 +27,96 @@ body {
   border: 4px solid white;
 }
 
-.trainer-card {
-  background: white;
-  border-radius: 16px;
-  padding: 16px;
-  margin: 20px 0;
-  border: 3px solid #333;
+/* =========================
+   TRAINER DASHBOARD (SUMMARY)
+   ========================= */
+
+.trainer-dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
+
+/* HERO */
+.dashboard-hero {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-ring {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 6px solid #cc0000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-percent {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hero-label {
+  font-size: 9px;
+  opacity: 0.7;
+}
+
+/* CORE STATS */
+.dashboard-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+}
+
+.stat-tile {
+  background: #f4f4f4;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #333;
+}
+
+.stat-tile strong {
+  display: block;
+  font-size: 14px;
+}
+
+.stat-tile span {
+  font-size: 9px;
+  opacity: 0.7;
+}
+
+/* CATCH PERFORMANCE */
+.dashboard-catch {
+  margin-top: 4px;
+}
+
+.catch-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  margin-bottom: 6px;
+}
+
+.catch-bar {
+  width: 100%;
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 999px;
+  overflow: hidden;
+  border: 1px solid #bbb;
+}
+
+.catch-fill {
+  height: 100%;
+  background: linear-gradient(to right, #ffcc00, #ff9800);
+  width: 0%;
+  transition: width 0.6s ease;
+}
+
 
 .trainer-tabs {
   display: flex;
