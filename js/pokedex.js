@@ -113,8 +113,7 @@ function renderPokemon(pokemonList) {
     grid.appendChild(li);
   });
 
-  document.getElementById("pokemon-count").textContent =
-    `Pokémon: ${pokemonList.length}`;
+
 }
 
 
