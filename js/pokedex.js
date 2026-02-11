@@ -43,13 +43,13 @@ function renderUser(user) {
 }
 
 function renderTrainerSummary(stats) {
-  // Hero
+  // HERO
   document.getElementById("hero-completion").textContent =
     `${stats.pokedex.completion_percent}%`;
 
-  // Core stats
+  // CORE STATS
   document.getElementById("stat-unique").textContent =
-    `${stats.pokedex.unique_owned} / ${stats.pokedex.total_available}`;
+    stats.pokedex.unique_owned;
 
   document.getElementById("stat-total").textContent =
     stats.pokedex.total_owned;
@@ -60,14 +60,13 @@ function renderTrainerSummary(stats) {
   document.getElementById("stat-lines").textContent =
     stats.evolution.lines_completed;
 
-  // Catch performance
+  // CATCH ACCURACY
   document.getElementById("catch-percent").textContent =
     `${stats.pokeballs.accuracy_percent}%`;
 
   document.getElementById("catch-fill").style.width =
     `${stats.pokeballs.accuracy_percent}%`;
 }
-
 
 
 function renderPokemon(pokemonList) {
