@@ -374,6 +374,8 @@ def run():
             "stage_owned": stage_owned
         },
 
+        "types": type_progress,
+
         "legendary": {
             "owned": total_legendary_owned,
             "total": total_legendary_available
