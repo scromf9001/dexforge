@@ -141,6 +141,9 @@ def run():
             "generation": meta["generation"],
             "region": meta["region"],
             "rarity": meta["rarity"],
+            "is_legendary": meta["is_legendary"],
+            "is_mythic": meta["is_mythic"],
+
 
             "evolution": meta["evolution"],
             "evolution_stage": meta["evolution_stage"],
@@ -341,8 +344,7 @@ def run():
     total_legendary_owned = 0
 
     for p in pokemon_list:
-        if p["rarity"].lower() in ["legendary", "mythic"] or \
-        p.get("is_legendary") or p.get("is_mythic"):
+        if p.get("is_legendary") or p.get("is_mythic"):
 
             total_legendary_available += 1
 
