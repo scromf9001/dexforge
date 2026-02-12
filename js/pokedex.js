@@ -33,6 +33,8 @@ fetch(`${jsonPath}?v=${Date.now()}`)
     renderPokemon(data.pokemon);
     renderTrainerSummary(data.trainer_stats);
     renderRegions(data.trainer_stats);
+    renderTypeMastery(data.trainer_stats);
+
   })
   .catch(error => {
     console.error(error);
@@ -199,6 +201,56 @@ function renderRegionCards(generations) {
   });
 
   return html;
+}
+
+// ---- TYPE MASTERY TRAINER CARD ----
+
+function renderTypeMastery(stats) {
+  const container = document.getElementById("tab-types");
+  const types = stats.types;
+
+  // Convert object to array and sort strongest first
+  const sortedTypes = Object.entries(types)
+    .map(([type, data]) => ({
+      type,
+      owned: data.owned,
+      total: data.total,
+      percent: data.completion_percent
+    }))
+    .sort((a, b) => b.percent - a.percent);
+
+  let html = `<div class="types-grid">`;
+
+  sortedTypes.forEach(t => {
+    html += `
+      <div class="type-card">
+        <div class="type-title type ${t.type}">
+          ${t.type.toUpperCase()}
+        </div>
+
+        <div class="type-stats">
+          ${t.owned} / ${t.total}
+        </div>
+
+        <div class="type-progress">
+          <div class="type-progress-label">
+            <span>Completion</span>
+            <span>${Math.floor(t.percent)}%</span>
+          </div>
+
+          <div class="type-bar">
+            <div class="type-fill type-${t.type}" 
+                 style="width:${t.percent}%">
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  });
+
+  html += `</div>`;
+
+  container.innerHTML = html;
 }
 
 
