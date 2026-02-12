@@ -82,9 +82,11 @@ body {
 /* CORE STATS */
 .dashboard-stats {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;   /* <-- ADD THIS */
 }
+
 
 .stat-tile {
   background: #f4f4f4;
@@ -109,6 +111,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  margin-top: 8px;
 }
 
 /* PROGRESS BARS */

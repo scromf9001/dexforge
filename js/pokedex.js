@@ -60,11 +60,14 @@ function renderTrainerSummary(stats) {
 
   // ---- PROGRESS BARS ----
 
+  const pokedexPercent = stats.pokedex.completion_percent;
+
   document.getElementById("progress-pokedex").textContent =
-    `${Math.floor(stats.pokedex.completion_percent)}%`;
+    `${Math.floor(pokedexPercent)}%`;
 
   document.getElementById("progress-fill-pokedex").style.width =
-    `${stats.pokedex.completion_percent}%`;
+    `${pokedexPercent}%`;
+
 
   const linePercent =
     stats.evolution.total_lines > 0
@@ -76,7 +79,6 @@ function renderTrainerSummary(stats) {
 
   document.getElementById("progress-fill-lines").style.width =
     `${linePercent}%`;
-}
 
 
 
