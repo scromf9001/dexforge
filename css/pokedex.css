@@ -344,20 +344,17 @@ body {
   margin-bottom: 24px;
 }
 
-#tab-capture .regions-stat {
+#tab-capture .capture-stat {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-
-  min-height: 90px;
+  justify-content: center;
 }
 
-.most-used-icon {
-  width: 36px;
-  height: 36px;
-  display: block;
-  margin: 0 auto 6px;
+.capture-most-icon {
+  width: 42px;
+  height: auto;
+  margin-bottom: 6px;
 }
 
 .ball-breakdown {

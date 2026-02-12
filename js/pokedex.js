@@ -288,11 +288,10 @@ function renderCapturePerformance(stats) {
           <span>Overall Accuracy</span>
         </div>
 
-        <div class="regions-stat">
-          ${mostUsedObj ? `<img src="${mostUsedObj.icon}" class="most-used-icon">` : ""}
+        <div class="regions-stat capture-stat">
+          <img src="${mostUsedObj?.icon || ""}" class="capture-most-icon">
           <span>Most Used Ball</span>
         </div>
-
       </div>
     </div>
 
