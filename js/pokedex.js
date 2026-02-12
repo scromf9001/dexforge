@@ -34,7 +34,7 @@ fetch(`${jsonPath}?v=${Date.now()}`)
     renderTrainerSummary(data.trainer_stats);
     renderRegions(data.trainer_stats);
     renderTypeMastery(data.trainer_stats);
-
+    renderCapture(data.trainer_stats);
   })
   .catch(error => {
     console.error(error);
@@ -251,6 +251,80 @@ function renderTypeMastery(stats) {
   html += `</div>`;
 
   container.innerHTML = html;
+}
+
+// ---- CAPTURE PERFORMANCE TRAINER CARD ----
+
+function renderCapture(stats) {
+  const container = document.getElementById("tab-capture");
+  const balls = stats.pokeballs.details;
+
+  const ballSprites = {
+    "poke ball": "https://archives.bulbagarden.net/media/upload/b/b3/Pok%C3%A9_Ball_ZA_Art.png",
+    "great ball": "https://archives.bulbagarden.net/media/upload/5/54/Bag_Great_Ball_SV_Sprite.png",
+    "ultra ball": "https://archives.bulbagarden.net/media/upload/5/55/Bag_Ultra_Ball_SV_Sprite.png",
+    "master ball": "https://archives.bulbagarden.net/media/upload/a/a6/Bag_Master_Ball_SV_Sprite.png"
+  };
+
+  const order = ["poke ball", "great ball", "ultra ball", "master ball"];
+
+  container.innerHTML = `
+    <div class="capture-global">
+      <div class="capture-global-stats">
+        <div class="capture-stat">
+          <strong>${stats.pokeballs.thrown}</strong>
+          <span>Total Balls Thrown</span>
+        </div>
+
+        <div class="capture-stat">
+          <strong>${stats.pokeballs.success}</strong>
+          <span>Total Successful Catches</span>
+        </div>
+
+        <div class="capture-stat">
+          <strong>${Math.floor(stats.pokeballs.accuracy_percent)}%</strong>
+          <span>Overall Accuracy</span>
+        </div>
+
+        <div class="capture-stat">
+          <img src="${ballSprites[stats.pokeballs.most_used] || ""}">
+          <strong>${stats.pokeballs.most_used || "N/A"}</strong>
+          <span>Most Used Ball</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="capture-grid">
+      ${order.map(ball => {
+        const data = balls[ball];
+        const percent = data.thrown > 0 ? data.accuracy_percent : 0;
+
+        const colorClass =
+          ball === "poke ball" ? "ball-poke" :
+          ball === "great ball" ? "ball-great" :
+          ball === "ultra ball" ? "ball-ultra" :
+          "ball-master";
+
+        return `
+          <div class="capture-card">
+            <div class="capture-card-header">
+              <img src="${ballSprites[ball]}">
+              <strong>${ball.toUpperCase()}</strong>
+            </div>
+
+            <div>Thrown: ${data.thrown}</div>
+            <div>Success: ${data.success}</div>
+            <div>Accuracy: ${Math.floor(percent)}%</div>
+
+            <div class="capture-bar">
+              <div class="capture-fill ${colorClass}" 
+                   style="width:${percent}%"></div>
+            </div>
+          </div>
+        `;
+      }).join("")}
+    </div>
+  `;
 }
 
 

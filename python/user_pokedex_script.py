@@ -195,6 +195,34 @@ def run():
         (total_success / total_balls_thrown) * 100, 2
     ) if total_balls_thrown > 0 else 0
 
+    # ---- BALL BREAKDOWN ----
+
+    def build_ball_stats(ball_name):
+        thrown = inventory_stats.get(f"{ball_name} thrown", 0)
+        success = inventory_stats.get(f"{ball_name} success", 0)
+        accuracy = round((success / thrown) * 100, 2) if thrown > 0 else 0
+
+        return {
+            "thrown": thrown,
+            "success": success,
+            "accuracy_percent": accuracy
+        }
+
+    poke_ball = build_ball_stats("poke ball")
+    great_ball = build_ball_stats("great ball")
+    ultra_ball = build_ball_stats("ultra ball")
+    master_ball = build_ball_stats("master ball")
+
+    # determine most used
+    ball_usage = {
+        "poke ball": poke_ball["thrown"],
+        "great ball": great_ball["thrown"],
+        "ultra ball": ultra_ball["thrown"],
+        "master ball": master_ball["thrown"]
+    }
+
+    most_used_ball = max(ball_usage, key=ball_usage.get) if ball_usage else None
+
     # ---- EVOLUTIONS ----
     times_evolved = inventory_stats.get("evolution", 0)
 
@@ -384,7 +412,14 @@ def run():
         "pokeballs": {
             "thrown": total_balls_thrown,
             "success": total_success,
-            "accuracy_percent": accuracy
+            "accuracy_percent": accuracy,
+            "most_used": most_used_ball,
+            "details": {
+                "poke ball": poke_ball,
+                "great ball": great_ball,
+                "ultra ball": ultra_ball,
+                "master ball": master_ball
+            }
         },
 
         "journey": {

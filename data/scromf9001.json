@@ -3,7 +3,7 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-12T07:00:31.328801+00:00",
+  "updated_at": "2026-02-12T07:23:23.531738+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -144,13 +144,36 @@
     "pokeballs": {
       "thrown": 0,
       "success": 0,
-      "accuracy_percent": 0
+      "accuracy_percent": 0,
+      "most_used": "poke ball",
+      "details": {
+        "poke ball": {
+          "thrown": 0,
+          "success": 0,
+          "accuracy_percent": 0
+        },
+        "great ball": {
+          "thrown": 0,
+          "success": 0,
+          "accuracy_percent": 0
+        },
+        "ultra ball": {
+          "thrown": 0,
+          "success": 0,
+          "accuracy_percent": 0
+        },
+        "master ball": {
+          "thrown": 0,
+          "success": 0,
+          "accuracy_percent": 0
+        }
+      }
     },
     "journey": {
       "watch_hours": 886,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
-      "commands_run": 35855,
+      "commands_run": 35859,
       "times_evolved": 0,
       "times_traded": 0
     }
