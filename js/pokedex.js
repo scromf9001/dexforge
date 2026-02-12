@@ -34,7 +34,7 @@ fetch(`${jsonPath}?v=${Date.now()}`)
     renderTrainerSummary(data.trainer_stats);
     renderRegions(data.trainer_stats);
     renderTypeMastery(data.trainer_stats);
-    renderCapture(data.trainer_stats);
+    renderCapturePerformance(data.trainer_stats);
   })
   .catch(error => {
     console.error(error);
@@ -256,7 +256,7 @@ function renderTypeMastery(stats) {
 // ---- CAPTURE PERFORMANCE TRAINER CARD ----
 
 function renderCapturePerformance(stats) {
-  const container = document.getElementById("tab-pokeballs");
+  const container = document.getElementById("tab-capture");
   const balls = stats.pokeballs;
 
   const ballOrder = [
@@ -266,7 +266,7 @@ function renderCapturePerformance(stats) {
     { key: "master ball", label: "Master Ball", class: "master", icon: "https://archives.bulbagarden.net/media/upload/a/a6/Bag_Master_Ball_SV_Sprite.png" }
   ];
 
-  const mostUsed = balls.most_used_ball;
+  const mostUsed = balls.most_used;
   const mostUsedObj = ballOrder.find(b => b.key === mostUsed);
 
   container.innerHTML = `
