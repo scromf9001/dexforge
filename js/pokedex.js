@@ -463,18 +463,48 @@ function renderBallPieChart(distribution) {
               size: 11
             }
           }
-        }
+        },
+        tooltip: {
+          callbacks: {
+          label: function(context) {
+            const value = Math.round(context.raw);
+            return `${context.label}: ${value}%`;
       }
     }
   });
 }
 
 
-
-
 // ---- TRAINER JOURNEY TAB - POKEBAG SECTION ----
 
 function renderJourneyPokebag(bag) {
+
+  function getItemClass(itemName) {
+    const name = itemName.toLowerCase();
+
+    // Balls
+    if (name.includes("poke ball")) return "item-poke";
+    if (name.includes("great ball")) return "item-great";
+    if (name.includes("ultra ball")) return "item-ultra";
+    if (name.includes("master ball")) return "item-master";
+    if (name.includes("god ball")) return "item-god";
+
+    // Stones
+    if (name.includes("fire stone")) return "item-fire";
+    if (name.includes("water stone")) return "item-water";
+    if (name.includes("thunder stone")) return "item-electric";
+    if (name.includes("leaf stone")) return "item-grass";
+    if (name.includes("moon stone")) return "item-fairy";
+
+    if (name.includes("sun stone")) return "item-sun";
+    if (name.includes("shiny stone")) return "item-shiny";
+    if (name.includes("dusk stone")) return "item-dark";
+    if (name.includes("dawn stone")) return "item-psychic";
+    if (name.includes("ice stone")) return "item-ice";
+
+    return "item-default";
+  }
+
   if (!bag || Object.keys(bag).length === 0) {
     return `
       <div class="journey-section">
@@ -485,11 +515,15 @@ function renderJourneyPokebag(bag) {
   }
 
   const items = Object.entries(bag)
-    .map(([name, qty]) => `
-      <div class="journey-bag-item">
-        ${name} x${qty}
-      </div>
-    `)
+    .map(([name, qty]) => {
+      const itemClass = getItemClass(name);
+
+      return `
+        <div class="journey-bag-item ${itemClass}">
+          ${name} x${qty}
+        </div>
+      `;
+    })
     .join("");
 
   return `
@@ -498,17 +532,6 @@ function renderJourneyPokebag(bag) {
       <div class="journey-bag-grid">
         ${items}
       </div>
-    </div>
-  `;
-}
-
-// ---- TRAINER JOURNEY TAB - REUSABLE STAT TILE SECTION ----
-
-function renderJourneyStat(value, label) {
-  return `
-    <div class="journey-stat">
-      <strong>${value}</strong>
-      <span>${label}</span>
     </div>
   `;
 }

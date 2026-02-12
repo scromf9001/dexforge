@@ -479,29 +479,21 @@ body {
 
 .journey-interaction-grid {
   display: grid;
-  grid-template-columns: 1fr 1.2fr;  /* give pie more room */
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
   gap: 24px;
 }
 
-@media (max-width: 768px) {
-  .journey-interaction-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Distribution Pie Chart */
-
 .journey-pie-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 240px;   /* bigger visual space */
+  height: 180px;   /* fixed height */
+  max-height: 180px;
 }
 
 #ballPieChart {
   width: 100% !important;
   height: 100% !important;
 }
+
 
 
 /* Pokébag */
@@ -523,6 +515,35 @@ body {
 .journey-empty {
   font-size: 10px;
   opacity: 0.6;
+}
+
+/* Element Stones */
+.item-fire { background: #F08030; }
+.item-water { background: #6890F0; }
+.item-electric { background: #F8D030; }
+.item-grass { background: #78C850; }
+.item-ice { background: #98D8D8; }
+
+.item-dark { background: #705848; }
+.item-psychic { background: #F85888; }
+.item-fairy { background: #EE99AC; }
+
+.item-sun { background: #FDB813; }
+.item-shiny { background: #D8BFD8; }
+
+/* Balls */
+.item-poke { background: #E53935; }
+.item-great { background: #1E88E5; }
+.item-ultra { background: #FBC02D; }
+.item-master { background: #8E24AA; }
+.item-god { background: linear-gradient(45deg, gold, white); }
+
+/* Shared styling */
+.pokebag-pill {
+  color: #111;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
 }
 
 
