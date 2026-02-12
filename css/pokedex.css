@@ -479,8 +479,8 @@ body {
 
 .journey-interaction-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  grid-template-columns: 1fr 1.2fr;  /* give pie more room */
+  gap: 24px;
 }
 
 @media (max-width: 768px) {
@@ -495,10 +495,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 240px;   /* bigger visual space */
 }
 
 #ballPieChart {
-  max-width: 220px;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 

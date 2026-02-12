@@ -441,21 +441,26 @@ function renderBallPieChart(distribution) {
       datasets: [{
         data: data,
         backgroundColor: [
-          "#e53935",   // Poke Ball red
-          "#1e88e5",   // Great Ball blue
-          "#fbc02d",   // Ultra Ball yellow
-          "#8e24aa"    // Master Ball purple
+          "#e53935",  // Poke
+          "#1e88e5",  // Great
+          "#fbc02d",  // Ultra
+          "#8e24aa"   // Master
         ],
-        borderColor: "#333",
-        borderWidth: 2
+        borderWidth: 0   // 🔥 removes black borders
       }]
     },
     options: {
+      responsive: true,
+      maintainAspectRatio: false,
       plugins: {
         legend: {
+          position: "right",
           labels: {
+            boxWidth: 14,
+            boxHeight: 14,
+            padding: 12,
             font: {
-              size: 10
+              size: 11
             }
           }
         }
@@ -463,6 +468,7 @@ function renderBallPieChart(distribution) {
     }
   });
 }
+
 
 
 
