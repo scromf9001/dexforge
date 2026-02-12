@@ -73,6 +73,9 @@ def run():
                 "generation": safe_int(row.get("generation")),
                 "region": safe_str(row.get("region"), "Unknown"),
                 "rarity": safe_str(row.get("rarity"), "common"),
+                "is_legendary": safe_str(row.get("is_legendary"), "false").lower() == "true",
+                "is_mythic": safe_str(row.get("is_mythic"), "false").lower() == "true",
+
 
                 "evolution": safe_str(row.get("evolution"), "false").lower() == "true",
                 "evolution_stage": safe_str(row.get("evolution_stage"), "unknown"),
@@ -157,32 +160,44 @@ def run():
     pokemon_list.sort(key=lambda x: x["pokedex_number"])
 
     # =========================
-    # PARSE BALL STATS
+    # PARSE INVENTORY STATS
     # =========================
 
-    ball_stats = {}
+    inventory_stats = {}
 
     inventory_entries = [i.strip() for i in raw_inventory.split(",") if " x" in i]
 
     for item in inventory_entries:
         try:
             name_part, count_part = item.rsplit(" x", 1)
-            name = safe_str(name_part)
+            name = safe_str(name_part).lower()
             count = safe_int(count_part)
 
-            ball_stats[name] = count
+            inventory_stats[name] = count
         except:
             continue
 
+    # ---- BALLS ----
     total_balls_thrown = sum(
-        count for name, count in ball_stats.items() if "Thrown" in name
+        count for name, count in inventory_stats.items()
+        if "thrown" in name
     )
 
     total_success = sum(
-        count for name, count in ball_stats.items() if "Success" in name
+        count for name, count in inventory_stats.items()
+        if "success" in name
     )
 
-    accuracy = round((total_success / total_balls_thrown) * 100, 2) if total_balls_thrown > 0 else 0
+    accuracy = round(
+        (total_success / total_balls_thrown) * 100, 2
+    ) if total_balls_thrown > 0 else 0
+
+    # ---- EVOLUTIONS ----
+    times_evolved = inventory_stats.get("evolution", 0)
+
+    # ---- TRADES (future proof) ----
+    times_traded = inventory_stats.get("trade", 0)
+
 
     # =========================
     # TRAINER STATS
@@ -233,6 +248,8 @@ def run():
     generation_progress = dict(sorted(generation_progress.items()))
 
 
+
+
     # ---- EVOLUTION PROGRESS ----
     evolution_lines = {}
     evolvable_owned = 0
@@ -257,6 +274,39 @@ def run():
     for p in owned_pokemon:
         stage = p["evolution_stage"]
         evolution_stage_counts[stage] = evolution_stage_counts.get(stage, 0) + 1
+
+    stage_totals = {}
+    stage_owned = {}
+
+    total_evolutions_available = 0
+    total_evolutions_owned = 0
+
+    for p in pokemon_list:
+        stage = safe_int(p["evolution_stage"], 0)
+
+        if stage > 0:
+            total_evolutions_available += 1
+            stage_totals[stage] = stage_totals.get(stage, 0) + 1
+
+            if p["owned"]:
+                total_evolutions_owned += 1
+                stage_owned[stage] = stage_owned.get(stage, 0) + 1
+
+    # ---- REGION EVOLUTION LINES ----
+    region_lines = {}
+
+    for line in evolution_lines.values():
+        region = line[0]["region"]
+        region_lines.setdefault(region, []).append(line)
+
+    for gen in generation_progress.values():
+        region = gen["region"]
+        lines = region_lines.get(region, [])
+
+        gen["total_lines"] = len(lines)
+        gen["lines_completed"] = sum(
+            1 for line in lines if all(p["owned"] for p in line)
+        )
 
 
     # ---- TYPE MASTERY ----
@@ -287,19 +337,19 @@ def run():
         if p["owned"]:
             rarity_progress[r]["owned"] += 1
 
+    total_legendary_available = 0
+    total_legendary_owned = 0
 
-    # ---- POKEBALL STATS ----
-    total_balls_thrown = sum(
-        count for name, count in ball_stats.items() if "Thrown" in name
-    )
+    for p in pokemon_list:
+        if p["rarity"].lower() in ["legendary", "mythic"] or \
+        p.get("is_legendary") or p.get("is_mythic"):
 
-    total_success = sum(
-        count for name, count in ball_stats.items() if "Success" in name
-    )
+            total_legendary_available += 1
 
-    accuracy = round(
-        (total_success / total_balls_thrown) * 100, 2
-    ) if total_balls_thrown > 0 else 0
+            if p["owned"]:
+                total_legendary_owned += 1
+
+
 
 
     # ---- FINAL TRAINER STATS OBJECT ----
@@ -314,30 +364,35 @@ def run():
         "generation_progress": generation_progress,
 
         "evolution": {
-            "evolvable_owned": evolvable_owned,
+            "total_evolutions_owned": total_evolutions_owned,
+            "total_evolutions_available": total_evolutions_available,
             "lines_completed": lines_completed,
             "total_lines": total_evolution_lines,
-            "by_stage": evolution_stage_counts
+            "stage_totals": stage_totals,
+            "stage_owned": stage_owned
         },
 
-        "types": type_progress,
-
-        "rarity": rarity_progress,
+        "legendary": {
+            "owned": total_legendary_owned,
+            "total": total_legendary_available
+        },
 
         "pokeballs": {
             "thrown": total_balls_thrown,
             "success": total_success,
-            "accuracy_percent": accuracy,
-            "details": ball_stats
+            "accuracy_percent": accuracy
         },
 
         "journey": {
             "watch_hours": user_hours,
             "follow_age": follow_age or "Unknown",
             "sub_age": sub_age or "Not Subscribed",
-            "commands_run": total_commands
+            "commands_run": total_commands,
+            "times_evolved": times_evolved,
+            "times_traded": times_traded
         }
     }
+
 
 
     # =========================

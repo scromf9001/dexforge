@@ -32,6 +32,7 @@ fetch(`${jsonPath}?v=${Date.now()}`)
     renderUser(data.user);
     renderPokemon(data.pokemon);
     renderTrainerSummary(data.trainer_stats);
+    renderRegions(data.trainer_stats);
   })
   .catch(error => {
     console.error(error);
@@ -41,6 +42,8 @@ function renderUser(user) {
   document.getElementById("trainer-name").textContent = user.username;
   document.getElementById("trainer-avatar").src = user.avatar;
 }
+
+// ---- SUMMARY TRAINER CARD ----
 
 function renderTrainerSummary(stats) {
 
@@ -81,6 +84,125 @@ function renderTrainerSummary(stats) {
     `${linePercent}%`;
 
 }
+
+// ---- REGIONS TRAINER CARD ----
+
+function renderRegions(stats) {
+  const container = document.getElementById("tab-regions");
+
+  const evo = stats.evolution;
+  const legendary = stats.legendary;
+
+  container.innerHTML = `
+    <div class="regions-global">
+      <h3>Global Evolution Overview</h3>
+
+      <div class="regions-global-stats">
+        <div class="regions-stat">
+          <strong>${evo.total_evolutions_owned} / ${evo.total_evolutions_available}</strong>
+          <span>Total Evolutions Owned</span>
+        </div>
+
+        <div class="regions-stat">
+          <strong>${evo.lines_completed} / ${evo.total_lines}</strong>
+          <span>Evolution Lines Completed</span>
+        </div>
+
+        <div class="regions-stat">
+          <strong>${stats.journey.times_evolved}</strong>
+          <span>Times Evolved</span>
+        </div>
+
+        <div class="regions-stat">
+          <strong>${legendary.owned} / ${legendary.total}</strong>
+          <span>Legendary & Mythic</span>
+        </div>
+      </div>
+
+      ${renderStageBars(evo)}
+    </div>
+
+    <div class="regions-grid">
+      ${renderRegionCards(stats.generation_progress)}
+    </div>
+  `;
+}
+
+function renderStageBars(evo) {
+  let html = "";
+
+  for (let stage = 1; stage <= 4; stage++) {
+    const owned = evo.stage_owned[stage] || 0;
+    const total = evo.stage_totals[stage] || 0;
+    const percent = total > 0 ? (owned / total) * 100 : 0;
+
+    html += `
+      <div class="stage-progress">
+        <div class="stage-label">
+          <span>Stage ${stage}</span>
+          <span>${owned} / ${total}</span>
+        </div>
+        <div class="stage-bar">
+          <div class="stage-fill" style="width:${percent}%"></div>
+        </div>
+      </div>
+    `;
+  }
+
+  return html;
+}
+
+function renderRegionCards(generations) {
+  let html = "";
+
+  Object.values(generations || {}).forEach(gen => {
+
+    const pokedexPercent = gen.total > 0
+      ? (gen.owned / gen.total) * 100
+      : 0;
+
+    const linePercent = gen.total_lines > 0
+      ? (gen.lines_completed / gen.total_lines) * 100
+      : 0;
+
+    html += `
+      <div class="region-card">
+        <h4>${gen.region}</h4>
+
+        <div class="region-stats">
+          Unique Pokémon: ${gen.owned} / ${gen.total}<br>
+          Evolution Lines: ${gen.lines_completed} / ${gen.total_lines}
+        </div>
+
+        <div class="region-progress">
+          <div class="region-progress-label">
+            <span>Pokédex</span>
+            <span>${Math.floor(pokedexPercent)}%</span>
+          </div>
+          <div class="region-bar">
+            <div class="region-fill" style="width:${pokedexPercent}%"></div>
+          </div>
+        </div>
+
+        <div class="region-progress">
+          <div class="region-progress-label">
+            <span>Evolution Lines</span>
+            <span>${Math.floor(linePercent)}%</span>
+          </div>
+          <div class="region-bar">
+            <div class="region-fill" style="width:${linePercent}%"></div>
+          </div>
+        </div>
+
+      </div>
+    `;
+  });
+
+  return html;
+}
+
+
+// ---- POKEMON LIST ----
 
 function renderPokemon(pokemonList) {
   const grid = document.getElementById("pokedex-grid");

@@ -138,6 +138,123 @@ body {
   transition: width 0.6s ease;
 }
 
+/* =========================
+   REGIONS TAB
+   ========================= */
+
+.regions-global {
+  margin-bottom: 24px;
+  padding: 16px;
+  border: 2px solid #333;
+  border-radius: 12px;
+  background: #f4f4f4;
+}
+
+.regions-global h3 {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.regions-global-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.regions-stat {
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 12px;
+  padding: 10px;
+  background: #fff;
+}
+
+.regions-stat strong {
+  display: block;
+  font-size: 14px;
+}
+
+.regions-stat span {
+  font-size: 9px;
+  opacity: 0.7;
+}
+
+.stage-progress {
+  margin-bottom: 12px;
+}
+
+.stage-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  margin-bottom: 4px;
+}
+
+.stage-bar {
+  height: 8px;
+  background: #ddd;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.stage-fill {
+  height: 100%;
+  background: #cc0000;
+  width: 0%;
+  transition: width 0.5s ease;
+}
+
+/* REGION GRID */
+
+.regions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.region-card {
+  border: 3px solid #333;
+  border-radius: 16px;
+  padding: 14px;
+  background: #fff;
+}
+
+.region-card h4 {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.region-stats {
+  font-size: 9px;
+  margin-bottom: 8px;
+}
+
+.region-progress {
+  margin-bottom: 8px;
+}
+
+.region-progress-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 9px;
+  margin-bottom: 4px;
+}
+
+.region-bar {
+  height: 6px;
+  background: #ddd;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.region-fill {
+  height: 100%;
+  background: #cc0000;
+  width: 0%;
+  transition: width 0.5s ease;
+}
+
 
 /* =========================
    POKEDEX GRID
