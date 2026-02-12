@@ -37,48 +37,55 @@
         <div class="tab-panel active" id="tab-summary">
           <div class="trainer-dashboard">
 
-            <!-- HERO STAT -->
-            <div class="dashboard-hero">
-              <div class="hero-ring">
-                <div class="hero-percent" id="hero-completion">--%</div>
-                <div class="hero-label">Pokédex Complete</div>
-              </div>
-            </div>
-
             <!-- CORE STATS -->
             <div class="dashboard-stats">
+              <div class="stat-tile">
+                <strong id="stat-total">--</strong>
+                <span>Total Pokémon</span>
+              </div>
+
               <div class="stat-tile">
                 <strong id="stat-unique">--</strong>
                 <span>Unique Pokémon</span>
               </div>
 
               <div class="stat-tile">
-                <strong id="stat-total">--</strong>
-                <span>Total Caught</span>
-              </div>
-
-              <div class="stat-tile">
-                <strong id="stat-evolvable">--</strong>
-                <span>Ready to Evolve</span>
-              </div>
-
-              <div class="stat-tile">
                 <strong id="stat-lines">--</strong>
                 <span>Evolution Lines Completed</span>
               </div>
-            </div>
 
-            <!-- CATCH PERFORMANCE -->
-            <div class="dashboard-catch">
-              <div class="catch-header">
-                <span>Catch Accuracy</span>
-                <strong id="catch-percent">--%</strong>
-              </div>
-
-              <div class="catch-bar">
-                <div class="catch-fill" id="catch-fill"></div>
+              <div class="stat-tile">
+                <strong id="stat-balls">--</strong>
+                <span>Balls Thrown</span>
               </div>
             </div>
+
+
+            <!-- PROGRESS BARS -->
+            <div class="dashboard-progress">
+
+              <div class="progress-block">
+                <div class="progress-header">
+                  <span>Pokédex Completion</span>
+                  <strong id="pokedex-percent">--%</strong>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" id="pokedex-fill"></div>
+                </div>
+              </div>
+
+              <div class="progress-block">
+                <div class="progress-header">
+                  <span>Evolution Lines Completion</span>
+                  <strong id="evolution-percent">--%</strong>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" id="evolution-fill"></div>
+                </div>
+              </div>
+
+            </div>
+
           </div>
         </div>
         <div class="tab-panel" id="tab-pokedex"></div>

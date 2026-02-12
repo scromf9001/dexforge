@@ -244,6 +244,8 @@ def run():
         if p["owned"] and p["quantity_required"] > 0 and p["count"] >= p["quantity_required"]:
             evolvable_owned += 1
 
+    total_evolution_lines = len(evolution_lines)
+
     lines_completed = 0
 
     for line in evolution_lines.values():
@@ -314,6 +316,7 @@ def run():
         "evolution": {
             "evolvable_owned": evolvable_owned,
             "lines_completed": lines_completed,
+            "total_lines": total_evolution_lines,
             "by_stage": evolution_stage_counts
         },
 

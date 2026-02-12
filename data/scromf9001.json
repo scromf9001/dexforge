@@ -3,7 +3,7 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-11T06:07:40.795878+00:00",
+  "updated_at": "2026-02-11T10:36:36.008190+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -30,6 +30,7 @@
     "evolution": {
       "evolvable_owned": 40,
       "lines_completed": 36,
+      "total_lines": 129,
       "by_stage": {
         "1": 59,
         "2": 46,
@@ -148,7 +149,7 @@
       "watch_hours": 879,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
-      "commands_run": 35711
+      "commands_run": 35715
     }
   },
   "pokemon": [

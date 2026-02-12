@@ -43,30 +43,41 @@ function renderUser(user) {
 }
 
 function renderTrainerSummary(stats) {
-  // HERO
-  document.getElementById("hero-completion").textContent =
-    `${stats.pokedex.completion_percent}%`;
 
-  // CORE STATS
-  document.getElementById("stat-unique").textContent =
-    stats.pokedex.unique_owned;
+  // ---- STAT TILES ----
 
   document.getElementById("stat-total").textContent =
     stats.pokedex.total_owned;
 
-  document.getElementById("stat-evolvable").textContent =
-    stats.evolution.evolvable_owned;
+  document.getElementById("stat-unique").textContent =
+    `${stats.pokedex.unique_owned} / ${stats.pokedex.total_available}`;
 
   document.getElementById("stat-lines").textContent =
-    stats.evolution.lines_completed;
+    `${stats.evolution.lines_completed} / ${stats.evolution.total_lines}`;
 
-  // CATCH ACCURACY
-  document.getElementById("catch-percent").textContent =
-    `${stats.pokeballs.accuracy_percent}%`;
+  document.getElementById("stat-balls").textContent =
+    stats.pokeballs.thrown;
 
-  document.getElementById("catch-fill").style.width =
-    `${stats.pokeballs.accuracy_percent}%`;
+  // ---- PROGRESS BARS ----
+
+  document.getElementById("progress-pokedex").textContent =
+    `${Math.floor(stats.pokedex.completion_percent)}%`;
+
+  document.getElementById("progress-fill-pokedex").style.width =
+    `${stats.pokedex.completion_percent}%`;
+
+  const linePercent =
+    stats.evolution.total_lines > 0
+      ? (stats.evolution.lines_completed / stats.evolution.total_lines) * 100
+      : 0;
+
+  document.getElementById("progress-lines").textContent =
+    `${Math.floor(linePercent)}%`;
+
+  document.getElementById("progress-fill-lines").style.width =
+    `${linePercent}%`;
 }
+
 
 
 function renderPokemon(pokemonList) {
