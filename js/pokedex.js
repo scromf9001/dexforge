@@ -337,26 +337,39 @@ function renderBallRow(ball, data) {
 
 // ---- TRAINER JOURNEY TAB ----
 
+function renderJourneyStat(value, label) {
+  return `
+    <div class="journey-stat">
+      <strong>${value ?? 0}</strong>
+      <span>${label}</span>
+    </div>
+  `;
+}
+
+
 function renderJourney(stats) {
   const container = document.getElementById("tab-journey");
   const journey = stats.journey;
 
+  if (!journey) {
+    container.innerHTML = "<div class='journey-empty'>No journey data.</div>";
+    return;
+  }
+
   container.innerHTML = `
     <div class="journey-container">
-
       ${renderJourneyIdentity(journey)}
-
       ${renderJourneyActivity(journey)}
-
       ${renderJourneyInteraction(journey)}
-
       ${renderJourneyPokebag(journey.pokebag)}
-
     </div>
   `;
 
-  renderBallPieChart(journey.ball_distribution);
+  if (journey.ball_distribution) {
+    renderBallPieChart(journey.ball_distribution);
+  }
 }
+
 
 
 // ---- TRAINER JOURNEY TAB - IDENTITY SECTION ----
