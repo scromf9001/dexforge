@@ -44,6 +44,13 @@ def run():
     sub_age = safe_str("$usersubage")
     total_commands = safe_int("$usertotalcommandsrun")
 
+    user_primary_role = safe_str("$userprimaryrole")
+    user_sub_tier = safe_str("$usersubtier")
+    user_streams_watched = safe_int("$usertotalstreamswatched")
+    user_chat_messages = safe_int("$usertotalchatmessagessent")
+    raw_pokebag = "$userpokebagall"
+
+
     # === CSV PATH ===
     pokemon_csv = r"C:\Users\sebas\Desktop\Stream Stuff\Pokemon System\pokemon_list.csv"
 
@@ -223,11 +230,56 @@ def run():
 
     most_used_ball = max(ball_usage, key=ball_usage.get) if ball_usage else None
 
+    # ---- BALL USAGE DISTRIBUTION ----
+
+    ball_distribution = {}
+
+    if total_balls_thrown > 0:
+        for ball_name, stats in {
+            "poke ball": poke_ball,
+            "great ball": great_ball,
+            "ultra ball": ultra_ball,
+            "master ball": master_ball
+        }.items():
+            percent = round(
+                (stats["thrown"] / total_balls_thrown) * 100, 2
+            ) if total_balls_thrown > 0 else 0
+
+            ball_distribution[ball_name] = percent
+    else:
+        ball_distribution = {
+            "poke ball": 0,
+            "great ball": 0,
+            "ultra ball": 0,
+            "master ball": 0
+        }
+
+
     # ---- EVOLUTIONS ----
     times_evolved = inventory_stats.get("evolution", 0)
 
-    # ---- TRADES (future proof) ----
+    # ---- TRADES ----
     times_traded = inventory_stats.get("trade", 0)
+
+        # ---- EGGS HATCHED ----
+    times_eggs_hatched = inventory_stats.get("eggs hatched", 0)
+
+
+    # ---- POKEBAG CONTENTS ----
+
+    pokebag_contents = {}
+
+    bag_entries = [i.strip() for i in raw_pokebag.split(",") if " x" in i]
+
+    for item in bag_entries:
+        try:
+            name_part, count_part = item.rsplit(" x", 1)
+            name = safe_str(name_part)
+            count = safe_int(count_part)
+
+            pokebag_contents[name] = count
+        except:
+            continue
 
 
     # =========================
@@ -426,10 +478,19 @@ def run():
             "watch_hours": user_hours,
             "follow_age": follow_age or "Unknown",
             "sub_age": sub_age or "Not Subscribed",
+            "primary_role": user_primary_role,
+            "sub_tier": user_sub_tier,
+            "streams_watched": user_streams_watched,
+            "chat_messages": user_chat_messages,
             "commands_run": total_commands,
             "times_evolved": times_evolved,
-            "times_traded": times_traded
+            "times_traded": times_traded,
+            "times_eggs_hatched": times_eggs_hatched,
+            "ball_distribution": ball_distribution,
+            "pokebag": pokebag_contents
         }
+
+
     }
 
 

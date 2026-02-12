@@ -35,6 +35,7 @@ fetch(`${jsonPath}?v=${Date.now()}`)
     renderRegions(data.trainer_stats);
     renderTypeMastery(data.trainer_stats);
     renderCapturePerformance(data.trainer_stats);
+    renderJourney(data.trainer_stats);
   })
   .catch(error => {
     console.error(error);
@@ -334,6 +335,164 @@ function renderBallRow(ball, data) {
   `;
 }
 
+// ---- TRAINER JOURNEY TAB ----
+
+function renderJourney(stats) {
+  const container = document.getElementById("tab-journey");
+  const journey = stats.journey;
+  const balls = stats.pokeballs;
+
+  container.innerHTML = `
+    <div class="journey-container">
+
+      ${renderJourneyIdentity(journey)}
+
+      ${renderJourneyActivity(journey)}
+
+      ${renderJourneyInteraction(journey, balls)}
+
+      ${renderJourneyPokebag(journey.pokebag_raw)}
+
+    </div>
+  `;
+}
+
+// ---- TRAINER JOURNEY TAB - IDENTITY SECTION ----
+
+function renderJourneyIdentity(journey) {
+  return `
+    <div class="journey-section">
+      <h3>Trainer Identity</h3>
+
+      <div class="journey-stats-grid">
+        ${renderJourneyStat(journey.watch_hours, "Watch Hours")}
+        ${renderJourneyStat(journey.follow_age, "Follow Age")}
+        ${renderJourneyStat(journey.sub_age, "Sub Age")}
+        ${renderJourneyStat(journey.primary_role || "Viewer", "Primary Role")}
+      </div>
+    </div>
+  `;
+}
+
+
+// ---- TRAINER JOURNEY TAB - ACTIVITY SECTION ----
+
+function renderJourneyActivity(journey) {
+  return `
+    <div class="journey-section">
+      <h3>Channel Activity</h3>
+
+      <div class="journey-stats-grid">
+        ${renderJourneyStat(journey.streams_watched || 0, "Streams Watched")}
+        ${renderJourneyStat(journey.chat_messages || 0, "Chat Messages")}
+        ${renderJourneyStat(journey.commands_run, "Commands Run")}
+        ${renderJourneyStat(journey.sub_months || 0, "Sub Months")}
+      </div>
+    </div>
+  `;
+}
+
+
+// ---- TRAINER JOURNEY TAB - POKEMON INTERACTION SECTION ----
+
+function renderJourneyInteraction(journey, balls) {
+  const totalThrown = balls.thrown || 0;
+
+  const ballDistribution = Object.entries(balls.details || {}).map(([name, data]) => {
+    const percent = totalThrown > 0
+      ? (data.thrown / totalThrown) * 100
+      : 0;
+
+    return renderDistributionRow(name, percent);
+  }).join("");
+
+  return `
+    <div class="journey-section">
+      <h3>Pokémon Interaction</h3>
+
+      <div class="journey-interaction-grid">
+
+        <div class="journey-interaction-stats">
+          ${renderJourneyStat(journey.times_evolved, "Times Evolved")}
+          ${renderJourneyStat(journey.times_traded, "Times Traded")}
+          ${renderJourneyStat(journey.eggs_hatched, "Eggs Hatched")}
+        </div>
+
+        <div class="journey-ball-distribution">
+          ${ballDistribution}
+        </div>
+
+      </div>
+    </div>
+  `;
+}
+
+
+// ---- TRAINER JOURNEY TAB - BALL DISTRIBUTION SECTION ----
+
+function renderDistributionRow(name, percent) {
+  const formatted = name
+    .split(" ")
+    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+
+  return `
+    <div class="journey-distribution-row">
+      <div class="journey-distribution-label">
+        <span>${formatted}</span>
+        <span>${Math.floor(percent)}%</span>
+      </div>
+
+      <div class="journey-distribution-bar">
+        <div class="journey-distribution-fill"
+             style="width:${percent}%"></div>
+      </div>
+    </div>
+  `;
+}
+
+
+// ---- TRAINER JOURNEY TAB - POKEBAG SECTION ----
+
+function renderJourneyPokebag(rawBag) {
+  if (!rawBag || rawBag.trim() === "") {
+    return `
+      <div class="journey-section">
+        <h3>Pokébag</h3>
+        <div class="journey-empty">Bag is empty.</div>
+      </div>
+    `;
+  }
+
+  const items = rawBag
+    .split(",")
+    .map(i => i.trim())
+    .filter(i => i.length > 0);
+
+  const badges = items.map(item => `
+    <div class="journey-bag-item">${item}</div>
+  `).join("");
+
+  return `
+    <div class="journey-section">
+      <h3>Pokébag</h3>
+      <div class="journey-bag-grid">
+        ${badges}
+      </div>
+    </div>
+  `;
+}
+
+// ---- TRAINER JOURNEY TAB - REUSABLE STAT TILE SECTION ----
+
+function renderJourneyStat(value, label) {
+  return `
+    <div class="journey-stat">
+      <strong>${value}</strong>
+      <span>${label}</span>
+    </div>
+  `;
+}
 
 
 // ---- POKEMON LIST ----

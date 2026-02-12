@@ -3,7 +3,7 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-12T08:25:17.619589+00:00",
+  "updated_at": "2026-02-12T09:04:07.942259+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -173,9 +173,31 @@
       "watch_hours": 886,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
-      "commands_run": 35867,
+      "primary_role": "Streamer",
+      "sub_tier": "Tier 3",
+      "streams_watched": 272,
+      "chat_messages": 6799,
+      "commands_run": 35871,
       "times_evolved": 2,
-      "times_traded": 1
+      "times_traded": 1,
+      "times_eggs_hatched": 1,
+      "ball_distribution": {
+        "poke ball": 28.57,
+        "great ball": 28.57,
+        "ultra ball": 28.57,
+        "master ball": 14.29
+      },
+      "pokebag": {
+        "Fire Stone": 2,
+        "God Ball": 99,
+        "Great Ball": 99,
+        "Leaf Stone": 9,
+        "Master Ball": 10,
+        "Moon Stone": 9,
+        "Thunder Stone": 9,
+        "Ultra Ball": 99,
+        "Water Stone": 9
+      }
     }
   },
   "pokemon": [
