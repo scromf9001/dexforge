@@ -441,12 +441,12 @@ function renderBallPieChart(distribution) {
       datasets: [{
         data: data,
         backgroundColor: [
-          "#e53935",  // Poke
-          "#1e88e5",  // Great
-          "#fbc02d",  // Ultra
-          "#8e24aa"   // Master
+          "#e53935",
+          "#1e88e5",
+          "#fbc02d",
+          "#8e24aa"
         ],
-        borderWidth: 0   // 🔥 removes black borders
+        borderWidth: 0
       }]
     },
     options: {
@@ -466,13 +466,17 @@ function renderBallPieChart(distribution) {
         },
         tooltip: {
           callbacks: {
-          label: function(context) {
-            const value = Math.round(context.raw);
-            return `${context.label}: ${value}%`;
+            label: function(context) {
+              const value = Math.round(context.raw);
+              return `${context.label}: ${value}%`;
+            }
+          }
+        }
       }
     }
   });
 }
+
 
 
 // ---- TRAINER JOURNEY TAB - POKEBAG SECTION ----
