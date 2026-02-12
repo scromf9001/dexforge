@@ -489,32 +489,18 @@ body {
   }
 }
 
-/* Distribution Bars */
+/* Distribution Pie Chart */
 
-.journey-distribution-row {
-  margin-bottom: 12px;
-}
-
-.journey-distribution-label {
+.journey-pie-container {
   display: flex;
-  justify-content: space-between;
-  font-size: 10px;
-  margin-bottom: 6px;
+  align-items: center;
+  justify-content: center;
 }
 
-.journey-distribution-bar {
-  width: 100%;
-  height: 8px;
-  background: #ddd;
-  border-radius: 999px;
-  overflow: hidden;
+#ballPieChart {
+  max-width: 220px;
 }
 
-.journey-distribution-fill {
-  height: 100%;
-  background: #cc0000;
-  transition: width 0.4s ease;
-}
 
 /* Pokébag */
 

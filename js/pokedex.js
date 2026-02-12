@@ -340,7 +340,6 @@ function renderBallRow(ball, data) {
 function renderJourney(stats) {
   const container = document.getElementById("tab-journey");
   const journey = stats.journey;
-  const balls = stats.pokeballs;
 
   container.innerHTML = `
     <div class="journey-container">
@@ -349,13 +348,16 @@ function renderJourney(stats) {
 
       ${renderJourneyActivity(journey)}
 
-      ${renderJourneyInteraction(journey, balls)}
+      ${renderJourneyInteraction(journey)}
 
-      ${renderJourneyPokebag(journey.pokebag_raw)}
+      ${renderJourneyPokebag(journey.pokebag)}
 
     </div>
   `;
+
+  renderBallPieChart(journey.ball_distribution);
 }
+
 
 // ---- TRAINER JOURNEY TAB - IDENTITY SECTION ----
 
@@ -365,10 +367,10 @@ function renderJourneyIdentity(journey) {
       <h3>Trainer Identity</h3>
 
       <div class="journey-stats-grid">
-        ${renderJourneyStat(journey.watch_hours, "Watch Hours")}
-        ${renderJourneyStat(journey.follow_age, "Follow Age")}
+        ${renderJourneyStat(journey.follow_age, "Follower Age")}
         ${renderJourneyStat(journey.sub_age, "Sub Age")}
-        ${renderJourneyStat(journey.primary_role || "Viewer", "Primary Role")}
+        ${renderJourneyStat(journey.sub_months || 0, "Sub Months")}
+        ${renderJourneyStat(journey.subs_gifted || 0, "Subs Gifted")}
       </div>
     </div>
   `;
@@ -383,10 +385,10 @@ function renderJourneyActivity(journey) {
       <h3>Channel Activity</h3>
 
       <div class="journey-stats-grid">
-        ${renderJourneyStat(journey.streams_watched || 0, "Streams Watched")}
-        ${renderJourneyStat(journey.chat_messages || 0, "Chat Messages")}
+        ${renderJourneyStat(journey.streams_watched, "Streams Watched")}
+        ${renderJourneyStat(journey.watch_hours, "Watch Hours")}
+        ${renderJourneyStat(journey.chat_messages, "Chat Messages")}
         ${renderJourneyStat(journey.commands_run, "Commands Run")}
-        ${renderJourneyStat(journey.sub_months || 0, "Sub Months")}
       </div>
     </div>
   `;
@@ -395,17 +397,7 @@ function renderJourneyActivity(journey) {
 
 // ---- TRAINER JOURNEY TAB - POKEMON INTERACTION SECTION ----
 
-function renderJourneyInteraction(journey, balls) {
-  const totalThrown = balls.thrown || 0;
-
-  const ballDistribution = Object.entries(balls.details || {}).map(([name, data]) => {
-    const percent = totalThrown > 0
-      ? (data.thrown / totalThrown) * 100
-      : 0;
-
-    return renderDistributionRow(name, percent);
-  }).join("");
-
+function renderJourneyInteraction(journey) {
   return `
     <div class="journey-section">
       <h3>Pokémon Interaction</h3>
@@ -415,11 +407,11 @@ function renderJourneyInteraction(journey, balls) {
         <div class="journey-interaction-stats">
           ${renderJourneyStat(journey.times_evolved, "Times Evolved")}
           ${renderJourneyStat(journey.times_traded, "Times Traded")}
-          ${renderJourneyStat(journey.eggs_hatched, "Eggs Hatched")}
+          ${renderJourneyStat(journey.times_eggs_hatched || 0, "Eggs Hatched")}
         </div>
 
-        <div class="journey-ball-distribution">
-          ${ballDistribution}
+        <div class="journey-pie-container">
+          <canvas id="ballPieChart"></canvas>
         </div>
 
       </div>
@@ -430,32 +422,54 @@ function renderJourneyInteraction(journey, balls) {
 
 // ---- TRAINER JOURNEY TAB - BALL DISTRIBUTION SECTION ----
 
-function renderDistributionRow(name, percent) {
-  const formatted = name
-    .split(" ")
-    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(" ");
+function renderBallPieChart(distribution) {
+  const ctx = document.getElementById("ballPieChart");
 
-  return `
-    <div class="journey-distribution-row">
-      <div class="journey-distribution-label">
-        <span>${formatted}</span>
-        <span>${Math.floor(percent)}%</span>
-      </div>
+  if (!ctx || !distribution) return;
 
-      <div class="journey-distribution-bar">
-        <div class="journey-distribution-fill"
-             style="width:${percent}%"></div>
-      </div>
-    </div>
-  `;
+  const data = [
+    distribution["poke ball"] || 0,
+    distribution["great ball"] || 0,
+    distribution["ultra ball"] || 0,
+    distribution["master ball"] || 0
+  ];
+
+  new Chart(ctx, {
+    type: "pie",
+    data: {
+      labels: ["Poke Ball", "Great Ball", "Ultra Ball", "Master Ball"],
+      datasets: [{
+        data: data,
+        backgroundColor: [
+          "#e53935",   // Poke Ball red
+          "#1e88e5",   // Great Ball blue
+          "#fbc02d",   // Ultra Ball yellow
+          "#8e24aa"    // Master Ball purple
+        ],
+        borderColor: "#333",
+        borderWidth: 2
+      }]
+    },
+    options: {
+      plugins: {
+        legend: {
+          labels: {
+            font: {
+              size: 10
+            }
+          }
+        }
+      }
+    }
+  });
 }
+
 
 
 // ---- TRAINER JOURNEY TAB - POKEBAG SECTION ----
 
-function renderJourneyPokebag(rawBag) {
-  if (!rawBag || rawBag.trim() === "") {
+function renderJourneyPokebag(bag) {
+  if (!bag || Object.keys(bag).length === 0) {
     return `
       <div class="journey-section">
         <h3>Pokébag</h3>
@@ -464,20 +478,19 @@ function renderJourneyPokebag(rawBag) {
     `;
   }
 
-  const items = rawBag
-    .split(",")
-    .map(i => i.trim())
-    .filter(i => i.length > 0);
-
-  const badges = items.map(item => `
-    <div class="journey-bag-item">${item}</div>
-  `).join("");
+  const items = Object.entries(bag)
+    .map(([name, qty]) => `
+      <div class="journey-bag-item">
+        ${name} x${qty}
+      </div>
+    `)
+    .join("");
 
   return `
     <div class="journey-section">
       <h3>Pokébag</h3>
       <div class="journey-bag-grid">
-        ${badges}
+        ${items}
       </div>
     </div>
   `;
