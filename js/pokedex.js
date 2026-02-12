@@ -80,7 +80,7 @@ function renderTrainerSummary(stats) {
   document.getElementById("progress-fill-lines").style.width =
     `${linePercent}%`;
 
-
+}
 
 function renderPokemon(pokemonList) {
   const grid = document.getElementById("pokedex-grid");
