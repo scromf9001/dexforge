@@ -344,7 +344,15 @@ body {
   margin-bottom: 24px;
 }
 
-/* Most used icon */
+#tab-capture .regions-stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 90px;
+}
+
 .most-used-icon {
   width: 36px;
   height: 36px;
@@ -352,49 +360,49 @@ body {
   margin: 0 auto 6px;
 }
 
-/* Breakdown container */
 .ball-breakdown {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 16px;
 }
 
-/* Individual ball row */
+/* Mobile */
+@media (max-width: 768px) {
+  .ball-breakdown {
+    grid-template-columns: 1fr;
+  }
+}
+
 .ball-row {
   display: flex;
   gap: 16px;
   padding: 16px;
   border: 2px solid #333;
   border-radius: 12px;
-  background: #f4f4f4;
+  background: #fff;
 }
 
-/* Ball sprite */
 .ball-icon {
   width: 64px;
   height: 64px;
   object-fit: contain;
 }
 
-/* Right side content */
 .ball-info {
   flex: 1;
 }
 
-/* Ball name */
 .ball-title {
   font-size: 14px;
   margin-bottom: 6px;
 }
 
-/* Stats text */
 .ball-stats {
   font-size: 11px;
   margin-bottom: 8px;
   line-height: 1.6;
 }
 
-/* Progress bar (reuse region style) */
 .ball-progress-label {
   display: flex;
   justify-content: space-between;
