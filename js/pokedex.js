@@ -255,77 +255,86 @@ function renderTypeMastery(stats) {
 
 // ---- CAPTURE PERFORMANCE TRAINER CARD ----
 
-function renderCapture(stats) {
-  const container = document.getElementById("tab-capture");
-  const balls = stats.pokeballs.details;
+function renderCapturePerformance(stats) {
+  const container = document.getElementById("tab-pokeballs");
+  const balls = stats.pokeballs;
 
-  const ballSprites = {
-    "poke ball": "https://archives.bulbagarden.net/media/upload/b/b3/Pok%C3%A9_Ball_ZA_Art.png",
-    "great ball": "https://archives.bulbagarden.net/media/upload/5/54/Bag_Great_Ball_SV_Sprite.png",
-    "ultra ball": "https://archives.bulbagarden.net/media/upload/5/55/Bag_Ultra_Ball_SV_Sprite.png",
-    "master ball": "https://archives.bulbagarden.net/media/upload/a/a6/Bag_Master_Ball_SV_Sprite.png"
-  };
+  const ballOrder = [
+    { key: "poke ball", label: "Poke Ball", class: "poke", icon: "https://archives.bulbagarden.net/media/upload/b/b3/Pok%C3%A9_Ball_ZA_Art.png" },
+    { key: "great ball", label: "Great Ball", class: "great", icon: "https://archives.bulbagarden.net/media/upload/5/54/Bag_Great_Ball_SV_Sprite.png" },
+    { key: "ultra ball", label: "Ultra Ball", class: "ultra", icon: "https://archives.bulbagarden.net/media/upload/5/55/Bag_Ultra_Ball_SV_Sprite.png" },
+    { key: "master ball", label: "Master Ball", class: "master", icon: "https://archives.bulbagarden.net/media/upload/a/a6/Bag_Master_Ball_SV_Sprite.png" }
+  ];
 
-  const order = ["poke ball", "great ball", "ultra ball", "master ball"];
+  const mostUsed = balls.most_used_ball;
+  const mostUsedObj = ballOrder.find(b => b.key === mostUsed);
 
   container.innerHTML = `
     <div class="capture-global">
-      <div class="capture-global-stats">
-        <div class="capture-stat">
-          <strong>${stats.pokeballs.thrown}</strong>
+      <div class="regions-global-stats">
+
+        <div class="regions-stat">
+          <strong>${balls.thrown}</strong>
           <span>Total Balls Thrown</span>
         </div>
 
-        <div class="capture-stat">
-          <strong>${stats.pokeballs.success}</strong>
+        <div class="regions-stat">
+          <strong>${balls.success}</strong>
           <span>Total Successful Catches</span>
         </div>
 
-        <div class="capture-stat">
-          <strong>${Math.floor(stats.pokeballs.accuracy_percent)}%</strong>
+        <div class="regions-stat">
+          <strong>${Math.floor(balls.accuracy_percent)}%</strong>
           <span>Overall Accuracy</span>
         </div>
 
-        <div class="capture-stat">
-          <img src="${ballSprites[stats.pokeballs.most_used] || ""}">
-          <strong>${stats.pokeballs.most_used || "N/A"}</strong>
+        <div class="regions-stat">
+          ${mostUsedObj ? `<img src="${mostUsedObj.icon}" class="most-used-icon">` : ""}
           <span>Most Used Ball</span>
         </div>
+
       </div>
     </div>
 
-    <div class="capture-grid">
-      ${order.map(ball => {
-        const data = balls[ball];
-        const percent = data.thrown > 0 ? data.accuracy_percent : 0;
-
-        const colorClass =
-          ball === "poke ball" ? "ball-poke" :
-          ball === "great ball" ? "ball-great" :
-          ball === "ultra ball" ? "ball-ultra" :
-          "ball-master";
-
-        return `
-          <div class="capture-card">
-            <div class="capture-card-header">
-              <img src="${ballSprites[ball]}">
-              <strong>${ball.toUpperCase()}</strong>
-            </div>
-
-            <div>Thrown: ${data.thrown}</div>
-            <div>Success: ${data.success}</div>
-            <div>Accuracy: ${Math.floor(percent)}%</div>
-
-            <div class="capture-bar">
-              <div class="capture-fill ${colorClass}" 
-                   style="width:${percent}%"></div>
-            </div>
-          </div>
-        `;
-      }).join("")}
+    <div class="ball-breakdown">
+      ${ballOrder.map(ball => renderBallRow(ball, balls.details[ball.key] || {})).join("")}
     </div>
   `;
 }
+
+function renderBallRow(ball, data) {
+  const thrown = data.thrown || 0;
+  const success = data.success || 0;
+  const percent = data.accuracy_percent || 0;
+
+  return `
+    <div class="ball-row">
+
+      <img src="${ball.icon}" class="ball-icon">
+
+      <div class="ball-info">
+
+        <div class="ball-title">${ball.label}</div>
+
+        <div class="ball-stats">
+          Thrown: ${thrown}<br>
+          Success: ${success}
+        </div>
+
+        <div class="ball-progress-label">
+          <span>Accuracy</span>
+          <span>${Math.floor(percent)}%</span>
+        </div>
+
+        <div class="ball-bar">
+          <div class="ball-fill ${ball.class}" style="width:${percent}%"></div>
+        </div>
+
+      </div>
+    </div>
+  `;
+}
+
 
 
 // ---- POKEMON LIST ----

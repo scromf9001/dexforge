@@ -337,95 +337,90 @@ body {
 
 
 /* =========================
-   CAPTURE STATS
+   CAPTURE PERFORMANCE
    ========================= */
 
 .capture-global {
   margin-bottom: 24px;
-  padding: 16px;
-  border: 2px solid #333;
-  border-radius: 12px;
-  background: #fff;
 }
 
-.capture-global-stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 12px;
+/* Most used icon */
+.most-used-icon {
+  width: 36px;
+  height: 36px;
+  display: block;
+  margin: 0 auto 6px;
 }
 
-.capture-stat {
-  text-align: center;
-  border: 2px solid #333;
-  border-radius: 12px;
-  padding: 10px;
-  background: #f4f4f4;
-}
-
-.capture-stat img {
-  width: 32px;
-  height: 32px;
-  margin-bottom: 6px;
-}
-
-/* GRID — forces 1,2,4 layout cleanly */
-
-.capture-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+/* Breakdown container */
+.ball-breakdown {
+  display: flex;
+  flex-direction: column;
   gap: 16px;
 }
 
-@media (max-width: 1000px) {
-  .capture-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  .capture-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.capture-card {
+/* Individual ball row */
+.ball-row {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
   border: 2px solid #333;
   border-radius: 12px;
-  padding: 14px;
-  background: #fff;
+  background: #f4f4f4;
 }
 
-.capture-card-header {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+/* Ball sprite */
+.ball-icon {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+/* Right side content */
+.ball-info {
+  flex: 1;
+}
+
+/* Ball name */
+.ball-title {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+/* Stats text */
+.ball-stats {
+  font-size: 11px;
   margin-bottom: 8px;
+  line-height: 1.6;
 }
 
-.capture-card-header img {
-  width: 36px;
-  height: 36px;
+/* Progress bar (reuse region style) */
+.ball-progress-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  margin-bottom: 4px;
 }
 
-.capture-bar {
+.ball-bar {
   width: 100%;
   height: 10px;
-  background: #e0e0e0;
+  background: #ddd;
   border-radius: 999px;
   overflow: hidden;
-  margin-top: 6px;
 }
 
-.capture-fill {
+.ball-fill {
   height: 100%;
-  transition: width 0.6s ease;
+  border-radius: 999px;
 }
 
 /* Ball colors */
-.ball-poke { background: #cc0000; }
-.ball-great { background: #1e90ff; }
-.ball-ultra { background: #ffcc00; }
-.ball-master { background: #8a2be2; }
+.ball-fill.poke { background: #e53935; }
+.ball-fill.great { background: #1e88e5; }
+.ball-fill.ultra { background: #fdd835; }
+.ball-fill.master { background: #8e24aa; }
+
 
 
 /* =========================
