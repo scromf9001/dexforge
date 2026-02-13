@@ -261,10 +261,10 @@ function renderCapturePerformance(stats) {
   const balls = stats.pokeballs;
 
   const ballOrder = [
-    { key: "poke ball", label: "Poke Ball", class: "poke", icon: "https://archives.bulbagarden.net/media/upload/b/b3/Pok%C3%A9_Ball_ZA_Art.png" },
-    { key: "great ball", label: "Great Ball", class: "great", icon: "https://archives.bulbagarden.net/media/upload/5/54/Bag_Great_Ball_SV_Sprite.png" },
-    { key: "ultra ball", label: "Ultra Ball", class: "ultra", icon: "https://archives.bulbagarden.net/media/upload/5/55/Bag_Ultra_Ball_SV_Sprite.png" },
-    { key: "master ball", label: "Master Ball", class: "master", icon: "https://archives.bulbagarden.net/media/upload/a/a6/Bag_Master_Ball_SV_Sprite.png" }
+    { key: "poke ball", label: "Poke Ball", class: "poke", icon: "assets/balls/poke.png" },
+    { key: "great ball", label: "Great Ball", class: "great", icon: "assets/balls/great.png" },
+    { key: "ultra ball", label: "Ultra Ball", class: "ultra", icon: "assets/balls/ultra.png" },
+    { key: "master ball", label: "Master Ball", class: "master", icon: "assets/balls/master.png" }
   ];
 
   const mostUsed = balls.most_used;
@@ -435,10 +435,16 @@ function renderJourneyInteraction(journey) {
 
 // ---- TRAINER JOURNEY TAB - BALL DISTRIBUTION SECTION ----
 
+let ballChartInstance = null;
+
 function renderBallPieChart(distribution) {
   const ctx = document.getElementById("ballPieChart");
 
   if (!ctx || !distribution) return;
+
+  if (ballChartInstance) {
+    ballChartInstance.destroy();
+  }
 
   const data = [
     distribution["poke ball"] || 0,
@@ -447,7 +453,7 @@ function renderBallPieChart(distribution) {
     distribution["master ball"] || 0
   ];
 
-  new Chart(ctx, {
+  ballChartInstance = new Chart(ctx, {
     type: "pie",
     data: {
       labels: ["Poke Ball", "Great Ball", "Ultra Ball", "Master Ball"],
@@ -567,10 +573,6 @@ function renderPokemon(pokemonList) {
     li.classList.add("pokemon-card");
 
     li.classList.add(`type-${pokemon.primary_type.toLowerCase()}`);
-
-    if (pokemon.secondary_type) {
-      li.classList.add(`type2-${pokemon.secondary_type.toLowerCase()}`);
-    }
 
     li.classList.add(pokemon.owned ? "owned" : "unowned");
 

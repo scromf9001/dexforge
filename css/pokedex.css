@@ -538,16 +538,6 @@ body {
 .item-master { background: #8E24AA; }
 .item-god { background: linear-gradient(45deg, gold, white); }
 
-/* Shared styling */
-.pokebag-pill {
-  color: #111;
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-weight: bold;
-}
-
-
-
 /* =========================
    POKEDEX GRID
    ========================= */
@@ -633,11 +623,11 @@ main {
   opacity: 0.7;
 }
 
-.pokemon-card.owned. dex-number {
+.pokemon-card.owned .dex-number {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.pokemon-card.unowned. dex-number {
+.pokemon-card.unowned .dex-number {
   color: #888;
 }
 
