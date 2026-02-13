@@ -23,10 +23,11 @@
     <header class="trainer-header">
       <img id="trainer-avatar" src="assets/placeholder.png" alt="Trainer Avatar">
       <div class="trainer-info">
-        <h1 id="trainer-name">Trainer Name</h1>
+        <h1 id="trainer-name">Trainer Name's Pokedex</h1>
       </div>
     </header>
 
+     <!-- Trainer Card (Stats)-->
     <section class="trainer-card">
       <div class="trainer-tabs">
         <button class="tab active" data-tab="summary">Summary</button>
@@ -97,6 +98,54 @@
         <div class="tab-panel" id="tab-journey"></div>
       </div>
     </section>
+
+     <!-- Filter Bar -->
+    <section class="filter-bar">
+
+      <input type="text" id="filter-search" placeholder="Search Pokémon...">
+
+      <select id="filter-ownership">
+        <option value="all">All</option>
+        <option value="owned">Owned</option>
+        <option value="unowned">Unowned</option>
+      </select>
+
+      <select id="filter-type">
+        <option value="all">All Types</option>
+      </select>
+
+      <select id="filter-stage">
+        <option value="all">Any Stage</option>
+        <option value="1">Stage 1</option>
+        <option value="2">Stage 2</option>
+        <option value="3">Stage 3</option>
+        <option value="4">Stage 4</option>
+      </select>
+
+      <select id="filter-line">
+        <option value="all">All Lines</option>
+        <option value="complete">Line Complete</option>
+        <option value="incomplete">Line Incomplete</option>
+      </select>
+
+      <select id="filter-evolvable">
+        <option value="all">All Evolvability</option>
+        <option value="yes">Evolvable Now</option>
+        <option value="no">Not Evolvable</option>
+      </select>
+
+      <select id="filter-special">
+        <option value="all">Special</option>
+        <option value="legendary">Legendary</option>
+        <option value="mythic">Mythic</option>
+        <option value="stone">Requires Stone</option>
+        <option value="trade">Requires Trade</option>
+      </select>
+
+      <button id="filter-reset">Reset</button>
+
+    </section>
+
 
 
     <!-- Pokédex Grid -->

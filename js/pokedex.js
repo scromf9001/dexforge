@@ -9,6 +9,16 @@ const jsonPath = `data/${userParam}.json`;
 
 console.log("Loading Pokédex from:", jsonPath);
 
+let allPokemon = [];
+let activeFilters = {
+  search: "",
+  ownership: "all",
+  type: "all",
+  stage: "all",
+  line: "all",
+  evolvable: "all",
+  special: "all"
+};
 
 document.addEventListener("click", (e) => {
   if (!e.target.classList.contains("tab")) return;
@@ -29,6 +39,9 @@ fetch(`${jsonPath}?v=${Date.now()}`)
     return response.json();
   })
   .then(data => {
+    allPokemon = data.pokemon;
+    populateTypeFilter(allPokemon);
+    renderPokemon(allPokemon);
     renderUser(data.user);
     renderPokemon(data.pokemon);
     renderTrainerSummary(data.trainer_stats);
@@ -558,6 +571,153 @@ function renderJourneyPokebag(bag) {
     </div>
   `;
 }
+
+// ---- FILTER BAR ----
+
+function applyFilters() {
+  const filtered = allPokemon.filter(pokemon => {
+
+    // Search
+    if (activeFilters.search &&
+        !pokemon.name.toLowerCase().includes(activeFilters.search))
+      return false;
+
+    // Ownership
+    if (activeFilters.ownership === "owned" && !pokemon.owned)
+      return false;
+
+    if (activeFilters.ownership === "unowned" && pokemon.owned)
+      return false;
+
+    // Type
+    if (activeFilters.type !== "all") {
+      const matchesPrimary = pokemon.primary_type.toLowerCase() === activeFilters.type;
+      const matchesSecondary = pokemon.secondary_type &&
+                               pokemon.secondary_type.toLowerCase() === activeFilters.type;
+      if (!matchesPrimary && !matchesSecondary)
+        return false;
+    }
+
+    // Stage
+    if (activeFilters.stage !== "all" &&
+        String(pokemon.evolution_stage) !== activeFilters.stage)
+      return false;
+
+    // Line status
+    if (activeFilters.line === "complete" && !pokemon.line_complete)
+      return false;
+
+    if (activeFilters.line === "incomplete" && pokemon.line_complete)
+      return false;
+
+    // Evolvable
+    if (activeFilters.evolvable === "yes" && !pokemon.evolvable_now)
+      return false;
+
+    if (activeFilters.evolvable === "no" && pokemon.evolvable_now)
+      return false;
+
+    // Special
+    if (activeFilters.special === "legendary" && !pokemon.legendary)
+      return false;
+
+    if (activeFilters.special === "mythic" && !pokemon.mythic)
+      return false;
+
+    if (activeFilters.special === "stone" && !pokemon.requires_stone)
+      return false;
+
+    if (activeFilters.special === "trade" && !pokemon.requires_trade)
+      return false;
+
+    return true;
+  });
+
+  renderPokemon(filtered);
+}
+
+function populateTypeFilter(pokemonList) {
+  const select = document.getElementById("filter-type");
+  if (!select) return;
+
+  const types = new Set();
+
+  pokemonList.forEach(p => {
+    types.add(p.primary_type.toLowerCase());
+    if (p.secondary_type && p.secondary_type !== "Null") {
+      types.add(p.secondary_type.toLowerCase());
+    }
+  });
+
+  Array.from(types).sort().forEach(type => {
+    const option = document.createElement("option");
+    option.value = type;
+    option.textContent = type.charAt(0).toUpperCase() + type.slice(1);
+    select.appendChild(option);
+  });
+}
+
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const search = document.getElementById("filter-search");
+  if (!search) return; // guard
+
+  search.addEventListener("input", e => {
+    activeFilters.search = e.target.value.toLowerCase();
+    applyFilters();
+  });
+
+  document.getElementById("filter-ownership")?.addEventListener("change", e => {
+    activeFilters.ownership = e.target.value;
+    applyFilters();
+  });
+
+  document.getElementById("filter-type")?.addEventListener("change", e => {
+    activeFilters.type = e.target.value;
+    applyFilters();
+  });
+
+  document.getElementById("filter-stage")?.addEventListener("change", e => {
+    activeFilters.stage = e.target.value;
+    applyFilters();
+  });
+
+  document.getElementById("filter-line")?.addEventListener("change", e => {
+    activeFilters.line = e.target.value;
+    applyFilters();
+  });
+
+  document.getElementById("filter-evolvable")?.addEventListener("change", e => {
+    activeFilters.evolvable = e.target.value;
+    applyFilters();
+  });
+
+  document.getElementById("filter-special")?.addEventListener("change", e => {
+    activeFilters.special = e.target.value;
+    applyFilters();
+  });
+
+  document.getElementById("filter-reset")?.addEventListener("click", () => {
+    activeFilters = {
+      search: "",
+      ownership: "all",
+      type: "all",
+      stage: "all",
+      line: "all",
+      evolvable: "all",
+      special: "all"
+    };
+
+    document.querySelectorAll(".filter-bar select").forEach(el => el.value = "all");
+    document.getElementById("filter-search").value = "";
+
+    applyFilters();
+  });
+
+});
+
+
 
 
 // ---- POKEMON LIST ----

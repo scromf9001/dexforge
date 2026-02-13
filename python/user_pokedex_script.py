@@ -375,6 +375,47 @@ def run():
                 total_evolutions_owned += 1
                 stage_owned[stage] = stage_owned.get(stage, 0) + 1
 
+    # =========================
+    # ENRICH POKEMON WITH EVOLUTION FLAGS
+    # =========================
+
+    # 1️⃣ Determine which evolution lines are complete
+    line_completion_map = {}
+
+    for line_id, line in evolution_lines.items():
+        is_complete = all(p["owned"] for p in line)
+        line_completion_map[line_id] = is_complete
+
+
+    # 2️⃣ Enrich each Pokémon
+    for p in pokemon_list:
+
+        # Normalize stage to int (important for filtering)
+        stage_int = safe_int(p["evolution_stage"], 0)
+        p["evolution_stage"] = stage_int
+
+        # Line complete flag
+        p["line_complete"] = line_completion_map.get(
+            p["evolution_line_id"], False
+        )
+
+        # Evolvable now logic:
+        # Must be owned
+        # Must require quantity
+        # Must have enough quantity
+        p["evolvable_now"] = (
+            p["owned"]
+            and p["quantity_required"] > 0
+            and p["count"] >= p["quantity_required"]
+        )
+
+        # Requirement detection
+        requirement_text = safe_str(p.get("requirement", "")).lower()
+
+        p["requires_stone"] = "stone" in requirement_text
+        p["requires_trade"] = "trade" in requirement_text
+
+
     # ---- REGION EVOLUTION LINES ----
     region_lines = {}
 

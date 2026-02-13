@@ -219,6 +219,10 @@
       "quantity_required": 3,
       "item_required": false,
       "requirement": "",
+      "line_complete": false,
+      "evolvable_now": true,
+      "requires_stone": true,
+      "requires_trade": false,
       "stats": {
         "hp": 45,
         "attack": 49,

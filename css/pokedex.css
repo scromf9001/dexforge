@@ -538,6 +538,44 @@ body {
 .item-master { background: #8E24AA; }
 .item-god { background: linear-gradient(45deg, gold, white); }
 
+
+/* =========================
+   FILTER BAR
+   ========================= */
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 20px;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  background: #fff;
+}
+
+.filter-bar input,
+.filter-bar select,
+.filter-bar button {
+  font-family: inherit;
+  font-size: 9px;
+  padding: 6px 8px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background: #f4f4f4;
+}
+
+.filter-bar input {
+  min-width: 140px;
+  flex: 1;
+}
+
+.filter-bar button {
+  background: #cc0000;
+  color: white;
+  cursor: pointer;
+}
+
+
 /* =========================
    POKEDEX GRID
    ========================= */
