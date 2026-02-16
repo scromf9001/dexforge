@@ -3,7 +3,7 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-16T05:45:08.365900+00:00",
+  "updated_at": "2026-02-16T05:51:57.310988+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -38,11 +38,8 @@
       "total_lines": 129,
       "stage_totals": {
         "1": 156,
-        "2": 86,
-        "3": 30,
-        "4": 4,
-        "6": 1,
-        "7": 1
+        "2": 92,
+        "3": 30
       },
       "stage_owned": {
         "1": 59,
@@ -176,8 +173,8 @@
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
       "streams_watched": 276,
-      "chat_messages": 6849,
-      "commands_run": 36252,
+      "chat_messages": 6850,
+      "commands_run": 36256,
       "times_evolved": 2,
       "times_traded": 1,
       "times_eggs_hatched": 1,
@@ -5307,7 +5304,7 @@
       "is_mythic": false,
       "is_hatchable": false,
       "evolution": false,
-      "evolution_stage": 3,
+      "evolution_stage": 2,
       "evolution_line_id": "67",
       "quantity_required": 0,
       "item_required": false,
@@ -5345,7 +5342,7 @@
       "is_mythic": false,
       "is_hatchable": false,
       "evolution": false,
-      "evolution_stage": "mega",
+      "evolution_stage": 2,
       "evolution_line_id": "67",
       "quantity_required": 0,
       "item_required": false,
@@ -5646,7 +5643,7 @@
       "region": "Kanto",
       "rarity": "common",
       "is_legendary": true,
-      "is_mythic": true,
+      "is_mythic": false,
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
@@ -5684,7 +5681,7 @@
       "region": "Kanto",
       "rarity": "common",
       "is_legendary": true,
-      "is_mythic": true,
+      "is_mythic": false,
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
@@ -6711,7 +6708,7 @@
       "rarity": "common",
       "is_legendary": false,
       "is_mythic": false,
-      "is_hatchable": false,
+      "is_hatchable": true,
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "10",
@@ -6749,7 +6746,7 @@
       "rarity": "common",
       "is_legendary": false,
       "is_mythic": false,
-      "is_hatchable": false,
+      "is_hatchable": true,
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "14",
@@ -6787,7 +6784,7 @@
       "rarity": "common",
       "is_legendary": false,
       "is_mythic": false,
-      "is_hatchable": false,
+      "is_hatchable": true,
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "16",
@@ -6825,7 +6822,7 @@
       "rarity": "common",
       "is_legendary": false,
       "is_mythic": false,
-      "is_hatchable": false,
+      "is_hatchable": true,
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "87",
@@ -7093,7 +7090,7 @@
       "is_mythic": false,
       "is_hatchable": false,
       "evolution": false,
-      "evolution_stage": "mega",
+      "evolution_stage": 3,
       "evolution_line_id": "18",
       "quantity_required": 0,
       "item_required": false,
@@ -7245,7 +7242,7 @@
       "is_mythic": false,
       "is_hatchable": false,
       "evolution": false,
-      "evolution_stage": "mega",
+      "evolution_stage": 3,
       "evolution_line_id": "26",
       "quantity_required": 0,
       "item_required": false,
@@ -7625,7 +7622,7 @@
       "is_mythic": false,
       "is_hatchable": false,
       "evolution": false,
-      "evolution_stage": 6,
+      "evolution_stage": 2,
       "evolution_line_id": "67",
       "quantity_required": 0,
       "item_required": false,
@@ -7663,7 +7660,7 @@
       "is_mythic": false,
       "is_hatchable": false,
       "evolution": false,
-      "evolution_stage": 7,
+      "evolution_stage": 2,
       "evolution_line_id": "67",
       "quantity_required": 0,
       "item_required": false,
@@ -7739,7 +7736,7 @@
       "is_mythic": false,
       "is_hatchable": false,
       "evolution": false,
-      "evolution_stage": 3,
+      "evolution_stage": 2,
       "evolution_line_id": "33",
       "quantity_required": 0,
       "item_required": false,
@@ -9805,8 +9802,8 @@
         "speed": 70
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 2.1,
+        "weight": 220.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/226.svg",
@@ -9843,8 +9840,8 @@
         "speed": 70
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 1.7,
+        "weight": 50.5
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/227.svg",
@@ -9881,8 +9878,8 @@
         "speed": 65
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 0.6,
+        "weight": 10.8
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/228.svg",
@@ -9919,8 +9916,8 @@
         "speed": 95
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 1.4,
+        "weight": 35.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/229.svg",
@@ -9957,8 +9954,8 @@
         "speed": 85
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 1.8,
+        "weight": 152.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/230.svg",
@@ -9995,8 +9992,8 @@
         "speed": 40
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 0.5,
+        "weight": 33.5
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/231.svg",
@@ -10033,8 +10030,8 @@
         "speed": 50
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 11.0,
+        "weight": 120.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/232.svg",
@@ -10071,8 +10068,8 @@
         "speed": 60
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 0.6,
+        "weight": 32.5
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/233.svg",
@@ -10109,8 +10106,8 @@
         "speed": 85
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 1.4,
+        "weight": 71.2
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/234.svg",
@@ -10147,8 +10144,8 @@
         "speed": 75
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 1.2,
+        "weight": 58.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/235.svg",
@@ -10169,7 +10166,7 @@
       "rarity": "common",
       "is_legendary": false,
       "is_mythic": false,
-      "is_hatchable": false,
+      "is_hatchable": true,
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "47",
@@ -10185,8 +10182,8 @@
         "speed": 35
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 0.7,
+        "weight": 21.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/236.svg",
@@ -10209,7 +10206,7 @@
       "is_mythic": false,
       "is_hatchable": false,
       "evolution": false,
-      "evolution_stage": "mega",
+      "evolution_stage": 2,
       "evolution_line_id": "47",
       "quantity_required": 0,
       "item_required": false,
@@ -10223,8 +10220,8 @@
         "speed": 70
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 1.4,
+        "weight": 48.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/237.svg",
@@ -10245,7 +10242,7 @@
       "rarity": "common",
       "is_legendary": false,
       "is_mythic": false,
-      "is_hatchable": false,
+      "is_hatchable": true,
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "59",
@@ -10261,8 +10258,8 @@
         "speed": 65
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 0.4,
+        "weight": 6.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/238.svg",
@@ -10283,7 +10280,7 @@
       "rarity": "common",
       "is_legendary": false,
       "is_mythic": false,
-      "is_hatchable": false,
+      "is_hatchable": true,
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "60",
@@ -10299,8 +10296,8 @@
         "speed": 95
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 0.6,
+        "weight": 23.5
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/239.svg",
@@ -10321,7 +10318,7 @@
       "rarity": "common",
       "is_legendary": false,
       "is_mythic": false,
-      "is_hatchable": false,
+      "is_hatchable": true,
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "61",
@@ -10337,8 +10334,8 @@
         "speed": 83
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 0.7,
+        "weight": 21.4
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/240.svg",
@@ -10375,8 +10372,8 @@
         "speed": 100
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 1.2,
+        "weight": 75.5
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/241.svg",
@@ -10413,8 +10410,8 @@
         "speed": 55
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 1.5,
+        "weight": 46.8
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/242.svg",
@@ -10451,8 +10448,8 @@
         "speed": 115
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 1.9,
+        "weight": 178.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/243.svg",
@@ -10489,8 +10486,8 @@
         "speed": 100
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 2.1,
+        "weight": 198.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/244.svg",
@@ -10527,8 +10524,8 @@
         "speed": 85
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 2.0,
+        "weight": 187.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/245.svg",
@@ -10565,8 +10562,8 @@
         "speed": 41
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 0.6,
+        "weight": 72.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/246.svg",
@@ -10603,8 +10600,8 @@
         "speed": 51
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 1.2,
+        "weight": 152.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/247.svg",
@@ -10641,8 +10638,8 @@
         "speed": 61
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 2.0,
+        "weight": 202.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/248.svg",
@@ -10679,8 +10676,8 @@
         "speed": 110
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 5.2,
+        "weight": 216.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/249.svg",
@@ -10717,8 +10714,8 @@
         "speed": 90
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 3.8,
+        "weight": 199.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/250.svg",
@@ -10755,8 +10752,8 @@
         "speed": 100
       },
       "physical": {
-        "height": 0.0,
-        "weight": 0.0
+        "height": 0.6,
+        "weight": 5.0
       },
       "pokedex_entry": "",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/251.svg",
