@@ -27,6 +27,68 @@ def safe_str(value, default=""):
     return str(value).strip()
 
 
+TYPE_CHART = {
+    "normal":  {"weak": ["fighting"], "resist": [], "immune": ["ghost"]},
+    "fire":    {"weak": ["water", "ground", "rock"], "resist": ["fire", "grass", "ice", "bug", "steel", "fairy"], "immune": []},
+    "water":   {"weak": ["electric", "grass"], "resist": ["fire", "water", "ice", "steel"], "immune": []},
+    "grass":   {"weak": ["fire", "ice", "poison", "flying", "bug"], "resist": ["water", "electric", "grass", "ground"], "immune": []},
+    "electric":{"weak": ["ground"], "resist": ["electric", "flying", "steel"], "immune": []},
+    "ice":     {"weak": ["fire", "fighting", "rock", "steel"], "resist": ["ice"], "immune": []},
+    "fighting":{"weak": ["flying", "psychic", "fairy"], "resist": ["bug", "rock", "dark"], "immune": []},
+    "poison":  {"weak": ["ground", "psychic"], "resist": ["grass", "fighting", "poison", "bug", "fairy"], "immune": []},
+    "ground":  {"weak": ["water", "grass", "ice"], "resist": ["poison", "rock"], "immune": ["electric"]},
+    "flying":  {"weak": ["electric", "ice", "rock"], "resist": ["grass", "fighting", "bug"], "immune": ["ground"]},
+    "psychic": {"weak": ["bug", "ghost", "dark"], "resist": ["fighting", "psychic"], "immune": []},
+    "bug":     {"weak": ["fire", "flying", "rock"], "resist": ["grass", "fighting", "ground"], "immune": []},
+    "rock":    {"weak": ["water", "grass", "fighting", "ground", "steel"], "resist": ["normal", "fire", "poison", "flying"], "immune": []},
+    "ghost":   {"weak": ["ghost", "dark"], "resist": ["poison", "bug"], "immune": ["normal", "fighting"]},
+    "dragon":  {"weak": ["ice", "dragon", "fairy"], "resist": ["fire", "water", "electric", "grass"], "immune": []},
+    "dark":    {"weak": ["fighting", "bug", "fairy"], "resist": ["ghost", "dark"], "immune": ["psychic"]},
+    "steel":   {"weak": ["fire", "fighting", "ground"], "resist": ["normal", "grass", "ice", "flying", "psychic", "bug", "rock", "dragon", "steel", "fairy"], "immune": ["poison"]},
+    "fairy":   {"weak": ["poison", "steel"], "resist": ["fighting", "bug", "dark"], "immune": ["dragon"]}
+}
+
+def calculate_type_matchups(primary, secondary=None):
+    primary = primary.lower()
+    secondary = secondary.lower() if secondary and secondary.lower() != "null" else None
+
+    all_types = TYPE_CHART.keys()
+    results = {}
+
+    for attack_type in all_types:
+        multiplier = 1.0
+
+        for defense_type in [primary, secondary]:
+            if not defense_type:
+                continue
+
+            if defense_type not in TYPE_CHART:
+                continue
+
+            chart = TYPE_CHART[defense_type]
+
+            if attack_type in chart["weak"]:
+                multiplier *= 2
+            elif attack_type in chart["resist"]:
+                multiplier *= 0.5
+            elif attack_type in chart["immune"]:
+                multiplier *= 0
+
+        if multiplier != 1:
+            results[attack_type] = multiplier
+
+    weaknesses = []
+    strengths = []
+
+    for t, mult in results.items():
+        if mult > 1:
+            weaknesses.append({"type": t, "multiplier": mult})
+        elif mult < 1:
+            strengths.append({"type": t, "multiplier": mult})
+
+    return strengths, weaknesses
+
+
 # =========================
 # MAIN SCRIPT
 # =========================
@@ -168,6 +230,48 @@ def run():
         })
 
     pokemon_list.sort(key=lambda x: x["pokedex_number"])
+
+    # ---- FULL EVOLUTION LINES ----
+
+    evolution_line_map = {}
+
+    for p in pokemon_list:
+        line_id = p["evolution_line_id"]
+        evolution_line_map.setdefault(line_id, []).append(p)
+
+    # sort each line by stage
+    for line_id, line in evolution_line_map.items():
+        evolution_line_map[line_id] = sorted(
+            line,
+            key=lambda x: safe_int(x["evolution_stage"], 0)
+        )
+
+
+    # ---- MATCHUPS & EVOLUTION LINE DATA TO EACH POKEMON ----
+
+    for p in pokemon_list:
+
+        strengths, weaknesses = calculate_type_matchups(
+            p["primary_type"],
+            p["secondary_type"]
+        )
+
+        p["strengths"] = strengths
+        p["weaknesses"] = weaknesses
+
+        line = evolution_line_map.get(p["evolution_line_id"], [])
+
+        p["evolution_line"] = [
+            {
+                "name": evo["name"],
+                "pokedex_number": evo["pokedex_number"],
+                "image": evo["image"],
+                "evolution_stage": evo["evolution_stage"]
+            }
+            for evo in line
+        ]
+
+
 
     # =========================
     # PARSE INVENTORY STATS

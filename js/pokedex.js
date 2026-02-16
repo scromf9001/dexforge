@@ -652,10 +652,10 @@ function applyFilters() {
       return false;
 
     // Special
-    if (activeFilters.special === "legendary" && !pokemon.legendary)
+    if (activeFilters.special === "legendary" && !pokemon.is_legendary)
       return false;
 
-    if (activeFilters.special === "mythic" && !pokemon.mythic)
+    if (activeFilters.special === "mythic" && !pokemon.is_mythic)
       return false;
 
     if (activeFilters.special === "hatchable" && !pokemon.is_hatchable)
