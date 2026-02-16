@@ -818,13 +818,11 @@ function openPokemonModal(pokedexNumber) {
 
   const pokemon = allPokemon[currentPokemonIndex];
 
-  // reset card classes
+  // Reset classes
   card.className = "pokemon-modal-card";
 
-  // add primary type accent
-  if (pokemon.primary_type) {
-    card.classList.add(pokemon.primary_type.toLowerCase());
-  }
+  // Add type class dynamically
+  card.classList.add(pokemon.primary_type.toLowerCase());
 
   renderPokemonModalContent(pokemon);
 
@@ -834,6 +832,7 @@ function openPokemonModal(pokedexNumber) {
     card.classList.add("active");
   }, 10);
 }
+
 
 function closePokemonModal() {
   const modal = document.getElementById("pokemon-modal");

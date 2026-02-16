@@ -611,7 +611,7 @@ body {
   overflow-y: auto;
 
   background: #ffffff;
-  border: 6px solid #222;
+  border: 6px solid transparent;
   border-radius: 20px;
   padding: 24px;
 
@@ -654,13 +654,31 @@ body {
   border: 2px solid #222;
   background: #eee;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: all 0.2s ease;
+  z-index: 5;
 }
 
-.modal-close:hover {
-  background: #c62828;
-  color: white;
-}
+.pokemon-modal-card.normal .modal-close:hover { background: #bdbdbd; color: #222; }
+.pokemon-modal-card.fire .modal-close:hover { background: #ef5350; color: white; }
+.pokemon-modal-card.water .modal-close:hover { background: #42a5f5; color: white; }
+.pokemon-modal-card.electric .modal-close:hover { background: #fdd835; color: #222; }
+.pokemon-modal-card.grass .modal-close:hover { background: #66bb6a; color: white; }
+.pokemon-modal-card.ice .modal-close:hover { background: #81d4fa; color: #222; }
+.pokemon-modal-card.fighting .modal-close:hover { background: #d84315; color: white; }
+.pokemon-modal-card.poison .modal-close:hover { background: #ab47bc; color: white; }
+.pokemon-modal-card.ground .modal-close:hover { background: #a1887f; color: white; }
+.pokemon-modal-card.flying .modal-close:hover { background: #90caf9; color: #222; }
+.pokemon-modal-card.psychic .modal-close:hover { background: #ec407a; color: white; }
+.pokemon-modal-card.bug .modal-close:hover { background: #9ccc65; color: #222; }
+.pokemon-modal-card.rock .modal-close:hover { background: #8d6e63; color: white; }
+.pokemon-modal-card.ghost .modal-close:hover { background: #7e57c2; color: white; }
+.pokemon-modal-card.dragon .modal-close:hover { background: #5c6bc0; color: white; }
+.pokemon-modal-card.dark .modal-close:hover { background: #424242; color: white; }
+.pokemon-modal-card.steel .modal-close:hover { background: #90a4ae; color: #222; }
+.pokemon-modal-card.fairy .modal-close:hover { background: #f48fb1; color: white; }
 
 .modal-nav {
   display: flex;
@@ -682,12 +700,25 @@ body {
   top: 0;
 }
 
-/* Navigation Arrows */
+/* =========================
+   MODAL HEADER
+========================= */
 
-#modal-prev,
-#modal-next {
-  position: absolute;
-  top: 14px;
+.modal-header {
+  display: grid;
+  grid-template-columns: 60px 1fr 60px;
+  align-items: center;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.modal-title {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.modal-arrow {
   width: 36px;
   height: 36px;
   border-radius: 10px;
@@ -698,20 +729,24 @@ body {
   font-family: inherit;
 }
 
-#modal-prev {
-  left: 14px;
-}
-
-#modal-next {
-  right: 60px; /* leaves space for close button */
-}
-
-#modal-prev:hover,
-#modal-next:hover {
-  background: #222;
-  color: white;
-  transform: scale(1.05);
-}
+.pokemon-modal-card.normal .modal-arrow:hover { background: #bdbdbd; color: #222; }
+.pokemon-modal-card.fire .modal-arrow:hover { background: #ef5350; color: white; }
+.pokemon-modal-card.water .modal-arrow:hover { background: #42a5f5; color: white; }
+.pokemon-modal-card.electric .modal-arrow:hover { background: #fdd835; color: #222; }
+.pokemon-modal-card.grass .modal-arrow:hover { background: #66bb6a; color: white; }
+.pokemon-modal-card.ice .modal-arrow:hover { background: #81d4fa; color: #222; }
+.pokemon-modal-card.fighting .modal-arrow:hover { background: #d84315; color: white; }
+.pokemon-modal-card.poison .modal-arrow:hover { background: #ab47bc; color: white; }
+.pokemon-modal-card.ground .modal-arrow:hover { background: #a1887f; color: white; }
+.pokemon-modal-card.flying .modal-arrow:hover { background: #90caf9; color: #222; }
+.pokemon-modal-card.psychic .modal-arrow:hover { background: #ec407a; color: white; }
+.pokemon-modal-card.bug .modal-arrow:hover { background: #9ccc65; color: #222; }
+.pokemon-modal-card.rock .modal-arrow:hover { background: #8d6e63; color: white; }
+.pokemon-modal-card.ghost .modal-arrow:hover { background: #7e57c2; color: white; }
+.pokemon-modal-card.dragon .modal-arrow:hover { background: #5c6bc0; color: white; }
+.pokemon-modal-card.dark .modal-arrow:hover { background: #424242; color: white; }
+.pokemon-modal-card.steel .modal-arrow:hover { background: #90a4ae; color: #222; }
+.pokemon-modal-card.fairy .modal-arrow:hover { background: #f48fb1; color: white; }
 
 .modal-grid {
   display: grid;
@@ -827,14 +862,33 @@ body {
 
 .owned-badge {
   position: absolute;
-  top: 14px;
-  left: 60px; 
-  background: #2e7d32;
+  top: 16px;
+  left: 16px;
   color: white;
   padding: 4px 10px;
   border-radius: 6px;
   font-size: 11px;
+  font-weight: bold;
 }
+
+.pokemon-modal-card.normal .owned-badge { background: #bdbdbd; color: #222; }
+.pokemon-modal-card.fire .owned-badge { background: #ef5350; }
+.pokemon-modal-card.water .owned-badge { background: #42a5f5; }
+.pokemon-modal-card.electric .owned-badge { background: #fdd835; color: #222; }
+.pokemon-modal-card.grass .owned-badge { background: #66bb6a; }
+.pokemon-modal-card.ice .owned-badge { background: #81d4fa; color: #222; }
+.pokemon-modal-card.fighting .owned-badge { background: #d84315; }
+.pokemon-modal-card.poison .owned-badge { background: #ab47bc; }
+.pokemon-modal-card.ground .owned-badge { background: #a1887f; }
+.pokemon-modal-card.flying .owned-badge { background: #90caf9; color: #222; }
+.pokemon-modal-card.psychic .owned-badge { background: #ec407a; }
+.pokemon-modal-card.bug .owned-badge { background: #9ccc65; color: #222; }
+.pokemon-modal-card.rock .owned-badge { background: #8d6e63; }
+.pokemon-modal-card.ghost .owned-badge { background: #7e57c2; }
+.pokemon-modal-card.dragon .owned-badge { background: #5c6bc0; }
+.pokemon-modal-card.dark .owned-badge { background: #424242; }
+.pokemon-modal-card.steel .owned-badge { background: #90a4ae; color: #222; }
+.pokemon-modal-card.fairy .owned-badge { background: #f48fb1; }
 
 /* =========================
    POKEDEX GRID
