@@ -812,6 +812,8 @@ let currentPokemonIndex = null;
 function openPokemonModal(pokedexNumber) {
   const modal = document.getElementById("pokemon-modal");
   const card = document.getElementById("pokemon-modal-card");
+    card.className = "pokemon-modal-card";
+    card.classList.add(pokemon.primary_type.toLowerCase());
 
   currentPokemonIndex = allPokemon.findIndex(
     p => p.pokedex_number === pokedexNumber
@@ -886,6 +888,17 @@ function renderPokemonModalContent(pokemon) {
     <div class="modal-grid">
 
       <div class="modal-left">
+
+        ${pokemon.owned ? `<div class="owned-badge">OWNED</div>` : ""}
+
+        <div class="modal-tags">
+          ${pokemon.is_legendary ? `<span class="tag legendary">Legendary</span>` : ""}
+          ${pokemon.is_mythic ? `<span class="tag mythic">Mythic</span>` : ""}
+          ${pokemon.is_hatchable ? `<span class="tag hatchable">Hatchable</span>` : ""}
+          ${pokemon.requires_stone ? `<span class="tag stone">Stone</span>` : ""}
+          ${pokemon.requires_trade ? `<span class="tag trade">Trade</span>` : ""}
+        </div>
+
         <img src="${pokemon.image}" class="modal-main-image">
 
         <div class="modal-types">
@@ -900,6 +913,15 @@ function renderPokemonModalContent(pokemon) {
             : ""
           }
         </div>
+
+        <div class="modal-physical">
+          <div>Height: ${pokemon.physical.height} m</div>
+          <div>Weight: ${pokemon.physical.weight} kg</div>
+        </div>
+
+        <p class="modal-entry">${pokemon.pokedex_entry || "No entry available."}</p>
+
+      </div>
 
         <p class="modal-entry">${pokemon.pokedex_entry || "No entry available."}</p>
       </div>
@@ -947,16 +969,22 @@ function renderPokemonModalContent(pokemon) {
 function renderStatBar(label, value) {
   const percent = Math.min(value, 150) / 150 * 100;
 
+  const key = label
+    .toLowerCase()
+    .replace(".", "")
+    .replace(" ", "_");
+
   return `
     <div class="modal-stat">
       <span>${label}</span>
       <div class="modal-stat-bar">
-        <div class="modal-stat-fill" style="width:${percent}%"></div>
+        <div class="modal-stat-fill ${key}" style="width:${percent}%"></div>
       </div>
       <span>${value}</span>
     </div>
   `;
 }
+
 
 
 
