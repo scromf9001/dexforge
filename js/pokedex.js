@@ -773,6 +773,9 @@ function renderPokemon(pokemonList) {
 
     li.classList.add(pokemon.owned ? "owned" : "unowned");
 
+    li.addEventListener("click", () => {
+      openPokemonModal(pokemon.pokedex_number);
+    });
 
     li.innerHTML = `
       <img 
@@ -801,5 +804,159 @@ function renderPokemon(pokemonList) {
 
 
 }
+
+// ---- POKEMON CARD ----
+
+let currentPokemonIndex = null;
+
+function openPokemonModal(pokedexNumber) {
+  const modal = document.getElementById("pokemon-modal");
+  const card = document.getElementById("pokemon-modal-card");
+
+  currentPokemonIndex = allPokemon.findIndex(
+    p => p.pokedex_number === pokedexNumber
+  );
+
+  renderPokemonModalContent(allPokemon[currentPokemonIndex]);
+
+  modal.classList.remove("hidden");
+
+  setTimeout(() => {
+    card.classList.add("active");
+  }, 10);
+}
+
+function closePokemonModal() {
+  const modal = document.getElementById("pokemon-modal");
+  const card = document.getElementById("pokemon-modal-card");
+
+  card.classList.remove("active");
+
+  setTimeout(() => {
+    modal.classList.add("hidden");
+  }, 300);
+}
+
+// NAVIGATION
+
+document.getElementById("modal-prev").addEventListener("click", () => {
+  if (currentPokemonIndex > 0) {
+    currentPokemonIndex--;
+    renderPokemonModalContent(allPokemon[currentPokemonIndex]);
+  }
+});
+
+document.getElementById("modal-next").addEventListener("click", () => {
+  if (currentPokemonIndex < allPokemon.length - 1) {
+    currentPokemonIndex++;
+    renderPokemonModalContent(allPokemon[currentPokemonIndex]);
+  }
+});
+
+document.querySelector(".modal-close").addEventListener("click", closePokemonModal);
+
+document.querySelector(".pokemon-modal-backdrop").addEventListener("click", closePokemonModal);
+
+// RENDER POKEMON MODAL CONTENT
+
+function renderPokemonModalContent(pokemon) {
+  document.getElementById("modal-title").textContent =
+    `${pokemon.name} #${String(pokemon.pokedex_number).padStart(4, "0")}`;
+
+  const strengthsHTML = pokemon.strengths.map(s =>
+    `<span class="type ${s.type}">
+      ${s.type.toUpperCase()} x${s.multiplier}
+    </span>`
+  ).join("");
+
+  const weaknessesHTML = pokemon.weaknesses.map(w =>
+    `<span class="type ${w.type}">
+      ${w.type.toUpperCase()} x${w.multiplier}
+    </span>`
+  ).join("");
+
+  const evolutionHTML = pokemon.evolution_line.map(evo => `
+    <div class="modal-evo" data-dex="${evo.pokedex_number}">
+      <img src="${evo.image}">
+      <div>#${String(evo.pokedex_number).padStart(3,"0")}</div>
+    </div>
+  `).join("");
+
+  document.getElementById("modal-content").innerHTML = `
+    <div class="modal-grid">
+
+      <div class="modal-left">
+        <img src="${pokemon.image}" class="modal-main-image">
+
+        <div class="modal-types">
+          <span class="type ${pokemon.primary_type.toLowerCase()}">
+            ${pokemon.primary_type}
+          </span>
+          ${
+            pokemon.secondary_type
+            ? `<span class="type ${pokemon.secondary_type.toLowerCase()}">
+                ${pokemon.secondary_type}
+              </span>`
+            : ""
+          }
+        </div>
+
+        <p class="modal-entry">${pokemon.pokedex_entry || "No entry available."}</p>
+      </div>
+
+      <div class="modal-right">
+        <div class="modal-stats">
+          ${renderStatBar("HP", pokemon.stats.hp)}
+          ${renderStatBar("Attack", pokemon.stats.attack)}
+          ${renderStatBar("Defense", pokemon.stats.defense)}
+          ${renderStatBar("Sp. Atk", pokemon.stats.sp_attack)}
+          ${renderStatBar("Sp. Def", pokemon.stats.sp_defense)}
+          ${renderStatBar("Speed", pokemon.stats.speed)}
+        </div>
+
+        <div class="modal-weakness">
+          <h4>Weaknesses</h4>
+          ${weaknessesHTML}
+        </div>
+
+        <div class="modal-strength">
+          <h4>Resistances</h4>
+          ${strengthsHTML}
+        </div>
+
+        <div class="modal-evolution">
+          <h4>Evolution Line</h4>
+          <div class="modal-evo-row">
+            ${evolutionHTML}
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+
+  document.querySelectorAll(".modal-evo").forEach(el => {
+    el.addEventListener("click", () => {
+      const dex = Number(el.dataset.dex);
+      openPokemonModal(dex);
+    });
+  });
+}
+
+// STAT BAR HELPER
+
+function renderStatBar(label, value) {
+  const percent = Math.min(value, 150) / 150 * 100;
+
+  return `
+    <div class="modal-stat">
+      <span>${label}</span>
+      <div class="modal-stat-bar">
+        <div class="modal-stat-fill" style="width:${percent}%"></div>
+      </div>
+      <span>${value}</span>
+    </div>
+  `;
+}
+
 
 
