@@ -535,8 +535,8 @@ body {
 .item-poke { background: #E53935; }
 .item-great { background: #1E88E5; }
 .item-ultra { background: #FBC02D; }
-.item-master { background: #8E24AA; }
-.item-god { background: linear-gradient(45deg, gold, white); }
+.item-master { background: #8E24AA; color: #fff;}
+.item-god { background: linear-gradient(45deg, gold, black); }
 
 
 /* =========================
