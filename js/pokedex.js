@@ -44,7 +44,6 @@ fetch(`${jsonPath}?v=${Date.now()}`)
     buildStageFilter(allPokemon);
     renderPokemon(allPokemon);
     renderUser(data.user);
-    renderPokemon(data.pokemon);
     renderTrainerSummary(data.trainer_stats);
     renderRegions(data.trainer_stats);
     renderTypeMastery(data.trainer_stats);
@@ -812,14 +811,22 @@ let currentPokemonIndex = null;
 function openPokemonModal(pokedexNumber) {
   const modal = document.getElementById("pokemon-modal");
   const card = document.getElementById("pokemon-modal-card");
-    card.className = "pokemon-modal-card";
-    card.classList.add(pokemon.primary_type.toLowerCase());
 
   currentPokemonIndex = allPokemon.findIndex(
     p => p.pokedex_number === pokedexNumber
   );
 
-  renderPokemonModalContent(allPokemon[currentPokemonIndex]);
+  const pokemon = allPokemon[currentPokemonIndex];
+
+  // reset card classes
+  card.className = "pokemon-modal-card";
+
+  // add primary type accent
+  if (pokemon.primary_type) {
+    card.classList.add(pokemon.primary_type.toLowerCase());
+  }
+
+  renderPokemonModalContent(pokemon);
 
   modal.classList.remove("hidden");
 
@@ -907,10 +914,10 @@ function renderPokemonModalContent(pokemon) {
           </span>
           ${
             pokemon.secondary_type
-            ? `<span class="type ${pokemon.secondary_type.toLowerCase()}">
-                ${pokemon.secondary_type}
-              </span>`
-            : ""
+              ? `<span class="type ${pokemon.secondary_type.toLowerCase()}">
+                  ${pokemon.secondary_type}
+                </span>`
+              : ""
           }
         </div>
 
@@ -919,14 +926,14 @@ function renderPokemonModalContent(pokemon) {
           <div>Weight: ${pokemon.physical.weight} kg</div>
         </div>
 
-        <p class="modal-entry">${pokemon.pokedex_entry || "No entry available."}</p>
+        <p class="modal-entry">
+          ${pokemon.pokedex_entry || "No entry available."}
+        </p>
 
-      </div>
-
-        <p class="modal-entry">${pokemon.pokedex_entry || "No entry available."}</p>
       </div>
 
       <div class="modal-right">
+
         <div class="modal-stats">
           ${renderStatBar("HP", pokemon.stats.hp)}
           ${renderStatBar("Attack", pokemon.stats.attack)}
@@ -952,9 +959,12 @@ function renderPokemonModalContent(pokemon) {
             ${evolutionHTML}
           </div>
         </div>
+
       </div>
+
     </div>
   `;
+
 
   document.querySelectorAll(".modal-evo").forEach(el => {
     el.addEventListener("click", () => {
