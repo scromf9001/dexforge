@@ -41,6 +41,7 @@ fetch(`${jsonPath}?v=${Date.now()}`)
   .then(data => {
     allPokemon = data.pokemon;
     populateTypeFilter(allPokemon);
+    buildStageFilter(allPokemon);
     renderPokemon(allPokemon);
     renderUser(data.user);
     renderPokemon(data.pokemon);
@@ -58,6 +59,39 @@ function renderUser(user) {
   document.getElementById("trainer-name").textContent = user.username;
   document.getElementById("trainer-avatar").src = user.avatar;
 }
+
+function buildStageFilter(pokemonList) {
+  const stageSelect = document.getElementById("filter-stage");
+
+  // Get unique stages from dataset
+  const stages = [...new Set(
+    pokemonList.map(p => p.evolution_stage)
+  )];
+
+  // Sort numerically but keep "mega" last
+  stages.sort((a, b) => {
+    if (a === "mega") return 1;
+    if (b === "mega") return -1;
+    return Number(a) - Number(b);
+  });
+
+  stages.forEach(stage => {
+    if (!stage) return;
+
+    const option = document.createElement("option");
+
+    if (stage === "mega") {
+      option.value = "mega";
+      option.textContent = "Mega";
+    } else {
+      option.value = String(stage);
+      option.textContent = `Stage ${stage}`;
+    }
+
+    stageSelect.appendChild(option);
+  });
+}
+
 
 // ---- SUMMARY TRAINER CARD ----
 
@@ -622,6 +656,9 @@ function applyFilters() {
       return false;
 
     if (activeFilters.special === "mythic" && !pokemon.mythic)
+      return false;
+
+    if (activeFilters.special === "hatchable" && !pokemon.is_hatchable)
       return false;
 
     if (activeFilters.special === "stone" && !pokemon.requires_stone)

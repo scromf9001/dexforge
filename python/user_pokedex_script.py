@@ -82,7 +82,7 @@ def run():
                 "rarity": safe_str(row.get("rarity"), "common"),
                 "is_legendary": safe_str(row.get("is_legendary"), "false").lower() == "true",
                 "is_mythic": safe_str(row.get("is_mythic"), "false").lower() == "true",
-
+                "is_hatchable": safe_str(row.get("is_hatchable"), "false").lower() == "true",
 
                 "evolution": safe_str(row.get("evolution"), "false").lower() == "true",
                 "evolution_stage": safe_str(row.get("evolution_stage"), "unknown"),
@@ -150,7 +150,7 @@ def run():
             "rarity": meta["rarity"],
             "is_legendary": meta["is_legendary"],
             "is_mythic": meta["is_mythic"],
-
+            "is_hatchable": meta["is_hatchable"],
 
             "evolution": meta["evolution"],
             "evolution_stage": meta["evolution_stage"],
@@ -392,7 +392,12 @@ def run():
 
         # Normalize stage to int (important for filtering)
         stage_int = safe_int(p["evolution_stage"], 0)
-        p["evolution_stage"] = stage_int
+
+        if stage_int == 4:
+            p["evolution_stage"] = "mega"
+        else:
+            p["evolution_stage"] = stage_int
+
 
         # Line complete flag
         p["line_complete"] = line_completion_map.get(
