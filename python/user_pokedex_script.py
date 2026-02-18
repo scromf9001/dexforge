@@ -151,11 +151,14 @@ def run():
             # STORE METADATA
             # ----------------------------
 
+            secondary_raw = safe_str(row.get("secondary_type")).lower()
+            secondary_type = None if secondary_raw in ["", "null"] else secondary_raw.capitalize()
+
             pokemon_metadata[name_key] = {
                 "name": safe_str(row.get("name")),
                 "pokedex_number": pokedex_number,
                 "primary_type": safe_str(row.get("primary_type"), "Unknown"),
-                "secondary_type": safe_str(row.get("secondary_type")) or None,
+                "secondary_type": secondary_type,
 
                 "generation": safe_int(row.get("generation")),
                 "region": safe_str(row.get("region"), "Unknown"),
@@ -245,7 +248,7 @@ def run():
             "physical": meta["physical"],
             "pokedex_entry": meta["pokedex_entry"],
 
-            "image": image_url
+            "image": meta["image"]
 
         })
 
