@@ -130,8 +130,11 @@ def run():
             if not name_key:
                 continue
             raw_number = safe_float(row.get("number"))
+            
             if not raw_number.is_integer():
                 continue
+
+            internal_id = safe_int(raw_number)
 
             pokemon_metadata[name_key] = {
                 "name": safe_str(row.get("name")),
@@ -226,7 +229,19 @@ def run():
             "physical": meta["physical"],
             "pokedex_entry": meta["pokedex_entry"],
 
-            "image": f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/{meta['pokedex_number']}.svg"
+            # Image URL construction logic:
+            base_url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world"
+
+            form = safe_str(row.get("form")).lower()
+
+            if form:
+                image_url = f"{base_url}/{meta['pokedex_number']}-{form}.svg"
+            else:
+                image_url = f"{base_url}/{meta['pokedex_number']}.svg"
+
+
+            "image": image_url
+
         })
 
     pokemon_list.sort(key=lambda x: x["pokedex_number"])

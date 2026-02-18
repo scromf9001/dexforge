@@ -791,8 +791,12 @@ function renderPokemon(pokemonList) {
       <div class="pokemon-types">
         <span class="type ${pokemon.primary_type.toLowerCase()}">${pokemon.primary_type}</span>
         ${
-          pokemon.secondary_type && pokemon.secondary_type !== "Null"
-            ? `<span class="type ${pokemon.secondary_type.toLowerCase()}">${pokemon.secondary_type}</span>`
+          pokemon.secondary_type &&
+          pokemon.secondary_type !== "Null" &&
+          pokemon.secondary_type !== "null"
+            ? `<span class="type ${pokemon.secondary_type.toLowerCase()}">
+                ${pokemon.secondary_type}
+              </span>`
             : ""
         }
       </div>
@@ -870,6 +874,13 @@ document.querySelector(".pokemon-modal-backdrop").addEventListener("click", clos
 function renderPokemonModalContent(pokemon) {
   document.getElementById("modal-title").textContent =
     `${pokemon.name} #${String(pokemon.pokedex_number).padStart(4, "0")}`;
+
+  const titleEl = document.getElementById("modal-title");
+
+  titleEl.innerHTML = `
+    ${pokemon.name} #${String(pokemon.pokedex_number).padStart(4, "0")}
+    ${pokemon.owned ? `<div class="owned-badge">OWNED</div>` : ""}
+  `;
 
   const strengthsHTML = pokemon.strengths.map(s =>
     `<span class="type ${s.type}">
