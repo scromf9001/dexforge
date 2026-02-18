@@ -129,16 +129,31 @@ def run():
             name_key = safe_str(row.get("name")).lower()
             if not name_key:
                 continue
+
             raw_number = safe_float(row.get("number"))
-            
             if not raw_number.is_integer():
                 continue
 
-            internal_id = safe_int(raw_number)
+            # ----------------------------
+            # IMAGE LOGIC (FORM SUPPORT)
+            # ----------------------------
+
+            base_url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world"
+            pokedex_number = safe_int(row.get("pokedex_number"))
+            form = safe_str(row.get("form")).lower()
+
+            if form:
+                image_url = f"{base_url}/{pokedex_number}-{form}.svg"
+            else:
+                image_url = f"{base_url}/{pokedex_number}.svg"
+
+            # ----------------------------
+            # STORE METADATA
+            # ----------------------------
 
             pokemon_metadata[name_key] = {
                 "name": safe_str(row.get("name")),
-                "pokedex_number": safe_int(row.get("pokedex_number")),
+                "pokedex_number": pokedex_number,
                 "primary_type": safe_str(row.get("primary_type"), "Unknown"),
                 "secondary_type": safe_str(row.get("secondary_type")) or None,
 
@@ -172,6 +187,7 @@ def run():
                 },
 
                 "pokedex_entry": safe_str(row.get("pokedex_entry")),
+                "image": image_url
             }
 
     # =========================
@@ -228,17 +244,6 @@ def run():
             "stats": meta["stats"],
             "physical": meta["physical"],
             "pokedex_entry": meta["pokedex_entry"],
-
-            # Image URL construction logic:
-            base_url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world"
-
-            form = safe_str(row.get("form")).lower()
-
-            if form:
-                image_url = f"{base_url}/{meta['pokedex_number']}-{form}.svg"
-            else:
-                image_url = f"{base_url}/{meta['pokedex_number']}.svg"
-
 
             "image": image_url
 
