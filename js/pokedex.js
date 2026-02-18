@@ -879,6 +879,7 @@ function renderPokemonModalContent(pokemon) {
 
   titleEl.innerHTML = `
     ${pokemon.name} #${String(pokemon.pokedex_number).padStart(4, "0")}
+  `;
 
   const strengthsHTML = pokemon.strengths.map(s =>
     `<span class="type ${s.type}">
