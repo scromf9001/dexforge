@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pokédex</title>
+
+  <!-- Pokémon-style font (optional but nice) -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/pokedex.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<div id="pokemon-modal" class="pokemon-modal hidden">
+  <div class="pokemon-modal-backdrop"></div>
+
+  <div class="pokemon-modal-card" id="pokemon-modal-card">
+    <button class="modal-close">✕</button>
+
+    <div class="modal-header">
+      <button id="modal-prev" class="modal-arrow">◀</button>
+      <div id="modal-title" class="modal-title"></div>
+      <button id="modal-next" class="modal-arrow">▶</button>
+    </div>
+
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+
+<body>
+  <div id="pokedex-app">
+
+    <!-- Header / User Info -->
+    <header class="trainer-header">
+      <img id="trainer-avatar" src="assets/placeholder.png" alt="Trainer Avatar">
+      <div class="trainer-info">
+        <h1 id="trainer-name">Trainer Name</h1>
+      </div>
+    </header>
+
+     <!-- Trainer Card (Stats)-->
+    <section class="trainer-card">
+      <div class="trainer-tabs">
+        <button class="tab active" data-tab="summary">Summary</button>
+        <button class="tab" data-tab="regions">Regions</button>
+        <button class="tab" data-tab="types">Type Mastery</button>
+        <button class="tab" data-tab="capture">Capture Performance</button>
+        <button class="tab" data-tab="journey">Trainer Journey</button>
+      </div>
+
+      <div class="trainer-content">
+        <div class="tab-panel active" id="tab-summary">
+          <div class="trainer-dashboard">
+
+            <!-- CORE STATS -->
+            <div class="dashboard-stats">
+              <div class="stat-tile">
+                <strong id="stat-total">--</strong>
+                <span>Total Pokémon</span>
+              </div>
+
+              <div class="stat-tile">
+                <strong id="stat-unique">--</strong>
+                <span>Unique Pokémon</span>
+              </div>
+
+              <div class="stat-tile">
+                <strong id="stat-lines">--</strong>
+                <span>Evolution Lines Completed</span>
+              </div>
+
+              <div class="stat-tile">
+                <strong id="stat-balls">--</strong>
+                <span>Balls Thrown</span>
+              </div>
+            </div>
+
+
+            <!-- PROGRESS BARS -->
+            <div class="dashboard-progress">
+
+              <div class="progress-block">
+                <div class="progress-header">
+                  <span>Pokédex Completion</span>
+                  <strong id="progress-pokedex">--%</strong>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" id="progress-fill-pokedex"></div>
+                </div>
+              </div>
+
+              <div class="progress-block">
+                <div class="progress-header">
+                  <span>Evolution Line Completion</span>
+                  <strong id="progress-lines">--%</strong>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" id="progress-fill-lines"></div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="tab-panel" id="tab-regions"></div>
+        <div class="tab-panel" id="tab-types"></div>
+        <div class="tab-panel" id="tab-capture"></div>
+        <div class="tab-panel" id="tab-journey"></div>
+      </div>
+    </section>
+
+     <!-- Filter Bar -->
+    <section class="filter-bar">
+
+      <input type="text" id="filter-search" placeholder="Search Pokémon...">
+
+      <select id="filter-ownership">
+        <option value="all">All</option>
+        <option value="owned">Owned</option>
+        <option value="unowned">Unowned</option>
+      </select>
+
+      <select id="filter-type">
+        <option value="all">All Types</option>
+      </select>
+
+      <select id="filter-stage">
+        <option value="all">Any Stage</option>
+      </select>
+
+      <select id="filter-line">
+        <option value="all">All Lines</option>
+        <option value="complete">Line Complete</option>
+        <option value="incomplete">Line Incomplete</option>
+      </select>
+
+      <select id="filter-evolvable">
+        <option value="all">All Evolvability</option>
+        <option value="yes">Evolvable Now</option>
+        <option value="no">Not Evolvable</option>
+      </select>
+
+      <select id="filter-special">
+        <option value="all">Special</option>
+        <option value="legendary">Legendary</option>
+        <option value="mythic">Mythic</option>
+        <option value="hatchable">Hatchable</option>
+        <option value="stone">Requires Stone</option>
+        <option value="trade">Requires Trade</option>
+      </select>
+
+      <button id="filter-reset">Reset</button>
+
+    </section>
+
+
+
+    <!-- Pokédex Grid -->
+    <main>
+      <ul id="pokedex-grid">
+        <!-- Pokémon cards injected here by JS -->
+      </ul>
+    </main>
+
+  </div>
+
+  <!-- JS -->
+  <script src="js/pokedex.js"></script>
+</body>
+</html>

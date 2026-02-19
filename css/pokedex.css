@@ -1,3 +1,81 @@
+/* =========================
+   LANDING PAGE
+========================= */
+
+.landing-page {
+  background: linear-gradient(135deg, #1f1f1f, #2c2c2c);
+  color: white;
+  font-family: 'Press Start 2P', monospace;
+  padding: 40px 20px;
+}
+
+.landing-container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.landing-intro {
+  margin: 20px 0 40px;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.landing-section {
+  margin-bottom: 40px;
+}
+
+.landing-section h2 {
+  margin-bottom: 15px;
+}
+
+.landing-section pre {
+  background: #111;
+  padding: 8px 12px;
+  display: inline-block;
+  border-radius: 8px;
+  margin: 6px;
+  font-size: 12px;
+}
+
+.landing-actions {
+  margin-top: 50px;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 12px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 12px;
+  transition: 0.2s ease;
+}
+
+.btn-primary {
+  background: #9146FF;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #772ce8;
+}
+
+.btn-secondary {
+  background: #444;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: #666;
+}
+
+
+/* =========================
+   POKEDEX PAGE
+========================= */
+
 body {
   margin: 0;
   background: #e60012;

@@ -1,177 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Pokédex</title>
-
-  <!-- Pokémon-style font (optional but nice) -->
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/pokedex.css">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
+  <meta charset="UTF-8">
+  <title>Pokémon Stream System</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+<body class="landing-page">
 
-<div id="pokemon-modal" class="pokemon-modal hidden">
-  <div class="pokemon-modal-backdrop"></div>
+  <div class="landing-container">
 
-  <div class="pokemon-modal-card" id="pokemon-modal-card">
-    <button class="modal-close">✕</button>
+    <h1>Catch Pokémon Live on Stream</h1>
 
-    <div class="modal-header">
-      <button id="modal-prev" class="modal-arrow">◀</button>
-      <div id="modal-title" class="modal-title"></div>
-      <button id="modal-next" class="modal-arrow">▶</button>
+    <p class="landing-intro">
+      Build your Pokédex. Evolve your team. Trade with other Trainers.
+      Everything happens live in chat.
+    </p>
+
+    <div class="landing-section">
+      <h2>🎯 How To Catch</h2>
+      <pre>!catch</pre>
+      <pre>!catch item name</pre>
+      <pre>!pokebag</pre>
     </div>
 
-    <div id="modal-content"></div>
-  </div>
-</div>
+    <div class="landing-section">
+      <h2>📘 Your Pokédex</h2>
+      <pre>!pokedex all</pre>
+      <pre>!pokedex total</pre>
+      <pre>!pokedex pokemon_name</pre>
+      <pre>!pokedex evolve</pre>
+      <pre>!evolve pokemon_name</pre>
+    </div>
 
+    <div class="landing-section">
+      <h2>🔄 Trade & Share</h2>
+      <pre>!give</pre>
+      <pre>!trade</pre>
+      <pre>!barter</pre>
+    </div>
 
-<body>
-  <div id="pokedex-app">
+    <div class="landing-section">
+      <h2>📜 Full Command List</h2>
+      <pre>!commands pokemon</pre>
+    </div>
 
-    <!-- Header / User Info -->
-    <header class="trainer-header">
-      <img id="trainer-avatar" src="assets/placeholder.png" alt="Trainer Avatar">
-      <div class="trainer-info">
-        <h1 id="trainer-name">Trainer Name</h1>
-      </div>
-    </header>
+    <div class="landing-actions">
+      <a href="https://twitch.tv/YOURCHANNEL" target="_blank" class="btn-primary">
+        Watch Live on Twitch
+      </a>
 
-     <!-- Trainer Card (Stats)-->
-    <section class="trainer-card">
-      <div class="trainer-tabs">
-        <button class="tab active" data-tab="summary">Summary</button>
-        <button class="tab" data-tab="regions">Regions</button>
-        <button class="tab" data-tab="types">Type Mastery</button>
-        <button class="tab" data-tab="capture">Capture Performance</button>
-        <button class="tab" data-tab="journey">Trainer Journey</button>
-      </div>
-
-      <div class="trainer-content">
-        <div class="tab-panel active" id="tab-summary">
-          <div class="trainer-dashboard">
-
-            <!-- CORE STATS -->
-            <div class="dashboard-stats">
-              <div class="stat-tile">
-                <strong id="stat-total">--</strong>
-                <span>Total Pokémon</span>
-              </div>
-
-              <div class="stat-tile">
-                <strong id="stat-unique">--</strong>
-                <span>Unique Pokémon</span>
-              </div>
-
-              <div class="stat-tile">
-                <strong id="stat-lines">--</strong>
-                <span>Evolution Lines Completed</span>
-              </div>
-
-              <div class="stat-tile">
-                <strong id="stat-balls">--</strong>
-                <span>Balls Thrown</span>
-              </div>
-            </div>
-
-
-            <!-- PROGRESS BARS -->
-            <div class="dashboard-progress">
-
-              <div class="progress-block">
-                <div class="progress-header">
-                  <span>Pokédex Completion</span>
-                  <strong id="progress-pokedex">--%</strong>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress-fill" id="progress-fill-pokedex"></div>
-                </div>
-              </div>
-
-              <div class="progress-block">
-                <div class="progress-header">
-                  <span>Evolution Line Completion</span>
-                  <strong id="progress-lines">--%</strong>
-                </div>
-                <div class="progress-bar">
-                  <div class="progress-fill" id="progress-fill-lines"></div>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-        <div class="tab-panel" id="tab-regions"></div>
-        <div class="tab-panel" id="tab-types"></div>
-        <div class="tab-panel" id="tab-capture"></div>
-        <div class="tab-panel" id="tab-journey"></div>
-      </div>
-    </section>
-
-     <!-- Filter Bar -->
-    <section class="filter-bar">
-
-      <input type="text" id="filter-search" placeholder="Search Pokémon...">
-
-      <select id="filter-ownership">
-        <option value="all">All</option>
-        <option value="owned">Owned</option>
-        <option value="unowned">Unowned</option>
-      </select>
-
-      <select id="filter-type">
-        <option value="all">All Types</option>
-      </select>
-
-      <select id="filter-stage">
-        <option value="all">Any Stage</option>
-      </select>
-
-      <select id="filter-line">
-        <option value="all">All Lines</option>
-        <option value="complete">Line Complete</option>
-        <option value="incomplete">Line Incomplete</option>
-      </select>
-
-      <select id="filter-evolvable">
-        <option value="all">All Evolvability</option>
-        <option value="yes">Evolvable Now</option>
-        <option value="no">Not Evolvable</option>
-      </select>
-
-      <select id="filter-special">
-        <option value="all">Special</option>
-        <option value="legendary">Legendary</option>
-        <option value="mythic">Mythic</option>
-        <option value="hatchable">Hatchable</option>
-        <option value="stone">Requires Stone</option>
-        <option value="trade">Requires Trade</option>
-      </select>
-
-      <button id="filter-reset">Reset</button>
-
-    </section>
-
-
-
-    <!-- Pokédex Grid -->
-    <main>
-      <ul id="pokedex-grid">
-        <!-- Pokémon cards injected here by JS -->
-      </ul>
-    </main>
+      <a href="pokedex.html" class="btn-secondary">
+        View Example Pokédex
+      </a>
+    </div>
 
   </div>
 
-  <!-- JS -->
-  <script src="js/pokedex.js"></script>
 </body>
 </html>
