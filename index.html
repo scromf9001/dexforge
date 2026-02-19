@@ -2,59 +2,119 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Pokémon Stream System</title>
+  <title>Scromf9001's Stream Dex</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
-<body class="landing-page">
+<body>
 
-  <div class="landing-container">
+  <!-- STREAM DEX HEADER (matches pokedex page) -->
+  <header class="streamdex-header">
+    <img src="assets/scromf-avatar.png" alt="Scromf Avatar" class="streamdex-avatar">
+    <h1>Scromf9001's Stream Dex</h1>
+  </header>
 
-    <h1>Catch Pokémon Live on Stream</h1>
+  <main class="landing-container">
 
-    <p class="landing-intro">
-      Build your Pokédex. Evolve your team. Trade with other Trainers.
-      Everything happens live in chat.
-    </p>
+    <!-- INTRO SECTION -->
+    <section class="landing-card">
+      <h2>Welcome, Trainer 👋</h2>
+      <p>
+        I'm Scromf — lifelong geek, platforming enthusiast, Nintendo enjoyer,
+        and occasional chaos gremlin.
+      </p>
+      <p>
+        This is my live interactive Pokémon system. Everything happens in chat.
+        Catch Pokémon. Evolve them. Trade with other Trainers.
+        Build your Pokédex live on stream.
+      </p>
+      <div class="landing-buttons">
+        <a href="https://twitch.tv/scromf9001" target="_blank" class="landing-btn primary">Watch Live on Twitch</a>
+        <a href="pokedex.html?user=scromf9001" class="landing-btn secondary">View Example Pokédex</a>
+      </div>
+    </section>
 
-    <div class="landing-section">
-      <h2>🎯 How To Catch</h2>
-      <pre>!catch</pre>
-      <pre>!catch item name</pre>
-      <pre>!pokebag</pre>
-    </div>
 
-    <div class="landing-section">
+    <!-- HOW IT WORKS -->
+    <section class="landing-card">
+      <h2>🎯 How To Catch Pokémon</h2>
+
+      <div class="command-grid">
+        <code>!catch</code>
+        <code>!catch item_name</code>
+        <code>!pokebag</code>
+      </div>
+
+      <p>
+        Use special balls from the Channel Shop to increase your odds.
+        Everything you catch is added to your personal Pokédex.
+      </p>
+    </section>
+
+
+    <!-- POKEDEX COMMANDS -->
+    <section class="landing-card">
       <h2>📘 Your Pokédex</h2>
-      <pre>!pokedex all</pre>
-      <pre>!pokedex total</pre>
-      <pre>!pokedex pokemon_name</pre>
-      <pre>!pokedex evolve</pre>
-      <pre>!evolve pokemon_name</pre>
-    </div>
 
-    <div class="landing-section">
-      <h2>🔄 Trade & Share</h2>
-      <pre>!give</pre>
-      <pre>!trade</pre>
-      <pre>!barter</pre>
-    </div>
+      <div class="command-grid">
+        <code>!pokedex all</code>
+        <code>!pokedex total</code>
+        <code>!pokedex pokemon_name</code>
+        <code>!pokedex evolve</code>
+        <code>!evolve pokemon_name</code>
+      </div>
 
-    <div class="landing-section">
-      <h2>📜 Full Command List</h2>
-      <pre>!commands pokemon</pre>
-    </div>
+      <p>
+        Collect 3 of a Pokémon to evolve it.
+        Complete evolution lines. Catch them all.
+      </p>
+    </section>
 
-    <div class="landing-actions">
-      <a href="https://twitch.tv/YOURCHANNEL" target="_blank" class="btn-primary">
-        Watch Live on Twitch
-      </a>
 
-      <a href="pokedex.html" class="btn-secondary">
-        View Example Pokédex
-      </a>
-    </div>
+    <!-- TRADE -->
+    <section class="landing-card">
+      <h2>🔁 Trade & Share</h2>
 
-  </div>
+      <div class="command-grid">
+        <code>!give</code>
+        <code>!trade</code>
+        <code>!barter</code>
+      </div>
+
+      <p>
+        Trade Pokémon. Exchange items. Make deals.
+        Or scam each other. That’s between you.
+      </p>
+    </section>
+
+
+    <!-- ABOUT THE STREAM -->
+    <section class="landing-card">
+      <h2>🕹️ About The Stream</h2>
+
+      <p>
+        I stream most days from <strong>17:00–20:00 CET</strong>.
+        Platformers. Story games. Nintendo classics.
+        Hidden gems. Absolute chaos.
+      </p>
+
+      <ul class="about-list">
+        <li>🎮 Video games (obviously)</li>
+        <li>⚔️ Star Wars, LOTR, Marvel & general geek chaos</li>
+        <li>🤖 Anime & cartoons</li>
+        <li>🐉 D&D (I DM, and I play Bob the extremely dumb dwarf)</li>
+        <li>🎵 Rock & roll enthusiast</li>
+      </ul>
+
+      <div class="social-links">
+        <a href="https://www.instagram.com/scromf9001/" target="_blank">Instagram</a>
+        <a href="https://discord.com/invite/PCNtZEQfew" target="_blank">Discord</a>
+        <a href="https://www.youtube.com/@Scromf9001" target="_blank">YouTube</a>
+        <a href="https://myanimelist.net/profile/Scromf9001" target="_blank">MyAnimeList</a>
+      </div>
+    </section>
+
+  </main>
 
 </body>
 </html>

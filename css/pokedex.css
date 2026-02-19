@@ -2,73 +2,117 @@
    LANDING PAGE
 ========================= */
 
-.landing-page {
-  background: linear-gradient(135deg, #1f1f1f, #2c2c2c);
+.streamdex-header {
+  background: #d50000;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.streamdex-header h1 {
+  font-family: 'Press Start 2P', cursive;
   color: white;
-  font-family: 'Press Start 2P', monospace;
-  padding: 40px 20px;
+  font-size: 18px;
+  margin: 0;
+}
+
+.streamdex-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 4px solid white;
 }
 
 .landing-container {
-  max-width: 800px;
-  margin: auto;
-  text-align: center;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.landing-intro {
-  margin: 20px 0 40px;
+.landing-card {
+  background: #f5f5f5;
+  border: 3px solid #333;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.landing-card h2 {
+  font-family: 'Press Start 2P', cursive;
   font-size: 14px;
-  opacity: 0.85;
+  margin-bottom: 20px;
 }
 
-.landing-section {
-  margin-bottom: 40px;
+.landing-card p {
+  margin-bottom: 15px;
+  line-height: 1.6;
 }
 
-.landing-section h2 {
+.command-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
   margin-bottom: 15px;
 }
 
-.landing-section pre {
-  background: #111;
-  padding: 8px 12px;
-  display: inline-block;
+.command-grid code {
+  background: #222;
+  color: #fff;
+  padding: 6px 12px;
   border-radius: 8px;
-  margin: 6px;
-  font-size: 12px;
+  font-size: 11px;
 }
 
-.landing-actions {
-  margin-top: 50px;
+.landing-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
 }
 
-.btn-primary,
-.btn-secondary {
-  display: inline-block;
-  padding: 12px 20px;
+.landing-btn {
+  padding: 10px 18px;
   border-radius: 12px;
-  margin: 10px;
   text-decoration: none;
-  font-size: 12px;
+  font-family: inherit;
+  border: 2px solid #222;
+}
+
+.landing-btn.primary {
+  background: #d50000;
+  color: white;
+}
+
+.landing-btn.secondary {
+  background: white;
+  color: #222;
+}
+
+.landing-btn:hover {
+  transform: scale(1.05);
   transition: 0.2s ease;
 }
 
-.btn-primary {
-  background: #9146FF;
-  color: white;
+.about-list {
+  margin: 10px 0 20px 20px;
 }
 
-.btn-primary:hover {
-  background: #772ce8;
+.about-list li {
+  margin-bottom: 8px;
 }
 
-.btn-secondary {
-  background: #444;
-  color: white;
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
-.btn-secondary:hover {
-  background: #666;
+.social-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #d50000;
 }
 
 
@@ -741,6 +785,7 @@ body {
   z-index: 5;
 }
 
+
 .modal-close:hover {
   background: #b71c1c;
   transform: scale(1.05);
@@ -754,38 +799,16 @@ body {
   position: relative;
 }
 
-.modal-nav button {
-  font-family: inherit;
-  font-size: 14px;
-  border-radius: 10px;
-  border: 2px solid #222;
-  background: #eee;
-  cursor: pointer;
-  width: 36px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s ease;
-}
-
-#modal-prev {
-  position: absolute;
-  left: 14px;
-  top: 14px;
-}
-
-#modal-next {
-  position: absolute;
-  right: 64px;
-  top: 14px;
-}
-
-#modal-prev:hover,
-#modal-next:hover {
-  transform: scale(1.05);
-  background: #222;
-  color: #fff;
+.modal-nav button { 
+  font-family: inherit; 
+  ont-size: 14px; 
+  adding: 6px 12px; 
+  border-radius: 8px; 
+  border: 2px solid #222; 
+  background: #eee; 
+  cursor: pointer; 
+  position: absolute; 
+  top: 0; 
 }
 
 /* =========================
@@ -882,15 +905,15 @@ body {
 }
 
 .modal-stat {
-  display: grid;
-  grid-template-columns: 70px 1fr 30px;
+  display: felx;
   align-items: center;
   gap: 10px;
-  font-size: 11px;
+  font-size: 10px;
   margin-bottom: 8px;
 }
 
 .modal-stat-bar {
+  flex: 1;
   height: 8px;
   background: #ddd;
   border-radius: 999px;
