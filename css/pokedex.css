@@ -498,8 +498,6 @@ body {
   height: 100% !important;
 }
 
-
-
 /* Pokébag */
 
 .journey-bag-grid {
@@ -509,11 +507,13 @@ body {
 }
 
 .journey-bag-item {
-  padding: 6px 10px;
+  padding: 6px 12px;
   border-radius: 999px;
-  background: #fff;
-  border: 2px solid #333;
-  font-size: 9px;
+  font-size: 10px;
+  font-weight: 600;
+  border: none;                
+  color: #fff;                
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
 }
 
 .journey-empty {
@@ -524,24 +524,26 @@ body {
 /* Element Stones */
 .item-fire { background: #F08030; }
 .item-water { background: #6890F0; }
-.item-electric { background: #F8D030; }
+.item-electric { background: #F8D030; color: #222; }
 .item-grass { background: #78C850; }
-.item-ice { background: #98D8D8; }
+.item-ice { background: #98D8D8; color: #222; }
 
 .item-dark { background: #705848; }
 .item-psychic { background: #F85888; }
-.item-fairy { background: #EE99AC; }
+.item-fairy { background: #EE99AC; color: #222; }
 
-.item-sun { background: #FDB813; }
-.item-shiny { background: #D8BFD8; }
+.item-sun { background: #FDB813; color: #222; }
+.item-shiny { background: #D8BFD8; color: #222; }
 
 /* Balls */
 .item-poke { background: #E53935; }
 .item-great { background: #1E88E5; }
-.item-ultra { background: #FBC02D; }
-.item-master { background: #8E24AA; color: #fff;}
-.item-god { background: linear-gradient(45deg, gold, black); }
-
+.item-ultra { background: #FBC02D; color: #222; }
+.item-master { background: #8E24AA; }
+.item-god { 
+  background: linear-gradient(45deg, gold, black); 
+  color: white;
+}
 
 /* =========================
    FILTER BAR
@@ -677,13 +679,35 @@ body {
 .modal-nav button {
   font-family: inherit;
   font-size: 14px;
-  padding: 6px 12px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: 2px solid #222;
   background: #eee;
   cursor: pointer;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+#modal-prev {
   position: absolute;
-  top: 0;
+  left: 14px;
+  top: 14px;
+}
+
+#modal-next {
+  position: absolute;
+  right: 64px;
+  top: 14px;
+}
+
+#modal-prev:hover,
+#modal-next:hover {
+  transform: scale(1.05);
+  background: #222;
+  color: #fff;
 }
 
 /* =========================
@@ -780,15 +804,15 @@ body {
 }
 
 .modal-stat {
-  display: flex;
+  display: grid;
+  grid-template-columns: 70px 1fr 30px;
   align-items: center;
   gap: 10px;
-  font-size: 10px;
+  font-size: 11px;
   margin-bottom: 8px;
 }
 
 .modal-stat-bar {
-  flex: 1;
   height: 8px;
   background: #ddd;
   border-radius: 999px;

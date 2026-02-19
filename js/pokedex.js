@@ -55,7 +55,12 @@ fetch(`${jsonPath}?v=${Date.now()}`)
   });
 
 function renderUser(user) {
-  document.getElementById("trainer-name").textContent = user.username;
+  const name = user.username;
+  const possessive = name.endsWith("s") ? `${name}'` : `${name}'s`;
+
+  document.getElementById("trainer-name").textContent =
+    `${possessive} Pokédex`;
+
   document.getElementById("trainer-avatar").src = user.avatar;
 }
 
