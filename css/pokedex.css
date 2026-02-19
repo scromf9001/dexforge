@@ -3,18 +3,19 @@
 ========================= */
 
 .streamdex-header {
-  background: #d50000;
+  background: #cc0000; 
   padding: 20px;
   display: flex;
   align-items: center;
   gap: 20px;
+  color: white;
 }
 
 .streamdex-header h1 {
-  font-family: 'Press Start 2P', cursive;
-  color: white;
-  font-size: 18px;
+  font-family: "Press Start 2P", monospace;
+  font-size: 22px; 
   margin: 0;
+  letter-spacing: 2px;
 }
 
 .streamdex-avatar {
@@ -33,15 +34,16 @@
   gap: 30px;
 }
 
-.landing-card {
-  background: #f5f5f5;
+.landing-card,
+.links-section {
+  background: #f8f8f8;
   border: 3px solid #333;
   border-radius: 20px;
   padding: 30px;
 }
 
 .landing-card h2 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', monospace;
   font-size: 14px;
   margin-bottom: 20px;
 }
@@ -103,18 +105,54 @@
   margin-bottom: 8px;
 }
 
-.social-links {
+/* Links Section */
+
+.links-section h2 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.link-card {
   display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.social-links a {
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 16px;
+  background: white;
+  border: 3px solid #333;
   text-decoration: none;
-  font-weight: bold;
-  color: #d50000;
+  color: #111;
+  transition: all 0.2s ease;
 }
 
+.link-card img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.link-card strong {
+  display: block;
+  font-size: 11px;
+  margin-bottom: 4px;
+}
+
+.link-card span {
+  font-size: 8px;
+  opacity: 0.6;
+}
+
+.link-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 0 #cc0000;
+  background: #fff5f5;
+}
 
 /* =========================
    POKEDEX PAGE
@@ -124,6 +162,8 @@ body {
   margin: 0;
   background: #e60012;
   font-family: "Press Start 2P", monospace;
+  font-size: 10px; /* unify scale */
+  color: #111;
 }
 
 #pokedex-app {
@@ -801,8 +841,8 @@ body {
 
 .modal-nav button { 
   font-family: inherit; 
-  ont-size: 14px; 
-  adding: 6px 12px; 
+  font-size: 14px; 
+  padding: 6px 12px; 
   border-radius: 8px; 
   border: 2px solid #222; 
   background: #eee; 
@@ -905,7 +945,7 @@ body {
 }
 
 .modal-stat {
-  display: felx;
+  display: flex;
   align-items: center;
   gap: 10px;
   font-size: 10px;
