@@ -3,23 +3,23 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-18T07:52:47.519483+00:00",
+  "updated_at": "2026-02-21T07:36:44.806970+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 114,
-      "total_owned": 403,
-      "completion_percent": 41.01
+      "unique_owned": 115,
+      "total_owned": 414,
+      "completion_percent": 41.37
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 114,
+        "owned": 115,
         "total": 151,
-        "completion_percent": 75.5,
+        "completion_percent": 76.16,
         "total_lines": 78,
-        "lines_completed": 37
+        "lines_completed": 38
       },
       "2": {
         "generation": 2,
@@ -32,9 +32,9 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 114,
+      "total_evolutions_owned": 115,
       "total_evolutions_available": 278,
-      "lines_completed": 37,
+      "lines_completed": 38,
       "total_lines": 129,
       "stage_totals": {
         "1": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 59,
+        "1": 60,
         "2": 47,
         "3": 8
       }
@@ -79,9 +79,9 @@
         "completion_percent": 80.0
       },
       "electric": {
-        "owned": 6,
+        "owned": 7,
         "total": 15,
-        "completion_percent": 40.0
+        "completion_percent": 46.67
       },
       "ground": {
         "owned": 7,
@@ -167,14 +167,14 @@
       }
     },
     "journey": {
-      "watch_hours": 901,
+      "watch_hours": 912,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
-      "streams_watched": 279,
-      "chat_messages": 6942,
-      "commands_run": 36825,
+      "streams_watched": 287,
+      "chat_messages": 7104,
+      "commands_run": 37694,
       "times_evolved": 2,
       "times_traded": 1,
       "times_eggs_hatched": 1,
@@ -185,12 +185,15 @@
         "master ball": 14.29
       },
       "pokebag": {
-        "Fire Stone": 2,
+        "Berry": 3,
+        "Egg": 1,
+        "Fire Stone": 3,
         "God Ball": 99,
         "Great Ball": 99,
         "Leaf Stone": 9,
         "Master Ball": 10,
         "Moon Stone": 9,
+        "Sun Stone": 3,
         "Thunder Stone": 9,
         "Ultra Ball": 99,
         "Water Stone": 3
@@ -792,7 +795,7 @@
     },
     {
       "name": "Squirtle",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 7,
       "primary_type": "Water",
@@ -1050,7 +1053,7 @@
     },
     {
       "name": "Caterpie",
-      "count": 10,
+      "count": 11,
       "owned": true,
       "pokedex_number": 10,
       "primary_type": "Bug",
@@ -1614,7 +1617,7 @@
     },
     {
       "name": "Pidgey",
-      "count": 14,
+      "count": 15,
       "owned": true,
       "pokedex_number": 16,
       "primary_type": "Normal",
@@ -2012,7 +2015,7 @@
     },
     {
       "name": "Spearow",
-      "count": 16,
+      "count": 17,
       "owned": true,
       "pokedex_number": 21,
       "primary_type": "Normal",
@@ -2180,7 +2183,7 @@
     },
     {
       "name": "Ekans",
-      "count": 18,
+      "count": 19,
       "owned": true,
       "pokedex_number": 23,
       "primary_type": "Poison",
@@ -2504,7 +2507,7 @@
     },
     {
       "name": "Sandshrew",
-      "count": 7,
+      "count": 8,
       "owned": true,
       "pokedex_number": 27,
       "primary_type": "Ground",
@@ -2664,7 +2667,7 @@
     },
     {
       "name": "Nidoran (F)",
-      "count": 7,
+      "count": 5,
       "owned": true,
       "pokedex_number": 29,
       "primary_type": "Poison",
@@ -2754,7 +2757,7 @@
     },
     {
       "name": "Nidorina",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 30,
       "primary_type": "Poison",
@@ -2838,7 +2841,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": true,
       "requires_trade": false
     },
@@ -4816,7 +4819,7 @@
     },
     {
       "name": "Meowth",
-      "count": 10,
+      "count": 12,
       "owned": true,
       "pokedex_number": 52,
       "primary_type": "Normal",
@@ -5104,7 +5107,7 @@
     },
     {
       "name": "Mankey",
-      "count": 4,
+      "count": 1,
       "owned": true,
       "pokedex_number": 56,
       "primary_type": "Fighting",
@@ -5178,7 +5181,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false
     },
@@ -5748,7 +5751,7 @@
     },
     {
       "name": "Abra",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 63,
       "primary_type": "Psychic",
@@ -6252,7 +6255,7 @@
     },
     {
       "name": "Bellsprout",
-      "count": 11,
+      "count": 12,
       "owned": true,
       "pokedex_number": 69,
       "primary_type": "Grass",
@@ -6746,7 +6749,7 @@
     },
     {
       "name": "Geodude",
-      "count": 4,
+      "count": 2,
       "owned": true,
       "pokedex_number": 74,
       "primary_type": "Rock",
@@ -6850,13 +6853,13 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false
     },
     {
       "name": "Graveler",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 75,
       "primary_type": "Rock",
@@ -7260,7 +7263,7 @@
     },
     {
       "name": "Slowpoke",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 79,
       "primary_type": "Water",
@@ -7472,8 +7475,8 @@
     },
     {
       "name": "Magnemite",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 81,
       "primary_type": "Electric",
       "secondary_type": "Steel",
@@ -7581,7 +7584,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false
@@ -7697,7 +7700,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false
@@ -8278,7 +8281,7 @@
     },
     {
       "name": "Shellder",
-      "count": 7,
+      "count": 8,
       "owned": true,
       "pokedex_number": 90,
       "primary_type": "Water",
@@ -10506,7 +10509,7 @@
     },
     {
       "name": "Horsea",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 116,
       "primary_type": "Water",
@@ -10838,7 +10841,7 @@
     },
     {
       "name": "Staryu",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 120,
       "primary_type": "Water",
@@ -11574,7 +11577,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 17,
+      "count": 18,
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
