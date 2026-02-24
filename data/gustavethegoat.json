@@ -3,12 +3,12 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/13e5fa74-defa-11e9-809c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-20T17:44:32.469007+00:00",
+  "updated_at": "2026-02-23T21:29:55.423052+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 44,
-      "total_owned": 60,
+      "total_owned": 59,
       "completion_percent": 15.83
     },
     "generation_progress": {
@@ -42,8 +42,8 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 31,
-        "2": 13
+        "1": 29,
+        "2": 15
       }
     },
     "types": {
@@ -166,14 +166,14 @@
       }
     },
     "journey": {
-      "watch_hours": 63,
+      "watch_hours": 68,
       "follow_age": "<1 Day",
-      "sub_age": "1 Month(s)",
+      "sub_age": "1 Month(s), 3 Day(s)",
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 22,
-      "chat_messages": 6007,
-      "commands_run": 8263,
+      "streams_watched": 26,
+      "chat_messages": 6295,
+      "commands_run": 8682,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
@@ -184,8 +184,7 @@
         "master ball": 0
       },
       "pokebag": {
-        "Great Ball": 71,
-        "Ultra Ball": 1
+        "Great Ball": 84
       }
     }
   },
@@ -1606,7 +1605,7 @@
     },
     {
       "name": "Pidgey",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 16,
       "primary_type": "Normal",
@@ -6738,8 +6737,8 @@
     },
     {
       "name": "Geodude",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 74,
       "primary_type": "Rock",
       "secondary_type": "Ground",
@@ -6848,8 +6847,8 @@
     },
     {
       "name": "Graveler",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 75,
       "primary_type": "Rock",
       "secondary_type": "Ground",
@@ -7252,8 +7251,8 @@
     },
     {
       "name": "Slowpoke",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 79,
       "primary_type": "Water",
       "secondary_type": "Psychic",
@@ -7358,8 +7357,8 @@
     },
     {
       "name": "Slowbro",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 80,
       "primary_type": "Water",
       "secondary_type": "Psychic",

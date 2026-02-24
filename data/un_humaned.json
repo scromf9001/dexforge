@@ -3,21 +3,21 @@
     "username": "un_humaned",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-20T17:45:34.162470+00:00",
+  "updated_at": "2026-02-23T21:21:10.366551+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 14,
-      "total_owned": 16,
-      "completion_percent": 5.04
+      "unique_owned": 19,
+      "total_owned": 22,
+      "completion_percent": 6.83
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 14,
+        "owned": 19,
         "total": 151,
-        "completion_percent": 9.27,
+        "completion_percent": 12.58,
         "total_lines": 78,
         "lines_completed": 0
       },
@@ -32,7 +32,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 14,
+      "total_evolutions_owned": 19,
       "total_evolutions_available": 278,
       "lines_completed": 0,
       "total_lines": 129,
@@ -42,7 +42,8 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 14
+        "1": 18,
+        "2": 1
       }
     },
     "types": {
@@ -57,9 +58,9 @@
         "completion_percent": 5.0
       },
       "water": {
-        "owned": 3,
+        "owned": 5,
         "total": 44,
-        "completion_percent": 6.82
+        "completion_percent": 11.36
       },
       "bug": {
         "owned": 2,
@@ -72,9 +73,9 @@
         "completion_percent": 5.26
       },
       "poison": {
-        "owned": 4,
+        "owned": 5,
         "total": 15,
-        "completion_percent": 26.67
+        "completion_percent": 33.33
       },
       "electric": {
         "owned": 0,
@@ -92,9 +93,9 @@
         "completion_percent": 0.0
       },
       "fighting": {
-        "owned": 1,
+        "owned": 2,
         "total": 9,
-        "completion_percent": 11.11
+        "completion_percent": 22.22
       },
       "psychic": {
         "owned": 1,
@@ -102,9 +103,9 @@
         "completion_percent": 2.38
       },
       "rock": {
-        "owned": 0,
+        "owned": 1,
         "total": 13,
-        "completion_percent": 0.0
+        "completion_percent": 7.69
       },
       "ghost": {
         "owned": 0,
@@ -165,14 +166,14 @@
       }
     },
     "journey": {
-      "watch_hours": 26,
-      "follow_age": "1 Month(s), 11 Day(s)",
+      "watch_hours": 32,
+      "follow_age": "1 Month(s), 15 Day(s)",
       "sub_age": "Not Subscribed",
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
-      "streams_watched": 33,
-      "chat_messages": 1056,
-      "commands_run": 1564,
+      "streams_watched": 36,
+      "chat_messages": 1492,
+      "commands_run": 2201,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
@@ -183,7 +184,7 @@
         "master ball": 0
       },
       "pokebag": {
-        "Great Ball": 38,
+        "Great Ball": 44,
         "Ultra Ball": 1
       }
     }
@@ -783,8 +784,8 @@
     },
     {
       "name": "Squirtle",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 7,
       "primary_type": "Water",
       "secondary_type": null,
@@ -2937,8 +2938,8 @@
     },
     {
       "name": "Nidoran (M)",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 32,
       "primary_type": "Poison",
       "secondary_type": null,
@@ -4935,8 +4936,8 @@
     },
     {
       "name": "Psyduck",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 54,
       "primary_type": "Water",
       "secondary_type": null,
@@ -5739,7 +5740,7 @@
     },
     {
       "name": "Abra",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 63,
       "primary_type": "Psychic",
@@ -5815,7 +5816,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false
     },
@@ -5985,8 +5986,8 @@
     },
     {
       "name": "Machop",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 66,
       "primary_type": "Fighting",
       "secondary_type": null,
@@ -6737,8 +6738,8 @@
     },
     {
       "name": "Geodude",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 74,
       "primary_type": "Rock",
       "secondary_type": "Ground",
@@ -7067,8 +7068,8 @@
     },
     {
       "name": "Ponyta",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 77,
       "primary_type": "Fire",
       "secondary_type": null,
@@ -7159,8 +7160,8 @@
     },
     {
       "name": "Rapidash",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 78,
       "primary_type": "Fire",
       "secondary_type": null,
@@ -10829,7 +10830,7 @@
     },
     {
       "name": "Staryu",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 120,
       "primary_type": "Water",
