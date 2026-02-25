@@ -877,14 +877,9 @@ document.querySelector(".pokemon-modal-backdrop").addEventListener("click", clos
 // RENDER POKEMON MODAL CONTENT
 
 function renderPokemonModalContent(pokemon) {
-  document.getElementById("modal-title").textContent =
+
+  document.getElementById("modal-title").innerHTML =
     `${pokemon.name} #${String(pokemon.pokedex_number).padStart(4, "0")}`;
-
-  const titleEl = document.getElementById("modal-title");
-
-  titleEl.innerHTML = `
-    ${pokemon.name} #${String(pokemon.pokedex_number).padStart(4, "0")}
-  `;
 
   const strengthsHTML = pokemon.strengths.map(s =>
     `<span class="type ${s.type}">
@@ -904,6 +899,11 @@ function renderPokemonModalContent(pokemon) {
       <div>#${String(evo.pokedex_number).padStart(3,"0")}</div>
     </div>
   `).join("");
+
+  // 🔥 FRIENDSHIP BADGE (only if > 0)
+  const friendshipHTML = pokemon.friendship_points > 0
+    ? `<span class="modal-friendship">❤️ ${pokemon.friendship_points}</span>`
+    : "";
 
   document.getElementById("modal-content").innerHTML = `
     <div class="modal-grid">
@@ -933,6 +933,7 @@ function renderPokemonModalContent(pokemon) {
                 </span>`
               : ""
           }
+          ${friendshipHTML}
         </div>
 
         <div class="modal-physical">
@@ -978,7 +979,6 @@ function renderPokemonModalContent(pokemon) {
 
     </div>
   `;
-
 
   document.querySelectorAll(".modal-evo").forEach(el => {
     el.addEventListener("click", () => {

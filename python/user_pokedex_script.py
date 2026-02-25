@@ -48,6 +48,15 @@ TYPE_CHART = {
     "fairy":   {"weak": ["poison", "steel"], "resist": ["fighting", "bug", "dark"], "immune": ["dragon"]}
 }
 
+
+# =========================
+# COMPANION CONFIG
+# =========================
+
+FRIENDSHIP_REQUIREMENT = 600
+BUDDY_FILE_PATH = r"C:\Users\sebas\Desktop\Stream Stuff\Pokemon System\Text Files\buddies.txt"
+
+
 def calculate_type_matchups(primary, secondary=None):
     primary = primary.lower()
     secondary = secondary.lower() if secondary and secondary.lower() != "null" else None
@@ -97,6 +106,7 @@ def run():
     # === MIX IT UP INPUTS ===
     raw_pokedex = "$userpokedexall"
     raw_inventory = "$usertrackall"
+    raw_friendship = "$userpokefriendshipall"
 
     username = "$username"
     avatar = "$useravatar"
@@ -112,6 +122,8 @@ def run():
     user_chat_messages = safe_int("$usertotalchatmessagessent")
     raw_pokebag = "$userpokebagall"
 
+    buddy_times_pet = safe_int("$usertrackbuddytimespet")
+    buddy_times_fed = safe_int("$usertrackbuddyberriesfed")
 
     # === CSV PATH ===
     pokemon_csv = r"C:\Users\sebas\Desktop\Stream Stuff\Pokemon System\pokemon_list.csv"
@@ -134,10 +146,6 @@ def run():
             if not raw_number.is_integer():
                 continue
 
-            # ----------------------------
-            # IMAGE LOGIC (FORM SUPPORT)
-            # ----------------------------
-
             base_url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world"
             pokedex_number = safe_int(row.get("pokedex_number"))
             form = safe_str(row.get("form")).lower()
@@ -147,10 +155,6 @@ def run():
             else:
                 image_url = f"{base_url}/{pokedex_number}.svg"
 
-            # ----------------------------
-            # STORE METADATA
-            # ----------------------------
-
             secondary_raw = safe_str(row.get("secondary_type")).lower()
             secondary_type = None if secondary_raw in ["", "null"] else secondary_raw.capitalize()
 
@@ -159,22 +163,18 @@ def run():
                 "pokedex_number": pokedex_number,
                 "primary_type": safe_str(row.get("primary_type"), "Unknown"),
                 "secondary_type": secondary_type,
-
                 "generation": safe_int(row.get("generation")),
                 "region": safe_str(row.get("region"), "Unknown"),
                 "rarity": safe_str(row.get("rarity"), "common"),
                 "is_legendary": safe_str(row.get("is_legendary"), "false").lower() == "true",
                 "is_mythic": safe_str(row.get("is_mythic"), "false").lower() == "true",
                 "is_hatchable": safe_str(row.get("is_hatchable"), "false").lower() == "true",
-
                 "evolution": safe_str(row.get("evolution"), "false").lower() == "true",
                 "evolution_stage": safe_str(row.get("evolution_stage"), "unknown"),
                 "evolution_line_id": safe_str(row.get("evolution_line_id"), name_key),
-
                 "quantity_required": safe_int(row.get("quantity_required"), 0),
                 "item_required": safe_str(row.get("item_required"), "no").lower() == "yes",
                 "requirement": safe_str(row.get("requirement")),
-
                 "stats": {
                     "hp": safe_int(row.get("hp")),
                     "attack": safe_int(row.get("attack")),
@@ -183,15 +183,28 @@ def run():
                     "sp_defense": safe_int(row.get("sp_defense")),
                     "speed": safe_int(row.get("speed")),
                 },
-
                 "physical": {
                     "height": safe_float(row.get("height")),
                     "weight": safe_float(row.get("weight")),
                 },
-
                 "pokedex_entry": safe_str(row.get("pokedex_entry")),
                 "image": image_url
             }
+
+    # =========================
+    # PARSE FRIENDSHIP
+    # =========================
+
+    friendship_map = {}
+    friendship_entries = [f.strip() for f in raw_friendship.split(",") if " x" in f]
+
+    for entry in friendship_entries:
+        try:
+            line_part, points_part = entry.split(" x", 1)
+            friendship_map[safe_str(line_part)] = safe_int(points_part)
+        except:
+            continue
+
 
     # =========================
     # PARSE USER POKEDEX
@@ -547,6 +560,25 @@ def run():
         p["requires_stone"] = "stone" in requirement_text
         p["requires_trade"] = "trade" in requirement_text
 
+        # =========================
+        # FRIENDSHIP ENRICHMENT
+        # =========================
+
+        line_id = safe_str(p["evolution_line_id"])
+        friendship_points = friendship_map.get(line_id, 0)
+
+        p["friendship_points"] = friendship_points
+
+        if "friendship" in requirement_text:
+
+            percent = round(
+                min((friendship_points / FRIENDSHIP_REQUIREMENT) * 100, 100),
+                2
+            ) if FRIENDSHIP_REQUIREMENT > 0 else 0
+
+            p["friendship_requirement"] = FRIENDSHIP_REQUIREMENT
+            p["friendship_progress_percent"] = percent
+
 
     # ---- REGION EVOLUTION LINES ----
     region_lines = {}
@@ -666,6 +698,51 @@ def run():
 
     }
 
+    # =========================
+    # BUILD COMPANION OBJECT
+    # =========================
+
+    companion = None
+
+    try:
+        with open(BUDDY_FILE_PATH, "r", encoding="utf-8") as buddy_file:
+            for line in buddy_file:
+                parts = line.strip().split()
+
+                if len(parts) < 4:
+                    continue
+
+                file_username = parts[0]
+
+                if file_username.lower() != username.lower():
+                    continue
+
+                companion_line_id = safe_str(parts[2])
+
+                for p in pokemon_list:
+                    if safe_str(p["evolution_line_id"]) == companion_line_id:
+
+                        companion = {
+                            "name": p["name"],
+                            "pokedex_number": p["pokedex_number"],
+                            "image": p["image"],
+                            "primary_type": p["primary_type"],
+                            "secondary_type": p["secondary_type"],
+                            "evolution_line_id": companion_line_id,
+                            "friendship_points": p["friendship_points"],
+                            "times_pet": buddy_times_pet,
+                            "times_fed": buddy_times_fed
+                        }
+
+                        if "friendship_requirement" in p:
+                            companion["friendship_requirement"] = p["friendship_requirement"]
+                            companion["friendship_progress_percent"] = p["friendship_progress_percent"]
+
+                        break
+
+                break
+    except:
+        companion = None
 
 
     # =========================
@@ -679,7 +756,8 @@ def run():
         },
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "trainer_stats": trainer_stats,
-        "pokemon": pokemon_list
+        "pokemon": pokemon_list,
+        "companion": companion
     }
 
     return json.dumps(output, indent=2, ensure_ascii=False)
