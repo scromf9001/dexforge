@@ -675,8 +675,12 @@ function renderCompanion(data) {
 
       const lineId = p.evolution_line_id;
 
-      if (!lineMap[lineId] || p.evolution_stage < lineMap[lineId].evolution_stage) {
-        lineMap[lineId] = p; // keep earliest stage
+      // keep earliest evolution stage per line
+      if (
+        !lineMap[lineId] ||
+        Number(p.evolution_stage) < Number(lineMap[lineId].evolution_stage)
+      ) {
+        lineMap[lineId] = p;
       }
     }
   });
@@ -697,45 +701,58 @@ function renderCompanion(data) {
       `).join("")
     : `<div class="companion-empty">No friendship earned yet.</div>`;
 
+  // ----- FINAL HTML -----
+
   container.innerHTML = `
     <div class="companion-spotlight">
 
       <div class="companion-info">
-        <h2>
-          ${companion.name}
-          #${String(companion.pokedex_number).padStart(3, "0")}
-        </h2>
 
-        <div class="modal-types">
-          <span class="type ${companion.primary_type.toLowerCase()}">
-            ${companion.primary_type}
-          </span>
-          ${
-            companion.secondary_type
-              ? `<span class="type ${companion.secondary_type.toLowerCase()}">
-                  ${companion.secondary_type}
-                </span>`
-              : ""
-          }
+        <!-- TOP SECTION -->
+        <div class="companion-info-top">
+
+          <h2>
+            ${companion.name}
+            #${String(companion.pokedex_number).padStart(3, "0")}
+          </h2>
+
+          <div class="modal-types">
+            <span class="type ${companion.primary_type.toLowerCase()}">
+              ${companion.primary_type}
+            </span>
+            ${
+              companion.secondary_type
+                ? `<span class="type ${companion.secondary_type.toLowerCase()}">
+                    ${companion.secondary_type}
+                  </span>`
+                : ""
+            }
+          </div>
+
+          <div class="companion-friendship-main">
+            ❤️ ${companion.friendship_points}
+          </div>
+
+          ${progressHTML}
+
         </div>
 
-        <div class="companion-friendship-main">
-          ❤️ ${companion.friendship_points}
-        </div>
-
-        ${progressHTML}
-
+        <!-- BOTTOM SECTION -->
         <div class="companion-interactions">
           <h4>All Companion Interactions</h4>
-          <div class="companion-interaction-grid-vertical">
+
+          <div class="companion-interaction-grid">
+
             <div class="companion-stat">
               <strong>${timesPet}</strong>
               <span>Times Pet</span>
             </div>
+
             <div class="companion-stat">
               <strong>${berriesFed}</strong>
               <span>Berries Fed</span>
             </div>
+
           </div>
         </div>
 
