@@ -50,6 +50,7 @@ fetch(`${jsonPath}?v=${Date.now()}`)
     renderTypeMastery(data.trainer_stats);
     renderCapturePerformance(data.trainer_stats);
     renderJourney(data.trainer_stats);
+    renderCompanion(data);
   })
   .catch(error => {
     console.error(error);
@@ -606,6 +607,138 @@ function renderJourneyPokebag(bag) {
       <h3>Pokébag</h3>
       <div class="journey-bag-grid">
         ${items}
+      </div>
+    </div>
+  `;
+}
+
+  // ----- COMPANION TAB -----
+
+function renderCompanion(data) {
+
+  const container = document.getElementById("tab-companion");
+  const companion = data.companion;
+
+  if (!companion) {
+    container.innerHTML = `
+      <div class="companion-empty">
+        No companion equipped.
+      </div>
+    `;
+    return;
+  }
+
+
+  let progressHTML = "";
+
+  if (companion.friendship_requirement) {
+
+    const requirement = companion.friendship_requirement;
+    const current = companion.friendship_points;
+
+    const percent = Math.min((current / requirement) * 100, 100);
+    const surplus = current > requirement ? current - requirement : 0;
+
+    progressHTML = `
+      <div class="companion-progress">
+        <div class="companion-progress-label">
+          <span>Friendship Progress</span>
+          <span>${Math.floor(percent)}%</span>
+        </div>
+        <div class="companion-bar">
+          <div class="companion-fill" style="width:${percent}%"></div>
+        </div>
+        ${
+          current >= requirement
+            ? `<div class="companion-progress-status">
+                 Requirement Met
+                 ${surplus > 0 ? `<span class="surplus">+${surplus} surplus</span>` : ""}
+               </div>`
+            : `<div class="companion-progress-status">
+                 ${current} / ${requirement}
+               </div>`
+        }
+      </div>
+    `;
+  }
+
+  // ----- TOP FRIENDSHIP (MAX 5) -----
+
+  const topFriendship = data.pokemon
+    .filter(p => p.friendship_points > 0)
+    .sort((a, b) => b.friendship_points - a.friendship_points)
+    .slice(0, 5);
+
+  const topHTML = topFriendship.length > 0
+    ? topFriendship.map(p => `
+        <div class="companion-top-card">
+          <img src="${p.image}" class="companion-top-sprite">
+          <div class="companion-top-info">
+            <div class="companion-top-name">${p.name}</div>
+            <div class="companion-top-points">❤️ ${p.friendship_points}</div>
+          </div>
+        </div>
+      `).join("")
+    : `<div class="companion-empty">No friendship earned yet.</div>`;
+
+
+  container.innerHTML = `
+    <div class="companion-spotlight">
+
+      <div class="companion-info">
+        <h2>
+          ${companion.name}
+          #${String(companion.pokedex_number).padStart(3, "0")}
+        </h2>
+
+        <div class="modal-types">
+          <span class="type ${companion.primary_type.toLowerCase()}">
+            ${companion.primary_type}
+          </span>
+          ${
+            companion.secondary_type
+              ? `<span class="type ${companion.secondary_type.toLowerCase()}">
+                  ${companion.secondary_type}
+                </span>`
+              : ""
+          }
+        </div>
+
+        <div class="companion-friendship-main">
+          ❤️ ${companion.friendship_points}
+        </div>
+
+        ${progressHTML}
+
+      </div>
+
+      <div class="companion-sprite-wrapper">
+        <img src="${companion.image}" class="companion-main-sprite">
+      </div>
+
+    </div>
+
+    <div class="companion-interactions">
+      <h3>Companion Interactions</h3>
+      <div class="companion-interaction-grid">
+        <div class="companion-stat">
+          <strong>${companion.times_pet}</strong>
+          <span>Times Pet</span>
+        </div>
+        <div class="companion-stat">
+          <strong>${companion.berries_fed}</strong>
+          <span>Berries Fed</span>
+        </div>
+      </div>
+      <div class="companion-note">
+        Across all companions
+      </div>
+    </div>
+
+    <div class="companion-top-section">
+      <h3>Top Friendship Lines</h3>
+      <div class="companion-top-grid">
+        ${topHTML}
       </div>
     </div>
   `;
