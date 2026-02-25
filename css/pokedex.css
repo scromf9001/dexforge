@@ -923,6 +923,22 @@ body {
 .tag.stone { background: #607d8b; color: white; }
 .tag.trade { background: #26a69a; color: white; }
 
+.tag.friendship {
+  background: #ffe6f0;
+  border: 2px solid #e91e63;
+  color: #e91e63;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.heart-icon {
+  font-size: 11px;
+  line-height: 1;
+  position: relative;
+  top: 1px;
+}
+
 .modal-main-image {
   width: 260px;
   display: block;
@@ -934,22 +950,6 @@ body {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
-}
-
-.modal-friendship {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-
-  padding: 4px 8px;
-  border-radius: 12px;
-
-  font-size: 11px;
-  font-weight: bold;
-
-  background: #ffe6f0;
-  border: 2px solid #e91e63;
-  color: #e91e63;
 }
 
 .modal-physical {

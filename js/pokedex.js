@@ -900,9 +900,12 @@ function renderPokemonModalContent(pokemon) {
     </div>
   `).join("");
 
-  // 🔥 FRIENDSHIP BADGE (only if > 0)
-  const friendshipHTML = pokemon.friendship_points > 0
-    ? `<span class="modal-friendship">❤️ ${pokemon.friendship_points}</span>`
+  // FRIENDSHIP TAG
+  const friendshipTag = pokemon.friendship_points > 0
+    ? `<span class="tag friendship">
+         <span class="heart-icon">❤</span>
+         ${pokemon.friendship_points}
+       </span>`
     : "";
 
   document.getElementById("modal-content").innerHTML = `
@@ -918,6 +921,7 @@ function renderPokemonModalContent(pokemon) {
           ${pokemon.is_hatchable ? `<span class="tag hatchable">Hatchable</span>` : ""}
           ${pokemon.requires_stone ? `<span class="tag stone">Stone</span>` : ""}
           ${pokemon.requires_trade ? `<span class="tag trade">Trade</span>` : ""}
+          ${friendshipTag}
         </div>
 
         <img src="${pokemon.image}" class="modal-main-image">
@@ -933,7 +937,6 @@ function renderPokemonModalContent(pokemon) {
                 </span>`
               : ""
           }
-          ${friendshipHTML}
         </div>
 
         <div class="modal-physical">
