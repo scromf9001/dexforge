@@ -694,7 +694,7 @@ body {
 .item-psychic { background: #F85888; }
 .item-fairy { background: #EE99AC; color: #222; }
 
-.item-sun { background: #FDB813; color: #222; }
+.item-sun { background: #FFB300; color: #222; }
 .item-shiny { background: #D8BFD8; color: #222; }
 
 /* Balls */
@@ -704,6 +704,10 @@ body {
 .item-master { background: #8E24AA; }
 .item-god { 
   background: linear-gradient(45deg, gold, black); 
+  color: white;
+}
+.item-berry {
+  background: #C2185B;  /* rich magenta */
   color: white;
 }
 
@@ -813,6 +817,7 @@ body {
   background: #f5f5f5;
   padding: 12px;
   border-radius: 12px;
+  border: 2px solid #333;
 }
 
 .companion-top-sprite {

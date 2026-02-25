@@ -580,6 +580,8 @@ function renderJourneyPokebag(bag) {
     if (name.includes("dawn stone")) return "item-psychic";
     if (name.includes("ice stone")) return "item-ice";
 
+    if (name.includes("berry")) return "item-berry";
+
     return "item-default";
   }
 
