@@ -940,7 +940,7 @@ body {
 
 .tag.friendship .heart-icon {
   font-size: 12px;         
-  line-height: 1;
+  /*line-height: 1;*/
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1038,6 +1038,7 @@ body {
 .owned-badge {
   display: inline-block;
   margin-top: 6px;
+  margin-bottom: 6px;
   color: white;
   padding: 4px 10px;
   border-radius: 6px;

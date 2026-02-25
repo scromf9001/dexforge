@@ -17,7 +17,8 @@ let activeFilters = {
   stage: "all",
   line: "all",
   evolvable: "all",
-  special: "all"
+  special: "all",
+  friendship: "all"
 };
 
 document.addEventListener("click", (e) => {
@@ -671,6 +672,19 @@ function applyFilters() {
     if (activeFilters.special === "trade" && !pokemon.requires_trade)
       return false;
 
+    if (activeFilters.special === "friendship" && 
+        !pokemon.friendship_requirement)
+      return false;
+
+    // Friendship filter
+    if (activeFilters.friendship === "has" && 
+        pokemon.friendship_points <= 0)
+      return false;
+
+    if (activeFilters.friendship === "none" && 
+        pokemon.friendship_points > 0)
+      return false;
+
     return true;
   });
 
@@ -739,6 +753,11 @@ document.addEventListener("DOMContentLoaded", () => {
     applyFilters();
   });
 
+  document.getElementById("filter-friendship")?.addEventListener("change", e => {
+    activeFilters.friendship = e.target.value;
+    applyFilters();
+  });
+
   document.getElementById("filter-reset")?.addEventListener("click", () => {
     activeFilters = {
       search: "",
@@ -747,7 +766,8 @@ document.addEventListener("DOMContentLoaded", () => {
       stage: "all",
       line: "all",
       evolvable: "all",
-      special: "all"
+      special: "all",
+      friendship: "all"
     };
 
     document.querySelectorAll(".filter-bar select").forEach(el => el.value = "all");
