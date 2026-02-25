@@ -13,12 +13,13 @@ let allPokemon = [];
 let activeFilters = {
   search: "",
   ownership: "all",
+  region: "all",
   type: "all",
   stage: "all",
   line: "all",
   evolvable: "all",
-  special: "all",
-  friendship: "all"
+  friendship: "all",
+  special: "all"
 };
 
 document.addEventListener("click", (e) => {
@@ -41,6 +42,7 @@ fetch(`${jsonPath}?v=${Date.now()}`)
   })
   .then(data => {
     allPokemon = data.pokemon;
+    populateRegionFilter(allPokemon);
     populateTypeFilter(allPokemon);
     buildStageFilter(allPokemon);
     renderPokemon(allPokemon);
@@ -789,6 +791,11 @@ function applyFilters() {
     if (activeFilters.ownership === "unowned" && pokemon.owned)
       return false;
 
+    // Region
+    if (activeFilters.region !== "all" &&
+        pokemon.region !== activeFilters.region)
+      return false;
+
     // Type
     if (activeFilters.type !== "all") {
       const matchesPrimary = pokemon.primary_type.toLowerCase() === activeFilters.type;
@@ -852,6 +859,31 @@ function applyFilters() {
   renderPokemon(filtered);
 }
 
+function populateRegionFilter(pokemonList) {
+
+  const select = document.getElementById("filter-region");
+  if (!select) return;
+
+  const regionMap = {};
+
+  pokemonList.forEach(p => {
+    if (!regionMap[p.region]) {
+      regionMap[p.region] = p.generation;
+    }
+  });
+
+  Object.entries(regionMap)
+    .sort((a, b) => a[1] - b[1])  // sort by generation
+    .forEach(([region, generation]) => {
+
+      const option = document.createElement("option");
+      option.value = region;
+      option.textContent = `${region} (Gen ${generation})`;
+
+      select.appendChild(option);
+    });
+}
+
 function populateTypeFilter(pokemonList) {
   const select = document.getElementById("filter-type");
   if (!select) return;
@@ -889,6 +921,11 @@ document.addEventListener("DOMContentLoaded", () => {
     applyFilters();
   });
 
+  document.getElementById("filter-region")?.addEventListener("change", e => {
+    activeFilters.region = e.target.value;
+    applyFilters();
+  });
+
   document.getElementById("filter-type")?.addEventListener("change", e => {
     activeFilters.type = e.target.value;
     applyFilters();
@@ -923,12 +960,13 @@ document.addEventListener("DOMContentLoaded", () => {
     activeFilters = {
       search: "",
       ownership: "all",
+      region: "all",
       type: "all",
       stage: "all",
       line: "all",
       evolvable: "all",
-      special: "all",
-      friendship: "all"
+      friendship: "all",
+      special: "all"
     };
 
     document.querySelectorAll(".filter-bar select").forEach(el => el.value = "all");
