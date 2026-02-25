@@ -628,6 +628,10 @@ function renderCompanion(data) {
     return;
   }
 
+  const timesPet = companion.times_pet ?? 0;
+  const berriesFed = companion.berries_fed ?? 0;
+
+  // ----- PROGRESS -----
 
   let progressHTML = "";
 
@@ -652,7 +656,7 @@ function renderCompanion(data) {
           current >= requirement
             ? `<div class="companion-progress-status">
                  Requirement Met
-                 ${surplus > 0 ? `<span class="surplus">+${surplus} surplus</span>` : ""}
+                 ${surplus > 0 ? `<span class="surplus">+${surplus}</span>` : ""}
                </div>`
             : `<div class="companion-progress-status">
                  ${current} / ${requirement}
@@ -662,10 +666,22 @@ function renderCompanion(data) {
     `;
   }
 
-  // ----- TOP FRIENDSHIP (MAX 5) -----
+  // ----- UNIQUE EVOLUTION LINES -----
 
-  const topFriendship = data.pokemon
-    .filter(p => p.friendship_points > 0)
+  const lineMap = {};
+
+  data.pokemon.forEach(p => {
+    if (p.friendship_points > 0) {
+
+      const lineId = p.evolution_line_id;
+
+      if (!lineMap[lineId] || p.evolution_stage < lineMap[lineId].evolution_stage) {
+        lineMap[lineId] = p; // keep earliest stage
+      }
+    }
+  });
+
+  const topFriendship = Object.values(lineMap)
     .sort((a, b) => b.friendship_points - a.friendship_points)
     .slice(0, 5);
 
@@ -680,7 +696,6 @@ function renderCompanion(data) {
         </div>
       `).join("")
     : `<div class="companion-empty">No friendship earned yet.</div>`;
-
 
   container.innerHTML = `
     <div class="companion-spotlight">
@@ -710,29 +725,26 @@ function renderCompanion(data) {
 
         ${progressHTML}
 
+        <div class="companion-interactions">
+          <h4>All Companion Interactions</h4>
+          <div class="companion-interaction-grid-vertical">
+            <div class="companion-stat">
+              <strong>${timesPet}</strong>
+              <span>Times Pet</span>
+            </div>
+            <div class="companion-stat">
+              <strong>${berriesFed}</strong>
+              <span>Berries Fed</span>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <div class="companion-sprite-wrapper">
         <img src="${companion.image}" class="companion-main-sprite">
       </div>
 
-    </div>
-
-    <div class="companion-interactions">
-      <h3>Companion Interactions</h3>
-      <div class="companion-interaction-grid">
-        <div class="companion-stat">
-          <strong>${companion.times_pet}</strong>
-          <span>Times Pet</span>
-        </div>
-        <div class="companion-stat">
-          <strong>${companion.berries_fed}</strong>
-          <span>Berries Fed</span>
-        </div>
-      </div>
-      <div class="companion-note">
-        Across all companions
-      </div>
     </div>
 
     <div class="companion-top-section">
@@ -743,7 +755,6 @@ function renderCompanion(data) {
     </div>
   `;
 }
-
 // ---- FILTER BAR ----
 
 function applyFilters() {
