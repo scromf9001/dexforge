@@ -116,10 +116,16 @@ def run():
     sub_age = safe_str("$usersubage")
     total_commands = safe_int("$usertotalcommandsrun")
 
+    user_subs_gifted = safe_int("$usertotalsubsgifted")
+    user_bits_lifetime = safe_int("$userbitslifetimeamount")
+    user_total_donated = safe_float("$usertotalamountdonated")
+    user_sub_months = safe_int("$usertotalmonthssubbed")
+
     user_primary_role = safe_str("$userprimaryrole")
     user_sub_tier = safe_str("$usersubtier")
     user_streams_watched = safe_int("$usertotalstreamswatched")
     user_chat_messages = safe_int("$usertotalchatmessagessent")
+    user_times_tagged = safe_int("$usertotaltimestagged")
     raw_pokebag = "$userpokebagall"
 
     buddy_times_pet = safe_int("$usertrackbuddytimespet")
@@ -683,11 +689,16 @@ def run():
             "watch_hours": user_hours,
             "follow_age": follow_age or "Unknown",
             "sub_age": sub_age or "Not Subscribed",
+            "sub_months": user_sub_months,
+            "subs_gifted": user_subs_gifted,
+            "bits_donated": user_bits_lifetime,
+            "total_donated": user_total_donated,
             "primary_role": user_primary_role,
             "sub_tier": user_sub_tier,
             "streams_watched": user_streams_watched,
             "chat_messages": user_chat_messages,
             "commands_run": total_commands,
+            "times_tagged": user_times_tagged,
             "times_evolved": times_evolved,
             "times_traded": times_traded,
             "times_eggs_hatched": times_eggs_hatched,

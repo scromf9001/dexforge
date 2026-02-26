@@ -436,9 +436,9 @@ function renderJourneyIdentity(journey) {
 
       <div class="journey-stats-grid">
         ${renderJourneyStat(journey.follow_age, "Follower Age")}
-        ${renderJourneyStat(journey.sub_age, "Sub Age")}
         ${renderJourneyStat(journey.sub_months || 0, "Sub Months")}
-        ${renderJourneyStat(journey.subs_gifted || 0, "Subs Gifted")}
+        ${renderJourneyStat(journey.bits_donated || 0, "Bits Donated")}
+        ${renderJourneyStat(journey.times_tagged || 0, "Times Tagged")}
       </div>
     </div>
   `;

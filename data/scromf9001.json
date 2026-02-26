@@ -3,12 +3,12 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-25T13:34:10.743218+00:00",
+  "updated_at": "2026-02-26T06:29:55.805500+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 123,
-      "total_owned": 446,
+      "total_owned": 459,
       "completion_percent": 44.24
     },
     "generation_progress": {
@@ -167,14 +167,19 @@
       }
     },
     "journey": {
-      "watch_hours": 930,
+      "watch_hours": 936,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
+      "sub_months": 0,
+      "subs_gifted": 0,
+      "bits_donated": 0,
+      "total_donated": 0.0,
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
-      "streams_watched": 295,
-      "chat_messages": 7550,
-      "commands_run": 39849,
+      "streams_watched": 296,
+      "chat_messages": 7616,
+      "commands_run": 40339,
+      "times_tagged": 1771,
       "times_evolved": 3,
       "times_traded": 1,
       "times_eggs_hatched": 1,
@@ -1631,7 +1636,7 @@
     },
     {
       "name": "Pidgey",
-      "count": 16,
+      "count": 18,
       "owned": true,
       "pokedex_number": 16,
       "primary_type": "Normal",
@@ -2204,7 +2209,7 @@
     },
     {
       "name": "Ekans",
-      "count": 19,
+      "count": 20,
       "owned": true,
       "pokedex_number": 23,
       "primary_type": "Poison",
@@ -4004,7 +4009,7 @@
     },
     {
       "name": "Oddish",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 43,
       "primary_type": "Grass",
@@ -4319,7 +4324,7 @@
     },
     {
       "name": "Paras",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 46,
       "primary_type": "Bug",
@@ -4707,7 +4712,7 @@
     },
     {
       "name": "Diglett",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 50,
       "primary_type": "Ground",
@@ -4869,7 +4874,7 @@
     },
     {
       "name": "Meowth",
-      "count": 12,
+      "count": 14,
       "owned": true,
       "pokedex_number": 52,
       "primary_type": "Normal",
@@ -5161,7 +5166,7 @@
     },
     {
       "name": "Mankey",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 56,
       "primary_type": "Fighting",
@@ -5509,7 +5514,7 @@
     },
     {
       "name": "Poliwag",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 60,
       "primary_type": "Water",
@@ -6322,7 +6327,7 @@
     },
     {
       "name": "Bellsprout",
-      "count": 14,
+      "count": 15,
       "owned": true,
       "pokedex_number": 69,
       "primary_type": "Grass",
@@ -9407,7 +9412,7 @@
     },
     {
       "name": "Exeggcute",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 102,
       "primary_type": "Grass",
@@ -12008,7 +12013,7 @@
     },
     {
       "name": "Eevee",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 133,
       "primary_type": "Normal",
