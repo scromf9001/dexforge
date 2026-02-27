@@ -3,21 +3,21 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-26T06:29:55.805500+00:00",
+  "updated_at": "2026-02-27T07:52:53.635848+00:00",
   "trainer_stats": {
     "pokedex": {
-      "total_available": 278,
+      "total_available": 281,
       "unique_owned": 123,
       "total_owned": 459,
-      "completion_percent": 44.24
+      "completion_percent": 43.77
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
         "owned": 119,
-        "total": 151,
-        "completion_percent": 78.81,
+        "total": 154,
+        "completion_percent": 77.27,
         "total_lines": 78,
         "lines_completed": 42
       },
@@ -33,12 +33,12 @@
     },
     "evolution": {
       "total_evolutions_owned": 123,
-      "total_evolutions_available": 278,
+      "total_evolutions_available": 281,
       "lines_completed": 42,
       "total_lines": 129,
       "stage_totals": {
-        "1": 156,
-        "2": 92,
+        "1": 157,
+        "2": 94,
         "3": 30
       },
       "stage_owned": {
@@ -50,8 +50,8 @@
     "types": {
       "grass": {
         "owned": 10,
-        "total": 21,
-        "completion_percent": 47.62
+        "total": 22,
+        "completion_percent": 45.45
       },
       "fire": {
         "owned": 10,
@@ -60,8 +60,8 @@
       },
       "water": {
         "owned": 24,
-        "total": 44,
-        "completion_percent": 54.55
+        "total": 46,
+        "completion_percent": 52.17
       },
       "bug": {
         "owned": 10,
@@ -139,35 +139,35 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 7,
-      "success": 4,
-      "accuracy_percent": 57.14,
+      "thrown": 0,
+      "success": 0,
+      "accuracy_percent": 0,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 2,
-          "success": 1,
-          "accuracy_percent": 50.0
+          "thrown": 0,
+          "success": 0,
+          "accuracy_percent": 0
         },
         "great ball": {
-          "thrown": 2,
-          "success": 1,
-          "accuracy_percent": 50.0
+          "thrown": 0,
+          "success": 0,
+          "accuracy_percent": 0
         },
         "ultra ball": {
-          "thrown": 2,
-          "success": 1,
-          "accuracy_percent": 50.0
+          "thrown": 0,
+          "success": 0,
+          "accuracy_percent": 0
         },
         "master ball": {
-          "thrown": 1,
-          "success": 1,
-          "accuracy_percent": 100.0
+          "thrown": 0,
+          "success": 0,
+          "accuracy_percent": 0
         }
       }
     },
     "journey": {
-      "watch_hours": 936,
+      "watch_hours": 940,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -176,18 +176,18 @@
       "total_donated": 0.0,
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
-      "streams_watched": 296,
-      "chat_messages": 7616,
-      "commands_run": 40339,
-      "times_tagged": 1771,
-      "times_evolved": 3,
-      "times_traded": 1,
-      "times_eggs_hatched": 1,
+      "streams_watched": 298,
+      "chat_messages": 7646,
+      "commands_run": 40453,
+      "times_tagged": 1795,
+      "times_evolved": 0,
+      "times_traded": 0,
+      "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 28.57,
-        "great ball": 28.57,
-        "ultra ball": 28.57,
-        "master ball": 14.29
+        "poke ball": 0,
+        "great ball": 0,
+        "ultra ball": 0,
+        "master ball": 0
       },
       "pokebag": {
         "Berry": 3,
@@ -599,7 +599,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 1659
     },
     {
       "name": "Charmeleon",
@@ -698,7 +698,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 1659
     },
     {
       "name": "Charizard",
@@ -801,7 +801,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 1659
     },
     {
       "name": "Squirtle",
@@ -3920,9 +3920,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "17",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Friendship",
       "stats": {
         "hp": 75,
         "attack": 80,
@@ -4005,7 +4005,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Oddish",
@@ -4089,6 +4091,12 @@
         },
         {
           "name": "Gloom",
+          "pokedex_number": 44,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
+          "evolution_stage": "2"
+        },
+        {
+          "name": "Gloom Sun",
           "pokedex_number": 44,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
           "evolution_stage": "2"
@@ -4199,6 +4207,12 @@
           "evolution_stage": "2"
         },
         {
+          "name": "Gloom Sun",
+          "pokedex_number": 44,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
+          "evolution_stage": "2"
+        },
+        {
           "name": "Vileplume",
           "pokedex_number": 45,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/45.svg",
@@ -4213,6 +4227,117 @@
       ],
       "line_complete": false,
       "evolvable_now": true,
+      "requires_stone": true,
+      "requires_trade": false,
+      "friendship_points": 0
+    },
+    {
+      "name": "Gloom Sun",
+      "count": 0,
+      "owned": false,
+      "pokedex_number": 44,
+      "primary_type": "Grass",
+      "secondary_type": "Poison",
+      "generation": 1,
+      "region": "Kanto",
+      "rarity": "common",
+      "is_legendary": false,
+      "is_mythic": false,
+      "is_hatchable": false,
+      "evolution": false,
+      "evolution_stage": 2,
+      "evolution_line_id": "18",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Sun Stone",
+      "stats": {
+        "hp": 60,
+        "attack": 65,
+        "defense": 70,
+        "sp_attack": 85,
+        "sp_defense": 75,
+        "speed": 40
+      },
+      "physical": {
+        "height": 0.8,
+        "weight": 8.6
+      },
+      "pokedex_entry": "The fluid that oozes from its mouth isn’t drool. It is a nectar that is used to attract prey.",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
+      "strengths": [
+        {
+          "type": "water",
+          "multiplier": 0.5
+        },
+        {
+          "type": "grass",
+          "multiplier": 0.25
+        },
+        {
+          "type": "electric",
+          "multiplier": 0.5
+        },
+        {
+          "type": "fighting",
+          "multiplier": 0.5
+        },
+        {
+          "type": "fairy",
+          "multiplier": 0.5
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "fire",
+          "multiplier": 2.0
+        },
+        {
+          "type": "ice",
+          "multiplier": 2.0
+        },
+        {
+          "type": "flying",
+          "multiplier": 2.0
+        },
+        {
+          "type": "psychic",
+          "multiplier": 2.0
+        }
+      ],
+      "evolution_line": [
+        {
+          "name": "Oddish",
+          "pokedex_number": 43,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/43.svg",
+          "evolution_stage": "1"
+        },
+        {
+          "name": "Gloom",
+          "pokedex_number": 44,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
+          "evolution_stage": "2"
+        },
+        {
+          "name": "Gloom Sun",
+          "pokedex_number": 44,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
+          "evolution_stage": "2"
+        },
+        {
+          "name": "Vileplume",
+          "pokedex_number": 45,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/45.svg",
+          "evolution_stage": "3"
+        },
+        {
+          "name": "Bellossom",
+          "pokedex_number": 182,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/182.svg",
+          "evolution_stage": "3"
+        }
+      ],
+      "line_complete": false,
+      "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
@@ -4299,6 +4424,12 @@
         },
         {
           "name": "Gloom",
+          "pokedex_number": 44,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
+          "evolution_stage": "2"
+        },
+        {
+          "name": "Gloom Sun",
           "pokedex_number": 44,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
           "evolution_stage": "2"
@@ -5587,6 +5718,12 @@
           "evolution_stage": "2"
         },
         {
+          "name": "Poliwhirl Trade",
+          "pokedex_number": 61,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
+          "evolution_stage": "2"
+        },
+        {
           "name": "Poliwrath",
           "pokedex_number": 62,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/62.svg",
@@ -5680,6 +5817,12 @@
           "evolution_stage": "2"
         },
         {
+          "name": "Poliwhirl Trade",
+          "pokedex_number": 61,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
+          "evolution_stage": "2"
+        },
+        {
           "name": "Poliwrath",
           "pokedex_number": 62,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/62.svg",
@@ -5696,6 +5839,105 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
+      "friendship_points": 0
+    },
+    {
+      "name": "Poliwhirl Trade",
+      "count": 0,
+      "owned": false,
+      "pokedex_number": 61,
+      "primary_type": "Water",
+      "secondary_type": null,
+      "generation": 1,
+      "region": "Kanto",
+      "rarity": "common",
+      "is_legendary": false,
+      "is_mythic": false,
+      "is_hatchable": false,
+      "evolution": false,
+      "evolution_stage": 2,
+      "evolution_line_id": "26",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Trade",
+      "stats": {
+        "hp": 65,
+        "attack": 65,
+        "defense": 65,
+        "sp_attack": 50,
+        "sp_defense": 50,
+        "speed": 90
+      },
+      "physical": {
+        "height": 1.0,
+        "weight": 20.0
+      },
+      "pokedex_entry": "Its skin is moist all over its body. The skin on its belly spiral also feels smooth.",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
+      "strengths": [
+        {
+          "type": "fire",
+          "multiplier": 0.5
+        },
+        {
+          "type": "water",
+          "multiplier": 0.5
+        },
+        {
+          "type": "ice",
+          "multiplier": 0.5
+        },
+        {
+          "type": "steel",
+          "multiplier": 0.5
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "multiplier": 2.0
+        },
+        {
+          "type": "electric",
+          "multiplier": 2.0
+        }
+      ],
+      "evolution_line": [
+        {
+          "name": "Poliwag",
+          "pokedex_number": 60,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/60.svg",
+          "evolution_stage": "1"
+        },
+        {
+          "name": "Poliwhirl",
+          "pokedex_number": 61,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
+          "evolution_stage": "2"
+        },
+        {
+          "name": "Poliwhirl Trade",
+          "pokedex_number": 61,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
+          "evolution_stage": "2"
+        },
+        {
+          "name": "Poliwrath",
+          "pokedex_number": 62,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/62.svg",
+          "evolution_stage": "3"
+        },
+        {
+          "name": "Politoed",
+          "pokedex_number": 186,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/186.svg",
+          "evolution_stage": "3"
+        }
+      ],
+      "line_complete": false,
+      "evolvable_now": false,
+      "requires_stone": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -5792,6 +6034,12 @@
         },
         {
           "name": "Poliwhirl",
+          "pokedex_number": 61,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
+          "evolution_stage": "2"
+        },
+        {
+          "name": "Poliwhirl Trade",
           "pokedex_number": 61,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
           "evolution_stage": "2"
@@ -7432,6 +7680,12 @@
           "evolution_stage": "1"
         },
         {
+          "name": "Slowpoke Trade",
+          "pokedex_number": 79,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/79.svg",
+          "evolution_stage": "1"
+        },
+        {
           "name": "Slowbro",
           "pokedex_number": 80,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/80.svg",
@@ -7448,6 +7702,119 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
+      "friendship_points": 0
+    },
+    {
+      "name": "Slowpoke Trade",
+      "count": 0,
+      "owned": false,
+      "pokedex_number": 79,
+      "primary_type": "Water",
+      "secondary_type": "Psychic",
+      "generation": 1,
+      "region": "Kanto",
+      "rarity": "common",
+      "is_legendary": false,
+      "is_mythic": false,
+      "is_hatchable": false,
+      "evolution": false,
+      "evolution_stage": 1,
+      "evolution_line_id": "33",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Trade",
+      "stats": {
+        "hp": 90,
+        "attack": 65,
+        "defense": 65,
+        "sp_attack": 40,
+        "sp_defense": 40,
+        "speed": 15
+      },
+      "physical": {
+        "height": 1.2,
+        "weight": 36.0
+      },
+      "pokedex_entry": "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail.",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/79.svg",
+      "strengths": [
+        {
+          "type": "fire",
+          "multiplier": 0.5
+        },
+        {
+          "type": "water",
+          "multiplier": 0.5
+        },
+        {
+          "type": "ice",
+          "multiplier": 0.5
+        },
+        {
+          "type": "fighting",
+          "multiplier": 0.5
+        },
+        {
+          "type": "psychic",
+          "multiplier": 0.5
+        },
+        {
+          "type": "steel",
+          "multiplier": 0.5
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "grass",
+          "multiplier": 2.0
+        },
+        {
+          "type": "electric",
+          "multiplier": 2.0
+        },
+        {
+          "type": "bug",
+          "multiplier": 2.0
+        },
+        {
+          "type": "ghost",
+          "multiplier": 2.0
+        },
+        {
+          "type": "dark",
+          "multiplier": 2.0
+        }
+      ],
+      "evolution_line": [
+        {
+          "name": "Slowpoke",
+          "pokedex_number": 79,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/79.svg",
+          "evolution_stage": "1"
+        },
+        {
+          "name": "Slowpoke Trade",
+          "pokedex_number": 79,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/79.svg",
+          "evolution_stage": "1"
+        },
+        {
+          "name": "Slowbro",
+          "pokedex_number": 80,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/80.svg",
+          "evolution_stage": "2"
+        },
+        {
+          "name": "Slowking",
+          "pokedex_number": 199,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/199.svg",
+          "evolution_stage": "2"
+        }
+      ],
+      "line_complete": false,
+      "evolvable_now": false,
+      "requires_stone": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -7534,6 +7901,12 @@
       "evolution_line": [
         {
           "name": "Slowpoke",
+          "pokedex_number": 79,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/79.svg",
+          "evolution_stage": "1"
+        },
+        {
+          "name": "Slowpoke Trade",
           "pokedex_number": 79,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/79.svg",
           "evolution_stage": "1"
@@ -8859,9 +9232,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "41",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 35,
         "attack": 45,
@@ -8945,7 +9318,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -10431,9 +10804,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "51",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Friendship",
       "stats": {
         "hp": 250,
         "attack": 5,
@@ -10478,7 +10851,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Tangela",
@@ -11235,9 +11610,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "58",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 70,
         "attack": 110,
@@ -11309,7 +11684,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -12435,9 +12810,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "68",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 65,
         "attack": 60,
@@ -12481,7 +12856,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -14203,7 +14578,7 @@
       "evolution_line_id": "80",
       "quantity_required": 0,
       "item_required": false,
-      "requirement": "",
+      "requirement": "0",
       "stats": {
         "hp": 78,
         "attack": 84,
@@ -16443,6 +16818,12 @@
           "evolution_stage": "2"
         },
         {
+          "name": "Gloom Sun",
+          "pokedex_number": 44,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
+          "evolution_stage": "2"
+        },
+        {
           "name": "Vileplume",
           "pokedex_number": 45,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/45.svg",
@@ -16814,6 +17195,12 @@
         },
         {
           "name": "Poliwhirl",
+          "pokedex_number": 61,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
+          "evolution_stage": "2"
+        },
+        {
+          "name": "Poliwhirl Trade",
           "pokedex_number": 61,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
           "evolution_stage": "2"
@@ -18010,6 +18397,12 @@
           "evolution_stage": "1"
         },
         {
+          "name": "Slowpoke Trade",
+          "pokedex_number": 79,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/79.svg",
+          "evolution_stage": "1"
+        },
+        {
           "name": "Slowbro",
           "pokedex_number": 80,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/80.svg",
@@ -18320,13 +18713,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -18553,13 +18946,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -18786,13 +19179,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -19019,13 +19412,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -19252,13 +19645,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -19485,13 +19878,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -19718,13 +20111,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -19951,13 +20344,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -20184,13 +20577,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -20417,13 +20810,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -20650,13 +21043,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -20883,13 +21276,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -21116,13 +21509,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -21349,13 +21742,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -21582,13 +21975,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -21815,13 +22208,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -22048,13 +22441,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -22281,13 +22674,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -22514,13 +22907,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -22747,13 +23140,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -22980,13 +23373,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -23213,13 +23606,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -23446,13 +23839,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -23679,13 +24072,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -23912,13 +24305,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -24145,13 +24538,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -24193,7 +24586,7 @@
         "weight": 5.0
       },
       "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
       "strengths": [
         {
           "type": "fighting",
@@ -24378,13 +24771,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -24426,7 +24819,7 @@
         "weight": 5.0
       },
       "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
       "strengths": [
         {
           "type": "fighting",
@@ -24611,13 +25004,13 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
@@ -28809,7 +29202,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "2",
-    "friendship_points": 0,
+    "friendship_points": 1659,
     "times_pet": 0,
     "times_fed": 0
   }
