@@ -3,7 +3,7 @@
     "username": "litlpotatr",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/998f01ae-def8-11e9-b95c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-27T16:13:16.009627+00:00",
+  "updated_at": "2026-02-27T16:22:59.320549+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -169,7 +169,7 @@
     "journey": {
       "watch_hours": 593,
       "follow_age": "8 Month(s)",
-      "sub_age": "1 Year(s), 1 Month(s), 18 Day(s)",
+      "sub_age": "1 Year(s), 1 Month(s), 19 Day(s)",
       "sub_months": 14,
       "subs_gifted": 0,
       "bits_donated": 200,
@@ -177,9 +177,9 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 199,
-      "chat_messages": 15115,
-      "commands_run": 23260,
-      "times_tagged": 2390,
+      "chat_messages": 15127,
+      "commands_run": 23282,
+      "times_tagged": 2395,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
@@ -190,7 +190,7 @@
         "master ball": 0
       },
       "pokebag": {
-        "Great Ball": 99
+        "Great Ball": 98
       }
     }
   },
