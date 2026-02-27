@@ -602,7 +602,6 @@ def run():
             1 for line in lines if all(p["owned"] for p in line)
         )
 
-
     # ---- TYPE MASTERY ----
     type_progress = {}
 
@@ -641,8 +640,6 @@ def run():
 
             if p["owned"]:
                 total_legendary_owned += 1
-
-
 
 
     # ---- FINAL TRAINER STATS OBJECT ----
@@ -705,8 +702,6 @@ def run():
             "ball_distribution": ball_distribution,
             "pokebag": pokebag_contents
         }
-
-
     }
 
     # =========================
