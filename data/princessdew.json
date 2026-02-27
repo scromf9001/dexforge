@@ -3,7 +3,7 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-27T16:16:03.056484+00:00",
+  "updated_at": "2026-02-27T16:37:29.606437+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 772,
+      "watch_hours": 773,
       "follow_age": "1 Year(s), 4 Month(s), 10 Day(s)",
       "sub_age": "1 Year(s), 19 Day(s)",
       "sub_months": 13,
@@ -177,9 +177,9 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 230,
-      "chat_messages": 13719,
-      "commands_run": 14572,
-      "times_tagged": 1943,
+      "chat_messages": 13755,
+      "commands_run": 14646,
+      "times_tagged": 1961,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
@@ -190,7 +190,7 @@
         "master ball": 0
       },
       "pokebag": {
-        "Great Ball": 99,
+        "Great Ball": 98,
         "Ultra Ball": 18
       }
     }
@@ -590,7 +590,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 19
     },
     {
       "name": "Charmeleon",
@@ -689,7 +689,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 19
     },
     {
       "name": "Charizard",
@@ -792,7 +792,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 19
     },
     {
       "name": "Squirtle",
@@ -28797,5 +28797,15 @@
       "friendship_points": 0
     }
   ],
-  "companion": null
+  "companion": {
+    "name": "Charmander",
+    "pokedex_number": 4,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg",
+    "primary_type": "Fire",
+    "secondary_type": null,
+    "evolution_line_id": "2",
+    "friendship_points": 19,
+    "times_pet": 1,
+    "times_fed": 0
+  }
 }
