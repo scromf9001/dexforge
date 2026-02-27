@@ -3,21 +3,21 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/13e5fa74-defa-11e9-809c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-23T21:29:55.423052+00:00",
+  "updated_at": "2026-02-27T16:13:35.883543+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 44,
-      "total_owned": 59,
-      "completion_percent": 15.83
+      "unique_owned": 46,
+      "total_owned": 64,
+      "completion_percent": 16.55
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 43,
+        "owned": 45,
         "total": 151,
-        "completion_percent": 28.48,
+        "completion_percent": 29.8,
         "total_lines": 78,
         "lines_completed": 4
       },
@@ -32,7 +32,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 44,
+      "total_evolutions_owned": 46,
       "total_evolutions_available": 278,
       "lines_completed": 4,
       "total_lines": 129,
@@ -42,15 +42,15 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 29,
+        "1": 31,
         "2": 15
       }
     },
     "types": {
       "grass": {
-        "owned": 1,
+        "owned": 2,
         "total": 21,
-        "completion_percent": 4.76
+        "completion_percent": 9.52
       },
       "fire": {
         "owned": 4,
@@ -98,9 +98,9 @@
         "completion_percent": 11.11
       },
       "psychic": {
-        "owned": 1,
+        "owned": 2,
         "total": 42,
-        "completion_percent": 2.38
+        "completion_percent": 4.76
       },
       "rock": {
         "owned": 2,
@@ -166,14 +166,19 @@
       }
     },
     "journey": {
-      "watch_hours": 68,
-      "follow_age": "<1 Day",
-      "sub_age": "1 Month(s), 3 Day(s)",
+      "watch_hours": 73,
+      "follow_age": "1 Day(s)",
+      "sub_age": "1 Month(s), 7 Day(s)",
+      "sub_months": 2,
+      "subs_gifted": 0,
+      "bits_donated": 0,
+      "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 26,
-      "chat_messages": 6295,
-      "commands_run": 8682,
+      "streams_watched": 29,
+      "chat_messages": 6679,
+      "commands_run": 9232,
+      "times_tagged": 1622,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
@@ -184,7 +189,7 @@
         "master ball": 0
       },
       "pokebag": {
-        "Great Ball": 84
+        "Great Ball": 99
       }
     }
   },
@@ -285,7 +290,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Ivysaur",
@@ -383,7 +389,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Venosaur",
@@ -481,7 +488,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Charmander",
@@ -579,7 +587,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Charmeleon",
@@ -677,7 +686,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Charizard",
@@ -779,7 +789,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Squirtle",
@@ -865,7 +876,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Wartortle",
@@ -951,7 +963,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Blastoise",
@@ -1037,7 +1050,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Caterpie",
@@ -1123,7 +1137,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Metapod",
@@ -1209,7 +1224,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Butterfree",
@@ -1307,7 +1323,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Weedle",
@@ -1405,7 +1422,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Kakuna",
@@ -1503,7 +1521,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Beedrill",
@@ -1601,11 +1620,12 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Pidgey",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 16,
       "primary_type": "Normal",
@@ -1689,9 +1709,10 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Pidgeotto",
@@ -1781,7 +1802,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Pidgeot",
@@ -1871,7 +1893,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Rattata",
@@ -1935,7 +1958,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Raticate",
@@ -1999,7 +2023,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Spearow",
@@ -2083,7 +2108,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Fearow",
@@ -2167,7 +2193,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Ekans",
@@ -2251,7 +2278,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Arbok",
@@ -2335,7 +2363,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Pikachu",
@@ -2413,7 +2442,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": true,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Raichu",
@@ -2491,7 +2521,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Sandshrew",
@@ -2571,7 +2602,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Sandslash",
@@ -2651,7 +2683,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Nidoran (F)",
@@ -2741,7 +2774,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Nidorina",
@@ -2831,7 +2865,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": true,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Nidoqueen",
@@ -2933,7 +2968,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Nidoran (M)",
@@ -3023,7 +3059,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Nidorino",
@@ -3113,7 +3150,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": true,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Nidoking",
@@ -3215,7 +3253,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Clefairy",
@@ -3301,7 +3340,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": true,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Clefable",
@@ -3387,7 +3427,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Vulpix",
@@ -3479,7 +3520,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": true,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Ninetales",
@@ -3571,7 +3613,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Jigglypuff",
@@ -3657,7 +3700,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": true,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Wigglytuff",
@@ -3743,7 +3787,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Zubat",
@@ -3845,7 +3890,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Golbat",
@@ -3863,9 +3909,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "17",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Friendship",
       "stats": {
         "hp": 75,
         "attack": 80,
@@ -3947,12 +3993,15 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Oddish",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 43,
       "primary_type": "Grass",
       "secondary_type": "Poison",
@@ -4051,7 +4100,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Gloom",
@@ -4155,7 +4205,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": true,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Vileplume",
@@ -4259,7 +4310,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Paras",
@@ -4359,7 +4411,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Parasect",
@@ -4459,7 +4512,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Venonat",
@@ -4551,7 +4605,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Venomoth",
@@ -4643,7 +4698,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Diglett",
@@ -4723,7 +4779,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Dugtrio",
@@ -4803,7 +4860,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Meowth",
@@ -4867,7 +4925,8 @@
       "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Persian",
@@ -4931,7 +4990,8 @@
       "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Psyduck",
@@ -5011,7 +5071,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Golduck",
@@ -5091,7 +5152,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Mankey",
@@ -5171,7 +5233,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Primape",
@@ -5251,7 +5314,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Growlithe",
@@ -5343,7 +5407,8 @@
       "line_complete": true,
       "evolvable_now": true,
       "requires_stone": true,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Arcanine",
@@ -5435,7 +5500,8 @@
       "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Poliwag",
@@ -5527,7 +5593,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Poliwhirl",
@@ -5619,7 +5686,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": true,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Poliwrath",
@@ -5735,12 +5803,13 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Abra",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 63,
       "primary_type": "Psychic",
       "secondary_type": null,
@@ -5817,7 +5886,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Kadabra",
@@ -5899,7 +5969,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": true
+      "requires_trade": true,
+      "friendship_points": 0
     },
     {
       "name": "Alakazam",
@@ -5981,7 +6052,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Machop",
@@ -6067,7 +6139,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Machoke",
@@ -6153,7 +6226,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": true
+      "requires_trade": true,
+      "friendship_points": 0
     },
     {
       "name": "Machamp",
@@ -6239,7 +6313,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Bellsprout",
@@ -6337,7 +6412,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Weepinbell",
@@ -6435,7 +6511,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": true,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Victreebel",
@@ -6533,7 +6610,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Tentacool",
@@ -6633,7 +6711,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Tentacruel",
@@ -6733,7 +6812,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Geodude",
@@ -6843,7 +6923,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Graveler",
@@ -6953,7 +7034,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": true
+      "requires_trade": true,
+      "friendship_points": 0
     },
     {
       "name": "Golem",
@@ -7063,7 +7145,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Ponyta",
@@ -7155,7 +7238,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Rapidash",
@@ -7247,7 +7331,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Slowpoke",
@@ -7353,7 +7438,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Slowbro",
@@ -7459,7 +7545,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Magnemite",
@@ -7575,7 +7662,8 @@
       "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Magneton",
@@ -7691,7 +7779,8 @@
       "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Farfetch'd",
@@ -7769,7 +7858,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Doduo",
@@ -7853,7 +7943,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Dodrio",
@@ -7937,7 +8028,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Seel",
@@ -8017,7 +8109,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Dewgong",
@@ -8097,7 +8190,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Grimer",
@@ -8181,7 +8275,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Muk",
@@ -8265,7 +8360,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Shellder",
@@ -8345,7 +8441,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": true,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Cloyster",
@@ -8425,7 +8522,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Gastly",
@@ -8527,7 +8625,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Haunter",
@@ -8629,7 +8728,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": true
+      "requires_trade": true,
+      "friendship_points": 0
     },
     {
       "name": "Gengar",
@@ -8731,7 +8831,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Onix",
@@ -8749,9 +8850,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "41",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 35,
         "attack": 45,
@@ -8835,7 +8936,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": true,
+      "friendship_points": 0
     },
     {
       "name": "Drowzee",
@@ -8911,7 +9013,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Hypno",
@@ -8987,11 +9090,12 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Krabby",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 98,
       "primary_type": "Water",
@@ -9067,7 +9171,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Kingler",
@@ -9147,7 +9252,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Voltorb",
@@ -9219,7 +9325,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Electrode",
@@ -9291,7 +9398,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Exeggcute",
@@ -9399,7 +9507,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Exeggutor",
@@ -9507,7 +9616,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Cubone",
@@ -9587,7 +9697,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Marowak",
@@ -9667,7 +9778,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Hitmonlee",
@@ -9759,7 +9871,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Hitmonchan",
@@ -9851,7 +9964,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Lickitung",
@@ -9909,7 +10023,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Koffing",
@@ -9993,7 +10108,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Weezing",
@@ -10077,7 +10193,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Rhyhorn",
@@ -10181,7 +10298,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Rhydon",
@@ -10285,7 +10403,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Chansey",
@@ -10303,9 +10422,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "51",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Friendship",
       "stats": {
         "hp": 250,
         "attack": 5,
@@ -10349,7 +10468,10 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Tangela",
@@ -10435,7 +10557,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Kangaskhan",
@@ -10493,7 +10616,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Horsea",
@@ -10579,7 +10703,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Seadra",
@@ -10665,11 +10790,12 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Goldeen",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 118,
       "primary_type": "Water",
@@ -10745,7 +10871,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Seaking",
@@ -10825,7 +10952,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Staryu",
@@ -10905,7 +11033,8 @@
       "line_complete": false,
       "evolvable_now": true,
       "requires_stone": true,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Starmie",
@@ -11005,7 +11134,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Mr. Mime",
@@ -11079,7 +11209,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Scyther",
@@ -11097,9 +11228,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "58",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 70,
         "attack": 110,
@@ -11171,7 +11302,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": true,
+      "friendship_points": 0
     },
     {
       "name": "Jynx",
@@ -11259,7 +11391,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Electabuzz",
@@ -11331,7 +11464,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Magmar",
@@ -11423,7 +11557,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Pinsir",
@@ -11503,7 +11638,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Tauros",
@@ -11561,7 +11697,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Magikarp",
@@ -11641,7 +11778,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Gyarados",
@@ -11729,7 +11867,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Lapras",
@@ -11803,7 +11942,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Ditto",
@@ -11861,7 +12001,8 @@
       "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Eevee",
@@ -11949,7 +12090,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Vaporeon",
@@ -12053,7 +12195,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Jolteon",
@@ -12149,7 +12292,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Flareon",
@@ -12265,7 +12409,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Porygon",
@@ -12283,9 +12428,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "68",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 65,
         "attack": 60,
@@ -12329,7 +12474,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": true,
+      "friendship_points": 0
     },
     {
       "name": "Omanyte",
@@ -12421,7 +12567,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Omastar",
@@ -12513,7 +12660,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Kabuto",
@@ -12605,7 +12753,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Kabutops",
@@ -12697,7 +12846,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Aerodactyl",
@@ -12791,7 +12941,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Snorlax",
@@ -12849,7 +13000,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Articuno",
@@ -12927,7 +13079,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Zapdos",
@@ -13009,7 +13162,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Moltres",
@@ -13099,7 +13253,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Dratini",
@@ -13189,7 +13344,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Dragonair",
@@ -13279,7 +13435,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Dragonite",
@@ -13381,7 +13538,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Mewtwo",
@@ -13451,7 +13609,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Mew",
@@ -13521,7 +13680,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Chikorita",
@@ -13619,7 +13779,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Bayleef",
@@ -13717,7 +13878,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Meganium",
@@ -13815,7 +13977,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Cyndaquil",
@@ -13913,7 +14076,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Quilava",
@@ -14011,7 +14175,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Thyplosion",
@@ -14031,7 +14196,7 @@
       "evolution_line_id": "80",
       "quantity_required": 0,
       "item_required": false,
-      "requirement": "",
+      "requirement": "0",
       "stats": {
         "hp": 78,
         "attack": 84,
@@ -14109,7 +14274,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Totodile",
@@ -14195,7 +14361,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Croconaw",
@@ -14281,7 +14448,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Ferligatr",
@@ -14367,7 +14535,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Sentret",
@@ -14431,7 +14600,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Furret",
@@ -14495,7 +14665,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Hoothoot",
@@ -14579,7 +14750,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Noctowl",
@@ -14663,7 +14835,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Ledyba",
@@ -14755,7 +14928,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Ledian",
@@ -14847,7 +15021,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Spinarak",
@@ -14939,7 +15114,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Aridos",
@@ -15031,7 +15207,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Crobat",
@@ -15133,7 +15310,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Chinchou",
@@ -15217,7 +15395,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Lanturn",
@@ -15301,7 +15480,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Pichu",
@@ -15379,7 +15559,10 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Cleffa",
@@ -15465,7 +15648,10 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Igglybuff",
@@ -15551,7 +15737,10 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Togepi",
@@ -15631,7 +15820,10 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Togetic",
@@ -15731,7 +15923,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Natu",
@@ -15823,7 +16016,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Xatu",
@@ -15915,7 +16109,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Mareep",
@@ -15993,7 +16188,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Flaafy",
@@ -16071,7 +16267,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Ampharos",
@@ -16149,7 +16346,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Bellossom",
@@ -16253,7 +16451,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Marill",
@@ -16349,7 +16548,10 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Azumarill",
@@ -16445,7 +16647,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Sudowoodo",
@@ -16531,7 +16734,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Politoed",
@@ -16623,7 +16827,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Hoppip",
@@ -16721,7 +16926,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Skiploom",
@@ -16819,7 +17025,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Jumpluff",
@@ -16917,7 +17124,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Aipom",
@@ -16975,7 +17183,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Sunkern",
@@ -17067,7 +17276,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": true,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Sunflora",
@@ -17159,7 +17369,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Yanma",
@@ -17245,7 +17456,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Wooper",
@@ -17325,7 +17537,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Quagsire",
@@ -17405,7 +17618,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Espeon",
@@ -17505,7 +17719,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Umbreon",
@@ -17609,7 +17824,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Murkrow",
@@ -17695,7 +17911,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Slowking",
@@ -17801,7 +18018,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Misdreavus",
@@ -17875,7 +18093,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown A",
@@ -18094,20 +18313,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown B",
@@ -18326,20 +18546,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown C",
@@ -18558,20 +18779,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown D",
@@ -18790,20 +19012,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown E",
@@ -19022,20 +19245,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown F",
@@ -19254,20 +19478,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown G",
@@ -19486,20 +19711,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown H",
@@ -19718,20 +19944,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown I",
@@ -19950,20 +20177,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown J",
@@ -20182,20 +20410,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown K",
@@ -20414,20 +20643,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown L",
@@ -20646,20 +20876,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown M",
@@ -20878,20 +21109,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown N",
@@ -21110,20 +21342,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown O",
@@ -21342,20 +21575,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown P",
@@ -21574,20 +21808,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown Q",
@@ -21806,20 +22041,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown R",
@@ -22038,20 +22274,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown S",
@@ -22270,20 +22507,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown T",
@@ -22502,20 +22740,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown U",
@@ -22734,20 +22973,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown V",
@@ -22966,20 +23206,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown W",
@@ -23198,20 +23439,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown X",
@@ -23430,20 +23672,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown Y",
@@ -23662,20 +23905,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown Z",
@@ -23894,20 +24138,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown !",
@@ -23941,7 +24186,7 @@
         "weight": 5.0
       },
       "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
       "strengths": [
         {
           "type": "fighting",
@@ -24126,20 +24371,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Unown ?",
@@ -24173,7 +24419,7 @@
         "weight": 5.0
       },
       "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
       "strengths": [
         {
           "type": "fighting",
@@ -24358,20 +24604,21 @@
         {
           "name": "Unown !",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-!.svg",
           "evolution_stage": "1"
         },
         {
           "name": "Unown ?",
           "pokedex_number": 201,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-?.svg",
           "evolution_stage": "1"
         }
       ],
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Wobbuffet",
@@ -24441,7 +24688,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Girafarig",
@@ -24507,7 +24755,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Pineco",
@@ -24587,7 +24836,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Forretress",
@@ -24683,7 +24933,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Dunsparce",
@@ -24741,7 +24992,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Gligar",
@@ -24819,7 +25071,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Steelix",
@@ -24931,7 +25184,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Snubbul",
@@ -25011,7 +25265,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Granbull",
@@ -25091,7 +25346,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Qwilfish",
@@ -25149,7 +25405,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Scisor",
@@ -25245,7 +25502,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Shuckle",
@@ -25315,7 +25573,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Heracross",
@@ -25401,7 +25660,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Sneasel",
@@ -25491,7 +25751,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Teddiursa",
@@ -25555,7 +25816,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Ursaring",
@@ -25619,7 +25881,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Slugma",
@@ -25711,7 +25974,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Macargo",
@@ -25811,7 +26075,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Swinub",
@@ -25895,7 +26160,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Piloswine",
@@ -25979,7 +26245,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Corsola",
@@ -26065,7 +26332,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Remoraid",
@@ -26145,7 +26413,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Octillery",
@@ -26225,7 +26494,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Delibird",
@@ -26303,7 +26573,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Mantine",
@@ -26385,7 +26656,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Skarmory",
@@ -26483,7 +26755,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Houndour",
@@ -26583,7 +26856,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Houndoom",
@@ -26683,7 +26957,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Kingdra",
@@ -26765,7 +27040,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Phanpy",
@@ -26839,7 +27115,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Donphan",
@@ -26913,7 +27190,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Porygon2",
@@ -26977,7 +27255,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Stantler",
@@ -27035,7 +27314,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Smeargle",
@@ -27093,7 +27373,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Tyrogue",
@@ -27185,7 +27466,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Hitmontop",
@@ -27277,7 +27559,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Smoochum",
@@ -27365,7 +27648,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Elekid",
@@ -27437,7 +27721,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Magby",
@@ -27529,7 +27814,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Miltank",
@@ -27593,7 +27879,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Blissey",
@@ -27657,7 +27944,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Raikou",
@@ -27723,7 +28011,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Entei",
@@ -27809,7 +28098,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Suicune",
@@ -27879,7 +28169,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Larvitar",
@@ -27989,7 +28280,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Pupitar",
@@ -28099,7 +28391,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Tyranitar",
@@ -28217,7 +28510,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Lugia",
@@ -28303,7 +28597,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Ho-oh",
@@ -28393,7 +28688,8 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     },
     {
       "name": "Celebi",
@@ -28495,7 +28791,9 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false
+      "requires_trade": false,
+      "friendship_points": 0
     }
-  ]
+  ],
+  "companion": null
 }
