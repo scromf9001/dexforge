@@ -3,7 +3,7 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/13e5fa74-defa-11e9-809c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-27T16:16:18.651522+00:00",
+  "updated_at": "2026-02-27T16:27:33.324406+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -166,7 +166,7 @@
       }
     },
     "journey": {
-      "watch_hours": 73,
+      "watch_hours": 74,
       "follow_age": "1 Day(s)",
       "sub_age": "1 Month(s), 7 Day(s)",
       "sub_months": 2,
@@ -176,9 +176,9 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 29,
-      "chat_messages": 6683,
-      "commands_run": 9242,
-      "times_tagged": 1625,
+      "chat_messages": 6699,
+      "commands_run": 9267,
+      "times_tagged": 1629,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
@@ -189,7 +189,7 @@
         "master ball": 0
       },
       "pokebag": {
-        "Great Ball": 99
+        "Great Ball": 98
       }
     }
   },
