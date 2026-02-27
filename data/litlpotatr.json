@@ -3,13 +3,13 @@
     "username": "litlpotatr",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/998f01ae-def8-11e9-b95c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-27T16:22:59.320549+00:00",
+  "updated_at": "2026-02-27T16:37:15.297624+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 115,
-      "total_owned": 235,
-      "completion_percent": 41.37
+      "unique_owned": 117,
+      "total_owned": 237,
+      "completion_percent": 42.09
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 0,
+        "owned": 2,
         "total": 127,
-        "completion_percent": 0.0,
+        "completion_percent": 1.57,
         "total_lines": 51,
         "lines_completed": 0
       }
     },
     "evolution": {
-      "total_evolutions_owned": 115,
+      "total_evolutions_owned": 117,
       "total_evolutions_available": 278,
       "lines_completed": 38,
       "total_lines": 129,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 56,
+        "1": 58,
         "2": 43,
         "3": 16
       }
@@ -79,9 +79,9 @@
         "completion_percent": 86.67
       },
       "electric": {
-        "owned": 7,
+        "owned": 8,
         "total": 15,
-        "completion_percent": 46.67
+        "completion_percent": 53.33
       },
       "ground": {
         "owned": 5,
@@ -99,9 +99,9 @@
         "completion_percent": 55.56
       },
       "psychic": {
-        "owned": 5,
+        "owned": 6,
         "total": 42,
-        "completion_percent": 11.9
+        "completion_percent": 14.29
       },
       "rock": {
         "owned": 6,
@@ -177,9 +177,9 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 199,
-      "chat_messages": 15127,
-      "commands_run": 23282,
-      "times_tagged": 2395,
+      "chat_messages": 15159,
+      "commands_run": 23398,
+      "times_tagged": 2413,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
@@ -190,7 +190,7 @@
         "master ball": 0
       },
       "pokebag": {
-        "Great Ball": 98
+        "Great Ball": 97
       }
     }
   },
@@ -3892,7 +3892,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 107
     },
     {
       "name": "Golbat",
@@ -3995,9 +3995,9 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0,
+      "friendship_points": 107,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 0.0
+      "friendship_progress_percent": 17.83
     },
     {
       "name": "Oddish",
@@ -15312,7 +15312,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 107
     },
     {
       "name": "Chinchou",
@@ -16115,8 +16115,8 @@
     },
     {
       "name": "Mareep",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 179,
       "primary_type": "Electric",
       "secondary_type": null,
@@ -18565,8 +18565,8 @@
     },
     {
       "name": "Unown C",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 201,
       "primary_type": "Psychic",
       "secondary_type": null,
@@ -28796,5 +28796,15 @@
       "friendship_points": 0
     }
   ],
-  "companion": null
+  "companion": {
+    "name": "Zubat",
+    "pokedex_number": 41,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/41.svg",
+    "primary_type": "Poison",
+    "secondary_type": "Flying",
+    "evolution_line_id": "17",
+    "friendship_points": 107,
+    "times_pet": 10,
+    "times_fed": 0
+  }
 }
