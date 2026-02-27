@@ -3,13 +3,13 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-27T16:37:29.606437+00:00",
+  "updated_at": "2026-02-27T16:53:23.397193+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 70,
-      "total_owned": 181,
-      "completion_percent": 25.18
+      "unique_owned": 71,
+      "total_owned": 182,
+      "completion_percent": 25.54
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 2,
+        "owned": 3,
         "total": 127,
-        "completion_percent": 1.57,
+        "completion_percent": 2.36,
         "total_lines": 51,
         "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 70,
+      "total_evolutions_owned": 71,
       "total_evolutions_available": 278,
       "lines_completed": 13,
       "total_lines": 129,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 56,
+        "1": 57,
         "2": 13,
         "3": 1
       }
@@ -79,9 +79,9 @@
         "completion_percent": 40.0
       },
       "electric": {
-        "owned": 6,
+        "owned": 7,
         "total": 15,
-        "completion_percent": 40.0
+        "completion_percent": 46.67
       },
       "ground": {
         "owned": 4,
@@ -177,12 +177,12 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 230,
-      "chat_messages": 13755,
-      "commands_run": 14646,
-      "times_tagged": 1961,
+      "chat_messages": 13774,
+      "commands_run": 14688,
+      "times_tagged": 1970,
       "times_evolved": 0,
       "times_traded": 0,
-      "times_eggs_hatched": 0,
+      "times_eggs_hatched": 1,
       "ball_distribution": {
         "poke ball": 0,
         "great ball": 0,
@@ -190,7 +190,7 @@
         "master ball": 0
       },
       "pokebag": {
-        "Great Ball": 98,
+        "Great Ball": 97,
         "Ultra Ball": 18
       }
     }
@@ -590,7 +590,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 19
+      "friendship_points": 34
     },
     {
       "name": "Charmeleon",
@@ -689,7 +689,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 19
+      "friendship_points": 34
     },
     {
       "name": "Charizard",
@@ -792,7 +792,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 19
+      "friendship_points": 34
     },
     {
       "name": "Squirtle",
@@ -15487,8 +15487,8 @@
     },
     {
       "name": "Pichu",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 172,
       "primary_type": "Electric",
       "secondary_type": null,
@@ -28804,7 +28804,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "2",
-    "friendship_points": 19,
+    "friendship_points": 34,
     "times_pet": 1,
     "times_fed": 0
   }
