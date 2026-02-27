@@ -3,55 +3,55 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-27T07:52:53.635848+00:00",
+  "updated_at": "2026-02-27T18:53:52.921191+00:00",
   "trainer_stats": {
     "pokedex": {
-      "total_available": 281,
-      "unique_owned": 123,
-      "total_owned": 459,
-      "completion_percent": 43.77
+      "total_available": 278,
+      "unique_owned": 128,
+      "total_owned": 455,
+      "completion_percent": 46.04
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 119,
-        "total": 154,
-        "completion_percent": 77.27,
+        "owned": 121,
+        "total": 151,
+        "completion_percent": 80.13,
         "total_lines": 78,
-        "lines_completed": 42
+        "lines_completed": 43
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 4,
+        "owned": 7,
         "total": 127,
-        "completion_percent": 3.15,
+        "completion_percent": 5.51,
         "total_lines": 51,
-        "lines_completed": 0
+        "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 123,
-      "total_evolutions_available": 281,
-      "lines_completed": 42,
+      "total_evolutions_owned": 128,
+      "total_evolutions_available": 278,
+      "lines_completed": 44,
       "total_lines": 129,
       "stage_totals": {
-        "1": 157,
-        "2": 94,
+        "1": 156,
+        "2": 92,
         "3": 30
       },
       "stage_owned": {
-        "1": 66,
-        "2": 48,
+        "1": 69,
+        "2": 50,
         "3": 9
       }
     },
     "types": {
       "grass": {
         "owned": 10,
-        "total": 22,
-        "completion_percent": 45.45
+        "total": 21,
+        "completion_percent": 47.62
       },
       "fire": {
         "owned": 10,
@@ -59,9 +59,9 @@
         "completion_percent": 50.0
       },
       "water": {
-        "owned": 24,
-        "total": 46,
-        "completion_percent": 52.17
+        "owned": 25,
+        "total": 44,
+        "completion_percent": 56.82
       },
       "bug": {
         "owned": 10,
@@ -79,14 +79,14 @@
         "completion_percent": 80.0
       },
       "electric": {
-        "owned": 7,
+        "owned": 8,
         "total": 15,
-        "completion_percent": 46.67
+        "completion_percent": 53.33
       },
       "ground": {
-        "owned": 7,
+        "owned": 8,
         "total": 11,
-        "completion_percent": 63.64
+        "completion_percent": 72.73
       },
       "fairy": {
         "owned": 4,
@@ -99,9 +99,9 @@
         "completion_percent": 55.56
       },
       "psychic": {
-        "owned": 6,
+        "owned": 7,
         "total": 42,
-        "completion_percent": 14.29
+        "completion_percent": 16.67
       },
       "rock": {
         "owned": 5,
@@ -129,9 +129,9 @@
         "completion_percent": 0.0
       },
       "steel": {
-        "owned": 0,
+        "owned": 1,
         "total": 2,
-        "completion_percent": 0.0
+        "completion_percent": 50.0
       }
     },
     "legendary": {
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 0,
+      "thrown": 19,
       "success": 0,
-      "accuracy_percent": 0,
+      "accuracy_percent": 0.0,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 0,
+          "thrown": 19,
           "success": 0,
-          "accuracy_percent": 0
+          "accuracy_percent": 0.0
         },
         "great ball": {
           "thrown": 0,
@@ -176,18 +176,18 @@
       "total_donated": 0.0,
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
-      "streams_watched": 298,
-      "chat_messages": 7646,
-      "commands_run": 40453,
-      "times_tagged": 1795,
-      "times_evolved": 0,
-      "times_traded": 0,
+      "streams_watched": 301,
+      "chat_messages": 7762,
+      "commands_run": 40918,
+      "times_tagged": 1823,
+      "times_evolved": 4,
+      "times_traded": 2,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 0,
-        "great ball": 0,
-        "ultra ball": 0,
-        "master ball": 0
+        "poke ball": 100.0,
+        "great ball": 0.0,
+        "ultra ball": 0.0,
+        "master ball": 0.0
       },
       "pokebag": {
         "Berry": 3,
@@ -599,7 +599,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1659
+      "friendship_points": 1754
     },
     {
       "name": "Charmeleon",
@@ -698,7 +698,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1659
+      "friendship_points": 1754
     },
     {
       "name": "Charizard",
@@ -801,7 +801,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1659
+      "friendship_points": 1754
     },
     {
       "name": "Squirtle",
@@ -1909,7 +1909,7 @@
     },
     {
       "name": "Rattata",
-      "count": 12,
+      "count": 13,
       "owned": true,
       "pokedex_number": 19,
       "primary_type": "Normal",
@@ -3803,7 +3803,7 @@
     },
     {
       "name": "Zubat",
-      "count": 11,
+      "count": 8,
       "owned": true,
       "pokedex_number": 41,
       "primary_type": "Poison",
@@ -3902,11 +3902,11 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 204
     },
     {
       "name": "Golbat",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 42,
       "primary_type": "Poison",
@@ -4002,12 +4002,12 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0,
+      "friendship_points": 204,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 0.0
+      "friendship_progress_percent": 34.0
     },
     {
       "name": "Oddish",
@@ -4091,12 +4091,6 @@
         },
         {
           "name": "Gloom",
-          "pokedex_number": 44,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
-          "evolution_stage": "2"
-        },
-        {
-          "name": "Gloom Sun",
           "pokedex_number": 44,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
           "evolution_stage": "2"
@@ -4207,12 +4201,6 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Gloom Sun",
-          "pokedex_number": 44,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
-          "evolution_stage": "2"
-        },
-        {
           "name": "Vileplume",
           "pokedex_number": 45,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/45.svg",
@@ -4227,117 +4215,6 @@
       ],
       "line_complete": false,
       "evolvable_now": true,
-      "requires_stone": true,
-      "requires_trade": false,
-      "friendship_points": 0
-    },
-    {
-      "name": "Gloom Sun",
-      "count": 0,
-      "owned": false,
-      "pokedex_number": 44,
-      "primary_type": "Grass",
-      "secondary_type": "Poison",
-      "generation": 1,
-      "region": "Kanto",
-      "rarity": "common",
-      "is_legendary": false,
-      "is_mythic": false,
-      "is_hatchable": false,
-      "evolution": false,
-      "evolution_stage": 2,
-      "evolution_line_id": "18",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Sun Stone",
-      "stats": {
-        "hp": 60,
-        "attack": 65,
-        "defense": 70,
-        "sp_attack": 85,
-        "sp_defense": 75,
-        "speed": 40
-      },
-      "physical": {
-        "height": 0.8,
-        "weight": 8.6
-      },
-      "pokedex_entry": "The fluid that oozes from its mouth isn’t drool. It is a nectar that is used to attract prey.",
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
-      "strengths": [
-        {
-          "type": "water",
-          "multiplier": 0.5
-        },
-        {
-          "type": "grass",
-          "multiplier": 0.25
-        },
-        {
-          "type": "electric",
-          "multiplier": 0.5
-        },
-        {
-          "type": "fighting",
-          "multiplier": 0.5
-        },
-        {
-          "type": "fairy",
-          "multiplier": 0.5
-        }
-      ],
-      "weaknesses": [
-        {
-          "type": "fire",
-          "multiplier": 2.0
-        },
-        {
-          "type": "ice",
-          "multiplier": 2.0
-        },
-        {
-          "type": "flying",
-          "multiplier": 2.0
-        },
-        {
-          "type": "psychic",
-          "multiplier": 2.0
-        }
-      ],
-      "evolution_line": [
-        {
-          "name": "Oddish",
-          "pokedex_number": 43,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/43.svg",
-          "evolution_stage": "1"
-        },
-        {
-          "name": "Gloom",
-          "pokedex_number": 44,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
-          "evolution_stage": "2"
-        },
-        {
-          "name": "Gloom Sun",
-          "pokedex_number": 44,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
-          "evolution_stage": "2"
-        },
-        {
-          "name": "Vileplume",
-          "pokedex_number": 45,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/45.svg",
-          "evolution_stage": "3"
-        },
-        {
-          "name": "Bellossom",
-          "pokedex_number": 182,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/182.svg",
-          "evolution_stage": "3"
-        }
-      ],
-      "line_complete": false,
-      "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
@@ -4424,12 +4301,6 @@
         },
         {
           "name": "Gloom",
-          "pokedex_number": 44,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
-          "evolution_stage": "2"
-        },
-        {
-          "name": "Gloom Sun",
           "pokedex_number": 44,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
           "evolution_stage": "2"
@@ -5005,7 +4876,7 @@
     },
     {
       "name": "Meowth",
-      "count": 14,
+      "count": 11,
       "owned": true,
       "pokedex_number": 52,
       "primary_type": "Normal",
@@ -5070,7 +4941,7 @@
     },
     {
       "name": "Persian",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 53,
       "primary_type": "Normal",
@@ -5718,12 +5589,6 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Poliwhirl Trade",
-          "pokedex_number": 61,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
-          "evolution_stage": "2"
-        },
-        {
           "name": "Poliwrath",
           "pokedex_number": 62,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/62.svg",
@@ -5817,12 +5682,6 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Poliwhirl Trade",
-          "pokedex_number": 61,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
-          "evolution_stage": "2"
-        },
-        {
           "name": "Poliwrath",
           "pokedex_number": 62,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/62.svg",
@@ -5839,105 +5698,6 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 0
-    },
-    {
-      "name": "Poliwhirl Trade",
-      "count": 0,
-      "owned": false,
-      "pokedex_number": 61,
-      "primary_type": "Water",
-      "secondary_type": null,
-      "generation": 1,
-      "region": "Kanto",
-      "rarity": "common",
-      "is_legendary": false,
-      "is_mythic": false,
-      "is_hatchable": false,
-      "evolution": false,
-      "evolution_stage": 2,
-      "evolution_line_id": "26",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Trade",
-      "stats": {
-        "hp": 65,
-        "attack": 65,
-        "defense": 65,
-        "sp_attack": 50,
-        "sp_defense": 50,
-        "speed": 90
-      },
-      "physical": {
-        "height": 1.0,
-        "weight": 20.0
-      },
-      "pokedex_entry": "Its skin is moist all over its body. The skin on its belly spiral also feels smooth.",
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
-      "strengths": [
-        {
-          "type": "fire",
-          "multiplier": 0.5
-        },
-        {
-          "type": "water",
-          "multiplier": 0.5
-        },
-        {
-          "type": "ice",
-          "multiplier": 0.5
-        },
-        {
-          "type": "steel",
-          "multiplier": 0.5
-        }
-      ],
-      "weaknesses": [
-        {
-          "type": "grass",
-          "multiplier": 2.0
-        },
-        {
-          "type": "electric",
-          "multiplier": 2.0
-        }
-      ],
-      "evolution_line": [
-        {
-          "name": "Poliwag",
-          "pokedex_number": 60,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/60.svg",
-          "evolution_stage": "1"
-        },
-        {
-          "name": "Poliwhirl",
-          "pokedex_number": 61,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
-          "evolution_stage": "2"
-        },
-        {
-          "name": "Poliwhirl Trade",
-          "pokedex_number": 61,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
-          "evolution_stage": "2"
-        },
-        {
-          "name": "Poliwrath",
-          "pokedex_number": 62,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/62.svg",
-          "evolution_stage": "3"
-        },
-        {
-          "name": "Politoed",
-          "pokedex_number": 186,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/186.svg",
-          "evolution_stage": "3"
-        }
-      ],
-      "line_complete": false,
-      "evolvable_now": false,
-      "requires_stone": false,
-      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -6034,12 +5794,6 @@
         },
         {
           "name": "Poliwhirl",
-          "pokedex_number": 61,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
-          "evolution_stage": "2"
-        },
-        {
-          "name": "Poliwhirl Trade",
           "pokedex_number": 61,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
           "evolution_stage": "2"
@@ -6575,7 +6329,7 @@
     },
     {
       "name": "Bellsprout",
-      "count": 15,
+      "count": 14,
       "owned": true,
       "pokedex_number": 69,
       "primary_type": "Grass",
@@ -7680,12 +7434,6 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Slowpoke Trade",
-          "pokedex_number": 79,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/79.svg",
-          "evolution_stage": "1"
-        },
-        {
           "name": "Slowbro",
           "pokedex_number": 80,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/80.svg",
@@ -7702,119 +7450,6 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
-    },
-    {
-      "name": "Slowpoke Trade",
-      "count": 0,
-      "owned": false,
-      "pokedex_number": 79,
-      "primary_type": "Water",
-      "secondary_type": "Psychic",
-      "generation": 1,
-      "region": "Kanto",
-      "rarity": "common",
-      "is_legendary": false,
-      "is_mythic": false,
-      "is_hatchable": false,
-      "evolution": false,
-      "evolution_stage": 1,
-      "evolution_line_id": "33",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Trade",
-      "stats": {
-        "hp": 90,
-        "attack": 65,
-        "defense": 65,
-        "sp_attack": 40,
-        "sp_defense": 40,
-        "speed": 15
-      },
-      "physical": {
-        "height": 1.2,
-        "weight": 36.0
-      },
-      "pokedex_entry": "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail.",
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/79.svg",
-      "strengths": [
-        {
-          "type": "fire",
-          "multiplier": 0.5
-        },
-        {
-          "type": "water",
-          "multiplier": 0.5
-        },
-        {
-          "type": "ice",
-          "multiplier": 0.5
-        },
-        {
-          "type": "fighting",
-          "multiplier": 0.5
-        },
-        {
-          "type": "psychic",
-          "multiplier": 0.5
-        },
-        {
-          "type": "steel",
-          "multiplier": 0.5
-        }
-      ],
-      "weaknesses": [
-        {
-          "type": "grass",
-          "multiplier": 2.0
-        },
-        {
-          "type": "electric",
-          "multiplier": 2.0
-        },
-        {
-          "type": "bug",
-          "multiplier": 2.0
-        },
-        {
-          "type": "ghost",
-          "multiplier": 2.0
-        },
-        {
-          "type": "dark",
-          "multiplier": 2.0
-        }
-      ],
-      "evolution_line": [
-        {
-          "name": "Slowpoke",
-          "pokedex_number": 79,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/79.svg",
-          "evolution_stage": "1"
-        },
-        {
-          "name": "Slowpoke Trade",
-          "pokedex_number": 79,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/79.svg",
-          "evolution_stage": "1"
-        },
-        {
-          "name": "Slowbro",
-          "pokedex_number": 80,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/80.svg",
-          "evolution_stage": "2"
-        },
-        {
-          "name": "Slowking",
-          "pokedex_number": 199,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/199.svg",
-          "evolution_stage": "2"
-        }
-      ],
-      "line_complete": false,
-      "evolvable_now": false,
-      "requires_stone": false,
-      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -7901,12 +7536,6 @@
       "evolution_line": [
         {
           "name": "Slowpoke",
-          "pokedex_number": 79,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/79.svg",
-          "evolution_stage": "1"
-        },
-        {
-          "name": "Slowpoke Trade",
           "pokedex_number": 79,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/79.svg",
           "evolution_stage": "1"
@@ -9323,7 +8952,7 @@
     },
     {
       "name": "Drowzee",
-      "count": 7,
+      "count": 8,
       "owned": true,
       "pokedex_number": 96,
       "primary_type": "Psychic",
@@ -10003,7 +9632,7 @@
     },
     {
       "name": "Cubone",
-      "count": 6,
+      "count": 3,
       "owned": true,
       "pokedex_number": 104,
       "primary_type": "Ground",
@@ -10076,7 +9705,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -10084,8 +9713,8 @@
     },
     {
       "name": "Marowak",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 105,
       "primary_type": "Ground",
       "secondary_type": null,
@@ -10157,7 +9786,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -12388,7 +12017,7 @@
     },
     {
       "name": "Eevee",
-      "count": 4,
+      "count": 1,
       "owned": true,
       "pokedex_number": 133,
       "primary_type": "Normal",
@@ -12477,8 +12106,8 @@
     },
     {
       "name": "Vaporeon",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 134,
       "primary_type": "Water",
       "secondary_type": null,
@@ -15693,7 +15322,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 204
     },
     {
       "name": "Chinchou",
@@ -16496,8 +16125,8 @@
     },
     {
       "name": "Mareep",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 179,
       "primary_type": "Electric",
       "secondary_type": null,
@@ -16813,12 +16442,6 @@
         },
         {
           "name": "Gloom",
-          "pokedex_number": 44,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
-          "evolution_stage": "2"
-        },
-        {
-          "name": "Gloom Sun",
           "pokedex_number": 44,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
           "evolution_stage": "2"
@@ -17195,12 +16818,6 @@
         },
         {
           "name": "Poliwhirl",
-          "pokedex_number": 61,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
-          "evolution_stage": "2"
-        },
-        {
-          "name": "Poliwhirl Trade",
           "pokedex_number": 61,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
           "evolution_stage": "2"
@@ -18397,12 +18014,6 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Slowpoke Trade",
-          "pokedex_number": 79,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/79.svg",
-          "evolution_stage": "1"
-        },
-        {
           "name": "Slowbro",
           "pokedex_number": 80,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/80.svg",
@@ -18964,8 +18575,8 @@
     },
     {
       "name": "Unown C",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 201,
       "primary_type": "Psychic",
       "secondary_type": null,
@@ -27061,8 +26672,8 @@
     },
     {
       "name": "Skarmory",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 227,
       "primary_type": "Steel",
       "secondary_type": "Flying",
@@ -27152,7 +26763,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -29196,14 +28807,14 @@
     }
   ],
   "companion": {
-    "name": "Charmander",
-    "pokedex_number": 4,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg",
-    "primary_type": "Fire",
-    "secondary_type": null,
-    "evolution_line_id": "2",
-    "friendship_points": 1659,
-    "times_pet": 0,
-    "times_fed": 0
+    "name": "Zubat",
+    "pokedex_number": 41,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/41.svg",
+    "primary_type": "Poison",
+    "secondary_type": "Flying",
+    "evolution_line_id": "17",
+    "friendship_points": 204,
+    "times_pet": 1,
+    "times_fed": 2
   }
 }
