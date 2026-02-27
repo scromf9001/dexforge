@@ -3,13 +3,13 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-27T16:53:23.397193+00:00",
+  "updated_at": "2026-02-27T17:51:14.389206+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 71,
-      "total_owned": 182,
-      "completion_percent": 25.54
+      "unique_owned": 72,
+      "total_owned": 186,
+      "completion_percent": 25.9
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 3,
+        "owned": 4,
         "total": 127,
-        "completion_percent": 2.36,
+        "completion_percent": 3.15,
         "total_lines": 51,
         "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 71,
+      "total_evolutions_owned": 72,
       "total_evolutions_available": 278,
       "lines_completed": 13,
       "total_lines": 129,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 57,
+        "1": 58,
         "2": 13,
         "3": 1
       }
@@ -99,9 +99,9 @@
         "completion_percent": 44.44
       },
       "psychic": {
-        "owned": 6,
+        "owned": 7,
         "total": 42,
-        "completion_percent": 14.29
+        "completion_percent": 16.67
       },
       "rock": {
         "owned": 2,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 773,
+      "watch_hours": 774,
       "follow_age": "1 Year(s), 4 Month(s), 10 Day(s)",
       "sub_age": "1 Year(s), 19 Day(s)",
       "sub_months": 13,
@@ -177,9 +177,9 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 230,
-      "chat_messages": 13774,
-      "commands_run": 14688,
-      "times_tagged": 1970,
+      "chat_messages": 13800,
+      "commands_run": 14772,
+      "times_tagged": 1980,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 1,
@@ -190,8 +190,8 @@
         "master ball": 0
       },
       "pokebag": {
-        "Great Ball": 97,
-        "Ultra Ball": 18
+        "Great Ball": 96,
+        "Ultra Ball": 17
       }
     }
   },
@@ -590,7 +590,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 34
+      "friendship_points": 49
     },
     {
       "name": "Charmeleon",
@@ -689,7 +689,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 34
+      "friendship_points": 49
     },
     {
       "name": "Charizard",
@@ -792,7 +792,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 34
+      "friendship_points": 49
     },
     {
       "name": "Squirtle",
@@ -2445,7 +2445,7 @@
       "evolvable_now": true,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 43
     },
     {
       "name": "Raichu",
@@ -2524,7 +2524,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 43
     },
     {
       "name": "Sandshrew",
@@ -4002,7 +4002,7 @@
     },
     {
       "name": "Oddish",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 43,
       "primary_type": "Grass",
@@ -8197,7 +8197,7 @@
     },
     {
       "name": "Grimer",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 88,
       "primary_type": "Poison",
@@ -13260,7 +13260,7 @@
     },
     {
       "name": "Dratini",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 147,
       "primary_type": "Dragon",
@@ -15562,9 +15562,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0,
+      "friendship_points": 43,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 0.0
+      "friendship_progress_percent": 7.17
     },
     {
       "name": "Cleffa",
@@ -18333,8 +18333,8 @@
     },
     {
       "name": "Unown B",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 201,
       "primary_type": "Psychic",
       "secondary_type": null,
@@ -28798,13 +28798,13 @@
     }
   ],
   "companion": {
-    "name": "Charmander",
-    "pokedex_number": 4,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg",
-    "primary_type": "Fire",
+    "name": "Pikachu",
+    "pokedex_number": 25,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/25.svg",
+    "primary_type": "Electric",
     "secondary_type": null,
-    "evolution_line_id": "2",
-    "friendship_points": 34,
+    "evolution_line_id": "10",
+    "friendship_points": 43,
     "times_pet": 1,
     "times_fed": 0
   }
