@@ -3,13 +3,13 @@
     "username": "litlpotatr",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/998f01ae-def8-11e9-b95c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-28T15:23:12.092505+00:00",
+  "updated_at": "2026-02-28T17:54:34.607117+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 126,
-      "total_owned": 247,
-      "completion_percent": 45.32
+      "unique_owned": 128,
+      "total_owned": 253,
+      "completion_percent": 46.04
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 11,
+        "owned": 13,
         "total": 127,
-        "completion_percent": 8.66,
+        "completion_percent": 10.24,
         "total_lines": 51,
         "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 126,
+      "total_evolutions_owned": 128,
       "total_evolutions_available": 278,
       "lines_completed": 39,
       "total_lines": 129,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 66,
+        "1": 68,
         "2": 43,
         "3": 17
       }
@@ -64,14 +64,14 @@
         "completion_percent": 52.27
       },
       "bug": {
-        "owned": 11,
+        "owned": 12,
         "total": 22,
-        "completion_percent": 50.0
+        "completion_percent": 54.55
       },
       "normal": {
-        "owned": 19,
+        "owned": 20,
         "total": 38,
-        "completion_percent": 50.0
+        "completion_percent": 52.63
       },
       "poison": {
         "owned": 13,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 9,
-      "success": 3,
-      "accuracy_percent": 33.33,
+      "thrown": 23,
+      "success": 10,
+      "accuracy_percent": 43.48,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0
         },
         "great ball": {
-          "thrown": 7,
-          "success": 3,
-          "accuracy_percent": 42.86
+          "thrown": 21,
+          "success": 10,
+          "accuracy_percent": 47.62
         },
         "ultra ball": {
           "thrown": 2,
@@ -167,9 +167,9 @@
       }
     },
     "journey": {
-      "watch_hours": 598,
-      "follow_age": "8 Month(s), 1 Day(s)",
-      "sub_age": "1 Year(s), 1 Month(s), 19 Day(s)",
+      "watch_hours": 600,
+      "follow_age": "8 Month(s), 2 Day(s)",
+      "sub_age": "1 Year(s), 1 Month(s), 20 Day(s)",
       "sub_months": 14,
       "subs_gifted": 0,
       "bits_donated": 200,
@@ -177,22 +177,22 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 200,
-      "chat_messages": 15552,
-      "commands_run": 23992,
-      "times_tagged": 2465,
+      "chat_messages": 15637,
+      "commands_run": 24150,
+      "times_tagged": 2477,
       "times_evolved": 2,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
         "poke ball": 0.0,
-        "great ball": 77.78,
-        "ultra ball": 22.22,
+        "great ball": 91.3,
+        "ultra ball": 8.7,
         "master ball": 0.0
       },
       "pokebag": {
         "Berry": 1,
         "Egg": 1,
-        "Great Ball": 89,
+        "Great Ball": 85,
         "Sun Stone": 1,
         "Ultra Ball": 3,
         "Water Stone": 1
@@ -3903,7 +3903,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 101
+      "friendship_points": 253
     },
     {
       "name": "Golbat",
@@ -4006,7 +4006,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 101
+      "friendship_points": 253
     },
     {
       "name": "Oddish",
@@ -4713,7 +4713,7 @@
     },
     {
       "name": "Diglett",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 50,
       "primary_type": "Ground",
@@ -5515,7 +5515,7 @@
     },
     {
       "name": "Poliwag",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 60,
       "primary_type": "Water",
@@ -9267,7 +9267,7 @@
     },
     {
       "name": "Voltorb",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 100,
       "primary_type": "Electric",
@@ -14678,8 +14678,8 @@
     },
     {
       "name": "Hoothoot",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
       "secondary_type": "Flying",
@@ -15034,8 +15034,8 @@
     },
     {
       "name": "Spinarak",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 167,
       "primary_type": "Bug",
       "secondary_type": "Poison",
@@ -15319,9 +15319,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 101,
+      "friendship_points": 253,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 16.83
+      "friendship_progress_percent": 42.17
     },
     {
       "name": "Chinchou",
@@ -16460,7 +16460,7 @@
     },
     {
       "name": "Marill",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 183,
       "primary_type": "Water",
@@ -28812,7 +28812,7 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 101,
+    "friendship_points": 253,
     "times_pet": 11,
     "times_fed": 1
   }
