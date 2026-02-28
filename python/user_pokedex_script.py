@@ -145,34 +145,33 @@ def run():
         reader = csv.DictReader(csvfile)
 
         for row in reader:
+
             raw_number = safe_float(row.get("number"))
-            name_raw = safe_str(row.get("name"))
+            is_species_row = raw_number.is_integer()
+
+            name_raw = safe_str(row.get("name")).strip()
             name_key = name_raw.lower()
 
-            if not name_key:
+            evolution_raw = safe_str(row.get("evolution")).strip()
+            evolution_key = evolution_raw.lower()
+
+            # ---------------------------------------------------
+            # HARVEST TRANSITION (ANY ROW THAT HAS EVOLUTION)
+            # ---------------------------------------------------
+            if evolution_key and evolution_key not in ["null", "none", "false", "0"]:
+
+                transition_map[evolution_key] = {
+                    "parent": name_key,
+                    "requirement": safe_str(row.get("requirement")).strip(),
+                    "quantity_required": safe_int(row.get("quantity_required"), 0),
+                    "item_required": safe_str(row.get("item_required"), "no").strip().lower() == "yes"
+                }
+
+            # ---------------------------------------------------
+            # BUILD REAL SPECIES ONLY FROM INTEGER ROWS
+            # ---------------------------------------------------
+            if not is_species_row:
                 continue
-
-            # ----------------------------------
-            # TRANSITION ROW (decimal number)
-            # ----------------------------------
-            if not raw_number.is_integer():
-                child_name = safe_str(row.get("evolution")).lower()
-                parent_name = name_key
-
-                if child_name and child_name != "null":
-
-                    transition_map[child_name] = {
-                        "parent": parent_name,
-                        "requirement": safe_str(row.get("requirement")),
-                        "quantity_required": safe_int(row.get("quantity_required"), 0),
-                        "item_required": safe_str(row.get("item_required"), "no").lower() == "yes"
-                    }
-
-                continue
-
-            # ----------------------------------
-            # REAL SPECIES ROW
-            # ----------------------------------
 
             pokedex_number = safe_int(row.get("pokedex_number"))
             form = safe_str(row.get("form")).lower()
@@ -198,7 +197,7 @@ def run():
                 "is_legendary": safe_str(row.get("is_legendary"), "false").lower() == "true",
                 "is_mythic": safe_str(row.get("is_mythic"), "false").lower() == "true",
                 "is_hatchable": safe_str(row.get("is_hatchable"), "false").lower() == "true",
-                "evolution": safe_str(row.get("evolution"), "false").lower() == "true",
+                "evolution": False,
                 "evolution_stage": safe_str(row.get("evolution_stage"), "unknown"),
                 "evolution_line_id": safe_str(row.get("evolution_line_id"), name_key),
                 "quantity_required": 0,
@@ -219,9 +218,6 @@ def run():
                 "pokedex_entry": safe_str(row.get("pokedex_entry")),
                 "image": image_url
             }
-
-    #print("TRANSITION MAP SIZE:", len(transition_map))
-    #print("TRANSITION MAP KEYS SAMPLE:", list(transition_map.keys())[:10])
 
     # =========================
     # PARSE FRIENDSHIP
