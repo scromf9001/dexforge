@@ -3,13 +3,13 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-28T14:14:49.927580+00:00",
+  "updated_at": "2026-02-28T14:35:14.383838+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 77,
+      "unique_owned": 78,
       "total_owned": 191,
-      "completion_percent": 27.7
+      "completion_percent": 28.06
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 8,
+        "owned": 9,
         "total": 127,
-        "completion_percent": 6.3,
+        "completion_percent": 7.09,
         "total_lines": 51,
         "lines_completed": 2
       }
     },
     "evolution": {
-      "total_evolutions_owned": 77,
+      "total_evolutions_owned": 78,
       "total_evolutions_available": 278,
       "lines_completed": 14,
       "total_lines": 129,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 62,
+        "1": 63,
         "2": 14,
         "3": 1
       }
@@ -59,9 +59,9 @@
         "completion_percent": 30.0
       },
       "water": {
-        "owned": 15,
+        "owned": 16,
         "total": 44,
-        "completion_percent": 34.09
+        "completion_percent": 36.36
       },
       "bug": {
         "owned": 5,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 3,
+      "thrown": 4,
       "success": 2,
-      "accuracy_percent": 66.67,
+      "accuracy_percent": 50.0,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0
         },
         "great ball": {
-          "thrown": 3,
+          "thrown": 4,
           "success": 2,
-          "accuracy_percent": 66.67
+          "accuracy_percent": 50.0
         },
         "ultra ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 775,
+      "watch_hours": 776,
       "follow_age": "1 Year(s), 4 Month(s), 10 Day(s)",
       "sub_age": "1 Year(s), 20 Day(s)",
       "sub_months": 13,
@@ -177,9 +177,9 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 233,
-      "chat_messages": 13887,
-      "commands_run": 15115,
-      "times_tagged": 2021,
+      "chat_messages": 13904,
+      "commands_run": 15142,
+      "times_tagged": 2028,
       "times_evolved": 2,
       "times_traded": 0,
       "times_eggs_hatched": 1,
@@ -192,7 +192,7 @@
       "pokebag": {
         "Berry": 3,
         "Egg": 2,
-        "Great Ball": 87,
+        "Great Ball": 88,
         "Ultra Ball": 17
       }
     }
@@ -3901,7 +3901,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 31
+      "friendship_points": 51
     },
     {
       "name": "Golbat",
@@ -4004,7 +4004,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 31
+      "friendship_points": 51
     },
     {
       "name": "Oddish",
@@ -7158,7 +7158,7 @@
     },
     {
       "name": "Ponyta",
-      "count": 4,
+      "count": 3,
       "owned": true,
       "pokedex_number": 77,
       "primary_type": "Fire",
@@ -15317,9 +15317,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 31,
+      "friendship_points": 51,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 5.17
+      "friendship_progress_percent": 8.5
     },
     {
       "name": "Chinchou",
@@ -16458,8 +16458,8 @@
     },
     {
       "name": "Marill",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 183,
       "primary_type": "Water",
       "secondary_type": "Fairy",
@@ -28810,7 +28810,7 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 31,
+    "friendship_points": 51,
     "times_pet": 4,
     "times_fed": 2
   }
