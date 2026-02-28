@@ -3,13 +3,13 @@
     "username": "litlpotatr",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/998f01ae-def8-11e9-b95c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-27T19:16:46.126155+00:00",
+  "updated_at": "2026-02-28T15:23:12.092505+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 123,
-      "total_owned": 243,
-      "completion_percent": 44.24
+      "unique_owned": 126,
+      "total_owned": 247,
+      "completion_percent": 45.32
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 8,
+        "owned": 11,
         "total": 127,
-        "completion_percent": 6.3,
+        "completion_percent": 8.66,
         "total_lines": 51,
         "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 123,
+      "total_evolutions_owned": 126,
       "total_evolutions_available": 278,
       "lines_completed": 39,
       "total_lines": 129,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 63,
+        "1": 66,
         "2": 43,
         "3": 17
       }
@@ -59,9 +59,9 @@
         "completion_percent": 45.0
       },
       "water": {
-        "owned": 22,
+        "owned": 23,
         "total": 44,
-        "completion_percent": 50.0
+        "completion_percent": 52.27
       },
       "bug": {
         "owned": 11,
@@ -99,9 +99,9 @@
         "completion_percent": 55.56
       },
       "psychic": {
-        "owned": 9,
+        "owned": 11,
         "total": 42,
-        "completion_percent": 21.43
+        "completion_percent": 26.19
       },
       "rock": {
         "owned": 6,
@@ -139,10 +139,10 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 0,
-      "success": 0,
-      "accuracy_percent": 0,
-      "most_used": "poke ball",
+      "thrown": 9,
+      "success": 3,
+      "accuracy_percent": 33.33,
+      "most_used": "great ball",
       "details": {
         "poke ball": {
           "thrown": 0,
@@ -150,14 +150,14 @@
           "accuracy_percent": 0
         },
         "great ball": {
-          "thrown": 0,
-          "success": 0,
-          "accuracy_percent": 0
+          "thrown": 7,
+          "success": 3,
+          "accuracy_percent": 42.86
         },
         "ultra ball": {
-          "thrown": 0,
+          "thrown": 2,
           "success": 0,
-          "accuracy_percent": 0
+          "accuracy_percent": 0.0
         },
         "master ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 596,
+      "watch_hours": 598,
       "follow_age": "8 Month(s), 1 Day(s)",
       "sub_age": "1 Year(s), 1 Month(s), 19 Day(s)",
       "sub_months": 14,
@@ -176,23 +176,25 @@
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 199,
-      "chat_messages": 15410,
-      "commands_run": 23778,
-      "times_tagged": 2451,
+      "streams_watched": 200,
+      "chat_messages": 15552,
+      "commands_run": 23992,
+      "times_tagged": 2465,
       "times_evolved": 2,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 0,
-        "great ball": 0,
-        "ultra ball": 0,
-        "master ball": 0
+        "poke ball": 0.0,
+        "great ball": 77.78,
+        "ultra ball": 22.22,
+        "master ball": 0.0
       },
       "pokebag": {
         "Berry": 1,
-        "Great Ball": 91,
+        "Egg": 1,
+        "Great Ball": 89,
         "Sun Stone": 1,
+        "Ultra Ball": 3,
         "Water Stone": 1
       }
     }
@@ -214,7 +216,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "1",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -412,7 +414,7 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "1",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -511,7 +513,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "2",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -709,7 +711,7 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "2",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -812,7 +814,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "3",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -986,7 +988,7 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "3",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -1073,7 +1075,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "4",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -1247,7 +1249,7 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "4",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -1346,7 +1348,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "5",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -1544,7 +1546,7 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "5",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -1643,7 +1645,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "6",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -1825,7 +1827,7 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "6",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -1916,7 +1918,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "7",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -1981,7 +1983,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "7",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -2046,7 +2048,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "8",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -2131,7 +2133,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "8",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -2216,7 +2218,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "9",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -2301,7 +2303,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "9",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -2388,7 +2390,7 @@
       "evolution_line_id": "10",
       "quantity_required": 3,
       "item_required": true,
-      "requirement": "Thunder Stone",
+      "requirement": "Friendship",
       "stats": {
         "hp": 35,
         "attack": 55,
@@ -2445,9 +2447,11 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": true,
+      "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Raichu",
@@ -2465,9 +2469,9 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "10",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Thunder Stone",
       "stats": {
         "hp": 45,
         "attack": 80,
@@ -2524,7 +2528,7 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -2544,7 +2548,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "11",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -2625,7 +2629,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "11",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -2706,7 +2710,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "12",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -2798,8 +2802,8 @@
       "evolution_stage": 2,
       "evolution_line_id": "12",
       "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Moon Stone",
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 70,
         "attack": 62,
@@ -2868,7 +2872,7 @@
       ],
       "line_complete": true,
       "evolvable_now": false,
-      "requires_stone": true,
+      "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -2888,9 +2892,9 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "12",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Moon Stone",
       "stats": {
         "hp": 90,
         "attack": 92,
@@ -2971,7 +2975,7 @@
       ],
       "line_complete": true,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -2991,7 +2995,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "13",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -3083,8 +3087,8 @@
       "evolution_stage": 2,
       "evolution_line_id": "13",
       "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Moon Stone",
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 61,
         "attack": 72,
@@ -3153,7 +3157,7 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": true,
+      "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -3173,9 +3177,9 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "13",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Moon Stone",
       "stats": {
         "hp": 81,
         "attack": 102,
@@ -3256,7 +3260,7 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -3278,7 +3282,7 @@
       "evolution_line_id": "14",
       "quantity_required": 3,
       "item_required": true,
-      "requirement": "Moon Stone",
+      "requirement": "Friendship",
       "stats": {
         "hp": 70,
         "attack": 45,
@@ -3343,9 +3347,11 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": true,
+      "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Clefable",
@@ -3363,9 +3369,9 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "14",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Moon Stone",
       "stats": {
         "hp": 95,
         "attack": 70,
@@ -3430,7 +3436,7 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -3450,9 +3456,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "15",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Fire Stone",
+      "quantity_required": 0,
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 38,
         "attack": 41,
@@ -3522,8 +3528,8 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": true,
-      "requires_stone": true,
+      "evolvable_now": false,
+      "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -3543,9 +3549,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "15",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Fire Stone",
       "stats": {
         "hp": 73,
         "attack": 76,
@@ -3616,7 +3622,7 @@
       ],
       "line_complete": true,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -3638,7 +3644,7 @@
       "evolution_line_id": "16",
       "quantity_required": 3,
       "item_required": true,
-      "requirement": "Moon Stone",
+      "requirement": "Friendship",
       "stats": {
         "hp": 115,
         "attack": 45,
@@ -3702,10 +3708,12 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
-      "requires_stone": true,
+      "evolvable_now": false,
+      "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Wigglytuff",
@@ -3723,9 +3731,9 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "16",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Moon Stone",
       "stats": {
         "hp": 140,
         "attack": 70,
@@ -3790,13 +3798,13 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Zubat",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 41,
       "primary_type": "Poison",
@@ -3810,7 +3818,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "17",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -3895,7 +3903,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 292
+      "friendship_points": 101
     },
     {
       "name": "Golbat",
@@ -3914,8 +3922,8 @@
       "evolution_stage": 2,
       "evolution_line_id": "17",
       "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Friendship",
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 75,
         "attack": 80,
@@ -3995,12 +4003,10 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 292,
-      "friendship_requirement": 600,
-      "friendship_progress_percent": 48.67
+      "friendship_points": 101
     },
     {
       "name": "Oddish",
@@ -4018,7 +4024,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "18",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -4124,8 +4130,8 @@
       "evolution_stage": 2,
       "evolution_line_id": "18",
       "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Leaf Stone",
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 60,
         "attack": 65,
@@ -4208,7 +4214,7 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": true,
+      "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -4228,9 +4234,9 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "18",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Leaf Stone",
       "stats": {
         "hp": 75,
         "attack": 80,
@@ -4313,7 +4319,7 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -4333,7 +4339,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "19",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -4434,7 +4440,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "19",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -4535,7 +4541,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "20",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -4628,7 +4634,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "20",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -4721,7 +4727,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "21",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -4802,7 +4808,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "21",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -4883,7 +4889,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "22",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -4927,7 +4933,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -4948,7 +4954,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "22",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -5013,7 +5019,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "23",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -5094,7 +5100,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "23",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -5175,7 +5181,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "24",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -5256,7 +5262,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "24",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -5337,9 +5343,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "25",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Fire Stone",
+      "quantity_required": 0,
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 55,
         "attack": 70,
@@ -5409,8 +5415,8 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": true,
-      "requires_stone": true,
+      "evolvable_now": false,
+      "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -5430,9 +5436,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "25",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Fire Stone",
       "stats": {
         "hp": 90,
         "attack": 110,
@@ -5503,7 +5509,7 @@
       ],
       "line_complete": true,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -5523,7 +5529,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "26",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -5595,7 +5601,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -5617,8 +5623,8 @@
       "evolution_stage": 2,
       "evolution_line_id": "26",
       "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Water Stone",
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 65,
         "attack": 65,
@@ -5689,7 +5695,7 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": true,
+      "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -5709,9 +5715,9 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "26",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Water Stone",
       "stats": {
         "hp": 90,
         "attack": 95,
@@ -5806,7 +5812,7 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -5826,7 +5832,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "27",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -5910,8 +5916,8 @@
       "evolution_stage": 2,
       "evolution_line_id": "27",
       "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Trade",
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 40,
         "attack": 35,
@@ -5973,7 +5979,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": true,
+      "requires_trade": false,
       "friendship_points": 0
     },
     {
@@ -5992,9 +5998,9 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "27",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 55,
         "attack": 50,
@@ -6056,7 +6062,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -6075,7 +6081,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "28",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -6163,8 +6169,8 @@
       "evolution_stage": 2,
       "evolution_line_id": "28",
       "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Trade",
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 80,
         "attack": 100,
@@ -6230,7 +6236,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": true,
+      "requires_trade": false,
       "friendship_points": 0
     },
     {
@@ -6249,9 +6255,9 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "28",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 90,
         "attack": 130,
@@ -6317,7 +6323,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -6336,7 +6342,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "29",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -6436,8 +6442,8 @@
       "evolution_stage": 2,
       "evolution_line_id": "29",
       "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Leaf Stone",
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 65,
         "attack": 90,
@@ -6514,7 +6520,7 @@
       ],
       "line_complete": true,
       "evolvable_now": false,
-      "requires_stone": true,
+      "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -6534,9 +6540,9 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "29",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Leaf Stone",
       "stats": {
         "hp": 80,
         "attack": 105,
@@ -6613,7 +6619,7 @@
       ],
       "line_complete": true,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -6633,7 +6639,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "30",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -6734,7 +6740,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "30",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -6835,7 +6841,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "31",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -6947,8 +6953,8 @@
       "evolution_stage": 2,
       "evolution_line_id": "31",
       "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Trade",
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 55,
         "attack": 95,
@@ -7038,7 +7044,7 @@
       "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": true,
+      "requires_trade": false,
       "friendship_points": 0
     },
     {
@@ -7057,9 +7063,9 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "31",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 80,
         "attack": 120,
@@ -7149,7 +7155,7 @@
       "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -7168,7 +7174,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "32",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -7240,7 +7246,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -7261,7 +7267,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "32",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -7354,7 +7360,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "33",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -7440,7 +7446,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -7461,7 +7467,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "33",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -7568,7 +7574,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "34",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -7685,7 +7691,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "34",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -7881,7 +7887,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "36",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -7966,7 +7972,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "36",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -8051,7 +8057,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "37",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -8132,7 +8138,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "37",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -8213,7 +8219,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "38",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -8298,7 +8304,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "38",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -8383,9 +8389,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "39",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Water Stone",
+      "quantity_required": 0,
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 30,
         "attack": 65,
@@ -8444,7 +8450,7 @@
       ],
       "line_complete": true,
       "evolvable_now": false,
-      "requires_stone": true,
+      "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -8464,9 +8470,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "39",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Water Stone",
       "stats": {
         "hp": 50,
         "attack": 95,
@@ -8525,7 +8531,7 @@
       ],
       "line_complete": true,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -8545,7 +8551,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "40",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -8649,8 +8655,8 @@
       "evolution_stage": 2,
       "evolution_line_id": "40",
       "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Trade",
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 45,
         "attack": 50,
@@ -8732,7 +8738,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": true,
+      "requires_trade": false,
       "friendship_points": 0
     },
     {
@@ -8751,9 +8757,9 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "40",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 60,
         "attack": 65,
@@ -8835,7 +8841,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -8854,9 +8860,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "41",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Trade",
+      "quantity_required": 0,
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 35,
         "attack": 45,
@@ -8940,7 +8946,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": true,
+      "requires_trade": false,
       "friendship_points": 0
     },
     {
@@ -8959,7 +8965,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "42",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -9036,7 +9042,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "42",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -9113,7 +9119,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "43",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -9194,7 +9200,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "43",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -9275,7 +9281,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "44",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -9348,7 +9354,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "44",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -9421,7 +9427,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "45",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -9530,7 +9536,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "45",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -9639,7 +9645,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "46",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -9720,7 +9726,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "46",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -10046,7 +10052,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "49",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -10131,7 +10137,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "49",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -10216,7 +10222,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "50",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -10321,7 +10327,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "50",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -10426,9 +10432,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "51",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Friendship",
+      "quantity_required": 0,
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 250,
         "attack": 5,
@@ -10473,9 +10479,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0,
-      "friendship_requirement": 600,
-      "friendship_progress_percent": 0.0
+      "friendship_points": 0
     },
     {
       "name": "Tangela",
@@ -10639,7 +10643,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "54",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -10726,7 +10730,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "54",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -10813,7 +10817,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "55",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -10873,7 +10877,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -10894,7 +10898,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "55",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -10975,9 +10979,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "56",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Water Stone",
+      "quantity_required": 0,
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 30,
         "attack": 45,
@@ -11035,8 +11039,8 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": true,
-      "requires_stone": true,
+      "evolvable_now": false,
+      "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -11056,9 +11060,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "56",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Water Stone",
       "stats": {
         "hp": 60,
         "attack": 75,
@@ -11137,7 +11141,7 @@
       ],
       "line_complete": true,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -11232,9 +11236,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "58",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Trade",
+      "quantity_required": 0,
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 70,
         "attack": 110,
@@ -11306,7 +11310,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": true,
+      "requires_trade": false,
       "friendship_points": 0
     },
     {
@@ -11325,7 +11329,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "59",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -11414,7 +11418,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "60",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -11487,7 +11491,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "61",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -11720,7 +11724,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "64",
-      "quantity_required": 20,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -11801,7 +11805,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "64",
-      "quantity_required": 0,
+      "quantity_required": 20,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -12113,9 +12117,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "67",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Water Stone",
       "stats": {
         "hp": 130,
         "attack": 65,
@@ -12198,7 +12202,7 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -12218,9 +12222,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "67",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Thunder Stone",
       "stats": {
         "hp": 65,
         "attack": 65,
@@ -12295,7 +12299,7 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -12315,9 +12319,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "67",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Fire Stone",
       "stats": {
         "hp": 65,
         "attack": 130,
@@ -12412,7 +12416,7 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -12432,9 +12436,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "68",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Trade",
+      "quantity_required": 0,
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 65,
         "attack": 60,
@@ -12476,9 +12480,9 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": true,
+      "requires_trade": false,
       "friendship_points": 0
     },
     {
@@ -12497,7 +12501,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "69",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -12590,7 +12594,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "69",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -12683,7 +12687,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "70",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -12776,7 +12780,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "70",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -13276,7 +13280,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "76",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -13458,7 +13462,7 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "76",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -13703,7 +13707,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "79",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -13901,7 +13905,7 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "79",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -14000,7 +14004,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "80",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -14200,7 +14204,7 @@
       "evolution_line_id": "80",
       "quantity_required": 0,
       "item_required": false,
-      "requirement": "0",
+      "requirement": "",
       "stats": {
         "hp": 78,
         "attack": 84,
@@ -14297,7 +14301,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "81",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -14558,7 +14562,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "82",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -14623,7 +14627,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "82",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -14688,7 +14692,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "83",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -14773,7 +14777,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "83",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -14858,7 +14862,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "84",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -14951,7 +14955,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "84",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -15044,7 +15048,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "85",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -15137,7 +15141,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "85",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -15230,9 +15234,9 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "17",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Friendship",
       "stats": {
         "hp": 85,
         "attack": 90,
@@ -15315,7 +15319,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 292
+      "friendship_points": 101,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 16.83
     },
     {
       "name": "Chinchou",
@@ -15333,7 +15339,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "86",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -15418,7 +15424,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "86",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -15503,9 +15509,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "10",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Friendship",
+      "quantity_required": 0,
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 20,
         "attack": 40,
@@ -15564,9 +15570,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0,
-      "friendship_requirement": 600,
-      "friendship_progress_percent": 0.0
+      "friendship_points": 0
     },
     {
       "name": "Cleffa",
@@ -15584,9 +15588,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "14",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Friendship",
+      "quantity_required": 0,
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 50,
         "attack": 25,
@@ -15653,9 +15657,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0,
-      "friendship_requirement": 600,
-      "friendship_progress_percent": 0.0
+      "friendship_points": 0
     },
     {
       "name": "Igglybuff",
@@ -15673,9 +15675,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "16",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Friendship",
+      "quantity_required": 0,
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 90,
         "attack": 30,
@@ -15742,9 +15744,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0,
-      "friendship_requirement": 600,
-      "friendship_progress_percent": 0.0
+      "friendship_points": 0
     },
     {
       "name": "Togepi",
@@ -15762,9 +15762,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "87",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Friendship",
+      "quantity_required": 0,
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 35,
         "attack": 20,
@@ -15825,9 +15825,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0,
-      "friendship_requirement": 600,
-      "friendship_progress_percent": 0.0
+      "friendship_points": 0
     },
     {
       "name": "Togetic",
@@ -15845,9 +15843,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "87",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Friendship",
       "stats": {
         "hp": 55,
         "attack": 40,
@@ -15928,7 +15926,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Natu",
@@ -15946,7 +15946,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "88",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -16039,7 +16039,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "88",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -16132,7 +16132,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "89",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -16290,7 +16290,7 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "89",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -16369,9 +16369,9 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "18",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Sun Stone",
       "stats": {
         "hp": 75,
         "attack": 80,
@@ -16454,14 +16454,14 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Marill",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 183,
       "primary_type": "Water",
       "secondary_type": "Fairy",
@@ -16474,9 +16474,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "90",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Friendship",
+      "quantity_required": 0,
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 70,
         "attack": 20,
@@ -16553,9 +16553,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0,
-      "friendship_requirement": 600,
-      "friendship_progress_percent": 0.0
+      "friendship_points": 0
     },
     {
       "name": "Azumarill",
@@ -16573,9 +16571,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "90",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Friendship",
       "stats": {
         "hp": 100,
         "attack": 50,
@@ -16652,7 +16650,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Sudowoodo",
@@ -16757,9 +16757,9 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "26",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 90,
         "attack": 75,
@@ -16831,7 +16831,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -16850,7 +16850,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "92",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -17048,7 +17048,7 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "92",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -17206,9 +17206,9 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "94",
-      "quantity_required": 3,
-      "item_required": true,
-      "requirement": "Sun Stone",
+      "quantity_required": 0,
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 30,
         "attack": 30,
@@ -17279,7 +17279,7 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": true,
+      "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -17299,9 +17299,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "94",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Sun Stone",
       "stats": {
         "hp": 75,
         "attack": 75,
@@ -17372,7 +17372,7 @@
       ],
       "line_complete": false,
       "evolvable_now": false,
-      "requires_stone": false,
+      "requires_stone": true,
       "requires_trade": false,
       "friendship_points": 0
     },
@@ -17479,7 +17479,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "96",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -17560,7 +17560,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "96",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -17641,9 +17641,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "67",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Friendship",
       "stats": {
         "hp": 65,
         "attack": 65,
@@ -17724,7 +17724,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Umbreon",
@@ -17742,9 +17744,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "67",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Friendship",
       "stats": {
         "hp": 95,
         "attack": 65,
@@ -17829,7 +17831,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Murkrow",
@@ -17934,9 +17938,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "33",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 95,
         "attack": 75,
@@ -18022,7 +18026,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -18115,7 +18119,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -18348,7 +18352,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -18581,7 +18585,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -18814,7 +18818,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -19047,7 +19051,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -19280,7 +19284,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -19513,7 +19517,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -19733,8 +19737,8 @@
     },
     {
       "name": "Unown H",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 201,
       "primary_type": "Psychic",
       "secondary_type": null,
@@ -19746,7 +19750,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -19979,7 +19983,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -20212,7 +20216,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -20445,7 +20449,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -20678,7 +20682,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -20911,7 +20915,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -21144,7 +21148,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -21377,7 +21381,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -21610,7 +21614,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -21843,7 +21847,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -22076,7 +22080,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -22309,7 +22313,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -22542,7 +22546,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -22775,7 +22779,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -23008,7 +23012,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -23241,7 +23245,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -23474,7 +23478,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -23707,7 +23711,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -23940,7 +23944,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -24173,7 +24177,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -24393,8 +24397,8 @@
     },
     {
       "name": "Unown ?",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 201,
       "primary_type": "Psychic",
       "secondary_type": null,
@@ -24406,7 +24410,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "99",
+      "evolution_line_id": "",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -24778,7 +24782,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "102",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -24859,7 +24863,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "102",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -25094,9 +25098,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "41",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 75,
         "attack": 85,
@@ -25188,7 +25192,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -25207,7 +25211,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "105",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -25288,7 +25292,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "105",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -25774,7 +25778,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "110",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -25839,7 +25843,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "110",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -25904,7 +25908,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "111",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -25997,7 +26001,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "111",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -26098,7 +26102,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "112",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -26183,7 +26187,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "112",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -26355,7 +26359,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "114",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -26436,7 +26440,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "114",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -27213,9 +27217,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "68",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 85,
         "attack": 80,
@@ -27259,7 +27263,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -27396,7 +27400,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "47",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -27489,7 +27493,7 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "47",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -27582,7 +27586,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "59",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -27671,7 +27675,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "60",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -27744,7 +27748,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "61",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -27902,9 +27906,9 @@
       "evolution": false,
       "evolution_stage": 2,
       "evolution_line_id": "51",
-      "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "quantity_required": 3,
+      "item_required": true,
+      "requirement": "Friendship",
       "stats": {
         "hp": 255,
         "attack": 10,
@@ -27949,7 +27953,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 0,
+      "friendship_requirement": 600,
+      "friendship_progress_percent": 0.0
     },
     {
       "name": "Raikou",
@@ -28192,7 +28198,7 @@
       "evolution": false,
       "evolution_stage": 1,
       "evolution_line_id": "126",
-      "quantity_required": 3,
+      "quantity_required": 0,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -28414,7 +28420,7 @@
       "evolution": false,
       "evolution_stage": 3,
       "evolution_line_id": "126",
-      "quantity_required": 0,
+      "quantity_required": 3,
       "item_required": false,
       "requirement": "",
       "stats": {
@@ -28806,8 +28812,8 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 292,
-    "times_pet": 10,
+    "friendship_points": 101,
+    "times_pet": 11,
     "times_fed": 1
   }
 }
