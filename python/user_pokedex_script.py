@@ -135,26 +135,49 @@ def run():
     pokemon_csv = r"C:\Users\sebas\Desktop\Stream Stuff\Pokemon System\pokemon_list.csv"
 
     # =========================
-    # LOAD POKEMON METADATA
+    # LOAD POKEMON METADATA + TRANSITIONS
     # =========================
 
     pokemon_metadata = {}
+    transition_map = {}
 
     with open(pokemon_csv, newline="", encoding="utf-8") as csvfile:
         reader = csv.DictReader(csvfile)
 
         for row in reader:
-            name_key = safe_str(row.get("name")).lower()
+            raw_number = safe_float(row.get("number"))
+            name_raw = safe_str(row.get("name"))
+            name_key = name_raw.lower()
+
             if not name_key:
                 continue
 
-            raw_number = safe_float(row.get("number"))
+            # ----------------------------------
+            # TRANSITION ROW (decimal number)
+            # ----------------------------------
             if not raw_number.is_integer():
+                child_name = safe_str(row.get("evolution")).lower()
+                parent_name = name_key
+
+                if child_name and child_name != "null":
+
+                    transition_map[child_name] = {
+                        "parent": parent_name,
+                        "requirement": safe_str(row.get("requirement")),
+                        "quantity_required": safe_int(row.get("quantity_required"), 0),
+                        "item_required": safe_str(row.get("item_required"), "no").lower() == "yes"
+                    }
+
                 continue
 
-            base_url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world"
+            # ----------------------------------
+            # REAL SPECIES ROW
+            # ----------------------------------
+
             pokedex_number = safe_int(row.get("pokedex_number"))
             form = safe_str(row.get("form")).lower()
+
+            base_url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world"
 
             if form:
                 image_url = f"{base_url}/{pokedex_number}-{form}.svg"
@@ -165,7 +188,7 @@ def run():
             secondary_type = None if secondary_raw in ["", "null"] else secondary_raw.capitalize()
 
             pokemon_metadata[name_key] = {
-                "name": safe_str(row.get("name")),
+                "name": name_raw,
                 "pokedex_number": pokedex_number,
                 "primary_type": safe_str(row.get("primary_type"), "Unknown"),
                 "secondary_type": secondary_type,
@@ -178,9 +201,9 @@ def run():
                 "evolution": safe_str(row.get("evolution"), "false").lower() == "true",
                 "evolution_stage": safe_str(row.get("evolution_stage"), "unknown"),
                 "evolution_line_id": safe_str(row.get("evolution_line_id"), name_key),
-                "quantity_required": safe_int(row.get("quantity_required"), 0),
-                "item_required": safe_str(row.get("item_required"), "no").lower() == "yes",
-                "requirement": safe_str(row.get("requirement")),
+                "quantity_required": 0,
+                "item_required": False,
+                "requirement": "",
                 "stats": {
                     "hp": safe_int(row.get("hp")),
                     "attack": safe_int(row.get("attack")),
@@ -196,6 +219,9 @@ def run():
                 "pokedex_entry": safe_str(row.get("pokedex_entry")),
                 "image": image_url
             }
+
+    #print("TRANSITION MAP SIZE:", len(transition_map))
+    #print("TRANSITION MAP KEYS SAMPLE:", list(transition_map.keys())[:10])
 
     # =========================
     # PARSE FRIENDSHIP
@@ -560,8 +586,27 @@ def run():
             and p["count"] >= p["quantity_required"]
         )
 
-        # Requirement detection
-        requirement_text = safe_str(p.get("requirement", "")).lower()
+        # =========================
+        # INJECT TRANSITION REQUIREMENT (CHILD-SIDE)
+        # =========================
+
+        species_key = safe_str(p["name"]).strip().lower()
+
+        if species_key in transition_map:
+            transition = transition_map[species_key]
+
+            p["requirement"] = transition["requirement"]
+            p["quantity_required"] = transition["quantity_required"]
+            p["item_required"] = transition["item_required"]
+
+            requirement_text = safe_str(transition["requirement"]).strip().lower()
+        else:
+            # Base Pokémon or no evolution requirement
+            p["requirement"] = ""
+            p["quantity_required"] = 0
+            p["item_required"] = False
+
+            requirement_text = ""
 
         p["requires_stone"] = "stone" in requirement_text
         p["requires_trade"] = "trade" in requirement_text
