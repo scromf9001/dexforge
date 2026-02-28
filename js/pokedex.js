@@ -1097,6 +1097,65 @@ document.querySelector(".pokemon-modal-backdrop").addEventListener("click", clos
 
 // RENDER POKEMON MODAL CONTENT
 
+function renderRequirement(pokemon) {
+  if (!pokemon.requirement) return "";
+
+  const req = pokemon.requirement;
+  const lower = req.toLowerCase();
+
+  function getItemClass(name) {
+    if (name.includes("fire stone")) return "item-fire";
+    if (name.includes("water stone")) return "item-water";
+    if (name.includes("thunder stone")) return "item-electric";
+    if (name.includes("leaf stone")) return "item-grass";
+    if (name.includes("moon stone")) return "item-fairy";
+    if (name.includes("sun stone")) return "item-sun";
+    if (name.includes("shiny stone")) return "item-shiny";
+    if (name.includes("dusk stone")) return "item-dark";
+    if (name.includes("dawn stone")) return "item-psychic";
+    if (name.includes("ice stone")) return "item-ice";
+    return "item-default";
+  }
+
+  // Stone-based
+  if (pokemon.requires_stone) {
+    return `
+      <div class="modal-requirement">
+        <h4>Requirement</h4>
+        <div class="modal-requirement-item ${getItemClass(lower)}">
+          ${req}
+        </div>
+      </div>
+    `;
+  }
+
+  // Trade-based
+  if (pokemon.requires_trade) {
+    return `
+      <div class="modal-requirement">
+        <h4>Requirement</h4>
+        <div class="modal-requirement-item requirement-trade">
+          Trade
+        </div>
+      </div>
+    `;
+  }
+
+  // Friendship-based
+  if (pokemon.friendship_requirement) {
+    return `
+      <div class="modal-requirement">
+        <h4>Requirement</h4>
+        <div class="modal-requirement-item requirement-friendship">
+          Friendship
+        </div>
+      </div>
+    `;
+  }
+
+  return "";
+}
+
 function renderPokemonModalContent(pokemon) {
 
   document.getElementById("modal-title").innerHTML =
@@ -1191,6 +1250,8 @@ function renderPokemonModalContent(pokemon) {
           <h4>Resistances</h4>
           ${strengthsHTML}
         </div>
+
+        ${renderRequirement(pokemon)}
 
         <div class="modal-evolution">
           <h4>Evolution Line</h4>

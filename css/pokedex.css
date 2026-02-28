@@ -1134,6 +1134,34 @@ body {
   margin: 4px 6px 4px 0;
 }
 
+/* =========================
+   REQUIREMENT BLOCK
+========================= */
+
+.modal-requirement {
+  margin-bottom: 16px;
+}
+
+.modal-requirement-item {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 6px;
+}
+
+/* Trade */
+.requirement-trade {
+  background: #546e7a;
+}
+
+/* Friendship */
+.requirement-friendship {
+  background: #ec407a;
+}
+
 .modal-evo-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
