@@ -3,21 +3,21 @@
     "username": "nsx99x",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/84925440-9af3-4345-8c6f-ce8519653903-profile_image-300x300.png"
   },
-  "updated_at": "2026-02-28T17:57:22.629256+00:00",
+  "updated_at": "2026-02-28T18:04:54.564913+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 77,
-      "total_owned": 364,
-      "completion_percent": 27.7
+      "unique_owned": 78,
+      "total_owned": 356,
+      "completion_percent": 28.06
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 72,
+        "owned": 73,
         "total": 151,
-        "completion_percent": 47.68,
+        "completion_percent": 48.34,
         "total_lines": 78,
         "lines_completed": 12
       },
@@ -32,7 +32,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 77,
+      "total_evolutions_owned": 78,
       "total_evolutions_available": 278,
       "lines_completed": 13,
       "total_lines": 129,
@@ -43,8 +43,8 @@
       },
       "stage_owned": {
         "1": 67,
-        "2": 9,
-        "3": 1
+        "3": 2,
+        "2": 9
       }
     },
     "types": {
@@ -69,9 +69,9 @@
         "completion_percent": 27.27
       },
       "normal": {
-        "owned": 17,
+        "owned": 18,
         "total": 38,
-        "completion_percent": 44.74
+        "completion_percent": 47.37
       },
       "poison": {
         "owned": 7,
@@ -177,10 +177,10 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 197,
-      "chat_messages": 40205,
-      "commands_run": 44620,
-      "times_tagged": 4929,
-      "times_evolved": 2,
+      "chat_messages": 40216,
+      "commands_run": 44663,
+      "times_tagged": 4932,
+      "times_evolved": 6,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
@@ -1627,7 +1627,7 @@
     },
     {
       "name": "Pidgey",
-      "count": 18,
+      "count": 9,
       "owned": true,
       "pokedex_number": 16,
       "primary_type": "Normal",
@@ -1809,8 +1809,8 @@
     },
     {
       "name": "Pidgeot",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 18,
       "primary_type": "Normal",
       "secondary_type": "Flying",
@@ -3899,7 +3899,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 82
+      "friendship_points": 90
     },
     {
       "name": "Golbat",
@@ -4002,7 +4002,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 82
+      "friendship_points": 90
     },
     {
       "name": "Oddish",
@@ -15315,9 +15315,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 82,
+      "friendship_points": 90,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 13.67
+      "friendship_progress_percent": 15.0
     },
     {
       "name": "Chinchou",
@@ -28808,7 +28808,7 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 82,
+    "friendship_points": 90,
     "times_pet": 0,
     "times_fed": 0
   }
