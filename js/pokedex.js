@@ -189,7 +189,7 @@ function renderRegions(stats) {
 function renderStageBars(evo) {
   let html = "";
 
-  for (let stage = 1; stage <= 4; stage++) {
+  for (let stage = 1; stage <= 3; stage++) {
     const owned = evo.stage_owned[stage] || 0;
     const total = evo.stage_totals[stage] || 0;
     const percent = total > 0 ? (owned / total) * 100 : 0;

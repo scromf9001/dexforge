@@ -571,16 +571,7 @@ def run():
         p["line_complete"] = line_completion_map.get(
             p["evolution_line_id"], False
         )
-
-        # Evolvable now logic:
-        # Must be owned
-        # Must require quantity
-        # Must have enough quantity
-        p["evolvable_now"] = (
-            p["owned"]
-            and p["quantity_required"] > 0
-            and p["count"] >= p["quantity_required"]
-        )
+        
 
         # =========================
         # INJECT TRANSITION REQUIREMENT (CHILD-SIDE)
@@ -606,6 +597,16 @@ def run():
 
         p["requires_stone"] = "stone" in requirement_text
         p["requires_trade"] = "trade" in requirement_text
+
+        # Evolvable now logic:
+        # Must be owned
+        # Must require quantity
+        # Must have enough quantity
+        p["evolvable_now"] = (
+            p["owned"]
+            and p["quantity_required"] > 0
+            and p["count"] >= p["quantity_required"]
+        )
 
         # =========================
         # FRIENDSHIP ENRICHMENT
