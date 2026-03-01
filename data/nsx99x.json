@@ -3,38 +3,38 @@
     "username": "nsx99x",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/84925440-9af3-4345-8c6f-ce8519653903-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-01T19:43:01.752125+00:00",
+  "updated_at": "2026-03-01T20:19:18.077969+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 85,
-      "total_owned": 347,
-      "completion_percent": 30.58
+      "unique_owned": 91,
+      "total_owned": 338,
+      "completion_percent": 32.73
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 79,
+        "owned": 84,
         "total": 151,
-        "completion_percent": 52.32,
+        "completion_percent": 55.63,
         "total_lines": 78,
-        "lines_completed": 16
+        "lines_completed": 21
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 6,
+        "owned": 7,
         "total": 127,
-        "completion_percent": 4.72,
+        "completion_percent": 5.51,
         "total_lines": 78,
         "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 85,
+      "total_evolutions_owned": 91,
       "total_evolutions_available": 278,
-      "lines_completed": 17,
+      "lines_completed": 22,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -42,8 +42,8 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 68,
-        "2": 13,
+        "1": 69,
+        "2": 18,
         "3": 4
       }
     },
@@ -54,14 +54,14 @@
         "completion_percent": 28.57
       },
       "fire": {
-        "owned": 4,
+        "owned": 5,
         "total": 20,
-        "completion_percent": 20.0
+        "completion_percent": 25.0
       },
       "water": {
-        "owned": 14,
+        "owned": 16,
         "total": 44,
-        "completion_percent": 31.82
+        "completion_percent": 36.36
       },
       "bug": {
         "owned": 7,
@@ -69,9 +69,9 @@
         "completion_percent": 31.82
       },
       "normal": {
-        "owned": 19,
+        "owned": 20,
         "total": 38,
-        "completion_percent": 50.0
+        "completion_percent": 52.63
       },
       "poison": {
         "owned": 8,
@@ -79,14 +79,14 @@
         "completion_percent": 53.33
       },
       "electric": {
-        "owned": 6,
+        "owned": 7,
         "total": 15,
-        "completion_percent": 40.0
+        "completion_percent": 46.67
       },
       "ground": {
-        "owned": 5,
+        "owned": 6,
         "total": 11,
-        "completion_percent": 45.45
+        "completion_percent": 54.55
       },
       "fairy": {
         "owned": 2,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 17,
-      "success": 12,
-      "accuracy_percent": 70.59,
+      "thrown": 18,
+      "success": 13,
+      "accuracy_percent": 72.22,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0
         },
         "great ball": {
-          "thrown": 17,
-          "success": 12,
-          "accuracy_percent": 70.59
+          "thrown": 18,
+          "success": 13,
+          "accuracy_percent": 72.22
         },
         "ultra ball": {
           "thrown": 0,
@@ -177,10 +177,10 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 198,
-      "chat_messages": 40362,
-      "commands_run": 44912,
-      "times_tagged": 4951,
-      "times_evolved": 12,
+      "chat_messages": 40398,
+      "commands_run": 44984,
+      "times_tagged": 4957,
+      "times_evolved": 17,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
@@ -190,7 +190,7 @@
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 98,
+        "Great Ball": 99,
         "Moon Stone": 1,
         "Thunder Stone": 1,
         "Ultra Ball": 37
@@ -3901,7 +3901,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 230
+      "friendship_points": 266
     },
     {
       "name": "Golbat",
@@ -4004,7 +4004,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 230
+      "friendship_points": 266
     },
     {
       "name": "Oddish",
@@ -4711,7 +4711,7 @@
     },
     {
       "name": "Diglett",
-      "count": 10,
+      "count": 7,
       "owned": true,
       "pokedex_number": 50,
       "primary_type": "Ground",
@@ -4784,7 +4784,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -4792,8 +4792,8 @@
     },
     {
       "name": "Dugtrio",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 51,
       "primary_type": "Ground",
       "secondary_type": null,
@@ -4865,7 +4865,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -6623,7 +6623,7 @@
     },
     {
       "name": "Tentacool",
-      "count": 7,
+      "count": 4,
       "owned": true,
       "pokedex_number": 72,
       "primary_type": "Water",
@@ -6716,7 +6716,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -6724,8 +6724,8 @@
     },
     {
       "name": "Tentacruel",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 73,
       "primary_type": "Water",
       "secondary_type": "Poison",
@@ -6817,7 +6817,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -7158,7 +7158,7 @@
     },
     {
       "name": "Ponyta",
-      "count": 12,
+      "count": 9,
       "owned": true,
       "pokedex_number": 77,
       "primary_type": "Fire",
@@ -7243,7 +7243,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -7251,8 +7251,8 @@
     },
     {
       "name": "Rapidash",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 78,
       "primary_type": "Fire",
       "secondary_type": null,
@@ -7336,7 +7336,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -9103,7 +9103,7 @@
     },
     {
       "name": "Krabby",
-      "count": 11,
+      "count": 8,
       "owned": true,
       "pokedex_number": 98,
       "primary_type": "Water",
@@ -9176,7 +9176,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -9184,8 +9184,8 @@
     },
     {
       "name": "Kingler",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 99,
       "primary_type": "Water",
       "secondary_type": null,
@@ -9257,7 +9257,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -9265,7 +9265,7 @@
     },
     {
       "name": "Voltorb",
-      "count": 4,
+      "count": 1,
       "owned": true,
       "pokedex_number": 100,
       "primary_type": "Electric",
@@ -9330,16 +9330,16 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
-      "evolvable_now": true,
+      "line_complete": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Electrode",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 101,
       "primary_type": "Electric",
       "secondary_type": null,
@@ -9403,7 +9403,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -14546,8 +14546,8 @@
     },
     {
       "name": "Sentret",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 161,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -15317,9 +15317,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 230,
+      "friendship_points": 266,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 38.33
+      "friendship_progress_percent": 44.33
     },
     {
       "name": "Chinchou",
@@ -24274,7 +24274,7 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 230,
+    "friendship_points": 266,
     "times_pet": 2,
     "times_fed": 0
   }
