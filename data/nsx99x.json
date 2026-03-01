@@ -3,21 +3,21 @@
     "username": "nsx99x",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/84925440-9af3-4345-8c6f-ce8519653903-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-01T20:45:58.966974+00:00",
+  "updated_at": "2026-03-01T20:53:08.442009+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 91,
-      "total_owned": 338,
-      "completion_percent": 32.73
+      "unique_owned": 92,
+      "total_owned": 330,
+      "completion_percent": 33.09
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 84,
+        "owned": 85,
         "total": 151,
-        "completion_percent": 55.63,
+        "completion_percent": 56.29,
         "total_lines": 78,
         "lines_completed": 21
       },
@@ -32,7 +32,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 91,
+      "total_evolutions_owned": 92,
       "total_evolutions_available": 278,
       "lines_completed": 22,
       "total_lines": 156,
@@ -43,7 +43,7 @@
       },
       "stage_owned": {
         "1": 69,
-        "2": 18,
+        "2": 19,
         "3": 4
       }
     },
@@ -59,9 +59,9 @@
         "completion_percent": 25.0
       },
       "water": {
-        "owned": 16,
+        "owned": 17,
         "total": 44,
-        "completion_percent": 36.36
+        "completion_percent": 38.64
       },
       "bug": {
         "owned": 7,
@@ -177,10 +177,10 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 198,
-      "chat_messages": 40419,
-      "commands_run": 45014,
-      "times_tagged": 4965,
-      "times_evolved": 17,
+      "chat_messages": 40427,
+      "commands_run": 45045,
+      "times_tagged": 4967,
+      "times_evolved": 21,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
@@ -3901,7 +3901,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 293
+      "friendship_points": 300
     },
     {
       "name": "Golbat",
@@ -4004,7 +4004,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 293
+      "friendship_points": 300
     },
     {
       "name": "Oddish",
@@ -10627,7 +10627,7 @@
     },
     {
       "name": "Horsea",
-      "count": 14,
+      "count": 2,
       "owned": true,
       "pokedex_number": 116,
       "primary_type": "Water",
@@ -10707,15 +10707,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Seadra",
-      "count": 0,
-      "owned": false,
+      "count": 4,
+      "owned": true,
       "pokedex_number": 117,
       "primary_type": "Water",
       "secondary_type": null,
@@ -15317,9 +15317,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 293,
+      "friendship_points": 300,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 48.83
+      "friendship_progress_percent": 50.0
     },
     {
       "name": "Chinchou",
@@ -24274,7 +24274,7 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 293,
+    "friendship_points": 300,
     "times_pet": 2,
     "times_fed": 0
   }
