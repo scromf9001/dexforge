@@ -579,34 +579,56 @@ def run():
 
         species_key = safe_str(p["name"]).strip().lower()
 
+        # --- Defaults ---
+        p["requirement"] = ""
+        p["item_required"] = False
+        p["quantity_required"] = 0
+        p["evolvable_now"] = False
+        requirement_text = ""
+
+        # --------------------------------------------------
+        # CHILD LOGIC → requirement lives on the child
+        # --------------------------------------------------
         if species_key in transition_map:
             transition = transition_map[species_key]
 
             p["requirement"] = transition["requirement"]
-            p["quantity_required"] = transition["quantity_required"]
             p["item_required"] = transition["item_required"]
 
             requirement_text = safe_str(transition["requirement"]).strip().lower()
-        else:
-            # Base Pokémon or no evolution requirement
-            p["requirement"] = ""
-            p["quantity_required"] = 0
-            p["item_required"] = False
-
-            requirement_text = ""
 
         p["requires_stone"] = "stone" in requirement_text
         p["requires_trade"] = "trade" in requirement_text
 
-        # Evolvable now logic:
-        # Must be owned
-        # Must require quantity
-        # Must have enough quantity
-        p["evolvable_now"] = (
-            p["owned"]
-            and p["quantity_required"] > 0
-            and p["count"] >= p["quantity_required"]
-        )
+
+        # --------------------------------------------------
+        # PARENT LOGIC → quantity + evolvable live here
+        # --------------------------------------------------
+
+        # Find all children of this Pokémon
+        children = [
+            transition
+            for transition in transition_map.values()
+            if transition["parent"] == species_key
+        ]
+
+        if children:
+
+            # Use MINIMUM quantity required across children
+            min_required = min(
+                t["quantity_required"]
+                for t in children
+                if t["quantity_required"] > 0
+            ) if any(t["quantity_required"] > 0 for t in children) else 0
+
+            p["quantity_required"] = min_required
+
+            if (
+                p["owned"]
+                and min_required > 0
+                and p["count"] >= min_required
+            ):
+                p["evolvable_now"] = True
 
         # =========================
         # FRIENDSHIP ENRICHMENT
