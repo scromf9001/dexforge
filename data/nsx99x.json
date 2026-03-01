@@ -3,23 +3,23 @@
     "username": "nsx99x",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/84925440-9af3-4345-8c6f-ce8519653903-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-01T19:26:07.475611+00:00",
+  "updated_at": "2026-03-01T19:43:01.752125+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 82,
-      "total_owned": 353,
-      "completion_percent": 29.5
+      "unique_owned": 85,
+      "total_owned": 347,
+      "completion_percent": 30.58
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 76,
+        "owned": 79,
         "total": 151,
-        "completion_percent": 50.33,
+        "completion_percent": 52.32,
         "total_lines": 78,
-        "lines_completed": 14
+        "lines_completed": 16
       },
       "2": {
         "generation": 2,
@@ -32,9 +32,9 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 82,
+      "total_evolutions_owned": 85,
       "total_evolutions_available": 278,
-      "lines_completed": 15,
+      "lines_completed": 17,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -43,8 +43,8 @@
       },
       "stage_owned": {
         "1": 68,
-        "2": 11,
-        "3": 3
+        "2": 13,
+        "3": 4
       }
     },
     "types": {
@@ -64,9 +64,9 @@
         "completion_percent": 31.82
       },
       "bug": {
-        "owned": 6,
+        "owned": 7,
         "total": 22,
-        "completion_percent": 27.27
+        "completion_percent": 31.82
       },
       "normal": {
         "owned": 19,
@@ -84,14 +84,14 @@
         "completion_percent": 40.0
       },
       "ground": {
-        "owned": 4,
+        "owned": 5,
         "total": 11,
-        "completion_percent": 36.36
+        "completion_percent": 45.45
       },
       "fairy": {
-        "owned": 1,
+        "owned": 2,
         "total": 7,
-        "completion_percent": 14.29
+        "completion_percent": 28.57
       },
       "fighting": {
         "owned": 4,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 538,
+      "watch_hours": 539,
       "follow_age": "10 Month(s), 23 Day(s)",
       "sub_age": "7 Day(s)",
       "sub_months": 5,
@@ -177,10 +177,10 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 198,
-      "chat_messages": 40325,
-      "commands_run": 44844,
-      "times_tagged": 4947,
-      "times_evolved": 9,
+      "chat_messages": 40362,
+      "commands_run": 44912,
+      "times_tagged": 4951,
+      "times_evolved": 12,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
@@ -190,7 +190,8 @@
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 96,
+        "Great Ball": 98,
+        "Moon Stone": 1,
         "Thunder Stone": 1,
         "Ultra Ball": 37
       }
@@ -2531,7 +2532,7 @@
     },
     {
       "name": "Sandshrew",
-      "count": 7,
+      "count": 4,
       "owned": true,
       "pokedex_number": 27,
       "primary_type": "Ground",
@@ -2604,7 +2605,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -2612,8 +2613,8 @@
     },
     {
       "name": "Sandslash",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 28,
       "primary_type": "Ground",
       "secondary_type": null,
@@ -2685,7 +2686,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -3263,7 +3264,7 @@
     },
     {
       "name": "Clefairy",
-      "count": 6,
+      "count": 3,
       "owned": true,
       "pokedex_number": 35,
       "primary_type": "Fairy",
@@ -3352,8 +3353,8 @@
     },
     {
       "name": "Clefable",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 36,
       "primary_type": "Fairy",
       "secondary_type": null,
@@ -3900,7 +3901,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 203
+      "friendship_points": 230
     },
     {
       "name": "Golbat",
@@ -4003,7 +4004,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 203
+      "friendship_points": 230
     },
     {
       "name": "Oddish",
@@ -4322,7 +4323,7 @@
     },
     {
       "name": "Paras",
-      "count": 5,
+      "count": 2,
       "owned": true,
       "pokedex_number": 46,
       "primary_type": "Bug",
@@ -4415,16 +4416,16 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
-      "evolvable_now": true,
+      "line_complete": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Parasect",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 47,
       "primary_type": "Bug",
       "secondary_type": "Grass",
@@ -4516,7 +4517,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -15316,9 +15317,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 203,
+      "friendship_points": 230,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 33.83
+      "friendship_progress_percent": 38.33
     },
     {
       "name": "Chinchou",
@@ -24273,8 +24274,8 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 203,
-    "times_pet": 1,
+    "friendship_points": 230,
+    "times_pet": 2,
     "times_fed": 0
   }
 }
