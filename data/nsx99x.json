@@ -3,12 +3,12 @@
     "username": "nsx99x",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/84925440-9af3-4345-8c6f-ce8519653903-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-01T17:13:59.956439+00:00",
+  "updated_at": "2026-03-01T19:03:06.074466+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 79,
-      "total_owned": 357,
+      "total_owned": 358,
       "completion_percent": 28.42
     },
     "generation_progress": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 14,
-      "success": 10,
-      "accuracy_percent": 71.43,
+      "thrown": 16,
+      "success": 11,
+      "accuracy_percent": 68.75,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0
         },
         "great ball": {
-          "thrown": 14,
-          "success": 10,
-          "accuracy_percent": 71.43
+          "thrown": 16,
+          "success": 11,
+          "accuracy_percent": 68.75
         },
         "ultra ball": {
           "thrown": 0,
@@ -167,9 +167,9 @@
       }
     },
     "journey": {
-      "watch_hours": 537,
+      "watch_hours": 538,
       "follow_age": "10 Month(s), 23 Day(s)",
-      "sub_age": "6 Day(s)",
+      "sub_age": "7 Day(s)",
       "sub_months": 5,
       "subs_gifted": 0,
       "bits_donated": 0,
@@ -177,9 +177,9 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 198,
-      "chat_messages": 40250,
-      "commands_run": 44712,
-      "times_tagged": 4935,
+      "chat_messages": 40299,
+      "commands_run": 44783,
+      "times_tagged": 4943,
       "times_evolved": 6,
       "times_traded": 0,
       "times_eggs_hatched": 0,
@@ -190,7 +190,7 @@
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 97,
+        "Great Ball": 95,
         "Ultra Ball": 37
       }
     }
@@ -3899,7 +3899,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 134
+      "friendship_points": 170
     },
     {
       "name": "Golbat",
@@ -4002,7 +4002,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 134
+      "friendship_points": 170
     },
     {
       "name": "Oddish",
@@ -9263,7 +9263,7 @@
     },
     {
       "name": "Voltorb",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 100,
       "primary_type": "Electric",
@@ -15315,9 +15315,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 134,
+      "friendship_points": 170,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 22.33
+      "friendship_progress_percent": 28.33
     },
     {
       "name": "Chinchou",
@@ -24272,7 +24272,7 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 134,
+    "friendship_points": 170,
     "times_pet": 0,
     "times_fed": 0
   }
