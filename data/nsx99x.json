@@ -3,12 +3,12 @@
     "username": "nsx99x",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/84925440-9af3-4345-8c6f-ce8519653903-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-02T19:28:45.740485+00:00",
+  "updated_at": "2026-03-02T19:55:48.916729+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 95,
-      "total_owned": 325,
+      "total_owned": 327,
       "completion_percent": 34.17
     },
     "generation_progress": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 30,
-      "success": 16,
-      "accuracy_percent": 53.33,
+      "thrown": 33,
+      "success": 18,
+      "accuracy_percent": 54.55,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0
         },
         "great ball": {
-          "thrown": 30,
-          "success": 16,
-          "accuracy_percent": 53.33
+          "thrown": 33,
+          "success": 18,
+          "accuracy_percent": 54.55
         },
         "ultra ball": {
           "thrown": 0,
@@ -177,9 +177,9 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 199,
-      "chat_messages": 40603,
-      "commands_run": 45373,
-      "times_tagged": 5005,
+      "chat_messages": 40648,
+      "commands_run": 45461,
+      "times_tagged": 5025,
       "times_evolved": 24,
       "times_traded": 0,
       "times_eggs_hatched": 0,
@@ -191,7 +191,7 @@
       },
       "pokebag": {
         "Fire Stone": 1,
-        "Great Ball": 96,
+        "Great Ball": 95,
         "Moon Stone": 1,
         "Thunder Stone": 1,
         "Ultra Ball": 37
@@ -3902,7 +3902,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 530
+      "friendship_points": 567
     },
     {
       "name": "Golbat",
@@ -4005,7 +4005,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 530
+      "friendship_points": 567
     },
     {
       "name": "Oddish",
@@ -4712,7 +4712,7 @@
     },
     {
       "name": "Diglett",
-      "count": 7,
+      "count": 8,
       "owned": true,
       "pokedex_number": 50,
       "primary_type": "Ground",
@@ -7159,7 +7159,7 @@
     },
     {
       "name": "Ponyta",
-      "count": 9,
+      "count": 10,
       "owned": true,
       "pokedex_number": 77,
       "primary_type": "Fire",
@@ -15318,9 +15318,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 530,
+      "friendship_points": 567,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 88.33
+      "friendship_progress_percent": 94.5
     },
     {
       "name": "Chinchou",
@@ -24275,8 +24275,8 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 530,
-    "times_pet": 6,
+    "friendship_points": 567,
+    "times_pet": 7,
     "times_fed": 0
   }
 }
