@@ -3,12 +3,12 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-02T18:45:44.448620+00:00",
+  "updated_at": "2026-03-02T19:38:19.478715+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 82,
-      "total_owned": 193,
+      "total_owned": 195,
       "completion_percent": 29.5
     },
     "generation_progress": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 14,
-      "success": 5,
-      "accuracy_percent": 35.71,
+      "thrown": 17,
+      "success": 7,
+      "accuracy_percent": 41.18,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 13,
-          "success": 5,
-          "accuracy_percent": 38.46
+          "thrown": 16,
+          "success": 7,
+          "accuracy_percent": 43.75
         },
         "ultra ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 786,
+      "watch_hours": 787,
       "follow_age": "1 Year(s), 4 Month(s), 16 Day(s)",
       "sub_age": "1 Year(s), 25 Day(s)",
       "sub_months": 14,
@@ -177,22 +177,22 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 236,
-      "chat_messages": 14039,
-      "commands_run": 15434,
-      "times_tagged": 2074,
+      "chat_messages": 14069,
+      "commands_run": 15499,
+      "times_tagged": 2085,
       "times_evolved": 3,
       "times_traded": 0,
       "times_eggs_hatched": 2,
       "ball_distribution": {
-        "poke ball": 7.14,
-        "great ball": 92.86,
+        "poke ball": 5.88,
+        "great ball": 94.12,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
         "Berry": 3,
         "Egg": 1,
-        "Great Ball": 98,
+        "Great Ball": 99,
         "Master Ball": 2,
         "Ultra Ball": 18
       }
@@ -4712,7 +4712,7 @@
     },
     {
       "name": "Diglett",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 50,
       "primary_type": "Ground",
@@ -8042,7 +8042,7 @@
     },
     {
       "name": "Seel",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 86,
       "primary_type": "Water",
@@ -12098,7 +12098,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 29
+      "friendship_points": 92
     },
     {
       "name": "Vaporeon",
@@ -12203,7 +12203,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 29
+      "friendship_points": 92
     },
     {
       "name": "Jolteon",
@@ -12300,7 +12300,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 29
+      "friendship_points": 92
     },
     {
       "name": "Flareon",
@@ -12417,7 +12417,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 29
+      "friendship_points": 92
     },
     {
       "name": "Porygon",
@@ -17723,9 +17723,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 29,
+      "friendship_points": 92,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 4.83
+      "friendship_progress_percent": 15.33
     },
     {
       "name": "Umbreon",
@@ -17830,9 +17830,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 29,
+      "friendship_points": 92,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 4.83
+      "friendship_progress_percent": 15.33
     },
     {
       "name": "Murkrow",
@@ -24275,8 +24275,8 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 29,
-    "times_pet": 7,
+    "friendship_points": 92,
+    "times_pet": 8,
     "times_fed": 2
   }
 }
