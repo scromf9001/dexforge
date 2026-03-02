@@ -3,13 +3,13 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-02T20:16:03.899609+00:00",
+  "updated_at": "2026-03-02T20:42:44.415145+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 135,
-      "total_owned": 445,
-      "completion_percent": 48.56
+      "unique_owned": 136,
+      "total_owned": 435,
+      "completion_percent": 48.92
     },
     "generation_progress": {
       "1": {
@@ -19,22 +19,22 @@
         "total": 151,
         "completion_percent": 80.13,
         "total_lines": 78,
-        "lines_completed": 44
+        "lines_completed": 45
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 14,
+        "owned": 15,
         "total": 127,
-        "completion_percent": 11.02,
+        "completion_percent": 11.81,
         "total_lines": 78,
         "lines_completed": 5
       }
     },
     "evolution": {
-      "total_evolutions_owned": 135,
+      "total_evolutions_owned": 136,
       "total_evolutions_available": 278,
-      "lines_completed": 49,
+      "lines_completed": 50,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -43,15 +43,15 @@
       },
       "stage_owned": {
         "1": 73,
-        "2": 51,
-        "3": 11
+        "2": 49,
+        "3": 14
       }
     },
     "types": {
       "grass": {
-        "owned": 10,
+        "owned": 11,
         "total": 21,
-        "completion_percent": 47.62
+        "completion_percent": 52.38
       },
       "fire": {
         "owned": 10,
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 57,
+      "thrown": 59,
       "success": 17,
-      "accuracy_percent": 29.82,
+      "accuracy_percent": 28.81,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 57,
+          "thrown": 59,
           "success": 17,
-          "accuracy_percent": 29.82
+          "accuracy_percent": 28.81
         },
         "great ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 954,
+      "watch_hours": 955,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -177,10 +177,10 @@
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
       "streams_watched": 308,
-      "chat_messages": 7935,
-      "commands_run": 41978,
-      "times_tagged": 1891,
-      "times_evolved": 11,
+      "chat_messages": 7948,
+      "commands_run": 42050,
+      "times_tagged": 1899,
+      "times_evolved": 16,
       "times_traded": 4,
       "times_eggs_hatched": 0,
       "ball_distribution": {
@@ -2793,8 +2793,8 @@
     },
     {
       "name": "Nidorina",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 30,
       "primary_type": "Poison",
       "secondary_type": null,
@@ -2877,15 +2877,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Nidoqueen",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 31,
       "primary_type": "Poison",
       "secondary_type": "Ground",
@@ -3078,8 +3078,8 @@
     },
     {
       "name": "Nidorino",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 33,
       "primary_type": "Poison",
       "secondary_type": null,
@@ -3162,15 +3162,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Nidoking",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 34,
       "primary_type": "Poison",
       "secondary_type": "Ground",
@@ -4016,7 +4016,7 @@
     },
     {
       "name": "Oddish",
-      "count": 7,
+      "count": 4,
       "owned": true,
       "pokedex_number": 43,
       "primary_type": "Grass",
@@ -4113,7 +4113,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -4121,7 +4121,7 @@
     },
     {
       "name": "Gloom",
-      "count": 3,
+      "count": 1,
       "owned": true,
       "pokedex_number": 44,
       "primary_type": "Grass",
@@ -4218,8 +4218,8 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
-      "evolvable_now": true,
+      "line_complete": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -4323,7 +4323,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
@@ -5824,7 +5824,7 @@
     },
     {
       "name": "Abra",
-      "count": 7,
+      "count": 4,
       "owned": true,
       "pokedex_number": 63,
       "primary_type": "Psychic",
@@ -5907,7 +5907,7 @@
     },
     {
       "name": "Kadabra",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 64,
       "primary_type": "Psychic",
@@ -5983,7 +5983,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -12105,7 +12105,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 109
+      "friendship_points": 136
     },
     {
       "name": "Vaporeon",
@@ -12210,7 +12210,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 109
+      "friendship_points": 136
     },
     {
       "name": "Jolteon",
@@ -12307,7 +12307,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 109
+      "friendship_points": 136
     },
     {
       "name": "Flareon",
@@ -12424,7 +12424,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 109
+      "friendship_points": 136
     },
     {
       "name": "Porygon",
@@ -16361,8 +16361,8 @@
     },
     {
       "name": "Bellossom",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 182,
       "primary_type": "Grass",
       "secondary_type": null,
@@ -16458,7 +16458,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
@@ -17730,9 +17730,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 109,
+      "friendship_points": 136,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 18.17
+      "friendship_progress_percent": 22.67
     },
     {
       "name": "Umbreon",
@@ -17837,9 +17837,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 109,
+      "friendship_points": 136,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 18.17
+      "friendship_progress_percent": 22.67
     },
     {
       "name": "Murkrow",
@@ -24282,7 +24282,7 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 109,
+    "friendship_points": 136,
     "times_pet": 2,
     "times_fed": 3
   }
