@@ -3,13 +3,13 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-01T07:15:41.964752+00:00",
+  "updated_at": "2026-03-02T16:18:57.931193+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 79,
-      "total_owned": 193,
-      "completion_percent": 28.42
+      "unique_owned": 81,
+      "total_owned": 195,
+      "completion_percent": 29.14
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 10,
+        "owned": 12,
         "total": 127,
-        "completion_percent": 7.87,
+        "completion_percent": 9.45,
         "total_lines": 78,
         "lines_completed": 6
       }
     },
     "evolution": {
-      "total_evolutions_owned": 79,
+      "total_evolutions_owned": 81,
       "total_evolutions_available": 278,
       "lines_completed": 18,
       "total_lines": 156,
@@ -42,16 +42,16 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 64,
+        "1": 66,
         "2": 14,
         "3": 1
       }
     },
     "types": {
       "grass": {
-        "owned": 3,
+        "owned": 4,
         "total": 21,
-        "completion_percent": 14.29
+        "completion_percent": 19.05
       },
       "fire": {
         "owned": 6,
@@ -114,9 +114,9 @@
         "completion_percent": 25.0
       },
       "ice": {
-        "owned": 1,
+        "owned": 2,
         "total": 7,
-        "completion_percent": 14.29
+        "completion_percent": 28.57
       },
       "dragon": {
         "owned": 1,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 10,
-      "success": 4,
-      "accuracy_percent": 40.0,
+      "thrown": 11,
+      "success": 5,
+      "accuracy_percent": 45.45,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 9,
-          "success": 4,
-          "accuracy_percent": 44.44
+          "thrown": 10,
+          "success": 5,
+          "accuracy_percent": 50.0
         },
         "ultra ball": {
           "thrown": 0,
@@ -167,34 +167,34 @@
       }
     },
     "journey": {
-      "watch_hours": 779,
-      "follow_age": "1 Year(s), 4 Month(s), 14 Day(s)",
-      "sub_age": "1 Year(s), 21 Day(s)",
-      "sub_months": 13,
+      "watch_hours": 784,
+      "follow_age": "1 Year(s), 4 Month(s), 16 Day(s)",
+      "sub_age": "1 Year(s), 25 Day(s)",
+      "sub_months": 14,
       "subs_gifted": 0,
       "bits_donated": 204,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 234,
-      "chat_messages": 13977,
-      "commands_run": 15291,
-      "times_tagged": 2046,
+      "streams_watched": 236,
+      "chat_messages": 13991,
+      "commands_run": 15333,
+      "times_tagged": 2055,
       "times_evolved": 2,
       "times_traded": 0,
-      "times_eggs_hatched": 1,
+      "times_eggs_hatched": 2,
       "ball_distribution": {
-        "poke ball": 10.0,
-        "great ball": 90.0,
+        "poke ball": 9.09,
+        "great ball": 90.91,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
         "Berry": 3,
-        "Egg": 2,
-        "Great Ball": 97,
+        "Egg": 1,
+        "Great Ball": 99,
         "Master Ball": 2,
-        "Ultra Ball": 17
+        "Ultra Ball": 18
       }
     }
   },
@@ -3902,7 +3902,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 263
+      "friendship_points": 523
     },
     {
       "name": "Golbat",
@@ -4005,7 +4005,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 263
+      "friendship_points": 523
     },
     {
       "name": "Oddish",
@@ -5233,7 +5233,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Primape",
+          "name": "Primeape",
           "pokedex_number": 57,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/57.svg",
           "evolution_stage": "2"
@@ -5246,7 +5246,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Primape",
+      "name": "Primeape",
       "count": 0,
       "owned": false,
       "pokedex_number": 57,
@@ -5314,7 +5314,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Primape",
+          "name": "Primeape",
           "pokedex_number": 57,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/57.svg",
           "evolution_stage": "2"
@@ -15318,9 +15318,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 263,
+      "friendship_points": 523,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 43.83
+      "friendship_progress_percent": 87.17
     },
     {
       "name": "Chinchou",
@@ -16835,8 +16835,8 @@
     },
     {
       "name": "Hoppip",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
       "secondary_type": "Flying",
@@ -22448,8 +22448,8 @@
       "evolution_stage": 3,
       "evolution_line_id": "54",
       "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 75,
         "attack": 95,
@@ -22511,7 +22511,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -23035,8 +23035,8 @@
     },
     {
       "name": "Smoochum",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 238,
       "primary_type": "Ice",
       "secondary_type": "Psychic",
@@ -24275,8 +24275,8 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 263,
-    "times_pet": 4,
+    "friendship_points": 523,
+    "times_pet": 5,
     "times_fed": 2
   }
 }
