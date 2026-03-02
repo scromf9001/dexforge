@@ -3,13 +3,13 @@
     "username": "un_humaned",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-01T17:54:35.718071+00:00",
+  "updated_at": "2026-03-02T19:49:46.836098+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 21,
-      "total_owned": 25,
-      "completion_percent": 7.55
+      "unique_owned": 22,
+      "total_owned": 24,
+      "completion_percent": 7.91
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 1,
+        "owned": 2,
         "total": 127,
-        "completion_percent": 0.79,
+        "completion_percent": 1.57,
         "total_lines": 78,
         "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 21,
+      "total_evolutions_owned": 22,
       "total_evolutions_available": 278,
       "lines_completed": 1,
       "total_lines": 156,
@@ -43,14 +43,14 @@
       },
       "stage_owned": {
         "1": 19,
-        "2": 2
+        "2": 3
       }
     },
     "types": {
       "grass": {
-        "owned": 0,
+        "owned": 1,
         "total": 21,
-        "completion_percent": 0.0
+        "completion_percent": 4.76
       },
       "fire": {
         "owned": 1,
@@ -138,15 +138,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1,
-      "success": 0,
-      "accuracy_percent": 0.0,
+      "thrown": 5,
+      "success": 1,
+      "accuracy_percent": 20.0,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 1,
-          "success": 0,
-          "accuracy_percent": 0.0
+          "thrown": 5,
+          "success": 1,
+          "accuracy_percent": 20.0
         },
         "great ball": {
           "thrown": 0,
@@ -166,8 +166,8 @@
       }
     },
     "journey": {
-      "watch_hours": 39,
-      "follow_age": "1 Month(s), 24 Day(s)",
+      "watch_hours": 41,
+      "follow_age": "1 Month(s), 25 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
       "subs_gifted": 0,
@@ -175,11 +175,11 @@
       "total_donated": 0.0,
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
-      "streams_watched": 41,
-      "chat_messages": 1704,
-      "commands_run": 2541,
-      "times_tagged": 329,
-      "times_evolved": 0,
+      "streams_watched": 42,
+      "chat_messages": 1735,
+      "commands_run": 2604,
+      "times_tagged": 338,
+      "times_evolved": 1,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
@@ -189,8 +189,9 @@
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 47,
-        "Ultra Ball": 1
+        "Great Ball": 52,
+        "Ultra Ball": 1,
+        "Water Stone": 1
       }
     }
   },
@@ -5229,7 +5230,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Primape",
+          "name": "Primeape",
           "pokedex_number": 57,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/57.svg",
           "evolution_stage": "2"
@@ -5242,7 +5243,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Primape",
+      "name": "Primeape",
       "count": 0,
       "owned": false,
       "pokedex_number": 57,
@@ -5310,7 +5311,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Primape",
+          "name": "Primeape",
           "pokedex_number": 57,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/57.svg",
           "evolution_stage": "2"
@@ -10960,8 +10961,8 @@
     },
     {
       "name": "Staryu",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 120,
       "primary_type": "Water",
       "secondary_type": null,
@@ -11034,15 +11035,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Starmie",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 121,
       "primary_type": "Water",
       "secondary_type": "Psychic",
@@ -16831,8 +16832,8 @@
     },
     {
       "name": "Hoppip",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
       "secondary_type": "Flying",
@@ -22444,8 +22445,8 @@
       "evolution_stage": 3,
       "evolution_line_id": "54",
       "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 75,
         "attack": 95,
@@ -22507,7 +22508,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
