@@ -3,7 +3,7 @@
     "username": "nsx99x",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/84925440-9af3-4345-8c6f-ce8519653903-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-01T20:58:11.582661+00:00",
+  "updated_at": "2026-03-02T16:29:35.858846+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -176,10 +176,10 @@
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 198,
-      "chat_messages": 40443,
-      "commands_run": 45072,
-      "times_tagged": 4973,
+      "streams_watched": 199,
+      "chat_messages": 40456,
+      "commands_run": 45097,
+      "times_tagged": 4978,
       "times_evolved": 21,
       "times_traded": 0,
       "times_eggs_hatched": 0,
@@ -3901,7 +3901,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 305
+      "friendship_points": 325
     },
     {
       "name": "Golbat",
@@ -4004,7 +4004,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 305
+      "friendship_points": 325
     },
     {
       "name": "Oddish",
@@ -5232,7 +5232,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Primape",
+          "name": "Primeape",
           "pokedex_number": 57,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/57.svg",
           "evolution_stage": "2"
@@ -5245,7 +5245,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Primape",
+      "name": "Primeape",
       "count": 0,
       "owned": false,
       "pokedex_number": 57,
@@ -5313,7 +5313,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Primape",
+          "name": "Primeape",
           "pokedex_number": 57,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/57.svg",
           "evolution_stage": "2"
@@ -15317,9 +15317,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 305,
+      "friendship_points": 325,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 50.83
+      "friendship_progress_percent": 54.17
     },
     {
       "name": "Chinchou",
@@ -24274,8 +24274,8 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 305,
-    "times_pet": 2,
+    "friendship_points": 325,
+    "times_pet": 3,
     "times_fed": 0
   }
 }
