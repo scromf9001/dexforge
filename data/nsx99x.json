@@ -3,7 +3,7 @@
     "username": "nsx99x",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/84925440-9af3-4345-8c6f-ce8519653903-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-02T18:32:49.805663+00:00",
+  "updated_at": "2026-03-02T18:59:05.658294+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 26,
+      "thrown": 27,
       "success": 14,
-      "accuracy_percent": 53.85,
+      "accuracy_percent": 51.85,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0
         },
         "great ball": {
-          "thrown": 26,
+          "thrown": 27,
           "success": 14,
-          "accuracy_percent": 53.85
+          "accuracy_percent": 51.85
         },
         "ultra ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 542,
+      "watch_hours": 543,
       "follow_age": "10 Month(s), 24 Day(s)",
       "sub_age": "7 Day(s)",
       "sub_months": 5,
@@ -177,9 +177,9 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 199,
-      "chat_messages": 40552,
-      "commands_run": 45277,
-      "times_tagged": 4998,
+      "chat_messages": 40577,
+      "commands_run": 45316,
+      "times_tagged": 5002,
       "times_evolved": 23,
       "times_traded": 0,
       "times_eggs_hatched": 0,
@@ -191,7 +191,7 @@
       },
       "pokebag": {
         "Fire Stone": 1,
-        "Great Ball": 97,
+        "Great Ball": 98,
         "Moon Stone": 1,
         "Thunder Stone": 1,
         "Ultra Ball": 37
@@ -3902,7 +3902,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 478
+      "friendship_points": 501
     },
     {
       "name": "Golbat",
@@ -4005,7 +4005,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 478
+      "friendship_points": 501
     },
     {
       "name": "Oddish",
@@ -15318,9 +15318,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 478,
+      "friendship_points": 501,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 79.67
+      "friendship_progress_percent": 83.5
     },
     {
       "name": "Chinchou",
@@ -24275,7 +24275,7 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 478,
+    "friendship_points": 501,
     "times_pet": 6,
     "times_fed": 0
   }
