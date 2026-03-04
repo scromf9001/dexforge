@@ -3,13 +3,13 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-02T20:52:45.482467+00:00",
+  "updated_at": "2026-03-04T05:35:15.398615+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 140,
-      "total_owned": 431,
-      "completion_percent": 50.36
+      "unique_owned": 141,
+      "total_owned": 432,
+      "completion_percent": 50.72
     },
     "generation_progress": {
       "1": {
@@ -19,22 +19,22 @@
         "total": 151,
         "completion_percent": 82.78,
         "total_lines": 78,
-        "lines_completed": 48
+        "lines_completed": 49
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 15,
+        "owned": 16,
         "total": 127,
-        "completion_percent": 11.81,
+        "completion_percent": 12.6,
         "total_lines": 78,
         "lines_completed": 5
       }
     },
     "evolution": {
-      "total_evolutions_owned": 140,
+      "total_evolutions_owned": 141,
       "total_evolutions_available": 278,
-      "lines_completed": 53,
+      "lines_completed": 54,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 73,
+        "1": 74,
         "2": 53,
         "3": 14
       }
@@ -79,9 +79,9 @@
         "completion_percent": 93.33
       },
       "electric": {
-        "owned": 8,
+        "owned": 9,
         "total": 15,
-        "completion_percent": 53.33
+        "completion_percent": 60.0
       },
       "ground": {
         "owned": 8,
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 60,
+      "thrown": 64,
       "success": 17,
-      "accuracy_percent": 28.33,
+      "accuracy_percent": 26.56,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 60,
+          "thrown": 64,
           "success": 17,
-          "accuracy_percent": 28.33
+          "accuracy_percent": 26.56
         },
         "great ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 955,
+      "watch_hours": 956,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -176,13 +176,13 @@
       "total_donated": 0.0,
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
-      "streams_watched": 308,
-      "chat_messages": 7959,
-      "commands_run": 42098,
-      "times_tagged": 1905,
+      "streams_watched": 310,
+      "chat_messages": 8003,
+      "commands_run": 42266,
+      "times_tagged": 1937,
       "times_evolved": 21,
-      "times_traded": 4,
-      "times_eggs_hatched": 0,
+      "times_traded": 11,
+      "times_eggs_hatched": 1,
       "ball_distribution": {
         "poke ball": 100.0,
         "great ball": 0.0,
@@ -11475,7 +11475,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -12105,7 +12105,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 146
+      "friendship_points": 226
     },
     {
       "name": "Vaporeon",
@@ -12210,7 +12210,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 146
+      "friendship_points": 226
     },
     {
       "name": "Jolteon",
@@ -12307,7 +12307,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 146
+      "friendship_points": 226
     },
     {
       "name": "Flareon",
@@ -12424,7 +12424,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 146
+      "friendship_points": 226
     },
     {
       "name": "Porygon",
@@ -17730,9 +17730,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 146,
+      "friendship_points": 226,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 24.33
+      "friendship_progress_percent": 37.67
     },
     {
       "name": "Umbreon",
@@ -17837,9 +17837,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 146,
+      "friendship_points": 226,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 24.33
+      "friendship_progress_percent": 37.67
     },
     {
       "name": "Murkrow",
@@ -23131,8 +23131,8 @@
     },
     {
       "name": "Elekid",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 239,
       "primary_type": "Electric",
       "secondary_type": null,
@@ -23196,7 +23196,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -24282,7 +24282,7 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 146,
+    "friendship_points": 226,
     "times_pet": 2,
     "times_fed": 3
   }
