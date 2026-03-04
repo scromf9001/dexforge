@@ -3,13 +3,13 @@
     "username": "blopblood",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d81b7f66-4f5f-4eec-bd3d-64e0ba6d2b10-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-04T18:43:00.969162+00:00",
+  "updated_at": "2026-03-04T18:49:55.474088+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 137,
-      "total_owned": 334,
-      "completion_percent": 49.28
+      "unique_owned": 138,
+      "total_owned": 335,
+      "completion_percent": 49.64
     },
     "generation_progress": {
       "1": {
@@ -19,22 +19,22 @@
         "total": 151,
         "completion_percent": 78.15,
         "total_lines": 78,
-        "lines_completed": 41
+        "lines_completed": 42
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 19,
+        "owned": 20,
         "total": 127,
-        "completion_percent": 14.96,
+        "completion_percent": 15.75,
         "total_lines": 78,
         "lines_completed": 8
       }
     },
     "evolution": {
-      "total_evolutions_owned": 137,
+      "total_evolutions_owned": 138,
       "total_evolutions_available": 278,
-      "lines_completed": 49,
+      "lines_completed": 50,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -44,7 +44,7 @@
       "stage_owned": {
         "1": 74,
         "2": 47,
-        "3": 16
+        "3": 17
       }
     },
     "types": {
@@ -74,9 +74,9 @@
         "completion_percent": 57.89
       },
       "poison": {
-        "owned": 13,
+        "owned": 14,
         "total": 15,
-        "completion_percent": 86.67
+        "completion_percent": 93.33
       },
       "electric": {
         "owned": 7,
@@ -177,9 +177,9 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 138,
-      "chat_messages": 9774,
-      "commands_run": 17072,
-      "times_tagged": 1739,
+      "chat_messages": 9781,
+      "commands_run": 17089,
+      "times_tagged": 1743,
       "times_evolved": 14,
       "times_traded": 0,
       "times_eggs_hatched": 0,
@@ -3898,7 +3898,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -4001,7 +4001,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -12098,7 +12098,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 48
+      "friendship_points": 55
     },
     {
       "name": "Vaporeon",
@@ -12203,7 +12203,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 48
+      "friendship_points": 55
     },
     {
       "name": "Jolteon",
@@ -12300,7 +12300,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 48
+      "friendship_points": 55
     },
     {
       "name": "Flareon",
@@ -12417,7 +12417,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 48
+      "friendship_points": 55
     },
     {
       "name": "Porygon",
@@ -15219,8 +15219,8 @@
     },
     {
       "name": "Crobat",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 169,
       "primary_type": "Poison",
       "secondary_type": "Flying",
@@ -15314,7 +15314,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -17723,9 +17723,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 48,
+      "friendship_points": 55,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 8.0
+      "friendship_progress_percent": 9.17
     },
     {
       "name": "Umbreon",
@@ -17830,9 +17830,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 48,
+      "friendship_points": 55,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 8.0
+      "friendship_progress_percent": 9.17
     },
     {
       "name": "Murkrow",
@@ -24275,7 +24275,7 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 48,
+    "friendship_points": 55,
     "times_pet": 2,
     "times_fed": 0
   }
