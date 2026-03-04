@@ -3,7 +3,7 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/13e5fa74-defa-11e9-809c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-04T16:02:42.043233+00:00",
+  "updated_at": "2026-03-04T16:35:36.383321+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -138,9 +138,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 20,
+      "thrown": 23,
       "success": 5,
-      "accuracy_percent": 25.0,
+      "accuracy_percent": 21.74,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -149,9 +149,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 19,
+          "thrown": 22,
           "success": 5,
-          "accuracy_percent": 26.32
+          "accuracy_percent": 22.73
         },
         "ultra ball": {
           "thrown": 0,
@@ -166,8 +166,8 @@
       }
     },
     "journey": {
-      "watch_hours": 83,
-      "follow_age": "1 Day(s)",
+      "watch_hours": 84,
+      "follow_age": "2 Day(s)",
       "sub_age": "1 Month(s), 15 Day(s)",
       "sub_months": 2,
       "subs_gifted": 0,
@@ -176,20 +176,20 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 33,
-      "chat_messages": 7052,
-      "commands_run": 9798,
-      "times_tagged": 1655,
+      "chat_messages": 7082,
+      "commands_run": 9859,
+      "times_tagged": 1663,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 5.0,
-        "great ball": 95.0,
+        "poke ball": 4.35,
+        "great ball": 95.65,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 99
+        "Great Ball": 98
       }
     }
   },
@@ -3897,7 +3897,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 607
+      "friendship_points": 649
     },
     {
       "name": "Golbat",
@@ -4000,7 +4000,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 607
+      "friendship_points": 649
     },
     {
       "name": "Oddish",
@@ -15313,7 +15313,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 607,
+      "friendship_points": 649,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24270,8 +24270,8 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 607,
-    "times_pet": 0,
+    "friendship_points": 649,
+    "times_pet": 1,
     "times_fed": 1
   }
 }
