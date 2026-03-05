@@ -3,7 +3,7 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/13e5fa74-defa-11e9-809c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-05T16:40:28.795939+00:00",
+  "updated_at": "2026-03-05T16:44:18.215720+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -166,7 +166,7 @@
       }
     },
     "journey": {
-      "watch_hours": 87,
+      "watch_hours": 88,
       "follow_age": "<1 Day",
       "sub_age": "1 Month(s), 16 Day(s)",
       "sub_months": 2,
@@ -176,9 +176,9 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 34,
-      "chat_messages": 7274,
-      "commands_run": 10179,
-      "times_tagged": 1718,
+      "chat_messages": 7280,
+      "commands_run": 10193,
+      "times_tagged": 1721,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
@@ -24261,7 +24261,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1
+      "friendship_points": 5
     }
   ],
   "companion": {
@@ -24271,7 +24271,7 @@
     "primary_type": "Psychic",
     "secondary_type": "Grass",
     "evolution_line_id": "129",
-    "friendship_points": 1,
+    "friendship_points": 5,
     "times_pet": 2,
     "times_fed": 1
   }
