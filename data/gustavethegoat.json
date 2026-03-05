@@ -3,7 +3,7 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/13e5fa74-defa-11e9-809c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-05T16:44:18.215720+00:00",
+  "updated_at": "2026-03-05T18:39:43.306801+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -138,9 +138,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 36,
+      "thrown": 38,
       "success": 11,
-      "accuracy_percent": 30.56,
+      "accuracy_percent": 28.95,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -149,9 +149,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 35,
+          "thrown": 37,
           "success": 11,
-          "accuracy_percent": 31.43
+          "accuracy_percent": 29.73
         },
         "ultra ball": {
           "thrown": 0,
@@ -166,7 +166,7 @@
       }
     },
     "journey": {
-      "watch_hours": 88,
+      "watch_hours": 89,
       "follow_age": "<1 Day",
       "sub_age": "1 Month(s), 16 Day(s)",
       "sub_months": 2,
@@ -176,15 +176,15 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 34,
-      "chat_messages": 7280,
-      "commands_run": 10193,
-      "times_tagged": 1721,
-      "times_evolved": 0,
+      "chat_messages": 7349,
+      "commands_run": 10353,
+      "times_tagged": 1745,
+      "times_evolved": 6,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 2.78,
-        "great ball": 97.22,
+        "poke ball": 2.63,
+        "great ball": 97.37,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
@@ -3898,7 +3898,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 871
+      "friendship_points": 874
     },
     {
       "name": "Golbat",
@@ -4001,7 +4001,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 871
+      "friendship_points": 874
     },
     {
       "name": "Oddish",
@@ -15314,7 +15314,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 871,
+      "friendship_points": 874,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24261,18 +24261,18 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5
+      "friendship_points": 81
     }
   ],
   "companion": {
-    "name": "Celebi",
-    "pokedex_number": 251,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/251.svg",
-    "primary_type": "Psychic",
-    "secondary_type": "Grass",
-    "evolution_line_id": "129",
-    "friendship_points": 5,
-    "times_pet": 2,
+    "name": "Zubat",
+    "pokedex_number": 41,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/41.svg",
+    "primary_type": "Poison",
+    "secondary_type": "Flying",
+    "evolution_line_id": "17",
+    "friendship_points": 874,
+    "times_pet": 3,
     "times_fed": 1
   }
 }
