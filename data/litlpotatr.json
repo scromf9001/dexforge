@@ -3,13 +3,13 @@
     "username": "litlpotatr",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/998f01ae-def8-11e9-b95c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-04T19:29:55.682811+00:00",
+  "updated_at": "2026-03-05T16:48:16.216829+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 143,
-      "total_owned": 268,
-      "completion_percent": 51.44
+      "unique_owned": 144,
+      "total_owned": 273,
+      "completion_percent": 51.8
     },
     "generation_progress": {
       "1": {
@@ -19,22 +19,22 @@
         "total": 151,
         "completion_percent": 76.82,
         "total_lines": 78,
-        "lines_completed": 40
+        "lines_completed": 41
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 27,
+        "owned": 28,
         "total": 127,
-        "completion_percent": 21.26,
+        "completion_percent": 22.05,
         "total_lines": 78,
         "lines_completed": 13
       }
     },
     "evolution": {
-      "total_evolutions_owned": 143,
+      "total_evolutions_owned": 144,
       "total_evolutions_available": 278,
-      "lines_completed": 53,
+      "lines_completed": 54,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 77,
+        "1": 78,
         "2": 47,
         "3": 19
       }
@@ -89,9 +89,9 @@
         "completion_percent": 45.45
       },
       "fairy": {
-        "owned": 2,
+        "owned": 3,
         "total": 7,
-        "completion_percent": 28.57
+        "completion_percent": 42.86
       },
       "fighting": {
         "owned": 5,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 74,
-      "success": 32,
-      "accuracy_percent": 43.24,
+      "thrown": 80,
+      "success": 36,
+      "accuracy_percent": 45.0,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 69,
-          "success": 32,
-          "accuracy_percent": 46.38
+          "thrown": 75,
+          "success": 36,
+          "accuracy_percent": 48.0
         },
         "ultra ball": {
           "thrown": 4,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 615,
+      "watch_hours": 617,
       "follow_age": "8 Month(s), 8 Day(s)",
       "sub_age": "1 Year(s), 1 Month(s), 29 Day(s)",
       "sub_months": 15,
@@ -176,22 +176,22 @@
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 203,
-      "chat_messages": 16501,
-      "commands_run": 25491,
-      "times_tagged": 2626,
+      "streams_watched": 204,
+      "chat_messages": 16587,
+      "commands_run": 25647,
+      "times_tagged": 2645,
       "times_evolved": 7,
       "times_traded": 2,
-      "times_eggs_hatched": 1,
+      "times_eggs_hatched": 2,
       "ball_distribution": {
-        "poke ball": 1.35,
-        "great ball": 93.24,
-        "ultra ball": 5.41,
+        "poke ball": 1.25,
+        "great ball": 93.75,
+        "ultra ball": 5.0,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 96,
+        "Great Ball": 98,
         "Sun Stone": 1,
         "Ultra Ball": 5,
         "Water Stone": 1
@@ -3344,7 +3344,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -3433,7 +3433,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
@@ -5417,7 +5417,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 139
     },
     {
       "name": "Arcanine",
@@ -5510,7 +5510,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 139
     },
     {
       "name": "Poliwag",
@@ -6826,7 +6826,7 @@
     },
     {
       "name": "Geodude",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 74,
       "primary_type": "Rock",
@@ -6930,7 +6930,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -14677,7 +14677,7 @@
     },
     {
       "name": "Hoothoot",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
@@ -15573,8 +15573,8 @@
     },
     {
       "name": "Cleffa",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 173,
       "primary_type": "Fairy",
       "secondary_type": null,
@@ -15652,7 +15652,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -16117,7 +16117,7 @@
     },
     {
       "name": "Mareep",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 179,
       "primary_type": "Electric",
@@ -16189,7 +16189,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -16552,7 +16552,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 73
+      "friendship_points": 75
     },
     {
       "name": "Azumarill",
@@ -16649,9 +16649,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 73,
+      "friendship_points": 75,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 12.17
+      "friendship_progress_percent": 12.5
     },
     {
       "name": "Sudowoodo",
@@ -21551,7 +21551,7 @@
     },
     {
       "name": "Swinub",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 220,
       "primary_type": "Ice",
@@ -24269,14 +24269,14 @@
     }
   ],
   "companion": {
-    "name": "Marill",
-    "pokedex_number": 183,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/183.svg",
-    "primary_type": "Water",
-    "secondary_type": "Fairy",
-    "evolution_line_id": "90",
-    "friendship_points": 73,
-    "times_pet": 21,
+    "name": "Growlithe",
+    "pokedex_number": 58,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/58.svg",
+    "primary_type": "Fire",
+    "secondary_type": null,
+    "evolution_line_id": "25",
+    "friendship_points": 139,
+    "times_pet": 24,
     "times_fed": 3
   }
 }
