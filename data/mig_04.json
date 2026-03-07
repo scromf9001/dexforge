@@ -3,7 +3,7 @@
     "username": "mig_04",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/185e75e6-4320-4269-a7d3-9ea799e3e78c-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-07T16:58:07.909647+00:00",
+  "updated_at": "2026-03-07T16:59:49.875548+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -175,9 +175,9 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 12,
-      "chat_messages": 294,
-      "commands_run": 353,
-      "times_tagged": 31,
+      "chat_messages": 299,
+      "commands_run": 364,
+      "times_tagged": 34,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
