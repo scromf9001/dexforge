@@ -3,36 +3,36 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-07T17:54:52.785846+00:00",
+  "updated_at": "2026-03-07T20:40:06.102675+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 96,
-      "total_owned": 200,
-      "completion_percent": 34.53
+      "unique_owned": 99,
+      "total_owned": 201,
+      "completion_percent": 35.61
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 76,
+        "owned": 77,
         "total": 151,
-        "completion_percent": 50.33,
+        "completion_percent": 50.99,
         "total_lines": 78,
         "lines_completed": 16
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 20,
+        "owned": 22,
         "total": 127,
-        "completion_percent": 15.75,
+        "completion_percent": 17.32,
         "total_lines": 78,
         "lines_completed": 10
       }
     },
     "evolution": {
-      "total_evolutions_owned": 96,
+      "total_evolutions_owned": 99,
       "total_evolutions_available": 278,
       "lines_completed": 26,
       "total_lines": 156,
@@ -42,26 +42,26 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 74,
-        "2": 20,
+        "1": 76,
+        "2": 21,
         "3": 2
       }
     },
     "types": {
       "grass": {
-        "owned": 4,
+        "owned": 5,
         "total": 21,
-        "completion_percent": 19.05
+        "completion_percent": 23.81
       },
       "fire": {
-        "owned": 6,
+        "owned": 7,
         "total": 20,
-        "completion_percent": 30.0
+        "completion_percent": 35.0
       },
       "water": {
-        "owned": 18,
+        "owned": 19,
         "total": 44,
-        "completion_percent": 40.91
+        "completion_percent": 43.18
       },
       "bug": {
         "owned": 6,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 47,
-      "success": 25,
-      "accuracy_percent": 53.19,
+      "thrown": 49,
+      "success": 27,
+      "accuracy_percent": 55.1,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 41,
-          "success": 23,
-          "accuracy_percent": 56.1
+          "thrown": 43,
+          "success": 25,
+          "accuracy_percent": 58.14
         },
         "ultra ball": {
           "thrown": 2,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 803,
+      "watch_hours": 804,
       "follow_age": "1 Year(s), 4 Month(s), 21 Day(s)",
       "sub_age": "1 Year(s), 1 Month(s), 2 Day(s)",
       "sub_months": 14,
@@ -177,22 +177,22 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 243,
-      "chat_messages": 14512,
-      "commands_run": 16372,
-      "times_tagged": 2266,
-      "times_evolved": 10,
+      "chat_messages": 14559,
+      "commands_run": 16450,
+      "times_tagged": 2283,
+      "times_evolved": 11,
       "times_traded": 1,
-      "times_eggs_hatched": 4,
+      "times_eggs_hatched": 5,
       "ball_distribution": {
-        "poke ball": 4.26,
-        "great ball": 87.23,
-        "ultra ball": 4.26,
-        "master ball": 4.26
+        "poke ball": 4.08,
+        "great ball": 87.76,
+        "ultra ball": 4.08,
+        "master ball": 4.08
       },
       "pokebag": {
         "Berry": 2,
         "Egg": 1,
-        "Great Ball": 98,
+        "Great Ball": 99,
         "Master Ball": 1,
         "Ultra Ball": 17
       }
@@ -6327,7 +6327,7 @@
     },
     {
       "name": "Bellsprout",
-      "count": 11,
+      "count": 8,
       "owned": true,
       "pokedex_number": 69,
       "primary_type": "Grass",
@@ -6426,8 +6426,8 @@
     },
     {
       "name": "Weepinbell",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 70,
       "primary_type": "Grass",
       "secondary_type": "Poison",
@@ -11709,7 +11709,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
@@ -12098,7 +12098,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1078
+      "friendship_points": 1160
     },
     {
       "name": "Vaporeon",
@@ -12203,7 +12203,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1078
+      "friendship_points": 1160
     },
     {
       "name": "Jolteon",
@@ -12300,7 +12300,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1078
+      "friendship_points": 1160
     },
     {
       "name": "Flareon",
@@ -12417,7 +12417,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1078
+      "friendship_points": 1160
     },
     {
       "name": "Porygon",
@@ -17723,7 +17723,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1078,
+      "friendship_points": 1160,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17830,7 +17830,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1078,
+      "friendship_points": 1160,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -21808,8 +21808,8 @@
     },
     {
       "name": "Remoraid",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 223,
       "primary_type": "Water",
       "secondary_type": null,
@@ -23197,8 +23197,8 @@
     },
     {
       "name": "Magby",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 240,
       "primary_type": "Fire",
       "secondary_type": null,
@@ -24275,8 +24275,8 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 1078,
-    "times_pet": 20,
+    "friendship_points": 1160,
+    "times_pet": 21,
     "times_fed": 3
   }
 }
