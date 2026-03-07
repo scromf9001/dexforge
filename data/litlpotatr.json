@@ -3,38 +3,38 @@
     "username": "litlpotatr",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/998f01ae-def8-11e9-b95c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-05T16:48:16.216829+00:00",
+  "updated_at": "2026-03-07T19:21:44.094702+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 144,
-      "total_owned": 273,
-      "completion_percent": 51.8
+      "unique_owned": 148,
+      "total_owned": 282,
+      "completion_percent": 53.24
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 116,
+        "owned": 117,
         "total": 151,
-        "completion_percent": 76.82,
+        "completion_percent": 77.48,
         "total_lines": 78,
-        "lines_completed": 41
+        "lines_completed": 42
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 28,
+        "owned": 31,
         "total": 127,
-        "completion_percent": 22.05,
+        "completion_percent": 24.41,
         "total_lines": 78,
         "lines_completed": 13
       }
     },
     "evolution": {
-      "total_evolutions_owned": 144,
+      "total_evolutions_owned": 148,
       "total_evolutions_available": 278,
-      "lines_completed": 54,
+      "lines_completed": 55,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -42,16 +42,16 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 78,
-        "2": 47,
+        "1": 80,
+        "2": 49,
         "3": 19
       }
     },
     "types": {
       "grass": {
-        "owned": 11,
+        "owned": 12,
         "total": 21,
-        "completion_percent": 52.38
+        "completion_percent": 57.14
       },
       "fire": {
         "owned": 10,
@@ -59,9 +59,9 @@
         "completion_percent": 50.0
       },
       "water": {
-        "owned": 27,
+        "owned": 29,
         "total": 44,
-        "completion_percent": 61.36
+        "completion_percent": 65.91
       },
       "bug": {
         "owned": 13,
@@ -104,9 +104,9 @@
         "completion_percent": 30.95
       },
       "rock": {
-        "owned": 6,
+        "owned": 7,
         "total": 13,
-        "completion_percent": 46.15
+        "completion_percent": 53.85
       },
       "ghost": {
         "owned": 1,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 80,
-      "success": 36,
-      "accuracy_percent": 45.0,
+      "thrown": 101,
+      "success": 50,
+      "accuracy_percent": 49.5,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,14 +150,14 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 75,
-          "success": 36,
-          "accuracy_percent": 48.0
+          "thrown": 93,
+          "success": 48,
+          "accuracy_percent": 51.61
         },
         "ultra ball": {
-          "thrown": 4,
-          "success": 0,
-          "accuracy_percent": 0.0
+          "thrown": 7,
+          "success": 2,
+          "accuracy_percent": 28.57
         },
         "master ball": {
           "thrown": 0,
@@ -167,33 +167,33 @@
       }
     },
     "journey": {
-      "watch_hours": 617,
-      "follow_age": "8 Month(s), 8 Day(s)",
-      "sub_age": "1 Year(s), 1 Month(s), 29 Day(s)",
+      "watch_hours": 629,
+      "follow_age": "8 Month(s), 11 Day(s)",
+      "sub_age": "1 Year(s), 2 Month(s), 1 Day(s)",
       "sub_months": 15,
       "subs_gifted": 0,
       "bits_donated": 200,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 204,
-      "chat_messages": 16587,
-      "commands_run": 25647,
-      "times_tagged": 2645,
-      "times_evolved": 7,
+      "streams_watched": 206,
+      "chat_messages": 16734,
+      "commands_run": 25974,
+      "times_tagged": 2685,
+      "times_evolved": 9,
       "times_traded": 2,
-      "times_eggs_hatched": 2,
+      "times_eggs_hatched": 3,
       "ball_distribution": {
-        "poke ball": 1.25,
-        "great ball": 93.75,
-        "ultra ball": 5.0,
+        "poke ball": 0.99,
+        "great ball": 92.08,
+        "ultra ball": 6.93,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
         "Great Ball": 98,
         "Sun Stone": 1,
-        "Ultra Ball": 5,
+        "Ultra Ball": 3,
         "Water Stone": 1
       }
     }
@@ -201,7 +201,7 @@
   "pokemon": [
     {
       "name": "Bulbasaur",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 1,
       "primary_type": "Grass",
@@ -2033,7 +2033,7 @@
     },
     {
       "name": "Spearow",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 21,
       "primary_type": "Normal",
@@ -5417,7 +5417,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 139
+      "friendship_points": 896
     },
     {
       "name": "Arcanine",
@@ -5510,11 +5510,11 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 139
+      "friendship_points": 896
     },
     {
       "name": "Poliwag",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 60,
       "primary_type": "Water",
@@ -6327,7 +6327,7 @@
     },
     {
       "name": "Bellsprout",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 69,
       "primary_type": "Grass",
@@ -7159,7 +7159,7 @@
     },
     {
       "name": "Ponyta",
-      "count": 5,
+      "count": 2,
       "owned": true,
       "pokedex_number": 77,
       "primary_type": "Fire",
@@ -7245,14 +7245,14 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Rapidash",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 78,
       "primary_type": "Fire",
@@ -7345,7 +7345,7 @@
     },
     {
       "name": "Slowpoke",
-      "count": 4,
+      "count": 1,
       "owned": true,
       "pokedex_number": 79,
       "primary_type": "Water",
@@ -7444,8 +7444,8 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
-      "evolvable_now": true,
+      "line_complete": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -7551,7 +7551,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -7872,7 +7872,7 @@
     },
     {
       "name": "Doduo",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 84,
       "primary_type": "Normal",
@@ -7950,7 +7950,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -8845,8 +8845,8 @@
     },
     {
       "name": "Onix",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 95,
       "primary_type": "Rock",
       "secondary_type": "Ground",
@@ -9266,7 +9266,7 @@
     },
     {
       "name": "Voltorb",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 100,
       "primary_type": "Electric",
@@ -11709,7 +11709,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 17,
+      "count": 18,
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
@@ -13692,8 +13692,8 @@
     },
     {
       "name": "Chikorita",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 152,
       "primary_type": "Grass",
       "secondary_type": null,
@@ -14677,7 +14677,7 @@
     },
     {
       "name": "Hoothoot",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
@@ -14755,7 +14755,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -15324,8 +15324,8 @@
     },
     {
       "name": "Chinchou",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 170,
       "primary_type": "Water",
       "secondary_type": "Electric",
@@ -16117,8 +16117,8 @@
     },
     {
       "name": "Mareep",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 179,
       "primary_type": "Electric",
       "secondary_type": null,
@@ -16189,15 +16189,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Flaafy",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 180,
       "primary_type": "Electric",
       "secondary_type": null,
@@ -16835,7 +16835,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
@@ -17923,8 +17923,8 @@
     },
     {
       "name": "Slowking",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 199,
       "primary_type": "Water",
       "secondary_type": "Psychic",
@@ -18022,7 +18022,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": true,
@@ -20409,7 +20409,7 @@
     },
     {
       "name": "Dunsparce",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 206,
       "primary_type": "Normal",
@@ -21808,7 +21808,7 @@
     },
     {
       "name": "Remoraid",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 223,
       "primary_type": "Water",
@@ -23197,7 +23197,7 @@
     },
     {
       "name": "Magby",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 240,
       "primary_type": "Fire",
@@ -24275,8 +24275,8 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "25",
-    "friendship_points": 139,
-    "times_pet": 24,
+    "friendship_points": 896,
+    "times_pet": 27,
     "times_fed": 3
   }
 }
