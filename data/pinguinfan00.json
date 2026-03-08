@@ -3,36 +3,36 @@
     "username": "pinguinfan00",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/8b5fa3b7-1a82-4af2-bd75-c68c0b60cb00-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-05T19:11:43.159739+00:00",
+  "updated_at": "2026-03-08T16:18:32.496707+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 56,
-      "total_owned": 76,
-      "completion_percent": 20.14
+      "unique_owned": 60,
+      "total_owned": 82,
+      "completion_percent": 21.58
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 50,
+        "owned": 51,
         "total": 151,
-        "completion_percent": 33.11,
+        "completion_percent": 33.77,
         "total_lines": 78,
         "lines_completed": 4
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 6,
+        "owned": 9,
         "total": 127,
-        "completion_percent": 4.72,
+        "completion_percent": 7.09,
         "total_lines": 78,
         "lines_completed": 3
       }
     },
     "evolution": {
-      "total_evolutions_owned": 56,
+      "total_evolutions_owned": 60,
       "total_evolutions_available": 278,
       "lines_completed": 7,
       "total_lines": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 41,
+        "1": 45,
         "2": 14,
         "3": 1
       }
@@ -54,19 +54,19 @@
         "completion_percent": 19.05
       },
       "fire": {
-        "owned": 2,
+        "owned": 3,
         "total": 20,
-        "completion_percent": 10.0
+        "completion_percent": 15.0
       },
       "water": {
-        "owned": 13,
+        "owned": 15,
         "total": 44,
-        "completion_percent": 29.55
+        "completion_percent": 34.09
       },
       "bug": {
-        "owned": 6,
+        "owned": 7,
         "total": 22,
-        "completion_percent": 27.27
+        "completion_percent": 31.82
       },
       "normal": {
         "owned": 10,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 19,
-      "success": 11,
-      "accuracy_percent": 57.89,
+      "thrown": 33,
+      "success": 15,
+      "accuracy_percent": 45.45,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0
         },
         "great ball": {
-          "thrown": 19,
-          "success": 11,
-          "accuracy_percent": 57.89
+          "thrown": 33,
+          "success": 15,
+          "accuracy_percent": 45.45
         },
         "ultra ball": {
           "thrown": 0,
@@ -167,22 +167,22 @@
       }
     },
     "journey": {
-      "watch_hours": 73,
-      "follow_age": "25 Day(s)",
-      "sub_age": "11 Day(s)",
+      "watch_hours": 77,
+      "follow_age": "27 Day(s)",
+      "sub_age": "13 Day(s)",
       "sub_months": 2,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 52,
-      "chat_messages": 7360,
-      "commands_run": 8938,
-      "times_tagged": 662,
+      "streams_watched": 55,
+      "chat_messages": 7884,
+      "commands_run": 9598,
+      "times_tagged": 729,
       "times_evolved": 0,
       "times_traded": 0,
-      "times_eggs_hatched": 0,
+      "times_eggs_hatched": 1,
       "ball_distribution": {
         "poke ball": 0.0,
         "great ball": 100.0,
@@ -190,9 +190,8 @@
         "master ball": 0.0
       },
       "pokebag": {
-        "Egg": 1,
         "Great Ball": 44,
-        "Ultra Ball": 6
+        "Ultra Ball": 7
       }
     }
   },
@@ -5079,7 +5078,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 301
+      "friendship_points": 550
     },
     {
       "name": "Golduck",
@@ -5160,7 +5159,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 301
+      "friendship_points": 550
     },
     {
       "name": "Mankey",
@@ -5512,8 +5511,8 @@
     },
     {
       "name": "Poliwag",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 60,
       "primary_type": "Water",
       "secondary_type": null,
@@ -11707,7 +11706,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
@@ -13619,7 +13618,7 @@
     },
     {
       "name": "Mew",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 151,
       "primary_type": "Psychic",
@@ -14845,8 +14844,8 @@
     },
     {
       "name": "Ledyba",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 165,
       "primary_type": "Bug",
       "secondary_type": "Flying",
@@ -21806,8 +21805,8 @@
     },
     {
       "name": "Remoraid",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 223,
       "primary_type": "Water",
       "secondary_type": null,
@@ -23195,8 +23194,8 @@
     },
     {
       "name": "Magby",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 240,
       "primary_type": "Fire",
       "secondary_type": null,
@@ -24273,8 +24272,8 @@
     "primary_type": "Water",
     "secondary_type": null,
     "evolution_line_id": "23",
-    "friendship_points": 301,
+    "friendship_points": 550,
     "times_pet": 1,
-    "times_fed": 0
+    "times_fed": 1
   }
 }
