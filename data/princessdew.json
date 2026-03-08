@@ -3,12 +3,12 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-07T20:40:06.102675+00:00",
+  "updated_at": "2026-03-08T18:29:44.737422+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 99,
-      "total_owned": 201,
+      "total_owned": 200,
       "completion_percent": 35.61
     },
     "generation_progress": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 49,
-      "success": 27,
-      "accuracy_percent": 55.1,
+      "thrown": 57,
+      "success": 29,
+      "accuracy_percent": 50.88,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,12 +150,12 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 43,
-          "success": 25,
-          "accuracy_percent": 58.14
+          "thrown": 50,
+          "success": 27,
+          "accuracy_percent": 54.0
         },
         "ultra ball": {
-          "thrown": 2,
+          "thrown": 3,
           "success": 0,
           "accuracy_percent": 0.0
         },
@@ -167,34 +167,34 @@
       }
     },
     "journey": {
-      "watch_hours": 804,
-      "follow_age": "1 Year(s), 4 Month(s), 21 Day(s)",
-      "sub_age": "1 Year(s), 1 Month(s), 2 Day(s)",
+      "watch_hours": 807,
+      "follow_age": "1 Year(s), 4 Month(s), 22 Day(s)",
+      "sub_age": "1 Year(s), 1 Month(s), 3 Day(s)",
       "sub_months": 14,
       "subs_gifted": 0,
       "bits_donated": 204,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 243,
-      "chat_messages": 14559,
-      "commands_run": 16450,
-      "times_tagged": 2283,
-      "times_evolved": 11,
-      "times_traded": 1,
+      "streams_watched": 244,
+      "chat_messages": 14643,
+      "commands_run": 16645,
+      "times_tagged": 2315,
+      "times_evolved": 13,
+      "times_traded": 2,
       "times_eggs_hatched": 5,
       "ball_distribution": {
-        "poke ball": 4.08,
-        "great ball": 87.76,
-        "ultra ball": 4.08,
-        "master ball": 4.08
+        "poke ball": 3.51,
+        "great ball": 87.72,
+        "ultra ball": 5.26,
+        "master ball": 3.51
       },
       "pokebag": {
         "Berry": 2,
         "Egg": 1,
-        "Great Ball": 99,
+        "Great Ball": 98,
         "Master Ball": 1,
-        "Ultra Ball": 17
+        "Ultra Ball": 16
       }
     }
   },
@@ -2203,7 +2203,7 @@
     },
     {
       "name": "Ekans",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 23,
       "primary_type": "Poison",
@@ -4009,7 +4009,7 @@
     },
     {
       "name": "Oddish",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 43,
       "primary_type": "Grass",
@@ -6327,7 +6327,7 @@
     },
     {
       "name": "Bellsprout",
-      "count": 8,
+      "count": 2,
       "owned": true,
       "pokedex_number": 69,
       "primary_type": "Grass",
@@ -6419,14 +6419,14 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Weepinbell",
-      "count": 1,
+      "count": 3,
       "owned": true,
       "pokedex_number": 70,
       "primary_type": "Grass",
@@ -6518,7 +6518,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -12098,7 +12098,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1160
+      "friendship_points": 1341
     },
     {
       "name": "Vaporeon",
@@ -12203,7 +12203,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1160
+      "friendship_points": 1341
     },
     {
       "name": "Jolteon",
@@ -12300,7 +12300,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1160
+      "friendship_points": 1341
     },
     {
       "name": "Flareon",
@@ -12417,7 +12417,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1160
+      "friendship_points": 1341
     },
     {
       "name": "Porygon",
@@ -13621,7 +13621,7 @@
     },
     {
       "name": "Mew",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 151,
       "primary_type": "Psychic",
@@ -15573,7 +15573,7 @@
     },
     {
       "name": "Cleffa",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 173,
       "primary_type": "Fairy",
@@ -17723,7 +17723,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1160,
+      "friendship_points": 1341,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17830,7 +17830,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1160,
+      "friendship_points": 1341,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -23035,7 +23035,7 @@
     },
     {
       "name": "Smoochum",
-      "count": 2,
+      "count": 1,
       "owned": true,
       "pokedex_number": 238,
       "primary_type": "Ice",
@@ -24275,8 +24275,8 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 1160,
-    "times_pet": 21,
+    "friendship_points": 1341,
+    "times_pet": 23,
     "times_fed": 3
   }
 }
