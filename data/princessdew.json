@@ -3,13 +3,13 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-08T18:29:44.737422+00:00",
+  "updated_at": "2026-03-09T16:14:20.891709+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 99,
-      "total_owned": 200,
-      "completion_percent": 35.61
+      "unique_owned": 100,
+      "total_owned": 201,
+      "completion_percent": 35.97
     },
     "generation_progress": {
       "1": {
@@ -24,17 +24,17 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 22,
+        "owned": 23,
         "total": 127,
-        "completion_percent": 17.32,
+        "completion_percent": 18.11,
         "total_lines": 78,
-        "lines_completed": 10
+        "lines_completed": 11
       }
     },
     "evolution": {
-      "total_evolutions_owned": 99,
+      "total_evolutions_owned": 100,
       "total_evolutions_available": 278,
-      "lines_completed": 26,
+      "lines_completed": 27,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 76,
+        "1": 77,
         "2": 21,
         "3": 2
       }
@@ -54,9 +54,9 @@
         "completion_percent": 23.81
       },
       "fire": {
-        "owned": 7,
+        "owned": 8,
         "total": 20,
-        "completion_percent": 35.0
+        "completion_percent": 40.0
       },
       "water": {
         "owned": 19,
@@ -135,13 +135,13 @@
       }
     },
     "legendary": {
-      "owned": 7,
+      "owned": 8,
       "total": 11
     },
     "pokeballs": {
-      "thrown": 57,
-      "success": 29,
-      "accuracy_percent": 50.88,
+      "thrown": 58,
+      "success": 30,
+      "accuracy_percent": 51.72,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -160,15 +160,15 @@
           "accuracy_percent": 0.0
         },
         "master ball": {
-          "thrown": 2,
-          "success": 2,
+          "thrown": 3,
+          "success": 3,
           "accuracy_percent": 100.0
         }
       }
     },
     "journey": {
-      "watch_hours": 807,
-      "follow_age": "1 Year(s), 4 Month(s), 22 Day(s)",
+      "watch_hours": 808,
+      "follow_age": "1 Year(s), 4 Month(s), 23 Day(s)",
       "sub_age": "1 Year(s), 1 Month(s), 3 Day(s)",
       "sub_months": 14,
       "subs_gifted": 0,
@@ -176,24 +176,23 @@
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 244,
-      "chat_messages": 14643,
-      "commands_run": 16645,
-      "times_tagged": 2315,
+      "streams_watched": 245,
+      "chat_messages": 14670,
+      "commands_run": 16720,
+      "times_tagged": 2330,
       "times_evolved": 13,
       "times_traded": 2,
       "times_eggs_hatched": 5,
       "ball_distribution": {
-        "poke ball": 3.51,
-        "great ball": 87.72,
-        "ultra ball": 5.26,
-        "master ball": 3.51
+        "poke ball": 3.45,
+        "great ball": 86.21,
+        "ultra ball": 5.17,
+        "master ball": 5.17
       },
       "pokebag": {
         "Berry": 2,
         "Egg": 1,
-        "Great Ball": 98,
-        "Master Ball": 1,
+        "Great Ball": 99,
         "Ultra Ball": 16
       }
     }
@@ -593,7 +592,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 49
+      "friendship_points": 79
     },
     {
       "name": "Charmeleon",
@@ -692,7 +691,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 49
+      "friendship_points": 79
     },
     {
       "name": "Charizard",
@@ -795,7 +794,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 49
+      "friendship_points": 79
     },
     {
       "name": "Squirtle",
@@ -7248,7 +7247,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 19
     },
     {
       "name": "Rapidash",
@@ -7341,7 +7340,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 19
     },
     {
       "name": "Slowpoke",
@@ -12098,7 +12097,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1341
+      "friendship_points": 1343
     },
     {
       "name": "Vaporeon",
@@ -12203,7 +12202,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1341
+      "friendship_points": 1343
     },
     {
       "name": "Jolteon",
@@ -12300,7 +12299,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1341
+      "friendship_points": 1343
     },
     {
       "name": "Flareon",
@@ -12417,7 +12416,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1341
+      "friendship_points": 1343
     },
     {
       "name": "Porygon",
@@ -13617,7 +13616,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 135
+      "friendship_points": 136
     },
     {
       "name": "Mew",
@@ -17723,7 +17722,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1341,
+      "friendship_points": 1343,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17830,7 +17829,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1341,
+      "friendship_points": 1343,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24075,8 +24074,8 @@
     },
     {
       "name": "Ho-oh",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 250,
       "primary_type": "Fire",
       "secondary_type": "Flying",
@@ -24158,7 +24157,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -24269,14 +24268,14 @@
     }
   ],
   "companion": {
-    "name": "Eevee",
-    "pokedex_number": 133,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/133.svg",
-    "primary_type": "Normal",
+    "name": "Charmander",
+    "pokedex_number": 4,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg",
+    "primary_type": "Fire",
     "secondary_type": null,
-    "evolution_line_id": "67",
-    "friendship_points": 1341,
-    "times_pet": 23,
+    "evolution_line_id": "2",
+    "friendship_points": 79,
+    "times_pet": 25,
     "times_fed": 3
   }
 }
