@@ -3,12 +3,12 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-09T16:14:20.891709+00:00",
+  "updated_at": "2026-03-10T18:45:43.205831+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 100,
-      "total_owned": 201,
+      "total_owned": 206,
       "completion_percent": 35.97
     },
     "generation_progress": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 58,
-      "success": 30,
-      "accuracy_percent": 51.72,
+      "thrown": 66,
+      "success": 35,
+      "accuracy_percent": 53.03,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 50,
-          "success": 27,
-          "accuracy_percent": 54.0
+          "thrown": 58,
+          "success": 32,
+          "accuracy_percent": 55.17
         },
         "ultra ball": {
           "thrown": 3,
@@ -167,32 +167,32 @@
       }
     },
     "journey": {
-      "watch_hours": 808,
-      "follow_age": "1 Year(s), 4 Month(s), 23 Day(s)",
-      "sub_age": "1 Year(s), 1 Month(s), 3 Day(s)",
+      "watch_hours": 813,
+      "follow_age": "1 Year(s), 4 Month(s), 24 Day(s)",
+      "sub_age": "1 Year(s), 1 Month(s), 5 Day(s)",
       "sub_months": 14,
       "subs_gifted": 0,
       "bits_donated": 204,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 245,
-      "chat_messages": 14670,
-      "commands_run": 16720,
-      "times_tagged": 2330,
+      "streams_watched": 246,
+      "chat_messages": 14717,
+      "commands_run": 16829,
+      "times_tagged": 2356,
       "times_evolved": 13,
       "times_traded": 2,
       "times_eggs_hatched": 5,
       "ball_distribution": {
-        "poke ball": 3.45,
-        "great ball": 86.21,
-        "ultra ball": 5.17,
-        "master ball": 5.17
+        "poke ball": 3.03,
+        "great ball": 87.88,
+        "ultra ball": 4.55,
+        "master ball": 4.55
       },
       "pokebag": {
         "Berry": 2,
         "Egg": 1,
-        "Great Ball": 99,
+        "Great Ball": 98,
         "Ultra Ball": 16
       }
     }
@@ -592,7 +592,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 79
+      "friendship_points": 463
     },
     {
       "name": "Charmeleon",
@@ -691,7 +691,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 79
+      "friendship_points": 463
     },
     {
       "name": "Charizard",
@@ -794,7 +794,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 79
+      "friendship_points": 463
     },
     {
       "name": "Squirtle",
@@ -1629,7 +1629,7 @@
     },
     {
       "name": "Pidgey",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 16,
       "primary_type": "Normal",
@@ -4008,7 +4008,7 @@
     },
     {
       "name": "Oddish",
-      "count": 7,
+      "count": 8,
       "owned": true,
       "pokedex_number": 43,
       "primary_type": "Grass",
@@ -5003,7 +5003,7 @@
     },
     {
       "name": "Psyduck",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 54,
       "primary_type": "Water",
@@ -11708,7 +11708,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 6,
+      "count": 8,
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
@@ -24274,8 +24274,8 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "2",
-    "friendship_points": 79,
-    "times_pet": 25,
+    "friendship_points": 463,
+    "times_pet": 28,
     "times_fed": 3
   }
 }
