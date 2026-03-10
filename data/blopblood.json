@@ -3,12 +3,12 @@
     "username": "blopblood",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d81b7f66-4f5f-4eec-bd3d-64e0ba6d2b10-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-09T20:09:20.419146+00:00",
+  "updated_at": "2026-03-10T20:23:58.383835+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 147,
-      "total_owned": 367,
+      "total_owned": 376,
       "completion_percent": 52.88
     },
     "generation_progress": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 148,
-      "success": 62,
-      "accuracy_percent": 41.89,
+      "thrown": 164,
+      "success": 71,
+      "accuracy_percent": 43.29,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 147,
-          "success": 62,
-          "accuracy_percent": 42.18
+          "thrown": 163,
+          "success": 71,
+          "accuracy_percent": 43.56
         },
         "ultra ball": {
           "thrown": 0,
@@ -167,25 +167,25 @@
       }
     },
     "journey": {
-      "watch_hours": 438,
-      "follow_age": "8 Month(s), 1 Day(s)",
-      "sub_age": "5 Month(s), 24 Day(s)",
+      "watch_hours": 443,
+      "follow_age": "8 Month(s), 2 Day(s)",
+      "sub_age": "5 Month(s), 25 Day(s)",
       "sub_months": 5,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 143,
-      "chat_messages": 10767,
-      "commands_run": 18563,
-      "times_tagged": 1888,
+      "streams_watched": 144,
+      "chat_messages": 10913,
+      "commands_run": 18794,
+      "times_tagged": 1933,
       "times_evolved": 15,
       "times_traded": 0,
       "times_eggs_hatched": 3,
       "ball_distribution": {
-        "poke ball": 0.68,
-        "great ball": 99.32,
+        "poke ball": 0.61,
+        "great ball": 99.39,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
@@ -1334,7 +1334,7 @@
     },
     {
       "name": "Weedle",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 13,
       "primary_type": "Bug",
@@ -1426,7 +1426,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -1631,7 +1631,7 @@
     },
     {
       "name": "Pidgey",
-      "count": 8,
+      "count": 9,
       "owned": true,
       "pokedex_number": 16,
       "primary_type": "Normal",
@@ -3628,7 +3628,7 @@
     },
     {
       "name": "Jigglypuff",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 39,
       "primary_type": "Normal",
@@ -3708,7 +3708,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0,
@@ -4010,7 +4010,7 @@
     },
     {
       "name": "Oddish",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 43,
       "primary_type": "Grass",
@@ -6328,7 +6328,7 @@
     },
     {
       "name": "Bellsprout",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 69,
       "primary_type": "Grass",
@@ -9631,7 +9631,7 @@
     },
     {
       "name": "Cubone",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 104,
       "primary_type": "Ground",
@@ -9705,7 +9705,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -11710,7 +11710,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 15,
+      "count": 16,
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
@@ -12099,7 +12099,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1483
+      "friendship_points": 1743
     },
     {
       "name": "Vaporeon",
@@ -12204,7 +12204,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1483
+      "friendship_points": 1743
     },
     {
       "name": "Jolteon",
@@ -12301,7 +12301,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1483
+      "friendship_points": 1743
     },
     {
       "name": "Flareon",
@@ -12418,7 +12418,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1483
+      "friendship_points": 1743
     },
     {
       "name": "Porygon",
@@ -16460,7 +16460,7 @@
     },
     {
       "name": "Marill",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 183,
       "primary_type": "Water",
@@ -16550,7 +16550,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -17192,7 +17192,7 @@
     },
     {
       "name": "Sunkern",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 191,
       "primary_type": "Grass",
@@ -17278,7 +17278,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -17724,7 +17724,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1483,
+      "friendship_points": 1743,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17831,7 +17831,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1483,
+      "friendship_points": 1743,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24276,7 +24276,7 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 1483,
+    "friendship_points": 1743,
     "times_pet": 4,
     "times_fed": 0
   }
