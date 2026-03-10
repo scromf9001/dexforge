@@ -3,21 +3,21 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/13e5fa74-defa-11e9-809c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-10T16:23:49.650692+00:00",
+  "updated_at": "2026-03-10T20:25:13.301940+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 64,
-      "total_owned": 83,
-      "completion_percent": 23.02
+      "unique_owned": 67,
+      "total_owned": 87,
+      "completion_percent": 24.1
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 50,
+        "owned": 53,
         "total": 151,
-        "completion_percent": 33.11,
+        "completion_percent": 35.1,
         "total_lines": 78,
         "lines_completed": 8
       },
@@ -32,7 +32,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 64,
+      "total_evolutions_owned": 67,
       "total_evolutions_available": 278,
       "lines_completed": 16,
       "total_lines": 156,
@@ -42,15 +42,15 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 45,
-        "2": 19
+        "1": 47,
+        "2": 20
       }
     },
     "types": {
       "grass": {
-        "owned": 4,
+        "owned": 5,
         "total": 21,
-        "completion_percent": 19.05
+        "completion_percent": 23.81
       },
       "fire": {
         "owned": 4,
@@ -83,9 +83,9 @@
         "completion_percent": 40.0
       },
       "ground": {
-        "owned": 1,
+        "owned": 3,
         "total": 11,
-        "completion_percent": 9.09
+        "completion_percent": 27.27
       },
       "fairy": {
         "owned": 1,
@@ -138,9 +138,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 72,
-      "success": 25,
-      "accuracy_percent": 34.72,
+      "thrown": 82,
+      "success": 31,
+      "accuracy_percent": 37.8,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -149,14 +149,14 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 68,
-          "success": 24,
-          "accuracy_percent": 35.29
+          "thrown": 77,
+          "success": 29,
+          "accuracy_percent": 37.66
         },
         "ultra ball": {
-          "thrown": 0,
-          "success": 1,
-          "accuracy_percent": 0
+          "thrown": 1,
+          "success": 2,
+          "accuracy_percent": 200.0
         },
         "master ball": {
           "thrown": 0,
@@ -166,8 +166,8 @@
       }
     },
     "journey": {
-      "watch_hours": 97,
-      "follow_age": "5 Day(s)",
+      "watch_hours": 100,
+      "follow_age": "6 Day(s)",
       "sub_age": "1 Month(s), 21 Day(s)",
       "sub_months": 2,
       "subs_gifted": 0,
@@ -176,28 +176,28 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 39,
-      "chat_messages": 8198,
-      "commands_run": 11638,
-      "times_tagged": 1948,
-      "times_evolved": 11,
+      "chat_messages": 8615,
+      "commands_run": 12196,
+      "times_tagged": 2018,
+      "times_evolved": 12,
       "times_traded": 0,
       "times_eggs_hatched": 1,
       "ball_distribution": {
-        "poke ball": 5.56,
-        "great ball": 94.44,
-        "ultra ball": 0.0,
+        "poke ball": 4.88,
+        "great ball": 93.9,
+        "ultra ball": 1.22,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 94
+        "Great Ball": 98
       }
     }
   },
   "pokemon": [
     {
       "name": "Bulbasaur",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 1,
       "primary_type": "Grass",
       "secondary_type": "Poison",
@@ -3343,9 +3343,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 508,
+      "friendship_points": 705,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 84.67
+      "friendship_progress_percent": 100
     },
     {
       "name": "Clefable",
@@ -3432,7 +3432,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 508
+      "friendship_points": 705
     },
     {
       "name": "Vulpix",
@@ -4004,7 +4004,7 @@
     },
     {
       "name": "Oddish",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 43,
       "primary_type": "Grass",
@@ -4707,8 +4707,8 @@
     },
     {
       "name": "Diglett",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 50,
       "primary_type": "Ground",
       "secondary_type": null,
@@ -6322,7 +6322,7 @@
     },
     {
       "name": "Bellsprout",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 69,
       "primary_type": "Grass",
@@ -9099,8 +9099,8 @@
     },
     {
       "name": "Krabby",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 98,
       "primary_type": "Water",
       "secondary_type": null,
@@ -9180,8 +9180,8 @@
     },
     {
       "name": "Kingler",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 99,
       "primary_type": "Water",
       "secondary_type": null,
@@ -9625,8 +9625,8 @@
     },
     {
       "name": "Cubone",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 104,
       "primary_type": "Ground",
       "secondary_type": null,
@@ -15651,7 +15651,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 508
+      "friendship_points": 705
     },
     {
       "name": "Igglybuff",
@@ -24270,10 +24270,10 @@
     "primary_type": "Fairy",
     "secondary_type": null,
     "evolution_line_id": "14",
-    "friendship_points": 508,
+    "friendship_points": 705,
     "times_pet": 6,
     "times_fed": 1,
     "friendship_requirement": 600,
-    "friendship_progress_percent": 84.67
+    "friendship_progress_percent": 100
   }
 }
