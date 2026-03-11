@@ -3,21 +3,21 @@
     "username": "un_humaned",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-10T16:44:35.671022+00:00",
+  "updated_at": "2026-03-11T19:33:05.695909+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 30,
-      "total_owned": 34,
-      "completion_percent": 10.79
+      "unique_owned": 32,
+      "total_owned": 37,
+      "completion_percent": 11.51
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 25,
+        "owned": 27,
         "total": 151,
-        "completion_percent": 16.56,
+        "completion_percent": 17.88,
         "total_lines": 78,
         "lines_completed": 2
       },
@@ -32,7 +32,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 30,
+      "total_evolutions_owned": 32,
       "total_evolutions_available": 278,
       "lines_completed": 3,
       "total_lines": 156,
@@ -42,15 +42,15 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 26,
+        "1": 28,
         "2": 4
       }
     },
     "types": {
       "grass": {
-        "owned": 1,
+        "owned": 2,
         "total": 21,
-        "completion_percent": 4.76
+        "completion_percent": 9.52
       },
       "fire": {
         "owned": 1,
@@ -58,9 +58,9 @@
         "completion_percent": 5.0
       },
       "water": {
-        "owned": 7,
+        "owned": 8,
         "total": 44,
-        "completion_percent": 15.91
+        "completion_percent": 18.18
       },
       "bug": {
         "owned": 3,
@@ -138,20 +138,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 28,
-      "success": 8,
-      "accuracy_percent": 28.57,
+      "thrown": 36,
+      "success": 11,
+      "accuracy_percent": 30.56,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 16,
-          "success": 2,
-          "accuracy_percent": 12.5
+          "thrown": 21,
+          "success": 3,
+          "accuracy_percent": 14.29
         },
         "great ball": {
-          "thrown": 11,
-          "success": 5,
-          "accuracy_percent": 45.45
+          "thrown": 14,
+          "success": 7,
+          "accuracy_percent": 50.0
         },
         "ultra ball": {
           "thrown": 1,
@@ -166,30 +166,30 @@
       }
     },
     "journey": {
-      "watch_hours": 53,
-      "follow_age": "2 Month(s), 1 Day(s)",
-      "sub_age": "2 Day(s)",
+      "watch_hours": 55,
+      "follow_age": "2 Month(s), 3 Day(s)",
+      "sub_age": "4 Day(s)",
       "sub_months": 1,
       "subs_gifted": 0,
       "bits_donated": 105,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 49,
-      "chat_messages": 2143,
-      "commands_run": 3218,
-      "times_tagged": 448,
+      "streams_watched": 50,
+      "chat_messages": 2292,
+      "commands_run": 3424,
+      "times_tagged": 481,
       "times_evolved": 1,
       "times_traded": 0,
       "times_eggs_hatched": 1,
       "ball_distribution": {
-        "poke ball": 57.14,
-        "great ball": 39.29,
-        "ultra ball": 3.57,
+        "poke ball": 58.33,
+        "great ball": 38.89,
+        "ultra ball": 2.78,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 84,
+        "Great Ball": 93,
         "Water Stone": 1
       }
     }
@@ -5510,7 +5510,7 @@
     },
     {
       "name": "Poliwag",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 60,
       "primary_type": "Water",
@@ -6323,8 +6323,8 @@
     },
     {
       "name": "Bellsprout",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 69,
       "primary_type": "Grass",
       "secondary_type": "Poison",
@@ -9100,8 +9100,8 @@
     },
     {
       "name": "Krabby",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 98,
       "primary_type": "Water",
       "secondary_type": null,
@@ -10114,7 +10114,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 196
+      "friendship_points": 356
     },
     {
       "name": "Weezing",
@@ -10199,7 +10199,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 196
+      "friendship_points": 356
     },
     {
       "name": "Rhyhorn",
@@ -24271,7 +24271,7 @@
     "primary_type": "Poison",
     "secondary_type": null,
     "evolution_line_id": "49",
-    "friendship_points": 196,
+    "friendship_points": 356,
     "times_pet": 0,
     "times_fed": 0
   }
