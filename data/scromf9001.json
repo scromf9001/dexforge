@@ -3,13 +3,13 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-10T20:42:23.668206+00:00",
+  "updated_at": "2026-03-11T16:20:30.485933+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 151,
+      "unique_owned": 152,
       "total_owned": 455,
-      "completion_percent": 54.32
+      "completion_percent": 54.68
     },
     "generation_progress": {
       "1": {
@@ -24,17 +24,17 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 22,
+        "owned": 23,
         "total": 127,
-        "completion_percent": 17.32,
+        "completion_percent": 18.11,
         "total_lines": 78,
-        "lines_completed": 6
+        "lines_completed": 7
       }
     },
     "evolution": {
-      "total_evolutions_owned": 151,
+      "total_evolutions_owned": 152,
       "total_evolutions_available": 278,
-      "lines_completed": 60,
+      "lines_completed": 61,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -43,7 +43,7 @@
       },
       "stage_owned": {
         "1": 81,
-        "2": 54,
+        "2": 55,
         "3": 16
       }
     },
@@ -69,9 +69,9 @@
         "completion_percent": 59.09
       },
       "normal": {
-        "owned": 24,
+        "owned": 25,
         "total": 38,
-        "completion_percent": 63.16
+        "completion_percent": 65.79
       },
       "poison": {
         "owned": 14,
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 187,
-      "success": 49,
-      "accuracy_percent": 26.2,
+      "thrown": 192,
+      "success": 51,
+      "accuracy_percent": 26.56,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 187,
-          "success": 49,
-          "accuracy_percent": 26.2
+          "thrown": 192,
+          "success": 51,
+          "accuracy_percent": 26.56
         },
         "great ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 988,
+      "watch_hours": 989,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -176,11 +176,11 @@
       "total_donated": 0.0,
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
-      "streams_watched": 321,
-      "chat_messages": 8445,
-      "commands_run": 44431,
-      "times_tagged": 2140,
-      "times_evolved": 33,
+      "streams_watched": 322,
+      "chat_messages": 8467,
+      "commands_run": 44511,
+      "times_tagged": 2147,
+      "times_evolved": 34,
       "times_traded": 27,
       "times_eggs_hatched": 4,
       "ball_distribution": {
@@ -5172,7 +5172,7 @@
     },
     {
       "name": "Mankey",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 56,
       "primary_type": "Fighting",
@@ -5246,7 +5246,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -5823,7 +5823,7 @@
     },
     {
       "name": "Abra",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 63,
       "primary_type": "Psychic",
@@ -12104,7 +12104,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2146
+      "friendship_points": 2197
     },
     {
       "name": "Vaporeon",
@@ -12209,7 +12209,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2146
+      "friendship_points": 2197
     },
     {
       "name": "Jolteon",
@@ -12306,7 +12306,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2146
+      "friendship_points": 2197
     },
     {
       "name": "Flareon",
@@ -12423,7 +12423,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2146
+      "friendship_points": 2197
     },
     {
       "name": "Porygon",
@@ -14683,7 +14683,7 @@
     },
     {
       "name": "Hoothoot",
-      "count": 6,
+      "count": 3,
       "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
@@ -14760,7 +14760,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -14768,8 +14768,8 @@
     },
     {
       "name": "Noctowl",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 164,
       "primary_type": "Normal",
       "secondary_type": "Flying",
@@ -14845,7 +14845,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -17729,7 +17729,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2146,
+      "friendship_points": 2197,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17836,7 +17836,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2146,
+      "friendship_points": 2197,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24281,7 +24281,7 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 2146,
+    "friendship_points": 2197,
     "times_pet": 3,
     "times_fed": 3
   }
