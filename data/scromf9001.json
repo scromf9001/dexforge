@@ -3,12 +3,12 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-11T16:20:30.485933+00:00",
+  "updated_at": "2026-03-11T18:34:40.209757+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 152,
-      "total_owned": 455,
+      "total_owned": 458,
       "completion_percent": 54.68
     },
     "generation_progress": {
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 192,
-      "success": 51,
-      "accuracy_percent": 26.56,
+      "thrown": 201,
+      "success": 54,
+      "accuracy_percent": 26.87,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 192,
-          "success": 51,
-          "accuracy_percent": 26.56
+          "thrown": 201,
+          "success": 54,
+          "accuracy_percent": 26.87
         },
         "great ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 989,
+      "watch_hours": 991,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -177,9 +177,9 @@
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
       "streams_watched": 322,
-      "chat_messages": 8467,
-      "commands_run": 44511,
-      "times_tagged": 2147,
+      "chat_messages": 8482,
+      "commands_run": 44615,
+      "times_tagged": 2150,
       "times_evolved": 34,
       "times_traded": 27,
       "times_eggs_hatched": 4,
@@ -2986,7 +2986,7 @@
     },
     {
       "name": "Nidoran (M)",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 32,
       "primary_type": "Poison",
@@ -3070,7 +3070,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -6333,7 +6333,7 @@
     },
     {
       "name": "Bellsprout",
-      "count": 12,
+      "count": 13,
       "owned": true,
       "pokedex_number": 69,
       "primary_type": "Grass",
@@ -7565,7 +7565,7 @@
     },
     {
       "name": "Magnemite",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 81,
       "primary_type": "Electric",
@@ -12104,7 +12104,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2197
+      "friendship_points": 2331
     },
     {
       "name": "Vaporeon",
@@ -12209,7 +12209,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2197
+      "friendship_points": 2331
     },
     {
       "name": "Jolteon",
@@ -12306,7 +12306,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2197
+      "friendship_points": 2331
     },
     {
       "name": "Flareon",
@@ -12423,7 +12423,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2197
+      "friendship_points": 2331
     },
     {
       "name": "Porygon",
@@ -17729,7 +17729,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2197,
+      "friendship_points": 2331,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17836,7 +17836,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2197,
+      "friendship_points": 2331,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24281,7 +24281,7 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 2197,
+    "friendship_points": 2331,
     "times_pet": 3,
     "times_fed": 3
   }
