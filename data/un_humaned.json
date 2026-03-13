@@ -3,21 +3,21 @@
     "username": "un_humaned",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-11T19:33:05.695909+00:00",
+  "updated_at": "2026-03-13T20:53:50.304289+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 32,
-      "total_owned": 37,
-      "completion_percent": 11.51
+      "unique_owned": 34,
+      "total_owned": 40,
+      "completion_percent": 12.23
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 27,
+        "owned": 29,
         "total": 151,
-        "completion_percent": 17.88,
+        "completion_percent": 19.21,
         "total_lines": 78,
         "lines_completed": 2
       },
@@ -27,23 +27,23 @@
         "owned": 5,
         "total": 127,
         "completion_percent": 3.94,
-        "total_lines": 78,
+        "total_lines": 79,
         "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 32,
+      "total_evolutions_owned": 34,
       "total_evolutions_available": 278,
       "lines_completed": 3,
-      "total_lines": 156,
+      "total_lines": 157,
       "stage_totals": {
         "1": 156,
         "2": 92,
         "3": 30
       },
       "stage_owned": {
-        "1": 28,
-        "2": 4
+        "1": 29,
+        "2": 5
       }
     },
     "types": {
@@ -68,9 +68,9 @@
         "completion_percent": 13.64
       },
       "normal": {
-        "owned": 4,
+        "owned": 5,
         "total": 38,
-        "completion_percent": 10.53
+        "completion_percent": 13.16
       },
       "poison": {
         "owned": 5,
@@ -78,9 +78,9 @@
         "completion_percent": 33.33
       },
       "electric": {
-        "owned": 2,
+        "owned": 3,
         "total": 15,
-        "completion_percent": 13.33
+        "completion_percent": 20.0
       },
       "ground": {
         "owned": 0,
@@ -138,20 +138,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 36,
-      "success": 11,
-      "accuracy_percent": 30.56,
+      "thrown": 44,
+      "success": 15,
+      "accuracy_percent": 34.09,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 21,
-          "success": 3,
-          "accuracy_percent": 14.29
+          "thrown": 25,
+          "success": 4,
+          "accuracy_percent": 16.0
         },
         "great ball": {
-          "thrown": 14,
-          "success": 7,
-          "accuracy_percent": 50.0
+          "thrown": 18,
+          "success": 10,
+          "accuracy_percent": 55.56
         },
         "ultra ball": {
           "thrown": 1,
@@ -166,30 +166,30 @@
       }
     },
     "journey": {
-      "watch_hours": 55,
-      "follow_age": "2 Month(s), 3 Day(s)",
-      "sub_age": "4 Day(s)",
+      "watch_hours": 59,
+      "follow_age": "2 Month(s), 5 Day(s)",
+      "sub_age": "6 Day(s)",
       "sub_months": 1,
       "subs_gifted": 0,
       "bits_donated": 105,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 50,
-      "chat_messages": 2292,
-      "commands_run": 3424,
-      "times_tagged": 481,
+      "streams_watched": 52,
+      "chat_messages": 2377,
+      "commands_run": 3547,
+      "times_tagged": 495,
       "times_evolved": 1,
       "times_traded": 0,
       "times_eggs_hatched": 1,
       "ball_distribution": {
-        "poke ball": 58.33,
-        "great ball": 38.89,
-        "ultra ball": 2.78,
+        "poke ball": 56.82,
+        "great ball": 40.91,
+        "ultra ball": 2.27,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 93,
+        "Great Ball": 97,
         "Water Stone": 1
       }
     }
@@ -2029,8 +2029,8 @@
     },
     {
       "name": "Spearow",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 21,
       "primary_type": "Normal",
       "secondary_type": "Flying",
@@ -2369,8 +2369,8 @@
     },
     {
       "name": "Pikachu",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 25,
       "primary_type": "Electric",
       "secondary_type": null,
@@ -6822,7 +6822,7 @@
     },
     {
       "name": "Geodude",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 74,
       "primary_type": "Rock",
@@ -10114,7 +10114,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 356
+      "friendship_points": 587
     },
     {
       "name": "Weezing",
@@ -10199,7 +10199,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 356
+      "friendship_points": 587
     },
     {
       "name": "Rhyhorn",
@@ -11629,12 +11629,6 @@
           "name": "Pinsir",
           "pokedex_number": 127,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/127.svg",
-          "evolution_stage": "1"
-        },
-        {
-          "name": "Miltank",
-          "pokedex_number": 241,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/241.svg",
           "evolution_stage": "1"
         }
       ],
@@ -15108,7 +15102,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Aridos",
+          "name": "Ariados",
           "pokedex_number": 168,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/168.svg",
           "evolution_stage": "2"
@@ -15121,7 +15115,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Aridos",
+      "name": "Ariados",
       "count": 0,
       "owned": false,
       "pokedex_number": 168,
@@ -15201,7 +15195,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Aridos",
+          "name": "Ariados",
           "pokedex_number": 168,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/168.svg",
           "evolution_stage": "2"
@@ -20655,7 +20649,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Snubbul",
+      "name": "Snubbull",
       "count": 0,
       "owned": false,
       "pokedex_number": 209,
@@ -20717,7 +20711,7 @@
       ],
       "evolution_line": [
         {
-          "name": "Snubbul",
+          "name": "Snubbull",
           "pokedex_number": 209,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/209.svg",
           "evolution_stage": "1"
@@ -20798,7 +20792,7 @@
       ],
       "evolution_line": [
         {
-          "name": "Snubbul",
+          "name": "Snubbull",
           "pokedex_number": 209,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/209.svg",
           "evolution_stage": "1"
@@ -23299,7 +23293,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "62",
+      "evolution_line_id": "123",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -23330,12 +23324,6 @@
         }
       ],
       "evolution_line": [
-        {
-          "name": "Pinsir",
-          "pokedex_number": 127,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/127.svg",
-          "evolution_stage": "1"
-        },
         {
           "name": "Miltank",
           "pokedex_number": 241,
@@ -23431,7 +23419,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "123",
+      "evolution_line_id": "124",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -23498,7 +23486,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "124",
+      "evolution_line_id": "125",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -23585,7 +23573,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "125",
+      "evolution_line_id": "126",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -23656,7 +23644,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "126",
+      "evolution_line_id": "127",
       "quantity_required": 3,
       "item_required": false,
       "requirement": "",
@@ -23767,7 +23755,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 2,
-      "evolution_line_id": "126",
+      "evolution_line_id": "127",
       "quantity_required": 3,
       "item_required": false,
       "requirement": "",
@@ -23878,7 +23866,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 3,
-      "evolution_line_id": "126",
+      "evolution_line_id": "127",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -23997,7 +23985,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "127",
+      "evolution_line_id": "128",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -24084,7 +24072,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "128",
+      "evolution_line_id": "129",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -24175,7 +24163,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "129",
+      "evolution_line_id": "130",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -24271,8 +24259,8 @@
     "primary_type": "Poison",
     "secondary_type": null,
     "evolution_line_id": "49",
-    "friendship_points": 356,
-    "times_pet": 0,
+    "friendship_points": 587,
+    "times_pet": 1,
     "times_fed": 0
   }
 }
