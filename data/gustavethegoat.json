@@ -3,47 +3,47 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/13e5fa74-defa-11e9-809c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-10T20:25:13.301940+00:00",
+  "updated_at": "2026-03-13T16:45:59.066191+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 67,
-      "total_owned": 87,
-      "completion_percent": 24.1
+      "unique_owned": 72,
+      "total_owned": 97,
+      "completion_percent": 25.9
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 53,
+        "owned": 54,
         "total": 151,
-        "completion_percent": 35.1,
+        "completion_percent": 35.76,
         "total_lines": 78,
-        "lines_completed": 8
+        "lines_completed": 9
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 14,
+        "owned": 18,
         "total": 127,
-        "completion_percent": 11.02,
-        "total_lines": 78,
+        "completion_percent": 14.17,
+        "total_lines": 79,
         "lines_completed": 8
       }
     },
     "evolution": {
-      "total_evolutions_owned": 67,
+      "total_evolutions_owned": 72,
       "total_evolutions_available": 278,
-      "lines_completed": 16,
-      "total_lines": 156,
+      "lines_completed": 17,
+      "total_lines": 157,
       "stage_totals": {
         "1": 156,
         "2": 92,
         "3": 30
       },
       "stage_owned": {
-        "1": 47,
-        "2": 20
+        "1": 51,
+        "2": 21
       }
     },
     "types": {
@@ -63,14 +63,14 @@
         "completion_percent": 27.27
       },
       "bug": {
-        "owned": 7,
+        "owned": 8,
         "total": 22,
-        "completion_percent": 31.82
+        "completion_percent": 36.36
       },
       "normal": {
-        "owned": 11,
+        "owned": 13,
         "total": 38,
-        "completion_percent": 28.95
+        "completion_percent": 34.21
       },
       "poison": {
         "owned": 6,
@@ -98,9 +98,9 @@
         "completion_percent": 11.11
       },
       "psychic": {
-        "owned": 7,
+        "owned": 8,
         "total": 42,
-        "completion_percent": 16.67
+        "completion_percent": 19.05
       },
       "rock": {
         "owned": 2,
@@ -113,9 +113,9 @@
         "completion_percent": 25.0
       },
       "ice": {
-        "owned": 0,
+        "owned": 1,
         "total": 7,
-        "completion_percent": 0.0
+        "completion_percent": 14.29
       },
       "dragon": {
         "owned": 0,
@@ -138,25 +138,25 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 82,
-      "success": 31,
-      "accuracy_percent": 37.8,
+      "thrown": 106,
+      "success": 44,
+      "accuracy_percent": 41.51,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 4,
+          "thrown": 5,
           "success": 0,
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 77,
-          "success": 29,
-          "accuracy_percent": 37.66
+          "thrown": 99,
+          "success": 42,
+          "accuracy_percent": 42.42
         },
         "ultra ball": {
-          "thrown": 1,
+          "thrown": 2,
           "success": 2,
-          "accuracy_percent": 200.0
+          "accuracy_percent": 100.0
         },
         "master ball": {
           "thrown": 0,
@@ -166,30 +166,31 @@
       }
     },
     "journey": {
-      "watch_hours": 100,
-      "follow_age": "6 Day(s)",
-      "sub_age": "1 Month(s), 21 Day(s)",
+      "watch_hours": 104,
+      "follow_age": "8 Day(s)",
+      "sub_age": "1 Month(s), 24 Day(s)",
       "sub_months": 2,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 39,
-      "chat_messages": 8615,
-      "commands_run": 12196,
-      "times_tagged": 2018,
-      "times_evolved": 12,
+      "streams_watched": 42,
+      "chat_messages": 8983,
+      "commands_run": 12717,
+      "times_tagged": 2089,
+      "times_evolved": 13,
       "times_traded": 0,
       "times_eggs_hatched": 1,
       "ball_distribution": {
-        "poke ball": 4.88,
-        "great ball": 93.9,
-        "ultra ball": 1.22,
+        "poke ball": 4.72,
+        "great ball": 93.4,
+        "ultra ball": 1.89,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 98
+        "Great Ball": 93,
+        "Ultra Ball": 2
       }
     }
   },
@@ -3343,7 +3344,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 705,
+      "friendship_points": 969,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -3432,7 +3433,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 705
+      "friendship_points": 969
     },
     {
       "name": "Vulpix",
@@ -4004,8 +4005,8 @@
     },
     {
       "name": "Oddish",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 43,
       "primary_type": "Grass",
       "secondary_type": "Poison",
@@ -4109,8 +4110,8 @@
     },
     {
       "name": "Gloom",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 44,
       "primary_type": "Grass",
       "secondary_type": "Poison",
@@ -7554,7 +7555,7 @@
     },
     {
       "name": "Magnemite",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 81,
       "primary_type": "Electric",
@@ -8531,7 +8532,7 @@
     },
     {
       "name": "Gastly",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 92,
       "primary_type": "Ghost",
@@ -10032,7 +10033,7 @@
     },
     {
       "name": "Koffing",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 109,
       "primary_type": "Poison",
@@ -10564,8 +10565,8 @@
     },
     {
       "name": "Kangaskhan",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 115,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -10615,7 +10616,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -10797,7 +10798,7 @@
     },
     {
       "name": "Goldeen",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 118,
       "primary_type": "Water",
@@ -11629,12 +11630,6 @@
           "pokedex_number": 127,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/127.svg",
           "evolution_stage": "1"
-        },
-        {
-          "name": "Miltank",
-          "pokedex_number": 241,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/241.svg",
-          "evolution_stage": "1"
         }
       ],
       "line_complete": false,
@@ -11704,7 +11699,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
@@ -14542,8 +14537,8 @@
     },
     {
       "name": "Sentret",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 161,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -15651,7 +15646,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 705
+      "friendship_points": 969
     },
     {
       "name": "Igglybuff",
@@ -15926,8 +15921,8 @@
     },
     {
       "name": "Natu",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 177,
       "primary_type": "Psychic",
       "secondary_type": "Flying",
@@ -20226,8 +20221,8 @@
     },
     {
       "name": "Pineco",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 204,
       "primary_type": "Bug",
       "secondary_type": null,
@@ -20654,7 +20649,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Snubbul",
+      "name": "Snubbull",
       "count": 0,
       "owned": false,
       "pokedex_number": 209,
@@ -20716,7 +20711,7 @@
       ],
       "evolution_line": [
         {
-          "name": "Snubbul",
+          "name": "Snubbull",
           "pokedex_number": 209,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/209.svg",
           "evolution_stage": "1"
@@ -20797,7 +20792,7 @@
       ],
       "evolution_line": [
         {
-          "name": "Snubbul",
+          "name": "Snubbull",
           "pokedex_number": 209,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/209.svg",
           "evolution_stage": "1"
@@ -21546,8 +21541,8 @@
     },
     {
       "name": "Swinub",
-      "count": 0,
-      "owned": false,
+      "count": 2,
+      "owned": true,
       "pokedex_number": 220,
       "primary_type": "Ice",
       "secondary_type": "Ground",
@@ -23298,7 +23293,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "62",
+      "evolution_line_id": "123",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -23329,12 +23324,6 @@
         }
       ],
       "evolution_line": [
-        {
-          "name": "Pinsir",
-          "pokedex_number": 127,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/127.svg",
-          "evolution_stage": "1"
-        },
         {
           "name": "Miltank",
           "pokedex_number": 241,
@@ -23430,7 +23419,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "123",
+      "evolution_line_id": "124",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -23497,7 +23486,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "124",
+      "evolution_line_id": "125",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -23584,7 +23573,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "125",
+      "evolution_line_id": "126",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -23655,7 +23644,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "126",
+      "evolution_line_id": "127",
       "quantity_required": 3,
       "item_required": false,
       "requirement": "",
@@ -23766,7 +23755,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 2,
-      "evolution_line_id": "126",
+      "evolution_line_id": "127",
       "quantity_required": 3,
       "item_required": false,
       "requirement": "",
@@ -23877,7 +23866,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 3,
-      "evolution_line_id": "126",
+      "evolution_line_id": "127",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -23996,7 +23985,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "127",
+      "evolution_line_id": "128",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -24083,7 +24072,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "128",
+      "evolution_line_id": "129",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -24157,7 +24146,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 81
     },
     {
       "name": "Celebi",
@@ -24174,7 +24163,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 1,
-      "evolution_line_id": "129",
+      "evolution_line_id": "130",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -24260,7 +24249,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 81
+      "friendship_points": 0
     }
   ],
   "companion": {
@@ -24270,8 +24259,8 @@
     "primary_type": "Fairy",
     "secondary_type": null,
     "evolution_line_id": "14",
-    "friendship_points": 705,
-    "times_pet": 6,
+    "friendship_points": 969,
+    "times_pet": 8,
     "times_fed": 1,
     "friendship_requirement": 600,
     "friendship_progress_percent": 100
