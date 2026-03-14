@@ -3,7 +3,7 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-14T16:25:28.169639+00:00",
+  "updated_at": "2026-03-14T17:43:39.090768+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 252,
+      "thrown": 257,
       "success": 68,
-      "accuracy_percent": 26.98,
+      "accuracy_percent": 26.46,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 252,
+          "thrown": 257,
           "success": 68,
-          "accuracy_percent": 26.98
+          "accuracy_percent": 26.46
         },
         "great ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 1002,
+      "watch_hours": 1003,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -177,9 +177,9 @@
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
       "streams_watched": 327,
-      "chat_messages": 8657,
-      "commands_run": 45385,
-      "times_tagged": 2217,
+      "chat_messages": 8669,
+      "commands_run": 45446,
+      "times_tagged": 2220,
       "times_evolved": 35,
       "times_traded": 28,
       "times_eggs_hatched": 5,
@@ -12098,7 +12098,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2994
+      "friendship_points": 3072
     },
     {
       "name": "Vaporeon",
@@ -12203,7 +12203,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2994
+      "friendship_points": 3072
     },
     {
       "name": "Jolteon",
@@ -12300,7 +12300,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2994
+      "friendship_points": 3072
     },
     {
       "name": "Flareon",
@@ -12417,7 +12417,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2994
+      "friendship_points": 3072
     },
     {
       "name": "Porygon",
@@ -17723,7 +17723,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2994,
+      "friendship_points": 3072,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17830,7 +17830,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2994,
+      "friendship_points": 3072,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24269,7 +24269,7 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 2994,
+    "friendship_points": 3072,
     "times_pet": 3,
     "times_fed": 3
   }
