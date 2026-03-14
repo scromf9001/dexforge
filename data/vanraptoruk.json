@@ -3,7 +3,7 @@
     "username": "vanraptoruk",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/21b65c89-5610-499d-a567-d6c14463e71b-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-03-14T17:43:55.581763+00:00",
+  "updated_at": "2026-03-14T17:57:35.129196+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -137,18 +137,18 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 3,
+      "thrown": 5,
       "success": 0,
       "accuracy_percent": 0.0,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 2,
+          "thrown": 3,
           "success": 0,
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 1,
+          "thrown": 2,
           "success": 0,
           "accuracy_percent": 0.0
         },
@@ -175,20 +175,20 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 4,
-      "chat_messages": 94,
-      "commands_run": 218,
-      "times_tagged": 35,
+      "chat_messages": 105,
+      "commands_run": 248,
+      "times_tagged": 37,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 66.67,
-        "great ball": 33.33,
+        "poke ball": 60.0,
+        "great ball": 40.0,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 21
+        "Great Ball": 20
       }
     }
   },
