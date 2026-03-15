@@ -3,7 +3,7 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-13T16:46:23.811439+00:00",
+  "updated_at": "2026-03-15T17:04:47.119523+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -27,7 +27,7 @@
         "owned": 24,
         "total": 127,
         "completion_percent": 18.9,
-        "total_lines": 79,
+        "total_lines": 78,
         "lines_completed": 11
       }
     },
@@ -35,7 +35,7 @@
       "total_evolutions_owned": 102,
       "total_evolutions_available": 278,
       "lines_completed": 29,
-      "total_lines": 157,
+      "total_lines": 156,
       "stage_totals": {
         "1": 156,
         "2": 92,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 75,
+      "thrown": 78,
       "success": 38,
-      "accuracy_percent": 50.67,
+      "accuracy_percent": 48.72,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 65,
+          "thrown": 68,
           "success": 34,
-          "accuracy_percent": 52.31
+          "accuracy_percent": 50.0
         },
         "ultra ball": {
           "thrown": 4,
@@ -167,32 +167,32 @@
       }
     },
     "journey": {
-      "watch_hours": 825,
-      "follow_age": "1 Year(s), 4 Month(s), 27 Day(s)",
-      "sub_age": "1 Year(s), 1 Month(s), 8 Day(s)",
+      "watch_hours": 829,
+      "follow_age": "1 Year(s), 4 Month(s), 29 Day(s)",
+      "sub_age": "1 Year(s), 1 Month(s), 10 Day(s)",
       "sub_months": 14,
       "subs_gifted": 0,
       "bits_donated": 204,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 250,
-      "chat_messages": 14773,
-      "commands_run": 16956,
-      "times_tagged": 2385,
+      "streams_watched": 252,
+      "chat_messages": 14787,
+      "commands_run": 17005,
+      "times_tagged": 2391,
       "times_evolved": 13,
       "times_traded": 2,
       "times_eggs_hatched": 6,
       "ball_distribution": {
-        "poke ball": 2.67,
-        "great ball": 86.67,
-        "ultra ball": 5.33,
-        "master ball": 5.33
+        "poke ball": 2.56,
+        "great ball": 87.18,
+        "ultra ball": 5.13,
+        "master ball": 5.13
       },
       "pokebag": {
         "Berry": 2,
         "Egg": 1,
-        "Great Ball": 98,
+        "Great Ball": 99,
         "Ultra Ball": 15
       }
     }
@@ -2447,7 +2447,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 624,
+      "friendship_points": 894,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -2528,7 +2528,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 624
+      "friendship_points": 894
     },
     {
       "name": "Sandshrew",
@@ -15105,7 +15105,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Aridos",
+          "name": "Ariados",
           "pokedex_number": 168,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/168.svg",
           "evolution_stage": "2"
@@ -15118,7 +15118,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Aridos",
+      "name": "Ariados",
       "count": 0,
       "owned": false,
       "pokedex_number": 168,
@@ -15198,7 +15198,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Aridos",
+          "name": "Ariados",
           "pokedex_number": 168,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/168.svg",
           "evolution_stage": "2"
@@ -15562,7 +15562,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 624
+      "friendship_points": 894
     },
     {
       "name": "Cleffa",
@@ -22574,6 +22574,12 @@
           "pokedex_number": 231,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/231.svg",
           "evolution_stage": "1"
+        },
+        {
+          "name": "Donphan",
+          "pokedex_number": 232,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/232.svg",
+          "evolution_stage": "2"
         }
       ],
       "line_complete": false,
@@ -22597,7 +22603,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 2,
-      "evolution_line_id": "120",
+      "evolution_line_id": "119",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -22644,6 +22650,12 @@
         }
       ],
       "evolution_line": [
+        {
+          "name": "Phanpy",
+          "pokedex_number": 231,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/231.svg",
+          "evolution_stage": "1"
+        },
         {
           "name": "Donphan",
           "pokedex_number": 232,
@@ -24262,8 +24274,8 @@
     "primary_type": "Electric",
     "secondary_type": null,
     "evolution_line_id": "10",
-    "friendship_points": 624,
-    "times_pet": 32,
+    "friendship_points": 894,
+    "times_pet": 35,
     "times_fed": 3,
     "friendship_requirement": 600,
     "friendship_progress_percent": 100
