@@ -3,13 +3,13 @@
     "username": "vanraptoruk",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/21b65c89-5610-499d-a567-d6c14463e71b-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-03-14T17:57:35.129196+00:00",
+  "updated_at": "2026-03-21T16:10:39.785900+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 7,
-      "total_owned": 7,
-      "completion_percent": 2.52
+      "unique_owned": 10,
+      "total_owned": 10,
+      "completion_percent": 3.6
     },
     "generation_progress": {
       "1": {
@@ -24,32 +24,32 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 0,
+        "owned": 3,
         "total": 127,
-        "completion_percent": 0.0,
-        "total_lines": 79,
-        "lines_completed": 0
+        "completion_percent": 2.36,
+        "total_lines": 78,
+        "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 7,
+      "total_evolutions_owned": 10,
       "total_evolutions_available": 278,
-      "lines_completed": 0,
-      "total_lines": 157,
+      "lines_completed": 1,
+      "total_lines": 156,
       "stage_totals": {
         "1": 156,
         "2": 92,
         "3": 30
       },
       "stage_owned": {
-        "1": 7
+        "1": 10
       }
     },
     "types": {
       "grass": {
-        "owned": 1,
+        "owned": 2,
         "total": 21,
-        "completion_percent": 4.76
+        "completion_percent": 9.52
       },
       "fire": {
         "owned": 0,
@@ -67,9 +67,9 @@
         "completion_percent": 4.55
       },
       "normal": {
-        "owned": 1,
+        "owned": 2,
         "total": 38,
-        "completion_percent": 2.63
+        "completion_percent": 5.26
       },
       "poison": {
         "owned": 2,
@@ -122,9 +122,9 @@
         "completion_percent": 0.0
       },
       "dark": {
-        "owned": 0,
+        "owned": 1,
         "total": 5,
-        "completion_percent": 0.0
+        "completion_percent": 20.0
       },
       "steel": {
         "owned": 0,
@@ -137,18 +137,18 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 5,
-      "success": 0,
-      "accuracy_percent": 0.0,
+      "thrown": 10,
+      "success": 3,
+      "accuracy_percent": 30.0,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 3,
-          "success": 0,
-          "accuracy_percent": 0.0
+          "thrown": 7,
+          "success": 3,
+          "accuracy_percent": 42.86
         },
         "great ball": {
-          "thrown": 2,
+          "thrown": 3,
           "success": 0,
           "accuracy_percent": 0.0
         },
@@ -165,8 +165,8 @@
       }
     },
     "journey": {
-      "watch_hours": 6,
-      "follow_age": "1 Month(s), 6 Day(s)",
+      "watch_hours": 8,
+      "follow_age": "1 Month(s), 13 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
       "subs_gifted": 0,
@@ -174,21 +174,21 @@
       "total_donated": 0.0,
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
-      "streams_watched": 4,
-      "chat_messages": 105,
-      "commands_run": 248,
-      "times_tagged": 37,
+      "streams_watched": 6,
+      "chat_messages": 149,
+      "commands_run": 362,
+      "times_tagged": 50,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 60.0,
-        "great ball": 40.0,
+        "poke ball": 70.0,
+        "great ball": 30.0,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 20
+        "Great Ball": 23
       }
     }
   },
@@ -1422,7 +1422,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 127
     },
     {
       "name": "Kakuna",
@@ -1521,7 +1521,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 127
     },
     {
       "name": "Beedrill",
@@ -1620,7 +1620,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 127
     },
     {
       "name": "Pidgey",
@@ -14665,8 +14665,8 @@
     },
     {
       "name": "Hoothoot",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
       "secondary_type": "Flying",
@@ -16823,8 +16823,8 @@
     },
     {
       "name": "Hoppip",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
       "secondary_type": "Flying",
@@ -17824,8 +17824,8 @@
     },
     {
       "name": "Murkrow",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 198,
       "primary_type": "Dark",
       "secondary_type": "Flying",
@@ -17903,7 +17903,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -22569,6 +22569,12 @@
           "pokedex_number": 231,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/231.svg",
           "evolution_stage": "1"
+        },
+        {
+          "name": "Donphan",
+          "pokedex_number": 232,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/232.svg",
+          "evolution_stage": "2"
         }
       ],
       "line_complete": false,
@@ -22592,7 +22598,7 @@
       "is_hatchable": false,
       "evolution": false,
       "evolution_stage": 2,
-      "evolution_line_id": "120",
+      "evolution_line_id": "119",
       "quantity_required": 0,
       "item_required": false,
       "requirement": "",
@@ -22639,6 +22645,12 @@
         }
       ],
       "evolution_line": [
+        {
+          "name": "Phanpy",
+          "pokedex_number": 231,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/231.svg",
+          "evolution_stage": "1"
+        },
         {
           "name": "Donphan",
           "pokedex_number": 232,
@@ -24250,5 +24262,15 @@
       "friendship_points": 0
     }
   ],
-  "companion": null
+  "companion": {
+    "name": "Weedle",
+    "pokedex_number": 13,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/13.svg",
+    "primary_type": "Bug",
+    "secondary_type": "Poison",
+    "evolution_line_id": "5",
+    "friendship_points": 127,
+    "times_pet": 3,
+    "times_fed": 0
+  }
 }
