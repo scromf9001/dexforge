@@ -3,13 +3,13 @@
     "username": "un_humaned",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-22T19:12:31.364436+00:00",
+  "updated_at": "2026-03-25T18:05:49.439017+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 46,
-      "total_owned": 53,
-      "completion_percent": 16.55
+      "unique_owned": 47,
+      "total_owned": 56,
+      "completion_percent": 16.91
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 12,
+        "owned": 13,
         "total": 127,
-        "completion_percent": 9.45,
+        "completion_percent": 10.24,
         "total_lines": 78,
         "lines_completed": 3
       }
     },
     "evolution": {
-      "total_evolutions_owned": 46,
+      "total_evolutions_owned": 47,
       "total_evolutions_available": 278,
       "lines_completed": 5,
       "total_lines": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 37,
+        "1": 38,
         "2": 9
       }
     },
@@ -68,9 +68,9 @@
         "completion_percent": 18.18
       },
       "normal": {
-        "owned": 8,
+        "owned": 9,
         "total": 38,
-        "completion_percent": 21.05
+        "completion_percent": 23.68
       },
       "poison": {
         "owned": 5,
@@ -138,20 +138,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 95,
-      "success": 31,
-      "accuracy_percent": 32.63,
+      "thrown": 101,
+      "success": 34,
+      "accuracy_percent": 33.66,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 59,
-          "success": 14,
-          "accuracy_percent": 23.73
+          "thrown": 64,
+          "success": 17,
+          "accuracy_percent": 26.56
         },
         "great ball": {
-          "thrown": 35,
+          "thrown": 36,
           "success": 16,
-          "accuracy_percent": 45.71
+          "accuracy_percent": 44.44
         },
         "ultra ball": {
           "thrown": 1,
@@ -166,31 +166,31 @@
       }
     },
     "journey": {
-      "watch_hours": 70,
-      "follow_age": "2 Month(s), 14 Day(s)",
-      "sub_age": "15 Day(s)",
+      "watch_hours": 72,
+      "follow_age": "2 Month(s), 17 Day(s)",
+      "sub_age": "18 Day(s)",
       "sub_months": 1,
       "subs_gifted": 0,
       "bits_donated": 105,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 59,
-      "chat_messages": 3036,
-      "commands_run": 4600,
-      "times_tagged": 605,
+      "streams_watched": 61,
+      "chat_messages": 3099,
+      "commands_run": 4709,
+      "times_tagged": 623,
       "times_evolved": 3,
       "times_traded": 0,
       "times_eggs_hatched": 1,
       "ball_distribution": {
-        "poke ball": 62.11,
-        "great ball": 36.84,
-        "ultra ball": 1.05,
+        "poke ball": 63.37,
+        "great ball": 35.64,
+        "ultra ball": 0.99,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 99,
+        "Great Ball": 98,
         "Water Stone": 1
       }
     }
@@ -3800,7 +3800,7 @@
     },
     {
       "name": "Zubat",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 41,
       "primary_type": "Poison",
@@ -10115,7 +10115,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1291
+      "friendship_points": 1372
     },
     {
       "name": "Weezing",
@@ -10200,7 +10200,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1291
+      "friendship_points": 1372
     },
     {
       "name": "Rhyhorn",
@@ -14538,8 +14538,8 @@
     },
     {
       "name": "Sentret",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 161,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -16108,7 +16108,7 @@
     },
     {
       "name": "Mareep",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 179,
       "primary_type": "Electric",
@@ -24272,7 +24272,7 @@
     "primary_type": "Poison",
     "secondary_type": null,
     "evolution_line_id": "49",
-    "friendship_points": 1291,
+    "friendship_points": 1372,
     "times_pet": 4,
     "times_fed": 0
   }
