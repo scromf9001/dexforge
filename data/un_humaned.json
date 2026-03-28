@@ -3,36 +3,36 @@
     "username": "un_humaned",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-25T18:05:49.439017+00:00",
+  "updated_at": "2026-03-28T18:32:39.309357+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 47,
-      "total_owned": 56,
-      "completion_percent": 16.91
+      "unique_owned": 51,
+      "total_owned": 62,
+      "completion_percent": 18.35
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 34,
+        "owned": 37,
         "total": 151,
-        "completion_percent": 22.52,
+        "completion_percent": 24.5,
         "total_lines": 78,
         "lines_completed": 2
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 13,
+        "owned": 14,
         "total": 127,
-        "completion_percent": 10.24,
+        "completion_percent": 11.02,
         "total_lines": 78,
         "lines_completed": 3
       }
     },
     "evolution": {
-      "total_evolutions_owned": 47,
+      "total_evolutions_owned": 51,
       "total_evolutions_available": 278,
       "lines_completed": 5,
       "total_lines": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 38,
+        "1": 42,
         "2": 9
       }
     },
@@ -58,14 +58,14 @@
         "completion_percent": 5.0
       },
       "water": {
-        "owned": 10,
+        "owned": 11,
         "total": 44,
-        "completion_percent": 22.73
+        "completion_percent": 25.0
       },
       "bug": {
-        "owned": 4,
+        "owned": 5,
         "total": 22,
-        "completion_percent": 18.18
+        "completion_percent": 22.73
       },
       "normal": {
         "owned": 9,
@@ -83,9 +83,9 @@
         "completion_percent": 26.67
       },
       "ground": {
-        "owned": 1,
+        "owned": 3,
         "total": 11,
-        "completion_percent": 9.09
+        "completion_percent": 27.27
       },
       "fairy": {
         "owned": 2,
@@ -138,20 +138,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 101,
-      "success": 34,
-      "accuracy_percent": 33.66,
+      "thrown": 126,
+      "success": 41,
+      "accuracy_percent": 32.54,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 64,
-          "success": 17,
-          "accuracy_percent": 26.56
+          "thrown": 82,
+          "success": 22,
+          "accuracy_percent": 26.83
         },
         "great ball": {
-          "thrown": 36,
-          "success": 16,
-          "accuracy_percent": 44.44
+          "thrown": 43,
+          "success": 18,
+          "accuracy_percent": 41.86
         },
         "ultra ball": {
           "thrown": 1,
@@ -166,31 +166,32 @@
       }
     },
     "journey": {
-      "watch_hours": 72,
-      "follow_age": "2 Month(s), 17 Day(s)",
-      "sub_age": "18 Day(s)",
+      "watch_hours": 80,
+      "follow_age": "2 Month(s), 20 Day(s)",
+      "sub_age": "21 Day(s)",
       "sub_months": 1,
       "subs_gifted": 0,
       "bits_donated": 105,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 61,
-      "chat_messages": 3099,
-      "commands_run": 4709,
-      "times_tagged": 623,
+      "streams_watched": 65,
+      "chat_messages": 3420,
+      "commands_run": 5208,
+      "times_tagged": 697,
       "times_evolved": 3,
       "times_traded": 0,
       "times_eggs_hatched": 1,
       "ball_distribution": {
-        "poke ball": 63.37,
-        "great ball": 35.64,
-        "ultra ball": 0.99,
+        "poke ball": 65.08,
+        "great ball": 34.13,
+        "ultra ball": 0.79,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 98,
+        "Great Ball": 99,
+        "Ultra Ball": 1,
         "Water Stone": 1
       }
     }
@@ -796,7 +797,7 @@
     },
     {
       "name": "Squirtle",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 7,
       "primary_type": "Water",
@@ -2200,7 +2201,7 @@
     },
     {
       "name": "Ekans",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 23,
       "primary_type": "Poison",
@@ -2278,7 +2279,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -2530,8 +2531,8 @@
     },
     {
       "name": "Sandshrew",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 27,
       "primary_type": "Ground",
       "secondary_type": null,
@@ -9627,8 +9628,8 @@
     },
     {
       "name": "Cubone",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 104,
       "primary_type": "Ground",
       "secondary_type": null,
@@ -10115,7 +10116,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1372
+      "friendship_points": 1887
     },
     {
       "name": "Weezing",
@@ -10200,7 +10201,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1372
+      "friendship_points": 1887
     },
     {
       "name": "Rhyhorn",
@@ -10799,8 +10800,8 @@
     },
     {
       "name": "Goldeen",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 118,
       "primary_type": "Water",
       "secondary_type": null,
@@ -20222,8 +20223,8 @@
     },
     {
       "name": "Pineco",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 204,
       "primary_type": "Bug",
       "secondary_type": null,
@@ -24272,7 +24273,7 @@
     "primary_type": "Poison",
     "secondary_type": null,
     "evolution_line_id": "49",
-    "friendship_points": 1372,
+    "friendship_points": 1887,
     "times_pet": 4,
     "times_fed": 0
   }
