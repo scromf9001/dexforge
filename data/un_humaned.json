@@ -3,7 +3,7 @@
     "username": "un_humaned",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-29T20:36:27.441078+00:00",
+  "updated_at": "2026-03-31T19:44:35.827710+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -138,20 +138,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 143,
+      "thrown": 145,
       "success": 48,
-      "accuracy_percent": 33.57,
+      "accuracy_percent": 33.1,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 87,
+          "thrown": 88,
           "success": 23,
-          "accuracy_percent": 26.44
+          "accuracy_percent": 26.14
         },
         "great ball": {
-          "thrown": 55,
+          "thrown": 56,
           "success": 24,
-          "accuracy_percent": 43.64
+          "accuracy_percent": 42.86
         },
         "ultra ball": {
           "thrown": 1,
@@ -168,24 +168,24 @@
     "journey": {
       "watch_hours": 87,
       "follow_age": "2 Month(s), 20 Day(s)",
-      "sub_age": "22 Day(s)",
+      "sub_age": "24 Day(s)",
       "sub_months": 1,
       "subs_gifted": 0,
       "bits_donated": 105,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 66,
-      "chat_messages": 3794,
-      "commands_run": 5720,
-      "times_tagged": 747,
+      "streams_watched": 67,
+      "chat_messages": 3824,
+      "commands_run": 5768,
+      "times_tagged": 749,
       "times_evolved": 5,
       "times_traded": 0,
       "times_eggs_hatched": 1,
       "ball_distribution": {
-        "poke ball": 60.84,
-        "great ball": 38.46,
-        "ultra ball": 0.7,
+        "poke ball": 60.69,
+        "great ball": 38.62,
+        "ultra ball": 0.69,
         "master ball": 0.0
       },
       "pokebag": {
@@ -10116,7 +10116,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2281
+      "friendship_points": 2325
     },
     {
       "name": "Weezing",
@@ -10201,7 +10201,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2281
+      "friendship_points": 2325
     },
     {
       "name": "Rhyhorn",
@@ -24273,7 +24273,7 @@
     "primary_type": "Poison",
     "secondary_type": null,
     "evolution_line_id": "49",
-    "friendship_points": 2281,
+    "friendship_points": 2325,
     "times_pet": 4,
     "times_fed": 0
   }
