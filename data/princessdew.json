@@ -3,13 +3,13 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-03-31T18:35:26.730249+00:00",
+  "updated_at": "2026-04-03T15:14:34.801301+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 106,
-      "total_owned": 224,
-      "completion_percent": 38.13
+      "unique_owned": 107,
+      "total_owned": 229,
+      "completion_percent": 38.49
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 28,
+        "owned": 29,
         "total": 127,
-        "completion_percent": 22.05,
+        "completion_percent": 22.83,
         "total_lines": 78,
         "lines_completed": 11
       }
     },
     "evolution": {
-      "total_evolutions_owned": 106,
+      "total_evolutions_owned": 107,
       "total_evolutions_available": 278,
       "lines_completed": 29,
       "total_lines": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 83,
+        "1": 84,
         "2": 21,
         "3": 2
       }
@@ -89,9 +89,9 @@
         "completion_percent": 36.36
       },
       "fairy": {
-        "owned": 2,
+        "owned": 3,
         "total": 7,
-        "completion_percent": 28.57
+        "completion_percent": 42.86
       },
       "fighting": {
         "owned": 5,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 105,
-      "success": 50,
-      "accuracy_percent": 47.62,
+      "thrown": 112,
+      "success": 54,
+      "accuracy_percent": 48.21,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 94,
-          "success": 46,
-          "accuracy_percent": 48.94
+          "thrown": 101,
+          "success": 50,
+          "accuracy_percent": 49.5
         },
         "ultra ball": {
           "thrown": 4,
@@ -167,34 +167,33 @@
       }
     },
     "journey": {
-      "watch_hours": 887,
-      "follow_age": "1 Year(s), 5 Month(s), 11 Day(s)",
-      "sub_age": "1 Year(s), 1 Month(s), 23 Day(s)",
-      "sub_months": 14,
+      "watch_hours": 899,
+      "follow_age": "1 Year(s), 5 Month(s), 16 Day(s)",
+      "sub_age": "1 Year(s), 1 Month(s), 24 Day(s)",
+      "sub_months": 15,
       "subs_gifted": 42,
       "bits_donated": 204,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 265,
-      "chat_messages": 15031,
-      "commands_run": 17486,
-      "times_tagged": 2485,
+      "streams_watched": 268,
+      "chat_messages": 15103,
+      "commands_run": 17608,
+      "times_tagged": 2510,
       "times_evolved": 13,
       "times_traded": 2,
-      "times_eggs_hatched": 8,
+      "times_eggs_hatched": 9,
       "ball_distribution": {
-        "poke ball": 2.86,
-        "great ball": 89.52,
-        "ultra ball": 3.81,
-        "master ball": 3.81
+        "poke ball": 2.68,
+        "great ball": 90.18,
+        "ultra ball": 3.57,
+        "master ball": 3.57
       },
       "pokebag": {
         "Berry": 2,
-        "Egg": 1,
-        "Great Ball": 97,
+        "Great Ball": 99,
         "Master Ball": 1,
-        "Ultra Ball": 15
+        "Ultra Ball": 17
       }
     }
   },
@@ -799,7 +798,7 @@
     },
     {
       "name": "Squirtle",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 7,
       "primary_type": "Water",
@@ -879,7 +878,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -5166,7 +5165,7 @@
     },
     {
       "name": "Mankey",
-      "count": 3,
+      "count": 5,
       "owned": true,
       "pokedex_number": 56,
       "primary_type": "Fighting",
@@ -5817,7 +5816,7 @@
     },
     {
       "name": "Abra",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 63,
       "primary_type": "Psychic",
@@ -13682,7 +13681,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3086
+      "friendship_points": 3826
     },
     {
       "name": "Chikorita",
@@ -15741,8 +15740,8 @@
     },
     {
       "name": "Togepi",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 175,
       "primary_type": "Fairy",
       "secondary_type": null,
@@ -24275,7 +24274,7 @@
     "primary_type": "Psychic",
     "secondary_type": null,
     "evolution_line_id": "78",
-    "friendship_points": 3086,
+    "friendship_points": 3826,
     "times_pet": 43,
     "times_fed": 3
   }
