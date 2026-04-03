@@ -3,12 +3,12 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-04-03T15:14:34.801301+00:00",
+  "updated_at": "2026-04-03T17:59:51.883355+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 107,
-      "total_owned": 229,
+      "total_owned": 227,
       "completion_percent": 38.49
     },
     "generation_progress": {
@@ -42,8 +42,8 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 84,
-        "2": 21,
+        "1": 83,
+        "2": 22,
         "3": 2
       }
     },
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 112,
+      "thrown": 115,
       "success": 54,
-      "accuracy_percent": 48.21,
+      "accuracy_percent": 46.96,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 101,
+          "thrown": 104,
           "success": 50,
-          "accuracy_percent": 49.5
+          "accuracy_percent": 48.08
         },
         "ultra ball": {
           "thrown": 4,
@@ -167,8 +167,8 @@
       }
     },
     "journey": {
-      "watch_hours": 899,
-      "follow_age": "1 Year(s), 5 Month(s), 16 Day(s)",
+      "watch_hours": 902,
+      "follow_age": "1 Year(s), 5 Month(s), 17 Day(s)",
       "sub_age": "1 Year(s), 1 Month(s), 24 Day(s)",
       "sub_months": 15,
       "subs_gifted": 42,
@@ -177,21 +177,22 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 268,
-      "chat_messages": 15103,
-      "commands_run": 17608,
-      "times_tagged": 2510,
-      "times_evolved": 13,
+      "chat_messages": 15121,
+      "commands_run": 17659,
+      "times_tagged": 2515,
+      "times_evolved": 14,
       "times_traded": 2,
       "times_eggs_hatched": 9,
       "ball_distribution": {
-        "poke ball": 2.68,
-        "great ball": 90.18,
-        "ultra ball": 3.57,
-        "master ball": 3.57
+        "poke ball": 2.61,
+        "great ball": 90.43,
+        "ultra ball": 3.48,
+        "master ball": 3.48
       },
       "pokebag": {
         "Berry": 2,
-        "Great Ball": 99,
+        "Egg": 1,
+        "Great Ball": 98,
         "Master Ball": 1,
         "Ultra Ball": 17
       }
@@ -1332,8 +1333,8 @@
     },
     {
       "name": "Weedle",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 13,
       "primary_type": "Bug",
       "secondary_type": "Poison",
@@ -1424,15 +1425,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Kakuna",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 14,
       "primary_type": "Bug",
       "secondary_type": "Poison",
@@ -13681,7 +13682,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3826
+      "friendship_points": 3991
     },
     {
       "name": "Chikorita",
@@ -24274,7 +24275,7 @@
     "primary_type": "Psychic",
     "secondary_type": null,
     "evolution_line_id": "78",
-    "friendship_points": 3826,
+    "friendship_points": 3991,
     "times_pet": 43,
     "times_fed": 3
   }
