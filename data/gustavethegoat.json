@@ -3,12 +3,12 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-04-04T19:17:49.777231+00:00",
+  "updated_at": "2026-04-07T16:33:20.566922+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 94,
-      "total_owned": 140,
+      "total_owned": 145,
       "completion_percent": 33.81
     },
     "generation_progress": {
@@ -19,7 +19,7 @@
         "total": 151,
         "completion_percent": 42.38,
         "total_lines": 78,
-        "lines_completed": 14
+        "lines_completed": 13
       },
       "2": {
         "generation": 2,
@@ -34,7 +34,7 @@
     "evolution": {
       "total_evolutions_owned": 94,
       "total_evolutions_available": 278,
-      "lines_completed": 27,
+      "lines_completed": 26,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -68,14 +68,14 @@
         "completion_percent": 50.0
       },
       "normal": {
-        "owned": 16,
+        "owned": 15,
         "total": 38,
-        "completion_percent": 42.11
+        "completion_percent": 39.47
       },
       "poison": {
-        "owned": 7,
+        "owned": 8,
         "total": 15,
-        "completion_percent": 46.67
+        "completion_percent": 53.33
       },
       "electric": {
         "owned": 6,
@@ -138,9 +138,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 289,
-      "success": 129,
-      "accuracy_percent": 44.64,
+      "thrown": 304,
+      "success": 136,
+      "accuracy_percent": 44.74,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -149,9 +149,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 266,
-          "success": 125,
-          "accuracy_percent": 46.99
+          "thrown": 281,
+          "success": 132,
+          "accuracy_percent": 46.98
         },
         "ultra ball": {
           "thrown": 13,
@@ -166,31 +166,31 @@
       }
     },
     "journey": {
-      "watch_hours": 161,
-      "follow_age": "30 Day(s)",
-      "sub_age": "2 Month(s), 16 Day(s)",
+      "watch_hours": 166,
+      "follow_age": "1 Month(s), 2 Day(s)",
+      "sub_age": "2 Month(s), 19 Day(s)",
       "sub_months": 3,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 61,
-      "chat_messages": 12892,
-      "commands_run": 18262,
-      "times_tagged": 2636,
-      "times_evolved": 33,
+      "streams_watched": 63,
+      "chat_messages": 13396,
+      "commands_run": 18934,
+      "times_tagged": 2687,
+      "times_evolved": 34,
       "times_traded": 1,
       "times_eggs_hatched": 1,
       "ball_distribution": {
-        "poke ball": 3.46,
-        "great ball": 92.04,
-        "ultra ball": 4.5,
+        "poke ball": 3.29,
+        "great ball": 92.43,
+        "ultra ball": 4.28,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 99,
+        "Great Ball": 98,
         "Master Ball": 1
       }
     }
@@ -1900,8 +1900,8 @@
     },
     {
       "name": "Rattata",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 19,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -1957,7 +1957,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": true,
+      "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -1965,7 +1965,7 @@
     },
     {
       "name": "Raticate",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 20,
       "primary_type": "Normal",
@@ -2022,7 +2022,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": true,
+      "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -2692,8 +2692,8 @@
     },
     {
       "name": "Nidoran (F)",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 29,
       "primary_type": "Poison",
       "secondary_type": null,
@@ -3899,7 +3899,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4385
+      "friendship_points": 4712
     },
     {
       "name": "Golbat",
@@ -4002,7 +4002,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4385
+      "friendship_points": 4712
     },
     {
       "name": "Oddish",
@@ -5325,7 +5325,7 @@
     },
     {
       "name": "Growlithe",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 58,
       "primary_type": "Fire",
@@ -8201,7 +8201,7 @@
     },
     {
       "name": "Grimer",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 88,
       "primary_type": "Poison",
@@ -8279,7 +8279,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -8371,7 +8371,7 @@
     },
     {
       "name": "Shellder",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 90,
       "primary_type": "Water",
@@ -8445,7 +8445,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -9101,7 +9101,7 @@
     },
     {
       "name": "Krabby",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 98,
       "primary_type": "Water",
@@ -15309,7 +15309,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4385,
+      "friendship_points": 4712,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -15922,7 +15922,7 @@
     },
     {
       "name": "Natu",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 177,
       "primary_type": "Psychic",
@@ -16008,7 +16008,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -24272,8 +24272,8 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 4385,
-    "times_pet": 18,
+    "friendship_points": 4712,
+    "times_pet": 19,
     "times_fed": 1
   }
 }
