@@ -3,13 +3,13 @@
     "username": "cataqru",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/998f01ae-def8-11e9-b95c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-04-05T16:52:59.538100+00:00",
+  "updated_at": "2026-04-08T18:20:29.006615+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 60,
-      "total_owned": 80,
-      "completion_percent": 21.58
+      "unique_owned": 61,
+      "total_owned": 83,
+      "completion_percent": 21.94
     },
     "generation_progress": {
       "1": {
@@ -24,17 +24,17 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 15,
+        "owned": 16,
         "total": 127,
-        "completion_percent": 11.81,
+        "completion_percent": 12.6,
         "total_lines": 78,
-        "lines_completed": 6
+        "lines_completed": 7
       }
     },
     "evolution": {
-      "total_evolutions_owned": 60,
+      "total_evolutions_owned": 61,
       "total_evolutions_available": 278,
-      "lines_completed": 9,
+      "lines_completed": 10,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -43,7 +43,7 @@
       },
       "stage_owned": {
         "1": 51,
-        "2": 9
+        "2": 10
       }
     },
     "types": {
@@ -78,9 +78,9 @@
         "completion_percent": 40.0
       },
       "electric": {
-        "owned": 4,
+        "owned": 5,
         "total": 15,
-        "completion_percent": 26.67
+        "completion_percent": 33.33
       },
       "ground": {
         "owned": 3,
@@ -134,24 +134,24 @@
       }
     },
     "legendary": {
-      "owned": 1,
+      "owned": 2,
       "total": 11
     },
     "pokeballs": {
-      "thrown": 79,
-      "success": 41,
-      "accuracy_percent": 51.9,
+      "thrown": 93,
+      "success": 46,
+      "accuracy_percent": 49.46,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 1,
+          "thrown": 2,
           "success": 0,
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 78,
-          "success": 41,
-          "accuracy_percent": 52.56
+          "thrown": 90,
+          "success": 45,
+          "accuracy_percent": 50.0
         },
         "ultra ball": {
           "thrown": 0,
@@ -159,34 +159,34 @@
           "accuracy_percent": 0
         },
         "master ball": {
-          "thrown": 0,
-          "success": 0,
-          "accuracy_percent": 0
+          "thrown": 1,
+          "success": 1,
+          "accuracy_percent": 100.0
         }
       }
     },
     "journey": {
-      "watch_hours": 226,
-      "follow_age": "1 Year(s), 5 Month(s), 16 Day(s)",
-      "sub_age": "1 Year(s), 4 Month(s), 29 Day(s)",
+      "watch_hours": 233,
+      "follow_age": "1 Year(s), 5 Month(s), 19 Day(s)",
+      "sub_age": "1 Year(s), 5 Month(s), 2 Day(s)",
       "sub_months": 18,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 83,
-      "chat_messages": 3586,
-      "commands_run": 4298,
-      "times_tagged": 257,
-      "times_evolved": 4,
+      "streams_watched": 85,
+      "chat_messages": 3657,
+      "commands_run": 4471,
+      "times_tagged": 268,
+      "times_evolved": 5,
       "times_traded": 1,
       "times_eggs_hatched": 3,
       "ball_distribution": {
-        "poke ball": 1.27,
-        "great ball": 98.73,
+        "poke ball": 2.15,
+        "great ball": 96.77,
         "ultra ball": 0.0,
-        "master ball": 0.0
+        "master ball": 1.08
       },
       "pokebag": {
         "Egg": 2,
@@ -4006,7 +4006,7 @@
     },
     {
       "name": "Oddish",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 43,
       "primary_type": "Grass",
@@ -4104,7 +4104,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -5001,7 +5001,7 @@
     },
     {
       "name": "Psyduck",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 54,
       "primary_type": "Water",
@@ -5511,7 +5511,7 @@
     },
     {
       "name": "Poliwag",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 60,
       "primary_type": "Water",
@@ -6063,8 +6063,8 @@
     },
     {
       "name": "Machop",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 66,
       "primary_type": "Fighting",
       "secondary_type": null,
@@ -6143,15 +6143,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Machoke",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 67,
       "primary_type": "Fighting",
       "secondary_type": null,
@@ -13343,7 +13343,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4894
+      "friendship_points": 5325
     },
     {
       "name": "Dragonair",
@@ -13434,7 +13434,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4894
+      "friendship_points": 5325
     },
     {
       "name": "Dragonite",
@@ -13537,7 +13537,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4894
+      "friendship_points": 5325
     },
     {
       "name": "Mewtwo",
@@ -21542,7 +21542,7 @@
     },
     {
       "name": "Swinub",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 220,
       "primary_type": "Ice",
@@ -21620,7 +21620,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -23419,8 +23419,8 @@
     },
     {
       "name": "Raikou",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 243,
       "primary_type": "Electric",
       "secondary_type": null,
@@ -23478,7 +23478,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -24272,8 +24272,8 @@
     "primary_type": "Dragon",
     "secondary_type": null,
     "evolution_line_id": "76",
-    "friendship_points": 4894,
-    "times_pet": 5,
+    "friendship_points": 5325,
+    "times_pet": 7,
     "times_fed": 7
   }
 }
