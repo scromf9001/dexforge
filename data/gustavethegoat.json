@@ -3,30 +3,30 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-04-08T15:52:12.125166+00:00",
+  "updated_at": "2026-04-09T16:56:29.397494+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 97,
-      "total_owned": 144,
+      "total_owned": 143,
       "completion_percent": 34.89
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 67,
+        "owned": 65,
         "total": 151,
-        "completion_percent": 44.37,
+        "completion_percent": 43.05,
         "total_lines": 78,
-        "lines_completed": 15
+        "lines_completed": 16
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 30,
+        "owned": 32,
         "total": 127,
-        "completion_percent": 23.62,
+        "completion_percent": 25.2,
         "total_lines": 78,
         "lines_completed": 13
       }
@@ -34,7 +34,7 @@
     "evolution": {
       "total_evolutions_owned": 97,
       "total_evolutions_available": 278,
-      "lines_completed": 28,
+      "lines_completed": 29,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -42,8 +42,9 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 62,
-        "2": 35
+        "1": 63,
+        "2": 33,
+        "3": 1
       }
     },
     "types": {
@@ -63,19 +64,19 @@
         "completion_percent": 43.18
       },
       "bug": {
-        "owned": 11,
+        "owned": 12,
         "total": 22,
-        "completion_percent": 50.0
+        "completion_percent": 54.55
       },
       "normal": {
-        "owned": 15,
+        "owned": 16,
         "total": 38,
-        "completion_percent": 39.47
+        "completion_percent": 42.11
       },
       "poison": {
-        "owned": 9,
+        "owned": 8,
         "total": 15,
-        "completion_percent": 60.0
+        "completion_percent": 53.33
       },
       "electric": {
         "owned": 6,
@@ -98,9 +99,9 @@
         "completion_percent": 11.11
       },
       "psychic": {
-        "owned": 8,
+        "owned": 7,
         "total": 42,
-        "completion_percent": 19.05
+        "completion_percent": 16.67
       },
       "rock": {
         "owned": 3,
@@ -138,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 309,
-      "success": 139,
-      "accuracy_percent": 44.98,
+      "thrown": 313,
+      "success": 141,
+      "accuracy_percent": 45.05,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -149,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 286,
-          "success": 135,
-          "accuracy_percent": 47.2
+          "thrown": 290,
+          "success": 137,
+          "accuracy_percent": 47.24
         },
         "ultra ball": {
           "thrown": 13,
@@ -166,31 +167,30 @@
       }
     },
     "journey": {
-      "watch_hours": 168,
-      "follow_age": "1 Month(s), 3 Day(s)",
-      "sub_age": "2 Month(s), 19 Day(s)",
+      "watch_hours": 170,
+      "follow_age": "1 Month(s), 4 Day(s)",
+      "sub_age": "2 Month(s), 21 Day(s)",
       "sub_months": 3,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 64,
-      "chat_messages": 13780,
-      "commands_run": 19397,
-      "times_tagged": 2722,
-      "times_evolved": 36,
-      "times_traded": 1,
-      "times_eggs_hatched": 1,
+      "streams_watched": 65,
+      "chat_messages": 13933,
+      "commands_run": 19646,
+      "times_tagged": 2743,
+      "times_evolved": 38,
+      "times_traded": 2,
+      "times_eggs_hatched": 2,
       "ball_distribution": {
-        "poke ball": 3.24,
-        "great ball": 92.56,
-        "ultra ball": 4.21,
+        "poke ball": 3.19,
+        "great ball": 92.65,
+        "ultra ball": 4.15,
         "master ball": 0.0
       },
       "pokebag": {
-        "Egg": 1,
-        "Great Ball": 98,
+        "Great Ball": 96,
         "Master Ball": 1
       }
     }
@@ -3800,8 +3800,8 @@
     },
     {
       "name": "Zubat",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 41,
       "primary_type": "Poison",
       "secondary_type": "Flying",
@@ -3899,12 +3899,12 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4847
+      "friendship_points": 4328
     },
     {
       "name": "Golbat",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 42,
       "primary_type": "Poison",
       "secondary_type": "Flying",
@@ -4002,7 +4002,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4847
+      "friendship_points": 4328
     },
     {
       "name": "Oddish",
@@ -5897,8 +5897,8 @@
     },
     {
       "name": "Kadabra",
-      "count": 1,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 64,
       "primary_type": "Psychic",
       "secondary_type": null,
@@ -11566,8 +11566,8 @@
     },
     {
       "name": "Pinsir",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 127,
       "primary_type": "Bug",
       "secondary_type": null,
@@ -11633,7 +11633,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -11700,7 +11700,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 12,
+      "count": 13,
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
@@ -13679,7 +13679,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 2
     },
     {
       "name": "Chikorita",
@@ -15210,8 +15210,8 @@
     },
     {
       "name": "Crobat",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 169,
       "primary_type": "Poison",
       "secondary_type": "Flying",
@@ -15309,7 +15309,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4847,
+      "friendship_points": 4328,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -15651,8 +15651,8 @@
     },
     {
       "name": "Igglybuff",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 174,
       "primary_type": "Normal",
       "secondary_type": "Fairy",
@@ -24266,14 +24266,14 @@
     }
   ],
   "companion": {
-    "name": "Zubat",
-    "pokedex_number": 41,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/41.svg",
-    "primary_type": "Poison",
-    "secondary_type": "Flying",
-    "evolution_line_id": "17",
-    "friendship_points": 4847,
-    "times_pet": 19,
+    "name": "Mew",
+    "pokedex_number": 151,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/151.svg",
+    "primary_type": "Psychic",
+    "secondary_type": null,
+    "evolution_line_id": "78",
+    "friendship_points": 2,
+    "times_pet": 20,
     "times_fed": 1
   }
 }
