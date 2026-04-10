@@ -3,13 +3,13 @@
     "username": "blopblood",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d81b7f66-4f5f-4eec-bd3d-64e0ba6d2b10-profile_image-300x300.png"
   },
-  "updated_at": "2026-04-10T18:37:20.343022+00:00",
+  "updated_at": "2026-04-10T19:08:05.213885+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 181,
-      "total_owned": 478,
-      "completion_percent": 65.11
+      "unique_owned": 182,
+      "total_owned": 479,
+      "completion_percent": 65.47
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 55,
+        "owned": 56,
         "total": 127,
-        "completion_percent": 43.31,
+        "completion_percent": 44.09,
         "total_lines": 78,
         "lines_completed": 25
       }
     },
     "evolution": {
-      "total_evolutions_owned": 181,
+      "total_evolutions_owned": 182,
       "total_evolutions_available": 278,
       "lines_completed": 82,
       "total_lines": 156,
@@ -42,16 +42,16 @@
         "3": 30
       },
       "stage_owned": {
-        "2": 61,
+        "2": 62,
         "1": 101,
         "3": 19
       }
     },
     "types": {
       "grass": {
-        "owned": 12,
+        "owned": 13,
         "total": 21,
-        "completion_percent": 57.14
+        "completion_percent": 61.9
       },
       "fire": {
         "owned": 12,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 498,
-      "success": 230,
-      "accuracy_percent": 46.18,
+      "thrown": 501,
+      "success": 233,
+      "accuracy_percent": 46.51,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 487,
-          "success": 227,
-          "accuracy_percent": 46.61
+          "thrown": 490,
+          "success": 230,
+          "accuracy_percent": 46.94
         },
         "ultra ball": {
           "thrown": 8,
@@ -177,22 +177,22 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 171,
-      "chat_messages": 14080,
-      "commands_run": 23760,
-      "times_tagged": 2408,
-      "times_evolved": 35,
+      "chat_messages": 14107,
+      "commands_run": 23812,
+      "times_tagged": 2417,
+      "times_evolved": 36,
       "times_traded": 2,
       "times_eggs_hatched": 8,
       "ball_distribution": {
         "poke ball": 0.4,
-        "great ball": 97.79,
-        "ultra ball": 1.61,
+        "great ball": 97.8,
+        "ultra ball": 1.6,
         "master ball": 0.2
       },
       "pokebag": {
         "Egg": 1,
         "Fire Stone": 1,
-        "Great Ball": 99,
+        "Great Ball": 98,
         "Moon Stone": 2,
         "Thunder Stone": 1,
         "Ultra Ball": 4
@@ -4325,7 +4325,7 @@
     },
     {
       "name": "Paras",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 46,
       "primary_type": "Bug",
@@ -9631,7 +9631,7 @@
     },
     {
       "name": "Cubone",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 104,
       "primary_type": "Ground",
@@ -14542,7 +14542,7 @@
     },
     {
       "name": "Sentret",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 161,
       "primary_type": "Normal",
@@ -14600,7 +14600,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -16547,7 +16547,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4874
+      "friendship_points": 4904
     },
     {
       "name": "Azumarill",
@@ -16644,7 +16644,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4874,
+      "friendship_points": 4904,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -16830,7 +16830,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 5,
+      "count": 2,
       "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
@@ -16922,15 +16922,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Skiploom",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 188,
       "primary_type": "Grass",
       "secondary_type": "Flying",
@@ -24276,7 +24276,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 4874,
+    "friendship_points": 4904,
     "times_pet": 14,
     "times_fed": 0
   }
