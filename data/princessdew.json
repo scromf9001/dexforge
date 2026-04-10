@@ -3,21 +3,21 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-04-07T15:04:19.325405+00:00",
+  "updated_at": "2026-04-10T19:08:22.143115+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 110,
-      "total_owned": 229,
-      "completion_percent": 39.57
+      "unique_owned": 111,
+      "total_owned": 232,
+      "completion_percent": 39.93
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 80,
+        "owned": 81,
         "total": 151,
-        "completion_percent": 52.98,
+        "completion_percent": 53.64,
         "total_lines": 78,
         "lines_completed": 19
       },
@@ -32,7 +32,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 110,
+      "total_evolutions_owned": 111,
       "total_evolutions_available": 278,
       "lines_completed": 31,
       "total_lines": 156,
@@ -43,7 +43,7 @@
       },
       "stage_owned": {
         "1": 85,
-        "2": 22,
+        "2": 23,
         "3": 3
       }
     },
@@ -79,9 +79,9 @@
         "completion_percent": 53.33
       },
       "electric": {
-        "owned": 9,
+        "owned": 10,
         "total": 15,
-        "completion_percent": 60.0
+        "completion_percent": 66.67
       },
       "ground": {
         "owned": 4,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 130,
-      "success": 62,
-      "accuracy_percent": 47.69,
+      "thrown": 133,
+      "success": 64,
+      "accuracy_percent": 48.12,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 117,
-          "success": 56,
-          "accuracy_percent": 47.86
+          "thrown": 120,
+          "success": 58,
+          "accuracy_percent": 48.33
         },
         "ultra ball": {
           "thrown": 5,
@@ -167,27 +167,27 @@
       }
     },
     "journey": {
-      "watch_hours": 913,
-      "follow_age": "1 Year(s), 5 Month(s), 20 Day(s)",
-      "sub_age": "1 Year(s), 2 Month(s)",
+      "watch_hours": 924,
+      "follow_age": "1 Year(s), 5 Month(s), 24 Day(s)",
+      "sub_age": "1 Year(s), 2 Month(s), 3 Day(s)",
       "sub_months": 15,
       "subs_gifted": 42,
       "bits_donated": 204,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 271,
-      "chat_messages": 15310,
-      "commands_run": 17966,
-      "times_tagged": 2566,
+      "streams_watched": 274,
+      "chat_messages": 15399,
+      "commands_run": 18109,
+      "times_tagged": 2591,
       "times_evolved": 17,
       "times_traded": 2,
-      "times_eggs_hatched": 9,
+      "times_eggs_hatched": 10,
       "ball_distribution": {
-        "poke ball": 2.31,
-        "great ball": 90.0,
-        "ultra ball": 3.85,
-        "master ball": 3.85
+        "poke ball": 2.26,
+        "great ball": 90.23,
+        "ultra ball": 3.76,
+        "master ball": 3.76
       },
       "pokebag": {
         "Berry": 2,
@@ -3347,9 +3347,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0,
+      "friendship_points": 637,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 0.0
+      "friendship_progress_percent": 100
     },
     {
       "name": "Clefable",
@@ -3436,7 +3436,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 637
     },
     {
       "name": "Vulpix",
@@ -11402,8 +11402,8 @@
     },
     {
       "name": "Electabuzz",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 125,
       "primary_type": "Electric",
       "secondary_type": null,
@@ -13681,7 +13681,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4674
+      "friendship_points": 4682
     },
     {
       "name": "Chikorita",
@@ -15649,7 +15649,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 637
     },
     {
       "name": "Igglybuff",
@@ -21350,7 +21350,7 @@
     },
     {
       "name": "Slugma",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 218,
       "primary_type": "Fire",
@@ -22854,7 +22854,7 @@
     },
     {
       "name": "Tyrogue",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 236,
       "primary_type": "Fighting",
@@ -24268,14 +24268,16 @@
     }
   ],
   "companion": {
-    "name": "Mew",
-    "pokedex_number": 151,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/151.svg",
-    "primary_type": "Psychic",
+    "name": "Clefairy",
+    "pokedex_number": 35,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/35.svg",
+    "primary_type": "Fairy",
     "secondary_type": null,
-    "evolution_line_id": "78",
-    "friendship_points": 4674,
-    "times_pet": 44,
-    "times_fed": 3
+    "evolution_line_id": "14",
+    "friendship_points": 637,
+    "times_pet": 45,
+    "times_fed": 3,
+    "friendship_requirement": 600,
+    "friendship_progress_percent": 100
   }
 }
