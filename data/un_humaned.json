@@ -3,7 +3,7 @@
     "username": "un_humaned",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-300x300.png"
   },
-  "updated_at": "2026-04-18T16:34:49.742259+00:00",
+  "updated_at": "2026-04-18T17:37:38.610093+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -166,7 +166,7 @@
       }
     },
     "journey": {
-      "watch_hours": 118,
+      "watch_hours": 119,
       "follow_age": "3 Month(s), 9 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 1,
@@ -176,9 +176,9 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 83,
-      "chat_messages": 5170,
-      "commands_run": 7846,
-      "times_tagged": 1065,
+      "chat_messages": 5191,
+      "commands_run": 7888,
+      "times_tagged": 1074,
       "times_evolved": 10,
       "times_traded": 0,
       "times_eggs_hatched": 3,
@@ -190,7 +190,7 @@
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 92,
+        "Great Ball": 95,
         "Ultra Ball": 1,
         "Water Stone": 1
       }
@@ -10116,7 +10116,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4198
+      "friendship_points": 4271
     },
     {
       "name": "Weezing",
@@ -10201,7 +10201,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4198
+      "friendship_points": 4271
     },
     {
       "name": "Rhyhorn",
@@ -24273,8 +24273,8 @@
     "primary_type": "Poison",
     "secondary_type": null,
     "evolution_line_id": "49",
-    "friendship_points": 4198,
-    "times_pet": 8,
+    "friendship_points": 4271,
+    "times_pet": 9,
     "times_fed": 0
   }
 }
