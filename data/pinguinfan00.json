@@ -3,7 +3,7 @@
     "username": "pinguinfan00",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/8b5fa3b7-1a82-4af2-bd75-c68c0b60cb00-profile_image-300x300.png"
   },
-  "updated_at": "2026-04-18T16:33:26.386386+00:00",
+  "updated_at": "2026-04-18T17:38:28.405480+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -139,20 +139,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 241,
+      "thrown": 243,
       "success": 103,
-      "accuracy_percent": 42.74,
+      "accuracy_percent": 42.39,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 7,
+          "thrown": 8,
           "success": 0,
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 224,
+          "thrown": 225,
           "success": 100,
-          "accuracy_percent": 44.64
+          "accuracy_percent": 44.44
         },
         "ultra ball": {
           "thrown": 10,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 141,
+      "watch_hours": 142,
       "follow_age": "2 Month(s), 9 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 2,
@@ -177,21 +177,21 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 89,
-      "chat_messages": 15021,
-      "commands_run": 18029,
-      "times_tagged": 1380,
-      "times_evolved": 21,
+      "chat_messages": 15113,
+      "commands_run": 18149,
+      "times_tagged": 1403,
+      "times_evolved": 22,
       "times_traded": 0,
       "times_eggs_hatched": 3,
       "ball_distribution": {
-        "poke ball": 2.9,
-        "great ball": 92.95,
-        "ultra ball": 4.15,
+        "poke ball": 3.29,
+        "great ball": 92.59,
+        "ultra ball": 4.12,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 35,
+        "Great Ball": 37,
         "Ultra Ball": 17
       }
     }
@@ -5079,7 +5079,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4523
+      "friendship_points": 4589
     },
     {
       "name": "Golduck",
@@ -5160,7 +5160,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4523
+      "friendship_points": 4589
     },
     {
       "name": "Mankey",
@@ -24273,7 +24273,7 @@
     "primary_type": "Water",
     "secondary_type": null,
     "evolution_line_id": "23",
-    "friendship_points": 4523,
+    "friendship_points": 4589,
     "times_pet": 12,
     "times_fed": 2
   }
