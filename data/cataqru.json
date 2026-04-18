@@ -3,23 +3,23 @@
     "username": "cataqru",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/998f01ae-def8-11e9-b95c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-04-16T15:43:29.179730+00:00",
+  "updated_at": "2026-04-18T18:07:09.460646+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 67,
-      "total_owned": 84,
-      "completion_percent": 24.1
+      "unique_owned": 68,
+      "total_owned": 85,
+      "completion_percent": 24.46
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 47,
+        "owned": 48,
         "total": 151,
-        "completion_percent": 31.13,
+        "completion_percent": 31.79,
         "total_lines": 78,
-        "lines_completed": 3
+        "lines_completed": 4
       },
       "2": {
         "generation": 2,
@@ -32,9 +32,9 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 67,
+      "total_evolutions_owned": 68,
       "total_evolutions_available": 278,
-      "lines_completed": 11,
+      "lines_completed": 12,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 51,
+        "1": 52,
         "2": 16
       }
     },
@@ -73,9 +73,9 @@
         "completion_percent": 28.95
       },
       "poison": {
-        "owned": 6,
+        "owned": 7,
         "total": 15,
-        "completion_percent": 40.0
+        "completion_percent": 46.67
       },
       "electric": {
         "owned": 5,
@@ -138,9 +138,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 127,
-      "success": 60,
-      "accuracy_percent": 47.24,
+      "thrown": 132,
+      "success": 61,
+      "accuracy_percent": 46.21,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -149,12 +149,12 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 122,
-          "success": 59,
-          "accuracy_percent": 48.36
+          "thrown": 126,
+          "success": 60,
+          "accuracy_percent": 47.62
         },
         "ultra ball": {
-          "thrown": 1,
+          "thrown": 2,
           "success": 0,
           "accuracy_percent": 0.0
         },
@@ -166,32 +166,32 @@
       }
     },
     "journey": {
-      "watch_hours": 254,
-      "follow_age": "1 Year(s), 5 Month(s), 27 Day(s)",
-      "sub_age": "1 Year(s), 5 Month(s), 10 Day(s)",
+      "watch_hours": 260,
+      "follow_age": "1 Year(s), 5 Month(s), 29 Day(s)",
+      "sub_age": "1 Year(s), 5 Month(s), 12 Day(s)",
       "sub_months": 18,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 92,
-      "chat_messages": 4517,
-      "commands_run": 5689,
-      "times_tagged": 394,
+      "streams_watched": 93,
+      "chat_messages": 4624,
+      "commands_run": 5834,
+      "times_tagged": 408,
       "times_evolved": 12,
       "times_traded": 1,
       "times_eggs_hatched": 4,
       "ball_distribution": {
-        "poke ball": 2.36,
-        "great ball": 96.06,
-        "ultra ball": 0.79,
-        "master ball": 0.79
+        "poke ball": 2.27,
+        "great ball": 95.45,
+        "ultra ball": 1.52,
+        "master ball": 0.76
       },
       "pokebag": {
         "Egg": 2,
         "Great Ball": 99,
-        "Ultra Ball": 13
+        "Ultra Ball": 12
       }
     }
   },
@@ -2200,8 +2200,8 @@
     },
     {
       "name": "Ekans",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 23,
       "primary_type": "Poison",
       "secondary_type": null,
@@ -2277,7 +2277,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -2362,7 +2362,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -12089,7 +12089,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1155
+      "friendship_points": 1486
     },
     {
       "name": "Vaporeon",
@@ -12194,7 +12194,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1155
+      "friendship_points": 1486
     },
     {
       "name": "Jolteon",
@@ -12291,7 +12291,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1155
+      "friendship_points": 1486
     },
     {
       "name": "Flareon",
@@ -12408,7 +12408,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1155
+      "friendship_points": 1486
     },
     {
       "name": "Porygon",
@@ -17714,7 +17714,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1155,
+      "friendship_points": 1486,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17821,7 +17821,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1155,
+      "friendship_points": 1486,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24272,7 +24272,7 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 1155,
+    "friendship_points": 1486,
     "times_pet": 13,
     "times_fed": 7
   }
