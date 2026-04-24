@@ -3,12 +3,12 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-04-23T16:47:13.956249+00:00",
+  "updated_at": "2026-04-24T19:15:31.694449+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 171,
-      "total_owned": 623,
+      "total_owned": 626,
       "completion_percent": 61.51
     },
     "generation_progress": {
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 785,
-      "success": 238,
-      "accuracy_percent": 30.32,
+      "thrown": 804,
+      "success": 241,
+      "accuracy_percent": 29.98,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 785,
-          "success": 238,
-          "accuracy_percent": 30.32
+          "thrown": 804,
+          "success": 241,
+          "accuracy_percent": 29.98
         },
         "great ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 1156,
+      "watch_hours": 1163,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -176,10 +176,10 @@
       "total_donated": 0.0,
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
-      "streams_watched": 370,
-      "chat_messages": 10444,
-      "commands_run": 52998,
-      "times_tagged": 2598,
+      "streams_watched": 372,
+      "chat_messages": 10512,
+      "commands_run": 53272,
+      "times_tagged": 2607,
       "times_evolved": 47,
       "times_traded": 28,
       "times_eggs_hatched": 11,
@@ -599,7 +599,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5425
+      "friendship_points": 5839
     },
     {
       "name": "Charmeleon",
@@ -698,7 +698,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5425
+      "friendship_points": 5839
     },
     {
       "name": "Charizard",
@@ -801,7 +801,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5425
+      "friendship_points": 5839
     },
     {
       "name": "Squirtle",
@@ -4718,7 +4718,7 @@
     },
     {
       "name": "Diglett",
-      "count": 14,
+      "count": 15,
       "owned": true,
       "pokedex_number": 50,
       "primary_type": "Ground",
@@ -8048,7 +8048,7 @@
     },
     {
       "name": "Seel",
-      "count": 8,
+      "count": 9,
       "owned": true,
       "pokedex_number": 86,
       "primary_type": "Water",
@@ -8542,7 +8542,7 @@
     },
     {
       "name": "Gastly",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 92,
       "primary_type": "Ghost",
@@ -24281,7 +24281,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "2",
-    "friendship_points": 5425,
+    "friendship_points": 5839,
     "times_pet": 5,
     "times_fed": 3
   }
