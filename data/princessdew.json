@@ -3,23 +3,23 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-04-16T18:33:06.107851+00:00",
+  "updated_at": "2026-04-24T19:14:39.955095+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 112,
+      "unique_owned": 113,
       "total_owned": 234,
-      "completion_percent": 40.29
+      "completion_percent": 40.65
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 81,
+        "owned": 82,
         "total": 151,
-        "completion_percent": 53.64,
+        "completion_percent": 54.3,
         "total_lines": 78,
-        "lines_completed": 20
+        "lines_completed": 21
       },
       "2": {
         "generation": 2,
@@ -32,9 +32,9 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 112,
+      "total_evolutions_owned": 113,
       "total_evolutions_available": 278,
-      "lines_completed": 32,
+      "lines_completed": 33,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -43,7 +43,7 @@
       },
       "stage_owned": {
         "1": 86,
-        "2": 23,
+        "2": 24,
         "3": 3
       }
     },
@@ -84,9 +84,9 @@
         "completion_percent": 73.33
       },
       "ground": {
-        "owned": 4,
+        "owned": 5,
         "total": 11,
-        "completion_percent": 36.36
+        "completion_percent": 45.45
       },
       "fairy": {
         "owned": 3,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 135,
-      "success": 65,
-      "accuracy_percent": 48.15,
+      "thrown": 147,
+      "success": 66,
+      "accuracy_percent": 44.9,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 122,
-          "success": 59,
-          "accuracy_percent": 48.36
+          "thrown": 134,
+          "success": 60,
+          "accuracy_percent": 44.78
         },
         "ultra ball": {
           "thrown": 5,
@@ -167,32 +167,32 @@
       }
     },
     "journey": {
-      "watch_hours": 944,
-      "follow_age": "1 Year(s), 5 Month(s), 30 Day(s)",
-      "sub_age": "1 Year(s), 2 Month(s), 9 Day(s)",
+      "watch_hours": 966,
+      "follow_age": "1 Year(s), 6 Month(s), 7 Day(s)",
+      "sub_age": "1 Year(s), 2 Month(s), 17 Day(s)",
       "sub_months": 15,
       "subs_gifted": 42,
-      "bits_donated": 204,
+      "bits_donated": 304,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 279,
-      "chat_messages": 15415,
-      "commands_run": 18155,
-      "times_tagged": 2598,
-      "times_evolved": 17,
+      "streams_watched": 286,
+      "chat_messages": 15720,
+      "commands_run": 18577,
+      "times_tagged": 2681,
+      "times_evolved": 18,
       "times_traded": 2,
-      "times_eggs_hatched": 11,
+      "times_eggs_hatched": 12,
       "ball_distribution": {
-        "poke ball": 2.22,
-        "great ball": 90.37,
-        "ultra ball": 3.7,
-        "master ball": 3.7
+        "poke ball": 2.04,
+        "great ball": 91.16,
+        "ultra ball": 3.4,
+        "master ball": 3.4
       },
       "pokebag": {
         "Berry": 2,
         "Egg": 1,
-        "Great Ball": 98,
+        "Great Ball": 99,
         "Ultra Ball": 16
       }
     }
@@ -1629,7 +1629,7 @@
     },
     {
       "name": "Pidgey",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 16,
       "primary_type": "Normal",
@@ -1713,7 +1713,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -3347,7 +3347,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1820,
+      "friendship_points": 3136,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -3436,7 +3436,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1820
+      "friendship_points": 3136
     },
     {
       "name": "Vulpix",
@@ -4711,7 +4711,7 @@
     },
     {
       "name": "Diglett",
-      "count": 7,
+      "count": 4,
       "owned": true,
       "pokedex_number": 50,
       "primary_type": "Ground",
@@ -4784,7 +4784,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -4792,8 +4792,8 @@
     },
     {
       "name": "Dugtrio",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 51,
       "primary_type": "Ground",
       "secondary_type": null,
@@ -4865,7 +4865,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -13254,7 +13254,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 343
+      "friendship_points": 381
     },
     {
       "name": "Dratini",
@@ -15649,7 +15649,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1820
+      "friendship_points": 3136
     },
     {
       "name": "Igglybuff",
@@ -23202,7 +23202,7 @@
     },
     {
       "name": "Magby",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 240,
       "primary_type": "Fire",
@@ -24268,16 +24268,14 @@
     }
   ],
   "companion": {
-    "name": "Clefairy",
-    "pokedex_number": 35,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/35.svg",
-    "primary_type": "Fairy",
-    "secondary_type": null,
-    "evolution_line_id": "14",
-    "friendship_points": 1820,
-    "times_pet": 45,
-    "times_fed": 3,
-    "friendship_requirement": 600,
-    "friendship_progress_percent": 100
+    "name": "Moltres",
+    "pokedex_number": 146,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/146.svg",
+    "primary_type": "Fire",
+    "secondary_type": "Flying",
+    "evolution_line_id": "75",
+    "friendship_points": 381,
+    "times_pet": 46,
+    "times_fed": 4
   }
 }
