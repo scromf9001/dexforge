@@ -3,13 +3,13 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-04-26T18:15:16.251377+00:00",
+  "updated_at": "2026-04-26T18:22:18.161288+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 171,
-      "total_owned": 629,
-      "completion_percent": 61.51
+      "unique_owned": 172,
+      "total_owned": 627,
+      "completion_percent": 61.87
     },
     "generation_progress": {
       "1": {
@@ -24,17 +24,17 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 41,
+        "owned": 42,
         "total": 127,
-        "completion_percent": 32.28,
+        "completion_percent": 33.07,
         "total_lines": 78,
-        "lines_completed": 16
+        "lines_completed": 17
       }
     },
     "evolution": {
-      "total_evolutions_owned": 171,
+      "total_evolutions_owned": 172,
       "total_evolutions_available": 278,
-      "lines_completed": 71,
+      "lines_completed": 72,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -43,7 +43,7 @@
       },
       "stage_owned": {
         "1": 95,
-        "2": 60,
+        "2": 61,
         "3": 16
       }
     },
@@ -114,9 +114,9 @@
         "completion_percent": 50.0
       },
       "ice": {
-        "owned": 4,
+        "owned": 5,
         "total": 7,
-        "completion_percent": 57.14
+        "completion_percent": 71.43
       },
       "dragon": {
         "owned": 1,
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 819,
+      "thrown": 820,
       "success": 245,
-      "accuracy_percent": 29.91,
+      "accuracy_percent": 29.88,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 819,
+          "thrown": 820,
           "success": 245,
-          "accuracy_percent": 29.91
+          "accuracy_percent": 29.88
         },
         "great ball": {
           "thrown": 0,
@@ -177,10 +177,10 @@
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
       "streams_watched": 374,
-      "chat_messages": 10575,
-      "commands_run": 53534,
-      "times_tagged": 2623,
-      "times_evolved": 48,
+      "chat_messages": 10580,
+      "commands_run": 53558,
+      "times_tagged": 2625,
+      "times_evolved": 49,
       "times_traded": 28,
       "times_eggs_hatched": 12,
       "ball_distribution": {
@@ -599,7 +599,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 6289
+      "friendship_points": 6296
     },
     {
       "name": "Charmeleon",
@@ -698,7 +698,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 6289
+      "friendship_points": 6296
     },
     {
       "name": "Charizard",
@@ -801,7 +801,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 6289
+      "friendship_points": 6296
     },
     {
       "name": "Squirtle",
@@ -21551,7 +21551,7 @@
     },
     {
       "name": "Swinub",
-      "count": 5,
+      "count": 2,
       "owned": true,
       "pokedex_number": 220,
       "primary_type": "Ice",
@@ -21628,16 +21628,16 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
-      "evolvable_now": true,
+      "line_complete": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Piloswine",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 221,
       "primary_type": "Ice",
       "secondary_type": "Ground",
@@ -21713,7 +21713,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -24281,7 +24281,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "2",
-    "friendship_points": 6289,
+    "friendship_points": 6296,
     "times_pet": 5,
     "times_fed": 3
   }
