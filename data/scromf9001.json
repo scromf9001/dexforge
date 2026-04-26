@@ -3,12 +3,12 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-04-24T19:15:31.694449+00:00",
+  "updated_at": "2026-04-26T18:15:16.251377+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 171,
-      "total_owned": 626,
+      "total_owned": 629,
       "completion_percent": 61.51
     },
     "generation_progress": {
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 804,
-      "success": 241,
-      "accuracy_percent": 29.98,
+      "thrown": 819,
+      "success": 245,
+      "accuracy_percent": 29.91,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 804,
-          "success": 241,
-          "accuracy_percent": 29.98
+          "thrown": 819,
+          "success": 245,
+          "accuracy_percent": 29.91
         },
         "great ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 1163,
+      "watch_hours": 1171,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -176,13 +176,13 @@
       "total_donated": 0.0,
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
-      "streams_watched": 372,
-      "chat_messages": 10512,
-      "commands_run": 53272,
-      "times_tagged": 2607,
-      "times_evolved": 47,
+      "streams_watched": 374,
+      "chat_messages": 10575,
+      "commands_run": 53534,
+      "times_tagged": 2623,
+      "times_evolved": 48,
       "times_traded": 28,
-      "times_eggs_hatched": 11,
+      "times_eggs_hatched": 12,
       "ball_distribution": {
         "poke ball": 100.0,
         "great ball": 0.0,
@@ -599,7 +599,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5839
+      "friendship_points": 6289
     },
     {
       "name": "Charmeleon",
@@ -698,7 +698,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5839
+      "friendship_points": 6289
     },
     {
       "name": "Charizard",
@@ -801,11 +801,11 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5839
+      "friendship_points": 6289
     },
     {
       "name": "Squirtle",
-      "count": 3,
+      "count": 1,
       "owned": true,
       "pokedex_number": 7,
       "primary_type": "Water",
@@ -885,14 +885,14 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Wartortle",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 8,
       "primary_type": "Water",
@@ -5520,7 +5520,7 @@
     },
     {
       "name": "Poliwag",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 60,
       "primary_type": "Water",
@@ -5606,7 +5606,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -8048,7 +8048,7 @@
     },
     {
       "name": "Seel",
-      "count": 9,
+      "count": 10,
       "owned": true,
       "pokedex_number": 86,
       "primary_type": "Water",
@@ -16835,7 +16835,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
@@ -22861,7 +22861,7 @@
     },
     {
       "name": "Tyrogue",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 236,
       "primary_type": "Fighting",
@@ -24281,7 +24281,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "2",
-    "friendship_points": 5839,
+    "friendship_points": 6289,
     "times_pet": 5,
     "times_fed": 3
   }
