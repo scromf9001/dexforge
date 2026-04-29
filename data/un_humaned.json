@@ -3,13 +3,13 @@
     "username": "un_humaned",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-300x300.png"
   },
-  "updated_at": "2026-04-28T19:16:18.462835+00:00",
+  "updated_at": "2026-04-29T19:08:00.455848+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 75,
-      "total_owned": 104,
-      "completion_percent": 26.98
+      "unique_owned": 76,
+      "total_owned": 108,
+      "completion_percent": 27.34
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 24,
+        "owned": 25,
         "total": 127,
-        "completion_percent": 18.9,
+        "completion_percent": 19.69,
         "total_lines": 78,
         "lines_completed": 7
       }
     },
     "evolution": {
-      "total_evolutions_owned": 75,
+      "total_evolutions_owned": 76,
       "total_evolutions_available": 278,
       "lines_completed": 11,
       "total_lines": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 56,
+        "1": 57,
         "2": 18,
         "3": 1
       }
@@ -94,9 +94,9 @@
         "completion_percent": 42.86
       },
       "fighting": {
-        "owned": 2,
+        "owned": 3,
         "total": 9,
-        "completion_percent": 22.22
+        "completion_percent": 33.33
       },
       "psychic": {
         "owned": 6,
@@ -139,20 +139,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 262,
-      "success": 104,
-      "accuracy_percent": 39.69,
+      "thrown": 267,
+      "success": 107,
+      "accuracy_percent": 40.07,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 108,
+          "thrown": 109,
           "success": 30,
-          "accuracy_percent": 27.78
+          "accuracy_percent": 27.52
         },
         "great ball": {
-          "thrown": 153,
-          "success": 73,
-          "accuracy_percent": 47.71
+          "thrown": 157,
+          "success": 76,
+          "accuracy_percent": 48.41
         },
         "ultra ball": {
           "thrown": 1,
@@ -167,31 +167,30 @@
       }
     },
     "journey": {
-      "watch_hours": 135,
+      "watch_hours": 136,
       "follow_age": "3 Month(s), 20 Day(s)",
-      "sub_age": "30 Day(s)",
+      "sub_age": "1 Month(s)",
       "sub_months": 2,
       "subs_gifted": 0,
       "bits_donated": 105,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 91,
-      "chat_messages": 5939,
-      "commands_run": 9028,
-      "times_tagged": 1277,
+      "streams_watched": 93,
+      "chat_messages": 5966,
+      "commands_run": 9094,
+      "times_tagged": 1287,
       "times_evolved": 15,
       "times_traded": 0,
-      "times_eggs_hatched": 3,
+      "times_eggs_hatched": 4,
       "ball_distribution": {
-        "poke ball": 41.22,
-        "great ball": 58.4,
-        "ultra ball": 0.38,
+        "poke ball": 40.82,
+        "great ball": 58.8,
+        "ultra ball": 0.37,
         "master ball": 0.0
       },
       "pokebag": {
-        "Egg": 1,
-        "Great Ball": 94,
+        "Great Ball": 92,
         "Ultra Ball": 3,
         "Water Stone": 1
       }
@@ -3901,7 +3900,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 977
+      "friendship_points": 1021
     },
     {
       "name": "Golbat",
@@ -4004,7 +4003,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 977
+      "friendship_points": 1021
     },
     {
       "name": "Oddish",
@@ -9265,7 +9264,7 @@
     },
     {
       "name": "Voltorb",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 100,
       "primary_type": "Electric",
@@ -13685,7 +13684,7 @@
     },
     {
       "name": "Chikorita",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 152,
       "primary_type": "Grass",
@@ -14670,7 +14669,7 @@
     },
     {
       "name": "Hoothoot",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
@@ -15311,7 +15310,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 977,
+      "friendship_points": 1021,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -22854,8 +22853,8 @@
     },
     {
       "name": "Tyrogue",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 236,
       "primary_type": "Fighting",
       "secondary_type": null,
@@ -24274,7 +24273,7 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 977,
+    "friendship_points": 1021,
     "times_pet": 10,
     "times_fed": 0
   }
