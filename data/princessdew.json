@@ -3,13 +3,13 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-04-24T19:14:39.955095+00:00",
+  "updated_at": "2026-05-03T16:11:45.520598+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 113,
-      "total_owned": 234,
-      "completion_percent": 40.65
+      "unique_owned": 115,
+      "total_owned": 241,
+      "completion_percent": 41.37
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 31,
+        "owned": 33,
         "total": 127,
-        "completion_percent": 24.41,
+        "completion_percent": 25.98,
         "total_lines": 78,
         "lines_completed": 12
       }
     },
     "evolution": {
-      "total_evolutions_owned": 113,
+      "total_evolutions_owned": 115,
       "total_evolutions_available": 278,
       "lines_completed": 33,
       "total_lines": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 86,
+        "1": 88,
         "2": 24,
         "3": 3
       }
@@ -64,14 +64,14 @@
         "completion_percent": 45.45
       },
       "bug": {
-        "owned": 8,
+        "owned": 9,
         "total": 22,
-        "completion_percent": 36.36
+        "completion_percent": 40.91
       },
       "normal": {
-        "owned": 16,
+        "owned": 17,
         "total": 38,
-        "completion_percent": 42.11
+        "completion_percent": 44.74
       },
       "poison": {
         "owned": 8,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 147,
-      "success": 66,
-      "accuracy_percent": 44.9,
+      "thrown": 158,
+      "success": 72,
+      "accuracy_percent": 45.57,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,14 +150,14 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 134,
-          "success": 60,
-          "accuracy_percent": 44.78
+          "thrown": 144,
+          "success": 65,
+          "accuracy_percent": 45.14
         },
         "ultra ball": {
-          "thrown": 5,
-          "success": 1,
-          "accuracy_percent": 20.0
+          "thrown": 6,
+          "success": 2,
+          "accuracy_percent": 33.33
         },
         "master ball": {
           "thrown": 5,
@@ -167,33 +167,34 @@
       }
     },
     "journey": {
-      "watch_hours": 966,
-      "follow_age": "1 Year(s), 6 Month(s), 7 Day(s)",
-      "sub_age": "1 Year(s), 2 Month(s), 17 Day(s)",
-      "sub_months": 15,
-      "subs_gifted": 42,
+      "watch_hours": 986,
+      "follow_age": "1 Year(s), 6 Month(s), 17 Day(s)",
+      "sub_age": "1 Year(s), 2 Month(s), 25 Day(s)",
+      "sub_months": 16,
+      "subs_gifted": 43,
       "bits_donated": 304,
       "total_donated": 0.0,
       "primary_role": "Moderator",
-      "sub_tier": "Tier 1",
-      "streams_watched": 286,
-      "chat_messages": 15720,
-      "commands_run": 18577,
-      "times_tagged": 2681,
+      "sub_tier": "Tier 3",
+      "streams_watched": 295,
+      "chat_messages": 15923,
+      "commands_run": 18831,
+      "times_tagged": 2732,
       "times_evolved": 18,
       "times_traded": 2,
-      "times_eggs_hatched": 12,
+      "times_eggs_hatched": 13,
       "ball_distribution": {
-        "poke ball": 2.04,
-        "great ball": 91.16,
-        "ultra ball": 3.4,
-        "master ball": 3.4
+        "poke ball": 1.9,
+        "great ball": 91.14,
+        "ultra ball": 3.8,
+        "master ball": 3.16
       },
       "pokebag": {
         "Berry": 2,
         "Egg": 1,
         "Great Ball": 99,
-        "Ultra Ball": 16
+        "Master Ball": 1,
+        "Ultra Ball": 18
       }
     }
   },
@@ -798,7 +799,7 @@
     },
     {
       "name": "Squirtle",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 7,
       "primary_type": "Water",
@@ -6326,7 +6327,7 @@
     },
     {
       "name": "Bellsprout",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 69,
       "primary_type": "Grass",
@@ -6418,7 +6419,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -10963,7 +10964,7 @@
     },
     {
       "name": "Staryu",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 120,
       "primary_type": "Water",
@@ -11402,7 +11403,7 @@
     },
     {
       "name": "Electabuzz",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 125,
       "primary_type": "Electric",
@@ -13254,7 +13255,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 381
+      "friendship_points": 1590
     },
     {
       "name": "Dratini",
@@ -14540,8 +14541,8 @@
     },
     {
       "name": "Sentret",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 161,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -15026,8 +15027,8 @@
     },
     {
       "name": "Spinarak",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 167,
       "primary_type": "Bug",
       "secondary_type": "Poison",
@@ -22854,7 +22855,7 @@
     },
     {
       "name": "Tyrogue",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 236,
       "primary_type": "Fighting",
@@ -22940,7 +22941,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -24274,7 +24275,7 @@
     "primary_type": "Fire",
     "secondary_type": "Flying",
     "evolution_line_id": "75",
-    "friendship_points": 381,
+    "friendship_points": 1590,
     "times_pet": 46,
     "times_fed": 4
   }
