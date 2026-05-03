@@ -3,13 +3,13 @@
     "username": "uraniumeatingfemboylover",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/b3ede9bf-4102-4507-98ac-e3dc88885128-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-05-03T16:07:31.808567+00:00",
+  "updated_at": "2026-05-03T17:39:55.140888+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 2,
-      "total_owned": 2,
-      "completion_percent": 0.72
+      "unique_owned": 3,
+      "total_owned": 3,
+      "completion_percent": 1.08
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 0,
+        "owned": 1,
         "total": 127,
-        "completion_percent": 0.0,
+        "completion_percent": 0.79,
         "total_lines": 78,
         "lines_completed": 0
       }
     },
     "evolution": {
-      "total_evolutions_owned": 2,
+      "total_evolutions_owned": 3,
       "total_evolutions_available": 278,
       "lines_completed": 0,
       "total_lines": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 2
+        "1": 3
       }
     },
     "types": {
@@ -67,9 +67,9 @@
         "completion_percent": 4.55
       },
       "normal": {
-        "owned": 0,
+        "owned": 1,
         "total": 38,
-        "completion_percent": 0.0
+        "completion_percent": 2.63
       },
       "poison": {
         "owned": 0,
@@ -137,9 +137,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 7,
-      "success": 1,
-      "accuracy_percent": 14.29,
+      "thrown": 10,
+      "success": 2,
+      "accuracy_percent": 20.0,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -148,9 +148,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 5,
-          "success": 1,
-          "accuracy_percent": 20.0
+          "thrown": 8,
+          "success": 2,
+          "accuracy_percent": 25.0
         },
         "ultra ball": {
           "thrown": 0,
@@ -165,7 +165,7 @@
       }
     },
     "journey": {
-      "watch_hours": 17,
+      "watch_hours": 19,
       "follow_age": "3 Month(s), 29 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -175,15 +175,15 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 34,
-      "chat_messages": 411,
-      "commands_run": 568,
-      "times_tagged": 47,
+      "chat_messages": 443,
+      "commands_run": 622,
+      "times_tagged": 54,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 28.57,
-        "great ball": 71.43,
+        "poke ball": 20.0,
+        "great ball": 80.0,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
@@ -9513,7 +9513,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 89
     },
     {
       "name": "Exeggutor",
@@ -9622,7 +9622,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 89
     },
     {
       "name": "Cubone",
@@ -14667,8 +14667,8 @@
     },
     {
       "name": "Hoothoot",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
       "secondary_type": "Flying",
@@ -24264,5 +24264,15 @@
       "friendship_points": 0
     }
   ],
-  "companion": null
+  "companion": {
+    "name": "Exeggcute",
+    "pokedex_number": 102,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/102.svg",
+    "primary_type": "Grass",
+    "secondary_type": "Psychic",
+    "evolution_line_id": "45",
+    "friendship_points": 89,
+    "times_pet": 0,
+    "times_fed": 0
+  }
 }
