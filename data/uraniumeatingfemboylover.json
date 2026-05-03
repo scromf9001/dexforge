@@ -3,7 +3,7 @@
     "username": "uraniumeatingfemboylover",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/b3ede9bf-4102-4507-98ac-e3dc88885128-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-05-02T17:52:57.756022+00:00",
+  "updated_at": "2026-05-03T16:07:31.808567+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -137,9 +137,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 5,
+      "thrown": 7,
       "success": 1,
-      "accuracy_percent": 20.0,
+      "accuracy_percent": 14.29,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -148,9 +148,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 3,
+          "thrown": 5,
           "success": 1,
-          "accuracy_percent": 33.33
+          "accuracy_percent": 20.0
         },
         "ultra ball": {
           "thrown": 0,
@@ -165,8 +165,8 @@
       }
     },
     "journey": {
-      "watch_hours": 16,
-      "follow_age": "3 Month(s), 28 Day(s)",
+      "watch_hours": 17,
+      "follow_age": "3 Month(s), 29 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
       "subs_gifted": 0,
@@ -174,21 +174,23 @@
       "total_donated": 0.0,
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
-      "streams_watched": 33,
-      "chat_messages": 376,
-      "commands_run": 510,
-      "times_tagged": 41,
+      "streams_watched": 34,
+      "chat_messages": 411,
+      "commands_run": 568,
+      "times_tagged": 47,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 40.0,
-        "great ball": 60.0,
+        "poke ball": 28.57,
+        "great ball": 71.43,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 30
+        "Great Ball": 31,
+        "Leaf Stone": 1,
+        "Ultra Ball": 5
       }
     }
   },
