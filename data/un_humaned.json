@@ -3,13 +3,13 @@
     "username": "un_humaned",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-300x300.png"
   },
-  "updated_at": "2026-05-14T15:04:37.855100+00:00",
+  "updated_at": "2026-05-14T17:08:49.951059+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 79,
-      "total_owned": 122,
-      "completion_percent": 28.42
+      "unique_owned": 80,
+      "total_owned": 119,
+      "completion_percent": 28.78
     },
     "generation_progress": {
       "1": {
@@ -24,17 +24,17 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 25,
+        "owned": 26,
         "total": 127,
-        "completion_percent": 19.69,
+        "completion_percent": 20.47,
         "total_lines": 78,
-        "lines_completed": 7
+        "lines_completed": 8
       }
     },
     "evolution": {
-      "total_evolutions_owned": 79,
+      "total_evolutions_owned": 80,
       "total_evolutions_available": 278,
-      "lines_completed": 12,
+      "lines_completed": 13,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -42,8 +42,8 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 59,
-        "2": 19,
+        "1": 57,
+        "2": 22,
         "3": 1
       }
     },
@@ -69,9 +69,9 @@
         "completion_percent": 36.36
       },
       "normal": {
-        "owned": 13,
+        "owned": 14,
         "total": 38,
-        "completion_percent": 34.21
+        "completion_percent": 36.84
       },
       "poison": {
         "owned": 5,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 304,
-      "success": 122,
-      "accuracy_percent": 40.13,
+      "thrown": 308,
+      "success": 125,
+      "accuracy_percent": 40.58,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 28.93
         },
         "great ball": {
-          "thrown": 182,
-          "success": 86,
-          "accuracy_percent": 47.25
+          "thrown": 186,
+          "success": 89,
+          "accuracy_percent": 47.85
         },
         "ultra ball": {
           "thrown": 1,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 152,
+      "watch_hours": 154,
       "follow_age": "4 Month(s), 5 Day(s)",
       "sub_age": "1 Month(s), 15 Day(s)",
       "sub_months": 2,
@@ -177,16 +177,16 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 101,
-      "chat_messages": 6856,
-      "commands_run": 10121,
-      "times_tagged": 1437,
-      "times_evolved": 15,
+      "chat_messages": 7000,
+      "commands_run": 10332,
+      "times_tagged": 1480,
+      "times_evolved": 18,
       "times_traded": 0,
       "times_eggs_hatched": 4,
       "ball_distribution": {
-        "poke ball": 39.8,
-        "great ball": 59.87,
-        "ultra ball": 0.33,
+        "poke ball": 39.29,
+        "great ball": 60.39,
+        "ultra ball": 0.32,
         "master ball": 0.0
       },
       "pokebag": {
@@ -2694,8 +2694,8 @@
     },
     {
       "name": "Nidoran (F)",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 29,
       "primary_type": "Poison",
       "secondary_type": null,
@@ -2778,15 +2778,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Nidorina",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 30,
       "primary_type": "Poison",
       "secondary_type": null,
@@ -3901,7 +3901,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1971
+      "friendship_points": 2105
     },
     {
       "name": "Golbat",
@@ -4004,7 +4004,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1971
+      "friendship_points": 2105
     },
     {
       "name": "Oddish",
@@ -5513,7 +5513,7 @@
     },
     {
       "name": "Poliwag",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 60,
       "primary_type": "Water",
@@ -9103,8 +9103,8 @@
     },
     {
       "name": "Krabby",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 98,
       "primary_type": "Water",
       "secondary_type": null,
@@ -9184,8 +9184,8 @@
     },
     {
       "name": "Kingler",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 99,
       "primary_type": "Water",
       "secondary_type": null,
@@ -14540,8 +14540,8 @@
     },
     {
       "name": "Sentret",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 161,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -14597,7 +14597,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -14662,7 +14662,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -15026,8 +15026,8 @@
     },
     {
       "name": "Spinarak",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 167,
       "primary_type": "Bug",
       "secondary_type": "Poison",
@@ -15112,15 +15112,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Ariados",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 168,
       "primary_type": "Bug",
       "secondary_type": "Poison",
@@ -15311,7 +15311,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1971,
+      "friendship_points": 2105,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24274,8 +24274,8 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 1971,
-    "times_pet": 11,
+    "friendship_points": 2105,
+    "times_pet": 12,
     "times_fed": 0
   }
 }
