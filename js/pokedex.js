@@ -66,6 +66,8 @@ function renderUser(user) {
     `${possessive} Pokédex`;
 
   document.getElementById("trainer-avatar").src = user.avatar;
+
+  document.title = `${possessive} Pokédex — Stream Dex`;
 }
 
 function buildStageFilter(pokemonList) {
