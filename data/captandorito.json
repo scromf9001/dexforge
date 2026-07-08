@@ -3,36 +3,36 @@
     "username": "captandorito",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/3e57f572-3029-4655-a61b-3140ff555230-profile_image-300x300.png"
   },
-  "updated_at": "2026-04-03T18:11:32.209637+00:00",
+  "updated_at": "2026-06-27T19:49:15.527267+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 7,
-      "total_owned": 7,
-      "completion_percent": 2.52
+      "unique_owned": 15,
+      "total_owned": 17,
+      "completion_percent": 5.4
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 6,
+        "owned": 12,
         "total": 151,
-        "completion_percent": 3.97,
+        "completion_percent": 7.95,
         "total_lines": 78,
         "lines_completed": 0
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 1,
+        "owned": 3,
         "total": 127,
-        "completion_percent": 0.79,
+        "completion_percent": 2.36,
         "total_lines": 78,
         "lines_completed": 0
       }
     },
     "evolution": {
-      "total_evolutions_owned": 7,
+      "total_evolutions_owned": 15,
       "total_evolutions_available": 278,
       "lines_completed": 0,
       "total_lines": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 6,
+        "1": 14,
         "3": 1
       }
     },
@@ -53,19 +53,19 @@
         "completion_percent": 9.52
       },
       "fire": {
-        "owned": 1,
+        "owned": 2,
         "total": 20,
-        "completion_percent": 5.0
+        "completion_percent": 10.0
       },
       "water": {
-        "owned": 0,
+        "owned": 2,
         "total": 44,
-        "completion_percent": 0.0
+        "completion_percent": 4.55
       },
       "bug": {
-        "owned": 0,
+        "owned": 1,
         "total": 22,
-        "completion_percent": 0.0
+        "completion_percent": 4.55
       },
       "normal": {
         "owned": 2,
@@ -73,9 +73,9 @@
         "completion_percent": 5.26
       },
       "poison": {
-        "owned": 1,
+        "owned": 2,
         "total": 15,
-        "completion_percent": 6.67
+        "completion_percent": 13.33
       },
       "electric": {
         "owned": 0,
@@ -83,9 +83,9 @@
         "completion_percent": 0.0
       },
       "ground": {
-        "owned": 0,
+        "owned": 2,
         "total": 11,
-        "completion_percent": 0.0
+        "completion_percent": 18.18
       },
       "fairy": {
         "owned": 0,
@@ -103,9 +103,9 @@
         "completion_percent": 0.0
       },
       "rock": {
-        "owned": 0,
+        "owned": 1,
         "total": 13,
-        "completion_percent": 0.0
+        "completion_percent": 7.69
       },
       "ghost": {
         "owned": 0,
@@ -138,25 +138,25 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 7,
-      "success": 1,
-      "accuracy_percent": 14.29,
+      "thrown": 34,
+      "success": 10,
+      "accuracy_percent": 29.41,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 7,
-          "success": 1,
-          "accuracy_percent": 14.29
+          "thrown": 30,
+          "success": 8,
+          "accuracy_percent": 26.67
         },
         "great ball": {
-          "thrown": 0,
+          "thrown": 2,
           "success": 0,
-          "accuracy_percent": 0
+          "accuracy_percent": 0.0
         },
         "ultra ball": {
-          "thrown": 0,
-          "success": 0,
-          "accuracy_percent": 0
+          "thrown": 2,
+          "success": 2,
+          "accuracy_percent": 100.0
         },
         "master ball": {
           "thrown": 0,
@@ -166,31 +166,30 @@
       }
     },
     "journey": {
-      "watch_hours": 53,
-      "follow_age": "8 Month(s), 19 Day(s)",
-      "sub_age": "6 Month(s), 6 Day(s)",
-      "sub_months": 7,
+      "watch_hours": 75,
+      "follow_age": "11 Month(s), 12 Day(s)",
+      "sub_age": "9 Month(s), 1 Day(s)",
+      "sub_months": 10,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 36,
-      "chat_messages": 1945,
-      "commands_run": 2258,
-      "times_tagged": 331,
+      "streams_watched": 57,
+      "chat_messages": 2862,
+      "commands_run": 3515,
+      "times_tagged": 584,
       "times_evolved": 0,
       "times_traded": 0,
-      "times_eggs_hatched": 0,
+      "times_eggs_hatched": 1,
       "ball_distribution": {
-        "poke ball": 100.0,
-        "great ball": 0.0,
-        "ultra ball": 0.0,
+        "poke ball": 88.24,
+        "great ball": 5.88,
+        "ultra ball": 5.88,
         "master ball": 0.0
       },
       "pokebag": {
-        "Egg": 1,
-        "Great Ball": 85,
+        "Great Ball": 99,
         "Ultra Ball": 5
       }
     }
@@ -283,7 +282,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Venosaur",
+          "name": "Venusaur",
           "pokedex_number": 3,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg",
           "evolution_stage": "3"
@@ -382,7 +381,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Venosaur",
+          "name": "Venusaur",
           "pokedex_number": 3,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg",
           "evolution_stage": "3"
@@ -395,7 +394,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Venosaur",
+      "name": "Venusaur",
       "count": 0,
       "owned": false,
       "pokedex_number": 3,
@@ -481,7 +480,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Venosaur",
+          "name": "Venusaur",
           "pokedex_number": 3,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg",
           "evolution_stage": "3"
@@ -2530,8 +2529,8 @@
     },
     {
       "name": "Sandshrew",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 27,
       "primary_type": "Ground",
       "secondary_type": null,
@@ -2977,8 +2976,8 @@
     },
     {
       "name": "Nidoran (M)",
-      "count": 0,
-      "owned": false,
+      "count": 2,
+      "owned": true,
       "pokedex_number": 32,
       "primary_type": "Poison",
       "secondary_type": null,
@@ -4709,8 +4708,8 @@
     },
     {
       "name": "Diglett",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 50,
       "primary_type": "Ground",
       "secondary_type": null,
@@ -5325,7 +5324,7 @@
     },
     {
       "name": "Growlithe",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 58,
       "primary_type": "Fire",
@@ -6621,8 +6620,8 @@
     },
     {
       "name": "Tentacool",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 72,
       "primary_type": "Water",
       "secondary_type": "Poison",
@@ -6823,8 +6822,8 @@
     },
     {
       "name": "Geodude",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 74,
       "primary_type": "Rock",
       "secondary_type": "Ground",
@@ -7342,8 +7341,8 @@
     },
     {
       "name": "Slowpoke",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 79,
       "primary_type": "Water",
       "secondary_type": "Psychic",
@@ -15024,8 +15023,8 @@
     },
     {
       "name": "Spinarak",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 167,
       "primary_type": "Bug",
       "secondary_type": "Poison",
@@ -23200,8 +23199,8 @@
     },
     {
       "name": "Magby",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 240,
       "primary_type": "Fire",
       "secondary_type": null,
