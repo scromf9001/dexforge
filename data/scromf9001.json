@@ -3,6 +3,7 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
+<<<<<<< HEAD
   "updated_at": "2026-07-08T05:58:50.734760+00:00",
   "trainer_stats": {
     "pokedex": {
@@ -10,6 +11,15 @@
       "unique_owned": 186,
       "total_owned": 788,
       "completion_percent": 66.91
+=======
+  "updated_at": "2026-05-18T17:58:17.318963+00:00",
+  "trainer_stats": {
+    "pokedex": {
+      "total_available": 278,
+      "unique_owned": 174,
+      "total_owned": 684,
+      "completion_percent": 62.59
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
     },
     "generation_progress": {
       "1": {
@@ -24,15 +34,25 @@
       "2": {
         "generation": 2,
         "region": "Johto",
+<<<<<<< HEAD
         "owned": 55,
         "total": 127,
         "completion_percent": 43.31,
+=======
+        "owned": 44,
+        "total": 127,
+        "completion_percent": 34.65,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
         "total_lines": 78,
         "lines_completed": 24
       }
     },
     "evolution": {
+<<<<<<< HEAD
       "total_evolutions_owned": 186,
+=======
+      "total_evolutions_owned": 174,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "total_evolutions_available": 278,
       "lines_completed": 82,
       "total_lines": 156,
@@ -42,9 +62,15 @@
         "3": 30
       },
       "stage_owned": {
+<<<<<<< HEAD
         "1": 106,
         "2": 63,
         "3": 17
+=======
+        "1": 95,
+        "2": 63,
+        "3": 16
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       }
     },
     "types": {
@@ -139,6 +165,7 @@
       "total": 11
     },
     "pokeballs": {
+<<<<<<< HEAD
       "thrown": 1374,
       "success": 408,
       "accuracy_percent": 29.69,
@@ -148,6 +175,17 @@
           "thrown": 1374,
           "success": 408,
           "accuracy_percent": 29.69
+=======
+      "thrown": 993,
+      "success": 304,
+      "accuracy_percent": 30.61,
+      "most_used": "poke ball",
+      "details": {
+        "poke ball": {
+          "thrown": 993,
+          "success": 304,
+          "accuracy_percent": 30.61
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
         },
         "great ball": {
           "thrown": 0,
@@ -167,7 +205,11 @@
       }
     },
     "journey": {
+<<<<<<< HEAD
       "watch_hours": 1367,
+=======
+      "watch_hours": 1229,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -176,6 +218,7 @@
       "total_donated": 0.0,
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
+<<<<<<< HEAD
       "streams_watched": 429,
       "chat_messages": 12681,
       "commands_run": 62266,
@@ -183,6 +226,15 @@
       "times_evolved": 53,
       "times_traded": 28,
       "times_eggs_hatched": 18,
+=======
+      "streams_watched": 392,
+      "chat_messages": 11349,
+      "commands_run": 56250,
+      "times_tagged": 2807,
+      "times_evolved": 51,
+      "times_traded": 28,
+      "times_eggs_hatched": 14,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "ball_distribution": {
         "poke ball": 100.0,
         "great ball": 0.0,
@@ -599,7 +651,11 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
+<<<<<<< HEAD
       "friendship_points": 10562
+=======
+      "friendship_points": 9776
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
     },
     {
       "name": "Charmeleon",
@@ -698,7 +754,11 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
+<<<<<<< HEAD
       "friendship_points": 10562
+=======
+      "friendship_points": 9776
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
     },
     {
       "name": "Charizard",
@@ -801,7 +861,11 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
+<<<<<<< HEAD
       "friendship_points": 10562
+=======
+      "friendship_points": 9776
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
     },
     {
       "name": "Squirtle",
@@ -1066,7 +1130,11 @@
     },
     {
       "name": "Caterpie",
+<<<<<<< HEAD
       "count": 10,
+=======
+      "count": 9,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 10,
       "primary_type": "Bug",
@@ -1339,7 +1407,11 @@
     },
     {
       "name": "Weedle",
+<<<<<<< HEAD
       "count": 9,
+=======
+      "count": 8,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 13,
       "primary_type": "Bug",
@@ -1636,7 +1708,11 @@
     },
     {
       "name": "Pidgey",
+<<<<<<< HEAD
       "count": 25,
+=======
+      "count": 24,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 16,
       "primary_type": "Normal",
@@ -1909,7 +1985,11 @@
     },
     {
       "name": "Rattata",
+<<<<<<< HEAD
       "count": 23,
+=======
+      "count": 21,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 19,
       "primary_type": "Normal",
@@ -2039,7 +2119,11 @@
     },
     {
       "name": "Spearow",
+<<<<<<< HEAD
       "count": 23,
+=======
+      "count": 20,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 21,
       "primary_type": "Normal",
@@ -2209,7 +2293,11 @@
     },
     {
       "name": "Ekans",
+<<<<<<< HEAD
       "count": 34,
+=======
+      "count": 32,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 23,
       "primary_type": "Poison",
@@ -3633,7 +3721,11 @@
     },
     {
       "name": "Jigglypuff",
+<<<<<<< HEAD
       "count": 7,
+=======
+      "count": 6,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 39,
       "primary_type": "Normal",
@@ -3809,7 +3901,11 @@
     },
     {
       "name": "Zubat",
+<<<<<<< HEAD
       "count": 10,
+=======
+      "count": 13,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 41,
       "primary_type": "Poison",
@@ -4015,7 +4111,11 @@
     },
     {
       "name": "Oddish",
+<<<<<<< HEAD
       "count": 12,
+=======
+      "count": 9,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 43,
       "primary_type": "Grass",
@@ -5172,7 +5272,11 @@
     },
     {
       "name": "Mankey",
+<<<<<<< HEAD
       "count": 6,
+=======
+      "count": 5,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 56,
       "primary_type": "Fighting",
@@ -5334,7 +5438,11 @@
     },
     {
       "name": "Growlithe",
+<<<<<<< HEAD
       "count": 10,
+=======
+      "count": 9,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 58,
       "primary_type": "Fire",
@@ -5520,7 +5628,11 @@
     },
     {
       "name": "Poliwag",
+<<<<<<< HEAD
       "count": 7,
+=======
+      "count": 5,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 60,
       "primary_type": "Water",
@@ -6333,7 +6445,11 @@
     },
     {
       "name": "Bellsprout",
+<<<<<<< HEAD
       "count": 19,
+=======
+      "count": 18,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 69,
       "primary_type": "Grass",
@@ -8956,7 +9072,11 @@
     },
     {
       "name": "Drowzee",
+<<<<<<< HEAD
       "count": 10,
+=======
+      "count": 9,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 96,
       "primary_type": "Psychic",
@@ -9636,7 +9756,11 @@
     },
     {
       "name": "Cubone",
+<<<<<<< HEAD
       "count": 5,
+=======
+      "count": 4,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 104,
       "primary_type": "Ground",
@@ -10043,7 +10167,11 @@
     },
     {
       "name": "Koffing",
+<<<<<<< HEAD
       "count": 9,
+=======
+      "count": 8,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 109,
       "primary_type": "Poison",
@@ -11709,7 +11837,11 @@
     },
     {
       "name": "Magikarp",
+<<<<<<< HEAD
       "count": 19,
+=======
+      "count": 16,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
@@ -14547,7 +14679,11 @@
     },
     {
       "name": "Sentret",
+<<<<<<< HEAD
       "count": 10,
+=======
+      "count": 9,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 161,
       "primary_type": "Normal",
@@ -14677,7 +14813,11 @@
     },
     {
       "name": "Hoothoot",
+<<<<<<< HEAD
       "count": 10,
+=======
+      "count": 8,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
@@ -14847,7 +14987,11 @@
     },
     {
       "name": "Ledyba",
+<<<<<<< HEAD
       "count": 10,
+=======
+      "count": 4,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 165,
       "primary_type": "Bug",
@@ -15033,7 +15177,11 @@
     },
     {
       "name": "Spinarak",
+<<<<<<< HEAD
       "count": 11,
+=======
+      "count": 7,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 167,
       "primary_type": "Bug",
@@ -15931,7 +16079,11 @@
     },
     {
       "name": "Natu",
+<<<<<<< HEAD
       "count": 5,
+=======
+      "count": 2,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 177,
       "primary_type": "Psychic",
@@ -16117,7 +16269,11 @@
     },
     {
       "name": "Mareep",
+<<<<<<< HEAD
       "count": 5,
+=======
+      "count": 2,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 179,
       "primary_type": "Electric",
@@ -16189,7 +16345,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -20660,7 +20816,11 @@
     },
     {
       "name": "Snubbull",
+<<<<<<< HEAD
       "count": 7,
+=======
+      "count": 6,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 209,
       "primary_type": "Fairy",
@@ -21357,7 +21517,11 @@
     },
     {
       "name": "Slugma",
+<<<<<<< HEAD
       "count": 3,
+=======
+      "count": 2,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 218,
       "primary_type": "Fire",
@@ -21551,7 +21715,11 @@
     },
     {
       "name": "Swinub",
+<<<<<<< HEAD
       "count": 5,
+=======
+      "count": 3,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 220,
       "primary_type": "Ice",
@@ -21808,7 +21976,11 @@
     },
     {
       "name": "Remoraid",
+<<<<<<< HEAD
       "count": 3,
+=======
+      "count": 2,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 223,
       "primary_type": "Water",
@@ -23136,7 +23308,11 @@
     },
     {
       "name": "Elekid",
+<<<<<<< HEAD
       "count": 5,
+=======
+      "count": 4,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
       "owned": true,
       "pokedex_number": 239,
       "primary_type": "Electric",
@@ -24281,7 +24457,11 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "2",
+<<<<<<< HEAD
     "friendship_points": 10562,
+=======
+    "friendship_points": 9776,
+>>>>>>> 7eccc65c6049e72bccfae1675fb9c12106b096c7
     "times_pet": 5,
     "times_fed": 3
   }
