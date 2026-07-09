@@ -3,12 +3,12 @@
     "username": "nsx99x",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/84925440-9af3-4345-8c6f-ce8519653903-profile_image-300x300.png"
   },
-  "updated_at": "2026-07-08T15:17:48.265289+00:00",
+  "updated_at": "2026-07-09T16:38:13.237946+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 136,
-      "total_owned": 485,
+      "total_owned": 492,
       "completion_percent": 48.92
     },
     "generation_progress": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 452,
-      "success": 192,
-      "accuracy_percent": 42.48,
+      "thrown": 471,
+      "success": 198,
+      "accuracy_percent": 42.04,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 24.79
         },
         "great ball": {
-          "thrown": 334,
-          "success": 163,
-          "accuracy_percent": 48.8
+          "thrown": 353,
+          "success": 169,
+          "accuracy_percent": 47.88
         },
         "ultra ball": {
           "thrown": 1,
@@ -167,32 +167,32 @@
       }
     },
     "journey": {
-      "watch_hours": 725,
-      "follow_age": "1 Year(s), 2 Month(s), 29 Day(s)",
-      "sub_age": "11 Day(s)",
+      "watch_hours": 730,
+      "follow_age": "1 Year(s), 3 Month(s), 1 Day(s)",
+      "sub_age": "12 Day(s)",
       "sub_months": 7,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 260,
-      "chat_messages": 53004,
-      "commands_run": 61590,
-      "times_tagged": 7416,
+      "streams_watched": 261,
+      "chat_messages": 53402,
+      "commands_run": 62129,
+      "times_tagged": 7479,
       "times_evolved": 37,
       "times_traded": 0,
-      "times_eggs_hatched": 8,
+      "times_eggs_hatched": 9,
       "ball_distribution": {
-        "poke ball": 25.88,
-        "great ball": 73.89,
-        "ultra ball": 0.22,
+        "poke ball": 24.84,
+        "great ball": 74.95,
+        "ultra ball": 0.21,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
         "Fire Stone": 1,
-        "Great Ball": 99,
+        "Great Ball": 97,
         "Moon Stone": 1,
         "Thunder Stone": 1,
         "Ultra Ball": 53
@@ -3903,7 +3903,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 9172
+      "friendship_points": 9490
     },
     {
       "name": "Golbat",
@@ -4006,7 +4006,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 9172
+      "friendship_points": 9490
     },
     {
       "name": "Oddish",
@@ -5005,7 +5005,7 @@
     },
     {
       "name": "Psyduck",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 54,
       "primary_type": "Water",
@@ -8205,7 +8205,7 @@
     },
     {
       "name": "Grimer",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 88,
       "primary_type": "Poison",
@@ -8283,7 +8283,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -14842,7 +14842,7 @@
     },
     {
       "name": "Ledyba",
-      "count": 5,
+      "count": 7,
       "owned": true,
       "pokedex_number": 165,
       "primary_type": "Bug",
@@ -15313,7 +15313,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 9172,
+      "friendship_points": 9490,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -15742,7 +15742,7 @@
     },
     {
       "name": "Togepi",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 175,
       "primary_type": "Fairy",
@@ -15816,7 +15816,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -20655,7 +20655,7 @@
     },
     {
       "name": "Snubbull",
-      "count": 6,
+      "count": 8,
       "owned": true,
       "pokedex_number": 209,
       "primary_type": "Fairy",
@@ -24276,7 +24276,7 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 9172,
+    "friendship_points": 9490,
     "times_pet": 8,
     "times_fed": 0
   }
