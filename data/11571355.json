@@ -3,7 +3,7 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-07-10T15:25:47.325459+00:00",
+  "updated_at": "2026-07-13T15:49:03.482381+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -166,19 +166,19 @@
       }
     },
     "journey": {
-      "watch_hours": 112,
-      "follow_age": "2 Month(s), 16 Day(s)",
-      "sub_age": "<1 Day",
+      "watch_hours": 116,
+      "follow_age": "2 Month(s), 19 Day(s)",
+      "sub_age": "3 Day(s)",
       "sub_months": 1,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 38,
-      "chat_messages": 1274,
-      "commands_run": 1410,
-      "times_tagged": 293,
+      "streams_watched": 39,
+      "chat_messages": 1364,
+      "commands_run": 1507,
+      "times_tagged": 316,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
