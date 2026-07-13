@@ -3,13 +3,13 @@
     "username": "nsx99x",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/84925440-9af3-4345-8c6f-ce8519653903-profile_image-300x300.png"
   },
-  "updated_at": "2026-07-12T19:34:15.373681+00:00",
+  "updated_at": "2026-07-13T19:20:57.351328+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 146,
-      "total_owned": 483,
-      "completion_percent": 52.52
+      "unique_owned": 149,
+      "total_owned": 478,
+      "completion_percent": 53.6
     },
     "generation_progress": {
       "1": {
@@ -24,17 +24,17 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 40,
+        "owned": 43,
         "total": 127,
-        "completion_percent": 31.5,
+        "completion_percent": 33.86,
         "total_lines": 78,
-        "lines_completed": 13
+        "lines_completed": 16
       }
     },
     "evolution": {
-      "total_evolutions_owned": 146,
+      "total_evolutions_owned": 149,
       "total_evolutions_available": 278,
-      "lines_completed": 53,
+      "lines_completed": 56,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -43,7 +43,7 @@
       },
       "stage_owned": {
         "1": 101,
-        "2": 37,
+        "2": 40,
         "3": 8
       }
     },
@@ -64,9 +64,9 @@
         "completion_percent": 61.36
       },
       "bug": {
-        "owned": 15,
+        "owned": 17,
         "total": 22,
-        "completion_percent": 68.18
+        "completion_percent": 77.27
       },
       "normal": {
         "owned": 26,
@@ -99,9 +99,9 @@
         "completion_percent": 66.67
       },
       "psychic": {
-        "owned": 7,
+        "owned": 8,
         "total": 42,
-        "completion_percent": 16.67
+        "completion_percent": 19.05
       },
       "rock": {
         "owned": 5,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 518,
-      "success": 223,
-      "accuracy_percent": 43.05,
+      "thrown": 520,
+      "success": 224,
+      "accuracy_percent": 43.08,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 24.37
         },
         "great ball": {
-          "thrown": 398,
-          "success": 194,
-          "accuracy_percent": 48.74
+          "thrown": 400,
+          "success": 195,
+          "accuracy_percent": 48.75
         },
         "ultra ball": {
           "thrown": 1,
@@ -167,25 +167,25 @@
       }
     },
     "journey": {
-      "watch_hours": 742,
-      "follow_age": "1 Year(s), 3 Month(s), 4 Day(s)",
-      "sub_age": "16 Day(s)",
+      "watch_hours": 743,
+      "follow_age": "1 Year(s), 3 Month(s), 5 Day(s)",
+      "sub_age": "17 Day(s)",
       "sub_months": 7,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 264,
-      "chat_messages": 54291,
-      "commands_run": 63535,
-      "times_tagged": 7667,
-      "times_evolved": 55,
+      "streams_watched": 265,
+      "chat_messages": 54337,
+      "commands_run": 63621,
+      "times_tagged": 7683,
+      "times_evolved": 58,
       "times_traded": 0,
       "times_eggs_hatched": 9,
       "ball_distribution": {
-        "poke ball": 22.97,
-        "great ball": 76.83,
+        "poke ball": 22.88,
+        "great ball": 76.92,
         "ultra ball": 0.19,
         "master ball": 0.0
       },
@@ -3902,7 +3902,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 10226
+      "friendship_points": 10249
     },
     {
       "name": "Golbat",
@@ -4005,7 +4005,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 10226
+      "friendship_points": 10249
     },
     {
       "name": "Oddish",
@@ -14841,7 +14841,7 @@
     },
     {
       "name": "Ledyba",
-      "count": 7,
+      "count": 4,
       "owned": true,
       "pokedex_number": 165,
       "primary_type": "Bug",
@@ -14926,7 +14926,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -14934,8 +14934,8 @@
     },
     {
       "name": "Ledian",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 166,
       "primary_type": "Bug",
       "secondary_type": "Flying",
@@ -15019,7 +15019,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -15027,7 +15027,7 @@
     },
     {
       "name": "Spinarak",
-      "count": 4,
+      "count": 1,
       "owned": true,
       "pokedex_number": 167,
       "primary_type": "Bug",
@@ -15112,16 +15112,16 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
-      "evolvable_now": true,
+      "line_complete": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Ariados",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 168,
       "primary_type": "Bug",
       "secondary_type": "Poison",
@@ -15205,7 +15205,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -15312,7 +15312,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 10226,
+      "friendship_points": 10249,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -15925,7 +15925,7 @@
     },
     {
       "name": "Natu",
-      "count": 6,
+      "count": 3,
       "owned": true,
       "pokedex_number": 177,
       "primary_type": "Psychic",
@@ -16010,7 +16010,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -16018,8 +16018,8 @@
     },
     {
       "name": "Xatu",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 178,
       "primary_type": "Psychic",
       "secondary_type": "Flying",
@@ -16103,7 +16103,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -17371,7 +17371,7 @@
     },
     {
       "name": "Yanma",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 193,
       "primary_type": "Bug",
@@ -24275,7 +24275,7 @@
     "primary_type": "Poison",
     "secondary_type": "Flying",
     "evolution_line_id": "17",
-    "friendship_points": 10226,
+    "friendship_points": 10249,
     "times_pet": 8,
     "times_fed": 0
   }
