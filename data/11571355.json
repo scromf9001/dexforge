@@ -3,36 +3,36 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-07-14T15:22:21.142004+00:00",
+  "updated_at": "2026-07-14T15:55:51.362608+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 7,
+      "unique_owned": 5,
       "total_owned": 7,
-      "completion_percent": 2.52
+      "completion_percent": 1.8
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 5,
+        "owned": 4,
         "total": 151,
-        "completion_percent": 3.31,
+        "completion_percent": 2.65,
         "total_lines": 78,
         "lines_completed": 0
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 2,
+        "owned": 1,
         "total": 127,
-        "completion_percent": 1.57,
+        "completion_percent": 0.79,
         "total_lines": 78,
         "lines_completed": 0
       }
     },
     "evolution": {
-      "total_evolutions_owned": 7,
+      "total_evolutions_owned": 5,
       "total_evolutions_available": 278,
       "lines_completed": 0,
       "total_lines": 156,
@@ -42,14 +42,14 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 7
+        "1": 5
       }
     },
     "types": {
       "grass": {
-        "owned": 2,
+        "owned": 0,
         "total": 21,
-        "completion_percent": 9.52
+        "completion_percent": 0.0
       },
       "fire": {
         "owned": 0,
@@ -165,7 +165,7 @@
       }
     },
     "journey": {
-      "watch_hours": 120,
+      "watch_hours": 121,
       "follow_age": "2 Month(s), 20 Day(s)",
       "sub_age": "4 Day(s)",
       "sub_months": 1,
@@ -175,9 +175,9 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 40,
-      "chat_messages": 1436,
-      "commands_run": 1590,
-      "times_tagged": 334,
+      "chat_messages": 1457,
+      "commands_run": 1615,
+      "times_tagged": 348,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
@@ -196,8 +196,8 @@
   "pokemon": [
     {
       "name": "Bulbasaur",
-      "count": 1,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 1,
       "primary_type": "Grass",
       "secondary_type": "Poison",
@@ -1898,7 +1898,7 @@
     },
     {
       "name": "Rattata",
-      "count": 1,
+      "count": 3,
       "owned": true,
       "pokedex_number": 19,
       "primary_type": "Normal",
@@ -1956,7 +1956,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -16824,8 +16824,8 @@
     },
     {
       "name": "Hoppip",
-      "count": 1,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 187,
       "primary_type": "Grass",
       "secondary_type": "Flying",
