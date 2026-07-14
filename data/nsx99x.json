@@ -3,12 +3,12 @@
     "username": "nsx99x",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/84925440-9af3-4345-8c6f-ce8519653903-profile_image-300x300.png"
   },
-  "updated_at": "2026-07-13T19:48:50.017292+00:00",
+  "updated_at": "2026-07-14T18:00:42.278218+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 152,
-      "total_owned": 465,
+      "total_owned": 476,
       "completion_percent": 54.68
     },
     "generation_progress": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 521,
-      "success": 225,
-      "accuracy_percent": 43.19,
+      "thrown": 529,
+      "success": 230,
+      "accuracy_percent": 43.48,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 24.37
         },
         "great ball": {
-          "thrown": 401,
-          "success": 196,
-          "accuracy_percent": 48.88
+          "thrown": 409,
+          "success": 201,
+          "accuracy_percent": 49.14
         },
         "ultra ball": {
           "thrown": 1,
@@ -167,8 +167,8 @@
       }
     },
     "journey": {
-      "watch_hours": 743,
-      "follow_age": "1 Year(s), 3 Month(s), 5 Day(s)",
+      "watch_hours": 745,
+      "follow_age": "1 Year(s), 3 Month(s), 6 Day(s)",
       "sub_age": "17 Day(s)",
       "sub_months": 7,
       "subs_gifted": 0,
@@ -176,22 +176,22 @@
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 265,
-      "chat_messages": 54402,
-      "commands_run": 63748,
-      "times_tagged": 7706,
+      "streams_watched": 266,
+      "chat_messages": 54553,
+      "commands_run": 64011,
+      "times_tagged": 7743,
       "times_evolved": 64,
-      "times_traded": 0,
+      "times_traded": 1,
       "times_eggs_hatched": 9,
       "ball_distribution": {
-        "poke ball": 22.84,
-        "great ball": 76.97,
+        "poke ball": 22.5,
+        "great ball": 77.32,
         "ultra ball": 0.19,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 95,
+        "Great Ball": 93,
         "Moon Stone": 1,
         "Thunder Stone": 1,
         "Ultra Ball": 53
@@ -1903,7 +1903,7 @@
     },
     {
       "name": "Rattata",
-      "count": 11,
+      "count": 14,
       "owned": true,
       "pokedex_number": 19,
       "primary_type": "Normal",
@@ -2203,7 +2203,7 @@
     },
     {
       "name": "Ekans",
-      "count": 13,
+      "count": 14,
       "owned": true,
       "pokedex_number": 23,
       "primary_type": "Poison",
@@ -3902,7 +3902,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 10276
+      "friendship_points": 10316
     },
     {
       "name": "Golbat",
@@ -4005,7 +4005,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 10276
+      "friendship_points": 10316
     },
     {
       "name": "Oddish",
@@ -5004,7 +5004,7 @@
     },
     {
       "name": "Psyduck",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 54,
       "primary_type": "Water",
@@ -5328,7 +5328,7 @@
     },
     {
       "name": "Growlithe",
-      "count": 7,
+      "count": 8,
       "owned": true,
       "pokedex_number": 58,
       "primary_type": "Fire",
@@ -6624,7 +6624,7 @@
     },
     {
       "name": "Tentacool",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 72,
       "primary_type": "Water",
@@ -9630,7 +9630,7 @@
     },
     {
       "name": "Cubone",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 104,
       "primary_type": "Ground",
@@ -9704,7 +9704,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -15312,7 +15312,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 10276,
+      "friendship_points": 10316,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -16453,7 +16453,7 @@
     },
     {
       "name": "Marill",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 183,
       "primary_type": "Water",
@@ -16546,7 +16546,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 60
     },
     {
       "name": "Azumarill",
@@ -16643,9 +16643,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0,
+      "friendship_points": 60,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 0.0
+      "friendship_progress_percent": 10.0
     },
     {
       "name": "Sudowoodo",
@@ -20225,7 +20225,7 @@
     },
     {
       "name": "Pineco",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 204,
       "primary_type": "Bug",
@@ -20299,7 +20299,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -21008,7 +21008,7 @@
     },
     {
       "name": "Shuckle",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 213,
       "primary_type": "Bug",
@@ -24305,13 +24305,13 @@
     }
   ],
   "companion": {
-    "name": "Zubat",
-    "pokedex_number": 41,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/41.svg",
-    "primary_type": "Poison",
-    "secondary_type": "Flying",
-    "evolution_line_id": "17",
-    "friendship_points": 10276,
+    "name": "Marill",
+    "pokedex_number": 183,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/183.svg",
+    "primary_type": "Water",
+    "secondary_type": "Fairy",
+    "evolution_line_id": "90",
+    "friendship_points": 60,
     "times_pet": 8,
     "times_fed": 0
   }
