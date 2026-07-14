@@ -3,12 +3,12 @@
     "username": "iamwojogt",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/7dcbb483-ebc7-499b-9620-1e8ad9bd8a40-profile_image-300x300.png"
   },
-  "updated_at": "2026-07-14T16:18:51.307298+00:00",
+  "updated_at": "2026-07-14T17:09:59.647365+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 136,
-      "total_owned": 281,
+      "total_owned": 282,
       "completion_percent": 48.92
     },
     "generation_progress": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 312,
-      "success": 143,
-      "accuracy_percent": 45.83,
+      "thrown": 315,
+      "success": 144,
+      "accuracy_percent": 45.71,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 46.15
         },
         "great ball": {
-          "thrown": 239,
-          "success": 111,
-          "accuracy_percent": 46.44
+          "thrown": 242,
+          "success": 112,
+          "accuracy_percent": 46.28
         },
         "ultra ball": {
           "thrown": 18,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 336,
+      "watch_hours": 337,
       "follow_age": "1 Year(s), 2 Month(s), 11 Day(s)",
       "sub_age": "10 Month(s), 7 Day(s)",
       "sub_months": 11,
@@ -177,17 +177,17 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 234,
-      "chat_messages": 16936,
-      "commands_run": 22889,
-      "times_tagged": 2943,
+      "chat_messages": 17016,
+      "commands_run": 22996,
+      "times_tagged": 2958,
       "times_evolved": 15,
       "times_traded": 0,
       "times_eggs_hatched": 3,
       "ball_distribution": {
-        "poke ball": 16.67,
-        "great ball": 76.6,
-        "ultra ball": 5.77,
-        "master ball": 0.96
+        "poke ball": 16.51,
+        "great ball": 76.83,
+        "ultra ball": 5.71,
+        "master ball": 0.95
       },
       "pokebag": {
         "Great Ball": 98,
@@ -13079,7 +13079,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 7016
+      "friendship_points": 7077
     },
     {
       "name": "Zapdos",
@@ -21006,7 +21006,7 @@
     },
     {
       "name": "Shuckle",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 213,
       "primary_type": "Bug",
@@ -24309,8 +24309,8 @@
     "primary_type": "Ice",
     "secondary_type": "Flying",
     "evolution_line_id": "73",
-    "friendship_points": 7016,
-    "times_pet": 6,
+    "friendship_points": 7077,
+    "times_pet": 7,
     "times_fed": 0
   }
 }
