@@ -3,7 +3,7 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-07-13T15:49:03.482381+00:00",
+  "updated_at": "2026-07-14T15:22:21.142004+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -42,8 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 6,
-        "2": 1
+        "1": 7
       }
     },
     "types": {
@@ -59,8 +58,8 @@
       },
       "water": {
         "owned": 2,
-        "total": 44,
-        "completion_percent": 4.55
+        "total": 45,
+        "completion_percent": 4.44
       },
       "bug": {
         "owned": 0,
@@ -68,9 +67,9 @@
         "completion_percent": 0.0
       },
       "normal": {
-        "owned": 0,
-        "total": 38,
-        "completion_percent": 0.0
+        "owned": 1,
+        "total": 37,
+        "completion_percent": 2.7
       },
       "poison": {
         "owned": 1,
@@ -78,9 +77,9 @@
         "completion_percent": 6.67
       },
       "electric": {
-        "owned": 1,
+        "owned": 0,
         "total": 15,
-        "completion_percent": 6.67
+        "completion_percent": 0.0
       },
       "ground": {
         "owned": 1,
@@ -138,15 +137,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 18,
+      "thrown": 19,
       "success": 7,
-      "accuracy_percent": 38.89,
+      "accuracy_percent": 36.84,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 17,
+          "thrown": 18,
           "success": 6,
-          "accuracy_percent": 35.29
+          "accuracy_percent": 33.33
         },
         "great ball": {
           "thrown": 1,
@@ -166,25 +165,25 @@
       }
     },
     "journey": {
-      "watch_hours": 116,
-      "follow_age": "2 Month(s), 19 Day(s)",
-      "sub_age": "3 Day(s)",
+      "watch_hours": 120,
+      "follow_age": "2 Month(s), 20 Day(s)",
+      "sub_age": "4 Day(s)",
       "sub_months": 1,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 39,
-      "chat_messages": 1364,
-      "commands_run": 1507,
-      "times_tagged": 316,
+      "streams_watched": 40,
+      "chat_messages": 1436,
+      "commands_run": 1590,
+      "times_tagged": 334,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 94.44,
-        "great ball": 5.56,
+        "poke ball": 94.74,
+        "great ball": 5.26,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
@@ -1899,8 +1898,8 @@
     },
     {
       "name": "Rattata",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 19,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -2369,8 +2368,8 @@
     },
     {
       "name": "Pikachu",
-      "count": 1,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 25,
       "primary_type": "Electric",
       "secondary_type": null,
@@ -20815,8 +20814,8 @@
       "count": 0,
       "owned": false,
       "pokedex_number": 211,
-      "primary_type": "Normal",
-      "secondary_type": null,
+      "primary_type": "Water",
+      "secondary_type": "Poison",
       "generation": 2,
       "region": "Johto",
       "rarity": "common",
@@ -20845,13 +20844,49 @@
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/211.svg",
       "strengths": [
         {
-          "type": "ghost",
-          "multiplier": 0.0
+          "type": "fire",
+          "multiplier": 0.5
+        },
+        {
+          "type": "water",
+          "multiplier": 0.5
+        },
+        {
+          "type": "ice",
+          "multiplier": 0.5
+        },
+        {
+          "type": "fighting",
+          "multiplier": 0.5
+        },
+        {
+          "type": "poison",
+          "multiplier": 0.5
+        },
+        {
+          "type": "bug",
+          "multiplier": 0.5
+        },
+        {
+          "type": "steel",
+          "multiplier": 0.5
+        },
+        {
+          "type": "fairy",
+          "multiplier": 0.5
         }
       ],
       "weaknesses": [
         {
-          "type": "fighting",
+          "type": "electric",
+          "multiplier": 2.0
+        },
+        {
+          "type": "ground",
+          "multiplier": 2.0
+        },
+        {
+          "type": "psychic",
           "multiplier": 2.0
         }
       ],
