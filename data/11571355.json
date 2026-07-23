@@ -3,21 +3,21 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-07-14T17:14:46.770399+00:00",
+  "updated_at": "2026-07-23T15:15:13.405662+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 1,
-      "total_owned": 1,
-      "completion_percent": 0.36
+      "unique_owned": 3,
+      "total_owned": 4,
+      "completion_percent": 1.08
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 1,
+        "owned": 3,
         "total": 151,
-        "completion_percent": 0.66,
+        "completion_percent": 1.99,
         "total_lines": 78,
         "lines_completed": 0
       },
@@ -32,7 +32,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 1,
+      "total_evolutions_owned": 3,
       "total_evolutions_available": 278,
       "lines_completed": 0,
       "total_lines": 156,
@@ -42,7 +42,8 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 1
+        "1": 2,
+        "2": 1
       }
     },
     "types": {
@@ -67,9 +68,9 @@
         "completion_percent": 0.0
       },
       "normal": {
-        "owned": 1,
+        "owned": 3,
         "total": 37,
-        "completion_percent": 2.7
+        "completion_percent": 8.11
       },
       "poison": {
         "owned": 0,
@@ -137,15 +138,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 20,
-      "success": 7,
-      "accuracy_percent": 35.0,
+      "thrown": 26,
+      "success": 10,
+      "accuracy_percent": 38.46,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 19,
-          "success": 6,
-          "accuracy_percent": 31.58
+          "thrown": 24,
+          "success": 8,
+          "accuracy_percent": 33.33
         },
         "great ball": {
           "thrown": 1,
@@ -153,9 +154,9 @@
           "accuracy_percent": 100.0
         },
         "ultra ball": {
-          "thrown": 0,
-          "success": 0,
-          "accuracy_percent": 0
+          "thrown": 1,
+          "success": 1,
+          "accuracy_percent": 100.0
         },
         "master ball": {
           "thrown": 0,
@@ -165,26 +166,26 @@
       }
     },
     "journey": {
-      "watch_hours": 122,
-      "follow_age": "2 Month(s), 20 Day(s)",
-      "sub_age": "5 Day(s)",
+      "watch_hours": 134,
+      "follow_age": "2 Month(s), 29 Day(s)",
+      "sub_age": "13 Day(s)",
       "sub_months": 1,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 40,
-      "chat_messages": 1509,
-      "commands_run": 1695,
-      "times_tagged": 373,
+      "streams_watched": 43,
+      "chat_messages": 1803,
+      "commands_run": 2074,
+      "times_tagged": 460,
       "times_evolved": 0,
       "times_traded": 4,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 95.0,
-        "great ball": 5.0,
-        "ultra ball": 0.0,
+        "poke ball": 92.31,
+        "great ball": 3.85,
+        "ultra ball": 3.85,
         "master ball": 0.0
       },
       "pokebag": {
@@ -1898,7 +1899,7 @@
     },
     {
       "name": "Rattata",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 19,
       "primary_type": "Normal",
@@ -3622,8 +3623,8 @@
     },
     {
       "name": "Jigglypuff",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 39,
       "primary_type": "Normal",
       "secondary_type": "Fairy",
@@ -3705,9 +3706,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0,
+      "friendship_points": 368,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 0.0
+      "friendship_progress_percent": 61.33
     },
     {
       "name": "Wigglytuff",
@@ -3794,7 +3795,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 368
     },
     {
       "name": "Zubat",
@@ -4869,8 +4870,8 @@
     },
     {
       "name": "Meowth",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 52,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -15732,7 +15733,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 368
     },
     {
       "name": "Togepi",
@@ -24299,5 +24300,17 @@
       "friendship_points": 0
     }
   ],
-  "companion": null
+  "companion": {
+    "name": "Jigglypuff",
+    "pokedex_number": 39,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/39.svg",
+    "primary_type": "Normal",
+    "secondary_type": "Fairy",
+    "evolution_line_id": "16",
+    "friendship_points": 368,
+    "times_pet": 2,
+    "times_fed": 0,
+    "friendship_requirement": 600,
+    "friendship_progress_percent": 61.33
+  }
 }
