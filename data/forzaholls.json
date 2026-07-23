@@ -3,12 +3,12 @@
     "username": "forzaholls",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/516b8ccb-299f-49f3-ae05-46ffda039964-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-07-23T18:36:48.024123+00:00",
+  "updated_at": "2026-07-23T18:47:50.526212+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 63,
-      "total_owned": 83,
+      "total_owned": 78,
       "completion_percent": 22.66
     },
     "generation_progress": {
@@ -42,8 +42,8 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 48,
-        "2": 15
+        "1": 45,
+        "2": 18
       }
     },
     "types": {
@@ -138,9 +138,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 232,
-      "success": 109,
-      "accuracy_percent": 46.98,
+      "thrown": 233,
+      "success": 110,
+      "accuracy_percent": 47.21,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -149,9 +149,9 @@
           "accuracy_percent": 33.33
         },
         "great ball": {
-          "thrown": 228,
-          "success": 108,
-          "accuracy_percent": 47.37
+          "thrown": 229,
+          "success": 109,
+          "accuracy_percent": 47.6
         },
         "ultra ball": {
           "thrown": 1,
@@ -176,10 +176,10 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 29,
-      "chat_messages": 2377,
-      "commands_run": 3868,
-      "times_tagged": 584,
-      "times_evolved": 15,
+      "chat_messages": 2392,
+      "commands_run": 3925,
+      "times_tagged": 592,
+      "times_evolved": 18,
       "times_traded": 0,
       "times_eggs_hatched": 3,
       "ball_distribution": {
@@ -189,7 +189,8 @@
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 67,
+        "Egg": 1,
+        "Great Ball": 66,
         "Ultra Ball": 1
       }
     }
@@ -4522,8 +4523,8 @@
     },
     {
       "name": "Venonat",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 48,
       "primary_type": "Bug",
       "secondary_type": "Poison",
@@ -4608,15 +4609,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Venomoth",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 49,
       "primary_type": "Bug",
       "secondary_type": "Poison",
@@ -8532,8 +8533,8 @@
     },
     {
       "name": "Gastly",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 92,
       "primary_type": "Ghost",
       "secondary_type": "Poison",
@@ -8628,15 +8629,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Haunter",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 93,
       "primary_type": "Ghost",
       "secondary_type": "Poison",
@@ -16542,7 +16543,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2500
+      "friendship_points": 2521
     },
     {
       "name": "Azumarill",
@@ -16639,7 +16640,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2500,
+      "friendship_points": 2521,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -16825,7 +16826,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
@@ -16917,7 +16918,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -17181,8 +17182,8 @@
     },
     {
       "name": "Sunkern",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 191,
       "primary_type": "Grass",
       "secondary_type": null,
@@ -17267,15 +17268,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Sunflora",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 192,
       "primary_type": "Grass",
       "secondary_type": null,
@@ -24307,8 +24308,8 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 2500,
-    "times_pet": 6,
+    "friendship_points": 2521,
+    "times_pet": 7,
     "times_fed": 1
   }
 }
