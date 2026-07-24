@@ -3,7 +3,7 @@
     "username": "litlpotatr",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f52f8e70-e4df-4dcc-ae00-b135c209e5e4-profile_image-300x300.png"
   },
-  "updated_at": "2026-07-24T15:57:26.179602+00:00",
+  "updated_at": "2026-07-24T16:01:17.892021+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -177,9 +177,9 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 307,
-      "chat_messages": 24103,
-      "commands_run": 37286,
-      "times_tagged": 4190,
+      "chat_messages": 24107,
+      "commands_run": 37296,
+      "times_tagged": 4193,
       "times_evolved": 55,
       "times_traded": 10,
       "times_eggs_hatched": 20,
@@ -5416,7 +5416,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 21919
+      "friendship_points": 21923
     },
     {
       "name": "Arcanine",
@@ -5509,7 +5509,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 21919
+      "friendship_points": 21923
     },
     {
       "name": "Poliwag",
@@ -24310,7 +24310,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "25",
-    "friendship_points": 21919,
+    "friendship_points": 21923,
     "times_pet": 43,
     "times_fed": 3
   }
