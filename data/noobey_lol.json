@@ -3,21 +3,21 @@
     "username": "noobey_lol",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1383d9f1-4a08-49fe-a37d-674a5d2f1626-profile_image-300x300.png"
   },
-  "updated_at": "2026-07-12T16:59:58.253037+00:00",
+  "updated_at": "2026-07-24T19:46:54.589287+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 1,
-      "total_owned": 1,
-      "completion_percent": 0.36
+      "unique_owned": 2,
+      "total_owned": 2,
+      "completion_percent": 0.72
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 1,
+        "owned": 2,
         "total": 151,
-        "completion_percent": 0.66,
+        "completion_percent": 1.32,
         "total_lines": 78,
         "lines_completed": 0
       },
@@ -32,7 +32,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 1,
+      "total_evolutions_owned": 2,
       "total_evolutions_available": 278,
       "lines_completed": 0,
       "total_lines": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 1
+        "1": 2
       }
     },
     "types": {
@@ -58,7 +58,7 @@
       },
       "water": {
         "owned": 0,
-        "total": 44,
+        "total": 45,
         "completion_percent": 0.0
       },
       "bug": {
@@ -68,7 +68,7 @@
       },
       "normal": {
         "owned": 0,
-        "total": 38,
+        "total": 37,
         "completion_percent": 0.0
       },
       "poison": {
@@ -97,9 +97,9 @@
         "completion_percent": 0.0
       },
       "psychic": {
-        "owned": 0,
+        "owned": 1,
         "total": 42,
-        "completion_percent": 0.0
+        "completion_percent": 2.38
       },
       "rock": {
         "owned": 0,
@@ -137,8 +137,8 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1,
-      "success": 1,
+      "thrown": 2,
+      "success": 2,
       "accuracy_percent": 100.0,
       "most_used": "great ball",
       "details": {
@@ -148,8 +148,8 @@
           "accuracy_percent": 0
         },
         "great ball": {
-          "thrown": 1,
-          "success": 1,
+          "thrown": 2,
+          "success": 2,
           "accuracy_percent": 100.0
         },
         "ultra ball": {
@@ -165,8 +165,8 @@
       }
     },
     "journey": {
-      "watch_hours": 0,
-      "follow_age": "<1 Day",
+      "watch_hours": 1,
+      "follow_age": "12 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
       "subs_gifted": 0,
@@ -174,10 +174,10 @@
       "total_donated": 0.0,
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
-      "streams_watched": 1,
-      "chat_messages": 7,
-      "commands_run": 21,
-      "times_tagged": 4,
+      "streams_watched": 2,
+      "chat_messages": 9,
+      "commands_run": 33,
+      "times_tagged": 6,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
@@ -5811,8 +5811,8 @@
     },
     {
       "name": "Abra",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 63,
       "primary_type": "Psychic",
       "secondary_type": null,
@@ -20813,8 +20813,8 @@
       "count": 0,
       "owned": false,
       "pokedex_number": 211,
-      "primary_type": "Normal",
-      "secondary_type": null,
+      "primary_type": "Water",
+      "secondary_type": "Poison",
       "generation": 2,
       "region": "Johto",
       "rarity": "common",
@@ -20843,13 +20843,49 @@
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/211.svg",
       "strengths": [
         {
-          "type": "ghost",
-          "multiplier": 0.0
+          "type": "fire",
+          "multiplier": 0.5
+        },
+        {
+          "type": "water",
+          "multiplier": 0.5
+        },
+        {
+          "type": "ice",
+          "multiplier": 0.5
+        },
+        {
+          "type": "fighting",
+          "multiplier": 0.5
+        },
+        {
+          "type": "poison",
+          "multiplier": 0.5
+        },
+        {
+          "type": "bug",
+          "multiplier": 0.5
+        },
+        {
+          "type": "steel",
+          "multiplier": 0.5
+        },
+        {
+          "type": "fairy",
+          "multiplier": 0.5
         }
       ],
       "weaknesses": [
         {
-          "type": "fighting",
+          "type": "electric",
+          "multiplier": 2.0
+        },
+        {
+          "type": "ground",
+          "multiplier": 2.0
+        },
+        {
+          "type": "psychic",
           "multiplier": 2.0
         }
       ],
