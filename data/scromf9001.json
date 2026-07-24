@@ -3,12 +3,12 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-07-23T18:34:44.687365+00:00",
+  "updated_at": "2026-07-24T16:03:07.878847+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 193,
-      "total_owned": 834,
+      "total_owned": 820,
       "completion_percent": 69.42
     },
     "generation_progress": {
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1583,
-      "success": 477,
-      "accuracy_percent": 30.13,
+      "thrown": 1593,
+      "success": 482,
+      "accuracy_percent": 30.26,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 1583,
-          "success": 477,
-          "accuracy_percent": 30.13
+          "thrown": 1593,
+          "success": 482,
+          "accuracy_percent": 30.26
         },
         "great ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 1415,
+      "watch_hours": 1417,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -176,11 +176,11 @@
       "total_donated": 0.0,
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
-      "streams_watched": 439,
-      "chat_messages": 13236,
-      "commands_run": 65292,
-      "times_tagged": 3159,
-      "times_evolved": 64,
+      "streams_watched": 440,
+      "chat_messages": 13281,
+      "commands_run": 65465,
+      "times_tagged": 3172,
+      "times_evolved": 65,
       "times_traded": 29,
       "times_eggs_hatched": 19,
       "ball_distribution": {
@@ -599,7 +599,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 13431
+      "friendship_points": 13570
     },
     {
       "name": "Charmeleon",
@@ -698,7 +698,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 13431
+      "friendship_points": 13570
     },
     {
       "name": "Charizard",
@@ -801,7 +801,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 13431
+      "friendship_points": 13570
     },
     {
       "name": "Squirtle",
@@ -2986,7 +2986,7 @@
     },
     {
       "name": "Nidoran (M)",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 32,
       "primary_type": "Poison",
@@ -9272,7 +9272,7 @@
     },
     {
       "name": "Voltorb",
-      "count": 7,
+      "count": 8,
       "owned": true,
       "pokedex_number": 100,
       "primary_type": "Electric",
@@ -11709,7 +11709,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 21,
+      "count": 1,
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
@@ -11783,14 +11783,14 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Gyarados",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 130,
       "primary_type": "Water",
@@ -16835,7 +16835,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
@@ -17464,7 +17464,7 @@
     },
     {
       "name": "Wooper",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 194,
       "primary_type": "Water",
@@ -21587,7 +21587,7 @@
     },
     {
       "name": "Swinub",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 220,
       "primary_type": "Ice",
@@ -24317,7 +24317,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "2",
-    "friendship_points": 13431,
+    "friendship_points": 13570,
     "times_pet": 5,
     "times_fed": 3
   }
