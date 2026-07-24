@@ -3,12 +3,12 @@
     "username": "demiplays6586",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-300x300.png"
   },
-  "updated_at": "2026-07-24T15:58:57.126721+00:00",
+  "updated_at": "2026-07-24T16:46:00.794786+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 5,
-      "total_owned": 5,
+      "total_owned": 6,
       "completion_percent": 1.8
     },
     "generation_progress": {
@@ -137,9 +137,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 10,
-      "success": 5,
-      "accuracy_percent": 50.0,
+      "thrown": 11,
+      "success": 6,
+      "accuracy_percent": 54.55,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -148,9 +148,9 @@
           "accuracy_percent": 33.33
         },
         "great ball": {
-          "thrown": 7,
-          "success": 4,
-          "accuracy_percent": 57.14
+          "thrown": 8,
+          "success": 5,
+          "accuracy_percent": 62.5
         },
         "ultra ball": {
           "thrown": 0,
@@ -175,20 +175,20 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 3,
-      "chat_messages": 180,
-      "commands_run": 240,
-      "times_tagged": 34,
+      "chat_messages": 182,
+      "commands_run": 250,
+      "times_tagged": 37,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 30.0,
-        "great ball": 70.0,
+        "poke ball": 27.27,
+        "great ball": 72.73,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 8
+        "Great Ball": 9
       }
     }
   },
@@ -2197,7 +2197,7 @@
     },
     {
       "name": "Ekans",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 23,
       "primary_type": "Poison",
