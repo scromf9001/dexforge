@@ -3,12 +3,12 @@
     "username": "hollys_house",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/516b8ccb-299f-49f3-ae05-46ffda039964-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-03T19:00:56.575461+00:00",
+  "updated_at": "2026-08-03T19:04:23.772880+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 65,
-      "total_owned": 85,
+      "total_owned": 86,
       "completion_percent": 23.38
     },
     "generation_progress": {
@@ -138,9 +138,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 255,
-      "success": 117,
-      "accuracy_percent": 45.88,
+      "thrown": 257,
+      "success": 118,
+      "accuracy_percent": 45.91,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -149,9 +149,9 @@
           "accuracy_percent": 33.33
         },
         "great ball": {
-          "thrown": 251,
-          "success": 116,
-          "accuracy_percent": 46.22
+          "thrown": 253,
+          "success": 117,
+          "accuracy_percent": 46.25
         },
         "ultra ball": {
           "thrown": 1,
@@ -176,21 +176,21 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 33,
-      "chat_messages": 2634,
-      "commands_run": 4320,
-      "times_tagged": 620,
+      "chat_messages": 2641,
+      "commands_run": 4339,
+      "times_tagged": 622,
       "times_evolved": 18,
       "times_traded": 0,
       "times_eggs_hatched": 3,
       "ball_distribution": {
-        "poke ball": 1.18,
-        "great ball": 98.43,
+        "poke ball": 1.17,
+        "great ball": 98.44,
         "ultra ball": 0.39,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 55,
+        "Great Ball": 54,
         "Ultra Ball": 1
       }
     }
@@ -4523,7 +4523,7 @@
     },
     {
       "name": "Venonat",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 48,
       "primary_type": "Bug",
