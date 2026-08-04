@@ -3,12 +3,12 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-04T17:13:10.236581+00:00",
+  "updated_at": "2026-08-04T17:17:29.258924+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 135,
-      "total_owned": 231,
+      "total_owned": 229,
       "completion_percent": 48.56
     },
     "generation_progress": {
@@ -42,8 +42,8 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 86,
-        "2": 45,
+        "1": 85,
+        "2": 46,
         "3": 4
       }
     },
@@ -177,10 +177,10 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 141,
-      "chat_messages": 24541,
-      "commands_run": 33259,
-      "times_tagged": 4497,
-      "times_evolved": 69,
+      "chat_messages": 24562,
+      "commands_run": 33322,
+      "times_tagged": 4507,
+      "times_evolved": 70,
       "times_traded": 5,
       "times_eggs_hatched": 2,
       "ball_distribution": {
@@ -12089,7 +12089,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2679
+      "friendship_points": 2682
     },
     {
       "name": "Vaporeon",
@@ -12194,7 +12194,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2679
+      "friendship_points": 2682
     },
     {
       "name": "Jolteon",
@@ -12291,7 +12291,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2679
+      "friendship_points": 2682
     },
     {
       "name": "Flareon",
@@ -12408,7 +12408,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2679
+      "friendship_points": 2682
     },
     {
       "name": "Porygon",
@@ -16543,7 +16543,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 11
     },
     {
       "name": "Azumarill",
@@ -16640,9 +16640,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0,
+      "friendship_points": 11,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 0.0
+      "friendship_progress_percent": 1.83
     },
     {
       "name": "Sudowoodo",
@@ -17714,7 +17714,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2679,
+      "friendship_points": 2682,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17821,7 +17821,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2679,
+      "friendship_points": 2682,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -21835,8 +21835,8 @@
     },
     {
       "name": "Remoraid",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 223,
       "primary_type": "Water",
       "secondary_type": null,
@@ -21909,15 +21909,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Octillery",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 224,
       "primary_type": "Water",
       "secondary_type": null,
@@ -24302,14 +24302,14 @@
     }
   ],
   "companion": {
-    "name": "Eevee",
-    "pokedex_number": 133,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/133.svg",
-    "primary_type": "Normal",
-    "secondary_type": null,
-    "evolution_line_id": "67",
-    "friendship_points": 2679,
-    "times_pet": 24,
+    "name": "Marill",
+    "pokedex_number": 183,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/183.svg",
+    "primary_type": "Water",
+    "secondary_type": "Fairy",
+    "evolution_line_id": "90",
+    "friendship_points": 11,
+    "times_pet": 25,
     "times_fed": 1
   }
 }
