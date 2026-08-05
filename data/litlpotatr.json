@@ -3,12 +3,12 @@
     "username": "litlpotatr",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f52f8e70-e4df-4dcc-ae00-b135c209e5e4-profile_image-300x300.png"
   },
-  "updated_at": "2026-08-04T16:51:10.444183+00:00",
+  "updated_at": "2026-08-05T18:47:03.779973+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 204,
-      "total_owned": 453,
+      "total_owned": 454,
       "completion_percent": 73.38
     },
     "generation_progress": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 656,
-      "success": 317,
-      "accuracy_percent": 48.32,
+      "thrown": 657,
+      "success": 318,
+      "accuracy_percent": 48.4,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 613,
-          "success": 301,
-          "accuracy_percent": 49.1
+          "thrown": 614,
+          "success": 302,
+          "accuracy_percent": 49.19
         },
         "ultra ball": {
           "thrown": 28,
@@ -167,9 +167,9 @@
       }
     },
     "journey": {
-      "watch_hours": 987,
-      "follow_age": "1 Year(s), 1 Month(s), 7 Day(s)",
-      "sub_age": "1 Year(s), 6 Month(s), 20 Day(s)",
+      "watch_hours": 991,
+      "follow_age": "1 Year(s), 1 Month(s), 9 Day(s)",
+      "sub_age": "1 Year(s), 6 Month(s), 21 Day(s)",
       "sub_months": 19,
       "subs_gifted": 19,
       "bits_donated": 1890,
@@ -177,23 +177,23 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 311,
-      "chat_messages": 24305,
-      "commands_run": 37632,
-      "times_tagged": 4249,
+      "chat_messages": 24332,
+      "commands_run": 37677,
+      "times_tagged": 4257,
       "times_evolved": 56,
       "times_traded": 10,
       "times_eggs_hatched": 21,
       "ball_distribution": {
-        "poke ball": 1.68,
-        "great ball": 93.45,
-        "ultra ball": 4.27,
+        "poke ball": 1.67,
+        "great ball": 93.46,
+        "ultra ball": 4.26,
         "master ball": 0.61
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 98,
+        "Great Ball": 99,
         "Master Ball": 1,
-        "Ultra Ball": 4,
+        "Ultra Ball": 5,
         "Water Stone": 1
       }
     }
@@ -5417,7 +5417,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 22572
+      "friendship_points": 22814
     },
     {
       "name": "Arcanine",
@@ -5510,7 +5510,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 22572
+      "friendship_points": 22814
     },
     {
       "name": "Poliwag",
@@ -14671,7 +14671,7 @@
     },
     {
       "name": "Hoothoot",
-      "count": 7,
+      "count": 8,
       "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
@@ -24311,7 +24311,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "25",
-    "friendship_points": 22572,
+    "friendship_points": 22814,
     "times_pet": 43,
     "times_fed": 3
   }
