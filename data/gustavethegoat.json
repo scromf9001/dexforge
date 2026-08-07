@@ -3,12 +3,12 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-07T15:25:29.146486+00:00",
+  "updated_at": "2026-08-07T15:51:16.853960+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 133,
-      "total_owned": 222,
+      "total_owned": 220,
       "completion_percent": 47.84
     },
     "generation_progress": {
@@ -43,8 +43,8 @@
       },
       "stage_owned": {
         "1": 82,
-        "2": 47,
-        "3": 4
+        "2": 46,
+        "3": 5
       }
     },
     "types": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 642,
-      "success": 280,
-      "accuracy_percent": 43.61,
+      "thrown": 644,
+      "success": 282,
+      "accuracy_percent": 43.79,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 2.94
         },
         "great ball": {
-          "thrown": 576,
-          "success": 269,
-          "accuracy_percent": 46.7
+          "thrown": 578,
+          "success": 271,
+          "accuracy_percent": 46.89
         },
         "ultra ball": {
           "thrown": 31,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 280,
+      "watch_hours": 281,
       "follow_age": "5 Month(s), 2 Day(s)",
       "sub_age": "6 Month(s), 15 Day(s)",
       "sub_months": 7,
@@ -177,21 +177,21 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 142,
-      "chat_messages": 24921,
-      "commands_run": 33896,
-      "times_tagged": 4578,
-      "times_evolved": 77,
+      "chat_messages": 24967,
+      "commands_run": 33979,
+      "times_tagged": 4587,
+      "times_evolved": 79,
       "times_traded": 5,
       "times_eggs_hatched": 2,
       "ball_distribution": {
-        "poke ball": 5.3,
-        "great ball": 89.72,
-        "ultra ball": 4.83,
+        "poke ball": 5.28,
+        "great ball": 89.75,
+        "ultra ball": 4.81,
         "master ball": 0.16
       },
       "pokebag": {
         "Great Ball": 95,
-        "Ultra Ball": 11
+        "Ultra Ball": 12
       }
     }
   },
@@ -1057,7 +1057,7 @@
     },
     {
       "name": "Caterpie",
-      "count": 2,
+      "count": 1,
       "owned": true,
       "pokedex_number": 10,
       "primary_type": "Bug",
@@ -1144,8 +1144,8 @@
     },
     {
       "name": "Metapod",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 11,
       "primary_type": "Bug",
       "secondary_type": null,
@@ -1231,8 +1231,8 @@
     },
     {
       "name": "Butterfree",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 12,
       "primary_type": "Bug",
       "secondary_type": "Flying",
@@ -16543,7 +16543,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 226
+      "friendship_points": 252
     },
     {
       "name": "Azumarill",
@@ -16640,9 +16640,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 226,
+      "friendship_points": 252,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 37.67
+      "friendship_progress_percent": 42.0
     },
     {
       "name": "Sudowoodo",
@@ -24308,7 +24308,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 226,
+    "friendship_points": 252,
     "times_pet": 26,
     "times_fed": 2
   }
