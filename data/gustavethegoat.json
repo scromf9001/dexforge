@@ -3,13 +3,13 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-07T15:55:11.701102+00:00",
+  "updated_at": "2026-08-07T16:55:06.373206+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 133,
-      "total_owned": 220,
-      "completion_percent": 47.84
+      "unique_owned": 134,
+      "total_owned": 221,
+      "completion_percent": 48.2
     },
     "generation_progress": {
       "1": {
@@ -24,17 +24,17 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 45,
+        "owned": 46,
         "total": 127,
-        "completion_percent": 35.43,
+        "completion_percent": 36.22,
         "total_lines": 78,
-        "lines_completed": 20
+        "lines_completed": 21
       }
     },
     "evolution": {
-      "total_evolutions_owned": 133,
+      "total_evolutions_owned": 134,
       "total_evolutions_available": 278,
-      "lines_completed": 47,
+      "lines_completed": 48,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 82,
+        "1": 83,
         "2": 46,
         "3": 5
       }
@@ -114,9 +114,9 @@
         "completion_percent": 50.0
       },
       "ice": {
-        "owned": 1,
+        "owned": 2,
         "total": 7,
-        "completion_percent": 14.29
+        "completion_percent": 28.57
       },
       "dragon": {
         "owned": 1,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 645,
-      "success": 282,
-      "accuracy_percent": 43.72,
+      "thrown": 647,
+      "success": 283,
+      "accuracy_percent": 43.74,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 2.94
         },
         "great ball": {
-          "thrown": 578,
-          "success": 271,
-          "accuracy_percent": 46.89
+          "thrown": 580,
+          "success": 272,
+          "accuracy_percent": 46.9
         },
         "ultra ball": {
           "thrown": 32,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 281,
+      "watch_hours": 282,
       "follow_age": "5 Month(s), 2 Day(s)",
       "sub_age": "6 Month(s), 15 Day(s)",
       "sub_months": 7,
@@ -177,20 +177,20 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 142,
-      "chat_messages": 24975,
-      "commands_run": 34004,
-      "times_tagged": 4591,
+      "chat_messages": 25085,
+      "commands_run": 34158,
+      "times_tagged": 4607,
       "times_evolved": 79,
       "times_traded": 5,
       "times_eggs_hatched": 2,
       "ball_distribution": {
-        "poke ball": 5.27,
-        "great ball": 89.61,
-        "ultra ball": 4.96,
-        "master ball": 0.16
+        "poke ball": 5.26,
+        "great ball": 89.64,
+        "ultra ball": 4.95,
+        "master ball": 0.15
       },
       "pokebag": {
-        "Great Ball": 95,
+        "Great Ball": 97,
         "Ultra Ball": 11
       }
     }
@@ -16543,7 +16543,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 266
+      "friendship_points": 326
     },
     {
       "name": "Azumarill",
@@ -16640,9 +16640,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 266,
+      "friendship_points": 326,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 44.33
+      "friendship_progress_percent": 54.33
     },
     {
       "name": "Sudowoodo",
@@ -21578,8 +21578,8 @@
     },
     {
       "name": "Swinub",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 220,
       "primary_type": "Ice",
       "secondary_type": "Ground",
@@ -21655,7 +21655,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -21740,7 +21740,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -24308,7 +24308,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 266,
+    "friendship_points": 326,
     "times_pet": 27,
     "times_fed": 2
   }
