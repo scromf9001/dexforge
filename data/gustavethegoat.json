@@ -3,7 +3,7 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-07T15:51:16.853960+00:00",
+  "updated_at": "2026-08-07T15:55:11.701102+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 644,
+      "thrown": 645,
       "success": 282,
-      "accuracy_percent": 43.79,
+      "accuracy_percent": 43.72,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -155,9 +155,9 @@
           "accuracy_percent": 46.89
         },
         "ultra ball": {
-          "thrown": 31,
+          "thrown": 32,
           "success": 9,
-          "accuracy_percent": 29.03
+          "accuracy_percent": 28.12
         },
         "master ball": {
           "thrown": 1,
@@ -177,21 +177,21 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 142,
-      "chat_messages": 24967,
-      "commands_run": 33979,
-      "times_tagged": 4587,
+      "chat_messages": 24975,
+      "commands_run": 34004,
+      "times_tagged": 4591,
       "times_evolved": 79,
       "times_traded": 5,
       "times_eggs_hatched": 2,
       "ball_distribution": {
-        "poke ball": 5.28,
-        "great ball": 89.75,
-        "ultra ball": 4.81,
+        "poke ball": 5.27,
+        "great ball": 89.61,
+        "ultra ball": 4.96,
         "master ball": 0.16
       },
       "pokebag": {
         "Great Ball": 95,
-        "Ultra Ball": 12
+        "Ultra Ball": 11
       }
     }
   },
@@ -16543,7 +16543,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 252
+      "friendship_points": 266
     },
     {
       "name": "Azumarill",
@@ -16640,9 +16640,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 252,
+      "friendship_points": 266,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 42.0
+      "friendship_progress_percent": 44.33
     },
     {
       "name": "Sudowoodo",
@@ -24308,8 +24308,8 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 252,
-    "times_pet": 26,
+    "friendship_points": 266,
+    "times_pet": 27,
     "times_fed": 2
   }
 }
