@@ -3,12 +3,12 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-07T16:55:06.373206+00:00",
+  "updated_at": "2026-08-07T17:07:08.416906+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 134,
-      "total_owned": 221,
+      "total_owned": 222,
       "completion_percent": 48.2
     },
     "generation_progress": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 647,
-      "success": 283,
-      "accuracy_percent": 43.74,
+      "thrown": 649,
+      "success": 284,
+      "accuracy_percent": 43.76,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 2.94
         },
         "great ball": {
-          "thrown": 580,
-          "success": 272,
-          "accuracy_percent": 46.9
+          "thrown": 582,
+          "success": 273,
+          "accuracy_percent": 46.91
         },
         "ultra ball": {
           "thrown": 32,
@@ -177,16 +177,16 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 142,
-      "chat_messages": 25085,
-      "commands_run": 34158,
-      "times_tagged": 4607,
+      "chat_messages": 25106,
+      "commands_run": 34208,
+      "times_tagged": 4617,
       "times_evolved": 79,
       "times_traded": 5,
       "times_eggs_hatched": 2,
       "ball_distribution": {
-        "poke ball": 5.26,
-        "great ball": 89.64,
-        "ultra ball": 4.95,
+        "poke ball": 5.24,
+        "great ball": 89.68,
+        "ultra ball": 4.93,
         "master ball": 0.15
       },
       "pokebag": {
@@ -7156,7 +7156,7 @@
     },
     {
       "name": "Ponyta",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 77,
       "primary_type": "Fire",
@@ -16543,7 +16543,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 326
+      "friendship_points": 338
     },
     {
       "name": "Azumarill",
@@ -16640,9 +16640,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 326,
+      "friendship_points": 338,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 54.33
+      "friendship_progress_percent": 56.33
     },
     {
       "name": "Sudowoodo",
@@ -24308,7 +24308,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 326,
+    "friendship_points": 338,
     "times_pet": 27,
     "times_fed": 2
   }
