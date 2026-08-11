@@ -3,12 +3,12 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-11T15:21:25.689163+00:00",
+  "updated_at": "2026-08-11T16:45:57.938475+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 136,
-      "total_owned": 226,
+      "total_owned": 230,
       "completion_percent": 48.92
     },
     "generation_progress": {
@@ -139,25 +139,25 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 664,
-      "success": 294,
+      "thrown": 673,
+      "success": 298,
       "accuracy_percent": 44.28,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 34,
+          "thrown": 35,
           "success": 1,
-          "accuracy_percent": 2.94
+          "accuracy_percent": 2.86
         },
         "great ball": {
-          "thrown": 594,
-          "success": 282,
-          "accuracy_percent": 47.47
+          "thrown": 601,
+          "success": 286,
+          "accuracy_percent": 47.59
         },
         "ultra ball": {
-          "thrown": 35,
+          "thrown": 36,
           "success": 10,
-          "accuracy_percent": 28.57
+          "accuracy_percent": 27.78
         },
         "master ball": {
           "thrown": 1,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 286,
+      "watch_hours": 287,
       "follow_age": "5 Month(s), 6 Day(s)",
       "sub_age": "6 Month(s), 19 Day(s)",
       "sub_months": 7,
@@ -177,21 +177,21 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 145,
-      "chat_messages": 25475,
-      "commands_run": 34778,
-      "times_tagged": 4697,
+      "chat_messages": 25625,
+      "commands_run": 35019,
+      "times_tagged": 4737,
       "times_evolved": 82,
-      "times_traded": 5,
+      "times_traded": 6,
       "times_eggs_hatched": 2,
       "ball_distribution": {
-        "poke ball": 5.12,
-        "great ball": 89.46,
-        "ultra ball": 5.27,
+        "poke ball": 5.2,
+        "great ball": 89.3,
+        "ultra ball": 5.35,
         "master ball": 0.15
       },
       "pokebag": {
-        "Great Ball": 98,
-        "Ultra Ball": 10
+        "Great Ball": 97,
+        "Ultra Ball": 11
       }
     }
   },
@@ -1627,7 +1627,7 @@
     },
     {
       "name": "Pidgey",
-      "count": 1,
+      "count": 3,
       "owned": true,
       "pokedex_number": 16,
       "primary_type": "Normal",
@@ -1711,7 +1711,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -2030,7 +2030,7 @@
     },
     {
       "name": "Spearow",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 21,
       "primary_type": "Normal",
@@ -2108,7 +2108,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -2530,7 +2530,7 @@
     },
     {
       "name": "Sandshrew",
-      "count": 3,
+      "count": 2,
       "owned": true,
       "pokedex_number": 27,
       "primary_type": "Ground",
@@ -2604,7 +2604,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -6823,7 +6823,7 @@
     },
     {
       "name": "Geodude",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 74,
       "primary_type": "Rock",
@@ -7342,7 +7342,7 @@
     },
     {
       "name": "Slowpoke",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 79,
       "primary_type": "Water",
@@ -7442,7 +7442,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -16543,7 +16543,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 610
+      "friendship_points": 694
     },
     {
       "name": "Azumarill",
@@ -16640,7 +16640,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 610,
+      "friendship_points": 694,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24308,7 +24308,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 610,
+    "friendship_points": 694,
     "times_pet": 31,
     "times_fed": 2
   }
