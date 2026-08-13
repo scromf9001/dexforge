@@ -3,7 +3,7 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-13T16:18:22.158304+00:00",
+  "updated_at": "2026-08-13T16:35:31.558397+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 683,
+      "thrown": 685,
       "success": 302,
-      "accuracy_percent": 44.22,
+      "accuracy_percent": 44.09,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,14 +150,14 @@
           "accuracy_percent": 2.86
         },
         "great ball": {
-          "thrown": 609,
+          "thrown": 610,
           "success": 290,
-          "accuracy_percent": 47.62
+          "accuracy_percent": 47.54
         },
         "ultra ball": {
-          "thrown": 38,
+          "thrown": 39,
           "success": 10,
-          "accuracy_percent": 26.32
+          "accuracy_percent": 25.64
         },
         "master ball": {
           "thrown": 1,
@@ -177,22 +177,22 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 146,
-      "chat_messages": 25893,
-      "commands_run": 35461,
-      "times_tagged": 4811,
+      "chat_messages": 25908,
+      "commands_run": 35494,
+      "times_tagged": 4815,
       "times_evolved": 84,
       "times_traded": 7,
       "times_eggs_hatched": 2,
       "ball_distribution": {
-        "poke ball": 5.12,
-        "great ball": 89.17,
-        "ultra ball": 5.56,
+        "poke ball": 5.11,
+        "great ball": 89.05,
+        "ultra ball": 5.69,
         "master ball": 0.15
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 97,
-        "Ultra Ball": 9
+        "Great Ball": 98,
+        "Ultra Ball": 8
       }
     }
   },
@@ -16544,7 +16544,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 874
+      "friendship_points": 892
     },
     {
       "name": "Azumarill",
@@ -16641,7 +16641,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 874,
+      "friendship_points": 892,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24309,7 +24309,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 874,
+    "friendship_points": 892,
     "times_pet": 34,
     "times_fed": 2
   }
