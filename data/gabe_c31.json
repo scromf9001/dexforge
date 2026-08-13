@@ -3,7 +3,7 @@
     "username": "gabe_c31",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/13e5fa74-defa-11e9-809c-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-08-11T16:17:45.492257+00:00",
+  "updated_at": "2026-08-13T15:57:15.224982+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -137,9 +137,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 21,
+      "thrown": 22,
       "success": 8,
-      "accuracy_percent": 38.1,
+      "accuracy_percent": 36.36,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -148,9 +148,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 19,
+          "thrown": 20,
           "success": 8,
-          "accuracy_percent": 42.11
+          "accuracy_percent": 40.0
         },
         "ultra ball": {
           "thrown": 0,
@@ -165,31 +165,31 @@
       }
     },
     "journey": {
-      "watch_hours": 36,
-      "follow_age": "7 Month(s), 27 Day(s)",
-      "sub_age": "3 Month(s), 26 Day(s)",
-      "sub_months": 4,
+      "watch_hours": 37,
+      "follow_age": "7 Month(s), 29 Day(s)",
+      "sub_age": "3 Month(s), 28 Day(s)",
+      "sub_months": 5,
       "subs_gifted": 0,
       "bits_donated": 1670,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 44,
-      "chat_messages": 824,
-      "commands_run": 1098,
-      "times_tagged": 78,
+      "streams_watched": 45,
+      "chat_messages": 830,
+      "commands_run": 1117,
+      "times_tagged": 80,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 9.52,
-        "great ball": 90.48,
+        "poke ball": 9.09,
+        "great ball": 90.91,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 98,
-        "Ultra Ball": 5
+        "Great Ball": 97,
+        "Ultra Ball": 6
       }
     }
   },
