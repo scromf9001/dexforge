@@ -3,21 +3,21 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-13T15:58:54.315979+00:00",
+  "updated_at": "2026-08-13T16:15:13.208602+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 137,
-      "total_owned": 231,
-      "completion_percent": 49.28
+      "unique_owned": 136,
+      "total_owned": 230,
+      "completion_percent": 48.92
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 91,
+        "owned": 90,
         "total": 151,
-        "completion_percent": 60.26,
+        "completion_percent": 59.6,
         "total_lines": 78,
         "lines_completed": 28
       },
@@ -32,7 +32,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 137,
+      "total_evolutions_owned": 136,
       "total_evolutions_available": 278,
       "lines_completed": 50,
       "total_lines": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 84,
+        "1": 83,
         "2": 47,
         "3": 6
       }
@@ -104,9 +104,9 @@
         "completion_percent": 26.19
       },
       "rock": {
-        "owned": 3,
+        "owned": 2,
         "total": 13,
-        "completion_percent": 23.08
+        "completion_percent": 15.38
       },
       "ghost": {
         "owned": 2,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 682,
-      "success": 301,
-      "accuracy_percent": 44.13,
+      "thrown": 683,
+      "success": 302,
+      "accuracy_percent": 44.22,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 2.86
         },
         "great ball": {
-          "thrown": 608,
-          "success": 289,
-          "accuracy_percent": 47.53
+          "thrown": 609,
+          "success": 290,
+          "accuracy_percent": 47.62
         },
         "ultra ball": {
           "thrown": 38,
@@ -177,20 +177,21 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 146,
-      "chat_messages": 25863,
-      "commands_run": 35390,
-      "times_tagged": 4796,
-      "times_evolved": 83,
+      "chat_messages": 25889,
+      "commands_run": 35445,
+      "times_tagged": 4804,
+      "times_evolved": 84,
       "times_traded": 6,
       "times_eggs_hatched": 2,
       "ball_distribution": {
-        "poke ball": 5.13,
-        "great ball": 89.15,
-        "ultra ball": 5.57,
+        "poke ball": 5.12,
+        "great ball": 89.17,
+        "ultra ball": 5.56,
         "master ball": 0.15
       },
       "pokebag": {
-        "Great Ball": 96,
+        "Egg": 1,
+        "Great Ball": 97,
         "Ultra Ball": 9
       }
     }
@@ -6823,8 +6824,8 @@
     },
     {
       "name": "Geodude",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 74,
       "primary_type": "Rock",
       "secondary_type": "Ground",
@@ -6927,14 +6928,14 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Graveler",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 75,
       "primary_type": "Rock",
@@ -7038,7 +7039,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -16543,7 +16544,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 855
+      "friendship_points": 871
     },
     {
       "name": "Azumarill",
@@ -16640,7 +16641,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 855,
+      "friendship_points": 871,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17455,7 +17456,7 @@
     },
     {
       "name": "Wooper",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 194,
       "primary_type": "Water",
@@ -24308,7 +24309,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 855,
+    "friendship_points": 871,
     "times_pet": 34,
     "times_fed": 2
   }
