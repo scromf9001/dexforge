@@ -3,21 +3,21 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-11T16:48:56.171124+00:00",
+  "updated_at": "2026-08-13T15:58:54.315979+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 136,
-      "total_owned": 228,
-      "completion_percent": 48.92
+      "unique_owned": 137,
+      "total_owned": 231,
+      "completion_percent": 49.28
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 90,
+        "owned": 91,
         "total": 151,
-        "completion_percent": 59.6,
+        "completion_percent": 60.26,
         "total_lines": 78,
         "lines_completed": 28
       },
@@ -32,7 +32,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 136,
+      "total_evolutions_owned": 137,
       "total_evolutions_available": 278,
       "lines_completed": 50,
       "total_lines": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 83,
+        "1": 84,
         "2": 47,
         "3": 6
       }
@@ -59,9 +59,9 @@
         "completion_percent": 50.0
       },
       "water": {
-        "owned": 27,
+        "owned": 28,
         "total": 45,
-        "completion_percent": 60.0
+        "completion_percent": 62.22
       },
       "bug": {
         "owned": 16,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 673,
-      "success": 298,
-      "accuracy_percent": 44.28,
+      "thrown": 682,
+      "success": 301,
+      "accuracy_percent": 44.13,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,14 +150,14 @@
           "accuracy_percent": 2.86
         },
         "great ball": {
-          "thrown": 601,
-          "success": 286,
-          "accuracy_percent": 47.59
+          "thrown": 608,
+          "success": 289,
+          "accuracy_percent": 47.53
         },
         "ultra ball": {
-          "thrown": 36,
+          "thrown": 38,
           "success": 10,
-          "accuracy_percent": 27.78
+          "accuracy_percent": 26.32
         },
         "master ball": {
           "thrown": 1,
@@ -167,31 +167,31 @@
       }
     },
     "journey": {
-      "watch_hours": 287,
-      "follow_age": "5 Month(s), 6 Day(s)",
-      "sub_age": "6 Month(s), 19 Day(s)",
+      "watch_hours": 290,
+      "follow_age": "5 Month(s), 8 Day(s)",
+      "sub_age": "6 Month(s), 21 Day(s)",
       "sub_months": 7,
       "subs_gifted": 0,
       "bits_donated": 2827,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 145,
-      "chat_messages": 25634,
-      "commands_run": 35036,
-      "times_tagged": 4740,
+      "streams_watched": 146,
+      "chat_messages": 25863,
+      "commands_run": 35390,
+      "times_tagged": 4796,
       "times_evolved": 83,
       "times_traded": 6,
       "times_eggs_hatched": 2,
       "ball_distribution": {
-        "poke ball": 5.2,
-        "great ball": 89.3,
-        "ultra ball": 5.35,
+        "poke ball": 5.13,
+        "great ball": 89.15,
+        "ultra ball": 5.57,
         "master ball": 0.15
       },
       "pokebag": {
-        "Great Ball": 97,
-        "Ultra Ball": 11
+        "Great Ball": 96,
+        "Ultra Ball": 9
       }
     }
   },
@@ -6823,7 +6823,7 @@
     },
     {
       "name": "Geodude",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 74,
       "primary_type": "Rock",
@@ -6927,7 +6927,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -10625,8 +10625,8 @@
     },
     {
       "name": "Horsea",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 116,
       "primary_type": "Water",
       "secondary_type": null,
@@ -14838,7 +14838,7 @@
     },
     {
       "name": "Ledyba",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 165,
       "primary_type": "Bug",
@@ -14924,7 +14924,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -16543,7 +16543,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 697
+      "friendship_points": 855
     },
     {
       "name": "Azumarill",
@@ -16640,7 +16640,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 697,
+      "friendship_points": 855,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24308,8 +24308,8 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 697,
-    "times_pet": 31,
+    "friendship_points": 855,
+    "times_pet": 34,
     "times_fed": 2
   }
 }
