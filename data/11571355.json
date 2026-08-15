@@ -3,13 +3,13 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-08-15T18:09:01.667455+00:00",
+  "updated_at": "2026-08-15T20:32:11.802795+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 8,
-      "total_owned": 10,
-      "completion_percent": 2.88
+      "unique_owned": 9,
+      "total_owned": 11,
+      "completion_percent": 3.24
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 4,
+        "owned": 5,
         "total": 127,
-        "completion_percent": 3.15,
+        "completion_percent": 3.94,
         "total_lines": 78,
         "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 8,
+      "total_evolutions_owned": 9,
       "total_evolutions_available": 278,
       "lines_completed": 1,
       "total_lines": 156,
@@ -43,7 +43,7 @@
       },
       "stage_owned": {
         "2": 3,
-        "1": 5
+        "1": 6
       }
     },
     "types": {
@@ -58,9 +58,9 @@
         "completion_percent": 0.0
       },
       "water": {
-        "owned": 1,
+        "owned": 2,
         "total": 45,
-        "completion_percent": 2.22
+        "completion_percent": 4.44
       },
       "bug": {
         "owned": 0,
@@ -138,15 +138,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 81,
-      "success": 27,
+      "thrown": 84,
+      "success": 28,
       "accuracy_percent": 33.33,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 51,
+          "thrown": 53,
           "success": 15,
-          "accuracy_percent": 29.41
+          "accuracy_percent": 28.3
         },
         "great ball": {
           "thrown": 26,
@@ -154,9 +154,9 @@
           "accuracy_percent": 38.46
         },
         "ultra ball": {
-          "thrown": 4,
-          "success": 2,
-          "accuracy_percent": 50.0
+          "thrown": 5,
+          "success": 3,
+          "accuracy_percent": 60.0
         },
         "master ball": {
           "thrown": 0,
@@ -166,7 +166,7 @@
       }
     },
     "journey": {
-      "watch_hours": 184,
+      "watch_hours": 186,
       "follow_age": "3 Month(s), 22 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 1,
@@ -176,21 +176,20 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 54,
-      "chat_messages": 2991,
-      "commands_run": 3786,
-      "times_tagged": 795,
+      "chat_messages": 3007,
+      "commands_run": 3820,
+      "times_tagged": 798,
       "times_evolved": 0,
       "times_traded": 18,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 62.96,
-        "great ball": 32.1,
-        "ultra ball": 4.94,
+        "poke ball": 63.1,
+        "great ball": 30.95,
+        "ultra ball": 5.95,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 98,
-        "Ultra Ball": 1
+        "Great Ball": 99
       }
     }
   },
@@ -3706,7 +3705,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3423,
+      "friendship_points": 3566,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -3795,7 +3794,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3423
+      "friendship_points": 3566
     },
     {
       "name": "Zubat",
@@ -14276,8 +14275,8 @@
     },
     {
       "name": "Totodile",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 158,
       "primary_type": "Water",
       "secondary_type": null,
@@ -15733,7 +15732,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3423
+      "friendship_points": 3566
     },
     {
       "name": "Togepi",
@@ -24307,7 +24306,7 @@
     "primary_type": "Normal",
     "secondary_type": "Fairy",
     "evolution_line_id": "16",
-    "friendship_points": 3423,
+    "friendship_points": 3566,
     "times_pet": 9,
     "times_fed": 0,
     "friendship_requirement": 600,
