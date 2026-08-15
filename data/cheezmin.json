@@ -1,38 +1,38 @@
 {
   "user": {
     "username": "cheezmin",
-    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/01ea3c1e-7bf5-4216-b7df-1da9d26b3420-profile_image-300x300.jpeg"
+    "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/134f5f9d-4ad8-472e-8b46-c5b2ff59ec41-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-08T20:54:19.081683+00:00",
+  "updated_at": "2026-08-15T18:11:05.369825+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 1,
-      "total_owned": 1,
-      "completion_percent": 0.36
+      "unique_owned": 4,
+      "total_owned": 4,
+      "completion_percent": 1.44
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 1,
+        "owned": 2,
         "total": 151,
-        "completion_percent": 0.66,
+        "completion_percent": 1.32,
         "total_lines": 78,
         "lines_completed": 0
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 0,
+        "owned": 2,
         "total": 127,
-        "completion_percent": 0.0,
+        "completion_percent": 1.57,
         "total_lines": 78,
         "lines_completed": 0
       }
     },
     "evolution": {
-      "total_evolutions_owned": 1,
+      "total_evolutions_owned": 4,
       "total_evolutions_available": 278,
       "lines_completed": 0,
       "total_lines": 156,
@@ -42,14 +42,14 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 1
+        "1": 4
       }
     },
     "types": {
       "grass": {
-        "owned": 0,
+        "owned": 1,
         "total": 21,
-        "completion_percent": 0.0
+        "completion_percent": 4.76
       },
       "fire": {
         "owned": 1,
@@ -67,14 +67,14 @@
         "completion_percent": 0.0
       },
       "normal": {
-        "owned": 0,
+        "owned": 1,
         "total": 37,
-        "completion_percent": 0.0
+        "completion_percent": 2.7
       },
       "poison": {
-        "owned": 0,
+        "owned": 1,
         "total": 15,
-        "completion_percent": 0.0
+        "completion_percent": 6.67
       },
       "electric": {
         "owned": 0,
@@ -137,20 +137,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 4,
-      "success": 1,
-      "accuracy_percent": 25.0,
-      "most_used": "poke ball",
+      "thrown": 13,
+      "success": 4,
+      "accuracy_percent": 30.77,
+      "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 2,
-          "success": 0,
-          "accuracy_percent": 0.0
+          "thrown": 5,
+          "success": 1,
+          "accuracy_percent": 20.0
         },
         "great ball": {
-          "thrown": 2,
-          "success": 1,
-          "accuracy_percent": 50.0
+          "thrown": 8,
+          "success": 3,
+          "accuracy_percent": 37.5
         },
         "ultra ball": {
           "thrown": 0,
@@ -165,8 +165,8 @@
       }
     },
     "journey": {
-      "watch_hours": 1,
-      "follow_age": "<1 Day",
+      "watch_hours": 5,
+      "follow_age": "6 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
       "subs_gifted": 0,
@@ -174,16 +174,16 @@
       "total_donated": 0.0,
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
-      "streams_watched": 1,
-      "chat_messages": 22,
-      "commands_run": 48,
-      "times_tagged": 0,
+      "streams_watched": 2,
+      "chat_messages": 107,
+      "commands_run": 187,
+      "times_tagged": 7,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 50.0,
-        "great ball": 50.0,
+        "poke ball": 38.46,
+        "great ball": 61.54,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
@@ -8198,8 +8198,8 @@
     },
     {
       "name": "Grimer",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 88,
       "primary_type": "Poison",
       "secondary_type": null,
@@ -14535,8 +14535,8 @@
     },
     {
       "name": "Sentret",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 161,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -16823,8 +16823,8 @@
     },
     {
       "name": "Hoppip",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
       "secondary_type": "Flying",
