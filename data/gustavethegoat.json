@@ -3,7 +3,7 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-15T16:10:28.393544+00:00",
+  "updated_at": "2026-08-17T15:31:17.289658+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -43,8 +43,8 @@
       },
       "stage_owned": {
         "1": 82,
-        "2": 48,
-        "3": 7
+        "2": 47,
+        "3": 8
       }
     },
     "types": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 697,
-      "success": 309,
-      "accuracy_percent": 44.33,
+      "thrown": 699,
+      "success": 311,
+      "accuracy_percent": 44.49,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 2.86
         },
         "great ball": {
-          "thrown": 620,
-          "success": 296,
-          "accuracy_percent": 47.74
+          "thrown": 622,
+          "success": 298,
+          "accuracy_percent": 47.91
         },
         "ultra ball": {
           "thrown": 41,
@@ -167,31 +167,31 @@
       }
     },
     "journey": {
-      "watch_hours": 293,
-      "follow_age": "5 Month(s), 10 Day(s)",
-      "sub_age": "6 Month(s), 23 Day(s)",
+      "watch_hours": 294,
+      "follow_age": "5 Month(s), 12 Day(s)",
+      "sub_age": "6 Month(s), 25 Day(s)",
       "sub_months": 7,
       "subs_gifted": 0,
       "bits_donated": 2827,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 147,
-      "chat_messages": 26178,
-      "commands_run": 35962,
-      "times_tagged": 4889,
-      "times_evolved": 86,
+      "streams_watched": 148,
+      "chat_messages": 26216,
+      "commands_run": 36027,
+      "times_tagged": 4904,
+      "times_evolved": 87,
       "times_traded": 8,
       "times_eggs_hatched": 2,
       "ball_distribution": {
-        "poke ball": 5.02,
-        "great ball": 88.95,
-        "ultra ball": 5.88,
+        "poke ball": 5.01,
+        "great ball": 88.98,
+        "ultra ball": 5.87,
         "master ball": 0.14
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 98,
+        "Great Ball": 96,
         "Ultra Ball": 6
       }
     }
@@ -6424,8 +6424,8 @@
     },
     {
       "name": "Weepinbell",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 70,
       "primary_type": "Grass",
       "secondary_type": "Poison",
@@ -6516,15 +6516,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Victreebel",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 71,
       "primary_type": "Grass",
       "secondary_type": "Poison",
@@ -8202,7 +8202,7 @@
     },
     {
       "name": "Grimer",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 88,
       "primary_type": "Poison",
@@ -8280,7 +8280,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -15316,7 +15316,7 @@
     },
     {
       "name": "Chinchou",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 170,
       "primary_type": "Water",
@@ -16544,7 +16544,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1121
+      "friendship_points": 1144
     },
     {
       "name": "Azumarill",
@@ -16641,7 +16641,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1121,
+      "friendship_points": 1144,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24309,7 +24309,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 1121,
+    "friendship_points": 1144,
     "times_pet": 38,
     "times_fed": 2
   }
