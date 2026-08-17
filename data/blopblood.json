@@ -3,13 +3,13 @@
     "username": "blopblood",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d81b7f66-4f5f-4eec-bd3d-64e0ba6d2b10-profile_image-300x300.png"
   },
-  "updated_at": "2026-08-14T16:35:59.956531+00:00",
+  "updated_at": "2026-08-17T18:41:29.139517+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 212,
-      "total_owned": 851,
-      "completion_percent": 76.26
+      "unique_owned": 213,
+      "total_owned": 852,
+      "completion_percent": 76.62
     },
     "generation_progress": {
       "1": {
@@ -24,17 +24,17 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 80,
+        "owned": 81,
         "total": 127,
-        "completion_percent": 62.99,
+        "completion_percent": 63.78,
         "total_lines": 78,
-        "lines_completed": 39
+        "lines_completed": 40
       }
     },
     "evolution": {
-      "total_evolutions_owned": 212,
+      "total_evolutions_owned": 213,
       "total_evolutions_available": 278,
-      "lines_completed": 102,
+      "lines_completed": 103,
       "total_lines": 156,
       "stage_totals": {
         "1": 156,
@@ -42,9 +42,9 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 116,
-        "2": 76,
-        "3": 20
+        "1": 117,
+        "2": 75,
+        "3": 21
       }
     },
     "types": {
@@ -84,9 +84,9 @@
         "completion_percent": 86.67
       },
       "ground": {
-        "owned": 8,
+        "owned": 9,
         "total": 11,
-        "completion_percent": 72.73
+        "completion_percent": 81.82
       },
       "fairy": {
         "owned": 6,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1291,
-      "success": 628,
-      "accuracy_percent": 48.64,
+      "thrown": 1302,
+      "success": 633,
+      "accuracy_percent": 48.62,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,14 +150,14 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 1234,
-          "success": 605,
-          "accuracy_percent": 49.03
+          "thrown": 1244,
+          "success": 610,
+          "accuracy_percent": 49.04
         },
         "ultra ball": {
-          "thrown": 50,
+          "thrown": 51,
           "success": 21,
-          "accuracy_percent": 42.0
+          "accuracy_percent": 41.18
         },
         "master ball": {
           "thrown": 2,
@@ -167,36 +167,36 @@
       }
     },
     "journey": {
-      "watch_hours": 836,
-      "follow_age": "1 Year(s), 1 Month(s), 5 Day(s)",
-      "sub_age": "10 Month(s), 28 Day(s)",
+      "watch_hours": 838,
+      "follow_age": "1 Year(s), 1 Month(s), 9 Day(s)",
+      "sub_age": "11 Month(s), 1 Day(s)",
       "sub_months": 9,
       "subs_gifted": 0,
       "bits_donated": 451,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 250,
-      "chat_messages": 23490,
-      "commands_run": 37876,
-      "times_tagged": 4339,
-      "times_evolved": 53,
+      "streams_watched": 251,
+      "chat_messages": 23600,
+      "commands_run": 38055,
+      "times_tagged": 4362,
+      "times_evolved": 55,
       "times_traded": 2,
       "times_eggs_hatched": 22,
       "ball_distribution": {
-        "poke ball": 0.39,
-        "great ball": 95.58,
-        "ultra ball": 3.87,
+        "poke ball": 0.38,
+        "great ball": 95.55,
+        "ultra ball": 3.92,
         "master ball": 0.15
       },
       "pokebag": {
         "Egg": 1,
         "Fire Stone": 1,
-        "Great Ball": 90,
+        "Great Ball": 88,
         "Leaf Stone": 1,
         "Moon Stone": 2,
         "Thunder Stone": 1,
-        "Ultra Ball": 16
+        "Ultra Ball": 15
       }
     }
   },
@@ -3805,7 +3805,7 @@
     },
     {
       "name": "Zubat",
-      "count": 16,
+      "count": 17,
       "owned": true,
       "pokedex_number": 41,
       "primary_type": "Poison",
@@ -4876,7 +4876,7 @@
     },
     {
       "name": "Meowth",
-      "count": 12,
+      "count": 13,
       "owned": true,
       "pokedex_number": 52,
       "primary_type": "Normal",
@@ -6828,7 +6828,7 @@
     },
     {
       "name": "Geodude",
-      "count": 17,
+      "count": 18,
       "owned": true,
       "pokedex_number": 74,
       "primary_type": "Rock",
@@ -11705,7 +11705,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 8,
+      "count": 9,
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
@@ -14365,7 +14365,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 6798
+      "friendship_points": 6959
     },
     {
       "name": "Croconaw",
@@ -14452,7 +14452,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 6798
+      "friendship_points": 6959
     },
     {
       "name": "Ferligatr",
@@ -14539,7 +14539,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 6798
+      "friendship_points": 6959
     },
     {
       "name": "Sentret",
@@ -16831,7 +16831,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 4,
+      "count": 1,
       "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
@@ -16923,15 +16923,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Skiploom",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 188,
       "primary_type": "Grass",
       "secondary_type": "Flying",
@@ -17029,8 +17029,8 @@
     },
     {
       "name": "Jumpluff",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 189,
       "primary_type": "Grass",
       "secondary_type": "Flying",
@@ -20464,8 +20464,8 @@
     },
     {
       "name": "Gligar",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 207,
       "primary_type": "Ground",
       "secondary_type": "Flying",
@@ -20535,7 +20535,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -24313,7 +24313,7 @@
     "primary_type": "Water",
     "secondary_type": null,
     "evolution_line_id": "81",
-    "friendship_points": 6798,
+    "friendship_points": 6959,
     "times_pet": 20,
     "times_fed": 0
   }
