@@ -3,21 +3,21 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-08-17T18:18:37.592315+00:00",
+  "updated_at": "2026-08-17T19:24:26.480266+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 11,
-      "total_owned": 13,
-      "completion_percent": 3.96
+      "unique_owned": 12,
+      "total_owned": 15,
+      "completion_percent": 4.32
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 5,
+        "owned": 6,
         "total": 151,
-        "completion_percent": 3.31,
+        "completion_percent": 3.97,
         "total_lines": 78,
         "lines_completed": 0
       },
@@ -32,7 +32,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 11,
+      "total_evolutions_owned": 12,
       "total_evolutions_available": 278,
       "lines_completed": 1,
       "total_lines": 156,
@@ -43,7 +43,7 @@
       },
       "stage_owned": {
         "2": 4,
-        "1": 7
+        "1": 8
       }
     },
     "types": {
@@ -83,9 +83,9 @@
         "completion_percent": 6.67
       },
       "ground": {
-        "owned": 0,
+        "owned": 1,
         "total": 11,
-        "completion_percent": 0.0
+        "completion_percent": 9.09
       },
       "fairy": {
         "owned": 2,
@@ -138,15 +138,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 92,
-      "success": 32,
-      "accuracy_percent": 34.78,
+      "thrown": 94,
+      "success": 34,
+      "accuracy_percent": 36.17,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 56,
-          "success": 16,
-          "accuracy_percent": 28.57
+          "thrown": 58,
+          "success": 18,
+          "accuracy_percent": 31.03
         },
         "great ball": {
           "thrown": 31,
@@ -166,7 +166,7 @@
       }
     },
     "journey": {
-      "watch_hours": 189,
+      "watch_hours": 191,
       "follow_age": "3 Month(s), 24 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 1,
@@ -176,20 +176,20 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 55,
-      "chat_messages": 3103,
-      "commands_run": 3981,
-      "times_tagged": 822,
+      "chat_messages": 3132,
+      "commands_run": 4030,
+      "times_tagged": 837,
       "times_evolved": 1,
       "times_traded": 18,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 60.87,
-        "great ball": 33.7,
-        "ultra ball": 5.43,
+        "poke ball": 61.7,
+        "great ball": 32.98,
+        "ultra ball": 5.32,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 98
+        "Great Ball": 99
       }
     }
   },
@@ -3705,7 +3705,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3774,
+      "friendship_points": 3850,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -3794,7 +3794,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3774
+      "friendship_points": 3850
     },
     {
       "name": "Zubat",
@@ -4521,7 +4521,7 @@
     },
     {
       "name": "Venonat",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 48,
       "primary_type": "Bug",
@@ -4707,8 +4707,8 @@
     },
     {
       "name": "Diglett",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 50,
       "primary_type": "Ground",
       "secondary_type": null,
@@ -15732,7 +15732,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3774
+      "friendship_points": 3850
     },
     {
       "name": "Togepi",
@@ -24306,8 +24306,8 @@
     "primary_type": "Normal",
     "secondary_type": "Fairy",
     "evolution_line_id": "16",
-    "friendship_points": 3774,
-    "times_pet": 11,
+    "friendship_points": 3850,
+    "times_pet": 12,
     "times_fed": 0,
     "friendship_requirement": 600,
     "friendship_progress_percent": 100
