@@ -3,13 +3,13 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-08-17T19:24:26.480266+00:00",
+  "updated_at": "2026-08-18T15:47:52.818510+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 12,
-      "total_owned": 15,
-      "completion_percent": 4.32
+      "unique_owned": 13,
+      "total_owned": 17,
+      "completion_percent": 4.68
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 6,
+        "owned": 7,
         "total": 127,
-        "completion_percent": 4.72,
+        "completion_percent": 5.51,
         "total_lines": 78,
         "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 12,
+      "total_evolutions_owned": 13,
       "total_evolutions_available": 278,
       "lines_completed": 1,
       "total_lines": 156,
@@ -43,7 +43,7 @@
       },
       "stage_owned": {
         "2": 4,
-        "1": 8
+        "1": 9
       }
     },
     "types": {
@@ -68,9 +68,9 @@
         "completion_percent": 4.55
       },
       "normal": {
-        "owned": 2,
+        "owned": 3,
         "total": 37,
-        "completion_percent": 5.41
+        "completion_percent": 8.11
       },
       "poison": {
         "owned": 0,
@@ -138,20 +138,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 94,
-      "success": 34,
-      "accuracy_percent": 36.17,
+      "thrown": 96,
+      "success": 36,
+      "accuracy_percent": 37.5,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 58,
-          "success": 18,
-          "accuracy_percent": 31.03
+          "thrown": 59,
+          "success": 19,
+          "accuracy_percent": 32.2
         },
         "great ball": {
-          "thrown": 31,
-          "success": 13,
-          "accuracy_percent": 41.94
+          "thrown": 32,
+          "success": 14,
+          "accuracy_percent": 43.75
         },
         "ultra ball": {
           "thrown": 5,
@@ -175,21 +175,21 @@
       "total_donated": 0.0,
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
-      "streams_watched": 55,
-      "chat_messages": 3132,
-      "commands_run": 4030,
-      "times_tagged": 837,
+      "streams_watched": 56,
+      "chat_messages": 3152,
+      "commands_run": 4071,
+      "times_tagged": 843,
       "times_evolved": 1,
       "times_traded": 18,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 61.7,
-        "great ball": 32.98,
-        "ultra ball": 5.32,
+        "poke ball": 61.46,
+        "great ball": 33.33,
+        "ultra ball": 5.21,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 99
+        "Great Ball": 98
       }
     }
   },
@@ -3705,7 +3705,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3850,
+      "friendship_points": 3893,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -3794,7 +3794,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3850
+      "friendship_points": 3893
     },
     {
       "name": "Zubat",
@@ -14666,8 +14666,8 @@
     },
     {
       "name": "Hoothoot",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
       "secondary_type": "Flying",
@@ -15732,7 +15732,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3850
+      "friendship_points": 3893
     },
     {
       "name": "Togepi",
@@ -16824,7 +16824,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
@@ -24306,7 +24306,7 @@
     "primary_type": "Normal",
     "secondary_type": "Fairy",
     "evolution_line_id": "16",
-    "friendship_points": 3850,
+    "friendship_points": 3893,
     "times_pet": 12,
     "times_fed": 0,
     "friendship_requirement": 600,
