@@ -3,12 +3,12 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-20T15:27:27.657042+00:00",
+  "updated_at": "2026-08-20T15:38:38.441885+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 137,
-      "total_owned": 235,
+      "total_owned": 234,
       "completion_percent": 49.28
     },
     "generation_progress": {
@@ -43,8 +43,8 @@
       },
       "stage_owned": {
         "1": 82,
-        "2": 47,
-        "3": 8
+        "2": 46,
+        "3": 9
       }
     },
     "types": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 714,
-      "success": 320,
-      "accuracy_percent": 44.82,
+      "thrown": 715,
+      "success": 321,
+      "accuracy_percent": 44.9,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 2.86
         },
         "great ball": {
-          "thrown": 636,
-          "success": 306,
-          "accuracy_percent": 48.11
+          "thrown": 637,
+          "success": 307,
+          "accuracy_percent": 48.19
         },
         "ultra ball": {
           "thrown": 42,
@@ -177,21 +177,21 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 150,
-      "chat_messages": 26625,
-      "commands_run": 36620,
-      "times_tagged": 4996,
+      "chat_messages": 26663,
+      "commands_run": 36685,
+      "times_tagged": 5009,
       "times_evolved": 90,
       "times_traded": 9,
       "times_eggs_hatched": 2,
       "ball_distribution": {
         "poke ball": 4.9,
-        "great ball": 89.08,
-        "ultra ball": 5.88,
+        "great ball": 89.09,
+        "ultra ball": 5.87,
         "master ball": 0.14
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 96,
+        "Great Ball": 97,
         "Ultra Ball": 5
       }
     }
@@ -6935,8 +6935,8 @@
     },
     {
       "name": "Graveler",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 75,
       "primary_type": "Rock",
       "secondary_type": "Ground",
@@ -7039,15 +7039,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Golem",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 76,
       "primary_type": "Rock",
       "secondary_type": "Ground",
@@ -10626,7 +10626,7 @@
     },
     {
       "name": "Horsea",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 116,
       "primary_type": "Water",
@@ -16544,7 +16544,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1415
+      "friendship_points": 1426
     },
     {
       "name": "Azumarill",
@@ -16641,7 +16641,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1415
+      "friendship_points": 1426
     },
     {
       "name": "Sudowoodo",
@@ -24307,7 +24307,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 1415,
+    "friendship_points": 1426,
     "times_pet": 41,
     "times_fed": 2
   }
