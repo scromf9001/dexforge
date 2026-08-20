@@ -3,13 +3,13 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-20T15:17:20.861176+00:00",
+  "updated_at": "2026-08-20T15:20:37.326451+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 135,
-      "total_owned": 235,
-      "completion_percent": 48.56
+      "unique_owned": 136,
+      "total_owned": 236,
+      "completion_percent": 48.92
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 46,
+        "owned": 47,
         "total": 127,
-        "completion_percent": 36.22,
+        "completion_percent": 37.01,
         "total_lines": 78,
         "lines_completed": 22
       }
     },
     "evolution": {
-      "total_evolutions_owned": 135,
+      "total_evolutions_owned": 136,
       "total_evolutions_available": 278,
       "lines_completed": 50,
       "total_lines": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 80,
+        "1": 81,
         "2": 48,
         "3": 7
       }
@@ -84,9 +84,9 @@
         "completion_percent": 53.33
       },
       "ground": {
-        "owned": 6,
+        "owned": 7,
         "total": 11,
-        "completion_percent": 54.55
+        "completion_percent": 63.64
       },
       "fairy": {
         "owned": 3,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 710,
-      "success": 318,
-      "accuracy_percent": 44.79,
+      "thrown": 712,
+      "success": 319,
+      "accuracy_percent": 44.8,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,14 +150,14 @@
           "accuracy_percent": 2.86
         },
         "great ball": {
-          "thrown": 633,
+          "thrown": 634,
           "success": 305,
-          "accuracy_percent": 48.18
+          "accuracy_percent": 48.11
         },
         "ultra ball": {
-          "thrown": 41,
-          "success": 11,
-          "accuracy_percent": 26.83
+          "thrown": 42,
+          "success": 12,
+          "accuracy_percent": 28.57
         },
         "master ball": {
           "thrown": 1,
@@ -177,22 +177,22 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 150,
-      "chat_messages": 26596,
-      "commands_run": 36537,
-      "times_tagged": 4980,
+      "chat_messages": 26606,
+      "commands_run": 36562,
+      "times_tagged": 4984,
       "times_evolved": 89,
       "times_traded": 9,
       "times_eggs_hatched": 2,
       "ball_distribution": {
-        "poke ball": 4.93,
-        "great ball": 89.15,
-        "ultra ball": 5.77,
+        "poke ball": 4.92,
+        "great ball": 89.04,
+        "ultra ball": 5.9,
         "master ball": 0.14
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 99,
-        "Ultra Ball": 6
+        "Great Ball": 98,
+        "Ultra Ball": 5
       }
     }
   },
@@ -16544,7 +16544,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1394
+      "friendship_points": 1398
     },
     {
       "name": "Azumarill",
@@ -16641,7 +16641,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1394
+      "friendship_points": 1398
     },
     {
       "name": "Sudowoodo",
@@ -22542,8 +22542,8 @@
     },
     {
       "name": "Phanpy",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 231,
       "primary_type": "Ground",
       "secondary_type": null,
@@ -24307,7 +24307,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 1394,
+    "friendship_points": 1398,
     "times_pet": 40,
     "times_fed": 2
   }
