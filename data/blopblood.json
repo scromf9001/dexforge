@@ -3,21 +3,21 @@
     "username": "blopblood",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d81b7f66-4f5f-4eec-bd3d-64e0ba6d2b10-profile_image-300x300.png"
   },
-  "updated_at": "2026-08-20T15:31:21.157707+00:00",
+  "updated_at": "2026-08-20T16:02:31.758239+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 213,
-      "total_owned": 861,
-      "completion_percent": 76.62
+      "unique_owned": 214,
+      "total_owned": 862,
+      "completion_percent": 76.98
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 132,
+        "owned": 133,
         "total": 151,
-        "completion_percent": 87.42,
+        "completion_percent": 88.08,
         "total_lines": 78,
         "lines_completed": 63
       },
@@ -32,7 +32,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 213,
+      "total_evolutions_owned": 214,
       "total_evolutions_available": 278,
       "lines_completed": 103,
       "total_lines": 156,
@@ -44,7 +44,7 @@
       "stage_owned": {
         "1": 116,
         "2": 76,
-        "3": 21
+        "3": 22
       }
     },
     "types": {
@@ -94,9 +94,9 @@
         "completion_percent": 85.71
       },
       "fighting": {
-        "owned": 7,
+        "owned": 8,
         "total": 9,
-        "completion_percent": 77.78
+        "completion_percent": 88.89
       },
       "psychic": {
         "owned": 22,
@@ -139,8 +139,8 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1324,
-      "success": 645,
+      "thrown": 1326,
+      "success": 646,
       "accuracy_percent": 48.72,
       "most_used": "great ball",
       "details": {
@@ -150,8 +150,8 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 1265,
-          "success": 621,
+          "thrown": 1267,
+          "success": 622,
           "accuracy_percent": 49.09
         },
         "ultra ball": {
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 843,
+      "watch_hours": 844,
       "follow_age": "1 Year(s), 1 Month(s), 11 Day(s)",
       "sub_age": "10 Month(s), 28 Day(s)",
       "sub_months": 12,
@@ -177,16 +177,16 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 253,
-      "chat_messages": 23827,
-      "commands_run": 38410,
-      "times_tagged": 4409,
+      "chat_messages": 23873,
+      "commands_run": 38481,
+      "times_tagged": 4428,
       "times_evolved": 56,
-      "times_traded": 2,
+      "times_traded": 4,
       "times_eggs_hatched": 22,
       "ball_distribution": {
         "poke ball": 0.38,
-        "great ball": 95.54,
-        "ultra ball": 3.93,
+        "great ball": 95.55,
+        "ultra ball": 3.92,
         "master ball": 0.15
       },
       "pokebag": {
@@ -2036,7 +2036,7 @@
     },
     {
       "name": "Spearow",
-      "count": 12,
+      "count": 18,
       "owned": true,
       "pokedex_number": 21,
       "primary_type": "Normal",
@@ -5517,7 +5517,7 @@
     },
     {
       "name": "Poliwag",
-      "count": 14,
+      "count": 8,
       "owned": true,
       "pokedex_number": 60,
       "primary_type": "Water",
@@ -8848,7 +8848,7 @@
     },
     {
       "name": "Onix",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 95,
       "primary_type": "Rock",
@@ -9888,8 +9888,8 @@
     },
     {
       "name": "Hitmonchan",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 107,
       "primary_type": "Fighting",
       "secondary_type": null,
@@ -11149,7 +11149,7 @@
     },
     {
       "name": "Mr. Mime",
-      "count": 2,
+      "count": 1,
       "owned": true,
       "pokedex_number": 122,
       "primary_type": "Psychic",
@@ -11317,7 +11317,7 @@
     },
     {
       "name": "Jynx",
-      "count": 2,
+      "count": 1,
       "owned": true,
       "pokedex_number": 124,
       "primary_type": "Ice",
@@ -14366,7 +14366,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 7259
+      "friendship_points": 7291
     },
     {
       "name": "Croconaw",
@@ -14453,7 +14453,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 7259
+      "friendship_points": 7291
     },
     {
       "name": "Feraligatr",
@@ -14540,7 +14540,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 7259
+      "friendship_points": 7291
     },
     {
       "name": "Sentret",
@@ -14844,7 +14844,7 @@
     },
     {
       "name": "Ledyba",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 165,
       "primary_type": "Bug",
@@ -24312,7 +24312,7 @@
     "primary_type": "Water",
     "secondary_type": null,
     "evolution_line_id": "81",
-    "friendship_points": 7259,
+    "friendship_points": 7291,
     "times_pet": 20,
     "times_fed": 0
   }
