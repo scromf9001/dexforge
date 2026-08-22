@@ -3,13 +3,13 @@
     "username": "blopblood",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d81b7f66-4f5f-4eec-bd3d-64e0ba6d2b10-profile_image-300x300.png"
   },
-  "updated_at": "2026-08-20T16:31:54.914278+00:00",
+  "updated_at": "2026-08-22T16:37:18.931562+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 215,
-      "total_owned": 864,
-      "completion_percent": 77.34
+      "unique_owned": 216,
+      "total_owned": 867,
+      "completion_percent": 77.7
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 82,
+        "owned": 83,
         "total": 127,
-        "completion_percent": 64.57,
+        "completion_percent": 65.35,
         "total_lines": 78,
         "lines_completed": 41
       }
     },
     "evolution": {
-      "total_evolutions_owned": 215,
+      "total_evolutions_owned": 216,
       "total_evolutions_available": 278,
       "lines_completed": 104,
       "total_lines": 156,
@@ -43,7 +43,7 @@
       },
       "stage_owned": {
         "1": 117,
-        "2": 76,
+        "2": 77,
         "3": 22
       }
     },
@@ -54,9 +54,9 @@
         "completion_percent": 80.95
       },
       "fire": {
-        "owned": 15,
+        "owned": 16,
         "total": 20,
-        "completion_percent": 75.0
+        "completion_percent": 80.0
       },
       "water": {
         "owned": 39,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1328,
-      "success": 648,
-      "accuracy_percent": 48.8,
+      "thrown": 1339,
+      "success": 653,
+      "accuracy_percent": 48.77,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,14 +150,14 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 1268,
-          "success": 623,
-          "accuracy_percent": 49.13
+          "thrown": 1278,
+          "success": 627,
+          "accuracy_percent": 49.06
         },
         "ultra ball": {
-          "thrown": 52,
-          "success": 22,
-          "accuracy_percent": 42.31
+          "thrown": 53,
+          "success": 23,
+          "accuracy_percent": 43.4
         },
         "master ball": {
           "thrown": 3,
@@ -167,37 +167,37 @@
       }
     },
     "journey": {
-      "watch_hours": 844,
-      "follow_age": "1 Year(s), 1 Month(s), 11 Day(s)",
-      "sub_age": "10 Month(s), 28 Day(s)",
+      "watch_hours": 847,
+      "follow_age": "1 Year(s), 1 Month(s), 13 Day(s)",
+      "sub_age": "11 Month(s)",
       "sub_months": 12,
       "subs_gifted": 0,
-      "bits_donated": 601,
+      "bits_donated": 751,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 253,
-      "chat_messages": 23897,
-      "commands_run": 38519,
-      "times_tagged": 4433,
-      "times_evolved": 56,
+      "streams_watched": 254,
+      "chat_messages": 23992,
+      "commands_run": 38684,
+      "times_tagged": 4448,
+      "times_evolved": 57,
       "times_traded": 4,
       "times_eggs_hatched": 22,
       "ball_distribution": {
-        "poke ball": 0.38,
-        "great ball": 95.48,
-        "ultra ball": 3.92,
-        "master ball": 0.23
+        "poke ball": 0.37,
+        "great ball": 95.44,
+        "ultra ball": 3.96,
+        "master ball": 0.22
       },
       "pokebag": {
         "Egg": 1,
         "Fire Stone": 1,
-        "Great Ball": 88,
+        "Great Ball": 90,
         "Leaf Stone": 1,
         "Master Ball": 1,
         "Moon Stone": 2,
         "Thunder Stone": 1,
-        "Ultra Ball": 18
+        "Ultra Ball": 17
       }
     }
   },
@@ -2206,7 +2206,7 @@
     },
     {
       "name": "Ekans",
-      "count": 23,
+      "count": 24,
       "owned": true,
       "pokedex_number": 23,
       "primary_type": "Poison",
@@ -6330,7 +6330,7 @@
     },
     {
       "name": "Bellsprout",
-      "count": 24,
+      "count": 25,
       "owned": true,
       "pokedex_number": 69,
       "primary_type": "Grass",
@@ -11706,7 +11706,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 9,
+      "count": 10,
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
@@ -13986,7 +13986,7 @@
     },
     {
       "name": "Cyndaquil",
-      "count": 3,
+      "count": 1,
       "owned": true,
       "pokedex_number": 155,
       "primary_type": "Fire",
@@ -14078,15 +14078,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Quilava",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 156,
       "primary_type": "Fire",
       "secondary_type": null,
@@ -14366,7 +14366,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 7320
+      "friendship_points": 7499
     },
     {
       "name": "Croconaw",
@@ -14453,7 +14453,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 7320
+      "friendship_points": 7499
     },
     {
       "name": "Feraligatr",
@@ -14540,7 +14540,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 7320
+      "friendship_points": 7499
     },
     {
       "name": "Sentret",
@@ -23333,7 +23333,7 @@
     },
     {
       "name": "Miltank",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 241,
       "primary_type": "Normal",
@@ -24312,7 +24312,7 @@
     "primary_type": "Water",
     "secondary_type": null,
     "evolution_line_id": "81",
-    "friendship_points": 7320,
+    "friendship_points": 7499,
     "times_pet": 20,
     "times_fed": 0
   }
