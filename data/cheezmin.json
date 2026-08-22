@@ -3,36 +3,36 @@
     "username": "cheezmin",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/c605d103-4b94-4e88-8839-77ae3de379b8-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-22T18:21:28.076738+00:00",
+  "updated_at": "2026-08-22T19:57:40.042135+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 7,
-      "total_owned": 7,
-      "completion_percent": 2.52
+      "unique_owned": 10,
+      "total_owned": 10,
+      "completion_percent": 3.6
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 5,
+        "owned": 7,
         "total": 151,
-        "completion_percent": 3.31,
+        "completion_percent": 4.64,
         "total_lines": 78,
         "lines_completed": 0
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 2,
+        "owned": 3,
         "total": 127,
-        "completion_percent": 1.57,
+        "completion_percent": 2.36,
         "total_lines": 78,
         "lines_completed": 0
       }
     },
     "evolution": {
-      "total_evolutions_owned": 7,
+      "total_evolutions_owned": 10,
       "total_evolutions_available": 278,
       "lines_completed": 0,
       "total_lines": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 7
+        "1": 10
       }
     },
     "types": {
@@ -57,9 +57,9 @@
         "completion_percent": 5.0
       },
       "water": {
-        "owned": 1,
+        "owned": 2,
         "total": 45,
-        "completion_percent": 2.22
+        "completion_percent": 4.44
       },
       "bug": {
         "owned": 0,
@@ -67,9 +67,9 @@
         "completion_percent": 0.0
       },
       "normal": {
-        "owned": 1,
+        "owned": 3,
         "total": 37,
-        "completion_percent": 2.7
+        "completion_percent": 8.11
       },
       "poison": {
         "owned": 1,
@@ -137,20 +137,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 20,
-      "success": 7,
-      "accuracy_percent": 35.0,
-      "most_used": "great ball",
+      "thrown": 24,
+      "success": 10,
+      "accuracy_percent": 41.67,
+      "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 9,
-          "success": 2,
-          "accuracy_percent": 22.22
+          "thrown": 12,
+          "success": 5,
+          "accuracy_percent": 41.67
         },
         "great ball": {
-          "thrown": 11,
+          "thrown": 12,
           "success": 5,
-          "accuracy_percent": 45.45
+          "accuracy_percent": 41.67
         },
         "ultra ball": {
           "thrown": 0,
@@ -165,7 +165,7 @@
       }
     },
     "journey": {
-      "watch_hours": 7,
+      "watch_hours": 8,
       "follow_age": "13 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -175,20 +175,20 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 3,
-      "chat_messages": 136,
-      "commands_run": 257,
-      "times_tagged": 13,
+      "chat_messages": 183,
+      "commands_run": 338,
+      "times_tagged": 23,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 45.0,
-        "great ball": 55.0,
+        "poke ball": 50.0,
+        "great ball": 50.0,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 2
+        "Great Ball": 5
       }
     }
   },
@@ -4868,8 +4868,8 @@
     },
     {
       "name": "Meowth",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 52,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -7339,8 +7339,8 @@
     },
     {
       "name": "Slowpoke",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 79,
       "primary_type": "Water",
       "secondary_type": "Psychic",
@@ -14665,8 +14665,8 @@
     },
     {
       "name": "Hoothoot",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
       "secondary_type": "Flying",
