@@ -3,13 +3,13 @@
     "username": "litlpotatr",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f52f8e70-e4df-4dcc-ae00-b135c209e5e4-profile_image-300x300.png"
   },
-  "updated_at": "2026-08-20T18:56:18.067595+00:00",
+  "updated_at": "2026-08-24T18:51:01.576165+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 215,
-      "total_owned": 473,
-      "completion_percent": 77.34
+      "unique_owned": 216,
+      "total_owned": 478,
+      "completion_percent": 77.7
     },
     "generation_progress": {
       "1": {
@@ -24,17 +24,17 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 72,
+        "owned": 73,
         "total": 127,
-        "completion_percent": 56.69,
+        "completion_percent": 57.48,
         "total_lines": 78,
-        "lines_completed": 35
+        "lines_completed": 36
       }
     },
     "evolution": {
-      "total_evolutions_owned": 215,
+      "total_evolutions_owned": 216,
       "total_evolutions_available": 278,
-      "lines_completed": 103,
+      "lines_completed": 104,
       "total_lines": 156,
       "stage_totals": {
         "1": 155,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 121,
+        "1": 122,
         "3": 22,
         "2": 72
       }
@@ -59,9 +59,9 @@
         "completion_percent": 75.0
       },
       "water": {
-        "owned": 38,
+        "owned": 39,
         "total": 45,
-        "completion_percent": 84.44
+        "completion_percent": 86.67
       },
       "bug": {
         "owned": 18,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 758,
-      "success": 361,
-      "accuracy_percent": 47.63,
+      "thrown": 768,
+      "success": 366,
+      "accuracy_percent": 47.66,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 700,
-          "success": 341,
-          "accuracy_percent": 48.71
+          "thrown": 710,
+          "success": 346,
+          "accuracy_percent": 48.73
         },
         "ultra ball": {
           "thrown": 41,
@@ -167,31 +167,31 @@
       }
     },
     "journey": {
-      "watch_hours": 1028,
-      "follow_age": "1 Year(s), 1 Month(s), 24 Day(s)",
-      "sub_age": "1 Year(s), 7 Month(s), 4 Day(s)",
+      "watch_hours": 1037,
+      "follow_age": "1 Year(s), 1 Month(s), 28 Day(s)",
+      "sub_age": "1 Year(s), 7 Month(s), 8 Day(s)",
       "sub_months": 20,
       "subs_gifted": 19,
-      "bits_donated": 2040,
+      "bits_donated": 2390,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 321,
-      "chat_messages": 25188,
-      "commands_run": 39361,
-      "times_tagged": 4506,
+      "streams_watched": 324,
+      "chat_messages": 25316,
+      "commands_run": 39583,
+      "times_tagged": 4561,
       "times_evolved": 68,
       "times_traded": 12,
       "times_eggs_hatched": 23,
       "ball_distribution": {
-        "poke ball": 1.58,
-        "great ball": 92.35,
-        "ultra ball": 5.41,
-        "master ball": 0.66
+        "poke ball": 1.56,
+        "great ball": 92.45,
+        "ultra ball": 5.34,
+        "master ball": 0.65
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 94,
+        "Great Ball": 98,
         "Water Stone": 1
       }
     }
@@ -3263,7 +3263,7 @@
     },
     {
       "name": "Clefairy",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 35,
       "primary_type": "Fairy",
@@ -4007,7 +4007,7 @@
     },
     {
       "name": "Oddish",
-      "count": 5,
+      "count": 7,
       "owned": true,
       "pokedex_number": 43,
       "primary_type": "Grass",
@@ -5415,7 +5415,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 25047
+      "friendship_points": 25578
     },
     {
       "name": "Arcanine",
@@ -5508,7 +5508,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 25047
+      "friendship_points": 25578
     },
     {
       "name": "Poliwag",
@@ -11701,7 +11701,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
@@ -22075,8 +22075,8 @@
     },
     {
       "name": "Mantine",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 226,
       "primary_type": "Water",
       "secondary_type": "Flying",
@@ -22150,7 +22150,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -24307,7 +24307,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "25",
-    "friendship_points": 25047,
+    "friendship_points": 25578,
     "times_pet": 46,
     "times_fed": 3
   }
