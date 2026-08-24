@@ -3,38 +3,38 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-23T15:59:53.502615+00:00",
+  "updated_at": "2026-08-24T16:55:47.007948+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 138,
-      "total_owned": 237,
-      "completion_percent": 49.64
+      "unique_owned": 141,
+      "total_owned": 243,
+      "completion_percent": 50.72
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 91,
+        "owned": 92,
         "total": 151,
-        "completion_percent": 60.26,
+        "completion_percent": 60.93,
         "total_lines": 78,
         "lines_completed": 29
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 47,
+        "owned": 49,
         "total": 127,
-        "completion_percent": 37.01,
+        "completion_percent": 38.58,
         "total_lines": 78,
-        "lines_completed": 22
+        "lines_completed": 23
       }
     },
     "evolution": {
-      "total_evolutions_owned": 138,
+      "total_evolutions_owned": 141,
       "total_evolutions_available": 278,
-      "lines_completed": 51,
+      "lines_completed": 52,
       "total_lines": 156,
       "stage_totals": {
         "1": 155,
@@ -42,16 +42,16 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 81,
-        "2": 48,
+        "1": 83,
+        "2": 49,
         "3": 9
       }
     },
     "types": {
       "grass": {
-        "owned": 9,
+        "owned": 10,
         "total": 21,
-        "completion_percent": 42.86
+        "completion_percent": 47.62
       },
       "fire": {
         "owned": 10,
@@ -59,9 +59,9 @@
         "completion_percent": 50.0
       },
       "water": {
-        "owned": 27,
+        "owned": 28,
         "total": 45,
-        "completion_percent": 60.0
+        "completion_percent": 62.22
       },
       "bug": {
         "owned": 17,
@@ -104,9 +104,9 @@
         "completion_percent": 26.19
       },
       "rock": {
-        "owned": 2,
+        "owned": 3,
         "total": 13,
-        "completion_percent": 15.38
+        "completion_percent": 23.08
       },
       "ghost": {
         "owned": 1,
@@ -139,25 +139,25 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 735,
-      "success": 328,
-      "accuracy_percent": 44.63,
+      "thrown": 748,
+      "success": 336,
+      "accuracy_percent": 44.92,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 35,
+          "thrown": 36,
           "success": 1,
-          "accuracy_percent": 2.86
+          "accuracy_percent": 2.78
         },
         "great ball": {
-          "thrown": 653,
-          "success": 312,
-          "accuracy_percent": 47.78
+          "thrown": 663,
+          "success": 319,
+          "accuracy_percent": 48.11
         },
         "ultra ball": {
-          "thrown": 46,
-          "success": 14,
-          "accuracy_percent": 30.43
+          "thrown": 48,
+          "success": 15,
+          "accuracy_percent": 31.25
         },
         "master ball": {
           "thrown": 1,
@@ -167,32 +167,31 @@
       }
     },
     "journey": {
-      "watch_hours": 302,
-      "follow_age": "5 Month(s), 18 Day(s)",
-      "sub_age": "6 Month(s), 30 Day(s)",
+      "watch_hours": 307,
+      "follow_age": "5 Month(s), 19 Day(s)",
+      "sub_age": "7 Month(s)",
       "sub_months": 8,
       "subs_gifted": 0,
       "bits_donated": 2827,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 152,
-      "chat_messages": 27175,
-      "commands_run": 37415,
-      "times_tagged": 5086,
-      "times_evolved": 92,
+      "streams_watched": 153,
+      "chat_messages": 27605,
+      "commands_run": 38006,
+      "times_tagged": 5141,
+      "times_evolved": 93,
       "times_traded": 9,
       "times_eggs_hatched": 2,
       "ball_distribution": {
-        "poke ball": 4.76,
-        "great ball": 88.84,
-        "ultra ball": 6.26,
-        "master ball": 0.14
+        "poke ball": 4.81,
+        "great ball": 88.64,
+        "ultra ball": 6.42,
+        "master ball": 0.13
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 94,
-        "Ultra Ball": 2
+        "Great Ball": 98
       }
     }
   },
@@ -1628,7 +1627,7 @@
     },
     {
       "name": "Pidgey",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 16,
       "primary_type": "Normal",
@@ -2531,7 +2530,7 @@
     },
     {
       "name": "Sandshrew",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 27,
       "primary_type": "Ground",
@@ -4322,7 +4321,7 @@
     },
     {
       "name": "Paras",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 46,
       "primary_type": "Bug",
@@ -6824,8 +6823,8 @@
     },
     {
       "name": "Geodude",
-      "count": 0,
-      "owned": false,
+      "count": 2,
+      "owned": true,
       "pokedex_number": 74,
       "primary_type": "Rock",
       "secondary_type": "Ground",
@@ -12090,7 +12089,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2982
+      "friendship_points": 3249
     },
     {
       "name": "Vaporeon",
@@ -12195,7 +12194,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2982
+      "friendship_points": 3249
     },
     {
       "name": "Jolteon",
@@ -12292,7 +12291,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2982
+      "friendship_points": 3249
     },
     {
       "name": "Flareon",
@@ -12409,7 +12408,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2982
+      "friendship_points": 3249
     },
     {
       "name": "Porygon",
@@ -12664,7 +12663,7 @@
     },
     {
       "name": "Kabuto",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 140,
       "primary_type": "Rock",
@@ -16825,8 +16824,8 @@
     },
     {
       "name": "Hoppip",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
       "secondary_type": "Flying",
@@ -17181,8 +17180,8 @@
     },
     {
       "name": "Sunkern",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 191,
       "primary_type": "Grass",
       "secondary_type": null,
@@ -17267,15 +17266,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Sunflora",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 192,
       "primary_type": "Grass",
       "secondary_type": null,
@@ -17713,7 +17712,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2982,
+      "friendship_points": 3249,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17820,7 +17819,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2982,
+      "friendship_points": 3249,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -21834,8 +21833,8 @@
     },
     {
       "name": "Remoraid",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 223,
       "primary_type": "Water",
       "secondary_type": null,
@@ -21907,7 +21906,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -21988,7 +21987,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -24307,8 +24306,8 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 2982,
-    "times_pet": 43,
+    "friendship_points": 3249,
+    "times_pet": 45,
     "times_fed": 2
   }
 }
