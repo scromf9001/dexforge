@@ -3,21 +3,21 @@
     "username": "max_queen_of_darkness",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/b87d597f-c4c3-4dc5-b2ef-14dc3bf2872a-profile_image-300x300.png"
   },
-  "updated_at": "2026-08-14T15:17:27.334232+00:00",
+  "updated_at": "2026-08-26T16:20:56.985110+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 7,
-      "total_owned": 8,
-      "completion_percent": 2.52
+      "unique_owned": 9,
+      "total_owned": 10,
+      "completion_percent": 3.24
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 6,
+        "owned": 8,
         "total": 151,
-        "completion_percent": 3.97,
+        "completion_percent": 5.3,
         "total_lines": 78,
         "lines_completed": 0
       },
@@ -32,17 +32,17 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 7,
+      "total_evolutions_owned": 9,
       "total_evolutions_available": 278,
       "lines_completed": 1,
       "total_lines": 156,
       "stage_totals": {
-        "1": 156,
-        "2": 92,
+        "1": 155,
+        "2": 93,
         "3": 30
       },
       "stage_owned": {
-        "1": 7
+        "1": 9
       }
     },
     "types": {
@@ -57,9 +57,9 @@
         "completion_percent": 5.0
       },
       "water": {
-        "owned": 2,
+        "owned": 3,
         "total": 45,
-        "completion_percent": 4.44
+        "completion_percent": 6.67
       },
       "bug": {
         "owned": 1,
@@ -67,9 +67,9 @@
         "completion_percent": 4.55
       },
       "normal": {
-        "owned": 0,
+        "owned": 1,
         "total": 37,
-        "completion_percent": 0.0
+        "completion_percent": 2.7
       },
       "poison": {
         "owned": 0,
@@ -137,18 +137,18 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 16,
-      "success": 8,
-      "accuracy_percent": 50.0,
+      "thrown": 24,
+      "success": 10,
+      "accuracy_percent": 41.67,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 15,
-          "success": 8,
-          "accuracy_percent": 53.33
+          "thrown": 22,
+          "success": 10,
+          "accuracy_percent": 45.45
         },
         "great ball": {
-          "thrown": 1,
+          "thrown": 2,
           "success": 0,
           "accuracy_percent": 0.0
         },
@@ -165,8 +165,8 @@
       }
     },
     "journey": {
-      "watch_hours": 3,
-      "follow_age": "1 Month(s), 2 Day(s)",
+      "watch_hours": 5,
+      "follow_age": "1 Month(s), 15 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
       "subs_gifted": 0,
@@ -174,21 +174,21 @@
       "total_donated": 0.0,
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
-      "streams_watched": 19,
-      "chat_messages": 165,
-      "commands_run": 292,
-      "times_tagged": 58,
+      "streams_watched": 28,
+      "chat_messages": 259,
+      "commands_run": 446,
+      "times_tagged": 92,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 93.75,
-        "great ball": 6.25,
+        "poke ball": 91.67,
+        "great ball": 8.33,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 14
+        "Great Ball": 15
       }
     }
   },
@@ -1159,12 +1159,12 @@
       "item_required": false,
       "requirement": "",
       "stats": {
-        "hp": 60,
-        "attack": 45,
-        "defense": 50,
-        "sp_attack": 90,
-        "sp_defense": 80,
-        "speed": 70
+        "hp": 50,
+        "attack": 20,
+        "defense": 55,
+        "sp_attack": 25,
+        "sp_defense": 25,
+        "speed": 30
       },
       "physical": {
         "height": 0.7,
@@ -1246,12 +1246,12 @@
       "item_required": false,
       "requirement": "",
       "stats": {
-        "hp": 40,
-        "attack": 35,
-        "defense": 30,
-        "sp_attack": 20,
-        "sp_defense": 20,
-        "speed": 50
+        "hp": 60,
+        "attack": 45,
+        "defense": 50,
+        "sp_attack": 90,
+        "sp_defense": 80,
+        "speed": 70
       },
       "physical": {
         "height": 1.1,
@@ -1345,12 +1345,12 @@
       "item_required": false,
       "requirement": "",
       "stats": {
-        "hp": 45,
-        "attack": 25,
-        "defense": 50,
-        "sp_attack": 25,
-        "sp_defense": 25,
-        "speed": 35
+        "hp": 40,
+        "attack": 35,
+        "defense": 30,
+        "sp_attack": 20,
+        "sp_defense": 20,
+        "speed": 50
       },
       "physical": {
         "height": 0.3,
@@ -1444,12 +1444,12 @@
       "item_required": false,
       "requirement": "",
       "stats": {
-        "hp": 65,
-        "attack": 90,
-        "defense": 40,
-        "sp_attack": 45,
-        "sp_defense": 80,
-        "speed": 75
+        "hp": 45,
+        "attack": 25,
+        "defense": 50,
+        "sp_attack": 25,
+        "sp_defense": 25,
+        "speed": 35
       },
       "physical": {
         "height": 0.36,
@@ -1543,12 +1543,12 @@
       "item_required": false,
       "requirement": "",
       "stats": {
-        "hp": 65,
-        "attack": 150,
+        "hp": 60,
+        "attack": 90,
         "defense": 40,
-        "sp_attack": 15,
+        "sp_attack": 45,
         "sp_defense": 80,
-        "speed": 145
+        "speed": 75
       },
       "physical": {
         "height": 1.0,
@@ -2466,12 +2466,12 @@
       "item_required": true,
       "requirement": "Thunder Stone",
       "stats": {
-        "hp": 45,
-        "attack": 80,
-        "defense": 50,
-        "sp_attack": 75,
-        "sp_defense": 60,
-        "speed": 120
+        "hp": 60,
+        "attack": 90,
+        "defense": 55,
+        "sp_attack": 90,
+        "sp_defense": 80,
+        "speed": 110
       },
       "physical": {
         "height": 0.8,
@@ -4805,12 +4805,12 @@
       "item_required": false,
       "requirement": "",
       "stats": {
-        "hp": 10,
-        "attack": 55,
-        "defense": 25,
-        "sp_attack": 35,
-        "sp_defense": 45,
-        "speed": 95
+        "hp": 35,
+        "attack": 100,
+        "defense": 50,
+        "sp_attack": 50,
+        "sp_defense": 70,
+        "speed": 120
       },
       "physical": {
         "height": 0.7,
@@ -4868,8 +4868,8 @@
     },
     {
       "name": "Meowth",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 52,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -5508,8 +5508,8 @@
     },
     {
       "name": "Poliwag",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 60,
       "primary_type": "Water",
       "secondary_type": null,
@@ -9534,11 +9534,11 @@
       "requirement": "",
       "stats": {
         "hp": 95,
-        "attack": 105,
+        "attack": 95,
         "defense": 85,
         "sp_attack": 125,
         "sp_defense": 75,
-        "speed": 45
+        "speed": 55
       },
       "physical": {
         "height": 2.0,
@@ -14347,7 +14347,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Ferligatr",
+          "name": "Feraligatr",
           "pokedex_number": 160,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/160.svg",
           "evolution_stage": "3"
@@ -14434,7 +14434,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Ferligatr",
+          "name": "Feraligatr",
           "pokedex_number": 160,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/160.svg",
           "evolution_stage": "3"
@@ -14447,7 +14447,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Ferligatr",
+      "name": "Feraligatr",
       "count": 0,
       "owned": false,
       "pokedex_number": 160,
@@ -14521,7 +14521,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Ferligatr",
+          "name": "Feraligatr",
           "pokedex_number": 160,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/160.svg",
           "evolution_stage": "3"
@@ -16164,7 +16164,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Flaafy",
+          "name": "Flaaffy",
           "pokedex_number": 180,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/180.svg",
           "evolution_stage": "2"
@@ -16183,7 +16183,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Flaafy",
+      "name": "Flaaffy",
       "count": 0,
       "owned": false,
       "pokedex_number": 180,
@@ -16243,7 +16243,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Flaafy",
+          "name": "Flaaffy",
           "pokedex_number": 180,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/180.svg",
           "evolution_stage": "2"
@@ -16322,7 +16322,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Flaafy",
+          "name": "Flaaffy",
           "pokedex_number": 180,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/180.svg",
           "evolution_stage": "2"
@@ -16559,8 +16559,8 @@
       "evolution_stage": 2,
       "evolution_line_id": "90",
       "quantity_required": 0,
-      "item_required": true,
-      "requirement": "Friendship",
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 100,
         "attack": 50,
@@ -16637,9 +16637,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0,
-      "friendship_requirement": 600,
-      "friendship_progress_percent": 0.0
+      "friendship_points": 0
     },
     {
       "name": "Sudowoodo",
@@ -20093,7 +20091,7 @@
       "is_mythic": false,
       "is_hatchable": false,
       "evolution": false,
-      "evolution_stage": 1,
+      "evolution_stage": 2,
       "evolution_line_id": "100",
       "quantity_required": 0,
       "item_required": false,
@@ -20141,7 +20139,7 @@
           "name": "Wobbuffet",
           "pokedex_number": 202,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/202.svg",
-          "evolution_stage": "1"
+          "evolution_stage": "2"
         }
       ],
       "line_complete": false,
