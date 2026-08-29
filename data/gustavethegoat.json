@@ -3,12 +3,12 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-25T20:22:26.104323+00:00",
+  "updated_at": "2026-08-29T15:12:28.580301+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 144,
-      "total_owned": 250,
+      "total_owned": 251,
       "completion_percent": 51.8
     },
     "generation_progress": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 761,
-      "success": 341,
-      "accuracy_percent": 44.81,
+      "thrown": 764,
+      "success": 342,
+      "accuracy_percent": 44.76,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 2.78
         },
         "great ball": {
-          "thrown": 675,
-          "success": 324,
-          "accuracy_percent": 48.0
+          "thrown": 678,
+          "success": 325,
+          "accuracy_percent": 47.94
         },
         "ultra ball": {
           "thrown": 49,
@@ -167,31 +167,31 @@
       }
     },
     "journey": {
-      "watch_hours": 310,
-      "follow_age": "5 Month(s), 21 Day(s)",
-      "sub_age": "7 Month(s), 1 Day(s)",
+      "watch_hours": 312,
+      "follow_age": "5 Month(s), 24 Day(s)",
+      "sub_age": "7 Month(s), 3 Day(s)",
       "sub_months": 8,
       "subs_gifted": 0,
       "bits_donated": 2827,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 154,
-      "chat_messages": 28034,
-      "commands_run": 38590,
-      "times_tagged": 5202,
+      "streams_watched": 157,
+      "chat_messages": 28144,
+      "commands_run": 38750,
+      "times_tagged": 5222,
       "times_evolved": 93,
       "times_traded": 9,
       "times_eggs_hatched": 3,
       "ball_distribution": {
-        "poke ball": 4.73,
-        "great ball": 88.7,
-        "ultra ball": 6.44,
+        "poke ball": 4.71,
+        "great ball": 88.74,
+        "ultra ball": 6.41,
         "master ball": 0.13
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 98
+        "Great Ball": 97
       }
     }
   },
@@ -4871,7 +4871,7 @@
     },
     {
       "name": "Meowth",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 52,
       "primary_type": "Normal",
@@ -4929,7 +4929,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -12089,7 +12089,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3473
+      "friendship_points": 3581
     },
     {
       "name": "Vaporeon",
@@ -12194,7 +12194,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3473
+      "friendship_points": 3581
     },
     {
       "name": "Jolteon",
@@ -12291,7 +12291,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3473
+      "friendship_points": 3581
     },
     {
       "name": "Flareon",
@@ -12408,7 +12408,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3473
+      "friendship_points": 3581
     },
     {
       "name": "Porygon",
@@ -17712,7 +17712,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3473,
+      "friendship_points": 3581,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17819,7 +17819,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3473,
+      "friendship_points": 3581,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24306,8 +24306,8 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 3473,
-    "times_pet": 45,
+    "friendship_points": 3581,
+    "times_pet": 46,
     "times_fed": 2
   }
 }
