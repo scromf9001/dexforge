@@ -3,21 +3,21 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-08-29T15:12:28.580301+00:00",
+  "updated_at": "2026-09-01T15:30:54.388284+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 144,
-      "total_owned": 251,
-      "completion_percent": 51.8
+      "unique_owned": 143,
+      "total_owned": 253,
+      "completion_percent": 51.44
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 93,
+        "owned": 92,
         "total": 151,
-        "completion_percent": 61.59,
+        "completion_percent": 60.93,
         "total_lines": 78,
         "lines_completed": 30
       },
@@ -32,7 +32,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 144,
+      "total_evolutions_owned": 143,
       "total_evolutions_available": 278,
       "lines_completed": 53,
       "total_lines": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 85,
+        "1": 84,
         "2": 50,
         "3": 9
       }
@@ -59,9 +59,9 @@
         "completion_percent": 50.0
       },
       "water": {
-        "owned": 28,
+        "owned": 27,
         "total": 45,
-        "completion_percent": 62.22
+        "completion_percent": 60.0
       },
       "bug": {
         "owned": 18,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 764,
-      "success": 342,
-      "accuracy_percent": 44.76,
+      "thrown": 771,
+      "success": 346,
+      "accuracy_percent": 44.88,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 2.78
         },
         "great ball": {
-          "thrown": 678,
-          "success": 325,
-          "accuracy_percent": 47.94
+          "thrown": 685,
+          "success": 329,
+          "accuracy_percent": 48.03
         },
         "ultra ball": {
           "thrown": 49,
@@ -167,31 +167,31 @@
       }
     },
     "journey": {
-      "watch_hours": 312,
-      "follow_age": "5 Month(s), 24 Day(s)",
-      "sub_age": "7 Month(s), 3 Day(s)",
+      "watch_hours": 314,
+      "follow_age": "5 Month(s), 27 Day(s)",
+      "sub_age": "7 Month(s), 7 Day(s)",
       "sub_months": 8,
       "subs_gifted": 0,
       "bits_donated": 2827,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 157,
-      "chat_messages": 28144,
-      "commands_run": 38750,
-      "times_tagged": 5222,
-      "times_evolved": 93,
+      "streams_watched": 158,
+      "chat_messages": 28328,
+      "commands_run": 39055,
+      "times_tagged": 5266,
+      "times_evolved": 94,
       "times_traded": 9,
       "times_eggs_hatched": 3,
       "ball_distribution": {
-        "poke ball": 4.71,
-        "great ball": 88.74,
-        "ultra ball": 6.41,
+        "poke ball": 4.67,
+        "great ball": 88.85,
+        "ultra ball": 6.36,
         "master ball": 0.13
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 97
+        "Great Ball": 92
       }
     }
   },
@@ -1057,7 +1057,7 @@
     },
     {
       "name": "Caterpie",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 10,
       "primary_type": "Bug",
@@ -9101,7 +9101,7 @@
     },
     {
       "name": "Krabby",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 98,
       "primary_type": "Water",
@@ -9175,7 +9175,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -10625,8 +10625,8 @@
     },
     {
       "name": "Horsea",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 116,
       "primary_type": "Water",
       "secondary_type": null,
@@ -10705,14 +10705,14 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Seadra",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 117,
       "primary_type": "Water",
@@ -12089,7 +12089,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3581
+      "friendship_points": 3706
     },
     {
       "name": "Vaporeon",
@@ -12194,7 +12194,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3581
+      "friendship_points": 3706
     },
     {
       "name": "Jolteon",
@@ -12291,7 +12291,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3581
+      "friendship_points": 3706
     },
     {
       "name": "Flareon",
@@ -12408,7 +12408,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3581
+      "friendship_points": 3706
     },
     {
       "name": "Porygon",
@@ -14065,7 +14065,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Thyplosion",
+          "name": "Typhlosion",
           "pokedex_number": 157,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/157.svg",
           "evolution_stage": "3"
@@ -14164,7 +14164,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Thyplosion",
+          "name": "Typhlosion",
           "pokedex_number": 157,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/157.svg",
           "evolution_stage": "3"
@@ -14177,7 +14177,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Thyplosion",
+      "name": "Typhlosion",
       "count": 0,
       "owned": false,
       "pokedex_number": 157,
@@ -14263,7 +14263,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Thyplosion",
+          "name": "Typhlosion",
           "pokedex_number": 157,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/157.svg",
           "evolution_stage": "3"
@@ -14668,7 +14668,7 @@
     },
     {
       "name": "Hoothoot",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
@@ -16108,7 +16108,7 @@
     },
     {
       "name": "Mareep",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 179,
       "primary_type": "Electric",
@@ -17712,7 +17712,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3581,
+      "friendship_points": 3706,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17819,7 +17819,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3581,
+      "friendship_points": 3706,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24306,8 +24306,8 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 3581,
-    "times_pet": 46,
+    "friendship_points": 3706,
+    "times_pet": 48,
     "times_fed": 2
   }
 }
