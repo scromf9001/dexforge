@@ -3,30 +3,30 @@
     "username": "gustavethegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-09-01T15:30:54.388284+00:00",
+  "updated_at": "2026-09-01T15:36:59.706554+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 143,
-      "total_owned": 253,
+      "total_owned": 251,
       "completion_percent": 51.44
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 92,
+        "owned": 91,
         "total": 151,
-        "completion_percent": 60.93,
+        "completion_percent": 60.26,
         "total_lines": 78,
         "lines_completed": 30
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 51,
+        "owned": 52,
         "total": 127,
-        "completion_percent": 40.16,
+        "completion_percent": 40.94,
         "total_lines": 78,
         "lines_completed": 23
       }
@@ -43,8 +43,8 @@
       },
       "stage_owned": {
         "1": 84,
-        "2": 50,
-        "3": 9
+        "2": 49,
+        "3": 10
       }
     },
     "types": {
@@ -177,11 +177,11 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 158,
-      "chat_messages": 28328,
-      "commands_run": 39055,
-      "times_tagged": 5266,
+      "chat_messages": 28347,
+      "commands_run": 39090,
+      "times_tagged": 5274,
       "times_evolved": 94,
-      "times_traded": 9,
+      "times_traded": 11,
       "times_eggs_hatched": 3,
       "ball_distribution": {
         "poke ball": 4.67,
@@ -10712,8 +10712,8 @@
     },
     {
       "name": "Seadra",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 117,
       "primary_type": "Water",
       "secondary_type": null,
@@ -12089,7 +12089,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3706
+      "friendship_points": 3712
     },
     {
       "name": "Vaporeon",
@@ -12194,7 +12194,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3706
+      "friendship_points": 3712
     },
     {
       "name": "Jolteon",
@@ -12291,7 +12291,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3706
+      "friendship_points": 3712
     },
     {
       "name": "Flareon",
@@ -12408,7 +12408,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3706
+      "friendship_points": 3712
     },
     {
       "name": "Porygon",
@@ -17712,7 +17712,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3706,
+      "friendship_points": 3712,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17819,7 +17819,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3706,
+      "friendship_points": 3712,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -22458,8 +22458,8 @@
     },
     {
       "name": "Kingdra",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 230,
       "primary_type": "Water",
       "secondary_type": "Dragon",
@@ -24306,7 +24306,7 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 3706,
+    "friendship_points": 3712,
     "times_pet": 48,
     "times_fed": 2
   }
