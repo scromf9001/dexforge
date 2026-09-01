@@ -3,12 +3,12 @@
     "username": "litlpotatr",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f52f8e70-e4df-4dcc-ae00-b135c209e5e4-profile_image-300x300.png"
   },
-  "updated_at": "2026-08-27T15:54:20.225235+00:00",
+  "updated_at": "2026-09-01T15:23:13.249285+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 217,
-      "total_owned": 486,
+      "total_owned": 499,
       "completion_percent": 78.06
     },
     "generation_progress": {
@@ -139,25 +139,25 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 797,
-      "success": 377,
-      "accuracy_percent": 47.3,
+      "thrown": 822,
+      "success": 391,
+      "accuracy_percent": 47.57,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 12,
+          "thrown": 15,
           "success": 0,
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 738,
-          "success": 356,
-          "accuracy_percent": 48.24
+          "thrown": 759,
+          "success": 370,
+          "accuracy_percent": 48.75
         },
         "ultra ball": {
-          "thrown": 42,
+          "thrown": 43,
           "success": 16,
-          "accuracy_percent": 38.1
+          "accuracy_percent": 37.21
         },
         "master ball": {
           "thrown": 5,
@@ -167,31 +167,33 @@
       }
     },
     "journey": {
-      "watch_hours": 1045,
-      "follow_age": "1 Year(s), 2 Month(s)",
-      "sub_age": "1 Year(s), 7 Month(s), 10 Day(s)",
+      "watch_hours": 1053,
+      "follow_age": "1 Year(s), 2 Month(s), 4 Day(s)",
+      "sub_age": "1 Year(s), 7 Month(s), 15 Day(s)",
       "sub_months": 20,
       "subs_gifted": 19,
-      "bits_donated": 2390,
+      "bits_donated": 2540,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 327,
-      "chat_messages": 25779,
-      "commands_run": 40264,
-      "times_tagged": 4623,
-      "times_evolved": 70,
+      "streams_watched": 330,
+      "chat_messages": 26017,
+      "commands_run": 40687,
+      "times_tagged": 4699,
+      "times_evolved": 71,
       "times_traded": 13,
       "times_eggs_hatched": 24,
       "ball_distribution": {
-        "poke ball": 1.51,
-        "great ball": 92.6,
-        "ultra ball": 5.27,
-        "master ball": 0.63
+        "poke ball": 1.82,
+        "great ball": 92.34,
+        "ultra ball": 5.23,
+        "master ball": 0.61
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 96,
+        "Great Ball": 97,
+        "Master Ball": 1,
+        "Ultra Ball": 2,
         "Water Stone": 1
       }
     }
@@ -2201,7 +2203,7 @@
     },
     {
       "name": "Ekans",
-      "count": 2,
+      "count": 4,
       "owned": true,
       "pokedex_number": 23,
       "primary_type": "Poison",
@@ -2279,7 +2281,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -3625,7 +3627,7 @@
     },
     {
       "name": "Jigglypuff",
-      "count": 9,
+      "count": 10,
       "owned": true,
       "pokedex_number": 39,
       "primary_type": "Normal",
@@ -4710,7 +4712,7 @@
     },
     {
       "name": "Diglett",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 50,
       "primary_type": "Ground",
@@ -5415,7 +5417,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 26082
+      "friendship_points": 26552
     },
     {
       "name": "Arcanine",
@@ -5508,7 +5510,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 26082
+      "friendship_points": 26552
     },
     {
       "name": "Poliwag",
@@ -5815,7 +5817,7 @@
     },
     {
       "name": "Abra",
-      "count": 2,
+      "count": 1,
       "owned": true,
       "pokedex_number": 63,
       "primary_type": "Psychic",
@@ -5898,7 +5900,7 @@
     },
     {
       "name": "Kadabra",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 64,
       "primary_type": "Psychic",
@@ -5974,7 +5976,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -7157,7 +7159,7 @@
     },
     {
       "name": "Ponyta",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 77,
       "primary_type": "Fire",
@@ -8372,7 +8374,7 @@
     },
     {
       "name": "Shellder",
-      "count": 9,
+      "count": 10,
       "owned": true,
       "pokedex_number": 90,
       "primary_type": "Water",
@@ -9102,7 +9104,7 @@
     },
     {
       "name": "Krabby",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 98,
       "primary_type": "Water",
@@ -9410,7 +9412,7 @@
     },
     {
       "name": "Exeggcute",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 102,
       "primary_type": "Grass",
@@ -9512,7 +9514,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -13981,7 +13983,7 @@
     },
     {
       "name": "Cyndaquil",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 155,
       "primary_type": "Fire",
@@ -14066,7 +14068,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Thyplosion",
+          "name": "Typhlosion",
           "pokedex_number": 157,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/157.svg",
           "evolution_stage": "3"
@@ -14165,7 +14167,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Thyplosion",
+          "name": "Typhlosion",
           "pokedex_number": 157,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/157.svg",
           "evolution_stage": "3"
@@ -14178,7 +14180,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Thyplosion",
+      "name": "Typhlosion",
       "count": 0,
       "owned": false,
       "pokedex_number": 157,
@@ -14264,7 +14266,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Thyplosion",
+          "name": "Typhlosion",
           "pokedex_number": 157,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/157.svg",
           "evolution_stage": "3"
@@ -14539,7 +14541,7 @@
     },
     {
       "name": "Sentret",
-      "count": 6,
+      "count": 8,
       "owned": true,
       "pokedex_number": 161,
       "primary_type": "Normal",
@@ -14839,7 +14841,7 @@
     },
     {
       "name": "Ledyba",
-      "count": 8,
+      "count": 9,
       "owned": true,
       "pokedex_number": 165,
       "primary_type": "Bug",
@@ -16451,7 +16453,7 @@
     },
     {
       "name": "Marill",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 183,
       "primary_type": "Water",
@@ -24307,8 +24309,8 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "25",
-    "friendship_points": 26082,
-    "times_pet": 46,
+    "friendship_points": 26552,
+    "times_pet": 47,
     "times_fed": 3
   }
 }
