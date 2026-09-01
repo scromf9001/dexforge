@@ -3,23 +3,23 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-08-30T23:22:36.752091+00:00",
+  "updated_at": "2026-09-01T15:22:26.186468+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 204,
-      "total_owned": 956,
-      "completion_percent": 73.38
+      "unique_owned": 205,
+      "total_owned": 958,
+      "completion_percent": 73.74
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 133,
+        "owned": 134,
         "total": 151,
-        "completion_percent": 88.08,
+        "completion_percent": 88.74,
         "total_lines": 78,
-        "lines_completed": 60
+        "lines_completed": 61
       },
       "2": {
         "generation": 2,
@@ -32,9 +32,9 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 204,
+      "total_evolutions_owned": 205,
       "total_evolutions_available": 278,
-      "lines_completed": 95,
+      "lines_completed": 96,
       "total_lines": 156,
       "stage_totals": {
         "1": 155,
@@ -44,7 +44,7 @@
       "stage_owned": {
         "1": 111,
         "2": 73,
-        "3": 20
+        "3": 21
       }
     },
     "types": {
@@ -109,9 +109,9 @@
         "completion_percent": 53.85
       },
       "ghost": {
-        "owned": 2,
+        "owned": 3,
         "total": 4,
-        "completion_percent": 50.0
+        "completion_percent": 75.0
       },
       "ice": {
         "owned": 5,
@@ -139,14 +139,14 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 2093,
-      "success": 648,
+      "thrown": 2106,
+      "success": 652,
       "accuracy_percent": 30.96,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 2093,
-          "success": 648,
+          "thrown": 2106,
+          "success": 652,
           "accuracy_percent": 30.96
         },
         "great ball": {
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 1535,
+      "watch_hours": 1538,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -177,9 +177,9 @@
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
       "streams_watched": 464,
-      "chat_messages": 14971,
-      "commands_run": 73246,
-      "times_tagged": 3501,
+      "chat_messages": 15037,
+      "commands_run": 73509,
+      "times_tagged": 3529,
       "times_evolved": 80,
       "times_traded": 30,
       "times_eggs_hatched": 24,
@@ -599,7 +599,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 20654
+      "friendship_points": 20840
     },
     {
       "name": "Charmeleon",
@@ -698,7 +698,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 20654
+      "friendship_points": 20840
     },
     {
       "name": "Charizard",
@@ -801,7 +801,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 20654
+      "friendship_points": 20840
     },
     {
       "name": "Squirtle",
@@ -2209,7 +2209,7 @@
     },
     {
       "name": "Ekans",
-      "count": 46,
+      "count": 47,
       "owned": true,
       "pokedex_number": 23,
       "primary_type": "Poison",
@@ -4718,7 +4718,7 @@
     },
     {
       "name": "Diglett",
-      "count": 24,
+      "count": 25,
       "owned": true,
       "pokedex_number": 50,
       "primary_type": "Ground",
@@ -8637,7 +8637,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -8645,7 +8645,7 @@
     },
     {
       "name": "Haunter",
-      "count": 4,
+      "count": 1,
       "owned": true,
       "pokedex_number": 93,
       "primary_type": "Ghost",
@@ -8740,16 +8740,16 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
-      "evolvable_now": true,
+      "line_complete": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Gengar",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 94,
       "primary_type": "Ghost",
       "secondary_type": "Poison",
@@ -8843,7 +8843,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": true,
@@ -9110,7 +9110,7 @@
     },
     {
       "name": "Krabby",
-      "count": 24,
+      "count": 25,
       "owned": true,
       "pokedex_number": 98,
       "primary_type": "Water",
@@ -14074,7 +14074,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Thyplosion",
+          "name": "Typhlosion",
           "pokedex_number": 157,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/157.svg",
           "evolution_stage": "3"
@@ -14173,7 +14173,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Thyplosion",
+          "name": "Typhlosion",
           "pokedex_number": 157,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/157.svg",
           "evolution_stage": "3"
@@ -14186,7 +14186,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Thyplosion",
+      "name": "Typhlosion",
       "count": 0,
       "owned": false,
       "pokedex_number": 157,
@@ -14272,7 +14272,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Thyplosion",
+          "name": "Typhlosion",
           "pokedex_number": 157,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/157.svg",
           "evolution_stage": "3"
@@ -14677,7 +14677,7 @@
     },
     {
       "name": "Hoothoot",
-      "count": 14,
+      "count": 15,
       "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
@@ -24315,7 +24315,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "2",
-    "friendship_points": 20654,
+    "friendship_points": 20840,
     "times_pet": 7,
     "times_fed": 3
   }
