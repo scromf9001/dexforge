@@ -3,12 +3,12 @@
     "username": "blopblood",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d81b7f66-4f5f-4eec-bd3d-64e0ba6d2b10-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-01T17:46:08.137925+00:00",
+  "updated_at": "2026-09-03T18:51:41.192703+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 220,
-      "total_owned": 919,
+      "total_owned": 935,
       "completion_percent": 79.14
     },
     "generation_progress": {
@@ -59,9 +59,9 @@
         "completion_percent": 75.0
       },
       "water": {
-        "owned": 40,
-        "total": 45,
-        "completion_percent": 88.89
+        "owned": 41,
+        "total": 46,
+        "completion_percent": 89.13
       },
       "bug": {
         "owned": 21,
@@ -114,8 +114,8 @@
         "completion_percent": 75.0
       },
       "ice": {
-        "owned": 7,
-        "total": 7,
+        "owned": 6,
+        "total": 6,
         "completion_percent": 100.0
       },
       "dragon": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1458,
-      "success": 711,
-      "accuracy_percent": 48.77,
+      "thrown": 1487,
+      "success": 727,
+      "accuracy_percent": 48.89,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,14 +150,14 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 1381,
-          "success": 680,
-          "accuracy_percent": 49.24
+          "thrown": 1408,
+          "success": 696,
+          "accuracy_percent": 49.43
         },
         "ultra ball": {
-          "thrown": 67,
+          "thrown": 69,
           "success": 28,
-          "accuracy_percent": 41.79
+          "accuracy_percent": 40.58
         },
         "master ball": {
           "thrown": 3,
@@ -167,37 +167,37 @@
       }
     },
     "journey": {
-      "watch_hours": 880,
-      "follow_age": "1 Year(s), 1 Month(s), 23 Day(s)",
-      "sub_age": "11 Month(s), 9 Day(s)",
+      "watch_hours": 885,
+      "follow_age": "1 Year(s), 1 Month(s), 26 Day(s)",
+      "sub_age": "11 Month(s), 11 Day(s)",
       "sub_months": 12,
       "subs_gifted": 6,
       "bits_donated": 751,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 261,
-      "chat_messages": 25470,
-      "commands_run": 40857,
-      "times_tagged": 4732,
+      "streams_watched": 263,
+      "chat_messages": 25741,
+      "commands_run": 41287,
+      "times_tagged": 4804,
       "times_evolved": 62,
       "times_traded": 4,
       "times_eggs_hatched": 24,
       "ball_distribution": {
-        "poke ball": 0.48,
-        "great ball": 94.72,
-        "ultra ball": 4.6,
-        "master ball": 0.21
+        "poke ball": 0.47,
+        "great ball": 94.69,
+        "ultra ball": 4.64,
+        "master ball": 0.2
       },
       "pokebag": {
         "Egg": 1,
         "Fire Stone": 1,
-        "Great Ball": 98,
+        "Great Ball": 87,
         "Leaf Stone": 1,
         "Master Ball": 1,
         "Moon Stone": 2,
         "Thunder Stone": 1,
-        "Ultra Ball": 7
+        "Ultra Ball": 5
       }
     }
   },
@@ -3268,7 +3268,7 @@
     },
     {
       "name": "Clefairy",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 35,
       "primary_type": "Fairy",
@@ -4715,7 +4715,7 @@
     },
     {
       "name": "Diglett",
-      "count": 19,
+      "count": 21,
       "owned": true,
       "pokedex_number": 50,
       "primary_type": "Ground",
@@ -6829,7 +6829,7 @@
     },
     {
       "name": "Geodude",
-      "count": 18,
+      "count": 19,
       "owned": true,
       "pokedex_number": 74,
       "primary_type": "Rock",
@@ -9107,7 +9107,7 @@
     },
     {
       "name": "Krabby",
-      "count": 16,
+      "count": 17,
       "owned": true,
       "pokedex_number": 98,
       "primary_type": "Water",
@@ -9269,7 +9269,7 @@
     },
     {
       "name": "Voltorb",
-      "count": 13,
+      "count": 14,
       "owned": true,
       "pokedex_number": 100,
       "primary_type": "Electric",
@@ -10805,7 +10805,7 @@
     },
     {
       "name": "Goldeen",
-      "count": 13,
+      "count": 14,
       "owned": true,
       "pokedex_number": 118,
       "primary_type": "Water",
@@ -11303,7 +11303,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Scisor",
+          "name": "Scizor",
           "pokedex_number": 212,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/212.svg",
           "evolution_stage": "2"
@@ -14366,7 +14366,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 9474
+      "friendship_points": 9747
     },
     {
       "name": "Croconaw",
@@ -14453,7 +14453,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 9474
+      "friendship_points": 9747
     },
     {
       "name": "Feraligatr",
@@ -14540,11 +14540,11 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 9474
+      "friendship_points": 9747
     },
     {
       "name": "Sentret",
-      "count": 15,
+      "count": 16,
       "owned": true,
       "pokedex_number": 161,
       "primary_type": "Normal",
@@ -14674,7 +14674,7 @@
     },
     {
       "name": "Hoothoot",
-      "count": 16,
+      "count": 17,
       "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
@@ -14844,7 +14844,7 @@
     },
     {
       "name": "Ledyba",
-      "count": 9,
+      "count": 10,
       "owned": true,
       "pokedex_number": 165,
       "primary_type": "Bug",
@@ -15321,7 +15321,7 @@
     },
     {
       "name": "Chinchou",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 170,
       "primary_type": "Water",
@@ -16830,7 +16830,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
@@ -17459,7 +17459,7 @@
     },
     {
       "name": "Wooper",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 194,
       "primary_type": "Water",
@@ -20911,7 +20911,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Scisor",
+      "name": "Scizor",
       "count": 0,
       "owned": false,
       "pokedex_number": 212,
@@ -20927,8 +20927,8 @@
       "evolution_stage": 2,
       "evolution_line_id": "58",
       "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 70,
         "attack": 130,
@@ -20995,7 +20995,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Scisor",
+          "name": "Scizor",
           "pokedex_number": 212,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/212.svg",
           "evolution_stage": "2"
@@ -21004,7 +21004,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -21582,7 +21582,7 @@
     },
     {
       "name": "Swinub",
-      "count": 10,
+      "count": 12,
       "owned": true,
       "pokedex_number": 220,
       "primary_type": "Ice",
@@ -21839,7 +21839,7 @@
     },
     {
       "name": "Remoraid",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 223,
       "primary_type": "Water",
@@ -23616,7 +23616,7 @@
       "count": 1,
       "owned": true,
       "pokedex_number": 245,
-      "primary_type": "Ice",
+      "primary_type": "Water",
       "secondary_type": null,
       "generation": 2,
       "region": "Johto",
@@ -23646,25 +23646,29 @@
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/245.svg",
       "strengths": [
         {
+          "type": "fire",
+          "multiplier": 0.5
+        },
+        {
+          "type": "water",
+          "multiplier": 0.5
+        },
+        {
           "type": "ice",
+          "multiplier": 0.5
+        },
+        {
+          "type": "steel",
           "multiplier": 0.5
         }
       ],
       "weaknesses": [
         {
-          "type": "fire",
+          "type": "grass",
           "multiplier": 2.0
         },
         {
-          "type": "fighting",
-          "multiplier": 2.0
-        },
-        {
-          "type": "rock",
-          "multiplier": 2.0
-        },
-        {
-          "type": "steel",
+          "type": "electric",
           "multiplier": 2.0
         }
       ],
@@ -24312,7 +24316,7 @@
     "primary_type": "Water",
     "secondary_type": null,
     "evolution_line_id": "81",
-    "friendship_points": 9474,
+    "friendship_points": 9747,
     "times_pet": 20,
     "times_fed": 0
   }
