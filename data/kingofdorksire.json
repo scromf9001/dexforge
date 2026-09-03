@@ -3,13 +3,13 @@
     "username": "kingofdorksire",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/9daa8a42-b594-4223-8760-2eaf64068eeb-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-01T18:24:55.649250+00:00",
+  "updated_at": "2026-09-03T18:38:01.012091+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 57,
-      "total_owned": 78,
-      "completion_percent": 20.5
+      "unique_owned": 58,
+      "total_owned": 77,
+      "completion_percent": 20.86
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 24,
+        "owned": 25,
         "total": 127,
-        "completion_percent": 18.9,
+        "completion_percent": 19.69,
         "total_lines": 78,
         "lines_completed": 5
       }
     },
     "evolution": {
-      "total_evolutions_owned": 57,
+      "total_evolutions_owned": 58,
       "total_evolutions_available": 278,
       "lines_completed": 6,
       "total_lines": 156,
@@ -42,8 +42,8 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 53,
-        "2": 4
+        "1": 52,
+        "2": 6
       }
     },
     "types": {
@@ -59,8 +59,8 @@
       },
       "water": {
         "owned": 13,
-        "total": 45,
-        "completion_percent": 28.89
+        "total": 46,
+        "completion_percent": 28.26
       },
       "bug": {
         "owned": 7,
@@ -68,9 +68,9 @@
         "completion_percent": 31.82
       },
       "normal": {
-        "owned": 8,
+        "owned": 9,
         "total": 37,
-        "completion_percent": 21.62
+        "completion_percent": 24.32
       },
       "poison": {
         "owned": 4,
@@ -114,8 +114,8 @@
       },
       "ice": {
         "owned": 1,
-        "total": 7,
-        "completion_percent": 14.29
+        "total": 6,
+        "completion_percent": 16.67
       },
       "dragon": {
         "owned": 0,
@@ -138,9 +138,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 187,
-      "success": 79,
-      "accuracy_percent": 42.25,
+      "thrown": 193,
+      "success": 81,
+      "accuracy_percent": 41.97,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -149,9 +149,9 @@
           "accuracy_percent": 25.0
         },
         "great ball": {
-          "thrown": 153,
-          "success": 70,
-          "accuracy_percent": 45.75
+          "thrown": 159,
+          "success": 72,
+          "accuracy_percent": 45.28
         },
         "ultra ball": {
           "thrown": 22,
@@ -166,31 +166,30 @@
       }
     },
     "journey": {
-      "watch_hours": 258,
-      "follow_age": "5 Month(s), 13 Day(s)",
-      "sub_age": "5 Day(s)",
+      "watch_hours": 262,
+      "follow_age": "5 Month(s), 15 Day(s)",
+      "sub_age": "7 Day(s)",
       "sub_months": 3,
       "subs_gifted": 2,
       "bits_donated": 230,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 96,
-      "chat_messages": 1082,
-      "commands_run": 2524,
-      "times_tagged": 238,
-      "times_evolved": 3,
+      "streams_watched": 98,
+      "chat_messages": 1109,
+      "commands_run": 2621,
+      "times_tagged": 250,
+      "times_evolved": 5,
       "times_traded": 0,
-      "times_eggs_hatched": 4,
+      "times_eggs_hatched": 5,
       "ball_distribution": {
-        "poke ball": 6.42,
-        "great ball": 81.82,
-        "ultra ball": 11.76,
+        "poke ball": 6.22,
+        "great ball": 82.38,
+        "ultra ball": 11.4,
         "master ball": 0.0
       },
       "pokebag": {
-        "Egg": 1,
-        "Great Ball": 96,
+        "Great Ball": 98,
         "Ultra Ball": 13,
         "Water Stone": 1
       }
@@ -3346,7 +3345,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1157,
+      "friendship_points": 1432,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -3435,7 +3434,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1157
+      "friendship_points": 1432
     },
     {
       "name": "Vulpix",
@@ -4007,8 +4006,8 @@
     },
     {
       "name": "Oddish",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 43,
       "primary_type": "Grass",
       "secondary_type": "Poison",
@@ -4112,8 +4111,8 @@
     },
     {
       "name": "Gloom",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 44,
       "primary_type": "Grass",
       "secondary_type": "Poison",
@@ -8948,8 +8947,8 @@
     },
     {
       "name": "Drowzee",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 96,
       "primary_type": "Psychic",
       "secondary_type": null,
@@ -9018,15 +9017,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Hypno",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 97,
       "primary_type": "Psychic",
       "secondary_type": null,
@@ -9264,7 +9263,7 @@
     },
     {
       "name": "Voltorb",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 100,
       "primary_type": "Electric",
@@ -11298,7 +11297,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Scisor",
+          "name": "Scizor",
           "pokedex_number": 212,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/212.svg",
           "evolution_stage": "2"
@@ -15648,12 +15647,12 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1157
+      "friendship_points": 1432
     },
     {
       "name": "Igglybuff",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 174,
       "primary_type": "Normal",
       "secondary_type": "Fairy",
@@ -20906,7 +20905,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Scisor",
+      "name": "Scizor",
       "count": 0,
       "owned": false,
       "pokedex_number": 212,
@@ -20922,8 +20921,8 @@
       "evolution_stage": 2,
       "evolution_line_id": "58",
       "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 70,
         "attack": 130,
@@ -20990,7 +20989,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Scisor",
+          "name": "Scizor",
           "pokedex_number": 212,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/212.svg",
           "evolution_stage": "2"
@@ -20999,7 +20998,7 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
@@ -23611,7 +23610,7 @@
       "count": 0,
       "owned": false,
       "pokedex_number": 245,
-      "primary_type": "Ice",
+      "primary_type": "Water",
       "secondary_type": null,
       "generation": 2,
       "region": "Johto",
@@ -23641,25 +23640,29 @@
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/245.svg",
       "strengths": [
         {
+          "type": "fire",
+          "multiplier": 0.5
+        },
+        {
+          "type": "water",
+          "multiplier": 0.5
+        },
+        {
           "type": "ice",
+          "multiplier": 0.5
+        },
+        {
+          "type": "steel",
           "multiplier": 0.5
         }
       ],
       "weaknesses": [
         {
-          "type": "fire",
+          "type": "grass",
           "multiplier": 2.0
         },
         {
-          "type": "fighting",
-          "multiplier": 2.0
-        },
-        {
-          "type": "rock",
-          "multiplier": 2.0
-        },
-        {
-          "type": "steel",
+          "type": "electric",
           "multiplier": 2.0
         }
       ],
@@ -24307,7 +24310,7 @@
     "primary_type": "Fairy",
     "secondary_type": null,
     "evolution_line_id": "14",
-    "friendship_points": 1157,
+    "friendship_points": 1432,
     "times_pet": 13,
     "times_fed": 1,
     "friendship_requirement": 600,
