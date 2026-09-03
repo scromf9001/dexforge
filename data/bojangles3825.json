@@ -3,74 +3,74 @@
     "username": "bojangles3825",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-04-04T19:17:15.782617+00:00",
+  "updated_at": "2026-09-03T15:02:48.392481+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 18,
-      "total_owned": 23,
-      "completion_percent": 6.47
+      "unique_owned": 38,
+      "total_owned": 55,
+      "completion_percent": 13.67
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 17,
+        "owned": 27,
         "total": 151,
-        "completion_percent": 11.26,
+        "completion_percent": 17.88,
         "total_lines": 78,
         "lines_completed": 2
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 1,
+        "owned": 11,
         "total": 127,
-        "completion_percent": 0.79,
+        "completion_percent": 8.66,
         "total_lines": 78,
-        "lines_completed": 0
+        "lines_completed": 3
       }
     },
     "evolution": {
-      "total_evolutions_owned": 18,
+      "total_evolutions_owned": 38,
       "total_evolutions_available": 278,
-      "lines_completed": 2,
+      "lines_completed": 5,
       "total_lines": 156,
       "stage_totals": {
-        "1": 156,
-        "2": 92,
+        "1": 155,
+        "2": 93,
         "3": 30
       },
       "stage_owned": {
-        "1": 15,
-        "2": 3
+        "1": 33,
+        "2": 5
       }
     },
     "types": {
       "grass": {
-        "owned": 2,
+        "owned": 5,
         "total": 21,
-        "completion_percent": 9.52
+        "completion_percent": 23.81
       },
       "fire": {
-        "owned": 0,
+        "owned": 2,
         "total": 20,
-        "completion_percent": 0.0
+        "completion_percent": 10.0
       },
       "water": {
-        "owned": 2,
-        "total": 44,
-        "completion_percent": 4.55
+        "owned": 4,
+        "total": 46,
+        "completion_percent": 8.7
       },
       "bug": {
-        "owned": 2,
+        "owned": 7,
         "total": 22,
-        "completion_percent": 9.09
+        "completion_percent": 31.82
       },
       "normal": {
-        "owned": 2,
-        "total": 38,
-        "completion_percent": 5.26
+        "owned": 6,
+        "total": 37,
+        "completion_percent": 16.22
       },
       "poison": {
         "owned": 1,
@@ -78,14 +78,14 @@
         "completion_percent": 6.67
       },
       "electric": {
-        "owned": 0,
+        "owned": 1,
         "total": 15,
-        "completion_percent": 0.0
+        "completion_percent": 6.67
       },
       "ground": {
-        "owned": 2,
+        "owned": 3,
         "total": 11,
-        "completion_percent": 18.18
+        "completion_percent": 27.27
       },
       "fairy": {
         "owned": 1,
@@ -108,14 +108,14 @@
         "completion_percent": 0.0
       },
       "ghost": {
-        "owned": 0,
+        "owned": 1,
         "total": 4,
-        "completion_percent": 0.0
+        "completion_percent": 25.0
       },
       "ice": {
-        "owned": 1,
-        "total": 7,
-        "completion_percent": 14.29
+        "owned": 2,
+        "total": 6,
+        "completion_percent": 33.33
       },
       "dragon": {
         "owned": 0,
@@ -138,20 +138,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 25,
-      "success": 5,
-      "accuracy_percent": 20.0,
+      "thrown": 124,
+      "success": 41,
+      "accuracy_percent": 33.06,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 23,
-          "success": 5,
-          "accuracy_percent": 21.74
+          "thrown": 113,
+          "success": 37,
+          "accuracy_percent": 32.74
         },
         "great ball": {
-          "thrown": 2,
-          "success": 0,
-          "accuracy_percent": 0.0
+          "thrown": 11,
+          "success": 4,
+          "accuracy_percent": 36.36
         },
         "ultra ball": {
           "thrown": 0,
@@ -166,30 +166,32 @@
       }
     },
     "journey": {
-      "watch_hours": 109,
-      "follow_age": "1 Year(s), 5 Month(s), 18 Day(s)",
+      "watch_hours": 143,
+      "follow_age": "1 Year(s), 10 Month(s), 16 Day(s)",
       "sub_age": "Not Subscribed",
-      "sub_months": 1,
+      "sub_months": 6,
       "subs_gifted": 5,
-      "bits_donated": 0,
+      "bits_donated": 500,
       "total_donated": 0.0,
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
-      "streams_watched": 45,
-      "chat_messages": 1153,
-      "commands_run": 1522,
-      "times_tagged": 173,
-      "times_evolved": 0,
+      "streams_watched": 70,
+      "chat_messages": 1650,
+      "commands_run": 2569,
+      "times_tagged": 282,
+      "times_evolved": 2,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 92.0,
-        "great ball": 8.0,
+        "poke ball": 91.13,
+        "great ball": 8.87,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 42
+        "Egg": 1,
+        "Great Ball": 98,
+        "Ultra Ball": 4
       }
     }
   },
@@ -281,7 +283,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Venosaur",
+          "name": "Venusaur",
           "pokedex_number": 3,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg",
           "evolution_stage": "3"
@@ -380,7 +382,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Venosaur",
+          "name": "Venusaur",
           "pokedex_number": 3,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg",
           "evolution_stage": "3"
@@ -393,7 +395,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Venosaur",
+      "name": "Venusaur",
       "count": 0,
       "owned": false,
       "pokedex_number": 3,
@@ -479,7 +481,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Venosaur",
+          "name": "Venusaur",
           "pokedex_number": 3,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg",
           "evolution_stage": "3"
@@ -493,8 +495,8 @@
     },
     {
       "name": "Charmander",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 4,
       "primary_type": "Fire",
       "secondary_type": null,
@@ -522,7 +524,7 @@
         "height": 0.6,
         "weight": 8.5
       },
-      "pokedex_entry": "If Charmander is healthy, the flame on the tip of its tail will burn vigorously and won’t go out even if it gets a bit wet.",
+      "pokedex_entry": "If Charmander is healthy, the flame on the tip of its tail will burn vigorously and won�t go out even if it gets a bit wet.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg",
       "strengths": [
         {
@@ -621,7 +623,7 @@
         "height": 1.1,
         "weight": 19.0
       },
-      "pokedex_entry": "It is very hotheaded by nature, so it constantly seeks opponents to battle against. Its aggression will not be quelled if it doesn’t win.",
+      "pokedex_entry": "It is very hotheaded by nature, so it constantly seeks opponents to battle against. Its aggression will not be quelled if it doesn�t win.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/5.svg",
       "strengths": [
         {
@@ -910,7 +912,7 @@
         "height": 1.0,
         "weight": 22.5
       },
-      "pokedex_entry": "Wartortle’s long, furry tail is a symbol of longevity, so this Pokémon is quite popular among older people.",
+      "pokedex_entry": "Wartortle�s long, furry tail is a symbol of longevity, so this Pok�mon is quite popular among older people.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/8.svg",
       "strengths": [
         {
@@ -997,7 +999,7 @@
         "height": 1.6,
         "weight": 85.5
       },
-      "pokedex_entry": "It has jet nozzles on its shell. This impressive Pokémon uses these jets to charge toward foes with all the force of a rocket.",
+      "pokedex_entry": "It has jet nozzles on its shell. This impressive Pok�mon uses these jets to charge toward foes with all the force of a rocket.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/9.svg",
       "strengths": [
         {
@@ -1160,18 +1162,18 @@
       "item_required": false,
       "requirement": "",
       "stats": {
-        "hp": 60,
-        "attack": 45,
-        "defense": 50,
-        "sp_attack": 90,
-        "sp_defense": 80,
-        "speed": 70
+        "hp": 50,
+        "attack": 20,
+        "defense": 55,
+        "sp_attack": 25,
+        "sp_defense": 25,
+        "speed": 30
       },
       "physical": {
         "height": 0.7,
         "weight": 9.9
       },
-      "pokedex_entry": "Even though it is encased in a sturdy shell, the body inside is tender. It can’t withstand a harsh attack.",
+      "pokedex_entry": "Even though it is encased in a sturdy shell, the body inside is tender. It can�t withstand a harsh attack.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/11.svg",
       "strengths": [
         {
@@ -1247,12 +1249,12 @@
       "item_required": false,
       "requirement": "",
       "stats": {
-        "hp": 40,
-        "attack": 35,
-        "defense": 30,
-        "sp_attack": 20,
-        "sp_defense": 20,
-        "speed": 50
+        "hp": 60,
+        "attack": 45,
+        "defense": 50,
+        "sp_attack": 90,
+        "sp_defense": 80,
+        "speed": 70
       },
       "physical": {
         "height": 1.1,
@@ -1346,12 +1348,12 @@
       "item_required": false,
       "requirement": "",
       "stats": {
-        "hp": 45,
-        "attack": 25,
-        "defense": 50,
-        "sp_attack": 25,
-        "sp_defense": 25,
-        "speed": 35
+        "hp": 40,
+        "attack": 35,
+        "defense": 30,
+        "sp_attack": 20,
+        "sp_defense": 20,
+        "speed": 50
       },
       "physical": {
         "height": 0.3,
@@ -1445,12 +1447,12 @@
       "item_required": false,
       "requirement": "",
       "stats": {
-        "hp": 65,
-        "attack": 90,
-        "defense": 40,
-        "sp_attack": 45,
-        "sp_defense": 80,
-        "speed": 75
+        "hp": 45,
+        "attack": 25,
+        "defense": 50,
+        "sp_attack": 25,
+        "sp_defense": 25,
+        "speed": 35
       },
       "physical": {
         "height": 0.36,
@@ -1544,12 +1546,12 @@
       "item_required": false,
       "requirement": "",
       "stats": {
-        "hp": 65,
-        "attack": 150,
+        "hp": 60,
+        "attack": 90,
         "defense": 40,
-        "sp_attack": 15,
+        "sp_attack": 45,
         "sp_defense": 80,
-        "speed": 145
+        "speed": 75
       },
       "physical": {
         "height": 1.0,
@@ -1625,7 +1627,7 @@
     },
     {
       "name": "Pidgey",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 16,
       "primary_type": "Normal",
@@ -1745,7 +1747,7 @@
         "height": 1.1,
         "weight": 30.0
       },
-      "pokedex_entry": "This Pokémon is full of vitality. It constantly flies around its large territory in search of prey.",
+      "pokedex_entry": "This Pok�mon is full of vitality. It constantly flies around its large territory in search of prey.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/17.svg",
       "strengths": [
         {
@@ -1836,7 +1838,7 @@
         "height": 1.5,
         "weight": 50.5
       },
-      "pokedex_entry": "This Pokémon flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons.",
+      "pokedex_entry": "This Pok�mon flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/18.svg",
       "strengths": [
         {
@@ -2028,8 +2030,8 @@
     },
     {
       "name": "Spearow",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 21,
       "primary_type": "Normal",
       "secondary_type": "Flying",
@@ -2142,7 +2144,7 @@
         "height": 1.2,
         "weight": 38.0
       },
-      "pokedex_entry": "A Pokémon that dates back many years. If it senses danger, it flies high and away, instantly.",
+      "pokedex_entry": "A Pok�mon that dates back many years. If it senses danger, it flies high and away, instantly.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/22.svg",
       "strengths": [
         {
@@ -2198,7 +2200,7 @@
     },
     {
       "name": "Ekans",
-      "count": 2,
+      "count": 4,
       "owned": true,
       "pokedex_number": 23,
       "primary_type": "Poison",
@@ -2276,7 +2278,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -2467,12 +2469,12 @@
       "item_required": true,
       "requirement": "Thunder Stone",
       "stats": {
-        "hp": 45,
-        "attack": 80,
-        "defense": 50,
-        "sp_attack": 75,
-        "sp_defense": 60,
-        "speed": 120
+        "hp": 60,
+        "attack": 90,
+        "defense": 55,
+        "sp_attack": 90,
+        "sp_defense": 80,
+        "speed": 110
       },
       "physical": {
         "height": 0.8,
@@ -2528,8 +2530,8 @@
     },
     {
       "name": "Sandshrew",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 27,
       "primary_type": "Ground",
       "secondary_type": null,
@@ -2557,7 +2559,7 @@
         "height": 0.6,
         "weight": 12.0
       },
-      "pokedex_entry": "No matter how high a place it falls from, this Pokémon can save itself by rolling into a ball and bouncing.",
+      "pokedex_entry": "No matter how high a place it falls from, this Pok�mon can save itself by rolling into a ball and bouncing.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/27.svg",
       "strengths": [
         {
@@ -2719,7 +2721,7 @@
         "height": 0.4,
         "weight": 7.0
       },
-      "pokedex_entry": "It uses its hard incisor teeth to crush and eat berries. The tip of a female Nidoran’s horn is a bit more rounded than the tip of a male’s horn.",
+      "pokedex_entry": "It uses its hard incisor teeth to crush and eat berries. The tip of a female Nidoran�s horn is a bit more rounded than the tip of a male�s horn.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/29.svg",
       "strengths": [
         {
@@ -2810,7 +2812,7 @@
         "height": 0.8,
         "weight": 20.0
       },
-      "pokedex_entry": "The horn on its head has atrophied. It’s thought that this happens so Nidorina’s children won’t get poked while their mother is feeding them.",
+      "pokedex_entry": "The horn on its head has atrophied. It�s thought that this happens so Nidorina�s children won�t get poked while their mother is feeding them.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/30.svg",
       "strengths": [
         {
@@ -3004,7 +3006,7 @@
         "height": 0.5,
         "weight": 9.0
       },
-      "pokedex_entry": "The horn on a male Nidoran’s forehead contains a powerful poison. This is a very cautious Pokémon, always straining its large ears.",
+      "pokedex_entry": "The horn on a male Nidoran�s forehead contains a powerful poison. This is a very cautious Pok�mon, always straining its large ears.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/32.svg",
       "strengths": [
         {
@@ -3095,7 +3097,7 @@
         "height": 0.9,
         "weight": 19.5
       },
-      "pokedex_entry": "It’s nervous and quick to act aggressively. The potency of its poison increases along with the level of adrenaline present in its body.",
+      "pokedex_entry": "It�s nervous and quick to act aggressively. The potency of its poison increases along with the level of adrenaline present in its body.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/33.svg",
       "strengths": [
         {
@@ -3186,7 +3188,7 @@
         "height": 1.4,
         "weight": 62.0
       },
-      "pokedex_entry": "Nidoking prides itself on its strength. It’s forceful and spirited in battle, making use of its thick tail and diamond-crushing horn.",
+      "pokedex_entry": "Nidoking prides itself on its strength. It�s forceful and spirited in battle, making use of its thick tail and diamond-crushing horn.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/34.svg",
       "strengths": [
         {
@@ -3436,8 +3438,8 @@
     },
     {
       "name": "Vulpix",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 37,
       "primary_type": "Fire",
       "secondary_type": null,
@@ -3740,7 +3742,7 @@
         "height": 1.0,
         "weight": 12.0
       },
-      "pokedex_entry": "The rich, fluffy fur that covers its body feels so good that anyone who feels it can’t stop touching it.",
+      "pokedex_entry": "The rich, fluffy fur that covers its body feels so good that anyone who feels it can�t stop touching it.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/40.svg",
       "strengths": [
         {
@@ -3930,7 +3932,7 @@
         "height": 1.6,
         "weight": 55.0
       },
-      "pokedex_entry": "It loves to drink other creatures’ blood. It’s said that if it finds others of its kind going hungry, it sometimes shares the blood it’s gathered.",
+      "pokedex_entry": "It loves to drink other creatures� blood. It�s said that if it finds others of its kind going hungry, it sometimes shares the blood it�s gathered.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/42.svg",
       "strengths": [
         {
@@ -4004,8 +4006,8 @@
     },
     {
       "name": "Oddish",
-      "count": 0,
-      "owned": false,
+      "count": 2,
+      "owned": true,
       "pokedex_number": 43,
       "primary_type": "Grass",
       "secondary_type": "Poison",
@@ -4138,7 +4140,7 @@
         "height": 0.8,
         "weight": 8.6
       },
-      "pokedex_entry": "The fluid that oozes from its mouth isn’t drool. It is a nectar that is used to attract prey.",
+      "pokedex_entry": "The fluid that oozes from its mouth isn�t drool. It is a nectar that is used to attract prey.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
       "strengths": [
         {
@@ -4521,8 +4523,8 @@
     },
     {
       "name": "Venonat",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 48,
       "primary_type": "Bug",
       "secondary_type": "Poison",
@@ -4550,7 +4552,7 @@
         "height": 1.0,
         "weight": 30.0
       },
-      "pokedex_entry": "Poison oozes from all over its body. It catches small bug Pokémon at night that are attracted by light.",
+      "pokedex_entry": "Poison oozes from all over its body. It catches small bug Pok�mon at night that are attracted by light.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/48.svg",
       "strengths": [
         {
@@ -4806,12 +4808,12 @@
       "item_required": false,
       "requirement": "",
       "stats": {
-        "hp": 10,
-        "attack": 55,
-        "defense": 25,
-        "sp_attack": 35,
-        "sp_defense": 45,
-        "speed": 95
+        "hp": 35,
+        "attack": 100,
+        "defense": 50,
+        "sp_attack": 50,
+        "sp_defense": 70,
+        "speed": 120
       },
       "physical": {
         "height": 0.7,
@@ -5509,7 +5511,7 @@
     },
     {
       "name": "Poliwag",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 60,
       "primary_type": "Water",
@@ -5538,7 +5540,7 @@
         "height": 0.6,
         "weight": 12.4
       },
-      "pokedex_entry": "Its legs are newly grown, and it can’t walk very well. It seems to prefer swimming through the water instead.",
+      "pokedex_entry": "Its legs are newly grown, and it can�t walk very well. It seems to prefer swimming through the water instead.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/60.svg",
       "strengths": [
         {
@@ -5724,7 +5726,7 @@
         "height": 1.3,
         "weight": 54.0
       },
-      "pokedex_entry": "Although it’s skilled in a style of dynamic swimming that uses all its muscles, for some reason it lives on dry land.",
+      "pokedex_entry": "Although it�s skilled in a style of dynamic swimming that uses all its muscles, for some reason it lives on dry land.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/62.svg",
       "strengths": [
         {
@@ -5924,7 +5926,7 @@
         "height": 1.3,
         "weight": 56.5
       },
-      "pokedex_entry": "This Pokémon’s telekinesis is immensely powerful. To prepare for evolution, Kadabra stores up psychic energy in the star on its forehead.",
+      "pokedex_entry": "This Pok�mon�s telekinesis is immensely powerful. To prepare for evolution, Kadabra stores up psychic energy in the star on its forehead.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/64.svg",
       "strengths": [
         {
@@ -6061,7 +6063,7 @@
     },
     {
       "name": "Machop",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 66,
       "primary_type": "Fighting",
@@ -6090,7 +6092,7 @@
         "height": 0.8,
         "weight": 19.5
       },
-      "pokedex_entry": "Its whole body is composed of muscles. Even though it’s the size of a human child, it can hurl 100 grown-ups.",
+      "pokedex_entry": "Its whole body is composed of muscles. Even though it�s the size of a human child, it can hurl 100 grown-ups.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/66.svg",
       "strengths": [
         {
@@ -6549,7 +6551,7 @@
         "height": 1.7,
         "weight": 15.5
       },
-      "pokedex_entry": "Once taken into Victreebel's body, even the hardest object will be melted into nothing by the Pokémon's acid.",
+      "pokedex_entry": "Once taken into Victreebel's body, even the hardest object will be melted into nothing by the Pok�mon's acid.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/71.svg",
       "strengths": [
         {
@@ -6749,7 +6751,7 @@
         "height": 1.6,
         "weight": 55.0
       },
-      "pokedex_entry": "On the rare occasions that large outbreaks of Tentacruel occur, all fish Pokémon disappear from the surrounding sea.",
+      "pokedex_entry": "On the rare occasions that large outbreaks of Tentacruel occur, all fish Pok�mon disappear from the surrounding sea.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/73.svg",
       "strengths": [
         {
@@ -6961,7 +6963,7 @@
         "height": 1.0,
         "weight": 105.0
       },
-      "pokedex_entry": "Moss-covered rocks are Graveler’s favorite food. It consumes over a ton of them a day, crunching loudly while it eats.",
+      "pokedex_entry": "Moss-covered rocks are Graveler�s favorite food. It consumes over a ton of them a day, crunching loudly while it eats.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/75.svg",
       "strengths": [
         {
@@ -7183,7 +7185,7 @@
         "height": 1.0,
         "weight": 30.0
       },
-      "pokedex_entry": "About an hour after birth, Ponyta’s fiery mane and tail grow out, giving the Pokémon an impressive appearance.",
+      "pokedex_entry": "About an hour after birth, Ponyta�s fiery mane and tail grow out, giving the Pok�mon an impressive appearance.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/77.svg",
       "strengths": [
         {
@@ -7476,7 +7478,7 @@
         "height": 1.6,
         "weight": 78.5
       },
-      "pokedex_entry": "If the tail-biting Shellder is thrown off in a harsh battle, this Pokémon reverts to being an ordinary Slowpoke.",
+      "pokedex_entry": "If the tail-biting Shellder is thrown off in a harsh battle, this Pok�mon reverts to being an ordinary Slowpoke.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/80.svg",
       "strengths": [
         {
@@ -7554,8 +7556,8 @@
     },
     {
       "name": "Magnemite",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 81,
       "primary_type": "Electric",
       "secondary_type": "Steel",
@@ -7817,7 +7819,7 @@
         "height": 0.8,
         "weight": 15.0
       },
-      "pokedex_entry": "It can’t live without the stalk it holds. That’s why it defends the stalk from attackers with its life.",
+      "pokedex_entry": "It can�t live without the stalk it holds. That�s why it defends the stalk from attackers with its life.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/83.svg",
       "strengths": [
         {
@@ -7896,7 +7898,7 @@
         "height": 1.4,
         "weight": 39.2
       },
-      "pokedex_entry": "Its heads never sleep at the same time—each one takes a turn keeping watch while the other sleeps, switching every hour or so.",
+      "pokedex_entry": "Its heads never sleep at the same time�each one takes a turn keeping watch while the other sleeps, switching every hour or so.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/84.svg",
       "strengths": [
         {
@@ -7981,7 +7983,7 @@
         "height": 1.8,
         "weight": 85.2
       },
-      "pokedex_entry": "It now has three hearts and three sets of lungs. Though it can’t run as fast as Doduo, Dodrio can keep running for longer stretches of time.",
+      "pokedex_entry": "It now has three hearts and three sets of lungs. Though it can�t run as fast as Doduo, Dodrio can keep running for longer stretches of time.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/85.svg",
       "strengths": [
         {
@@ -8228,7 +8230,7 @@
         "height": 0.9,
         "weight": 30.0
       },
-      "pokedex_entry": "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
+      "pokedex_entry": "Born from sludge, these Pok�mon now gather in polluted places and increase the bacteria in their bodies.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/88.svg",
       "strengths": [
         {
@@ -8313,7 +8315,7 @@
         "height": 1.2,
         "weight": 30.0
       },
-      "pokedex_entry": "It’s thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+      "pokedex_entry": "It�s thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/89.svg",
       "strengths": [
         {
@@ -8531,8 +8533,8 @@
     },
     {
       "name": "Gastly",
-      "count": 0,
-      "owned": false,
+      "count": 3,
+      "owned": true,
       "pokedex_number": 92,
       "primary_type": "Ghost",
       "secondary_type": "Poison",
@@ -8627,7 +8629,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -8766,7 +8768,7 @@
         "height": 1.5,
         "weight": 40.5
       },
-      "pokedex_entry": "Hiding in people’s shadows at night, it absorbs their heat. The chill it causes makes the victims shake.",
+      "pokedex_entry": "Hiding in people�s shadows at night, it absorbs their heat. The chill it causes makes the victims shake.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/94.svg",
       "strengths": [
         {
@@ -8945,7 +8947,7 @@
     },
     {
       "name": "Drowzee",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 96,
       "primary_type": "Psychic",
@@ -8974,7 +8976,7 @@
         "height": 1.0,
         "weight": 32.4
       },
-      "pokedex_entry": "It remembers every dream it eats. It rarely eats the dreams of adults because children’s are much tastier.",
+      "pokedex_entry": "It remembers every dream it eats. It rarely eats the dreams of adults because children�s are much tastier.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/96.svg",
       "strengths": [
         {
@@ -9407,8 +9409,8 @@
     },
     {
       "name": "Exeggcute",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 102,
       "primary_type": "Grass",
       "secondary_type": "Psychic",
@@ -9516,8 +9518,8 @@
     },
     {
       "name": "Exeggutor",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 103,
       "primary_type": "Grass",
       "secondary_type": "Psychic",
@@ -9535,11 +9537,11 @@
       "requirement": "",
       "stats": {
         "hp": 95,
-        "attack": 105,
+        "attack": 95,
         "defense": 85,
         "sp_attack": 125,
         "sp_defense": 75,
-        "speed": 45
+        "speed": 55
       },
       "physical": {
         "height": 2.0,
@@ -9735,7 +9737,7 @@
         "height": 1.0,
         "weight": 45.0
       },
-      "pokedex_entry": "This Pokémon overcame its sorrow to evolve a sturdy new body. Marowak faces its opponents bravely, using a bone as a weapon.",
+      "pokedex_entry": "This Pok�mon overcame its sorrow to evolve a sturdy new body. Marowak faces its opponents bravely, using a bone as a weapon.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/105.svg",
       "strengths": [
         {
@@ -10002,7 +10004,7 @@
         "height": 1.2,
         "weight": 65.5
       },
-      "pokedex_entry": "Bug Pokémon are Lickitung’s main food source. This Pokémon paralyzes its prey with a lick from its long tongue, then swallows the prey whole.",
+      "pokedex_entry": "Bug Pok�mon are Lickitung�s main food source. This Pok�mon paralyzes its prey with a lick from its long tongue, then swallows the prey whole.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/108.svg",
       "strengths": [
         {
@@ -10061,7 +10063,7 @@
         "height": 0.6,
         "weight": 1.0
       },
-      "pokedex_entry": "The poisonous gases it contains are a little bit lighter than air. That’s why it’s always slightly airborne.",
+      "pokedex_entry": "The poisonous gases it contains are a little bit lighter than air. That�s why it�s always slightly airborne.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/109.svg",
       "strengths": [
         {
@@ -10231,7 +10233,7 @@
         "height": 1.0,
         "weight": 115.0
       },
-      "pokedex_entry": "Once it starts running, it won’t stop—even if it crashes through boulders. This disposition is what’s caused its habitat to expand.",
+      "pokedex_entry": "Once it starts running, it won�t stop�even if it crashes through boulders. This disposition is what�s caused its habitat to expand.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/111.svg",
       "strengths": [
         {
@@ -10336,7 +10338,7 @@
         "height": 1.9,
         "weight": 120.0
       },
-      "pokedex_entry": "The horn of a Rhydon is powerful enough to crush raw diamonds. These Pokémon polish their horns by bashing them together.",
+      "pokedex_entry": "The horn of a Rhydon is powerful enough to crush raw diamonds. These Pok�mon polish their horns by bashing them together.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/112.svg",
       "strengths": [
         {
@@ -10441,7 +10443,7 @@
         "height": 1.1,
         "weight": 34.6
       },
-      "pokedex_entry": "This kindly Pokémon lays highly nutritious eggs and shares them with injured Pokémon or people.",
+      "pokedex_entry": "This kindly Pok�mon lays highly nutritious eggs and shares them with injured Pok�mon or people.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/113.svg",
       "strengths": [
         {
@@ -10506,7 +10508,7 @@
         "height": 1.0,
         "weight": 36.0
       },
-      "pokedex_entry": "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon’s true appearance remains a mystery.",
+      "pokedex_entry": "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pok�mon�s true appearance remains a mystery.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/114.svg",
       "strengths": [
         {
@@ -10593,7 +10595,7 @@
         "height": 2.2,
         "weight": 80.0
       },
-      "pokedex_entry": "Although it’s carrying its baby in a pouch on its belly, Kangaskhan is swift on its feet. It intimidates its opponents with quick jabs.",
+      "pokedex_entry": "Although it�s carrying its baby in a pouch on its belly, Kangaskhan is swift on its feet. It intimidates its opponents with quick jabs.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/115.svg",
       "strengths": [
         {
@@ -10797,8 +10799,8 @@
     },
     {
       "name": "Goldeen",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 118,
       "primary_type": "Water",
       "secondary_type": null,
@@ -10959,8 +10961,8 @@
     },
     {
       "name": "Staryu",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 120,
       "primary_type": "Water",
       "secondary_type": null,
@@ -10988,7 +10990,7 @@
         "height": 0.8,
         "weight": 34.5
       },
-      "pokedex_entry": "Fish Pokémon nibble at it, but Staryu isn’t bothered. Its body regenerates quickly, even if part of it is completely torn off.",
+      "pokedex_entry": "Fish Pok�mon nibble at it, but Staryu isn�t bothered. Its body regenerates quickly, even if part of it is completely torn off.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/120.svg",
       "strengths": [
         {
@@ -11295,7 +11297,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Scisor",
+          "name": "Scizor",
           "pokedex_number": 212,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/212.svg",
           "evolution_stage": "2"
@@ -11500,7 +11502,7 @@
         "height": 1.3,
         "weight": 44.5
       },
-      "pokedex_entry": "Found near the mouth of a volcano. This fire-breather’s body temperature is nearly 2,200 degrees Fahrenheit.",
+      "pokedex_entry": "Found near the mouth of a volcano. This fire-breather�s body temperature is nearly 2,200 degrees Fahrenheit.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/126.svg",
       "strengths": [
         {
@@ -11593,7 +11595,7 @@
         "height": 1.5,
         "weight": 55.0
       },
-      "pokedex_entry": "These Pokémon judge one another based on pincers. Thicker, more impressive pincers make for more popularity with the opposite gender.",
+      "pokedex_entry": "These Pok�mon judge one another based on pincers. Thicker, more impressive pincers make for more popularity with the opposite gender.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/127.svg",
       "strengths": [
         {
@@ -11668,7 +11670,7 @@
         "height": 1.4,
         "weight": 88.4
       },
-      "pokedex_entry": "They fight each other by locking horns. The herd’s protectors take pride in their battle-scarred horns.",
+      "pokedex_entry": "They fight each other by locking horns. The herd�s protectors take pride in their battle-scarred horns.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/128.svg",
       "strengths": [
         {
@@ -11727,7 +11729,7 @@
         "height": 0.9,
         "weight": 10.0
       },
-      "pokedex_entry": "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
+      "pokedex_entry": "An underpowered, pathetic Pok�mon. It may jump high on rare occasions but never more than seven feet.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/129.svg",
       "strengths": [
         {
@@ -12120,7 +12122,7 @@
         "height": 1.0,
         "weight": 29.0
       },
-      "pokedex_entry": "Its cell composition is similar to water molecules. As a result, it can’t be seen when it melts away into water.",
+      "pokedex_entry": "Its cell composition is similar to water molecules. As a result, it can�t be seen when it melts away into water.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/134.svg",
       "strengths": [
         {
@@ -12439,7 +12441,7 @@
         "height": 0.8,
         "weight": 36.5
       },
-      "pokedex_entry": "Porygon is an artificial Pokémon created using advanced scientific means. It can move freely through cyberspace.",
+      "pokedex_entry": "Porygon is an artificial Pok�mon created using advanced scientific means. It can move freely through cyberspace.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/137.svg",
       "strengths": [
         {
@@ -12504,7 +12506,7 @@
         "height": 0.4,
         "weight": 7.5
       },
-      "pokedex_entry": "This Pokémon is a member of an ancient, extinct species. Omanyte paddles through water with its 10 tentacles, looking like it’s just drifting along.",
+      "pokedex_entry": "This Pok�mon is a member of an ancient, extinct species. Omanyte paddles through water with its 10 tentacles, looking like it�s just drifting along.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/138.svg",
       "strengths": [
         {
@@ -12597,7 +12599,7 @@
         "height": 1.0,
         "weight": 35.0
       },
-      "pokedex_entry": "Weighed down by a large and heavy shell, Omastar couldn’t move very fast. Some say it went extinct because it was unable to catch food.",
+      "pokedex_entry": "Weighed down by a large and heavy shell, Omastar couldn�t move very fast. Some say it went extinct because it was unable to catch food.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/139.svg",
       "strengths": [
         {
@@ -12783,7 +12785,7 @@
         "height": 1.3,
         "weight": 40.5
       },
-      "pokedex_entry": "Kabutops slices its prey apart and sucks out the fluids. The discarded body parts become food for other Pokémon.",
+      "pokedex_entry": "Kabutops slices its prey apart and sucks out the fluids. The discarded body parts become food for other Pok�mon.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/141.svg",
       "strengths": [
         {
@@ -12876,7 +12878,7 @@
         "height": 1.8,
         "weight": 59.0
       },
-      "pokedex_entry": "This is a ferocious Pokémon from ancient times. Apparently even modern technology is incapable of producing a perfectly restored specimen.",
+      "pokedex_entry": "This is a ferocious Pok�mon from ancient times. Apparently even modern technology is incapable of producing a perfectly restored specimen.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/142.svg",
       "strengths": [
         {
@@ -12971,7 +12973,7 @@
         "height": 2.1,
         "weight": 460.0
       },
-      "pokedex_entry": "This gluttonous Pokémon eats constantly, apart from when it’s asleep. It devours nearly 900 pounds of food per day.",
+      "pokedex_entry": "This gluttonous Pok�mon eats constantly, apart from when it�s asleep. It devours nearly 900 pounds of food per day.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/143.svg",
       "strengths": [
         {
@@ -13030,7 +13032,7 @@
         "height": 1.7,
         "weight": 55.4
       },
-      "pokedex_entry": "This legendary bird Pokémon can create blizzards by freezing moisture in the air.",
+      "pokedex_entry": "This legendary bird Pok�mon can create blizzards by freezing moisture in the air.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/144.svg",
       "strengths": [
         {
@@ -13109,7 +13111,7 @@
         "height": 1.6,
         "weight": 52.6
       },
-      "pokedex_entry": "This legendary Pokémon is said to live in thunderclouds. It freely controls lightning bolts.",
+      "pokedex_entry": "This legendary Pok�mon is said to live in thunderclouds. It freely controls lightning bolts.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/145.svg",
       "strengths": [
         {
@@ -13192,7 +13194,7 @@
         "height": 2.0,
         "weight": 60.0
       },
-      "pokedex_entry": "It is one of the legendary bird Pokémon. Its appearance is said to indicate the coming of spring.",
+      "pokedex_entry": "It is one of the legendary bird Pok�mon. Its appearance is said to indicate the coming of spring.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/146.svg",
       "strengths": [
         {
@@ -13374,7 +13376,7 @@
         "height": 4.0,
         "weight": 16.5
       },
-      "pokedex_entry": "It is called the divine Pokémon. When its entire body brightens slightly, the weather changes.",
+      "pokedex_entry": "It is called the divine Pok�mon. When its entire body brightens slightly, the weather changes.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/148.svg",
       "strengths": [
         {
@@ -13568,7 +13570,7 @@
         "height": 2.0,
         "weight": 122.0
       },
-      "pokedex_entry": "Its DNA is almost the same as Mew’s. However, its size and disposition are vastly different.",
+      "pokedex_entry": "Its DNA is almost the same as Mew�s. However, its size and disposition are vastly different.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/150.svg",
       "strengths": [
         {
@@ -13639,7 +13641,7 @@
         "height": 0.4,
         "weight": 4.0
       },
-      "pokedex_entry": "Mew is said to possess the genetic composition of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.",
+      "pokedex_entry": "Mew is said to possess the genetic composition of all Pok�mon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/151.svg",
       "strengths": [
         {
@@ -13908,7 +13910,7 @@
         "height": 1.8,
         "weight": 100.5
       },
-      "pokedex_entry": "Meganium’s breath holds within it the power to revive grasses and plants that have withered.",
+      "pokedex_entry": "Meganium�s breath holds within it the power to revive grasses and plants that have withered.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/154.svg",
       "strengths": [
         {
@@ -14063,7 +14065,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Thyplosion",
+          "name": "Typhlosion",
           "pokedex_number": 157,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/157.svg",
           "evolution_stage": "3"
@@ -14106,7 +14108,7 @@
         "height": 0.9,
         "weight": 19.0
       },
-      "pokedex_entry": "The fur covering this Pokémon’s body never burns, no matter what. It can shrug off any kind of fire attack.",
+      "pokedex_entry": "The fur covering this Pok�mon�s body never burns, no matter what. It can shrug off any kind of fire attack.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/156.svg",
       "strengths": [
         {
@@ -14162,7 +14164,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Thyplosion",
+          "name": "Typhlosion",
           "pokedex_number": 157,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/157.svg",
           "evolution_stage": "3"
@@ -14175,7 +14177,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Thyplosion",
+      "name": "Typhlosion",
       "count": 0,
       "owned": false,
       "pokedex_number": 157,
@@ -14261,7 +14263,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Thyplosion",
+          "name": "Typhlosion",
           "pokedex_number": 157,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/157.svg",
           "evolution_stage": "3"
@@ -14348,7 +14350,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Ferligatr",
+          "name": "Feraligatr",
           "pokedex_number": 160,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/160.svg",
           "evolution_stage": "3"
@@ -14391,7 +14393,7 @@
         "height": 1.1,
         "weight": 25.0
       },
-      "pokedex_entry": "It opens its huge jaws wide to attack. If it loses fangs while biting, they’ll just keep on growing back, one after another.",
+      "pokedex_entry": "It opens its huge jaws wide to attack. If it loses fangs while biting, they�ll just keep on growing back, one after another.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/159.svg",
       "strengths": [
         {
@@ -14435,7 +14437,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Ferligatr",
+          "name": "Feraligatr",
           "pokedex_number": 160,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/160.svg",
           "evolution_stage": "3"
@@ -14448,7 +14450,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Ferligatr",
+      "name": "Feraligatr",
       "count": 0,
       "owned": false,
       "pokedex_number": 160,
@@ -14522,7 +14524,7 @@
           "evolution_stage": "2"
         },
         {
-          "name": "Ferligatr",
+          "name": "Feraligatr",
           "pokedex_number": 160,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/160.svg",
           "evolution_stage": "3"
@@ -14536,8 +14538,8 @@
     },
     {
       "name": "Sentret",
-      "count": 0,
-      "owned": false,
+      "count": 2,
+      "owned": true,
       "pokedex_number": 161,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -14630,7 +14632,7 @@
         "height": 1.8,
         "weight": 32.5
       },
-      "pokedex_entry": "It raises its offspring inside a long, narrow nest. Once they’re old enough, it takes them outside the nest to prepare them for independence.",
+      "pokedex_entry": "It raises its offspring inside a long, narrow nest. Once they�re old enough, it takes them outside the nest to prepare them for independence.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/162.svg",
       "strengths": [
         {
@@ -14666,8 +14668,8 @@
     },
     {
       "name": "Hoothoot",
-      "count": 0,
-      "owned": false,
+      "count": 2,
+      "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
       "secondary_type": "Flying",
@@ -14743,7 +14745,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -14751,8 +14753,8 @@
     },
     {
       "name": "Noctowl",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 164,
       "primary_type": "Normal",
       "secondary_type": "Flying",
@@ -14828,7 +14830,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -14836,8 +14838,8 @@
     },
     {
       "name": "Ledyba",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 165,
       "primary_type": "Bug",
       "secondary_type": "Flying",
@@ -14865,7 +14867,7 @@
         "height": 1.0,
         "weight": 10.8
       },
-      "pokedex_entry": "These very cowardly Pokémon join together and use Reflect to protect their nest.",
+      "pokedex_entry": "These very cowardly Pok�mon join together and use Reflect to protect their nest.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/165.svg",
       "strengths": [
         {
@@ -15022,8 +15024,8 @@
     },
     {
       "name": "Spinarak",
-      "count": 0,
-      "owned": false,
+      "count": 2,
+      "owned": true,
       "pokedex_number": 167,
       "primary_type": "Bug",
       "secondary_type": "Poison",
@@ -15237,7 +15239,7 @@
         "height": 1.8,
         "weight": 75.0
       },
-      "pokedex_entry": "This Pokémon flaps its four wings skillfully. Crobat can fly through cramped caves without needing to slow down.",
+      "pokedex_entry": "This Pok�mon flaps its four wings skillfully. Crobat can fly through cramped caves without needing to slow down.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/169.svg",
       "strengths": [
         {
@@ -15427,7 +15429,7 @@
         "height": 1.2,
         "weight": 22.5
       },
-      "pokedex_entry": "It blinds prey with an intense burst of light. With the prey incapacitated, the Pokémon swallows it in a single gulp.",
+      "pokedex_entry": "It blinds prey with an intense burst of light. With the prey incapacitated, the Pok�mon swallows it in a single gulp.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/171.svg",
       "strengths": [
         {
@@ -15512,7 +15514,7 @@
         "height": 0.3,
         "weight": 2.0
       },
-      "pokedex_entry": "Despite this Pokémon’s cute appearance, those who want to live with one should prepare to be on the receiving end of its electric jolts.",
+      "pokedex_entry": "Despite this Pok�mon�s cute appearance, those who want to live with one should prepare to be on the receiving end of its electric jolts.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/172.svg",
       "strengths": [
         {
@@ -15591,7 +15593,7 @@
         "height": 0.3,
         "weight": 3.0
       },
-      "pokedex_entry": "Since it is often seen when shooting stars fill the night skies, it’s said to come here by riding on a star.",
+      "pokedex_entry": "Since it is often seen when shooting stars fill the night skies, it�s said to come here by riding on a star.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/173.svg",
       "strengths": [
         {
@@ -16165,7 +16167,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Flaafy",
+          "name": "Flaaffy",
           "pokedex_number": 180,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/180.svg",
           "evolution_stage": "2"
@@ -16184,7 +16186,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Flaafy",
+      "name": "Flaaffy",
       "count": 0,
       "owned": false,
       "pokedex_number": 180,
@@ -16214,7 +16216,7 @@
         "height": 0.8,
         "weight": 13.3
       },
-      "pokedex_entry": "As a result of storing too much electricity, it developed patches where even downy wool won’t grow.",
+      "pokedex_entry": "As a result of storing too much electricity, it developed patches where even downy wool won�t grow.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/180.svg",
       "strengths": [
         {
@@ -16244,7 +16246,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Flaafy",
+          "name": "Flaaffy",
           "pokedex_number": 180,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/180.svg",
           "evolution_stage": "2"
@@ -16293,7 +16295,7 @@
         "height": 1.4,
         "weight": 61.5
       },
-      "pokedex_entry": "When it gets dark, the light from its bright, shiny tail can be seen from far away on the ocean’s surface.",
+      "pokedex_entry": "When it gets dark, the light from its bright, shiny tail can be seen from far away on the ocean�s surface.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/181.svg",
       "strengths": [
         {
@@ -16323,7 +16325,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Flaafy",
+          "name": "Flaaffy",
           "pokedex_number": 180,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/180.svg",
           "evolution_stage": "2"
@@ -16560,8 +16562,8 @@
       "evolution_stage": 2,
       "evolution_line_id": "90",
       "quantity_required": 0,
-      "item_required": true,
-      "requirement": "Friendship",
+      "item_required": false,
+      "requirement": "",
       "stats": {
         "hp": 100,
         "attack": 50,
@@ -16638,9 +16640,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0,
-      "friendship_requirement": 600,
-      "friendship_progress_percent": 0.0
+      "friendship_points": 0
     },
     {
       "name": "Sudowoodo",
@@ -16824,8 +16824,8 @@
     },
     {
       "name": "Hoppip",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
       "secondary_type": "Flying",
@@ -16952,7 +16952,7 @@
         "height": 0.6,
         "weight": 1.0
       },
-      "pokedex_entry": "Skiploom enthusiasts can apparently tell where a Skiploom was born by the scent drifting from the flower on the Pokémon’s head.",
+      "pokedex_entry": "Skiploom enthusiasts can apparently tell where a Skiploom was born by the scent drifting from the flower on the Pok�mon�s head.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/188.svg",
       "strengths": [
         {
@@ -17180,8 +17180,8 @@
     },
     {
       "name": "Sunkern",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 191,
       "primary_type": "Grass",
       "secondary_type": null,
@@ -17209,7 +17209,7 @@
         "height": 0.3,
         "weight": 1.8
       },
-      "pokedex_entry": "It suddenly falls out of the sky in the morning. Knowing it’s weak, it simply feeds until it evolves.",
+      "pokedex_entry": "It suddenly falls out of the sky in the morning. Knowing it�s weak, it simply feeds until it evolves.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/191.svg",
       "strengths": [
         {
@@ -17366,8 +17366,8 @@
     },
     {
       "name": "Yanma",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 193,
       "primary_type": "Bug",
       "secondary_type": "Flying",
@@ -17445,7 +17445,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -17644,7 +17644,7 @@
         "height": 0.9,
         "weight": 26.5
       },
-      "pokedex_entry": "It uses the fine hair that covers its body to sense air currents and predict its enemy’s actions.",
+      "pokedex_entry": "It uses the fine hair that covers its body to sense air currents and predict its enemy�s actions.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/196.svg",
       "strengths": [
         {
@@ -17941,7 +17941,7 @@
         "height": 2.0,
         "weight": 79.5
       },
-      "pokedex_entry": "When its head was bitten, toxins entered Slowpoke’s head and unlocked an extraordinary power.",
+      "pokedex_entry": "When its head was bitten, toxins entered Slowpoke�s head and unlocked an extraordinary power.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/199.svg",
       "strengths": [
         {
@@ -18048,7 +18048,7 @@
         "height": 0.7,
         "weight": 1.0
       },
-      "pokedex_entry": "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
+      "pokedex_entry": "This Pok�mon startles people in the middle of the night. It gathers fear as its energy.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/200.svg",
       "strengths": [
         {
@@ -18123,7 +18123,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201.svg",
       "strengths": [
         {
@@ -18194,7 +18194,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-b.svg",
       "strengths": [
         {
@@ -18265,7 +18265,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-c.svg",
       "strengths": [
         {
@@ -18336,7 +18336,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-d.svg",
       "strengths": [
         {
@@ -18407,7 +18407,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-e.svg",
       "strengths": [
         {
@@ -18478,7 +18478,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-f.svg",
       "strengths": [
         {
@@ -18549,7 +18549,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-g.svg",
       "strengths": [
         {
@@ -18620,7 +18620,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-h.svg",
       "strengths": [
         {
@@ -18691,7 +18691,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-i.svg",
       "strengths": [
         {
@@ -18762,7 +18762,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-j.svg",
       "strengths": [
         {
@@ -18833,7 +18833,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-k.svg",
       "strengths": [
         {
@@ -18904,7 +18904,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-l.svg",
       "strengths": [
         {
@@ -18975,7 +18975,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-m.svg",
       "strengths": [
         {
@@ -19046,7 +19046,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-n.svg",
       "strengths": [
         {
@@ -19117,7 +19117,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-o.svg",
       "strengths": [
         {
@@ -19188,7 +19188,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-p.svg",
       "strengths": [
         {
@@ -19259,7 +19259,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-q.svg",
       "strengths": [
         {
@@ -19330,7 +19330,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-r.svg",
       "strengths": [
         {
@@ -19401,7 +19401,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-s.svg",
       "strengths": [
         {
@@ -19472,7 +19472,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-t.svg",
       "strengths": [
         {
@@ -19543,7 +19543,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-u.svg",
       "strengths": [
         {
@@ -19614,7 +19614,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-v.svg",
       "strengths": [
         {
@@ -19685,7 +19685,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-w.svg",
       "strengths": [
         {
@@ -19756,7 +19756,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-x.svg",
       "strengths": [
         {
@@ -19827,7 +19827,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-y.svg",
       "strengths": [
         {
@@ -19898,7 +19898,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-z.svg",
       "strengths": [
         {
@@ -19969,7 +19969,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-exclamation.svg",
       "strengths": [
         {
@@ -20040,7 +20040,7 @@
         "height": 0.5,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
+      "pokedex_entry": "This Pok�mon is shaped like ancient writing. It is a mystery as to which came first, the ancient writings or the various Unown. Research into this topic is ongoing but nothing is known.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201-question.svg",
       "strengths": [
         {
@@ -20094,7 +20094,7 @@
       "is_mythic": false,
       "is_hatchable": false,
       "evolution": false,
-      "evolution_stage": 1,
+      "evolution_stage": 2,
       "evolution_line_id": "100",
       "quantity_required": 0,
       "item_required": false,
@@ -20142,7 +20142,7 @@
           "name": "Wobbuffet",
           "pokedex_number": 202,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/202.svg",
-          "evolution_stage": "1"
+          "evolution_stage": "2"
         }
       ],
       "line_complete": false,
@@ -20330,7 +20330,7 @@
         "height": 1.2,
         "weight": 125.8
       },
-      "pokedex_entry": "It’s usually found hanging on to a fat tree trunk. It shoots out bits of its shell when it sees action.",
+      "pokedex_entry": "It�s usually found hanging on to a fat tree trunk. It shoots out bits of its shell when it sees action.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/205.svg",
       "strengths": [
         {
@@ -20678,7 +20678,7 @@
         "height": 0.6,
         "weight": 7.8
       },
-      "pokedex_entry": "Its growls make its opponents uneasy. This laid-back Pokémon tends to sleep half the day.",
+      "pokedex_entry": "Its growls make its opponents uneasy. This laid-back Pok�mon tends to sleep half the day.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/209.svg",
       "strengths": [
         {
@@ -20814,8 +20814,8 @@
       "count": 0,
       "owned": false,
       "pokedex_number": 211,
-      "primary_type": "Normal",
-      "secondary_type": null,
+      "primary_type": "Water",
+      "secondary_type": "Poison",
       "generation": 2,
       "region": "Johto",
       "rarity": "common",
@@ -20840,17 +20840,53 @@
         "height": 0.5,
         "weight": 3.9
       },
-      "pokedex_entry": "Be cautious if this Pokémon starts sucking in water—it will soon attack by scattering the toxic spikes that grow all over its body.",
+      "pokedex_entry": "Be cautious if this Pok�mon starts sucking in water�it will soon attack by scattering the toxic spikes that grow all over its body.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/211.svg",
       "strengths": [
         {
-          "type": "ghost",
-          "multiplier": 0.0
+          "type": "fire",
+          "multiplier": 0.5
+        },
+        {
+          "type": "water",
+          "multiplier": 0.5
+        },
+        {
+          "type": "ice",
+          "multiplier": 0.5
+        },
+        {
+          "type": "fighting",
+          "multiplier": 0.5
+        },
+        {
+          "type": "poison",
+          "multiplier": 0.5
+        },
+        {
+          "type": "bug",
+          "multiplier": 0.5
+        },
+        {
+          "type": "steel",
+          "multiplier": 0.5
+        },
+        {
+          "type": "fairy",
+          "multiplier": 0.5
         }
       ],
       "weaknesses": [
         {
-          "type": "fighting",
+          "type": "electric",
+          "multiplier": 2.0
+        },
+        {
+          "type": "ground",
+          "multiplier": 2.0
+        },
+        {
+          "type": "psychic",
           "multiplier": 2.0
         }
       ],
@@ -20869,7 +20905,7 @@
       "friendship_points": 0
     },
     {
-      "name": "Scisor",
+      "name": "Scizor",
       "count": 0,
       "owned": false,
       "pokedex_number": 212,
@@ -20885,8 +20921,8 @@
       "evolution_stage": 2,
       "evolution_line_id": "58",
       "quantity_required": 0,
-      "item_required": false,
-      "requirement": "",
+      "item_required": true,
+      "requirement": "Trade",
       "stats": {
         "hp": 70,
         "attack": 130,
@@ -20953,7 +20989,7 @@
           "evolution_stage": "1"
         },
         {
-          "name": "Scisor",
+          "name": "Scizor",
           "pokedex_number": 212,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/212.svg",
           "evolution_stage": "2"
@@ -20962,13 +20998,13 @@
       "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
-      "requires_trade": false,
+      "requires_trade": true,
       "friendship_points": 0
     },
     {
       "name": "Shuckle",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 213,
       "primary_type": "Bug",
       "secondary_type": "Rock",
@@ -21030,7 +21066,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -21154,7 +21190,7 @@
         "height": 0.9,
         "weight": 28.0
       },
-      "pokedex_entry": "This is a smart and sneaky Pokémon. A pair may work together to steal eggs by having one lure the parents away.",
+      "pokedex_entry": "This is a smart and sneaky Pok�mon. A pair may work together to steal eggs by having one lure the parents away.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/215.svg",
       "strengths": [
         {
@@ -21310,7 +21346,7 @@
         "height": 1.8,
         "weight": 125.8
       },
-      "pokedex_entry": "It usually wears a hardened expression, but when it’s licking up honey—which it loves—the joy it feels will cause it to break into a wide grin.",
+      "pokedex_entry": "It usually wears a hardened expression, but when it�s licking up honey�which it loves�the joy it feels will cause it to break into a wide grin.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/217.svg",
       "strengths": [
         {
@@ -21468,7 +21504,7 @@
         "height": 0.8,
         "weight": 55.0
       },
-      "pokedex_entry": "This Pokémon lives near the craters of volcanoes. It stores fire energy in its shell of cooled and hardened magma.",
+      "pokedex_entry": "This Pok�mon lives near the craters of volcanoes. It stores fire energy in its shell of cooled and hardened magma.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/219.svg",
       "strengths": [
         {
@@ -21540,8 +21576,8 @@
     },
     {
       "name": "Swinub",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 220,
       "primary_type": "Ice",
       "secondary_type": "Ground",
@@ -21569,7 +21605,7 @@
         "height": 0.4,
         "weight": 6.5
       },
-      "pokedex_entry": "It searches for food by digging into the ground with its snout. Even frozen ground doesn’t give it any trouble.",
+      "pokedex_entry": "It searches for food by digging into the ground with its snout. Even frozen ground doesn�t give it any trouble.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/220.svg",
       "strengths": [
         {
@@ -21739,7 +21775,7 @@
         "height": 0.6,
         "weight": 5.0
       },
-      "pokedex_entry": "Many live in the clean seas of the south. They apparently can’t live in polluted waters.",
+      "pokedex_entry": "Many live in the clean seas of the south. They apparently can�t live in polluted waters.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/222.svg",
       "strengths": [
         {
@@ -22350,7 +22386,7 @@
         "height": 1.4,
         "weight": 35.0
       },
-      "pokedex_entry": "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.",
+      "pokedex_entry": "Upon hearing its eerie howls, other Pok�mon get the shivers and head straight back to their nests.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/229.svg",
       "strengths": [
         {
@@ -22451,7 +22487,7 @@
         "height": 1.8,
         "weight": 152.0
       },
-      "pokedex_entry": "This Pokémon is said to sleep at the bottom of the sea—deeper than any other life-form can descend—building its energy.",
+      "pokedex_entry": "This Pok�mon is said to sleep at the bottom of the sea�deeper than any other life-form can descend�building its energy.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/230.svg",
       "strengths": [
         {
@@ -22505,7 +22541,7 @@
     },
     {
       "name": "Phanpy",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 231,
       "primary_type": "Ground",
@@ -22534,7 +22570,7 @@
         "height": 0.5,
         "weight": 33.5
       },
-      "pokedex_entry": "This Pokémon lives and nests on a riverbank. After playing in the mud, it won’t be able to settle down unless it washes its body.",
+      "pokedex_entry": "This Pok�mon lives and nests on a riverbank. After playing in the mud, it won�t be able to settle down unless it washes its body.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/231.svg",
       "strengths": [
         {
@@ -22615,7 +22651,7 @@
         "height": 11.0,
         "weight": 120.0
       },
-      "pokedex_entry": "Donphan is normally a calm Pokémon, but once it is enraged, it will curl its body into a ball and charge at you while rolling.",
+      "pokedex_entry": "Donphan is normally a calm Pok�mon, but once it is enraged, it will curl its body into a ball and charge at you while rolling.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/232.svg",
       "strengths": [
         {
@@ -22761,7 +22797,7 @@
         "height": 1.4,
         "weight": 71.2
       },
-      "pokedex_entry": "It’s said that this Pokémon used to be stronger long ago when it had many enemies, and that it was even able to evolve under its own power.",
+      "pokedex_entry": "It�s said that this Pok�mon used to be stronger long ago when it had many enemies, and that it was even able to evolve under its own power.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/234.svg",
       "strengths": [
         {
@@ -22972,7 +23008,7 @@
         "height": 1.4,
         "weight": 48.0
       },
-      "pokedex_entry": "This Pokémon is adept at dance-like kicks. The horn atop its head is made from the same substance that generally forms fur and claws.",
+      "pokedex_entry": "This Pok�mon is adept at dance-like kicks. The horn atop its head is made from the same substance that generally forms fur and claws.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/237.svg",
       "strengths": [
         {
@@ -23065,7 +23101,7 @@
         "height": 0.4,
         "weight": 6.0
       },
-      "pokedex_entry": "This is a very curious Pokémon. Smoochum decides what it likes and dislikes by touching things with its lips.",
+      "pokedex_entry": "This is a very curious Pok�mon. Smoochum decides what it likes and dislikes by touching things with its lips.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/238.svg",
       "strengths": [
         {
@@ -23227,7 +23263,7 @@
         "height": 0.7,
         "weight": 21.4
       },
-      "pokedex_entry": "Magma-like blood circulates throughout this Pokémon’s body, raising its body temperature as high as 1,100 degrees Fahrenheit.",
+      "pokedex_entry": "Magma-like blood circulates throughout this Pok�mon�s body, raising its body temperature as high as 1,100 degrees Fahrenheit.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/240.svg",
       "strengths": [
         {
@@ -23320,7 +23356,7 @@
         "height": 1.2,
         "weight": 75.5
       },
-      "pokedex_entry": "Miltank produces highly nutritious milk, so it’s been supporting the lives of people and other Pokémon since ancient times.",
+      "pokedex_entry": "Miltank produces highly nutritious milk, so it�s been supporting the lives of people and other Pok�mon since ancient times.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/241.svg",
       "strengths": [
         {
@@ -23446,7 +23482,7 @@
         "height": 1.9,
         "weight": 178.0
       },
-      "pokedex_entry": "Raikou embodies the speed of lightning. The roars of this Pokémon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down.",
+      "pokedex_entry": "Raikou embodies the speed of lightning. The roars of this Pok�mon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/243.svg",
       "strengths": [
         {
@@ -23513,7 +23549,7 @@
         "height": 2.1,
         "weight": 198.0
       },
-      "pokedex_entry": "Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch.",
+      "pokedex_entry": "Entei embodies the passion of magma. This Pok�mon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/244.svg",
       "strengths": [
         {
@@ -23574,7 +23610,7 @@
       "count": 0,
       "owned": false,
       "pokedex_number": 245,
-      "primary_type": "Ice",
+      "primary_type": "Water",
       "secondary_type": null,
       "generation": 2,
       "region": "Johto",
@@ -23600,29 +23636,33 @@
         "height": 2.0,
         "weight": 187.0
       },
-      "pokedex_entry": "Suicune embodies the compassion of a pure spring of water. It runs across the land with gracefulness. This Pokémon has the power to purify dirty water.",
+      "pokedex_entry": "Suicune embodies the compassion of a pure spring of water. It runs across the land with gracefulness. This Pok�mon has the power to purify dirty water.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/245.svg",
       "strengths": [
         {
+          "type": "fire",
+          "multiplier": 0.5
+        },
+        {
+          "type": "water",
+          "multiplier": 0.5
+        },
+        {
           "type": "ice",
+          "multiplier": 0.5
+        },
+        {
+          "type": "steel",
           "multiplier": 0.5
         }
       ],
       "weaknesses": [
         {
-          "type": "fire",
+          "type": "grass",
           "multiplier": 2.0
         },
         {
-          "type": "fighting",
-          "multiplier": 2.0
-        },
-        {
-          "type": "rock",
-          "multiplier": 2.0
-        },
-        {
-          "type": "steel",
+          "type": "electric",
           "multiplier": 2.0
         }
       ],
@@ -23671,7 +23711,7 @@
         "height": 0.6,
         "weight": 72.0
       },
-      "pokedex_entry": "It is born deep underground. It can’t emerge until it has entirely consumed the soil around it.",
+      "pokedex_entry": "It is born deep underground. It can�t emerge until it has entirely consumed the soil around it.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/246.svg",
       "strengths": [
         {
@@ -23893,7 +23933,7 @@
         "height": 2.0,
         "weight": 202.0
       },
-      "pokedex_entry": "Extremely strong, it can change the landscape. It is so insolent that it doesn’t care about others.",
+      "pokedex_entry": "Extremely strong, it can change the landscape. It is so insolent that it doesn�t care about others.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/248.svg",
       "strengths": [
         {
@@ -24012,7 +24052,7 @@
         "height": 5.2,
         "weight": 216.0
       },
-      "pokedex_entry": "Lugia’s wings pack devastating power—a light fluttering of its wings can blow apart regular houses. As a result, this Pokémon chooses to live out of sight deep under the sea.",
+      "pokedex_entry": "Lugia�s wings pack devastating power�a light fluttering of its wings can blow apart regular houses. As a result, this Pok�mon chooses to live out of sight deep under the sea.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/249.svg",
       "strengths": [
         {
@@ -24099,7 +24139,7 @@
         "height": 3.8,
         "weight": 199.0
       },
-      "pokedex_entry": "Ho-Oh’s feathers glow in seven colors depending on the angle at which they are struck by light. These feathers are said to bring happiness to the bearers. This Pokémon is said to live at the foot of a rainbow.",
+      "pokedex_entry": "Ho-Oh�s feathers glow in seven colors depending on the angle at which they are struck by light. These feathers are said to bring happiness to the bearers. This Pok�mon is said to live at the foot of a rainbow.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/250.svg",
       "strengths": [
         {
@@ -24190,7 +24230,7 @@
         "height": 0.6,
         "weight": 5.0
       },
-      "pokedex_entry": "This Pokémon came from the future by crossing over time. It is thought that so long as Celebi appears, a bright and shining future awaits us.",
+      "pokedex_entry": "This Pok�mon came from the future by crossing over time. It is thought that so long as Celebi appears, a bright and shining future awaits us.",
       "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/251.svg",
       "strengths": [
         {
