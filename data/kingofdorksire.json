@@ -3,12 +3,12 @@
     "username": "kingofdorksire",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/9daa8a42-b594-4223-8760-2eaf64068eeb-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-06T17:40:40.415816+00:00",
+  "updated_at": "2026-09-06T19:43:26.135264+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 69,
-      "total_owned": 97,
+      "total_owned": 93,
       "completion_percent": 24.82
     },
     "generation_progress": {
@@ -42,8 +42,8 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 63,
-        "2": 6
+        "1": 60,
+        "2": 9
       }
     },
     "types": {
@@ -138,9 +138,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 233,
-      "success": 101,
-      "accuracy_percent": 43.35,
+      "thrown": 237,
+      "success": 103,
+      "accuracy_percent": 43.46,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -149,14 +149,14 @@
           "accuracy_percent": 30.77
         },
         "great ball": {
-          "thrown": 193,
-          "success": 88,
-          "accuracy_percent": 45.6
+          "thrown": 196,
+          "success": 90,
+          "accuracy_percent": 45.92
         },
         "ultra ball": {
-          "thrown": 27,
+          "thrown": 28,
           "success": 9,
-          "accuracy_percent": 33.33
+          "accuracy_percent": 32.14
         },
         "master ball": {
           "thrown": 0,
@@ -166,7 +166,7 @@
       }
     },
     "journey": {
-      "watch_hours": 271,
+      "watch_hours": 273,
       "follow_age": "5 Month(s), 18 Day(s)",
       "sub_age": "10 Day(s)",
       "sub_months": 3,
@@ -176,22 +176,22 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 101,
-      "chat_messages": 1285,
-      "commands_run": 3050,
-      "times_tagged": 280,
-      "times_evolved": 5,
+      "chat_messages": 1300,
+      "commands_run": 3106,
+      "times_tagged": 283,
+      "times_evolved": 8,
       "times_traded": 0,
       "times_eggs_hatched": 5,
       "ball_distribution": {
-        "poke ball": 5.58,
-        "great ball": 82.83,
-        "ultra ball": 11.59,
+        "poke ball": 5.49,
+        "great ball": 82.7,
+        "ultra ball": 11.81,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 90,
-        "Ultra Ball": 8,
+        "Great Ball": 93,
+        "Ultra Ball": 7,
         "Water Stone": 1
       }
     }
@@ -1058,8 +1058,8 @@
     },
     {
       "name": "Caterpie",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 10,
       "primary_type": "Bug",
       "secondary_type": null,
@@ -1138,15 +1138,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Metapod",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 11,
       "primary_type": "Bug",
       "secondary_type": null,
@@ -2531,8 +2531,8 @@
     },
     {
       "name": "Sandshrew",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 27,
       "primary_type": "Ground",
       "secondary_type": null,
@@ -2612,8 +2612,8 @@
     },
     {
       "name": "Sandslash",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 28,
       "primary_type": "Ground",
       "secondary_type": null,
@@ -3346,7 +3346,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1967,
+      "friendship_points": 2090,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -3435,7 +3435,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1967
+      "friendship_points": 2090
     },
     {
       "name": "Vulpix",
@@ -14539,8 +14539,8 @@
     },
     {
       "name": "Sentret",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 161,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -14604,8 +14604,8 @@
     },
     {
       "name": "Furret",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 162,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -15648,7 +15648,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1967
+      "friendship_points": 2090
     },
     {
       "name": "Igglybuff",
@@ -24311,7 +24311,7 @@
     "primary_type": "Fairy",
     "secondary_type": null,
     "evolution_line_id": "14",
-    "friendship_points": 1967,
+    "friendship_points": 2090,
     "times_pet": 16,
     "times_fed": 1,
     "friendship_requirement": 600,
