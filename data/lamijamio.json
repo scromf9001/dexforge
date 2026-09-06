@@ -3,13 +3,13 @@
     "username": "lamijamio",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-06T17:19:19.158897+00:00",
+  "updated_at": "2026-09-06T18:30:47.073449+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 167,
-      "total_owned": 506,
-      "completion_percent": 60.07
+      "unique_owned": 169,
+      "total_owned": 508,
+      "completion_percent": 60.79
     },
     "generation_progress": {
       "1": {
@@ -19,22 +19,22 @@
         "total": 151,
         "completion_percent": 72.85,
         "total_lines": 78,
-        "lines_completed": 42
+        "lines_completed": 43
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 57,
+        "owned": 59,
         "total": 127,
-        "completion_percent": 44.88,
+        "completion_percent": 46.46,
         "total_lines": 78,
         "lines_completed": 29
       }
     },
     "evolution": {
-      "total_evolutions_owned": 167,
+      "total_evolutions_owned": 169,
       "total_evolutions_available": 278,
-      "lines_completed": 71,
+      "lines_completed": 72,
       "total_lines": 156,
       "stage_totals": {
         "1": 155,
@@ -42,8 +42,8 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 110,
-        "2": 50,
+        "1": 111,
+        "2": 51,
         "3": 7
       }
     },
@@ -59,9 +59,9 @@
         "completion_percent": 60.0
       },
       "water": {
-        "owned": 32,
+        "owned": 34,
         "total": 46,
-        "completion_percent": 69.57
+        "completion_percent": 73.91
       },
       "bug": {
         "owned": 16,
@@ -139,19 +139,19 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 840,
-      "success": 413,
-      "accuracy_percent": 49.17,
+      "thrown": 847,
+      "success": 416,
+      "accuracy_percent": 49.11,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 9,
+          "thrown": 10,
           "success": 0,
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 813,
-          "success": 404,
+          "thrown": 819,
+          "success": 407,
           "accuracy_percent": 49.69
         },
         "ultra ball": {
@@ -169,7 +169,7 @@
     "journey": {
       "watch_hours": 790,
       "follow_age": "1 Year(s), 10 Month(s), 10 Day(s)",
-      "sub_age": "6 Day(s)",
+      "sub_age": "7 Day(s)",
       "sub_months": 17,
       "subs_gifted": 0,
       "bits_donated": 0,
@@ -177,21 +177,21 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 286,
-      "chat_messages": 6887,
-      "commands_run": 14521,
-      "times_tagged": 1351,
+      "chat_messages": 6908,
+      "commands_run": 14582,
+      "times_tagged": 1359,
       "times_evolved": 54,
       "times_traded": 0,
       "times_eggs_hatched": 13,
       "ball_distribution": {
-        "poke ball": 1.07,
-        "great ball": 96.79,
-        "ultra ball": 1.19,
-        "master ball": 0.95
+        "poke ball": 1.18,
+        "great ball": 96.69,
+        "ultra ball": 1.18,
+        "master ball": 0.94
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 76,
+        "Great Ball": 74,
         "Ultra Ball": 5
       }
     }
@@ -4524,7 +4524,7 @@
     },
     {
       "name": "Venonat",
-      "count": 7,
+      "count": 8,
       "owned": true,
       "pokedex_number": 48,
       "primary_type": "Bug",
@@ -5415,7 +5415,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 18176
+      "friendship_points": 18222
     },
     {
       "name": "Arcanine",
@@ -5508,7 +5508,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 18176
+      "friendship_points": 18222
     },
     {
       "name": "Poliwag",
@@ -7343,7 +7343,7 @@
     },
     {
       "name": "Slowpoke",
-      "count": 7,
+      "count": 4,
       "owned": true,
       "pokedex_number": 79,
       "primary_type": "Water",
@@ -7442,7 +7442,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -7549,7 +7549,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -8372,7 +8372,7 @@
     },
     {
       "name": "Shellder",
-      "count": 7,
+      "count": 8,
       "owned": true,
       "pokedex_number": 90,
       "primary_type": "Water",
@@ -14539,7 +14539,7 @@
     },
     {
       "name": "Sentret",
-      "count": 13,
+      "count": 14,
       "owned": true,
       "pokedex_number": 161,
       "primary_type": "Normal",
@@ -15316,8 +15316,8 @@
     },
     {
       "name": "Chinchou",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 170,
       "primary_type": "Water",
       "secondary_type": "Electric",
@@ -17913,8 +17913,8 @@
     },
     {
       "name": "Slowking",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 199,
       "primary_type": "Water",
       "secondary_type": "Psychic",
@@ -18012,7 +18012,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": true,
@@ -24311,7 +24311,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "25",
-    "friendship_points": 18176,
+    "friendship_points": 18222,
     "times_pet": 38,
     "times_fed": 0
   }
