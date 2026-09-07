@@ -3,12 +3,12 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-07T16:46:03.562294+00:00",
+  "updated_at": "2026-09-07T17:29:55.756818+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 208,
-      "total_owned": 1005,
+      "total_owned": 1007,
       "completion_percent": 74.82
     },
     "generation_progress": {
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 2283,
-      "success": 706,
-      "accuracy_percent": 30.92,
+      "thrown": 2287,
+      "success": 708,
+      "accuracy_percent": 30.96,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 2283,
-          "success": 706,
-          "accuracy_percent": 30.92
+          "thrown": 2287,
+          "success": 708,
+          "accuracy_percent": 30.96
         },
         "great ball": {
           "thrown": 0,
@@ -177,9 +177,9 @@
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
       "streams_watched": 472,
-      "chat_messages": 15501,
-      "commands_run": 76036,
-      "times_tagged": 3622,
+      "chat_messages": 15507,
+      "commands_run": 76084,
+      "times_tagged": 3624,
       "times_evolved": 82,
       "times_traded": 31,
       "times_eggs_hatched": 25,
@@ -599,7 +599,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 22494
+      "friendship_points": 22538
     },
     {
       "name": "Charmeleon",
@@ -698,7 +698,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 22494
+      "friendship_points": 22538
     },
     {
       "name": "Charizard",
@@ -801,7 +801,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 22494
+      "friendship_points": 22538
     },
     {
       "name": "Squirtle",
@@ -1636,7 +1636,7 @@
     },
     {
       "name": "Pidgey",
-      "count": 35,
+      "count": 36,
       "owned": true,
       "pokedex_number": 16,
       "primary_type": "Normal",
@@ -1909,7 +1909,7 @@
     },
     {
       "name": "Rattata",
-      "count": 26,
+      "count": 27,
       "owned": true,
       "pokedex_number": 19,
       "primary_type": "Normal",
@@ -24319,7 +24319,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "2",
-    "friendship_points": 22494,
+    "friendship_points": 22538,
     "times_pet": 7,
     "times_fed": 3
   }
