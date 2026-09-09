@@ -3,13 +3,13 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-07T17:29:55.756818+00:00",
+  "updated_at": "2026-09-09T17:02:08.413657+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 208,
-      "total_owned": 1007,
-      "completion_percent": 74.82
+      "unique_owned": 209,
+      "total_owned": 1015,
+      "completion_percent": 75.18
     },
     "generation_progress": {
       "1": {
@@ -24,17 +24,17 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 74,
+        "owned": 75,
         "total": 127,
-        "completion_percent": 58.27,
+        "completion_percent": 59.06,
         "total_lines": 78,
-        "lines_completed": 38
+        "lines_completed": 39
       }
     },
     "evolution": {
-      "total_evolutions_owned": 208,
+      "total_evolutions_owned": 209,
       "total_evolutions_available": 278,
-      "lines_completed": 99,
+      "lines_completed": 100,
       "total_lines": 156,
       "stage_totals": {
         "1": 155,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 113,
+        "1": 114,
         "3": 22,
         "2": 73
       }
@@ -99,9 +99,9 @@
         "completion_percent": 88.89
       },
       "psychic": {
-        "owned": 17,
+        "owned": 18,
         "total": 42,
-        "completion_percent": 40.48
+        "completion_percent": 42.86
       },
       "rock": {
         "owned": 7,
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 2287,
-      "success": 708,
-      "accuracy_percent": 30.96,
+      "thrown": 2333,
+      "success": 724,
+      "accuracy_percent": 31.03,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 2287,
-          "success": 708,
-          "accuracy_percent": 30.96
+          "thrown": 2333,
+          "success": 724,
+          "accuracy_percent": 31.03
         },
         "great ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 1566,
+      "watch_hours": 1574,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -176,11 +176,11 @@
       "total_donated": 0.0,
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
-      "streams_watched": 472,
-      "chat_messages": 15507,
-      "commands_run": 76084,
-      "times_tagged": 3624,
-      "times_evolved": 82,
+      "streams_watched": 475,
+      "chat_messages": 15611,
+      "commands_run": 76687,
+      "times_tagged": 3641,
+      "times_evolved": 85,
       "times_traded": 31,
       "times_eggs_hatched": 25,
       "ball_distribution": {
@@ -599,7 +599,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 22538
+      "friendship_points": 23012
     },
     {
       "name": "Charmeleon",
@@ -698,7 +698,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 22538
+      "friendship_points": 23012
     },
     {
       "name": "Charizard",
@@ -801,7 +801,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 22538
+      "friendship_points": 23012
     },
     {
       "name": "Squirtle",
@@ -1636,7 +1636,7 @@
     },
     {
       "name": "Pidgey",
-      "count": 36,
+      "count": 38,
       "owned": true,
       "pokedex_number": 16,
       "primary_type": "Normal",
@@ -3633,7 +3633,7 @@
     },
     {
       "name": "Jigglypuff",
-      "count": 11,
+      "count": 12,
       "owned": true,
       "pokedex_number": 39,
       "primary_type": "Normal",
@@ -5334,7 +5334,7 @@
     },
     {
       "name": "Growlithe",
-      "count": 10,
+      "count": 11,
       "owned": true,
       "pokedex_number": 58,
       "primary_type": "Fire",
@@ -5823,7 +5823,7 @@
     },
     {
       "name": "Abra",
-      "count": 13,
+      "count": 4,
       "owned": true,
       "pokedex_number": 63,
       "primary_type": "Psychic",
@@ -5989,7 +5989,7 @@
     },
     {
       "name": "Alakazam",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 65,
       "primary_type": "Psychic",
@@ -7165,7 +7165,7 @@
     },
     {
       "name": "Ponyta",
-      "count": 17,
+      "count": 18,
       "owned": true,
       "pokedex_number": 77,
       "primary_type": "Fire",
@@ -7565,7 +7565,7 @@
     },
     {
       "name": "Magnemite",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 81,
       "primary_type": "Electric",
@@ -8542,7 +8542,7 @@
     },
     {
       "name": "Gastly",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 92,
       "primary_type": "Ghost",
@@ -8956,7 +8956,7 @@
     },
     {
       "name": "Drowzee",
-      "count": 14,
+      "count": 15,
       "owned": true,
       "pokedex_number": 96,
       "primary_type": "Psychic",
@@ -9418,7 +9418,7 @@
     },
     {
       "name": "Exeggcute",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 102,
       "primary_type": "Grass",
@@ -14286,7 +14286,7 @@
     },
     {
       "name": "Totodile",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 158,
       "primary_type": "Water",
@@ -14366,7 +14366,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -14677,7 +14677,7 @@
     },
     {
       "name": "Hoothoot",
-      "count": 15,
+      "count": 16,
       "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
@@ -15324,7 +15324,7 @@
     },
     {
       "name": "Chinchou",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 170,
       "primary_type": "Water",
@@ -15402,7 +15402,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -16833,7 +16833,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 3,
+      "count": 5,
       "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
@@ -19097,8 +19097,8 @@
     },
     {
       "name": "Unown O",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 201,
       "primary_type": "Psychic",
       "secondary_type": null,
@@ -19160,7 +19160,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -21585,7 +21585,7 @@
     },
     {
       "name": "Swinub",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 220,
       "primary_type": "Ice",
@@ -24319,7 +24319,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "2",
-    "friendship_points": 22538,
+    "friendship_points": 23012,
     "times_pet": 7,
     "times_fed": 3
   }
