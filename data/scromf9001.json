@@ -3,12 +3,12 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-09T17:02:08.413657+00:00",
+  "updated_at": "2026-09-09T17:48:06.558306+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 209,
-      "total_owned": 1015,
+      "total_owned": 1018,
       "completion_percent": 75.18
     },
     "generation_progress": {
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 2333,
-      "success": 724,
-      "accuracy_percent": 31.03,
+      "thrown": 2337,
+      "success": 727,
+      "accuracy_percent": 31.11,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 2333,
-          "success": 724,
-          "accuracy_percent": 31.03
+          "thrown": 2337,
+          "success": 727,
+          "accuracy_percent": 31.11
         },
         "great ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 1574,
+      "watch_hours": 1575,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -177,9 +177,9 @@
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
       "streams_watched": 475,
-      "chat_messages": 15611,
-      "commands_run": 76687,
-      "times_tagged": 3641,
+      "chat_messages": 15618,
+      "commands_run": 76745,
+      "times_tagged": 3645,
       "times_evolved": 85,
       "times_traded": 31,
       "times_eggs_hatched": 25,
@@ -599,7 +599,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 23012
+      "friendship_points": 23057
     },
     {
       "name": "Charmeleon",
@@ -698,7 +698,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 23012
+      "friendship_points": 23057
     },
     {
       "name": "Charizard",
@@ -801,7 +801,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 23012
+      "friendship_points": 23057
     },
     {
       "name": "Squirtle",
@@ -3633,7 +3633,7 @@
     },
     {
       "name": "Jigglypuff",
-      "count": 12,
+      "count": 13,
       "owned": true,
       "pokedex_number": 39,
       "primary_type": "Normal",
@@ -4880,7 +4880,7 @@
     },
     {
       "name": "Meowth",
-      "count": 20,
+      "count": 21,
       "owned": true,
       "pokedex_number": 52,
       "primary_type": "Normal",
@@ -13989,7 +13989,7 @@
     },
     {
       "name": "Cyndaquil",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 155,
       "primary_type": "Fire",
@@ -14081,7 +14081,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -24319,7 +24319,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "2",
-    "friendship_points": 23012,
+    "friendship_points": 23057,
     "times_pet": 7,
     "times_fed": 3
   }
