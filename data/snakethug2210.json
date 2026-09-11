@@ -3,7 +3,7 @@
     "username": "snakethug2210",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/515f2268-caf0-4dca-9e8b-96419423af91-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-09-05T15:05:52.728724+00:00",
+  "updated_at": "2026-09-11T20:57:43.173870+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -137,15 +137,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 6,
+      "thrown": 8,
       "success": 2,
-      "accuracy_percent": 33.33,
+      "accuracy_percent": 25.0,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 4,
+          "thrown": 6,
           "success": 1,
-          "accuracy_percent": 25.0
+          "accuracy_percent": 16.67
         },
         "great ball": {
           "thrown": 2,
@@ -165,8 +165,8 @@
       }
     },
     "journey": {
-      "watch_hours": 9,
-      "follow_age": "8 Month(s), 12 Day(s)",
+      "watch_hours": 12,
+      "follow_age": "8 Month(s), 19 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
       "subs_gifted": 0,
@@ -174,21 +174,21 @@
       "total_donated": 0.0,
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
-      "streams_watched": 45,
-      "chat_messages": 354,
-      "commands_run": 527,
-      "times_tagged": 86,
+      "streams_watched": 47,
+      "chat_messages": 450,
+      "commands_run": 669,
+      "times_tagged": 97,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 66.67,
-        "great ball": 33.33,
+        "poke ball": 75.0,
+        "great ball": 25.0,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 12,
+        "Great Ball": 17,
         "Ultra Ball": 1
       }
     }
