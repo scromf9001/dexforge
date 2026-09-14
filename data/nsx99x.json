@@ -3,12 +3,12 @@
     "username": "nsx99x",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/84925440-9af3-4345-8c6f-ce8519653903-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-14T17:53:09.765057+00:00",
+  "updated_at": "2026-09-14T18:09:17.976434+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 170,
-      "total_owned": 572,
+      "total_owned": 573,
       "completion_percent": 61.15
     },
     "generation_progress": {
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 806,
-      "success": 353,
-      "accuracy_percent": 43.8,
+      "thrown": 808,
+      "success": 354,
+      "accuracy_percent": 43.81,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 163,
-          "success": 39,
-          "accuracy_percent": 23.93
+          "thrown": 165,
+          "success": 40,
+          "accuracy_percent": 24.24
         },
         "great ball": {
           "thrown": 642,
@@ -177,21 +177,21 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 288,
-      "chat_messages": 60148,
-      "commands_run": 71764,
-      "times_tagged": 8827,
+      "chat_messages": 60179,
+      "commands_run": 71814,
+      "times_tagged": 8839,
       "times_evolved": 78,
       "times_traded": 3,
       "times_eggs_hatched": 13,
       "ball_distribution": {
-        "poke ball": 20.22,
-        "great ball": 79.65,
+        "poke ball": 20.42,
+        "great ball": 79.46,
         "ultra ball": 0.12,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 83,
+        "Great Ball": 85,
         "Moon Stone": 1,
         "Thunder Stone": 1,
         "Ultra Ball": 61
@@ -16546,7 +16546,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4595
+      "friendship_points": 4611
     },
     {
       "name": "Azumarill",
@@ -16643,7 +16643,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4595
+      "friendship_points": 4611
     },
     {
       "name": "Sudowoodo",
@@ -21385,7 +21385,7 @@
     },
     {
       "name": "Slugma",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 218,
       "primary_type": "Fire",
@@ -24313,7 +24313,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 4595,
+    "friendship_points": 4611,
     "times_pet": 15,
     "times_fed": 0
   }
