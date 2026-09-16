@@ -3,13 +3,13 @@
     "username": "nsx99x",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/84925440-9af3-4345-8c6f-ce8519653903-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-15T15:54:15.420646+00:00",
+  "updated_at": "2026-09-16T18:03:11.253090+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 170,
-      "total_owned": 574,
-      "completion_percent": 61.15
+      "unique_owned": 171,
+      "total_owned": 580,
+      "completion_percent": 61.51
     },
     "generation_progress": {
       "1": {
@@ -24,15 +24,15 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 57,
+        "owned": 58,
         "total": 127,
-        "completion_percent": 44.88,
+        "completion_percent": 45.67,
         "total_lines": 78,
         "lines_completed": 26
       }
     },
     "evolution": {
-      "total_evolutions_owned": 170,
+      "total_evolutions_owned": 171,
       "total_evolutions_available": 278,
       "lines_completed": 72,
       "total_lines": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 108,
+        "1": 109,
         "2": 51,
         "3": 11
       }
@@ -69,9 +69,9 @@
         "completion_percent": 81.82
       },
       "normal": {
-        "owned": 31,
+        "owned": 32,
         "total": 37,
-        "completion_percent": 83.78
+        "completion_percent": 86.49
       },
       "poison": {
         "owned": 10,
@@ -139,20 +139,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 814,
-      "success": 355,
-      "accuracy_percent": 43.61,
+      "thrown": 828,
+      "success": 361,
+      "accuracy_percent": 43.6,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 171,
-          "success": 41,
-          "accuracy_percent": 23.98
+          "thrown": 184,
+          "success": 46,
+          "accuracy_percent": 25.0
         },
         "great ball": {
-          "thrown": 642,
-          "success": 314,
-          "accuracy_percent": 48.91
+          "thrown": 643,
+          "success": 315,
+          "accuracy_percent": 48.99
         },
         "ultra ball": {
           "thrown": 1,
@@ -167,31 +167,31 @@
       }
     },
     "journey": {
-      "watch_hours": 820,
-      "follow_age": "1 Year(s), 5 Month(s), 6 Day(s)",
-      "sub_age": "13 Day(s)",
+      "watch_hours": 822,
+      "follow_age": "1 Year(s), 5 Month(s), 8 Day(s)",
+      "sub_age": "15 Day(s)",
       "sub_months": 8,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 288,
-      "chat_messages": 60225,
-      "commands_run": 71900,
-      "times_tagged": 8847,
+      "streams_watched": 289,
+      "chat_messages": 60462,
+      "commands_run": 72227,
+      "times_tagged": 8897,
       "times_evolved": 78,
       "times_traded": 3,
       "times_eggs_hatched": 13,
       "ball_distribution": {
-        "poke ball": 21.01,
-        "great ball": 78.87,
+        "poke ball": 22.22,
+        "great ball": 77.66,
         "ultra ball": 0.12,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 87,
+        "Great Ball": 94,
         "Moon Stone": 1,
         "Thunder Stone": 1,
         "Ultra Ball": 61
@@ -2203,7 +2203,7 @@
     },
     {
       "name": "Ekans",
-      "count": 18,
+      "count": 17,
       "owned": true,
       "pokedex_number": 23,
       "primary_type": "Poison",
@@ -2533,7 +2533,7 @@
     },
     {
       "name": "Sandshrew",
-      "count": 12,
+      "count": 13,
       "owned": true,
       "pokedex_number": 27,
       "primary_type": "Ground",
@@ -6066,7 +6066,7 @@
     },
     {
       "name": "Machop",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 66,
       "primary_type": "Fighting",
@@ -9412,7 +9412,7 @@
     },
     {
       "name": "Exeggcute",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 102,
       "primary_type": "Grass",
@@ -10964,7 +10964,7 @@
     },
     {
       "name": "Staryu",
-      "count": 8,
+      "count": 9,
       "owned": true,
       "pokedex_number": 120,
       "primary_type": "Water",
@@ -11703,7 +11703,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 18,
+      "count": 19,
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
@@ -16546,7 +16546,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4648
+      "friendship_points": 4749
     },
     {
       "name": "Azumarill",
@@ -16643,7 +16643,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4648
+      "friendship_points": 4749
     },
     {
       "name": "Sudowoodo",
@@ -17456,7 +17456,7 @@
     },
     {
       "name": "Wooper",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 194,
       "primary_type": "Water",
@@ -21255,8 +21255,8 @@
     },
     {
       "name": "Teddiursa",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 216,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -24313,7 +24313,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 4648,
+    "friendship_points": 4749,
     "times_pet": 15,
     "times_fed": 0
   }
