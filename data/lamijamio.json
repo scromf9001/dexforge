@@ -3,13 +3,13 @@
     "username": "lamijamio",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-15T16:08:49.091920+00:00",
+  "updated_at": "2026-09-16T15:15:25.919967+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 185,
-      "total_owned": 473,
-      "completion_percent": 66.55
+      "unique_owned": 184,
+      "total_owned": 478,
+      "completion_percent": 66.19
     },
     "generation_progress": {
       "1": {
@@ -24,17 +24,17 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 63,
+        "owned": 62,
         "total": 127,
-        "completion_percent": 49.61,
+        "completion_percent": 48.82,
         "total_lines": 78,
-        "lines_completed": 33
+        "lines_completed": 32
       }
     },
     "evolution": {
-      "total_evolutions_owned": 185,
+      "total_evolutions_owned": 184,
       "total_evolutions_available": 278,
-      "lines_completed": 81,
+      "lines_completed": 80,
       "total_lines": 156,
       "stage_totals": {
         "1": 155,
@@ -44,14 +44,14 @@
       "stage_owned": {
         "1": 112,
         "2": 61,
-        "3": 12
+        "3": 11
       }
     },
     "types": {
       "grass": {
-        "owned": 16,
+        "owned": 15,
         "total": 21,
-        "completion_percent": 76.19
+        "completion_percent": 71.43
       },
       "fire": {
         "owned": 13,
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 927,
-      "success": 459,
-      "accuracy_percent": 49.51,
+      "thrown": 926,
+      "success": 458,
+      "accuracy_percent": 49.46,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 896,
-          "success": 449,
-          "accuracy_percent": 50.11
+          "thrown": 895,
+          "success": 448,
+          "accuracy_percent": 50.06
         },
         "ultra ball": {
           "thrown": 12,
@@ -168,30 +168,30 @@
     },
     "journey": {
       "watch_hours": 807,
-      "follow_age": "1 Year(s), 10 Month(s), 18 Day(s)",
-      "sub_age": "15 Day(s)",
+      "follow_age": "1 Year(s), 10 Month(s), 19 Day(s)",
+      "sub_age": "16 Day(s)",
       "sub_months": 17,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 291,
-      "chat_messages": 7212,
-      "commands_run": 15564,
-      "times_tagged": 1472,
-      "times_evolved": 84,
+      "streams_watched": 292,
+      "chat_messages": 7207,
+      "commands_run": 15542,
+      "times_tagged": 1471,
+      "times_evolved": 81,
       "times_traded": 0,
       "times_eggs_hatched": 14,
       "ball_distribution": {
         "poke ball": 1.19,
-        "great ball": 96.66,
-        "ultra ball": 1.29,
+        "great ball": 96.65,
+        "ultra ball": 1.3,
         "master ball": 0.86
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 59,
+        "Great Ball": 58,
         "Ultra Ball": 3
       }
     }
@@ -1331,7 +1331,7 @@
     },
     {
       "name": "Weedle",
-      "count": 5,
+      "count": 4,
       "owned": true,
       "pokedex_number": 13,
       "primary_type": "Bug",
@@ -5415,7 +5415,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 19219
+      "friendship_points": 18720
     },
     {
       "name": "Arcanine",
@@ -5508,7 +5508,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 19219
+      "friendship_points": 18720
     },
     {
       "name": "Poliwag",
@@ -16825,7 +16825,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 1,
+      "count": 7,
       "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
@@ -16916,15 +16916,15 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": true,
-      "evolvable_now": false,
+      "line_complete": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Skiploom",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 188,
       "primary_type": "Grass",
@@ -17015,7 +17015,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": true,
+      "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -17023,8 +17023,8 @@
     },
     {
       "name": "Jumpluff",
-      "count": 1,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 189,
       "primary_type": "Grass",
       "secondary_type": "Flying",
@@ -17114,7 +17114,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": true,
+      "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -24311,7 +24311,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "25",
-    "friendship_points": 19219,
+    "friendship_points": 18720,
     "times_pet": 39,
     "times_fed": 0
   }
