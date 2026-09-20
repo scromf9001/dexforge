@@ -3,12 +3,12 @@
     "username": "litlpotatr",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f52f8e70-e4df-4dcc-ae00-b135c209e5e4-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-16T18:24:48.671190+00:00",
+  "updated_at": "2026-09-20T15:37:58.882128+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 228,
-      "total_owned": 591,
+      "total_owned": 596,
       "completion_percent": 82.01
     },
     "generation_progress": {
@@ -42,9 +42,9 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 129,
+        "1": 128,
         "3": 23,
-        "2": 76
+        "2": 77
       }
     },
     "types": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1029,
-      "success": 495,
-      "accuracy_percent": 48.1,
+      "thrown": 1044,
+      "success": 501,
+      "accuracy_percent": 47.99,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,14 +150,14 @@
           "accuracy_percent": 10.0
         },
         "great ball": {
-          "thrown": 948,
-          "success": 467,
-          "accuracy_percent": 49.26
+          "thrown": 962,
+          "success": 473,
+          "accuracy_percent": 49.17
         },
         "ultra ball": {
-          "thrown": 55,
+          "thrown": 56,
           "success": 20,
-          "accuracy_percent": 36.36
+          "accuracy_percent": 35.71
         },
         "master ball": {
           "thrown": 6,
@@ -167,31 +167,31 @@
       }
     },
     "journey": {
-      "watch_hours": 1103,
-      "follow_age": "1 Year(s), 2 Month(s), 20 Day(s)",
-      "sub_age": "1 Year(s), 7 Month(s), 30 Day(s)",
+      "watch_hours": 1110,
+      "follow_age": "1 Year(s), 2 Month(s), 23 Day(s)",
+      "sub_age": "1 Year(s), 8 Month(s), 3 Day(s)",
       "sub_months": 21,
       "subs_gifted": 21,
       "bits_donated": 3490,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 341,
-      "chat_messages": 27962,
-      "commands_run": 44007,
-      "times_tagged": 5084,
-      "times_evolved": 78,
+      "streams_watched": 343,
+      "chat_messages": 28114,
+      "commands_run": 44261,
+      "times_tagged": 5136,
+      "times_evolved": 79,
       "times_traded": 14,
-      "times_eggs_hatched": 26,
+      "times_eggs_hatched": 27,
       "ball_distribution": {
-        "poke ball": 1.94,
-        "great ball": 92.13,
-        "ultra ball": 5.34,
-        "master ball": 0.58
+        "poke ball": 1.92,
+        "great ball": 92.15,
+        "ultra ball": 5.36,
+        "master ball": 0.57
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 96,
+        "Great Ball": 98,
         "Water Stone": 1
       }
     }
@@ -5415,7 +5415,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 29066
+      "friendship_points": 29507
     },
     {
       "name": "Arcanine",
@@ -5508,7 +5508,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 29066
+      "friendship_points": 29507
     },
     {
       "name": "Poliwag",
@@ -5815,7 +5815,7 @@
     },
     {
       "name": "Abra",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 63,
       "primary_type": "Psychic",
@@ -6824,7 +6824,7 @@
     },
     {
       "name": "Geodude",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 74,
       "primary_type": "Rock",
@@ -8372,7 +8372,7 @@
     },
     {
       "name": "Shellder",
-      "count": 10,
+      "count": 11,
       "owned": true,
       "pokedex_number": 90,
       "primary_type": "Water",
@@ -14839,7 +14839,7 @@
     },
     {
       "name": "Ledyba",
-      "count": 11,
+      "count": 12,
       "owned": true,
       "pokedex_number": 165,
       "primary_type": "Bug",
@@ -15565,7 +15565,7 @@
     },
     {
       "name": "Cleffa",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 173,
       "primary_type": "Fairy",
@@ -16825,7 +16825,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 3,
+      "count": 5,
       "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
@@ -20221,8 +20221,8 @@
     },
     {
       "name": "Pineco",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 204,
       "primary_type": "Bug",
       "secondary_type": null,
@@ -20295,15 +20295,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Forretress",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 205,
       "primary_type": "Bug",
       "secondary_type": "Steel",
@@ -24311,7 +24311,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "25",
-    "friendship_points": 29066,
+    "friendship_points": 29507,
     "times_pet": 48,
     "times_fed": 3
   }
