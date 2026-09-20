@@ -3,12 +3,12 @@
     "username": "nsx99x",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/84925440-9af3-4345-8c6f-ce8519653903-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-19T20:54:46.201990+00:00",
+  "updated_at": "2026-09-20T16:37:37.039800+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 171,
-      "total_owned": 585,
+      "total_owned": 588,
       "completion_percent": 61.51
     },
     "generation_progress": {
@@ -139,20 +139,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 850,
-      "success": 366,
-      "accuracy_percent": 43.06,
+      "thrown": 853,
+      "success": 369,
+      "accuracy_percent": 43.26,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 200,
-          "success": 48,
-          "accuracy_percent": 24.0
+          "thrown": 202,
+          "success": 50,
+          "accuracy_percent": 24.75
         },
         "great ball": {
-          "thrown": 649,
-          "success": 318,
-          "accuracy_percent": 49.0
+          "thrown": 650,
+          "success": 319,
+          "accuracy_percent": 49.08
         },
         "ultra ball": {
           "thrown": 1,
@@ -167,8 +167,8 @@
       }
     },
     "journey": {
-      "watch_hours": 827,
-      "follow_age": "1 Year(s), 5 Month(s), 11 Day(s)",
+      "watch_hours": 828,
+      "follow_age": "1 Year(s), 5 Month(s), 12 Day(s)",
       "sub_age": "18 Day(s)",
       "sub_months": 8,
       "subs_gifted": 0,
@@ -176,22 +176,22 @@
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 290,
-      "chat_messages": 60843,
-      "commands_run": 72771,
-      "times_tagged": 8970,
+      "streams_watched": 291,
+      "chat_messages": 60892,
+      "commands_run": 72858,
+      "times_tagged": 8982,
       "times_evolved": 78,
       "times_traded": 3,
       "times_eggs_hatched": 13,
       "ball_distribution": {
-        "poke ball": 23.53,
-        "great ball": 76.35,
+        "poke ball": 23.68,
+        "great ball": 76.2,
         "ultra ball": 0.12,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 97,
+        "Great Ball": 98,
         "Moon Stone": 1,
         "Thunder Stone": 1,
         "Ultra Ball": 63
@@ -4526,7 +4526,7 @@
     },
     {
       "name": "Venonat",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 48,
       "primary_type": "Bug",
@@ -6826,7 +6826,7 @@
     },
     {
       "name": "Geodude",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 74,
       "primary_type": "Rock",
@@ -6930,7 +6930,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -15318,7 +15318,7 @@
     },
     {
       "name": "Chinchou",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 170,
       "primary_type": "Water",
@@ -16546,7 +16546,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5034
+      "friendship_points": 5064
     },
     {
       "name": "Azumarill",
@@ -16643,7 +16643,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5034
+      "friendship_points": 5064
     },
     {
       "name": "Sudowoodo",
@@ -24313,7 +24313,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 5034,
+    "friendship_points": 5064,
     "times_pet": 15,
     "times_fed": 0
   }
