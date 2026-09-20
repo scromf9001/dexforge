@@ -3,7 +3,7 @@
     "username": "captandorito",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/3e57f572-3029-4655-a61b-3140ff555230-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-20T16:03:29.325762+00:00",
+  "updated_at": "2026-09-20T16:03:55.580680+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -177,9 +177,9 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 68,
-      "chat_messages": 3190,
-      "commands_run": 4034,
-      "times_tagged": 633,
+      "chat_messages": 3191,
+      "commands_run": 4038,
+      "times_tagged": 634,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 1,
