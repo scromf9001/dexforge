@@ -3,23 +3,23 @@
     "username": "lamijamio",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-22T17:42:07.981476+00:00",
+  "updated_at": "2026-09-22T19:20:19.864766+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 195,
-      "total_owned": 509,
-      "completion_percent": 70.14
+      "unique_owned": 196,
+      "total_owned": 511,
+      "completion_percent": 70.5
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 127,
+        "owned": 128,
         "total": 151,
-        "completion_percent": 84.11,
+        "completion_percent": 84.77,
         "total_lines": 78,
-        "lines_completed": 51
+        "lines_completed": 52
       },
       "2": {
         "generation": 2,
@@ -32,9 +32,9 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 195,
+      "total_evolutions_owned": 196,
       "total_evolutions_available": 278,
-      "lines_completed": 87,
+      "lines_completed": 88,
       "total_lines": 156,
       "stage_totals": {
         "1": 155,
@@ -43,7 +43,7 @@
       },
       "stage_owned": {
         "1": 117,
-        "2": 64,
+        "2": 65,
         "3": 14
       }
     },
@@ -104,9 +104,9 @@
         "completion_percent": 42.86
       },
       "rock": {
-        "owned": 5,
+        "owned": 6,
         "total": 13,
-        "completion_percent": 38.46
+        "completion_percent": 46.15
       },
       "ghost": {
         "owned": 2,
@@ -139,20 +139,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1012,
-      "success": 509,
-      "accuracy_percent": 50.3,
+      "thrown": 1019,
+      "success": 513,
+      "accuracy_percent": 50.34,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 11,
+          "thrown": 12,
           "success": 0,
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 981,
-          "success": 499,
-          "accuracy_percent": 50.87
+          "thrown": 987,
+          "success": 503,
+          "accuracy_percent": 50.96
         },
         "ultra ball": {
           "thrown": 12,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 821,
+      "watch_hours": 823,
       "follow_age": "1 Year(s), 10 Month(s), 26 Day(s)",
       "sub_age": "23 Day(s)",
       "sub_months": 17,
@@ -177,21 +177,21 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 295,
-      "chat_messages": 7452,
-      "commands_run": 16343,
-      "times_tagged": 1554,
-      "times_evolved": 91,
+      "chat_messages": 7475,
+      "commands_run": 16412,
+      "times_tagged": 1565,
+      "times_evolved": 92,
       "times_traded": 0,
       "times_eggs_hatched": 14,
       "ball_distribution": {
-        "poke ball": 1.09,
-        "great ball": 96.94,
-        "ultra ball": 1.19,
+        "poke ball": 1.18,
+        "great ball": 96.86,
+        "ultra ball": 1.18,
         "master ball": 0.79
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 32,
+        "Great Ball": 30,
         "Ultra Ball": 5
       }
     }
@@ -1628,7 +1628,7 @@
     },
     {
       "name": "Pidgey",
-      "count": 4,
+      "count": 6,
       "owned": true,
       "pokedex_number": 16,
       "primary_type": "Normal",
@@ -5415,7 +5415,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 19623
+      "friendship_points": 19702
     },
     {
       "name": "Arcanine",
@@ -5508,7 +5508,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 19623
+      "friendship_points": 19702
     },
     {
       "name": "Poliwag",
@@ -6824,7 +6824,7 @@
     },
     {
       "name": "Geodude",
-      "count": 4,
+      "count": 1,
       "owned": true,
       "pokedex_number": 74,
       "primary_type": "Rock",
@@ -6927,16 +6927,16 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
-      "evolvable_now": true,
+      "line_complete": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Graveler",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 75,
       "primary_type": "Rock",
       "secondary_type": "Ground",
@@ -7038,7 +7038,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -7149,7 +7149,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": true,
@@ -10962,7 +10962,7 @@
     },
     {
       "name": "Staryu",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 120,
       "primary_type": "Water",
@@ -15025,7 +15025,7 @@
     },
     {
       "name": "Spinarak",
-      "count": 7,
+      "count": 8,
       "owned": true,
       "pokedex_number": 167,
       "primary_type": "Bug",
@@ -24311,7 +24311,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "25",
-    "friendship_points": 19623,
+    "friendship_points": 19702,
     "times_pet": 41,
     "times_fed": 0
   }
