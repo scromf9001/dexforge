@@ -3,36 +3,36 @@
     "username": "zivioli",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/88c20311-c498-4050-b01e-bc22c3086647-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-22T16:58:38.945237+00:00",
+  "updated_at": "2026-09-22T19:21:19.950348+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 1,
-      "total_owned": 1,
-      "completion_percent": 0.36
+      "unique_owned": 7,
+      "total_owned": 8,
+      "completion_percent": 2.52
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 1,
+        "owned": 6,
         "total": 151,
-        "completion_percent": 0.66,
+        "completion_percent": 3.97,
         "total_lines": 78,
         "lines_completed": 0
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 0,
+        "owned": 1,
         "total": 127,
-        "completion_percent": 0.0,
+        "completion_percent": 0.79,
         "total_lines": 78,
         "lines_completed": 0
       }
     },
     "evolution": {
-      "total_evolutions_owned": 1,
+      "total_evolutions_owned": 7,
       "total_evolutions_available": 278,
       "lines_completed": 0,
       "total_lines": 156,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 1
+        "1": 7
       }
     },
     "types": {
@@ -52,19 +52,19 @@
         "completion_percent": 0.0
       },
       "fire": {
-        "owned": 0,
+        "owned": 1,
         "total": 20,
-        "completion_percent": 0.0
+        "completion_percent": 5.0
       },
       "water": {
-        "owned": 0,
+        "owned": 2,
         "total": 46,
-        "completion_percent": 0.0
+        "completion_percent": 4.35
       },
       "bug": {
-        "owned": 0,
+        "owned": 1,
         "total": 22,
-        "completion_percent": 0.0
+        "completion_percent": 4.55
       },
       "normal": {
         "owned": 0,
@@ -72,9 +72,9 @@
         "completion_percent": 0.0
       },
       "poison": {
-        "owned": 0,
+        "owned": 1,
         "total": 15,
-        "completion_percent": 0.0
+        "completion_percent": 6.67
       },
       "electric": {
         "owned": 1,
@@ -82,9 +82,9 @@
         "completion_percent": 6.67
       },
       "ground": {
-        "owned": 0,
+        "owned": 1,
         "total": 11,
-        "completion_percent": 0.0
+        "completion_percent": 9.09
       },
       "fairy": {
         "owned": 0,
@@ -137,9 +137,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 7,
-      "success": 1,
-      "accuracy_percent": 14.29,
+      "thrown": 21,
+      "success": 8,
+      "accuracy_percent": 38.1,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -148,9 +148,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 4,
-          "success": 1,
-          "accuracy_percent": 25.0
+          "thrown": 18,
+          "success": 8,
+          "accuracy_percent": 44.44
         },
         "ultra ball": {
           "thrown": 0,
@@ -165,7 +165,7 @@
       }
     },
     "journey": {
-      "watch_hours": 6,
+      "watch_hours": 9,
       "follow_age": "2 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -175,20 +175,20 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 3,
-      "chat_messages": 193,
-      "commands_run": 251,
-      "times_tagged": 29,
+      "chat_messages": 317,
+      "commands_run": 452,
+      "times_tagged": 54,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 42.86,
-        "great ball": 57.14,
+        "poke ball": 14.29,
+        "great ball": 85.71,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 11
+        "Great Ball": 2
       }
     }
   },
@@ -3435,8 +3435,8 @@
     },
     {
       "name": "Vulpix",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 37,
       "primary_type": "Fire",
       "secondary_type": null,
@@ -3797,8 +3797,8 @@
     },
     {
       "name": "Zubat",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 41,
       "primary_type": "Poison",
       "secondary_type": "Flying",
@@ -10201,8 +10201,8 @@
     },
     {
       "name": "Rhyhorn",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 111,
       "primary_type": "Ground",
       "secondary_type": "Rock",
@@ -10958,8 +10958,8 @@
     },
     {
       "name": "Staryu",
-      "count": 0,
-      "owned": false,
+      "count": 2,
+      "owned": true,
       "pokedex_number": 120,
       "primary_type": "Water",
       "secondary_type": null,
@@ -11697,8 +11697,8 @@
     },
     {
       "name": "Magikarp",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
       "secondary_type": null,
@@ -15021,8 +15021,8 @@
     },
     {
       "name": "Spinarak",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 167,
       "primary_type": "Bug",
       "secondary_type": "Poison",
