@@ -3,21 +3,21 @@
     "username": "zivioli",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/88c20311-c498-4050-b01e-bc22c3086647-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-22T19:21:19.950348+00:00",
+  "updated_at": "2026-09-23T16:08:40.905953+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 7,
-      "total_owned": 8,
-      "completion_percent": 2.52
+      "unique_owned": 8,
+      "total_owned": 10,
+      "completion_percent": 2.88
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 6,
+        "owned": 7,
         "total": 151,
-        "completion_percent": 3.97,
+        "completion_percent": 4.64,
         "total_lines": 78,
         "lines_completed": 0
       },
@@ -32,7 +32,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 7,
+      "total_evolutions_owned": 8,
       "total_evolutions_available": 278,
       "lines_completed": 0,
       "total_lines": 156,
@@ -42,6 +42,7 @@
         "3": 30
       },
       "stage_owned": {
+        "2": 1,
         "1": 7
       }
     },
@@ -87,9 +88,9 @@
         "completion_percent": 9.09
       },
       "fairy": {
-        "owned": 0,
+        "owned": 1,
         "total": 7,
-        "completion_percent": 0.0
+        "completion_percent": 14.29
       },
       "fighting": {
         "owned": 0,
@@ -137,9 +138,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 21,
-      "success": 8,
-      "accuracy_percent": 38.1,
+      "thrown": 24,
+      "success": 10,
+      "accuracy_percent": 41.67,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -148,9 +149,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 18,
-          "success": 8,
-          "accuracy_percent": 44.44
+          "thrown": 21,
+          "success": 10,
+          "accuracy_percent": 47.62
         },
         "ultra ball": {
           "thrown": 0,
@@ -166,7 +167,7 @@
     },
     "journey": {
       "watch_hours": 9,
-      "follow_age": "2 Day(s)",
+      "follow_age": "3 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
       "subs_gifted": 0,
@@ -174,21 +175,21 @@
       "total_donated": 0.0,
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
-      "streams_watched": 3,
-      "chat_messages": 317,
-      "commands_run": 452,
-      "times_tagged": 54,
+      "streams_watched": 4,
+      "chat_messages": 361,
+      "commands_run": 515,
+      "times_tagged": 63,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 14.29,
-        "great ball": 85.71,
+        "poke ball": 12.5,
+        "great ball": 87.5,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 2
+        "Great Ball": 1
       }
     }
   },
@@ -3259,8 +3260,8 @@
     },
     {
       "name": "Clefairy",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 35,
       "primary_type": "Fairy",
       "secondary_type": null,
@@ -11697,7 +11698,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
