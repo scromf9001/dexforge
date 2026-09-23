@@ -3,12 +3,12 @@
     "username": "lamijamio",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-22T19:20:19.864766+00:00",
+  "updated_at": "2026-09-23T15:21:06.409101+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 196,
-      "total_owned": 511,
+      "total_owned": 513,
       "completion_percent": 70.5
     },
     "generation_progress": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1019,
-      "success": 513,
-      "accuracy_percent": 50.34,
+      "thrown": 1022,
+      "success": 515,
+      "accuracy_percent": 50.39,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 987,
-          "success": 503,
-          "accuracy_percent": 50.96
+          "thrown": 990,
+          "success": 505,
+          "accuracy_percent": 51.01
         },
         "ultra ball": {
           "thrown": 12,
@@ -176,22 +176,22 @@
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 295,
-      "chat_messages": 7475,
-      "commands_run": 16412,
-      "times_tagged": 1565,
+      "streams_watched": 296,
+      "chat_messages": 7484,
+      "commands_run": 16444,
+      "times_tagged": 1568,
       "times_evolved": 92,
       "times_traded": 0,
       "times_eggs_hatched": 14,
       "ball_distribution": {
-        "poke ball": 1.18,
-        "great ball": 96.86,
-        "ultra ball": 1.18,
-        "master ball": 0.79
+        "poke ball": 1.17,
+        "great ball": 96.87,
+        "ultra ball": 1.17,
+        "master ball": 0.78
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 30,
+        "Great Ball": 29,
         "Ultra Ball": 5
       }
     }
@@ -4007,7 +4007,7 @@
     },
     {
       "name": "Oddish",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 43,
       "primary_type": "Grass",
@@ -5415,7 +5415,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 19702
+      "friendship_points": 19737
     },
     {
       "name": "Arcanine",
@@ -5508,7 +5508,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 19702
+      "friendship_points": 19737
     },
     {
       "name": "Poliwag",
@@ -20650,7 +20650,7 @@
     },
     {
       "name": "Snubbull",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 209,
       "primary_type": "Fairy",
@@ -24311,7 +24311,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "25",
-    "friendship_points": 19702,
+    "friendship_points": 19737,
     "times_pet": 41,
     "times_fed": 0
   }
