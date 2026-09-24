@@ -3,12 +3,12 @@
     "username": "lamijamio",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-23T15:21:06.409101+00:00",
+  "updated_at": "2026-09-24T16:54:33.357553+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 196,
-      "total_owned": 513,
+      "total_owned": 517,
       "completion_percent": 70.5
     },
     "generation_progress": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1022,
-      "success": 515,
-      "accuracy_percent": 50.39,
+      "thrown": 1047,
+      "success": 520,
+      "accuracy_percent": 49.67,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,14 +150,14 @@
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 990,
-          "success": 505,
-          "accuracy_percent": 51.01
+          "thrown": 1013,
+          "success": 510,
+          "accuracy_percent": 50.35
         },
         "ultra ball": {
-          "thrown": 12,
+          "thrown": 14,
           "success": 2,
-          "accuracy_percent": 16.67
+          "accuracy_percent": 14.29
         },
         "master ball": {
           "thrown": 8,
@@ -167,32 +167,32 @@
       }
     },
     "journey": {
-      "watch_hours": 823,
-      "follow_age": "1 Year(s), 10 Month(s), 26 Day(s)",
-      "sub_age": "23 Day(s)",
+      "watch_hours": 828,
+      "follow_age": "1 Year(s), 10 Month(s), 27 Day(s)",
+      "sub_age": "24 Day(s)",
       "sub_months": 17,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 296,
-      "chat_messages": 7484,
-      "commands_run": 16444,
-      "times_tagged": 1568,
-      "times_evolved": 92,
+      "streams_watched": 297,
+      "chat_messages": 7544,
+      "commands_run": 16663,
+      "times_tagged": 1596,
+      "times_evolved": 93,
       "times_traded": 0,
-      "times_eggs_hatched": 14,
+      "times_eggs_hatched": 15,
       "ball_distribution": {
-        "poke ball": 1.17,
-        "great ball": 96.87,
-        "ultra ball": 1.17,
-        "master ball": 0.78
+        "poke ball": 1.15,
+        "great ball": 96.75,
+        "ultra ball": 1.34,
+        "master ball": 0.76
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 29,
-        "Ultra Ball": 5
+        "Great Ball": 26,
+        "Ultra Ball": 3
       }
     }
   },
@@ -3801,7 +3801,7 @@
     },
     {
       "name": "Zubat",
-      "count": 4,
+      "count": 2,
       "owned": true,
       "pokedex_number": 41,
       "primary_type": "Poison",
@@ -3897,14 +3897,14 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Golbat",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 42,
       "primary_type": "Poison",
@@ -4000,7 +4000,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -5415,7 +5415,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 19737
+      "friendship_points": 20009
     },
     {
       "name": "Arcanine",
@@ -5508,7 +5508,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 19737
+      "friendship_points": 20009
     },
     {
       "name": "Poliwag",
@@ -14539,7 +14539,7 @@
     },
     {
       "name": "Sentret",
-      "count": 16,
+      "count": 17,
       "owned": true,
       "pokedex_number": 161,
       "primary_type": "Normal",
@@ -14839,7 +14839,7 @@
     },
     {
       "name": "Ledyba",
-      "count": 13,
+      "count": 14,
       "owned": true,
       "pokedex_number": 165,
       "primary_type": "Bug",
@@ -15652,7 +15652,7 @@
     },
     {
       "name": "Igglybuff",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 174,
       "primary_type": "Normal",
@@ -21834,7 +21834,7 @@
     },
     {
       "name": "Remoraid",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 223,
       "primary_type": "Water",
@@ -22542,7 +22542,7 @@
     },
     {
       "name": "Phanpy",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 231,
       "primary_type": "Ground",
@@ -24311,7 +24311,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "25",
-    "friendship_points": 19737,
+    "friendship_points": 20009,
     "times_pet": 41,
     "times_fed": 0
   }
