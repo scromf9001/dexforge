@@ -3,13 +3,13 @@
     "username": "unhumaned1",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-27T16:06:05.163346+00:00",
+  "updated_at": "2026-09-27T16:34:50.205780+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 142,
-      "total_owned": 282,
-      "completion_percent": 51.08
+      "unique_owned": 143,
+      "total_owned": 279,
+      "completion_percent": 51.44
     },
     "generation_progress": {
       "1": {
@@ -24,17 +24,17 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 52,
+        "owned": 53,
         "total": 127,
-        "completion_percent": 40.94,
+        "completion_percent": 41.73,
         "total_lines": 78,
-        "lines_completed": 23
+        "lines_completed": 24
       }
     },
     "evolution": {
-      "total_evolutions_owned": 142,
+      "total_evolutions_owned": 143,
       "total_evolutions_available": 278,
-      "lines_completed": 46,
+      "lines_completed": 47,
       "total_lines": 156,
       "stage_totals": {
         "1": 155,
@@ -44,14 +44,14 @@
       "stage_owned": {
         "1": 84,
         "2": 55,
-        "3": 3
+        "3": 4
       }
     },
     "types": {
       "grass": {
-        "owned": 12,
+        "owned": 13,
         "total": 21,
-        "completion_percent": 57.14
+        "completion_percent": 61.9
       },
       "fire": {
         "owned": 12,
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1047,
-      "success": 371,
-      "accuracy_percent": 35.43,
+      "thrown": 1049,
+      "success": 372,
+      "accuracy_percent": 35.46,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 736,
-          "success": 228,
-          "accuracy_percent": 30.98
+          "thrown": 738,
+          "success": 229,
+          "accuracy_percent": 31.03
         },
         "great ball": {
           "thrown": 295,
@@ -177,15 +177,15 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 165,
-      "chat_messages": 17113,
-      "commands_run": 25579,
-      "times_tagged": 3645,
-      "times_evolved": 64,
+      "chat_messages": 17148,
+      "commands_run": 25642,
+      "times_tagged": 3653,
+      "times_evolved": 66,
       "times_traded": 0,
       "times_eggs_hatched": 14,
       "ball_distribution": {
-        "poke ball": 70.3,
-        "great ball": 28.18,
+        "poke ball": 70.35,
+        "great ball": 28.12,
         "ultra ball": 1.53,
         "master ball": 0.0
       },
@@ -16825,7 +16825,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 3,
+      "count": 1,
       "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
@@ -16916,15 +16916,15 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
-      "evolvable_now": true,
+      "line_complete": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Skiploom",
-      "count": 3,
+      "count": 1,
       "owned": true,
       "pokedex_number": 188,
       "primary_type": "Grass",
@@ -17015,16 +17015,16 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
-      "evolvable_now": true,
+      "line_complete": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Jumpluff",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 189,
       "primary_type": "Grass",
       "secondary_type": "Flying",
@@ -17114,7 +17114,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
