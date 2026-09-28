@@ -3,13 +3,13 @@
     "username": "unhumaned1",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-27T16:34:50.205780+00:00",
+  "updated_at": "2026-09-28T18:04:18.591968+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 143,
-      "total_owned": 279,
-      "completion_percent": 51.44
+      "unique_owned": 144,
+      "total_owned": 281,
+      "completion_percent": 51.8
     },
     "generation_progress": {
       "1": {
@@ -24,17 +24,17 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 53,
+        "owned": 54,
         "total": 127,
-        "completion_percent": 41.73,
+        "completion_percent": 42.52,
         "total_lines": 78,
-        "lines_completed": 24
+        "lines_completed": 25
       }
     },
     "evolution": {
-      "total_evolutions_owned": 143,
+      "total_evolutions_owned": 144,
       "total_evolutions_available": 278,
-      "lines_completed": 47,
+      "lines_completed": 48,
       "total_lines": 156,
       "stage_totals": {
         "1": 155,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 84,
+        "1": 85,
         "2": 55,
         "3": 4
       }
@@ -69,9 +69,9 @@
         "completion_percent": 68.18
       },
       "normal": {
-        "owned": 19,
+        "owned": 20,
         "total": 37,
-        "completion_percent": 51.35
+        "completion_percent": 54.05
       },
       "poison": {
         "owned": 11,
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1049,
-      "success": 372,
-      "accuracy_percent": 35.46,
+      "thrown": 1058,
+      "success": 374,
+      "accuracy_percent": 35.35,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 738,
-          "success": 229,
-          "accuracy_percent": 31.03
+          "thrown": 747,
+          "success": 231,
+          "accuracy_percent": 30.92
         },
         "great ball": {
           "thrown": 295,
@@ -167,26 +167,26 @@
       }
     },
     "journey": {
-      "watch_hours": 346,
-      "follow_age": "8 Month(s), 18 Day(s)",
-      "sub_age": "4 Month(s), 22 Day(s)",
+      "watch_hours": 350,
+      "follow_age": "8 Month(s), 20 Day(s)",
+      "sub_age": "4 Month(s), 24 Day(s)",
       "sub_months": 5,
       "subs_gifted": 0,
       "bits_donated": 107,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 165,
-      "chat_messages": 17148,
-      "commands_run": 25642,
-      "times_tagged": 3653,
+      "streams_watched": 166,
+      "chat_messages": 17241,
+      "commands_run": 25799,
+      "times_tagged": 3681,
       "times_evolved": 66,
       "times_traded": 0,
       "times_eggs_hatched": 14,
       "ball_distribution": {
-        "poke ball": 70.35,
-        "great ball": 28.12,
-        "ultra ball": 1.53,
+        "poke ball": 70.6,
+        "great ball": 27.88,
+        "ultra ball": 1.51,
         "master ball": 0.0
       },
       "pokebag": {
@@ -21577,7 +21577,7 @@
     },
     {
       "name": "Swinub",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 220,
       "primary_type": "Ice",
@@ -23328,8 +23328,8 @@
     },
     {
       "name": "Miltank",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 241,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -23379,7 +23379,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
