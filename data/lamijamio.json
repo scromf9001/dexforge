@@ -3,12 +3,12 @@
     "username": "lamijamio",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-28T15:14:39.414385+00:00",
+  "updated_at": "2026-09-28T16:06:55.760098+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 197,
-      "total_owned": 540,
+      "total_owned": 543,
       "completion_percent": 70.86
     },
     "generation_progress": {
@@ -139,20 +139,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1089,
-      "success": 545,
-      "accuracy_percent": 50.05,
+      "thrown": 1093,
+      "success": 548,
+      "accuracy_percent": 50.14,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 26,
-          "success": 6,
-          "accuracy_percent": 23.08
+          "thrown": 29,
+          "success": 8,
+          "accuracy_percent": 27.59
         },
         "great ball": {
-          "thrown": 1038,
-          "success": 526,
-          "accuracy_percent": 50.67
+          "thrown": 1039,
+          "success": 527,
+          "accuracy_percent": 50.72
         },
         "ultra ball": {
           "thrown": 17,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 834,
+      "watch_hours": 835,
       "follow_age": "1 Year(s), 11 Month(s)",
       "sub_age": "28 Day(s)",
       "sub_months": 17,
@@ -177,21 +177,21 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 299,
-      "chat_messages": 7651,
-      "commands_run": 17025,
-      "times_tagged": 1640,
+      "chat_messages": 7661,
+      "commands_run": 17060,
+      "times_tagged": 1644,
       "times_evolved": 94,
       "times_traded": 0,
       "times_eggs_hatched": 15,
       "ball_distribution": {
-        "poke ball": 2.39,
-        "great ball": 95.32,
+        "poke ball": 2.65,
+        "great ball": 95.06,
         "ultra ball": 1.56,
         "master ball": 0.73
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 23
+        "Great Ball": 26
       }
     }
   },
@@ -4871,7 +4871,7 @@
     },
     {
       "name": "Meowth",
-      "count": 10,
+      "count": 11,
       "owned": true,
       "pokedex_number": 52,
       "primary_type": "Normal",
@@ -5001,7 +5001,7 @@
     },
     {
       "name": "Psyduck",
-      "count": 7,
+      "count": 8,
       "owned": true,
       "pokedex_number": 54,
       "primary_type": "Water",
@@ -5414,7 +5414,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 20413
+      "friendship_points": 20466
     },
     {
       "name": "Arcanine",
@@ -5507,7 +5507,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 20413
+      "friendship_points": 20466
     },
     {
       "name": "Poliwag",
@@ -15922,7 +15922,7 @@
     },
     {
       "name": "Natu",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 177,
       "primary_type": "Psychic",
@@ -16008,7 +16008,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -24310,7 +24310,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "25",
-    "friendship_points": 20413,
+    "friendship_points": 20466,
     "times_pet": 42,
     "times_fed": 0
   }
