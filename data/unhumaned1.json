@@ -3,12 +3,12 @@
     "username": "unhumaned1",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-28T18:04:18.591968+00:00",
+  "updated_at": "2026-09-30T15:25:33.729069+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 144,
-      "total_owned": 281,
+      "total_owned": 282,
       "completion_percent": 51.8
     },
     "generation_progress": {
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1058,
-      "success": 374,
-      "accuracy_percent": 35.35,
+      "thrown": 1064,
+      "success": 375,
+      "accuracy_percent": 35.24,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 747,
-          "success": 231,
-          "accuracy_percent": 30.92
+          "thrown": 753,
+          "success": 232,
+          "accuracy_percent": 30.81
         },
         "great ball": {
           "thrown": 295,
@@ -167,32 +167,32 @@
       }
     },
     "journey": {
-      "watch_hours": 350,
-      "follow_age": "8 Month(s), 20 Day(s)",
-      "sub_age": "4 Month(s), 24 Day(s)",
+      "watch_hours": 351,
+      "follow_age": "8 Month(s), 19 Day(s)",
+      "sub_age": "4 Month(s), 25 Day(s)",
       "sub_months": 5,
       "subs_gifted": 0,
       "bits_donated": 107,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 166,
-      "chat_messages": 17241,
-      "commands_run": 25799,
-      "times_tagged": 3681,
+      "streams_watched": 167,
+      "chat_messages": 17310,
+      "commands_run": 25884,
+      "times_tagged": 3700,
       "times_evolved": 66,
       "times_traded": 0,
       "times_eggs_hatched": 14,
       "ball_distribution": {
-        "poke ball": 70.6,
-        "great ball": 27.88,
-        "ultra ball": 1.51,
+        "poke ball": 70.77,
+        "great ball": 27.73,
+        "ultra ball": 1.5,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
         "Great Ball": 99,
-        "Ultra Ball": 10
+        "Ultra Ball": 12
       }
     }
   },
@@ -20221,7 +20221,7 @@
     },
     {
       "name": "Pineco",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 204,
       "primary_type": "Bug",
@@ -20295,7 +20295,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
