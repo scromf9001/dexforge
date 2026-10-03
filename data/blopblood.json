@@ -3,12 +3,12 @@
     "username": "blopblood",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d81b7f66-4f5f-4eec-bd3d-64e0ba6d2b10-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-24T16:43:05.932862+00:00",
+  "updated_at": "2026-10-03T17:40:03.639654+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 230,
-      "total_owned": 1061,
+      "total_owned": 1083,
       "completion_percent": 82.73
     },
     "generation_progress": {
@@ -139,25 +139,25 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1724,
-      "success": 850,
-      "accuracy_percent": 49.3,
+      "thrown": 1801,
+      "success": 873,
+      "accuracy_percent": 48.47,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 11,
-          "success": 0,
-          "accuracy_percent": 0.0
+          "thrown": 49,
+          "success": 8,
+          "accuracy_percent": 16.33
         },
         "great ball": {
-          "thrown": 1634,
-          "success": 815,
-          "accuracy_percent": 49.88
+          "thrown": 1672,
+          "success": 830,
+          "accuracy_percent": 49.64
         },
         "ultra ball": {
-          "thrown": 74,
+          "thrown": 75,
           "success": 30,
-          "accuracy_percent": 40.54
+          "accuracy_percent": 40.0
         },
         "master ball": {
           "thrown": 5,
@@ -167,35 +167,36 @@
       }
     },
     "journey": {
-      "watch_hours": 929,
-      "follow_age": "1 Year(s), 2 Month(s), 15 Day(s)",
-      "sub_age": "1 Year(s), 2 Day(s)",
-      "sub_months": 12,
-      "subs_gifted": 6,
+      "watch_hours": 948,
+      "follow_age": "1 Year(s), 2 Month(s), 25 Day(s)",
+      "sub_age": "11 Month(s), 30 Day(s)",
+      "sub_months": 13,
+      "subs_gifted": 7,
       "bits_donated": 1051,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 275,
-      "chat_messages": 27960,
-      "commands_run": 44736,
-      "times_tagged": 5232,
-      "times_evolved": 62,
+      "streams_watched": 280,
+      "chat_messages": 28933,
+      "commands_run": 46123,
+      "times_tagged": 5438,
+      "times_evolved": 63,
       "times_traded": 4,
-      "times_eggs_hatched": 26,
+      "times_eggs_hatched": 27,
       "ball_distribution": {
-        "poke ball": 0.64,
-        "great ball": 94.78,
-        "ultra ball": 4.29,
-        "master ball": 0.29
+        "poke ball": 2.72,
+        "great ball": 92.84,
+        "ultra ball": 4.16,
+        "master ball": 0.28
       },
       "pokebag": {
         "Egg": 1,
         "Fire Stone": 1,
-        "Great Ball": 33,
+        "Great Ball": 69,
         "Leaf Stone": 1,
         "Moon Stone": 2,
-        "Thunder Stone": 1
+        "Thunder Stone": 1,
+        "Ultra Ball": 4
       }
     }
   },
@@ -499,7 +500,7 @@
     },
     {
       "name": "Charmander",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 4,
       "primary_type": "Fire",
@@ -800,7 +801,7 @@
     },
     {
       "name": "Squirtle",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 7,
       "primary_type": "Water",
@@ -1061,7 +1062,7 @@
     },
     {
       "name": "Caterpie",
-      "count": 12,
+      "count": 13,
       "owned": true,
       "pokedex_number": 10,
       "primary_type": "Bug",
@@ -1631,7 +1632,7 @@
     },
     {
       "name": "Pidgey",
-      "count": 28,
+      "count": 29,
       "owned": true,
       "pokedex_number": 16,
       "primary_type": "Normal",
@@ -2374,7 +2375,7 @@
     },
     {
       "name": "Pikachu",
-      "count": 7,
+      "count": 8,
       "owned": true,
       "pokedex_number": 25,
       "primary_type": "Electric",
@@ -3628,7 +3629,7 @@
     },
     {
       "name": "Jigglypuff",
-      "count": 13,
+      "count": 14,
       "owned": true,
       "pokedex_number": 39,
       "primary_type": "Normal",
@@ -3804,7 +3805,7 @@
     },
     {
       "name": "Zubat",
-      "count": 19,
+      "count": 20,
       "owned": true,
       "pokedex_number": 41,
       "primary_type": "Poison",
@@ -5167,7 +5168,7 @@
     },
     {
       "name": "Mankey",
-      "count": 9,
+      "count": 10,
       "owned": true,
       "pokedex_number": 56,
       "primary_type": "Fighting",
@@ -5515,7 +5516,7 @@
     },
     {
       "name": "Poliwag",
-      "count": 8,
+      "count": 11,
       "owned": true,
       "pokedex_number": 60,
       "primary_type": "Water",
@@ -6067,7 +6068,7 @@
     },
     {
       "name": "Machop",
-      "count": 10,
+      "count": 11,
       "owned": true,
       "pokedex_number": 66,
       "primary_type": "Fighting",
@@ -6827,7 +6828,7 @@
     },
     {
       "name": "Geodude",
-      "count": 21,
+      "count": 22,
       "owned": true,
       "pokedex_number": 74,
       "primary_type": "Rock",
@@ -7560,7 +7561,7 @@
     },
     {
       "name": "Magnemite",
-      "count": 11,
+      "count": 12,
       "owned": true,
       "pokedex_number": 81,
       "primary_type": "Electric",
@@ -10629,7 +10630,7 @@
     },
     {
       "name": "Horsea",
-      "count": 10,
+      "count": 11,
       "owned": true,
       "pokedex_number": 116,
       "primary_type": "Water",
@@ -10965,7 +10966,7 @@
     },
     {
       "name": "Staryu",
-      "count": 18,
+      "count": 20,
       "owned": true,
       "pokedex_number": 120,
       "primary_type": "Water",
@@ -11570,7 +11571,7 @@
     },
     {
       "name": "Pinsir",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 127,
       "primary_type": "Bug",
@@ -14364,7 +14365,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 12422
+      "friendship_points": 13520
     },
     {
       "name": "Croconaw",
@@ -14451,7 +14452,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 12422
+      "friendship_points": 13520
     },
     {
       "name": "Feraligatr",
@@ -14538,7 +14539,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 12422
+      "friendship_points": 13520
     },
     {
       "name": "Sentret",
@@ -16112,7 +16113,7 @@
     },
     {
       "name": "Mareep",
-      "count": 4,
+      "count": 2,
       "owned": true,
       "pokedex_number": 179,
       "primary_type": "Electric",
@@ -16184,14 +16185,14 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Flaaffy",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 180,
       "primary_type": "Electric",
@@ -16263,7 +16264,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -16828,7 +16829,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 11,
+      "count": 13,
       "owned": true,
       "pokedex_number": 187,
       "primary_type": "Grass",
@@ -17457,7 +17458,7 @@
     },
     {
       "name": "Wooper",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 194,
       "primary_type": "Water",
@@ -20224,7 +20225,7 @@
     },
     {
       "name": "Pineco",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 204,
       "primary_type": "Bug",
@@ -23076,7 +23077,7 @@
     },
     {
       "name": "Smoochum",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 238,
       "primary_type": "Ice",
@@ -24314,7 +24315,7 @@
     "primary_type": "Water",
     "secondary_type": null,
     "evolution_line_id": "81",
-    "friendship_points": 12422,
+    "friendship_points": 13520,
     "times_pet": 20,
     "times_fed": 0
   }
