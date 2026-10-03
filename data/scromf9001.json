@@ -3,12 +3,12 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-03T16:40:20.466062+00:00",
+  "updated_at": "2026-10-03T18:41:35.502508+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 212,
-      "total_owned": 1116,
+      "total_owned": 1113,
       "completion_percent": 76.26
     },
     "generation_progress": {
@@ -42,9 +42,9 @@
         "3": 30
       },
       "stage_owned": {
-        "2": 76,
-        "3": 22,
-        "1": 114
+        "2": 77,
+        "3": 23,
+        "1": 112
       }
     },
     "types": {
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 2694,
-      "success": 831,
-      "accuracy_percent": 30.85,
+      "thrown": 2707,
+      "success": 834,
+      "accuracy_percent": 30.81,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 2694,
-          "success": 831,
-          "accuracy_percent": 30.85
+          "thrown": 2707,
+          "success": 834,
+          "accuracy_percent": 30.81
         },
         "great ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 1639,
+      "watch_hours": 1641,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -177,10 +177,10 @@
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
       "streams_watched": 488,
-      "chat_messages": 16480,
-      "commands_run": 81600,
-      "times_tagged": 3868,
-      "times_evolved": 89,
+      "chat_messages": 16510,
+      "commands_run": 81800,
+      "times_tagged": 3883,
+      "times_evolved": 92,
       "times_traded": 31,
       "times_eggs_hatched": 27,
       "ball_distribution": {
@@ -599,7 +599,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 26888
+      "friendship_points": 27009
     },
     {
       "name": "Charmeleon",
@@ -698,7 +698,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 26888
+      "friendship_points": 27009
     },
     {
       "name": "Charizard",
@@ -801,7 +801,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 26888
+      "friendship_points": 27009
     },
     {
       "name": "Squirtle",
@@ -7165,7 +7165,7 @@
     },
     {
       "name": "Ponyta",
-      "count": 19,
+      "count": 20,
       "owned": true,
       "pokedex_number": 77,
       "primary_type": "Fire",
@@ -7565,7 +7565,7 @@
     },
     {
       "name": "Magnemite",
-      "count": 10,
+      "count": 11,
       "owned": true,
       "pokedex_number": 81,
       "primary_type": "Electric",
@@ -10043,7 +10043,7 @@
     },
     {
       "name": "Koffing",
-      "count": 11,
+      "count": 12,
       "owned": true,
       "pokedex_number": 109,
       "primary_type": "Poison",
@@ -13265,8 +13265,8 @@
     },
     {
       "name": "Dratini",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 147,
       "primary_type": "Dragon",
       "secondary_type": null,
@@ -13349,15 +13349,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Dragonair",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 148,
       "primary_type": "Dragon",
       "secondary_type": null,
@@ -16117,8 +16117,8 @@
     },
     {
       "name": "Mareep",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 179,
       "primary_type": "Electric",
       "secondary_type": null,
@@ -16189,14 +16189,14 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Flaaffy",
-      "count": 3,
+      "count": 1,
       "owned": true,
       "pokedex_number": 180,
       "primary_type": "Electric",
@@ -16268,15 +16268,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Ampharos",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 181,
       "primary_type": "Electric",
       "secondary_type": null,
@@ -24319,7 +24319,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "2",
-    "friendship_points": 26888,
+    "friendship_points": 27009,
     "times_pet": 7,
     "times_fed": 3
   }
