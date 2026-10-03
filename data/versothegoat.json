@@ -3,12 +3,12 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-10-03T18:45:18.871605+00:00",
+  "updated_at": "2026-10-03T18:51:09.832513+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 155,
-      "total_owned": 296,
+      "total_owned": 295,
       "completion_percent": 55.76
     },
     "generation_progress": {
@@ -42,8 +42,8 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 87,
-        "2": 56,
+        "1": 86,
+        "2": 57,
         "3": 12
       }
     },
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 928,
-      "success": 416,
-      "accuracy_percent": 44.83,
+      "thrown": 929,
+      "success": 417,
+      "accuracy_percent": 44.89,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 2.56
         },
         "great ball": {
-          "thrown": 833,
-          "success": 396,
-          "accuracy_percent": 47.54
+          "thrown": 834,
+          "success": 397,
+          "accuracy_percent": 47.6
         },
         "ultra ball": {
           "thrown": 55,
@@ -177,21 +177,21 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 179,
-      "chat_messages": 31670,
-      "commands_run": 44162,
-      "times_tagged": 6020,
-      "times_evolved": 107,
+      "chat_messages": 31683,
+      "commands_run": 44194,
+      "times_tagged": 6025,
+      "times_evolved": 108,
       "times_traded": 12,
       "times_eggs_hatched": 4,
       "ball_distribution": {
         "poke ball": 4.2,
-        "great ball": 89.76,
-        "ultra ball": 5.93,
+        "great ball": 89.77,
+        "ultra ball": 5.92,
         "master ball": 0.11
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 66
+        "Great Ball": 65
       }
     }
   },
@@ -495,8 +495,8 @@
     },
     {
       "name": "Charmander",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 4,
       "primary_type": "Fire",
       "secondary_type": null,
@@ -594,8 +594,8 @@
     },
     {
       "name": "Charmeleon",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 5,
       "primary_type": "Fire",
       "secondary_type": null,
