@@ -3,12 +3,12 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-10-03T16:58:03.844422+00:00",
+  "updated_at": "2026-10-03T17:23:51.815956+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 154,
-      "total_owned": 292,
+      "total_owned": 294,
       "completion_percent": 55.4
     },
     "generation_progress": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 918,
-      "success": 410,
-      "accuracy_percent": 44.66,
+      "thrown": 920,
+      "success": 412,
+      "accuracy_percent": 44.78,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 2.56
         },
         "great ball": {
-          "thrown": 823,
-          "success": 390,
-          "accuracy_percent": 47.39
+          "thrown": 825,
+          "success": 392,
+          "accuracy_percent": 47.52
         },
         "ultra ball": {
           "thrown": 55,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 344,
+      "watch_hours": 345,
       "follow_age": "6 Month(s), 29 Day(s)",
       "sub_age": "8 Month(s), 9 Day(s)",
       "sub_months": 9,
@@ -177,16 +177,16 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 179,
-      "chat_messages": 31453,
-      "commands_run": 43802,
-      "times_tagged": 5968,
+      "chat_messages": 31481,
+      "commands_run": 43863,
+      "times_tagged": 5981,
       "times_evolved": 106,
       "times_traded": 12,
       "times_eggs_hatched": 4,
       "ball_distribution": {
-        "poke ball": 4.25,
-        "great ball": 89.65,
-        "ultra ball": 5.99,
+        "poke ball": 4.24,
+        "great ball": 89.67,
+        "ultra ball": 5.98,
         "master ball": 0.11
       },
       "pokebag": {
@@ -4006,7 +4006,7 @@
     },
     {
       "name": "Oddish",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 43,
       "primary_type": "Grass",
@@ -20220,7 +20220,7 @@
     },
     {
       "name": "Pineco",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 204,
       "primary_type": "Bug",
