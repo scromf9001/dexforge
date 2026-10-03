@@ -3,12 +3,12 @@
     "username": "unhumaned1",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ebb84563-db81-4b9c-8940-64ed33ccfc7b-profile_image-300x300.png"
   },
-  "updated_at": "2026-09-30T15:25:33.729069+00:00",
+  "updated_at": "2026-10-03T15:23:25.521359+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 144,
-      "total_owned": 282,
+      "total_owned": 291,
       "completion_percent": 51.8
     },
     "generation_progress": {
@@ -139,25 +139,25 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1064,
-      "success": 375,
-      "accuracy_percent": 35.24,
+      "thrown": 1095,
+      "success": 386,
+      "accuracy_percent": 35.25,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 753,
-          "success": 232,
-          "accuracy_percent": 30.81
+          "thrown": 782,
+          "success": 241,
+          "accuracy_percent": 30.82
         },
         "great ball": {
-          "thrown": 295,
-          "success": 139,
-          "accuracy_percent": 47.12
+          "thrown": 296,
+          "success": 140,
+          "accuracy_percent": 47.3
         },
         "ultra ball": {
-          "thrown": 16,
-          "success": 4,
-          "accuracy_percent": 25.0
+          "thrown": 17,
+          "success": 5,
+          "accuracy_percent": 29.41
         },
         "master ball": {
           "thrown": 0,
@@ -167,32 +167,32 @@
       }
     },
     "journey": {
-      "watch_hours": 351,
-      "follow_age": "8 Month(s), 19 Day(s)",
-      "sub_age": "4 Month(s), 25 Day(s)",
-      "sub_months": 5,
+      "watch_hours": 358,
+      "follow_age": "8 Month(s), 25 Day(s)",
+      "sub_age": "4 Month(s), 29 Day(s)",
+      "sub_months": 6,
       "subs_gifted": 0,
       "bits_donated": 107,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 167,
-      "chat_messages": 17310,
-      "commands_run": 25884,
-      "times_tagged": 3700,
-      "times_evolved": 66,
+      "streams_watched": 169,
+      "chat_messages": 17667,
+      "commands_run": 26435,
+      "times_tagged": 3797,
+      "times_evolved": 67,
       "times_traded": 0,
       "times_eggs_hatched": 14,
       "ball_distribution": {
-        "poke ball": 70.77,
-        "great ball": 27.73,
-        "ultra ball": 1.5,
+        "poke ball": 71.42,
+        "great ball": 27.03,
+        "ultra ball": 1.55,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
         "Great Ball": 99,
-        "Ultra Ball": 12
+        "Ultra Ball": 14
       }
     }
   },
@@ -496,7 +496,7 @@
     },
     {
       "name": "Charmander",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 4,
       "primary_type": "Fire",
@@ -588,7 +588,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -1715,7 +1715,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4484
+      "friendship_points": 4490
     },
     {
       "name": "Pidgeotto",
@@ -1806,7 +1806,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4484
+      "friendship_points": 4490
     },
     {
       "name": "Pidgeot",
@@ -1897,11 +1897,11 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4484
+      "friendship_points": 4490
     },
     {
       "name": "Rattata",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 19,
       "primary_type": "Normal",
@@ -1959,7 +1959,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -2531,7 +2531,7 @@
     },
     {
       "name": "Sandshrew",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 27,
       "primary_type": "Ground",
@@ -2693,7 +2693,7 @@
     },
     {
       "name": "Nidoran (F)",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 29,
       "primary_type": "Poison",
@@ -3263,7 +3263,7 @@
     },
     {
       "name": "Clefairy",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 35,
       "primary_type": "Fairy",
@@ -3801,7 +3801,7 @@
     },
     {
       "name": "Zubat",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 41,
       "primary_type": "Poison",
@@ -3897,7 +3897,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 5219
@@ -4710,7 +4710,7 @@
     },
     {
       "name": "Diglett",
-      "count": 10,
+      "count": 11,
       "owned": true,
       "pokedex_number": 50,
       "primary_type": "Ground",
@@ -5512,7 +5512,7 @@
     },
     {
       "name": "Poliwag",
-      "count": 3,
+      "count": 1,
       "owned": true,
       "pokedex_number": 60,
       "primary_type": "Water",
@@ -5598,14 +5598,14 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Poliwhirl",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 61,
       "primary_type": "Water",
@@ -5691,7 +5691,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -11701,7 +11701,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 8,
+      "count": 9,
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
@@ -14539,7 +14539,7 @@
     },
     {
       "name": "Sentret",
-      "count": 12,
+      "count": 13,
       "owned": true,
       "pokedex_number": 161,
       "primary_type": "Normal",
@@ -14669,7 +14669,7 @@
     },
     {
       "name": "Hoothoot",
-      "count": 9,
+      "count": 10,
       "owned": true,
       "pokedex_number": 163,
       "primary_type": "Normal",
@@ -24304,5 +24304,15 @@
       "friendship_points": 0
     }
   ],
-  "companion": null
+  "companion": {
+    "name": "Pidgey",
+    "pokedex_number": 16,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/16.svg",
+    "primary_type": "Normal",
+    "secondary_type": "Flying",
+    "evolution_line_id": "6",
+    "friendship_points": 4490,
+    "times_pet": 30,
+    "times_fed": 0
+  }
 }
