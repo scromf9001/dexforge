@@ -3,12 +3,12 @@
     "username": "litlpotatr",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f52f8e70-e4df-4dcc-ae00-b135c209e5e4-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-03T18:44:25.194728+00:00",
+  "updated_at": "2026-10-04T18:17:11.704408+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 232,
-      "total_owned": 652,
+      "total_owned": 658,
       "completion_percent": 83.45
     },
     "generation_progress": {
@@ -139,25 +139,25 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1154,
-      "success": 562,
-      "accuracy_percent": 48.7,
+      "thrown": 1166,
+      "success": 568,
+      "accuracy_percent": 48.71,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 22,
-          "success": 3,
-          "accuracy_percent": 13.64
+          "thrown": 24,
+          "success": 4,
+          "accuracy_percent": 16.67
         },
         "great ball": {
-          "thrown": 1061,
-          "success": 531,
-          "accuracy_percent": 50.05
+          "thrown": 1070,
+          "success": 536,
+          "accuracy_percent": 50.09
         },
         "ultra ball": {
-          "thrown": 65,
+          "thrown": 66,
           "success": 22,
-          "accuracy_percent": 33.85
+          "accuracy_percent": 33.33
         },
         "master ball": {
           "thrown": 6,
@@ -167,31 +167,31 @@
       }
     },
     "journey": {
-      "watch_hours": 1145,
-      "follow_age": "1 Year(s), 3 Month(s), 7 Day(s)",
-      "sub_age": "1 Year(s), 8 Month(s), 17 Day(s)",
+      "watch_hours": 1149,
+      "follow_age": "1 Year(s), 3 Month(s), 8 Day(s)",
+      "sub_age": "1 Year(s), 8 Month(s), 18 Day(s)",
       "sub_months": 21,
       "subs_gifted": 21,
       "bits_donated": 3490,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
-      "streams_watched": 351,
-      "chat_messages": 29193,
-      "commands_run": 46125,
-      "times_tagged": 5397,
+      "streams_watched": 352,
+      "chat_messages": 29303,
+      "commands_run": 46313,
+      "times_tagged": 5422,
       "times_evolved": 82,
       "times_traded": 15,
       "times_eggs_hatched": 28,
       "ball_distribution": {
-        "poke ball": 1.91,
-        "great ball": 91.94,
-        "ultra ball": 5.63,
-        "master ball": 0.52
+        "poke ball": 2.06,
+        "great ball": 91.77,
+        "ultra ball": 5.66,
+        "master ball": 0.51
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 99,
+        "Great Ball": 96,
         "Master Ball": 1,
         "Water Stone": 1
       }
@@ -497,7 +497,7 @@
     },
     {
       "name": "Charmander",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 4,
       "primary_type": "Fire",
@@ -1332,7 +1332,7 @@
     },
     {
       "name": "Weedle",
-      "count": 10,
+      "count": 11,
       "owned": true,
       "pokedex_number": 13,
       "primary_type": "Bug",
@@ -3626,7 +3626,7 @@
     },
     {
       "name": "Jigglypuff",
-      "count": 13,
+      "count": 14,
       "owned": true,
       "pokedex_number": 39,
       "primary_type": "Normal",
@@ -6326,7 +6326,7 @@
     },
     {
       "name": "Bellsprout",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 69,
       "primary_type": "Grass",
@@ -9103,7 +9103,7 @@
     },
     {
       "name": "Krabby",
-      "count": 7,
+      "count": 8,
       "owned": true,
       "pokedex_number": 98,
       "primary_type": "Water",
@@ -10477,7 +10477,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2065
+      "friendship_points": 2288
     },
     {
       "name": "Tangela",
@@ -17182,7 +17182,7 @@
     },
     {
       "name": "Sunkern",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 191,
       "primary_type": "Grass",
@@ -23449,7 +23449,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2065,
+      "friendship_points": 2288,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24312,8 +24312,8 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "51",
-    "friendship_points": 2065,
-    "times_pet": 50,
+    "friendship_points": 2288,
+    "times_pet": 51,
     "times_fed": 3
   }
 }
