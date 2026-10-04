@@ -3,12 +3,12 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-04T18:03:47.755152+00:00",
+  "updated_at": "2026-10-04T19:06:28.380746+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 214,
-      "total_owned": 1117,
+      "total_owned": 1120,
       "completion_percent": 76.98
     },
     "generation_progress": {
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 2726,
-      "success": 839,
-      "accuracy_percent": 30.78,
+      "thrown": 2738,
+      "success": 844,
+      "accuracy_percent": 30.83,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 2726,
-          "success": 839,
-          "accuracy_percent": 30.78
+          "thrown": 2738,
+          "success": 844,
+          "accuracy_percent": 30.83
         },
         "great ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 1644,
+      "watch_hours": 1645,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -177,10 +177,10 @@
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
       "streams_watched": 489,
-      "chat_messages": 16570,
-      "commands_run": 82067,
-      "times_tagged": 3901,
-      "times_evolved": 93,
+      "chat_messages": 16595,
+      "commands_run": 82222,
+      "times_tagged": 3909,
+      "times_evolved": 94,
       "times_traded": 31,
       "times_eggs_hatched": 27,
       "ball_distribution": {
@@ -599,7 +599,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 27211
+      "friendship_points": 27274
     },
     {
       "name": "Charmeleon",
@@ -698,7 +698,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 27211
+      "friendship_points": 27274
     },
     {
       "name": "Charizard",
@@ -801,7 +801,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 27211
+      "friendship_points": 27274
     },
     {
       "name": "Squirtle",
@@ -2039,7 +2039,7 @@
     },
     {
       "name": "Spearow",
-      "count": 30,
+      "count": 31,
       "owned": true,
       "pokedex_number": 21,
       "primary_type": "Normal",
@@ -3447,7 +3447,7 @@
     },
     {
       "name": "Vulpix",
-      "count": 16,
+      "count": 17,
       "owned": true,
       "pokedex_number": 37,
       "primary_type": "Fire",
@@ -4015,7 +4015,7 @@
     },
     {
       "name": "Oddish",
-      "count": 22,
+      "count": 19,
       "owned": true,
       "pokedex_number": 43,
       "primary_type": "Grass",
@@ -4120,7 +4120,7 @@
     },
     {
       "name": "Gloom",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 44,
       "primary_type": "Grass",
@@ -7565,7 +7565,7 @@
     },
     {
       "name": "Magnemite",
-      "count": 11,
+      "count": 12,
       "owned": true,
       "pokedex_number": 81,
       "primary_type": "Electric",
@@ -9636,7 +9636,7 @@
     },
     {
       "name": "Cubone",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 104,
       "primary_type": "Ground",
@@ -12013,7 +12013,7 @@
     },
     {
       "name": "Eevee",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 133,
       "primary_type": "Normal",
@@ -24319,7 +24319,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "2",
-    "friendship_points": 27211,
+    "friendship_points": 27274,
     "times_pet": 7,
     "times_fed": 3
   }
