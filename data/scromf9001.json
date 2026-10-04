@@ -3,13 +3,13 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-03T18:41:35.502508+00:00",
+  "updated_at": "2026-10-04T18:03:47.755152+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 212,
-      "total_owned": 1113,
-      "completion_percent": 76.26
+      "unique_owned": 214,
+      "total_owned": 1117,
+      "completion_percent": 76.98
     },
     "generation_progress": {
       "1": {
@@ -24,17 +24,17 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 77,
+        "owned": 79,
         "total": 127,
-        "completion_percent": 60.63,
+        "completion_percent": 62.2,
         "total_lines": 78,
-        "lines_completed": 39
+        "lines_completed": 40
       }
     },
     "evolution": {
-      "total_evolutions_owned": 212,
+      "total_evolutions_owned": 214,
       "total_evolutions_available": 278,
-      "lines_completed": 100,
+      "lines_completed": 101,
       "total_lines": 156,
       "stage_totals": {
         "1": 155,
@@ -42,9 +42,9 @@
         "3": 30
       },
       "stage_owned": {
-        "2": 77,
+        "2": 78,
         "3": 23,
-        "1": 112
+        "1": 113
       }
     },
     "types": {
@@ -89,9 +89,9 @@
         "completion_percent": 90.91
       },
       "fairy": {
-        "owned": 5,
+        "owned": 6,
         "total": 7,
-        "completion_percent": 71.43
+        "completion_percent": 85.71
       },
       "fighting": {
         "owned": 8,
@@ -99,9 +99,9 @@
         "completion_percent": 88.89
       },
       "psychic": {
-        "owned": 18,
+        "owned": 19,
         "total": 42,
-        "completion_percent": 42.86
+        "completion_percent": 45.24
       },
       "rock": {
         "owned": 7,
@@ -139,15 +139,15 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 2707,
-      "success": 834,
-      "accuracy_percent": 30.81,
+      "thrown": 2726,
+      "success": 839,
+      "accuracy_percent": 30.78,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 2707,
-          "success": 834,
-          "accuracy_percent": 30.81
+          "thrown": 2726,
+          "success": 839,
+          "accuracy_percent": 30.78
         },
         "great ball": {
           "thrown": 0,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 1641,
+      "watch_hours": 1644,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -176,11 +176,11 @@
       "total_donated": 0.0,
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
-      "streams_watched": 488,
-      "chat_messages": 16510,
-      "commands_run": 81800,
-      "times_tagged": 3883,
-      "times_evolved": 92,
+      "streams_watched": 489,
+      "chat_messages": 16570,
+      "commands_run": 82067,
+      "times_tagged": 3901,
+      "times_evolved": 93,
       "times_traded": 31,
       "times_eggs_hatched": 27,
       "ball_distribution": {
@@ -599,7 +599,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 27009
+      "friendship_points": 27211
     },
     {
       "name": "Charmeleon",
@@ -698,7 +698,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 27009
+      "friendship_points": 27211
     },
     {
       "name": "Charizard",
@@ -801,7 +801,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 27009
+      "friendship_points": 27211
     },
     {
       "name": "Squirtle",
@@ -5823,7 +5823,7 @@
     },
     {
       "name": "Abra",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 63,
       "primary_type": "Psychic",
@@ -15324,7 +15324,7 @@
     },
     {
       "name": "Chinchou",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 170,
       "primary_type": "Water",
@@ -15747,8 +15747,8 @@
     },
     {
       "name": "Togepi",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 175,
       "primary_type": "Fairy",
       "secondary_type": null,
@@ -15931,7 +15931,7 @@
     },
     {
       "name": "Natu",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 177,
       "primary_type": "Psychic",
@@ -18742,8 +18742,8 @@
     },
     {
       "name": "Unown J",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 201,
       "primary_type": "Psychic",
       "secondary_type": null,
@@ -18805,7 +18805,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -21261,8 +21261,8 @@
     },
     {
       "name": "Teddiursa",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 216,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -21319,15 +21319,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Ursaring",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 217,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -21755,7 +21755,7 @@
     },
     {
       "name": "Corsola",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 222,
       "primary_type": "Water",
@@ -24319,7 +24319,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "2",
-    "friendship_points": 27009,
+    "friendship_points": 27211,
     "times_pet": 7,
     "times_fed": 3
   }
