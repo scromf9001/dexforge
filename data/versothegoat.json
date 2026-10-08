@@ -3,12 +3,12 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-10-08T15:53:30.215491+00:00",
+  "updated_at": "2026-10-08T16:00:47.942388+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 161,
-      "total_owned": 318,
+      "total_owned": 317,
       "completion_percent": 57.91
     },
     "generation_progress": {
@@ -42,8 +42,8 @@
         "3": 30
       },
       "stage_owned": {
-        "2": 60,
-        "1": 89,
+        "2": 61,
+        "1": 88,
         "3": 12
       }
     },
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 995,
-      "success": 448,
-      "accuracy_percent": 45.03,
+      "thrown": 998,
+      "success": 449,
+      "accuracy_percent": 44.99,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 12.96
         },
         "great ball": {
-          "thrown": 884,
-          "success": 422,
-          "accuracy_percent": 47.74
+          "thrown": 887,
+          "success": 423,
+          "accuracy_percent": 47.69
         },
         "ultra ball": {
           "thrown": 56,
@@ -177,21 +177,21 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 183,
-      "chat_messages": 32915,
-      "commands_run": 46097,
-      "times_tagged": 6234,
-      "times_evolved": 112,
+      "chat_messages": 32938,
+      "commands_run": 46151,
+      "times_tagged": 6244,
+      "times_evolved": 113,
       "times_traded": 12,
       "times_eggs_hatched": 4,
       "ball_distribution": {
-        "poke ball": 5.43,
-        "great ball": 88.84,
-        "ultra ball": 5.63,
+        "poke ball": 5.41,
+        "great ball": 88.88,
+        "ultra ball": 5.61,
         "master ball": 0.1
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 59
+        "Great Ball": 56
       }
     }
   },
@@ -12089,7 +12089,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3056
+      "friendship_points": 3063
     },
     {
       "name": "Vaporeon",
@@ -12194,7 +12194,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3056
+      "friendship_points": 3063
     },
     {
       "name": "Jolteon",
@@ -12291,7 +12291,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3056
+      "friendship_points": 3063
     },
     {
       "name": "Flareon",
@@ -12408,7 +12408,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3056
+      "friendship_points": 3063
     },
     {
       "name": "Porygon",
@@ -13980,8 +13980,8 @@
     },
     {
       "name": "Cyndaquil",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 155,
       "primary_type": "Fire",
       "secondary_type": null,
@@ -14079,8 +14079,8 @@
     },
     {
       "name": "Quilava",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 156,
       "primary_type": "Fire",
       "secondary_type": null,
@@ -17712,7 +17712,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3056,
+      "friendship_points": 3063,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17819,7 +17819,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3056,
+      "friendship_points": 3063,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24310,7 +24310,7 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 3056,
+    "friendship_points": 3063,
     "times_pet": 64,
     "times_fed": 2
   }
