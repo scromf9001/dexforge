@@ -3,13 +3,13 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-10-10T16:24:19.455991+00:00",
+  "updated_at": "2026-10-11T16:30:46.585843+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 161,
-      "total_owned": 322,
-      "completion_percent": 57.91
+      "unique_owned": 162,
+      "total_owned": 327,
+      "completion_percent": 58.27
     },
     "generation_progress": {
       "1": {
@@ -24,17 +24,17 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 61,
+        "owned": 62,
         "total": 127,
-        "completion_percent": 48.03,
+        "completion_percent": 48.82,
         "total_lines": 78,
-        "lines_completed": 29
+        "lines_completed": 30
       }
     },
     "evolution": {
-      "total_evolutions_owned": 161,
+      "total_evolutions_owned": 162,
       "total_evolutions_available": 278,
-      "lines_completed": 65,
+      "lines_completed": 66,
       "total_lines": 156,
       "stage_totals": {
         "1": 155,
@@ -42,7 +42,7 @@
         "3": 30
       },
       "stage_owned": {
-        "2": 61,
+        "2": 62,
         "1": 88,
         "3": 12
       }
@@ -99,9 +99,9 @@
         "completion_percent": 44.44
       },
       "psychic": {
-        "owned": 13,
+        "owned": 14,
         "total": 42,
-        "completion_percent": 30.95
+        "completion_percent": 33.33
       },
       "rock": {
         "owned": 5,
@@ -139,20 +139,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1010,
-      "success": 454,
-      "accuracy_percent": 44.95,
+      "thrown": 1021,
+      "success": 459,
+      "accuracy_percent": 44.96,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 60,
-          "success": 9,
-          "accuracy_percent": 15.0
+          "thrown": 67,
+          "success": 13,
+          "accuracy_percent": 19.4
         },
         "great ball": {
-          "thrown": 893,
-          "success": 426,
-          "accuracy_percent": 47.7
+          "thrown": 897,
+          "success": 427,
+          "accuracy_percent": 47.6
         },
         "ultra ball": {
           "thrown": 56,
@@ -167,31 +167,31 @@
       }
     },
     "journey": {
-      "watch_hours": 359,
-      "follow_age": "7 Month(s), 5 Day(s)",
-      "sub_age": "8 Month(s), 16 Day(s)",
+      "watch_hours": 361,
+      "follow_age": "7 Month(s), 6 Day(s)",
+      "sub_age": "8 Month(s), 17 Day(s)",
       "sub_months": 9,
       "subs_gifted": 0,
-      "bits_donated": 3167,
+      "bits_donated": 3822,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 184,
-      "chat_messages": 33236,
-      "commands_run": 46608,
-      "times_tagged": 6295,
+      "streams_watched": 185,
+      "chat_messages": 33436,
+      "commands_run": 46892,
+      "times_tagged": 6337,
       "times_evolved": 113,
       "times_traded": 13,
       "times_eggs_hatched": 4,
       "ball_distribution": {
-        "poke ball": 5.94,
-        "great ball": 88.42,
-        "ultra ball": 5.54,
+        "poke ball": 6.56,
+        "great ball": 87.86,
+        "ultra ball": 5.48,
         "master ball": 0.1
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 58
+        "Great Ball": 60
       }
     }
   },
@@ -6324,7 +6324,7 @@
     },
     {
       "name": "Bellsprout",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 69,
       "primary_type": "Grass",
@@ -9101,7 +9101,7 @@
     },
     {
       "name": "Krabby",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 98,
       "primary_type": "Water",
@@ -10034,7 +10034,7 @@
     },
     {
       "name": "Koffing",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 109,
       "primary_type": "Poison",
@@ -12089,7 +12089,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3200
+      "friendship_points": 3325
     },
     {
       "name": "Vaporeon",
@@ -12194,7 +12194,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3200
+      "friendship_points": 3325
     },
     {
       "name": "Jolteon",
@@ -12291,7 +12291,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3200
+      "friendship_points": 3325
     },
     {
       "name": "Flareon",
@@ -12408,7 +12408,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3200
+      "friendship_points": 3325
     },
     {
       "name": "Porygon",
@@ -17712,7 +17712,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3200,
+      "friendship_points": 3325,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17819,7 +17819,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3200,
+      "friendship_points": 3325,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -20082,8 +20082,8 @@
     },
     {
       "name": "Wobbuffet",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 202,
       "primary_type": "Psychic",
       "secondary_type": null,
@@ -20145,7 +20145,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -21833,7 +21833,7 @@
     },
     {
       "name": "Remoraid",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 223,
       "primary_type": "Water",
@@ -24310,7 +24310,7 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 3200,
+    "friendship_points": 3325,
     "times_pet": 64,
     "times_fed": 2
   }
