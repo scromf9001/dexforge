@@ -3,7 +3,7 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-10-11T17:35:04.513313+00:00",
+  "updated_at": "2026-10-11T17:39:18.237668+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -177,9 +177,9 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 185,
-      "chat_messages": 33531,
-      "commands_run": 47062,
-      "times_tagged": 6373,
+      "chat_messages": 33545,
+      "commands_run": 47091,
+      "times_tagged": 6383,
       "times_evolved": 114,
       "times_traded": 13,
       "times_eggs_hatched": 4,
@@ -12089,7 +12089,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3385
+      "friendship_points": 3389
     },
     {
       "name": "Vaporeon",
@@ -12194,7 +12194,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3385
+      "friendship_points": 3389
     },
     {
       "name": "Jolteon",
@@ -12291,7 +12291,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3385
+      "friendship_points": 3389
     },
     {
       "name": "Flareon",
@@ -12408,7 +12408,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3385
+      "friendship_points": 3389
     },
     {
       "name": "Porygon",
@@ -17712,7 +17712,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3385,
+      "friendship_points": 3389,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17819,7 +17819,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3385,
+      "friendship_points": 3389,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -24310,7 +24310,7 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 3385,
+    "friendship_points": 3389,
     "times_pet": 64,
     "times_fed": 2
   }
