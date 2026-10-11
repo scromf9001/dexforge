@@ -3,12 +3,12 @@
     "username": "blopblood",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d81b7f66-4f5f-4eec-bd3d-64e0ba6d2b10-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-10T20:10:46.429996+00:00",
+  "updated_at": "2026-10-11T18:06:10.223503+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
       "unique_owned": 231,
-      "total_owned": 1126,
+      "total_owned": 1128,
       "completion_percent": 83.09
     },
     "generation_progress": {
@@ -139,9 +139,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1911,
-      "success": 919,
-      "accuracy_percent": 48.09,
+      "thrown": 1914,
+      "success": 921,
+      "accuracy_percent": 48.12,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -150,9 +150,9 @@
           "accuracy_percent": 25.0
         },
         "great ball": {
-          "thrown": 1734,
-          "success": 858,
-          "accuracy_percent": 49.48
+          "thrown": 1737,
+          "success": 860,
+          "accuracy_percent": 49.51
         },
         "ultra ball": {
           "thrown": 80,
@@ -167,32 +167,32 @@
       }
     },
     "journey": {
-      "watch_hours": 971,
+      "watch_hours": 974,
       "follow_age": "1 Year(s), 3 Month(s), 2 Day(s)",
-      "sub_age": "1 Year(s), 6 Day(s)",
+      "sub_age": "1 Year(s), 7 Day(s)",
       "sub_months": 13,
       "subs_gifted": 7,
       "bits_donated": 1056,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 285,
-      "chat_messages": 30152,
-      "commands_run": 47942,
-      "times_tagged": 5662,
+      "streams_watched": 286,
+      "chat_messages": 30183,
+      "commands_run": 47995,
+      "times_tagged": 5672,
       "times_evolved": 65,
       "times_traded": 4,
       "times_eggs_hatched": 28,
       "ball_distribution": {
         "poke ball": 4.81,
-        "great ball": 90.74,
-        "ultra ball": 4.19,
+        "great ball": 90.75,
+        "ultra ball": 4.18,
         "master ball": 0.26
       },
       "pokebag": {
         "Egg": 1,
         "Fire Stone": 1,
-        "Great Ball": 93,
+        "Great Ball": 99,
         "Leaf Stone": 1,
         "Moon Stone": 2,
         "Thunder Stone": 1
@@ -1061,7 +1061,7 @@
     },
     {
       "name": "Caterpie",
-      "count": 13,
+      "count": 14,
       "owned": true,
       "pokedex_number": 10,
       "primary_type": "Bug",
@@ -10479,7 +10479,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 456
+      "friendship_points": 614
     },
     {
       "name": "Tangela",
@@ -21256,7 +21256,7 @@
     },
     {
       "name": "Teddiursa",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 216,
       "primary_type": "Normal",
@@ -23451,9 +23451,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 456,
+      "friendship_points": 614,
       "friendship_requirement": 600,
-      "friendship_progress_percent": 76.0
+      "friendship_progress_percent": 100
     },
     {
       "name": "Raikou",
@@ -24314,7 +24314,7 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "51",
-    "friendship_points": 456,
+    "friendship_points": 614,
     "times_pet": 21,
     "times_fed": 0
   }
