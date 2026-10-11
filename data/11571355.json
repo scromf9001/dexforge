@@ -3,36 +3,36 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-11T17:46:31.461194+00:00",
+  "updated_at": "2026-10-11T18:15:24.860709+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 28,
+      "unique_owned": 29,
       "total_owned": 36,
-      "completion_percent": 10.07
+      "completion_percent": 10.43
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 15,
+        "owned": 13,
         "total": 151,
-        "completion_percent": 9.93,
+        "completion_percent": 8.61,
         "total_lines": 78,
         "lines_completed": 0
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 13,
+        "owned": 16,
         "total": 127,
-        "completion_percent": 10.24,
+        "completion_percent": 12.6,
         "total_lines": 78,
         "lines_completed": 2
       }
     },
     "evolution": {
-      "total_evolutions_owned": 28,
+      "total_evolutions_owned": 29,
       "total_evolutions_available": 278,
       "lines_completed": 2,
       "total_lines": 156,
@@ -44,7 +44,7 @@
       "stage_owned": {
         "3": 1,
         "1": 22,
-        "2": 5
+        "2": 6
       }
     },
     "types": {
@@ -59,9 +59,9 @@
         "completion_percent": 10.0
       },
       "water": {
-        "owned": 4,
+        "owned": 5,
         "total": 46,
-        "completion_percent": 8.7
+        "completion_percent": 10.87
       },
       "bug": {
         "owned": 2,
@@ -69,9 +69,9 @@
         "completion_percent": 9.09
       },
       "normal": {
-        "owned": 4,
+        "owned": 5,
         "total": 37,
-        "completion_percent": 10.81
+        "completion_percent": 13.51
       },
       "poison": {
         "owned": 1,
@@ -84,9 +84,9 @@
         "completion_percent": 20.0
       },
       "ground": {
-        "owned": 3,
+        "owned": 4,
         "total": 11,
-        "completion_percent": 27.27
+        "completion_percent": 36.36
       },
       "fairy": {
         "owned": 2,
@@ -99,14 +99,14 @@
         "completion_percent": 11.11
       },
       "psychic": {
-        "owned": 1,
+        "owned": 0,
         "total": 42,
-        "completion_percent": 2.38
+        "completion_percent": 0.0
       },
       "rock": {
-        "owned": 1,
+        "owned": 0,
         "total": 13,
-        "completion_percent": 7.69
+        "completion_percent": 0.0
       },
       "ghost": {
         "owned": 0,
@@ -167,8 +167,8 @@
       }
     },
     "journey": {
-      "watch_hours": 214,
-      "follow_age": "5 Month(s), 17 Day(s)",
+      "watch_hours": 215,
+      "follow_age": "5 Month(s), 18 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 1,
       "subs_gifted": 0,
@@ -177,11 +177,11 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 62,
-      "chat_messages": 3764,
-      "commands_run": 5075,
-      "times_tagged": 1020,
+      "chat_messages": 3797,
+      "commands_run": 5118,
+      "times_tagged": 1045,
       "times_evolved": 4,
-      "times_traded": 18,
+      "times_traded": 19,
       "times_eggs_hatched": 0,
       "ball_distribution": {
         "poke ball": 57.05,
@@ -190,7 +190,7 @@
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 97
+        "Great Ball": 98
       }
     }
   },
@@ -3706,7 +3706,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5284,
+      "friendship_points": 5312,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -3795,7 +3795,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 5284
+      "friendship_points": 5312
     },
     {
       "name": "Zubat",
@@ -8946,8 +8946,8 @@
     },
     {
       "name": "Drowzee",
-      "count": 1,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 96,
       "primary_type": "Psychic",
       "secondary_type": null,
@@ -12662,8 +12662,8 @@
     },
     {
       "name": "Kabuto",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 140,
       "primary_type": "Rock",
       "secondary_type": "Water",
@@ -15399,8 +15399,8 @@
     },
     {
       "name": "Lanturn",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 171,
       "primary_type": "Water",
       "secondary_type": "Electric",
@@ -15733,7 +15733,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5284
+      "friendship_points": 5312
     },
     {
       "name": "Togepi",
@@ -21251,8 +21251,8 @@
     },
     {
       "name": "Teddiursa",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 216,
       "primary_type": "Normal",
       "secondary_type": null,
@@ -22540,8 +22540,8 @@
     },
     {
       "name": "Phanpy",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 231,
       "primary_type": "Ground",
       "secondary_type": null,
@@ -24309,7 +24309,7 @@
     "primary_type": "Normal",
     "secondary_type": "Fairy",
     "evolution_line_id": "16",
-    "friendship_points": 5284,
+    "friendship_points": 5312,
     "times_pet": 13,
     "times_fed": 0,
     "friendship_requirement": 600,
