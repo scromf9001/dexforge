@@ -3,48 +3,48 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-10-11T17:39:18.237668+00:00",
+  "updated_at": "2026-10-12T18:09:25.633066+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
-      "unique_owned": 163,
-      "total_owned": 329,
-      "completion_percent": 58.63
+      "unique_owned": 167,
+      "total_owned": 337,
+      "completion_percent": 60.07
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 101,
+        "owned": 104,
         "total": 151,
-        "completion_percent": 66.89,
+        "completion_percent": 68.87,
         "total_lines": 78,
-        "lines_completed": 37
+        "lines_completed": 39
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 62,
+        "owned": 63,
         "total": 127,
-        "completion_percent": 48.82,
+        "completion_percent": 49.61,
         "total_lines": 78,
-        "lines_completed": 30
+        "lines_completed": 31
       }
     },
     "evolution": {
-      "total_evolutions_owned": 163,
+      "total_evolutions_owned": 167,
       "total_evolutions_available": 278,
-      "lines_completed": 67,
+      "lines_completed": 70,
       "total_lines": 156,
       "stage_totals": {
-        "1": 155,
-        "2": 93,
+        "1": 154,
+        "2": 94,
         "3": 30
       },
       "stage_owned": {
-        "2": 63,
-        "1": 88,
-        "3": 12
+        "2": 62,
+        "1": 92,
+        "3": 13
       }
     },
     "types": {
@@ -74,9 +74,9 @@
         "completion_percent": 72.97
       },
       "poison": {
-        "owned": 11,
+        "owned": 12,
         "total": 15,
-        "completion_percent": 73.33
+        "completion_percent": 80.0
       },
       "electric": {
         "owned": 10,
@@ -94,14 +94,14 @@
         "completion_percent": 71.43
       },
       "fighting": {
-        "owned": 4,
+        "owned": 5,
         "total": 9,
-        "completion_percent": 44.44
+        "completion_percent": 55.56
       },
       "psychic": {
-        "owned": 15,
+        "owned": 16,
         "total": 42,
-        "completion_percent": 35.71
+        "completion_percent": 38.1
       },
       "rock": {
         "owned": 5,
@@ -109,9 +109,9 @@
         "completion_percent": 38.46
       },
       "ghost": {
-        "owned": 2,
+        "owned": 3,
         "total": 4,
-        "completion_percent": 50.0
+        "completion_percent": 75.0
       },
       "ice": {
         "owned": 2,
@@ -139,25 +139,25 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1026,
-      "success": 463,
-      "accuracy_percent": 45.13,
+      "thrown": 1038,
+      "success": 470,
+      "accuracy_percent": 45.28,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 70,
-          "success": 16,
-          "accuracy_percent": 22.86
+          "thrown": 72,
+          "success": 18,
+          "accuracy_percent": 25.0
         },
         "great ball": {
-          "thrown": 899,
-          "success": 428,
-          "accuracy_percent": 47.61
+          "thrown": 908,
+          "success": 433,
+          "accuracy_percent": 47.69
         },
         "ultra ball": {
-          "thrown": 56,
+          "thrown": 57,
           "success": 18,
-          "accuracy_percent": 32.14
+          "accuracy_percent": 31.58
         },
         "master ball": {
           "thrown": 1,
@@ -167,9 +167,9 @@
       }
     },
     "journey": {
-      "watch_hours": 362,
-      "follow_age": "7 Month(s), 6 Day(s)",
-      "sub_age": "8 Month(s), 17 Day(s)",
+      "watch_hours": 365,
+      "follow_age": "7 Month(s), 7 Day(s)",
+      "sub_age": "8 Month(s), 18 Day(s)",
       "sub_months": 9,
       "subs_gifted": 0,
       "bits_donated": 4017,
@@ -177,21 +177,21 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 185,
-      "chat_messages": 33545,
-      "commands_run": 47091,
-      "times_tagged": 6383,
+      "chat_messages": 33805,
+      "commands_run": 47504,
+      "times_tagged": 6453,
       "times_evolved": 114,
-      "times_traded": 13,
-      "times_eggs_hatched": 4,
+      "times_traded": 14,
+      "times_eggs_hatched": 5,
       "ball_distribution": {
-        "poke ball": 6.82,
-        "great ball": 87.62,
-        "ultra ball": 5.46,
+        "poke ball": 6.94,
+        "great ball": 87.48,
+        "ultra ball": 5.49,
         "master ball": 0.1
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 62
+        "Great Ball": 61
       }
     }
   },
@@ -1900,7 +1900,7 @@
     },
     {
       "name": "Rattata",
-      "count": 7,
+      "count": 6,
       "owned": true,
       "pokedex_number": 19,
       "primary_type": "Normal",
@@ -2030,7 +2030,7 @@
     },
     {
       "name": "Spearow",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 21,
       "primary_type": "Normal",
@@ -5163,8 +5163,8 @@
     },
     {
       "name": "Mankey",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 56,
       "primary_type": "Fighting",
       "secondary_type": null,
@@ -5236,7 +5236,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -5317,7 +5317,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -8201,8 +8201,8 @@
     },
     {
       "name": "Grimer",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 88,
       "primary_type": "Poison",
       "secondary_type": null,
@@ -8278,7 +8278,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -8363,7 +8363,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -8533,8 +8533,8 @@
     },
     {
       "name": "Gastly",
-      "count": 0,
-      "owned": false,
+      "count": 2,
+      "owned": true,
       "pokedex_number": 92,
       "primary_type": "Ghost",
       "secondary_type": "Poison",
@@ -8947,7 +8947,7 @@
     },
     {
       "name": "Drowzee",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 96,
       "primary_type": "Psychic",
@@ -9862,16 +9862,16 @@
           "evolution_stage": "2"
         },
         {
+          "name": "Hitmonchan",
+          "pokedex_number": 107,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/107.svg",
+          "evolution_stage": "2"
+        },
+        {
           "name": "Hitmontop",
           "pokedex_number": 237,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/237.svg",
           "evolution_stage": "2"
-        },
-        {
-          "name": "Hitmonchan",
-          "pokedex_number": 107,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/107.svg",
-          "evolution_stage": "3"
         }
       ],
       "line_complete": false,
@@ -9894,7 +9894,7 @@
       "is_mythic": false,
       "is_hatchable": false,
       "evolution": false,
-      "evolution_stage": 3,
+      "evolution_stage": 2,
       "evolution_line_id": "47",
       "quantity_required": 0,
       "item_required": false,
@@ -9955,16 +9955,16 @@
           "evolution_stage": "2"
         },
         {
+          "name": "Hitmonchan",
+          "pokedex_number": 107,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/107.svg",
+          "evolution_stage": "2"
+        },
+        {
           "name": "Hitmontop",
           "pokedex_number": 237,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/237.svg",
           "evolution_stage": "2"
-        },
-        {
-          "name": "Hitmonchan",
-          "pokedex_number": 107,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/107.svg",
-          "evolution_stage": "3"
         }
       ],
       "line_complete": false,
@@ -10034,7 +10034,7 @@
     },
     {
       "name": "Koffing",
-      "count": 7,
+      "count": 8,
       "owned": true,
       "pokedex_number": 109,
       "primary_type": "Poison",
@@ -11700,7 +11700,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 17,
+      "count": 18,
       "owned": true,
       "pokedex_number": 129,
       "primary_type": "Water",
@@ -12089,7 +12089,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3389
+      "friendship_points": 3518
     },
     {
       "name": "Vaporeon",
@@ -12194,7 +12194,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3389
+      "friendship_points": 3518
     },
     {
       "name": "Jolteon",
@@ -12291,7 +12291,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3389
+      "friendship_points": 3518
     },
     {
       "name": "Flareon",
@@ -12408,7 +12408,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 3389
+      "friendship_points": 3518
     },
     {
       "name": "Porygon",
@@ -16462,7 +16462,7 @@
       "is_mythic": false,
       "is_hatchable": false,
       "evolution": false,
-      "evolution_stage": 1,
+      "evolution_stage": 2,
       "evolution_line_id": "90",
       "quantity_required": 3,
       "item_required": false,
@@ -16530,13 +16530,13 @@
           "name": "Marill",
           "pokedex_number": 183,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/183.svg",
-          "evolution_stage": "1"
+          "evolution_stage": "2"
         },
         {
           "name": "Azumarill",
           "pokedex_number": 184,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/184.svg",
-          "evolution_stage": "2"
+          "evolution_stage": "3"
         }
       ],
       "line_complete": false,
@@ -16559,7 +16559,7 @@
       "is_mythic": false,
       "is_hatchable": false,
       "evolution": false,
-      "evolution_stage": 2,
+      "evolution_stage": 3,
       "evolution_line_id": "90",
       "quantity_required": 0,
       "item_required": false,
@@ -16627,13 +16627,13 @@
           "name": "Marill",
           "pokedex_number": 183,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/183.svg",
-          "evolution_stage": "1"
+          "evolution_stage": "2"
         },
         {
           "name": "Azumarill",
           "pokedex_number": 184,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/184.svg",
-          "evolution_stage": "2"
+          "evolution_stage": "3"
         }
       ],
       "line_complete": false,
@@ -17712,7 +17712,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3389,
+      "friendship_points": 3518,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -17819,7 +17819,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3389,
+      "friendship_points": 3518,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -18094,8 +18094,8 @@
     },
     {
       "name": "Unown A",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 201,
       "primary_type": "Psychic",
       "secondary_type": null,
@@ -18157,7 +18157,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -22541,7 +22541,7 @@
     },
     {
       "name": "Phanpy",
-      "count": 2,
+      "count": 1,
       "owned": true,
       "pokedex_number": 231,
       "primary_type": "Ground",
@@ -22886,7 +22886,7 @@
     },
     {
       "name": "Tyrogue",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 236,
       "primary_type": "Fighting",
@@ -22959,16 +22959,16 @@
           "evolution_stage": "2"
         },
         {
+          "name": "Hitmonchan",
+          "pokedex_number": 107,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/107.svg",
+          "evolution_stage": "2"
+        },
+        {
           "name": "Hitmontop",
           "pokedex_number": 237,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/237.svg",
           "evolution_stage": "2"
-        },
-        {
-          "name": "Hitmonchan",
-          "pokedex_number": 107,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/107.svg",
-          "evolution_stage": "3"
         }
       ],
       "line_complete": false,
@@ -23052,16 +23052,16 @@
           "evolution_stage": "2"
         },
         {
+          "name": "Hitmonchan",
+          "pokedex_number": 107,
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/107.svg",
+          "evolution_stage": "2"
+        },
+        {
           "name": "Hitmontop",
           "pokedex_number": 237,
           "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/237.svg",
           "evolution_stage": "2"
-        },
-        {
-          "name": "Hitmonchan",
-          "pokedex_number": 107,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/107.svg",
-          "evolution_stage": "3"
         }
       ],
       "line_complete": false,
@@ -24310,7 +24310,7 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 3389,
+    "friendship_points": 3518,
     "times_pet": 64,
     "times_fed": 2
   }
