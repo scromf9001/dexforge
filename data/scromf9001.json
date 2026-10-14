@@ -3,13 +3,13 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-14T13:01:09.401785+00:00",
+  "updated_at": "2026-10-14T13:09:07.955971+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 413,
-      "unique_owned": 215,
-      "total_owned": 1175,
-      "completion_percent": 52.06
+      "unique_owned": 214,
+      "total_owned": 1174,
+      "completion_percent": 51.82
     },
     "generation_progress": {
       "1": {
@@ -33,17 +33,17 @@
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 1,
+        "owned": 0,
         "total": 135,
-        "completion_percent": 0.74,
+        "completion_percent": 0.0,
         "total_lines": 73,
-        "lines_completed": 1
+        "lines_completed": 0
       }
     },
     "evolution": {
-      "total_evolutions_owned": 215,
+      "total_evolutions_owned": 214,
       "total_evolutions_available": 413,
-      "lines_completed": 100,
+      "lines_completed": 99,
       "total_lines": 229,
       "stage_totals": {
         "1": 229,
@@ -53,7 +53,7 @@
       "stage_owned": {
         "2": 80,
         "3": 23,
-        "1": 112
+        "1": 111
       }
     },
     "types": {
@@ -73,9 +73,9 @@
         "completion_percent": 57.14
       },
       "bug": {
-        "owned": 21,
+        "owned": 20,
         "total": 34,
-        "completion_percent": 61.76
+        "completion_percent": 58.82
       },
       "normal": {
         "owned": 33,
@@ -186,9 +186,9 @@
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
       "streams_watched": 499,
-      "chat_messages": 17140,
-      "commands_run": 85160,
-      "times_tagged": 4049,
+      "chat_messages": 17141,
+      "commands_run": 85165,
+      "times_tagged": 4051,
       "times_evolved": 96,
       "times_traded": 31,
       "times_eggs_hatched": 28,
@@ -29810,8 +29810,8 @@
     },
     {
       "name": "Illumise",
-      "count": 1,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 314,
       "primary_type": "Bug",
       "secondary_type": null,
@@ -29877,7 +29877,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": true,
+      "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -33043,7 +33043,7 @@
         "weight": 0.8
       },
       "pokedex_entry": "Although its form changes with the weather, that is apparently the result of a chemical reaction and not the result of its own free will.",
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/351-normal.svg",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/351.svg",
       "strengths": [
         {
           "type": "ghost",
@@ -33060,7 +33060,7 @@
         {
           "name": "Castform",
           "pokedex_number": 351,
-          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/351-normal.svg",
+          "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/351.svg",
           "evolution_stage": "1"
         }
       ],
