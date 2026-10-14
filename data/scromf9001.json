@@ -3,7 +3,7 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-14T21:40:14.104751+00:00",
+  "updated_at": "2026-10-14T22:18:40.556211+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 413,
@@ -185,10 +185,10 @@
       "total_donated": 0.0,
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
-      "streams_watched": 499,
-      "chat_messages": 17229,
-      "commands_run": 85662,
-      "times_tagged": 4087,
+      "streams_watched": 500,
+      "chat_messages": 17230,
+      "commands_run": 85667,
+      "times_tagged": 4089,
       "times_evolved": 103,
       "times_traded": 31,
       "times_eggs_hatched": 28,
