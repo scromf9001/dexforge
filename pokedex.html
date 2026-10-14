@@ -16,6 +16,8 @@
 
 </head>
 
+<body>
+
 <div id="pokemon-modal" class="pokemon-modal hidden">
   <div class="pokemon-modal-backdrop"></div>
 
@@ -31,9 +33,15 @@
     <div id="modal-content"></div>
   </div>
 </div>
+  <div id="loading-indicator">
+    <div class="loading-spinner"></div>
+    <p>Loading Pokédex...</p>
+  </div>
 
+  <div id="error-state" style="display:none">
+    <p>Could not load Pokédex data.</p>
+  </div>
 
-<body>
   <div id="pokedex-app">
 
     <!-- Header / User Info -->

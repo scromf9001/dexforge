@@ -10,6 +10,17 @@ const jsonPath = `data/${userParam}.json`;
 console.log("Loading Pokédex from:", jsonPath);
 
 let allPokemon = [];
+
+// A form's sprite ("351-sunny.svg") may not exist on PokeAPI for every form of
+// every generation. If it 404s, fall back to the base species art ("351.svg")
+// so a new form never shows as a broken image.
+function spriteFallback(imageUrl) {
+  const base = String(imageUrl || "").replace(/-[a-z0-9-]+\.svg$/i, ".svg");
+  return base !== imageUrl
+    ? `onerror="this.onerror=null;this.src='${base}'"`
+    : "";
+}
+let filteredPokemon = [];
 let activeFilters = {
   search: "",
   ownership: "all",
@@ -33,6 +44,9 @@ document.addEventListener("click", (e) => {
 });
 
 
+// Hide app until data is loaded
+document.getElementById("pokedex-app").style.display = "none";
+
 fetch(`${jsonPath}?v=${Date.now()}`)
   .then(response => {
     if (!response.ok) {
@@ -53,9 +67,15 @@ fetch(`${jsonPath}?v=${Date.now()}`)
     renderCapturePerformance(data.trainer_stats);
     renderJourney(data.trainer_stats);
     renderCompanion(data);
+
+    // Hide loading, show app
+    document.getElementById("loading-indicator").style.display = "none";
+    document.getElementById("pokedex-app").style.display = "";
   })
   .catch(error => {
     console.error(error);
+    document.getElementById("loading-indicator").style.display = "none";
+    document.getElementById("error-state").style.display = "";
   });
 
 function renderUser(user) {
@@ -553,37 +573,39 @@ function renderBallPieChart(distribution) {
 
 
 
+// ---- ITEM CLASS HELPER (shared by pokebag + modal) ----
+
+function getItemClass(itemName) {
+  const name = itemName.toLowerCase();
+
+  // Balls
+  if (name.includes("poke ball")) return "item-poke";
+  if (name.includes("great ball")) return "item-great";
+  if (name.includes("ultra ball")) return "item-ultra";
+  if (name.includes("master ball")) return "item-master";
+  if (name.includes("god ball")) return "item-god";
+
+  // Stones
+  if (name.includes("fire stone")) return "item-fire";
+  if (name.includes("water stone")) return "item-water";
+  if (name.includes("thunder stone")) return "item-electric";
+  if (name.includes("leaf stone")) return "item-grass";
+  if (name.includes("moon stone")) return "item-fairy";
+
+  if (name.includes("sun stone")) return "item-sun";
+  if (name.includes("shiny stone")) return "item-shiny";
+  if (name.includes("dusk stone")) return "item-dark";
+  if (name.includes("dawn stone")) return "item-psychic";
+  if (name.includes("ice stone")) return "item-ice";
+
+  if (name.includes("berry")) return "item-berry";
+
+  return "item-default";
+}
+
 // ---- TRAINER JOURNEY TAB - POKEBAG SECTION ----
 
 function renderJourneyPokebag(bag) {
-
-  function getItemClass(itemName) {
-    const name = itemName.toLowerCase();
-
-    // Balls
-    if (name.includes("poke ball")) return "item-poke";
-    if (name.includes("great ball")) return "item-great";
-    if (name.includes("ultra ball")) return "item-ultra";
-    if (name.includes("master ball")) return "item-master";
-    if (name.includes("god ball")) return "item-god";
-
-    // Stones
-    if (name.includes("fire stone")) return "item-fire";
-    if (name.includes("water stone")) return "item-water";
-    if (name.includes("thunder stone")) return "item-electric";
-    if (name.includes("leaf stone")) return "item-grass";
-    if (name.includes("moon stone")) return "item-fairy";
-
-    if (name.includes("sun stone")) return "item-sun";
-    if (name.includes("shiny stone")) return "item-shiny";
-    if (name.includes("dusk stone")) return "item-dark";
-    if (name.includes("dawn stone")) return "item-psychic";
-    if (name.includes("ice stone")) return "item-ice";
-
-    if (name.includes("berry")) return "item-berry";
-
-    return "item-default";
-  }
 
   if (!bag || Object.keys(bag).length === 0) {
     return `
@@ -696,7 +718,7 @@ function renderCompanion(data) {
   const topHTML = topFriendship.length > 0
     ? topFriendship.map(p => `
         <div class="companion-top-card">
-          <img src="${p.image}" class="companion-top-sprite">
+          <img src="${p.image}" class="companion-top-sprite" ${spriteFallback(p.image)}>
           <div class="companion-top-info">
             <div class="companion-top-name">${p.name}</div>
             <div class="companion-top-points">❤️ ${p.friendship_points}</div>
@@ -763,7 +785,7 @@ function renderCompanion(data) {
       </div>
 
       <div class="companion-sprite-wrapper">
-        <img src="${companion.image}" class="companion-main-sprite">
+        <img src="${companion.image}" class="companion-main-sprite" ${spriteFallback(companion.image)}>
       </div>
 
     </div>
@@ -908,14 +930,19 @@ function populateTypeFilter(pokemonList) {
 }
 
 
+let searchTimeout;
+
 document.addEventListener("DOMContentLoaded", () => {
 
   const search = document.getElementById("filter-search");
   if (!search) return; // guard
 
   search.addEventListener("input", e => {
-    activeFilters.search = e.target.value.toLowerCase();
-    applyFilters();
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(() => {
+      activeFilters.search = e.target.value.toLowerCase();
+      applyFilters();
+    }, 300);
   });
 
   document.getElementById("filter-ownership")?.addEventListener("change", e => {
@@ -990,6 +1017,9 @@ function renderPokemon(pokemonList) {
 
   pokemonList.sort((a, b) => a.pokedex_number - b.pokedex_number);
 
+  // Store the currently displayed list for modal navigation
+  filteredPokemon = pokemonList;
+
   pokemonList.forEach(pokemon => {
     const li = document.createElement("li");
     li.classList.add("pokemon-card");
@@ -999,7 +1029,7 @@ function renderPokemon(pokemonList) {
     li.classList.add(pokemon.owned ? "owned" : "unowned");
 
     li.addEventListener("click", () => {
-      openPokemonModal(pokemon.pokedex_number);
+      openPokemonModal(pokemon.name);
     });
 
     li.innerHTML = `
@@ -1008,6 +1038,7 @@ function renderPokemon(pokemonList) {
         src="${pokemon.image}"
         alt="${pokemon.name}"
         loading="lazy"
+        ${spriteFallback(pokemon.image)}
       />
       <div class="pokemon-header">
         <div class="pokemon-name">${pokemon.name}</div>
@@ -1038,15 +1069,29 @@ function renderPokemon(pokemonList) {
 
 let currentPokemonIndex = null;
 
-function openPokemonModal(pokedexNumber) {
+function openPokemonModal(target) {
   const modal = document.getElementById("pokemon-modal");
   const card = document.getElementById("pokemon-modal-card");
 
-  currentPokemonIndex = allPokemon.findIndex(
-    p => p.pokedex_number === pokedexNumber
-  );
+  // `target` is either a Pokemon name (unique per card, e.g. "Unown B",
+  // "Castform Sunny") or a pokedex number (from an evolution-line click, which
+  // always means the base species, never one of its variants).
+  const matches = typeof target === "number"
+    ? p => p.pokedex_number === target && !p.is_variant
+    : p => p.name === target;
 
-  const pokemon = allPokemon[currentPokemonIndex];
+  currentPokemonIndex = filteredPokemon.findIndex(matches);
+
+  let pokemon;
+
+  // Fallback to allPokemon if not found in filtered list (e.g. evo line click)
+  if (currentPokemonIndex === -1) {
+    pokemon = allPokemon.find(matches);
+  } else {
+    pokemon = filteredPokemon[currentPokemonIndex];
+  }
+
+  if (!pokemon) return;
 
   // Reset classes
   card.className = "pokemon-modal-card";
@@ -1080,14 +1125,24 @@ function closePokemonModal() {
 document.getElementById("modal-prev").addEventListener("click", () => {
   if (currentPokemonIndex > 0) {
     currentPokemonIndex--;
-    renderPokemonModalContent(allPokemon[currentPokemonIndex]);
+    const pokemon = filteredPokemon[currentPokemonIndex];
+    const card = document.getElementById("pokemon-modal-card");
+    card.className = "pokemon-modal-card";
+    card.classList.add(pokemon.primary_type.toLowerCase());
+    card.classList.add("active");
+    renderPokemonModalContent(pokemon);
   }
 });
 
 document.getElementById("modal-next").addEventListener("click", () => {
-  if (currentPokemonIndex < allPokemon.length - 1) {
+  if (currentPokemonIndex < filteredPokemon.length - 1) {
     currentPokemonIndex++;
-    renderPokemonModalContent(allPokemon[currentPokemonIndex]);
+    const pokemon = filteredPokemon[currentPokemonIndex];
+    const card = document.getElementById("pokemon-modal-card");
+    card.className = "pokemon-modal-card";
+    card.classList.add(pokemon.primary_type.toLowerCase());
+    card.classList.add("active");
+    renderPokemonModalContent(pokemon);
   }
 });
 
@@ -1102,20 +1157,6 @@ function renderRequirement(pokemon) {
 
   const req = pokemon.requirement;
   const lower = req.toLowerCase();
-
-  function getItemClass(name) {
-    if (name.includes("fire stone")) return "item-fire";
-    if (name.includes("water stone")) return "item-water";
-    if (name.includes("thunder stone")) return "item-electric";
-    if (name.includes("leaf stone")) return "item-grass";
-    if (name.includes("moon stone")) return "item-fairy";
-    if (name.includes("sun stone")) return "item-sun";
-    if (name.includes("shiny stone")) return "item-shiny";
-    if (name.includes("dusk stone")) return "item-dark";
-    if (name.includes("dawn stone")) return "item-psychic";
-    if (name.includes("ice stone")) return "item-ice";
-    return "item-default";
-  }
 
   // Stone-based
   if (pokemon.requires_stone) {
@@ -1159,7 +1200,7 @@ function renderRequirement(pokemon) {
 function renderPokemonModalContent(pokemon) {
 
   document.getElementById("modal-title").innerHTML =
-    `${pokemon.name} #${String(pokemon.pokedex_number).padStart(4, "0")}`;
+    `${pokemon.name} #${String(pokemon.pokedex_number).padStart(3, "0")}`;
 
   const strengthsHTML = pokemon.strengths.map(s =>
     `<span class="type ${s.type}">
@@ -1175,7 +1216,7 @@ function renderPokemonModalContent(pokemon) {
 
   const evolutionHTML = pokemon.evolution_line.map(evo => `
     <div class="modal-evo" data-dex="${evo.pokedex_number}">
-      <img src="${evo.image}">
+      <img src="${evo.image}" ${spriteFallback(evo.image)}>
       <div>#${String(evo.pokedex_number).padStart(3,"0")}</div>
     </div>
   `).join("");
@@ -1204,7 +1245,7 @@ function renderPokemonModalContent(pokemon) {
           ${friendshipTag}
         </div>
 
-        <img src="${pokemon.image}" class="modal-main-image">
+        <img src="${pokemon.image}" class="modal-main-image" ${spriteFallback(pokemon.image)}>
 
         <div class="modal-types">
           <span class="type ${pokemon.primary_type.toLowerCase()}">

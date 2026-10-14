@@ -1,6 +1,11 @@
 import csv
 import json
+import sys
 from datetime import datetime, timezone
+
+# MIU captures this script's stdout using the Windows cp1252 codepage, but the
+# website reads the JSON as UTF-8. Without this, "Pokémon" becomes "Pokmon".
+sys.stdout.reconfigure(encoding="utf-8")
 
 
 # =========================
@@ -53,7 +58,7 @@ TYPE_CHART = {
 # COMPANION CONFIG
 # =========================
 
-FRIENDSHIP_REQUIREMENT = 600
+FRIENDSHIP_REQUIREMENT = 2500
 BUDDY_FILE_PATH = r"C:\Users\sebas\Desktop\Stream Stuff\Pokemon System\Text Files\buddies.txt"
 
 
@@ -147,7 +152,16 @@ def run():
         for row in reader:
 
             raw_number = safe_float(row.get("number"))
-            is_species_row = raw_number.is_integer()
+            form = safe_str(row.get("form")).lower()
+
+            # A row with a `form` value is a VARIANT of a species it shares its
+            # pokedex_number with (Unown B..?, Castform Sunny/Rainy/Snowy,
+            # Deoxys Attack/Defense/Speed). Variants get their own card but do
+            # not count as unique Pokemon. Rows with a fractional `number` and
+            # no form are evolution helper rows (Eevee Water, Gloom Sun...) and
+            # are skipped as before.
+            is_variant = bool(form)
+            is_species_row = raw_number.is_integer() or is_variant
 
             name_raw = safe_str(row.get("name")).strip()
             name_key = name_raw.lower()
@@ -174,7 +188,6 @@ def run():
                 continue
 
             pokedex_number = safe_int(row.get("pokedex_number"))
-            form = safe_str(row.get("form")).lower()
 
             base_url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world"
 
@@ -189,6 +202,8 @@ def run():
             pokemon_metadata[name_key] = {
                 "name": name_raw,
                 "pokedex_number": pokedex_number,
+                "form": form,
+                "is_variant": is_variant,
                 "primary_type": safe_str(row.get("primary_type"), "Unknown"),
                 "secondary_type": secondary_type,
                 "generation": safe_int(row.get("generation")),
@@ -267,6 +282,8 @@ def run():
             "owned": count > 0,
 
             "pokedex_number": meta["pokedex_number"],
+            "form": meta["form"],
+            "is_variant": meta["is_variant"],
             "primary_type": meta["primary_type"],
             "secondary_type": meta["secondary_type"],
 
@@ -293,13 +310,17 @@ def run():
 
         })
 
-    pokemon_list.sort(key=lambda x: x["pokedex_number"])
+    pokemon_list.sort(key=lambda x: (x["pokedex_number"], x["is_variant"]))
+
+    # One entry per pokedex number: every aggregate stat below counts THESE,
+    # so variants never inflate "unique" totals (386, not 413).
+    species_list = [p for p in pokemon_list if not p["is_variant"]]
 
     # ---- FULL EVOLUTION LINES ----
 
     evolution_line_map = {}
 
-    for p in pokemon_list:
+    for p in species_list:
         line_id = p["evolution_line_id"]
         evolution_line_map.setdefault(line_id, []).append(p)
 
@@ -323,7 +344,11 @@ def run():
         p["strengths"] = strengths
         p["weaknesses"] = weaknesses
 
-        line = evolution_line_map.get(p["evolution_line_id"], [])
+        # A variant is its own one-card "line" (same as Unown always was)
+        if p["is_variant"]:
+            line = [p]
+        else:
+            line = evolution_line_map.get(p["evolution_line_id"], [])
 
         p["evolution_line"] = [
             {
@@ -454,11 +479,19 @@ def run():
     # TRAINER STATS
     # =========================
 
-    total_available = len(pokemon_list)
-
     owned_pokemon = [p for p in pokemon_list if p["owned"]]
-    unique_owned = len(owned_pokemon)
-    total_owned = sum(p["count"] for p in owned_pokemon)
+
+    # "Unique" is by pokedex number: owning only Unown B or only Castform
+    # Sunny still counts the species once, and never more than once.
+    all_species_numbers = {p["pokedex_number"] for p in pokemon_list}
+    owned_species_numbers = {p["pokedex_number"] for p in owned_pokemon}
+
+    total_available = len(all_species_numbers)
+    unique_owned = len(owned_species_numbers)
+    total_owned = sum(p["count"] for p in owned_pokemon)   # every copy, variants included
+
+    variants_available = sum(1 for p in pokemon_list if p["is_variant"])
+    variants_owned = sum(1 for p in owned_pokemon if p["is_variant"])
 
     completion_percent = round(
         (unique_owned / total_available) * 100, 2
@@ -467,6 +500,8 @@ def run():
 
     # ---- GENERATION PROGRESS ----
     generation_progress = {}
+    gen_species_seen = {}
+    gen_species_owned = {}
 
     for p in pokemon_list:
         gen = p["generation"]
@@ -482,10 +517,17 @@ def run():
                 "owned": 0,
                 "total": 0
             }
+            gen_species_seen[gen] = set()
+            gen_species_owned[gen] = set()
 
-        generation_progress[gen]["total"] += 1
+        # count each pokedex number once per generation
+        gen_species_seen[gen].add(p["pokedex_number"])
         if p["owned"]:
-            generation_progress[gen]["owned"] += 1
+            gen_species_owned[gen].add(p["pokedex_number"])
+
+    for gen in generation_progress:
+        generation_progress[gen]["total"] = len(gen_species_seen[gen])
+        generation_progress[gen]["owned"] = len(gen_species_owned[gen])
 
 
     for gen in generation_progress:
@@ -505,7 +547,7 @@ def run():
     evolution_lines = {}
     evolvable_owned = 0
 
-    for p in pokemon_list:
+    for p in species_list:
         line_id = p["evolution_line_id"]
         evolution_lines.setdefault(line_id, []).append(p)
 
@@ -532,7 +574,7 @@ def run():
     total_evolutions_available = 0
     total_evolutions_owned = 0
 
-    for p in pokemon_list:
+    for p in species_list:
         stage = safe_int(p["evolution_stage"], 0)
 
         if stage > 0:
@@ -567,10 +609,13 @@ def run():
             p["evolution_stage"] = stage_int
 
 
-        # Line complete flag
-        p["line_complete"] = line_completion_map.get(
-            p["evolution_line_id"], False
-        )
+        # Line complete flag (a variant is a one-card line: complete when owned)
+        if p["is_variant"]:
+            p["line_complete"] = p["owned"]
+        else:
+            p["line_complete"] = line_completion_map.get(
+                p["evolution_line_id"], False
+            )
         
 
         # =========================
@@ -669,7 +714,7 @@ def run():
     # ---- TYPE MASTERY ----
     type_progress = {}
 
-    for p in pokemon_list:
+    for p in species_list:
         t = p["primary_type"].lower()
         type_progress.setdefault(t, {"owned": 0, "total": 0})
 
@@ -686,7 +731,7 @@ def run():
     # ---- RARITY ----
     rarity_progress = {}
 
-    for p in pokemon_list:
+    for p in species_list:
         r = p["rarity"].lower()
         rarity_progress.setdefault(r, {"owned": 0, "total": 0})
 
@@ -697,7 +742,7 @@ def run():
     total_legendary_available = 0
     total_legendary_owned = 0
 
-    for p in pokemon_list:
+    for p in species_list:
         if p.get("is_legendary") or p.get("is_mythic"):
 
             total_legendary_available += 1
@@ -712,7 +757,9 @@ def run():
             "total_available": total_available,
             "unique_owned": unique_owned,
             "total_owned": total_owned,
-            "completion_percent": completion_percent
+            "completion_percent": completion_percent,
+            "variants_available": variants_available,
+            "variants_owned": variants_owned
         },
 
         "generation_progress": generation_progress,
