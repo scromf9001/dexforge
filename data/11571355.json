@@ -3,7 +3,7 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-14T16:00:05.145480+00:00",
+  "updated_at": "2026-10-14T16:12:45.417143+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 278,
@@ -139,20 +139,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 181,
+      "thrown": 183,
       "success": 67,
-      "accuracy_percent": 37.02,
+      "accuracy_percent": 36.61,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 105,
+          "thrown": 106,
           "success": 31,
-          "accuracy_percent": 29.52
+          "accuracy_percent": 29.25
         },
         "great ball": {
-          "thrown": 71,
+          "thrown": 72,
           "success": 33,
-          "accuracy_percent": 46.48
+          "accuracy_percent": 45.83
         },
         "ultra ball": {
           "thrown": 5,
@@ -167,7 +167,7 @@
       }
     },
     "journey": {
-      "watch_hours": 221,
+      "watch_hours": 222,
       "follow_age": "5 Month(s), 20 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 1,
@@ -177,16 +177,16 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 63,
-      "chat_messages": 3990,
-      "commands_run": 5458,
-      "times_tagged": 1094,
+      "chat_messages": 4001,
+      "commands_run": 5481,
+      "times_tagged": 1101,
       "times_evolved": 4,
       "times_traded": 21,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 58.01,
-        "great ball": 39.23,
-        "ultra ball": 2.76,
+        "poke ball": 57.92,
+        "great ball": 39.34,
+        "ultra ball": 2.73,
         "master ball": 0.0
       },
       "pokebag": {
@@ -3706,7 +3706,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5721,
+      "friendship_points": 5734,
       "friendship_requirement": 600,
       "friendship_progress_percent": 100
     },
@@ -3795,7 +3795,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 5721
+      "friendship_points": 5734
     },
     {
       "name": "Zubat",
@@ -15733,7 +15733,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5721
+      "friendship_points": 5734
     },
     {
       "name": "Togepi",
@@ -24309,7 +24309,7 @@
     "primary_type": "Normal",
     "secondary_type": "Fairy",
     "evolution_line_id": "16",
-    "friendship_points": 5721,
+    "friendship_points": 5734,
     "times_pet": 14,
     "times_fed": 0,
     "friendship_requirement": 600,
