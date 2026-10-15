@@ -3,13 +3,13 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-15T20:46:09.641596+00:00",
+  "updated_at": "2026-10-15T22:38:13.850405+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 251,
-      "unique_owned": 207,
-      "total_owned": 1171,
-      "completion_percent": 82.47,
+      "unique_owned": 208,
+      "total_owned": 1172,
+      "completion_percent": 82.87,
       "variants_available": 27,
       "variants_owned": 9
     },
@@ -21,22 +21,22 @@
         "total": 151,
         "completion_percent": 89.4,
         "total_lines": 78,
-        "lines_completed": 61
+        "lines_completed": 62
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 72,
+        "owned": 73,
         "total": 100,
-        "completion_percent": 72.0,
+        "completion_percent": 73.0,
         "total_lines": 51,
         "lines_completed": 32
       }
     },
     "evolution": {
-      "total_evolutions_owned": 206,
+      "total_evolutions_owned": 207,
       "total_evolutions_available": 251,
-      "lines_completed": 93,
+      "lines_completed": 94,
       "total_lines": 129,
       "stage_totals": {
         "1": 127,
@@ -46,7 +46,7 @@
       "stage_owned": {
         "2": 80,
         "3": 23,
-        "1": 103
+        "1": 104
       }
     },
     "types": {
@@ -81,9 +81,9 @@
         "completion_percent": 100.0
       },
       "electric": {
-        "owned": 10,
+        "owned": 11,
         "total": 15,
-        "completion_percent": 66.67
+        "completion_percent": 73.33
       },
       "ground": {
         "owned": 10,
@@ -179,12 +179,12 @@
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
       "streams_watched": 500,
-      "chat_messages": 17299,
-      "commands_run": 86037,
-      "times_tagged": 4127,
+      "chat_messages": 17303,
+      "commands_run": 86049,
+      "times_tagged": 4132,
       "times_evolved": 103,
       "times_traded": 31,
-      "times_eggs_hatched": 28,
+      "times_eggs_hatched": 29,
       "ball_distribution": {
         "poke ball": 100.0,
         "great ball": 0.0,
@@ -193,7 +193,6 @@
       },
       "pokebag": {
         "Berry": 2,
-        "Egg": 1,
         "Fire Stone": 2,
         "God Ball": 99,
         "Great Ball": 99,
@@ -2502,7 +2501,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -2585,7 +2584,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
@@ -15838,8 +15837,8 @@
     },
     {
       "name": "Pichu",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 172,
       "form": "",
       "is_variant": false,
@@ -15911,7 +15910,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
