@@ -3,13 +3,13 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-16T15:51:36.528689+00:00",
+  "updated_at": "2026-10-16T16:14:59.278859+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 251,
-      "unique_owned": 35,
+      "unique_owned": 34,
       "total_owned": 45,
-      "completion_percent": 13.94,
+      "completion_percent": 13.55,
       "variants_available": 27,
       "variants_owned": 0
     },
@@ -17,26 +17,26 @@
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 18,
+        "owned": 16,
         "total": 151,
-        "completion_percent": 11.92,
+        "completion_percent": 10.6,
         "total_lines": 78,
         "lines_completed": 0
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 17,
+        "owned": 18,
         "total": 100,
-        "completion_percent": 17.0,
+        "completion_percent": 18.0,
         "total_lines": 51,
-        "lines_completed": 2
+        "lines_completed": 3
       }
     },
     "evolution": {
-      "total_evolutions_owned": 35,
+      "total_evolutions_owned": 34,
       "total_evolutions_available": 251,
-      "lines_completed": 2,
+      "lines_completed": 3,
       "total_lines": 129,
       "stage_totals": {
         "1": 127,
@@ -44,7 +44,7 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 26,
+        "1": 25,
         "3": 1,
         "2": 8
       }
@@ -66,14 +66,14 @@
         "completion_percent": 15.22
       },
       "bug": {
-        "owned": 2,
+        "owned": 0,
         "total": 22,
-        "completion_percent": 9.09
+        "completion_percent": 0.0
       },
       "normal": {
-        "owned": 6,
+        "owned": 7,
         "total": 37,
-        "completion_percent": 16.22
+        "completion_percent": 18.92
       },
       "poison": {
         "owned": 2,
@@ -141,9 +141,9 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 207,
+      "thrown": 208,
       "success": 72,
-      "accuracy_percent": 34.78,
+      "accuracy_percent": 34.62,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
@@ -152,9 +152,9 @@
           "accuracy_percent": 28.21
         },
         "great ball": {
-          "thrown": 85,
+          "thrown": 86,
           "success": 36,
-          "accuracy_percent": 42.35
+          "accuracy_percent": 41.86
         },
         "ultra ball": {
           "thrown": 5,
@@ -179,16 +179,16 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 64,
-      "chat_messages": 4134,
-      "commands_run": 5762,
-      "times_tagged": 1145,
+      "chat_messages": 4158,
+      "commands_run": 5796,
+      "times_tagged": 1161,
       "times_evolved": 5,
       "times_traded": 21,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 56.52,
-        "great ball": 41.06,
-        "ultra ball": 2.42,
+        "poke ball": 56.25,
+        "great ball": 41.35,
+        "ultra ball": 2.4,
         "master ball": 0.0
       },
       "pokebag": {
@@ -3786,7 +3786,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 6165,
+      "friendship_points": 6188,
       "friendship_requirement": 2500,
       "friendship_progress_percent": 100
     },
@@ -3877,7 +3877,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 6165
+      "friendship_points": 6188
     },
     {
       "name": "Zubat",
@@ -4412,8 +4412,8 @@
     },
     {
       "name": "Paras",
-      "count": 1,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 46,
       "form": "",
       "is_variant": false,
@@ -4618,8 +4618,8 @@
     },
     {
       "name": "Venonat",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 48,
       "form": "",
       "is_variant": false,
@@ -14859,8 +14859,8 @@
     },
     {
       "name": "Sentret",
-      "count": 0,
-      "owned": false,
+      "count": 2,
+      "owned": true,
       "pokedex_number": 161,
       "form": "",
       "is_variant": false,
@@ -14918,7 +14918,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -14985,7 +14985,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -15909,7 +15909,7 @@
     },
     {
       "name": "Cleffa",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 173,
       "form": "",
@@ -16083,7 +16083,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 6165
+      "friendship_points": 6188
     },
     {
       "name": "Togepi",
@@ -24867,7 +24867,7 @@
     "primary_type": "Normal",
     "secondary_type": "Fairy",
     "evolution_line_id": "16",
-    "friendship_points": 6165,
+    "friendship_points": 6188,
     "times_pet": 14,
     "times_fed": 0,
     "friendship_requirement": 2500,
