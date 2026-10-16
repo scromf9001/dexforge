@@ -3,12 +3,12 @@
     "username": "litlpotatr",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f52f8e70-e4df-4dcc-ae00-b135c209e5e4-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-16T16:01:54.839593+00:00",
+  "updated_at": "2026-10-16T17:11:48.644819+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 251,
       "unique_owned": 222,
-      "total_owned": 703,
+      "total_owned": 705,
       "completion_percent": 88.45,
       "variants_available": 27,
       "variants_owned": 11
@@ -44,9 +44,9 @@
         "3": 30
       },
       "stage_owned": {
-        "1": 120,
+        "1": 119,
         "3": 23,
-        "2": 79
+        "2": 80
       }
     },
     "types": {
@@ -141,20 +141,20 @@
       "total": 11
     },
     "pokeballs": {
-      "thrown": 1282,
-      "success": 620,
-      "accuracy_percent": 48.36,
+      "thrown": 1288,
+      "success": 624,
+      "accuracy_percent": 48.45,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 38,
-          "success": 9,
-          "accuracy_percent": 23.68
+          "thrown": 39,
+          "success": 10,
+          "accuracy_percent": 25.64
         },
         "great ball": {
-          "thrown": 1166,
-          "success": 581,
-          "accuracy_percent": 49.83
+          "thrown": 1171,
+          "success": 584,
+          "accuracy_percent": 49.87
         },
         "ultra ball": {
           "thrown": 72,
@@ -169,8 +169,8 @@
       }
     },
     "journey": {
-      "watch_hours": 1185,
-      "follow_age": "1 Year(s), 3 Month(s), 19 Day(s)",
+      "watch_hours": 1186,
+      "follow_age": "1 Year(s), 3 Month(s), 20 Day(s)",
       "sub_age": "1 Year(s), 8 Month(s), 29 Day(s)",
       "sub_months": 22,
       "subs_gifted": 22,
@@ -179,21 +179,21 @@
       "primary_role": "Moderator",
       "sub_tier": "Tier 1",
       "streams_watched": 359,
-      "chat_messages": 30881,
-      "commands_run": 48687,
-      "times_tagged": 5726,
-      "times_evolved": 87,
-      "times_traded": 17,
+      "chat_messages": 30966,
+      "commands_run": 48832,
+      "times_tagged": 5751,
+      "times_evolved": 88,
+      "times_traded": 18,
       "times_eggs_hatched": 30,
       "ball_distribution": {
-        "poke ball": 2.96,
-        "great ball": 90.95,
-        "ultra ball": 5.62,
+        "poke ball": 3.03,
+        "great ball": 90.92,
+        "ultra ball": 5.59,
         "master ball": 0.47
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 96,
+        "Great Ball": 97,
         "Master Ball": 1,
         "Ultra Ball": 1,
         "Water Stone": 1
@@ -1662,7 +1662,7 @@
     },
     {
       "name": "Pidgey",
-      "count": 11,
+      "count": 12,
       "owned": true,
       "pokedex_number": 16,
       "form": "",
@@ -4978,7 +4978,7 @@
     },
     {
       "name": "Meowth",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 52,
       "form": "",
@@ -5535,7 +5535,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 31143
+      "friendship_points": 31213
     },
     {
       "name": "Arcanine",
@@ -5630,11 +5630,11 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 31143
+      "friendship_points": 31213
     },
     {
       "name": "Poliwag",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 60,
       "form": "",
@@ -12212,7 +12212,7 @@
     },
     {
       "name": "Ditto",
-      "count": 2,
+      "count": 1,
       "owned": true,
       "pokedex_number": 132,
       "form": "",
@@ -13990,8 +13990,8 @@
     },
     {
       "name": "Chikorita",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 152,
       "form": "",
       "is_variant": false,
@@ -14091,8 +14091,8 @@
     },
     {
       "name": "Bayleef",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 153,
       "form": "",
       "is_variant": false,
@@ -21875,7 +21875,7 @@
     },
     {
       "name": "Slugma",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 218,
       "form": "",
@@ -21963,7 +21963,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -24871,7 +24871,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "25",
-    "friendship_points": 31143,
+    "friendship_points": 31213,
     "times_pet": 56,
     "times_fed": 3
   }
