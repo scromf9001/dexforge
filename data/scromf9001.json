@@ -3,13 +3,13 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-17T18:35:51.499228+00:00",
+  "updated_at": "2026-10-17T20:34:49.646520+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 211,
-      "total_owned": 1159,
-      "completion_percent": 54.66,
+      "unique_owned": 214,
+      "total_owned": 1160,
+      "completion_percent": 55.44,
       "variants_available": 33,
       "variants_owned": 9
     },
@@ -35,15 +35,15 @@
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 2,
+        "owned": 5,
         "total": 135,
-        "completion_percent": 1.48,
+        "completion_percent": 3.7,
         "total_lines": 73,
         "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 210,
+      "total_evolutions_owned": 213,
       "total_evolutions_available": 386,
       "lines_completed": 93,
       "total_lines": 202,
@@ -55,7 +55,7 @@
       "stage_owned": {
         "2": 80,
         "3": 23,
-        "1": 107
+        "1": 110
       }
     },
     "types": {
@@ -70,9 +70,9 @@
         "completion_percent": 57.69
       },
       "water": {
-        "owned": 40,
+        "owned": 41,
         "total": 70,
-        "completion_percent": 57.14
+        "completion_percent": 58.57
       },
       "bug": {
         "owned": 20,
@@ -90,9 +90,9 @@
         "completion_percent": 83.33
       },
       "electric": {
-        "owned": 11,
+        "owned": 12,
         "total": 19,
-        "completion_percent": 57.89
+        "completion_percent": 63.16
       },
       "ground": {
         "owned": 10,
@@ -110,9 +110,9 @@
         "completion_percent": 69.23
       },
       "psychic": {
-        "owned": 11,
+        "owned": 12,
         "total": 23,
-        "completion_percent": 47.83
+        "completion_percent": 52.17
       },
       "rock": {
         "owned": 7,
@@ -150,15 +150,15 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 3046,
-      "success": 928,
-      "accuracy_percent": 30.47,
+      "thrown": 3059,
+      "success": 931,
+      "accuracy_percent": 30.43,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 3046,
-          "success": 928,
-          "accuracy_percent": 30.47
+          "thrown": 3059,
+          "success": 931,
+          "accuracy_percent": 30.43
         },
         "great ball": {
           "thrown": 0,
@@ -177,9 +177,9 @@
         }
       }
     },
-    "pokecoins": 7560,
+    "pokecoins": 10811,
     "journey": {
-      "watch_hours": 1695,
+      "watch_hours": 1697,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -189,10 +189,10 @@
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
       "streams_watched": 500,
-      "chat_messages": 17525,
-      "commands_run": 87044,
-      "times_tagged": 4249,
-      "times_evolved": 113,
+      "chat_messages": 17562,
+      "commands_run": 87293,
+      "times_tagged": 4265,
+      "times_evolved": 114,
       "times_traded": 31,
       "times_eggs_hatched": 34,
       "ball_distribution": {
@@ -9413,7 +9413,7 @@
     },
     {
       "name": "Krabby",
-      "count": 30,
+      "count": 27,
       "owned": true,
       "pokedex_number": 98,
       "form": "",
@@ -9497,7 +9497,7 @@
     },
     {
       "name": "Kingler",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 99,
       "form": "",
@@ -16361,7 +16361,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3103
+      "friendship_points": 3222
     },
     {
       "name": "Togetic",
@@ -16465,7 +16465,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3103,
+      "friendship_points": 3222,
       "friendship_requirement": 2500,
       "friendship_progress_percent": 100
     },
@@ -27697,8 +27697,8 @@
     },
     {
       "name": "Wingull",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 278,
       "form": "",
       "is_variant": false,
@@ -27881,8 +27881,8 @@
     },
     {
       "name": "Ralts",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 280,
       "form": "",
       "is_variant": false,
@@ -30463,8 +30463,8 @@
     },
     {
       "name": "Electrike",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 309,
       "form": "",
       "is_variant": false,
@@ -37839,7 +37839,7 @@
     "primary_type": "Fairy",
     "secondary_type": null,
     "evolution_line_id": "87",
-    "friendship_points": 3103,
+    "friendship_points": 3222,
     "times_pet": 7,
     "times_fed": 4
   }
