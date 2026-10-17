@@ -3,12 +3,12 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-10-17T18:18:31.450878+00:00",
+  "updated_at": "2026-10-17T18:26:14.801773+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 169,
-      "total_owned": 286,
+      "total_owned": 284,
       "completion_percent": 43.78,
       "variants_available": 33,
       "variants_owned": 5
@@ -53,8 +53,8 @@
         "3": 45
       },
       "stage_owned": {
-        "2": 60,
-        "1": 94,
+        "2": 61,
+        "1": 93,
         "3": 15
       }
     },
@@ -177,7 +177,7 @@
         }
       }
     },
-    "pokecoins": 9322,
+    "pokecoins": 9354,
     "journey": {
       "watch_hours": 373,
       "follow_age": "7 Month(s), 12 Day(s)",
@@ -189,10 +189,10 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 187,
-      "chat_messages": 34913,
-      "commands_run": 49723,
-      "times_tagged": 6895,
-      "times_evolved": 133,
+      "chat_messages": 34933,
+      "commands_run": 49760,
+      "times_tagged": 6901,
+      "times_evolved": 134,
       "times_traded": 21,
       "times_eggs_hatched": 5,
       "ball_distribution": {
@@ -8921,7 +8921,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 523
+      "friendship_points": 531
     },
     {
       "name": "Haunter",
@@ -9027,7 +9027,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 523
+      "friendship_points": 531
     },
     {
       "name": "Gengar",
@@ -9133,7 +9133,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": true,
-      "friendship_points": 523
+      "friendship_points": 531
     },
     {
       "name": "Onix",
@@ -10983,8 +10983,8 @@
     },
     {
       "name": "Horsea",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 116,
       "form": "",
       "is_variant": false,
@@ -11066,15 +11066,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Seadra",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 117,
       "form": "",
       "is_variant": false,
@@ -37831,7 +37831,7 @@
     "primary_type": "Ghost",
     "secondary_type": "Poison",
     "evolution_line_id": "40",
-    "friendship_points": 523,
+    "friendship_points": 531,
     "times_pet": 71,
     "times_fed": 2
   }
