@@ -3,49 +3,49 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-17T20:42:08.917994+00:00",
+  "updated_at": "2026-10-17T21:03:51.391684+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 45,
-      "total_owned": 62,
-      "completion_percent": 11.66,
+      "unique_owned": 46,
+      "total_owned": 63,
+      "completion_percent": 11.92,
       "variants_available": 33,
-      "variants_owned": 1
+      "variants_owned": 0
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 22,
+        "owned": 23,
         "total": 151,
-        "completion_percent": 14.57,
+        "completion_percent": 15.23,
         "total_lines": 78,
-        "lines_completed": 2
+        "lines_completed": 3
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 18,
+        "owned": 17,
         "total": 100,
-        "completion_percent": 18.0,
+        "completion_percent": 17.0,
         "total_lines": 51,
         "lines_completed": 3
       },
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 5,
+        "owned": 6,
         "total": 135,
-        "completion_percent": 3.7,
+        "completion_percent": 4.44,
         "total_lines": 73,
         "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 44,
+      "total_evolutions_owned": 46,
       "total_evolutions_available": 386,
-      "lines_completed": 6,
+      "lines_completed": 7,
       "total_lines": 202,
       "stage_totals": {
         "1": 202,
@@ -53,9 +53,9 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 35,
-        "3": 1,
-        "2": 8
+        "1": 36,
+        "2": 9,
+        "3": 1
       }
     },
     "types": {
@@ -80,9 +80,9 @@
         "completion_percent": 0.0
       },
       "normal": {
-        "owned": 10,
+        "owned": 11,
         "total": 55,
-        "completion_percent": 18.18
+        "completion_percent": 20.0
       },
       "poison": {
         "owned": 2,
@@ -90,9 +90,9 @@
         "completion_percent": 11.11
       },
       "electric": {
-        "owned": 3,
+        "owned": 4,
         "total": 19,
-        "completion_percent": 15.79
+        "completion_percent": 21.05
       },
       "ground": {
         "owned": 4,
@@ -150,9 +150,9 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 242,
-      "success": 90,
-      "accuracy_percent": 37.19,
+      "thrown": 244,
+      "success": 91,
+      "accuracy_percent": 37.3,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
@@ -161,9 +161,9 @@
           "accuracy_percent": 28.79
         },
         "great ball": {
-          "thrown": 103,
-          "success": 47,
-          "accuracy_percent": 45.63
+          "thrown": 105,
+          "success": 48,
+          "accuracy_percent": 45.71
         },
         "ultra ball": {
           "thrown": 7,
@@ -177,7 +177,7 @@
         }
       }
     },
-    "pokecoins": 5097,
+    "pokecoins": 5381,
     "journey": {
       "watch_hours": 237,
       "follow_age": "5 Month(s), 24 Day(s)",
@@ -189,20 +189,20 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 64,
-      "chat_messages": 4402,
-      "commands_run": 6342,
-      "times_tagged": 1258,
+      "chat_messages": 4418,
+      "commands_run": 6381,
+      "times_tagged": 1268,
       "times_evolved": 6,
-      "times_traded": 21,
+      "times_traded": 22,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 54.55,
-        "great ball": 42.56,
-        "ultra ball": 2.89,
+        "poke ball": 54.1,
+        "great ball": 43.03,
+        "ultra ball": 2.87,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 94
+        "Great Ball": 92
       }
     }
   },
@@ -2453,8 +2453,8 @@
     },
     {
       "name": "Pikachu",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 25,
       "form": "",
       "is_variant": false,
@@ -2527,7 +2527,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -2611,7 +2611,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
@@ -16083,7 +16083,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -20715,8 +20715,8 @@
     },
     {
       "name": "Unown ?",
-      "count": 1,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 201,
       "form": "question",
       "is_variant": true,
@@ -20781,7 +20781,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": true,
+      "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -26225,8 +26225,8 @@
     },
     {
       "name": "Zigzagoon",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 263,
       "form": "",
       "is_variant": false,
@@ -29135,7 +29135,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 36
+      "friendship_points": 56
     },
     {
       "name": "Loudred",
@@ -29209,7 +29209,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 36
+      "friendship_points": 56
     },
     {
       "name": "Exploud",
@@ -29283,7 +29283,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 36
+      "friendship_points": 56
     },
     {
       "name": "Makuhita",
@@ -37523,7 +37523,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 1
     },
     {
       "name": "Deoxys",
@@ -37823,13 +37823,13 @@
     }
   ],
   "companion": {
-    "name": "Whismur",
-    "pokedex_number": 293,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/293.svg",
-    "primary_type": "Normal",
-    "secondary_type": null,
-    "evolution_line_id": "146",
-    "friendship_points": 36,
+    "name": "Jirachi",
+    "pokedex_number": 385,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/385.svg",
+    "primary_type": "Steel",
+    "secondary_type": "Psychic",
+    "evolution_line_id": "202",
+    "friendship_points": 1,
     "times_pet": 18,
     "times_fed": 0
   }
