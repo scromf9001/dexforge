@@ -31,7 +31,7 @@
         <li><span class="step-num">1</span><div><strong>A wild Pokémon appears on stream.</strong> Type <code>!catch</code> in chat. That is it, you are a Trainer now.</div></li>
         <li><span class="step-num">2</span><div><strong>Check your collection.</strong> Type <code>!pokedex</code> and the bot posts a link to your personal Pokédex page: every Pokémon you own, your stats and your bag.</div></li>
         <li><span class="step-num">3</span><div><strong>Collect 3 of the same Pokémon</strong> and type <code>!evolve pikachu</code> (or whichever you have 3 of). Watch it evolve live on stream.</div></li>
-        <li><span class="step-num">4</span><div><strong>Earn Pokecoins</strong> just by watching and catching. Spend them at the Pokémart with <code>!shop buy greatball</code> for better odds.</div></li>
+        <li><span class="step-num">4</span><div><strong>Earn Pokecoins</strong> just by watching and catching. Spend them at the Pokémart with <code>!shop gb</code> for a Great Ball and better odds.</div></li>
         <li><span class="step-num">5</span><div><strong>Pick a Buddy.</strong> Type <code>!buddy equip eevee</code> (any Pokémon you own) and it walks next to your name in chat.</div></li>
       </ol>
       <p class="quickstart-note">
@@ -92,10 +92,9 @@
           <tr><td><code>!pokedex evolve</code></td><td>Everything you can evolve right now.</td></tr>
           <tr><td><code>!pokedex stone</code></td><td>What you can evolve right now with a stone, and which stone.</td></tr>
           <tr><td><code>!pokedex friendship</code></td><td>Friendship evolutions you are ready for, or how close you are.</td></tr>
-          <tr><td><code>!pokedex trade</code></td><td>What you could evolve by trading right now.</td></tr>
+          <tr><td><code>!pokedex trade</code></td><td>Trade evolutions: which Pokémon need a trade, and which of yours are ready for one.</td></tr>
           <tr><td><code>!pokedex legendary</code></td><td>Your Legendary collection, region by region. Also <code>!pokedex mythic</code> and <code>!pokedex starter</code>.</td></tr>
           <tr><td><code>!pokedex egg</code></td><td>Which Pokémon can hatch from an Egg.</td></tr>
-          <tr><td><code>!pokedex tradeable</code></td><td>Which Pokémon only evolve through a trade.</td></tr>
           <tr><td><code>!dex kanto</code></td><td>Your completion for one region. Also <code>johto</code>, <code>hoenn</code>, or <code>!dex regions</code> for all of them.</td></tr>
         </tbody>
       </table>
@@ -246,7 +245,6 @@
       <table class="command-table">
         <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
         <tbody>
-          <tr><td><code>!egg incubate</code></td><td>Starts incubating an Egg from your bag.</td></tr>
           <tr><td><code>!egg</code></td><td>Shows how long is left. When the Egg is ready, this hatches it live on stream.</td></tr>
         </tbody>
       </table>
@@ -255,7 +253,7 @@
         <li>An Egg hatches after 20 hours of watching. Time only counts while you are in the stream.</li>
         <li>One Egg at a time: hatch it before you pick up another.</li>
         <li>What can hatch: Pichu, Cleffa, Igglybuff, Togepi, Tyrogue, Smoochum, Elekid, Magby, Azurill, Wynaut.</li>
-        <li>Get Eggs from the <a href="#shop">Pokémart</a> or with channel points. A shop Egg starts incubating by itself.</li>
+        <li>Get Eggs from the <a href="#shop">Pokémart</a> or with channel points. Your Egg starts incubating the moment you get it, nothing to type.</li>
       </ul>
     </section>
 
@@ -266,12 +264,11 @@
       <table class="command-table">
         <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
         <tbody>
-          <tr><td><code>!shop</code></td><td>Short help: how to buy and check prices.</td></tr>
+          <tr><td><code>!shop</code></td><td>Short help.</td></tr>
           <tr><td><code>!shop list</code></td><td>Every item on the shelf with its price.</td></tr>
-          <tr><td><code>!shop ultraball</code></td><td>Price of one item, how many you hold and how many more you can afford.</td></tr>
-          <tr><td><code>!shop buy greatball</code></td><td>Buys one.</td></tr>
-          <tr><td><code>!shop buy greatball 8</code></td><td>Buys eight. Also <code>!shop buy 8 greatball</code> or simply <code>!shop greatball 8</code>.</td></tr>
-          <tr><td><code>!shop buy greatball all</code></td><td>Buys as many as your wallet and bag allow. Also <code>max</code>.</td></tr>
+          <tr><td><code>!shop gb</code></td><td>Buys one Great Ball. Item name right after <code>!shop</code>, nothing else needed. <code>gb</code>, <code>great ball</code> and <code>greatball</code> all work.</td></tr>
+          <tr><td><code>!shop 10 gb</code></td><td>Buys ten. Also <code>!shop gb 10</code>.</td></tr>
+          <tr><td><code>!shop ub</code></td><td>Ultra Ball. Also <code>!shop mb</code> for a Master Ball, <code>!shop berry</code>, <code>!shop fire</code> for a Fire Stone, <code>!shop egg</code>.</td></tr>
         </tbody>
       </table>
       <h3>Price list</h3>
@@ -288,8 +285,8 @@
       </table>
       <h3>Good to know</h3>
       <ul class="about-list">
-        <li>Spelling is relaxed: <code>great ball</code>, <code>greatball</code>, <code>great</code> and <code>gb</code> all work. Plurals too. <code>thunder</code> or <code>electric</code>, <code>leaf</code> or <code>grass</code>, <code>moon</code>, <code>sun</code>, <code>fire</code>, <code>water</code>.</li>
-        <li><code>!shop buy stone</code> asks which stone you mean.</li>
+        <li>Short names work everywhere: <code>gb</code>, <code>ub</code>, <code>mb</code>, <code>berry</code>, <code>fire</code>, <code>water</code>, <code>thunder</code> (or <code>electric</code>), <code>leaf</code> (or <code>grass</code>), <code>moon</code>, <code>sun</code>, <code>egg</code>. Full names and plurals work too.</li>
+        <li><code>!shop stone</code> asks which stone you mean.</li>
         <li>You never pay for something you cannot carry: if your bag is full, nothing is charged.</li>
         <li>Buying a Master Ball is a big moment. The whole stream will know.</li>
         <li>Poké Balls are free and are not in the shop. God Balls cannot be bought at all.</li>
@@ -303,8 +300,8 @@
       <table class="command-table">
         <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
         <tbody>
-          <tr><td><code>!pokecoins</code></td><td>Your balance and a reminder of how to earn more.</td></tr>
-          <tr><td><code>!givepokecoins @friend 500</code></td><td>Tips another Trainer from your own wallet.</td></tr>
+          <tr><td><code>!pokecoins</code></td><td>Your current balance.</td></tr>
+          <tr><td><code>!pokecoins help</code></td><td>All the ways to earn more.</td></tr>
           <tr><td><code>!win coins</code></td><td>How many Pokecoins you have won from Scromf's giveaways and challenges.</td></tr>
         </tbody>
       </table>
@@ -312,8 +309,7 @@
       <ul class="about-list">
         <li><strong>Watch.</strong> Pokecoins trickle in while you are in the stream. Subscribers earn a little extra.</li>
         <li><strong>Catch.</strong> Every catch pays. Catching a Legendary pays a lot, and everyone in chat gets a cut.</li>
-        <li><strong>Stay through ad breaks.</strong> Everyone in chat gets Pokecoins after an ad break, subscribers get double.</li>
-        <li><strong>Claim the bonus</strong> when it opens, see <a href="#bonus">!bonus</a>.</li>
+        <li><strong>Stay through ad breaks.</strong> Everyone in chat gets 150 Pokecoins after every ad break, and a <a href="#bonus">!bonus</a> opens for 90 seconds on top.</li>
         <li><strong>Release spares</strong> with <a href="#sell">!sell</a>.</li>
         <li><strong>Win.</strong> Scromf hands out Pokecoins for predictions, challenges and good answers to the question of the day.</li>
       </ul>
@@ -322,17 +318,27 @@
     <!-- BONUS -->
     <section class="landing-card command-card theme-shop" id="bonus">
       <h2><code>!bonus</code> Bonus Pokecoins</h2>
-      <p>Every so often a bonus opens up for everyone watching. Claim it before it closes.</p>
+      <p>Every ad break pays everyone 150 Pokecoins. Right after it, a bonus opens for 90 seconds: claim it and get extra Pokecoins based on your sub tier.</p>
       <table class="command-table">
         <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
         <tbody>
-          <tr><td><code>!bonus</code></td><td>Claims your bonus Pokecoins. Also <code>!chest</code> or <code>!claim</code>.</td></tr>
+          <tr><td><code>!bonus</code></td><td>Claims your bonus while the window is open. <code>!b</code> works too.</td></tr>
+        </tbody>
+      </table>
+      <h3>What you get</h3>
+      <table class="command-table price-table">
+        <thead><tr><th>You are</th><th>Bonus</th></tr></thead>
+        <tbody>
+          <tr><td>Not subscribed</td><td>100</td></tr>
+          <tr><td>Tier 1 sub</td><td>350</td></tr>
+          <tr><td>Tier 2 sub</td><td>600</td></tr>
+          <tr><td>Tier 3 sub</td><td>850</td></tr>
         </tbody>
       </table>
       <h3>Good to know</h3>
       <ul class="about-list">
-        <li>Subscribers get a bigger pouch, and higher tiers get more.</li>
-        <li>You can only claim each bonus once. The bot tells you when the next one is open.</li>
+        <li>You have 90 seconds after the ad break ends. Miss it and the next ad break brings a new one.</li>
+        <li>One claim per bonus. The 150 for sitting through the ad arrives on its own, no typing needed.</li>
       </ul>
     </section>
 

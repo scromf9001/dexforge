@@ -645,17 +645,17 @@ function renderPokebag(bag) {
 // command's STOCK (scripts/pokemon-shop/script-01.py) and tutorial.html together
 // when a price changes.
 const SHOP_STOCK = [
-  { name: "Great Ball",    buy: 250,   max: 99, icon: "assets/balls/great.png",  cmd: "greatball",    use: "1.5x catch chance" },
-  { name: "Ultra Ball",    buy: 1000,  max: 99, icon: "assets/balls/ultra.png",  cmd: "ultraball",    use: "2x catch chance" },
-  { name: "Master Ball",   buy: 60000, max: 10, icon: "assets/balls/master.png", cmd: "masterball",   use: "Guaranteed catch" },
-  { name: "Berry",         buy: 1000,  max: 3,  icon: null,                      cmd: "berry",        use: "!buddy feed: +25 friendship" },
-  { name: "Fire Stone",    buy: 2500,  max: 3,  icon: null,                      cmd: "firestone",    use: "Fire-type evolutions" },
-  { name: "Water Stone",   buy: 2500,  max: 3,  icon: null,                      cmd: "waterstone",   use: "Water-type evolutions" },
-  { name: "Thunder Stone", buy: 2500,  max: 3,  icon: null,                      cmd: "thunderstone", use: "Electric-type evolutions" },
-  { name: "Leaf Stone",    buy: 2500,  max: 3,  icon: null,                      cmd: "leafstone",    use: "Grass-type evolutions" },
-  { name: "Moon Stone",    buy: 2500,  max: 3,  icon: null,                      cmd: "moonstone",    use: "Moon evolutions" },
-  { name: "Sun Stone",     buy: 2500,  max: 3,  icon: null,                      cmd: "sunstone",     use: "Sun evolutions" },
-  { name: "Egg",           buy: 2500,  max: 1,  icon: null,                      cmd: "egg",          use: "Hatches into a baby Pokémon" }
+  { name: "Great Ball",    buy: 250,   max: 99, icon: "assets/balls/great.png",  cmd: "gb",      use: "1.5x catch chance" },
+  { name: "Ultra Ball",    buy: 1000,  max: 99, icon: "assets/balls/ultra.png",  cmd: "ub",      use: "2x catch chance" },
+  { name: "Master Ball",   buy: 60000, max: 10, icon: "assets/balls/master.png", cmd: "mb",      use: "Guaranteed catch" },
+  { name: "Berry",         buy: 1000,  max: 3,  icon: null,                      cmd: "berry",   use: "!buddy feed: +25 friendship" },
+  { name: "Fire Stone",    buy: 2500,  max: 3,  icon: null,                      cmd: "fire",    use: "Fire-type evolutions" },
+  { name: "Water Stone",   buy: 2500,  max: 3,  icon: null,                      cmd: "water",   use: "Water-type evolutions" },
+  { name: "Thunder Stone", buy: 2500,  max: 3,  icon: null,                      cmd: "thunder", use: "Electric-type evolutions" },
+  { name: "Leaf Stone",    buy: 2500,  max: 3,  icon: null,                      cmd: "leaf",    use: "Grass-type evolutions" },
+  { name: "Moon Stone",    buy: 2500,  max: 3,  icon: null,                      cmd: "moon",    use: "Moon evolutions" },
+  { name: "Sun Stone",     buy: 2500,  max: 3,  icon: null,                      cmd: "sun",     use: "Sun evolutions" },
+  { name: "Egg",           buy: 2500,  max: 1,  icon: null,                      cmd: "egg",     use: "Hatches into a baby Pokémon" }
 ];
 
 function renderShopItem(item, bag, coins, hasCoins) {
@@ -685,7 +685,7 @@ function renderShopItem(item, bag, coins, hasCoins) {
       <div class="shop-item-price"><strong>${item.buy.toLocaleString()}</strong> Pokecoins</div>
       <div class="shop-item-meta">Bag holds ${item.max} &middot; You own ${owned}</div>
       ${chip}
-      <code class="shop-item-cmd">!shop buy ${item.cmd}</code>
+      <code class="shop-item-cmd">!shop ${item.cmd}</code>
     </div>
   `;
 }
@@ -700,7 +700,7 @@ function renderShop(stats) {
   const coins = hasCoins ? stats.pokecoins : 0;
 
   const walletNote = hasCoins
-    ? "Earn Pokecoins by watching, catching Pokémon and sticking around for ad breaks. Spend them here."
+    ? "Earn Pokecoins by watching, catching Pokémon and claiming !bonus after ad breaks. Spend them here."
     : "Type !pokedex in chat to refresh your wallet.";
 
   container.innerHTML = `
@@ -731,14 +731,14 @@ function renderShop(stats) {
         <div class="command-grid">
           <code>!shop</code>
           <code>!shop list</code>
-          <code>!shop buy greatball 8</code>
-          <code>!shop buy egg</code>
-          <code>!shop ultraball</code>
+          <code>!shop gb</code>
+          <code>!shop 10 gb</code>
+          <code>!shop egg</code>
         </div>
         <p class="shop-note">
-          Type <code>!shop buy</code> and the item name in chat. Add a number to buy several, or
-          <code>all</code> to fill up. Everything lands straight in your Pokébag, and nothing can be sold back.
-          <code>!shop</code> + an item name checks its price.
+          Type <code>!shop</code> and the item name in chat to buy one. Add a number to buy several.
+          <code>gb</code> or <code>great ball</code>, both work. Everything lands straight in your Pokébag,
+          and nothing can be sold back.
           <a href="tutorial#shop" class="shop-link">Full shop guide</a>
         </p>
       </div>
