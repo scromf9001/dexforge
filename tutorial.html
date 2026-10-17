@@ -13,6 +13,7 @@
     <img src="assets/scromf-avatar.png" alt="Scromf Avatar" class="streamdex-avatar">
     <h1>Trainer's Handbook</h1>
     <nav class="header-nav">
+      <a href="#" id="my-pokedex-link" class="header-nav-link" hidden>My Pokédex</a>
       <a href="index" class="header-nav-link">Home</a>
       <a href="https://twitch.tv/scromf9001" target="_blank" class="header-nav-link">Watch Live</a>
     </nav>
@@ -260,12 +261,11 @@
     <!-- SHOP -->
     <section class="landing-card command-card theme-shop" id="shop">
       <h2><code>!shop</code> The Pokémart</h2>
-      <p>Spend your Pokecoins on balls, stones, berries and eggs. Everything you buy goes straight into your Pokébag, and all sales are final: nothing can be sold back. <code>!pokemart</code>, <code>!pokeshop</code> and <code>!mart</code> work too.</p>
+      <p>Spend your Pokecoins on balls, stones, berries and eggs. Everything you buy goes straight into your Pokébag, and all sales are final: nothing can be sold back. <code>!buy</code> works exactly like <code>!shop</code>, and so do <code>!pokemart</code>, <code>!pokeshop</code> and <code>!mart</code>.</p>
       <table class="command-table">
         <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
         <tbody>
-          <tr><td><code>!shop</code></td><td>Short help.</td></tr>
-          <tr><td><code>!shop list</code></td><td>Every item on the shelf with its price.</td></tr>
+          <tr><td><code>!shop</code></td><td>The price list: every item on the shelf and what it costs.</td></tr>
           <tr><td><code>!shop gb</code></td><td>Buys one Great Ball. Item name right after <code>!shop</code>, nothing else needed. <code>gb</code>, <code>great ball</code> and <code>greatball</code> all work.</td></tr>
           <tr><td><code>!shop 10 gb</code></td><td>Buys ten. Also <code>!shop gb 10</code>.</td></tr>
           <tr><td><code>!shop ub</code></td><td>Ultra Ball. Also <code>!shop mb</code> for a Master Ball, <code>!shop berry</code>, <code>!shop fire</code> for a Fire Stone, <code>!shop egg</code>.</td></tr>
@@ -347,6 +347,7 @@
       <h2>Ready, Trainer?</h2>
       <p>Type <code>!pokedex</code> in chat and the bot posts the link to your personal Pokédex. Catch them all.</p>
       <div class="landing-buttons">
+        <a href="#" id="my-pokedex-btn" class="landing-btn primary" hidden>Back to my Pokédex</a>
         <a href="https://twitch.tv/scromf9001" target="_blank" class="landing-btn primary">Watch Live on Twitch</a>
         <a href="index" class="landing-btn secondary">Back Home</a>
       </div>
@@ -355,6 +356,23 @@
   </main>
 
   <script>
+    // "My Pokédex" links: the Pokédex page passes ?user= when it links here, and also
+    // remembers the last trainer viewed in this browser, so a direct visit still works.
+    (function () {
+      let user = new URLSearchParams(location.search).get("user");
+      if (!user) {
+        try { user = localStorage.getItem("dexforge_last_user"); } catch (e) { user = null; }
+      }
+      if (!user) return;
+      const href = `pokedex?user=${encodeURIComponent(user)}`;
+      ["my-pokedex-link", "my-pokedex-btn"].forEach(id => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        el.href = href;
+        el.hidden = false;
+      });
+    })();
+
     // Highlight the jump-nav pill for the section currently on screen.
     (function () {
       const links = Array.from(document.querySelectorAll("#handbook-nav a"));

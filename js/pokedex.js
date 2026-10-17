@@ -87,6 +87,11 @@ function renderUser(user) {
     `${possessive} Pokédex`;
 
   document.getElementById("trainer-avatar").src = user.avatar;
+
+  // Let the handbook link back to this trainer's page.
+  const howTo = document.querySelector('.header-nav a[href^="tutorial"]');
+  if (howTo) howTo.href = `tutorial?user=${encodeURIComponent(name)}`;
+  try { localStorage.setItem("dexforge_last_user", name); } catch (e) { /* private mode */ }
 }
 
 function buildStageFilter(pokemonList) {
@@ -730,16 +735,15 @@ function renderShop(stats) {
         <h3>How To Buy</h3>
         <div class="command-grid">
           <code>!shop</code>
-          <code>!shop list</code>
           <code>!shop gb</code>
           <code>!shop 10 gb</code>
           <code>!shop egg</code>
         </div>
         <p class="shop-note">
-          Type <code>!shop</code> and the item name in chat to buy one. Add a number to buy several.
-          <code>gb</code> or <code>great ball</code>, both work. Everything lands straight in your Pokébag,
-          and nothing can be sold back.
-          <a href="tutorial#shop" class="shop-link">Full shop guide</a>
+          <code>!shop</code> alone shows the price list. Add an item name to buy one, and a number to buy several.
+          <code>gb</code> or <code>great ball</code>, both work, and <code>!buy</code> does the same as <code>!shop</code>.
+          Everything lands straight in your Pokébag, and nothing can be sold back.
+          <a href="tutorial?user=${encodeURIComponent(userParam || "")}#shop" class="shop-link">Full shop guide</a>
         </p>
       </div>
 
