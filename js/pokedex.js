@@ -67,6 +67,7 @@ fetch(`${jsonPath}?v=${Date.now()}`)
     renderCapturePerformance(data.trainer_stats);
     renderJourney(data.trainer_stats);
     renderCompanion(data);
+    renderShop(data.trainer_stats);
 
     // Hide loading, show app
     document.getElementById("loading-indicator").style.display = "none";
@@ -436,7 +437,6 @@ function renderJourney(stats) {
       ${renderJourneyIdentity(journey)}
       ${renderJourneyActivity(journey)}
       ${renderJourneyInteraction(journey)}
-      ${renderJourneyPokebag(journey.pokebag)}
     </div>
   `;
 
@@ -599,13 +599,14 @@ function getItemClass(itemName) {
   if (name.includes("ice stone")) return "item-ice";
 
   if (name.includes("berry")) return "item-berry";
+  if (name.includes("egg")) return "item-egg";
 
   return "item-default";
 }
 
-// ---- TRAINER JOURNEY TAB - POKEBAG SECTION ----
+// ---- POKEBAG SECTION (shown on the Shop tab) ----
 
-function renderJourneyPokebag(bag) {
+function renderPokebag(bag) {
 
   if (!bag || Object.keys(bag).length === 0) {
     return `
@@ -638,6 +639,114 @@ function renderJourneyPokebag(bag) {
   `;
 }
 
+// ---- SHOP TAB ----
+// Prices and bag limits mirror the MIU Pokebag inventory (Buy Amount / Max Amount),
+// read 2026-10-17. Items cannot be sold back. Update this table, the !shop
+// command's STOCK (scripts/pokemon-shop/script-01.py) and tutorial.html together
+// when a price changes.
+const SHOP_STOCK = [
+  { name: "Great Ball",    buy: 250,   max: 99, icon: "assets/balls/great.png",  cmd: "greatball",    use: "1.5x catch chance" },
+  { name: "Ultra Ball",    buy: 1000,  max: 99, icon: "assets/balls/ultra.png",  cmd: "ultraball",    use: "2x catch chance" },
+  { name: "Master Ball",   buy: 60000, max: 10, icon: "assets/balls/master.png", cmd: "masterball",   use: "Guaranteed catch" },
+  { name: "Berry",         buy: 1000,  max: 3,  icon: null,                      cmd: "berry",        use: "!buddy feed: +25 friendship" },
+  { name: "Fire Stone",    buy: 2500,  max: 3,  icon: null,                      cmd: "firestone",    use: "Fire-type evolutions" },
+  { name: "Water Stone",   buy: 2500,  max: 3,  icon: null,                      cmd: "waterstone",   use: "Water-type evolutions" },
+  { name: "Thunder Stone", buy: 2500,  max: 3,  icon: null,                      cmd: "thunderstone", use: "Electric-type evolutions" },
+  { name: "Leaf Stone",    buy: 2500,  max: 3,  icon: null,                      cmd: "leafstone",    use: "Grass-type evolutions" },
+  { name: "Moon Stone",    buy: 2500,  max: 3,  icon: null,                      cmd: "moonstone",    use: "Moon evolutions" },
+  { name: "Sun Stone",     buy: 2500,  max: 3,  icon: null,                      cmd: "sunstone",     use: "Sun evolutions" },
+  { name: "Egg",           buy: 2500,  max: 1,  icon: null,                      cmd: "egg",          use: "Hatches into a baby Pokémon" }
+];
+
+function renderShopItem(item, bag, coins, hasCoins) {
+  const owned = bag[item.name] || 0;
+  const room = Math.max(item.max - owned, 0);
+  const affordable = Math.floor(coins / item.buy);
+  const canBuy = Math.min(affordable, room);
+
+  let chip;
+  if (room === 0) {
+    chip = `<span class="shop-chip full">Bag full</span>`;
+  } else if (!hasCoins) {
+    chip = `<span class="shop-chip">Room for ${room}</span>`;
+  } else if (canBuy === 0) {
+    chip = `<span class="shop-chip short">Need ${(item.buy - coins).toLocaleString()} more</span>`;
+  } else {
+    chip = `<span class="shop-chip ok">Can buy ${canBuy} more</span>`;
+  }
+
+  return `
+    <div class="shop-item">
+      <div class="shop-item-top">
+        ${item.icon ? `<img src="${item.icon}" class="shop-item-icon" alt="">` : ""}
+        <span class="journey-bag-item ${getItemClass(item.name)}">${item.name}</span>
+      </div>
+      <div class="shop-item-use">${item.use}</div>
+      <div class="shop-item-price"><strong>${item.buy.toLocaleString()}</strong> Pokecoins</div>
+      <div class="shop-item-meta">Bag holds ${item.max} &middot; You own ${owned}</div>
+      ${chip}
+      <code class="shop-item-cmd">!shop buy ${item.cmd}</code>
+    </div>
+  `;
+}
+
+function renderShop(stats) {
+  const container = document.getElementById("tab-shop");
+  if (!container) return;
+
+  const journey = (stats && stats.journey) || {};
+  const bag = journey.pokebag || {};
+  const hasCoins = typeof stats.pokecoins === "number";
+  const coins = hasCoins ? stats.pokecoins : 0;
+
+  const walletNote = hasCoins
+    ? "Earn Pokecoins by watching, catching Pokémon and sticking around for ad breaks. Spend them here."
+    : "Type !pokedex in chat to refresh your wallet.";
+
+  container.innerHTML = `
+    <div class="journey-container">
+
+      <div class="journey-section shop-wallet">
+        <h3>Wallet</h3>
+        <div class="shop-wallet-row">
+          <div class="journey-stat shop-wallet-tile">
+            <strong>${hasCoins ? coins.toLocaleString() : "--"}</strong>
+            <span>Pokecoins</span>
+          </div>
+          <p class="shop-note">${walletNote}</p>
+        </div>
+      </div>
+
+      ${renderPokebag(bag)}
+
+      <div class="journey-section">
+        <h3>Pokémart</h3>
+        <div class="shop-grid">
+          ${SHOP_STOCK.map(item => renderShopItem(item, bag, coins, hasCoins)).join("")}
+        </div>
+      </div>
+
+      <div class="journey-section shop-help">
+        <h3>How To Buy</h3>
+        <div class="command-grid">
+          <code>!shop</code>
+          <code>!shop list</code>
+          <code>!shop buy greatball 8</code>
+          <code>!shop buy egg</code>
+          <code>!shop ultraball</code>
+        </div>
+        <p class="shop-note">
+          Type <code>!shop buy</code> and the item name in chat. Add a number to buy several, or
+          <code>all</code> to fill up. Everything lands straight in your Pokébag, and nothing can be sold back.
+          <code>!shop</code> + an item name checks its price.
+          <a href="tutorial#shop" class="shop-link">Full shop guide</a>
+        </p>
+      </div>
+
+    </div>
+  `;
+}
+
   // ----- COMPANION TAB -----
 
 function renderCompanion(data) {
@@ -655,7 +764,7 @@ function renderCompanion(data) {
   }
 
   const timesPet = companion.times_pet ?? 0;
-  const berriesFed = companion.berries_fed ?? 0;
+  const berriesFed = companion.berries_fed ?? companion.times_fed ?? 0;
 
   // ----- PROGRESS -----
 
@@ -866,6 +975,9 @@ function applyFilters() {
 
     if (activeFilters.special === "friendship" && 
         !pokemon.friendship_requirement)
+      return false;
+
+    if (activeFilters.special === "random" && !pokemon.random_evolution)
       return false;
 
     // Friendship filter
@@ -1242,6 +1354,7 @@ function renderPokemonModalContent(pokemon) {
           ${pokemon.is_hatchable ? `<span class="tag hatchable">Hatchable</span>` : ""}
           ${pokemon.requires_stone ? `<span class="tag stone">Stone</span>` : ""}
           ${pokemon.requires_trade ? `<span class="tag trade">Trade</span>` : ""}
+          ${pokemon.random_evolution ? `<span class="tag random">Random Evolution</span>` : ""}
           ${friendshipTag}
         </div>
 

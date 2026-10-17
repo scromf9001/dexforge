@@ -132,6 +132,8 @@ def run():
     user_chat_messages = safe_int("$usertotalchatmessagessent")
     user_times_tagged = safe_int("$usertotaltimestagged")
     raw_pokebag = "$userpokebagall"
+    # Pokecoins wallet (MIU currency identifier). Unresolved -> literal text -> 0.
+    user_pokecoins = safe_int("$userpokecoins")
 
     buddy_times_pet = safe_int("$usertrackbuddytimespet")
     buddy_times_fed = safe_int("$usertrackbuddyberriesfed")
@@ -145,6 +147,12 @@ def run():
 
     pokemon_metadata = {}
     transition_map = {}
+
+    # Dex numbers whose evolution outcome is rolled at random (CSV column
+    # `random_evolution` = TRUE on the base row and/or its split helper rows,
+    # e.g. Wurmple 265 / 265.5, Clamperl 366 / 366.1). Only the species that
+    # ROLLS is flagged, never the outcomes.
+    random_dex_numbers = set()
 
     with open(pokemon_csv, newline="", encoding="utf-8") as csvfile:
         reader = csv.DictReader(csvfile)
@@ -169,6 +177,10 @@ def run():
             evolution_raw = safe_str(row.get("evolution")).strip()
             evolution_key = evolution_raw.lower()
 
+            is_random = safe_str(row.get("random_evolution")).strip().upper() == "TRUE"
+            if is_random:
+                random_dex_numbers.add(safe_int(row.get("pokedex_number")))
+
             # ---------------------------------------------------
             # HARVEST TRANSITION (ANY ROW THAT HAS EVOLUTION)
             # ---------------------------------------------------
@@ -178,7 +190,8 @@ def run():
                     "parent": name_key,
                     "requirement": safe_str(row.get("requirement")).strip(),
                     "quantity_required": safe_int(row.get("quantity_required"), 0),
-                    "item_required": safe_str(row.get("item_required"), "no").strip().lower() == "yes"
+                    "item_required": safe_str(row.get("item_required"), "no").strip().lower() == "yes",
+                    "random": is_random
                 }
 
             # ---------------------------------------------------
@@ -293,6 +306,7 @@ def run():
             "is_legendary": meta["is_legendary"],
             "is_mythic": meta["is_mythic"],
             "is_hatchable": meta["is_hatchable"],
+            "random_evolution": meta["pokedex_number"] in random_dex_numbers,
 
             "evolution": meta["evolution"],
             "evolution_stage": meta["evolution_stage"],
@@ -792,6 +806,8 @@ def run():
                 "master ball": master_ball
             }
         },
+
+        "pokecoins": user_pokecoins,
 
         "journey": {
             "watch_hours": user_hours,

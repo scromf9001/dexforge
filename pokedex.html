@@ -50,6 +50,10 @@
       <div class="trainer-info">
         <h1 id="trainer-name">Trainer Name</h1>
       </div>
+      <nav class="header-nav">
+        <a href="tutorial" class="header-nav-link">How To Play</a>
+        <a href="index" class="header-nav-link">Home</a>
+      </nav>
     </header>
 
      <!-- Trainer Card (Stats)-->
@@ -61,6 +65,7 @@
         <button class="tab" data-tab="capture">Capture Performance</button>
         <button class="tab" data-tab="journey">Trainer Journey</button>
         <button class="tab" data-tab="companion">Buddy</button>
+        <button class="tab" data-tab="shop">Shop</button>
       </div>
 
       <div class="trainer-content">
@@ -123,6 +128,7 @@
         <div class="tab-panel" id="tab-capture"></div>
         <div class="tab-panel" id="tab-journey"></div>
         <div id="tab-companion" class="tab-panel"></div>
+        <div class="tab-panel" id="tab-shop"></div>
       </div>
     </section>
 
@@ -175,6 +181,7 @@
         <option value="stone">Requires Stone</option>
         <option value="trade">Requires Trade</option>
         <option value="friendship">Requires Friendship</option>
+        <option value="random">Random Evolution</option>
       </select>
 
       <button id="filter-reset">Reset</button>

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trainer's Handbook - Scromf9001's Stream Dex</title>
+  <link rel="stylesheet" href="css/pokedex.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body class="handbook">
+
+  <header class="streamdex-header">
+    <img src="assets/scromf-avatar.png" alt="Scromf Avatar" class="streamdex-avatar">
+    <h1>Trainer's Handbook</h1>
+    <nav class="header-nav">
+      <a href="index" class="header-nav-link">Home</a>
+      <a href="https://twitch.tv/scromf9001" target="_blank" class="header-nav-link">Watch Live</a>
+    </nav>
+  </header>
+
+  <main class="landing-container">
+
+    <!-- QUICK START -->
+    <section class="landing-card quickstart" id="start">
+      <h2>Quick Start</h2>
+      <p>
+        Welcome, Trainer! Everything happens in Twitch chat while Scromf is live.
+        Five steps and you are playing:
+      </p>
+      <ol class="quickstart-steps">
+        <li><span class="step-num">1</span><div><strong>A wild Pokémon appears on stream.</strong> Type <code>!catch</code> in chat. That is it, you are a Trainer now.</div></li>
+        <li><span class="step-num">2</span><div><strong>Check your collection.</strong> Type <code>!pokedex</code> and the bot posts a link to your personal Pokédex page: every Pokémon you own, your stats and your bag.</div></li>
+        <li><span class="step-num">3</span><div><strong>Collect 3 of the same Pokémon</strong> and type <code>!evolve pikachu</code> (or whichever you have 3 of). Watch it evolve live on stream.</div></li>
+        <li><span class="step-num">4</span><div><strong>Earn Pokecoins</strong> just by watching and catching. Spend them at the Pokémart with <code>!shop buy greatball</code> for better odds.</div></li>
+        <li><span class="step-num">5</span><div><strong>Pick a Buddy.</strong> Type <code>!buddy equip eevee</code> (any Pokémon you own) and it walks next to your name in chat.</div></li>
+      </ol>
+      <p class="quickstart-note">
+        New here? Say hi in chat and ask Scromf for your <strong>starter pack</strong>: Pokecoins and a few Great Balls to get going.
+        Stuck at any point? Type <code>!pokemon</code> in chat for a quick reminder.
+      </p>
+    </section>
+
+    <!-- JUMP NAV -->
+    <nav class="handbook-nav" id="handbook-nav">
+      <a href="#catch">Catch</a>
+      <a href="#pokedex">Pokédex</a>
+      <a href="#pokebag">Pokébag</a>
+      <a href="#evolve">Evolve</a>
+      <a href="#trade">Trade</a>
+      <a href="#sell">Sell</a>
+      <a href="#buddy">Buddy</a>
+      <a href="#egg">Eggs</a>
+      <a href="#shop">Shop</a>
+      <a href="#pokecoins">Pokecoins</a>
+      <a href="#bonus">Bonus</a>
+    </nav>
+
+    <!-- CATCH -->
+    <section class="landing-card command-card theme-catch" id="catch">
+      <h2><code>!catch</code> Catching Pokémon</h2>
+      <p>Wild Pokémon appear at random while Scromf streams. When one shows up on screen, throw a ball.</p>
+      <table class="command-table">
+        <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
+        <tbody>
+          <tr><td><code>!catch</code></td><td>Throws a free Poké Ball. Poké Balls never run out.</td></tr>
+          <tr><td><code>!catch gb</code></td><td>Throws a Great Ball from your bag. Better odds. Also <code>!catch great ball</code> or <code>!catch greatball</code>.</td></tr>
+          <tr><td><code>!catch ub</code></td><td>Throws an Ultra Ball. Even better odds. Also <code>!catch ultra ball</code> or <code>!catch ultraball</code>.</td></tr>
+          <tr><td><code>!catch mb</code></td><td>Throws a Master Ball. Guaranteed catch. Also <code>!catch master ball</code> or <code>!catch masterball</code>.</td></tr>
+        </tbody>
+      </table>
+      <h3>Good to know</h3>
+      <ul class="about-list">
+        <li>One throw per wild Pokémon. Pick your ball wisely.</li>
+        <li>Several Trainers can catch the same Pokémon. You are not stealing anyone's catch.</li>
+        <li>Results are announced when the encounter ends, so hang around for the reveal.</li>
+        <li>If you ask for a ball you do not have, a free Poké Ball is thrown instead.</li>
+        <li>Legendary and Mythic Pokémon are very hard to catch. When someone lands one, everyone in chat gets Pokecoins.</li>
+        <li>Get Great, Ultra and Master Balls from the <a href="#shop">Pokémart</a> or with channel points.</li>
+      </ul>
+    </section>
+
+    <!-- POKEDEX -->
+    <section class="landing-card command-card theme-pokedex" id="pokedex">
+      <h2><code>!pokedex</code> Your Pokédex</h2>
+      <p>Everything you catch is yours forever. <code>!dex</code> works as a shortcut for every command below.</p>
+      <table class="command-table">
+        <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
+        <tbody>
+          <tr><td><code>!pokedex</code></td><td>Refreshes your personal Pokédex website and posts your link in chat. Give it a moment to build.</td></tr>
+          <tr><td><code>!pokedex total</code></td><td>Your totals in one line: Pokémon caught, unique species, evolutions completed.</td></tr>
+          <tr><td><code>!pokedex eevee</code></td><td>How many you own of a Pokémon and its whole evolution line.</td></tr>
+          <tr><td><code>!pokedex evolve</code></td><td>Everything you can evolve right now.</td></tr>
+          <tr><td><code>!pokedex stone</code></td><td>What you can evolve right now with a stone, and which stone.</td></tr>
+          <tr><td><code>!pokedex friendship</code></td><td>Friendship evolutions you are ready for, or how close you are.</td></tr>
+          <tr><td><code>!pokedex trade</code></td><td>What you could evolve by trading right now.</td></tr>
+          <tr><td><code>!pokedex legendary</code></td><td>Your Legendary collection, region by region. Also <code>!pokedex mythic</code> and <code>!pokedex starter</code>.</td></tr>
+          <tr><td><code>!pokedex egg</code></td><td>Which Pokémon can hatch from an Egg.</td></tr>
+          <tr><td><code>!pokedex tradeable</code></td><td>Which Pokémon only evolve through a trade.</td></tr>
+          <tr><td><code>!dex kanto</code></td><td>Your completion for one region. Also <code>johto</code>, <code>hoenn</code>, or <code>!dex regions</code> for all of them.</td></tr>
+        </tbody>
+      </table>
+      <h3>Good to know</h3>
+      <ul class="about-list">
+        <li>Your Pokédex website shows every Pokémon, your region progress, type mastery, catch stats, Trainer Journey, Buddy and Shop.</li>
+        <li>Use the filters on the website to find what is still missing, what is evolvable now, or who evolves randomly.</li>
+        <li>Mythic Pokémon like Mew and Celebi never appear in the wild. They come from special stream events.</li>
+      </ul>
+    </section>
+
+    <!-- POKEBAG -->
+    <section class="landing-card command-card theme-pokedex" id="pokebag">
+      <h2><code>!pokebag</code> Your Pokébag</h2>
+      <p>Balls, stones, berries and eggs live in your bag, together with your Pokecoins.</p>
+      <table class="command-table">
+        <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
+        <tbody>
+          <tr><td><code>!pokebag</code></td><td>Lists every item you hold and your Pokecoins balance.</td></tr>
+        </tbody>
+      </table>
+      <h3>Good to know</h3>
+      <ul class="about-list">
+        <li>Your bag has limits: 99 Great Balls, 99 Ultra Balls, 10 Master Balls, 3 Berries, 3 of each Stone, 1 Egg.</li>
+        <li>Your bag is also shown on the Shop tab of your Pokédex website.</li>
+      </ul>
+    </section>
+
+    <!-- EVOLVE -->
+    <section class="landing-card command-card theme-evolve" id="evolve">
+      <h2><code>!evolve</code> Evolution</h2>
+      <p>Collect copies of a Pokémon, then evolve them live on stream with sound and animation.</p>
+      <table class="command-table">
+        <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
+        <tbody>
+          <tr><td><code>!evolve charmander</code></td><td>Evolves one Charmander into Charmeleon. Uses up 3 Charmander.</td></tr>
+          <tr><td><code>!evolve 7 meowth</code></td><td>Evolves seven at once. Also <code>!evolve meowth 7</code>.</td></tr>
+          <tr><td><code>!evolve meowth all</code></td><td>Evolves as many as you can. Also <code>max</code>.</td></tr>
+          <tr><td><code>!evolve eevee water</code></td><td>Picks a branch for Pokémon with several evolutions. Eevee: <code>water</code>, <code>electric</code>, <code>fire</code>, <code>psychic</code>, <code>dark</code>. Gloom: <code>sun</code> or <code>leaf</code>.</td></tr>
+          <tr><td><code>!evolve</code></td><td>Short help in chat.</td></tr>
+        </tbody>
+      </table>
+      <h3>The rules</h3>
+      <ul class="about-list">
+        <li><strong>Copies.</strong> Most Pokémon need 3 copies per evolution. A few need more: Magikarp 20, Swablu 20, Feebas 10, Nincada 9.</li>
+        <li><strong>Stones.</strong> Some need a stone from your bag as well. One stone per evolution, and it is used up.</li>
+        <li><strong>Friendship.</strong> Some need a bond: raise that Pokémon's friendship to 2,500 with the <a href="#buddy">Buddy system</a>. Each evolution then spends 600 friendship.</li>
+        <li><strong>Trade.</strong> Some only evolve through a <a href="#trade">trade</a> with another Trainer.</li>
+        <li><strong>Random.</strong> Wurmple becomes Silcoon or Cascoon, Clamperl becomes Huntail or Gorebyss, and you do not get to choose. Clamperl also needs a trade.</li>
+        <li><strong>Nincada</strong> evolves into Ninjask, and a Shedinja appears too.</li>
+        <li>If a wild Pokémon is on screen, your evolution waits until the encounter finishes.</li>
+      </ul>
+      <div class="rule-grid">
+        <div class="rule-box">
+          <h4>Stone evolutions</h4>
+          <ul>
+            <li><span class="journey-bag-item item-electric">Thunder</span> Pikachu, Eevee (Jolteon)</li>
+            <li><span class="journey-bag-item item-fairy">Moon</span> Nidorina, Nidorino, Clefairy, Jigglypuff, Skitty</li>
+            <li><span class="journey-bag-item item-fire">Fire</span> Vulpix, Growlithe, Eevee (Flareon)</li>
+            <li><span class="journey-bag-item item-grass">Leaf</span> Gloom (Vileplume), Weepinbell, Nuzleaf</li>
+            <li><span class="journey-bag-item item-sun">Sun</span> Gloom (Bellossom), Sunkern</li>
+            <li><span class="journey-bag-item item-water">Water</span> Poliwhirl (Poliwrath), Shellder, Staryu, Eevee (Vaporeon), Lombre</li>
+          </ul>
+        </div>
+        <div class="rule-box">
+          <h4>Friendship evolutions</h4>
+          <ul>
+            <li>Golbat, Chansey, Pichu, Cleffa, Igglybuff, Togepi</li>
+            <li>Eevee into Espeon (<code>psychic</code>) or Umbreon (<code>dark</code>)</li>
+          </ul>
+          <h4>Trade evolutions</h4>
+          <ul>
+            <li>Kadabra, Machoke, Graveler, Haunter, Onix, Seadra, Scyther, Porygon</li>
+            <li>Poliwhirl into Politoed, Slowpoke into Slowking, Clamperl</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRADE -->
+    <section class="landing-card command-card theme-trade" id="trade">
+      <h2><code>!trade</code> Trading</h2>
+      <p>Swap Pokémon or items with another Trainer. Some Pokémon only evolve this way.</p>
+      <table class="command-table">
+        <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
+        <tbody>
+          <tr><td><code>!trade @friend kadabra 3</code></td><td>Offers 3 Kadabra to that Trainer. Leave the number off to offer one.</td></tr>
+          <tr><td><code>!trade machoke 3</code></td><td>Your partner answers with what they put in. They have a minute to reply.</td></tr>
+          <tr><td><code>!trade @friend kadabra 3</code></td><td>Type your offer again to confirm. The swap happens.</td></tr>
+        </tbody>
+      </table>
+      <h3>Good to know</h3>
+      <ul class="about-list">
+        <li>One trade at a time in chat. Wait for the current one to finish.</li>
+        <li>Trade evolutions are automatic: if you both swap trade-evolvers and each of you ends up with 3 or more, both evolve on the spot.</li>
+        <li>Mew and Celebi cannot be traded.</li>
+      </ul>
+    </section>
+
+    <!-- SELL -->
+    <section class="landing-card command-card theme-trade" id="sell">
+      <h2><code>!sell</code> Releasing Pokémon for Pokecoins</h2>
+      <p>Too many Raticate? Release the spares into the wild and get Pokecoins back.</p>
+      <table class="command-table">
+        <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
+        <tbody>
+          <tr><td><code>!sell list</code></td><td>Everything you can release right now, most valuable first.</td></tr>
+          <tr><td><code>!sell raticate</code></td><td>Releases one Raticate and pays you.</td></tr>
+          <tr><td><code>!sell raticate 2</code></td><td>Releases two. Also <code>!sell 2 raticate</code>.</td></tr>
+          <tr><td><code>!sell raticate all</code></td><td>Releases every spare copy, always keeping one.</td></tr>
+        </tbody>
+      </table>
+      <h3>Good to know</h3>
+      <ul class="about-list">
+        <li>Only fully evolved Pokémon can be released, and you always keep at least one copy.</li>
+        <li>Rarer Pokémon pay more, up to 10,000 Pokecoins for a Legendary. Pokémon evolved with a stone pay extra.</li>
+        <li>Eevee, Mew, Celebi, Jirachi, Deoxys and the Unown ! and ? can never be released.</li>
+      </ul>
+    </section>
+
+    <!-- BUDDY -->
+    <section class="landing-card command-card theme-buddy" id="buddy">
+      <h2><code>!buddy</code> Your Buddy</h2>
+      <p>Equip one of your Pokémon as a Buddy. It walks next to your name in chat and your friendship grows while you watch together.</p>
+      <table class="command-table">
+        <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
+        <tbody>
+          <tr><td><code>!buddy</code></td><td>Shows your current Buddy, or how to pick one.</td></tr>
+          <tr><td><code>!buddy equip eevee</code></td><td>Makes a Pokémon you own your Buddy. Friendship you earned with your old Buddy is kept.</td></tr>
+          <tr><td><code>!buddy greet</code></td><td>Say hello. Banks the friendship you have earned so far and your Buddy greets you back.</td></tr>
+          <tr><td><code>!buddy pet</code></td><td>+10 friendship. Uses a Pet Token. Tokens turn up in your bag while you watch.</td></tr>
+          <tr><td><code>!buddy feed</code></td><td>+25 friendship. Uses a Berry from your bag.</td></tr>
+          <tr><td><code>!buddy golbat</code></td><td>Your friendship points with any Pokémon line you name.</td></tr>
+        </tbody>
+      </table>
+      <h3>Good to know</h3>
+      <ul class="about-list">
+        <li>Friendship is shared across a whole evolution line: points earned with Zubat count for Golbat too.</li>
+        <li>Friendship unlocks evolutions for Golbat, Chansey, Pichu, Cleffa, Igglybuff, Togepi and Eevee's Espeon and Umbreon.</li>
+        <li>Berries come from the <a href="#shop">Pokémart</a> or channel points.</li>
+      </ul>
+    </section>
+
+    <!-- EGG -->
+    <section class="landing-card command-card theme-egg" id="egg">
+      <h2><code>!egg</code> Eggs</h2>
+      <p>Eggs hatch into baby Pokémon you cannot catch in the wild.</p>
+      <table class="command-table">
+        <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
+        <tbody>
+          <tr><td><code>!egg incubate</code></td><td>Starts incubating an Egg from your bag.</td></tr>
+          <tr><td><code>!egg</code></td><td>Shows how long is left. When the Egg is ready, this hatches it live on stream.</td></tr>
+        </tbody>
+      </table>
+      <h3>Good to know</h3>
+      <ul class="about-list">
+        <li>An Egg hatches after 20 hours of watching. Time only counts while you are in the stream.</li>
+        <li>One Egg at a time: hatch it before you pick up another.</li>
+        <li>What can hatch: Pichu, Cleffa, Igglybuff, Togepi, Tyrogue, Smoochum, Elekid, Magby, Azurill, Wynaut.</li>
+        <li>Get Eggs from the <a href="#shop">Pokémart</a> or with channel points. A shop Egg starts incubating by itself.</li>
+      </ul>
+    </section>
+
+    <!-- SHOP -->
+    <section class="landing-card command-card theme-shop" id="shop">
+      <h2><code>!shop</code> The Pokémart</h2>
+      <p>Spend your Pokecoins on balls, stones, berries and eggs. Everything you buy goes straight into your Pokébag, and all sales are final: nothing can be sold back. <code>!pokemart</code>, <code>!pokeshop</code> and <code>!mart</code> work too.</p>
+      <table class="command-table">
+        <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
+        <tbody>
+          <tr><td><code>!shop</code></td><td>Short help: how to buy and check prices.</td></tr>
+          <tr><td><code>!shop list</code></td><td>Every item on the shelf with its price.</td></tr>
+          <tr><td><code>!shop ultraball</code></td><td>Price of one item, how many you hold and how many more you can afford.</td></tr>
+          <tr><td><code>!shop buy greatball</code></td><td>Buys one.</td></tr>
+          <tr><td><code>!shop buy greatball 8</code></td><td>Buys eight. Also <code>!shop buy 8 greatball</code> or simply <code>!shop greatball 8</code>.</td></tr>
+          <tr><td><code>!shop buy greatball all</code></td><td>Buys as many as your wallet and bag allow. Also <code>max</code>.</td></tr>
+        </tbody>
+      </table>
+      <h3>Price list</h3>
+      <table class="command-table price-table">
+        <thead><tr><th>Item</th><th>Price</th><th>Bag holds</th></tr></thead>
+        <tbody>
+          <tr><td><span class="journey-bag-item item-great">Great Ball</span></td><td>250</td><td>99</td></tr>
+          <tr><td><span class="journey-bag-item item-ultra">Ultra Ball</span></td><td>1,000</td><td>99</td></tr>
+          <tr><td><span class="journey-bag-item item-master">Master Ball</span></td><td>60,000</td><td>10</td></tr>
+          <tr><td><span class="journey-bag-item item-berry">Berry</span></td><td>1,000</td><td>3</td></tr>
+          <tr><td><span class="journey-bag-item item-fire">Fire</span> <span class="journey-bag-item item-water">Water</span> <span class="journey-bag-item item-electric">Thunder</span> <span class="journey-bag-item item-grass">Leaf</span> <span class="journey-bag-item item-fairy">Moon</span> <span class="journey-bag-item item-sun">Sun Stone</span></td><td>2,500</td><td>3 each</td></tr>
+          <tr><td><span class="journey-bag-item item-egg">Egg</span></td><td>2,500</td><td>1</td></tr>
+        </tbody>
+      </table>
+      <h3>Good to know</h3>
+      <ul class="about-list">
+        <li>Spelling is relaxed: <code>great ball</code>, <code>greatball</code>, <code>great</code> and <code>gb</code> all work. Plurals too. <code>thunder</code> or <code>electric</code>, <code>leaf</code> or <code>grass</code>, <code>moon</code>, <code>sun</code>, <code>fire</code>, <code>water</code>.</li>
+        <li><code>!shop buy stone</code> asks which stone you mean.</li>
+        <li>You never pay for something you cannot carry: if your bag is full, nothing is charged.</li>
+        <li>Buying a Master Ball is a big moment. The whole stream will know.</li>
+        <li>Poké Balls are free and are not in the shop. God Balls cannot be bought at all.</li>
+      </ul>
+    </section>
+
+    <!-- POKECOINS -->
+    <section class="landing-card command-card theme-shop" id="pokecoins">
+      <h2><code>!pokecoins</code> Pokecoins</h2>
+      <p>The currency of the stream. <code>!coins</code> works too.</p>
+      <table class="command-table">
+        <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
+        <tbody>
+          <tr><td><code>!pokecoins</code></td><td>Your balance and a reminder of how to earn more.</td></tr>
+          <tr><td><code>!givepokecoins @friend 500</code></td><td>Tips another Trainer from your own wallet.</td></tr>
+          <tr><td><code>!win coins</code></td><td>How many Pokecoins you have won from Scromf's giveaways and challenges.</td></tr>
+        </tbody>
+      </table>
+      <h3>How to earn Pokecoins</h3>
+      <ul class="about-list">
+        <li><strong>Watch.</strong> Pokecoins trickle in while you are in the stream. Subscribers earn a little extra.</li>
+        <li><strong>Catch.</strong> Every catch pays. Catching a Legendary pays a lot, and everyone in chat gets a cut.</li>
+        <li><strong>Stay through ad breaks.</strong> Everyone in chat gets Pokecoins after an ad break, subscribers get double.</li>
+        <li><strong>Claim the bonus</strong> when it opens, see <a href="#bonus">!bonus</a>.</li>
+        <li><strong>Release spares</strong> with <a href="#sell">!sell</a>.</li>
+        <li><strong>Win.</strong> Scromf hands out Pokecoins for predictions, challenges and good answers to the question of the day.</li>
+      </ul>
+    </section>
+
+    <!-- BONUS -->
+    <section class="landing-card command-card theme-shop" id="bonus">
+      <h2><code>!bonus</code> Bonus Pokecoins</h2>
+      <p>Every so often a bonus opens up for everyone watching. Claim it before it closes.</p>
+      <table class="command-table">
+        <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
+        <tbody>
+          <tr><td><code>!bonus</code></td><td>Claims your bonus Pokecoins. Also <code>!chest</code> or <code>!claim</code>.</td></tr>
+        </tbody>
+      </table>
+      <h3>Good to know</h3>
+      <ul class="about-list">
+        <li>Subscribers get a bigger pouch, and higher tiers get more.</li>
+        <li>You can only claim each bonus once. The bot tells you when the next one is open.</li>
+      </ul>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="landing-card">
+      <h2>Ready, Trainer?</h2>
+      <p>Type <code>!pokedex</code> in chat and the bot posts the link to your personal Pokédex. Catch them all.</p>
+      <div class="landing-buttons">
+        <a href="https://twitch.tv/scromf9001" target="_blank" class="landing-btn primary">Watch Live on Twitch</a>
+        <a href="index" class="landing-btn secondary">Back Home</a>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    // Highlight the jump-nav pill for the section currently on screen.
+    (function () {
+      const links = Array.from(document.querySelectorAll("#handbook-nav a"));
+      const byId = {};
+      links.forEach(a => { byId[a.getAttribute("href").slice(1)] = a; });
+
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          links.forEach(a => a.classList.remove("active"));
+          const link = byId[entry.target.id];
+          if (link) link.classList.add("active");
+        });
+      }, { rootMargin: "-40% 0px -50% 0px" });
+
+      document.querySelectorAll(".command-card").forEach(s => observer.observe(s));
+    })();
+  </script>
+</body>
+</html>

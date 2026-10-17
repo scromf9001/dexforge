@@ -154,6 +154,256 @@
   background: #fff5f5;
 }
 
+
+/* =========================
+   TRAINER'S HANDBOOK (tutorial.html)
+========================= */
+
+.quickstart {
+  border-color: #cc0000;
+  box-shadow: 0 6px 0 #cc0000;
+}
+
+.quickstart-steps {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.quickstart-steps li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: #fff;
+  border: 2px solid #333;
+  border-radius: 12px;
+  padding: 12px 14px;
+  line-height: 1.7;
+}
+
+.step-num {
+  flex: 0 0 28px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #cc0000;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  border: 2px solid #333;
+}
+
+.quickstart-note {
+  margin: 0;
+  line-height: 1.8;
+}
+
+.landing-card code,
+.command-table code {
+  background: #222;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.handbook-nav {
+  position: sticky;
+  top: 10px;
+  z-index: 50;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px 12px;
+  background: #fff;
+  border: 3px solid #333;
+  border-radius: 999px;
+}
+
+.handbook-nav a {
+  font-family: inherit;
+  font-size: 9px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 2px solid #333;
+  background: #eee;
+  color: #111;
+  text-decoration: none;
+}
+
+.handbook-nav a:hover,
+.handbook-nav a.active {
+  background: #cc0000;
+  color: #fff;
+}
+
+.command-card {
+  scroll-margin-top: 80px;
+  border-top-width: 10px;
+}
+
+.command-card h2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.command-card h2 code {
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.command-card h3 {
+  font-size: 11px;
+  margin: 20px 0 10px;
+}
+
+.command-card .about-list li,
+.quickstart .about-list li {
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.theme-catch   { border-top-color: #e53935; }
+.theme-pokedex { border-top-color: #1e88e5; }
+.theme-evolve  { border-top-color: #8e24aa; }
+.theme-trade   { border-top-color: #26a69a; }
+.theme-buddy   { border-top-color: #e91e63; }
+.theme-egg     { border-top-color: #8bc34a; }
+.theme-shop    { border-top-color: #fbc02d; }
+
+.command-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #fff;
+  border: 2px solid #333;
+  border-radius: 12px;
+  overflow: hidden;
+  font-size: 10px;
+  line-height: 1.7;
+}
+
+.command-table th,
+.command-table td {
+  text-align: left;
+  padding: 10px 12px;
+  vertical-align: top;
+  border-bottom: 2px solid #ddd;
+  overflow-wrap: break-word;
+}
+
+.command-table code {
+  white-space: normal;
+  line-height: 2;
+}
+
+.command-table th {
+  background: #f4f4f4;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.command-table tr:last-child td {
+  border-bottom: none;
+}
+
+.command-table td:first-child {
+  width: 36%;
+}
+
+.price-table td:first-child {
+  white-space: normal;
+}
+
+.price-table .journey-bag-item {
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+}
+
+.rule-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.rule-box {
+  background: #fff;
+  border: 2px solid #333;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.rule-box h4 {
+  font-size: 10px;
+  margin: 0 0 10px;
+}
+
+.rule-box h4 + ul + h4 {
+  margin-top: 16px;
+}
+
+.rule-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  line-height: 1.7;
+}
+
+.rule-box .journey-bag-item {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+@media (max-width: 480px) {
+  /* Stack each row: command on top, explanation under it */
+  .command-table thead {
+    display: none;
+  }
+
+  .command-table tr,
+  .command-table td {
+    display: block;
+    width: auto;
+  }
+
+  .command-table td:first-child {
+    width: auto;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .command-table td:last-child {
+    padding-top: 6px;
+  }
+
+  .command-table tr:last-child td:last-child {
+    border-bottom: none;
+  }
+
+  .landing-buttons {
+    flex-wrap: wrap;
+  }
+
+  .handbook-nav {
+    border-radius: 16px;
+  }
+}
+
 /* =========================
    LOADING & ERROR STATES
 ========================= */
@@ -227,6 +477,45 @@ body {
   border-radius: 50%;
   margin-right: 20px;
   border: 4px solid white;
+}
+
+/* Header navigation pills (Pokédex page, landing page, handbook) */
+.header-nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-left: auto;
+  align-items: center;
+}
+
+.header-nav-link {
+  font-family: inherit;
+  font-size: 9px;
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 10px;
+  border: 2px solid #fff;
+  border-radius: 999px;
+  background: transparent;
+  white-space: nowrap;
+}
+
+.header-nav-link:hover,
+.header-nav-link.active {
+  background: #fff;
+  color: #cc0000;
+}
+
+@media (max-width: 480px) {
+  .trainer-header,
+  .streamdex-header {
+    flex-wrap: wrap;
+  }
+
+  .header-nav {
+    width: 100%;
+    margin: 12px 0 0;
+  }
 }
 
 
@@ -750,6 +1039,147 @@ body {
   background: #C2185B;  /* rich magenta */
   color: white;
 }
+.item-egg {
+  background: #F5E6B3;  /* cream shell, dark text */
+  color: #222;
+}
+/* Any item without its own colour: dark pill so the text stays readable */
+.item-default {
+  background: #555;
+  color: #fff;
+}
+
+/* =========================
+   SHOP TAB
+========================= */
+
+.shop-wallet-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.shop-wallet-tile {
+  min-width: 180px;
+}
+
+.shop-wallet-tile strong {
+  font-size: 18px;
+  color: #cc0000;
+}
+
+.shop-note {
+  font-size: 9px;
+  opacity: 0.75;
+  line-height: 1.7;
+  margin: 0;
+  flex: 1;
+  min-width: 160px;
+}
+
+.shop-note code {
+  background: #222;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-size: 9px;
+}
+
+.shop-link {
+  color: #cc0000;
+  font-weight: 600;
+}
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 12px;
+}
+
+.shop-item {
+  background: #fff;
+  border: 2px solid #333;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.shop-item-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.shop-item-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.shop-item-use {
+  font-size: 8px;
+  opacity: 0.7;
+  line-height: 1.5;
+}
+
+.shop-item-price {
+  font-size: 9px;
+}
+
+.shop-item-price strong {
+  font-size: 13px;
+}
+
+.shop-item-meta {
+  font-size: 8px;
+  opacity: 0.7;
+  line-height: 1.5;
+}
+
+.shop-chip {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 8px;
+  font-weight: 600;
+  background: #eee;
+  color: #222;
+  border: 2px solid #333;
+}
+
+.shop-chip.ok {
+  background: #78C850;
+  color: #fff;
+}
+
+.shop-chip.short {
+  background: #fff;
+  color: #cc0000;
+  border-color: #cc0000;
+}
+
+.shop-chip.full {
+  background: #FBC02D;
+  color: #222;
+}
+
+.shop-item-cmd {
+  margin-top: auto;
+  background: #222;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 8px;
+  font-size: 9px;
+  align-self: flex-start;
+}
+
+.shop-help .command-grid {
+  margin-bottom: 10px;
+}
 
 /* =========================
    COMPANION TAB
@@ -1089,6 +1519,7 @@ body {
 .tag.hatchable { background: #8bc34a; color: white; }
 .tag.stone { background: #607d8b; color: white; }
 .tag.trade { background: #26a69a; color: white; }
+.tag.random { background: #ff7043; color: white; }
 
 .tag.friendship {
   background: #ffe6f0;
