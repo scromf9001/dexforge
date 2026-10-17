@@ -3,13 +3,13 @@
     "username": "waluraniumeaterfemboylove",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/00499f73-3f43-4a92-8a22-420eb881c600-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-10-17T19:15:10.558371+00:00",
+  "updated_at": "2026-10-17T21:31:18.462598+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 38,
-      "total_owned": 55,
-      "completion_percent": 9.84,
+      "unique_owned": 40,
+      "total_owned": 59,
+      "completion_percent": 10.36,
       "variants_available": 33,
       "variants_owned": 0
     },
@@ -17,18 +17,18 @@
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 23,
+        "owned": 24,
         "total": 151,
-        "completion_percent": 15.23,
+        "completion_percent": 15.89,
         "total_lines": 78,
         "lines_completed": 0
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 12,
+        "owned": 13,
         "total": 100,
-        "completion_percent": 12.0,
+        "completion_percent": 13.0,
         "total_lines": 51,
         "lines_completed": 2
       },
@@ -43,7 +43,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 38,
+      "total_evolutions_owned": 40,
       "total_evolutions_available": 386,
       "lines_completed": 3,
       "total_lines": 202,
@@ -53,15 +53,15 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 35,
+        "1": 37,
         "2": 3
       }
     },
     "types": {
       "grass": {
-        "owned": 2,
+        "owned": 3,
         "total": 33,
-        "completion_percent": 6.06
+        "completion_percent": 9.09
       },
       "fire": {
         "owned": 2,
@@ -69,9 +69,9 @@
         "completion_percent": 7.69
       },
       "water": {
-        "owned": 6,
+        "owned": 7,
         "total": 70,
-        "completion_percent": 8.57
+        "completion_percent": 10.0
       },
       "bug": {
         "owned": 7,
@@ -149,20 +149,20 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 122,
-      "success": 52,
-      "accuracy_percent": 42.62,
+      "thrown": 129,
+      "success": 56,
+      "accuracy_percent": 43.41,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 4,
+          "thrown": 5,
           "success": 0,
           "accuracy_percent": 0.0
         },
         "great ball": {
-          "thrown": 118,
-          "success": 52,
-          "accuracy_percent": 44.07
+          "thrown": 124,
+          "success": 56,
+          "accuracy_percent": 45.16
         },
         "ultra ball": {
           "thrown": 0,
@@ -176,10 +176,10 @@
         }
       }
     },
-    "pokecoins": 1534,
+    "pokecoins": 2949,
     "journey": {
-      "watch_hours": 66,
-      "follow_age": "9 Month(s), 12 Day(s)",
+      "watch_hours": 68,
+      "follow_age": "9 Month(s), 13 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
       "subs_gifted": 0,
@@ -188,20 +188,19 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 59,
-      "chat_messages": 1704,
-      "commands_run": 2603,
-      "times_tagged": 194,
+      "chat_messages": 1742,
+      "commands_run": 2683,
+      "times_tagged": 204,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 3.28,
-        "great ball": 96.72,
+        "poke ball": 3.88,
+        "great ball": 96.12,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 6,
         "Leaf Stone": 1,
         "Ultra Ball": 5
       }
@@ -8474,7 +8473,7 @@
     },
     {
       "name": "Grimer",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 88,
       "form": "",
@@ -9404,8 +9403,8 @@
     },
     {
       "name": "Krabby",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 98,
       "form": "",
       "is_variant": false,
@@ -16462,7 +16461,7 @@
     },
     {
       "name": "Natu",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 177,
       "form": "",
@@ -17406,8 +17405,8 @@
     },
     {
       "name": "Hoppip",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 187,
       "form": "",
       "is_variant": false,
