@@ -3,12 +3,12 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-17T21:03:51.391684+00:00",
+  "updated_at": "2026-10-17T21:23:13.746612+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 46,
-      "total_owned": 63,
+      "total_owned": 62,
       "completion_percent": 11.92,
       "variants_available": 33,
       "variants_owned": 0
@@ -26,18 +26,18 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 17,
+        "owned": 18,
         "total": 100,
-        "completion_percent": 17.0,
+        "completion_percent": 18.0,
         "total_lines": 51,
         "lines_completed": 3
       },
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 6,
+        "owned": 5,
         "total": 135,
-        "completion_percent": 4.44,
+        "completion_percent": 3.7,
         "total_lines": 73,
         "lines_completed": 1
       }
@@ -60,9 +60,9 @@
     },
     "types": {
       "grass": {
-        "owned": 5,
+        "owned": 4,
         "total": 33,
-        "completion_percent": 15.15
+        "completion_percent": 12.12
       },
       "fire": {
         "owned": 3,
@@ -90,9 +90,9 @@
         "completion_percent": 11.11
       },
       "electric": {
-        "owned": 4,
+        "owned": 5,
         "total": 19,
-        "completion_percent": 21.05
+        "completion_percent": 26.32
       },
       "ground": {
         "owned": 4,
@@ -150,9 +150,9 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 244,
-      "success": 91,
-      "accuracy_percent": 37.3,
+      "thrown": 245,
+      "success": 92,
+      "accuracy_percent": 37.55,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
@@ -161,9 +161,9 @@
           "accuracy_percent": 28.79
         },
         "great ball": {
-          "thrown": 105,
-          "success": 48,
-          "accuracy_percent": 45.71
+          "thrown": 106,
+          "success": 49,
+          "accuracy_percent": 46.23
         },
         "ultra ball": {
           "thrown": 7,
@@ -177,9 +177,9 @@
         }
       }
     },
-    "pokecoins": 5381,
+    "pokecoins": 5661,
     "journey": {
-      "watch_hours": 237,
+      "watch_hours": 238,
       "follow_age": "5 Month(s), 24 Day(s)",
       "sub_age": "<1 Day",
       "sub_months": 2,
@@ -189,20 +189,20 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 64,
-      "chat_messages": 4418,
-      "commands_run": 6381,
-      "times_tagged": 1268,
-      "times_evolved": 6,
+      "chat_messages": 4433,
+      "commands_run": 6415,
+      "times_tagged": 1279,
+      "times_evolved": 7,
       "times_traded": 22,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 54.1,
-        "great ball": 43.03,
-        "ultra ball": 2.87,
+        "poke ball": 53.88,
+        "great ball": 43.27,
+        "ultra ball": 2.86,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 92
+        "Great Ball": 91
       }
     }
   },
@@ -1965,7 +1965,7 @@
     },
     {
       "name": "Rattata",
-      "count": 2,
+      "count": 1,
       "owned": true,
       "pokedex_number": 19,
       "form": "",
@@ -3375,7 +3375,7 @@
     },
     {
       "name": "Clefairy",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 35,
       "form": "",
@@ -3458,7 +3458,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0,
@@ -17405,7 +17405,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 3,
+      "count": 1,
       "owned": true,
       "pokedex_number": 187,
       "form": "",
@@ -17500,14 +17500,14 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Skiploom",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 188,
       "form": "",
@@ -23985,8 +23985,8 @@
     },
     {
       "name": "Elekid",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 239,
       "form": "",
       "is_variant": false,
@@ -25167,8 +25167,8 @@
     },
     {
       "name": "Treecko",
-      "count": 1,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 252,
       "form": "",
       "is_variant": false,
@@ -37523,7 +37523,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1
+      "friendship_points": 21
     },
     {
       "name": "Deoxys",
@@ -37829,7 +37829,7 @@
     "primary_type": "Steel",
     "secondary_type": "Psychic",
     "evolution_line_id": "202",
-    "friendship_points": 1,
+    "friendship_points": 21,
     "times_pet": 18,
     "times_fed": 0
   }
