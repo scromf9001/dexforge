@@ -48,7 +48,7 @@
       <a href="#pokebag">Pokébag</a>
       <a href="#evolve">Evolve</a>
       <a href="#trade">Trade</a>
-      <a href="#sell">Sell</a>
+      <a href="#sell">Release</a>
       <a href="#buddy">Buddy</a>
       <a href="#egg">Eggs</a>
       <a href="#shop">Shop</a>
@@ -142,7 +142,7 @@
       <ul class="about-list">
         <li><strong>Copies.</strong> Most Pokémon need 3 copies per evolution. A few need more: Magikarp 20, Swablu 20, Feebas 10, Nincada 9.</li>
         <li><strong>Stones.</strong> Some need a stone from your bag as well. One stone per evolution, and it is used up.</li>
-        <li><strong>Friendship.</strong> Some need a bond: raise that Pokémon's friendship to 2,500 with the <a href="#buddy">Buddy system</a>. Each evolution then spends 600 friendship.</li>
+        <li><strong>Friendship.</strong> Some need a bond: raise that Pokémon's friendship to 2,500 with the <a href="#buddy">Buddy system</a>. Each evolution will spend the 2,500 friendship points.</li>
         <li><strong>Trade.</strong> Some only evolve through a <a href="#trade">trade</a> with another Trainer.</li>
         <li><strong>Random.</strong> Wurmple becomes Silcoon or Cascoon, Clamperl becomes Huntail or Gorebyss, and you do not get to choose. Clamperl also needs a trade.</li>
         <li><strong>Nincada</strong> evolves into Ninjask, and a Shedinja appears too.</li>
@@ -191,28 +191,28 @@
       <ul class="about-list">
         <li>One trade at a time in chat. Wait for the current one to finish.</li>
         <li>Trade evolutions are automatic: if you both swap trade-evolvers and each of you ends up with 3 or more, both evolve on the spot.</li>
-        <li>Mew and Celebi cannot be traded.</li>
+        <li>Mythic Pokémon cannot be traded.</li>
       </ul>
     </section>
 
     <!-- SELL -->
     <section class="landing-card command-card theme-trade" id="sell">
-      <h2><code>!sell</code> Releasing Pokémon for Pokecoins</h2>
+      <h2><code>!release</code> Releasing Pokémon for Pokecoins</h2>
       <p>Too many Raticate? Release the spares into the wild and get Pokecoins back.</p>
       <table class="command-table">
         <thead><tr><th>Type this</th><th>What happens</th></tr></thead>
         <tbody>
-          <tr><td><code>!sell list</code></td><td>Everything you can release right now, most valuable first.</td></tr>
-          <tr><td><code>!sell raticate</code></td><td>Releases one Raticate and pays you.</td></tr>
-          <tr><td><code>!sell raticate 2</code></td><td>Releases two. Also <code>!sell 2 raticate</code>.</td></tr>
-          <tr><td><code>!sell raticate all</code></td><td>Releases every spare copy, always keeping one.</td></tr>
+          <tr><td><code>!release list</code></td><td>Everything you can release right now, most valuable first.</td></tr>
+          <tr><td><code>!release raticate</code></td><td>Releases one Raticate and pays you.</td></tr>
+          <tr><td><code>!release raticate 2</code></td><td>Releases two. Also <code>!release 2 raticate</code>.</td></tr>
+          <tr><td><code>!release raticate all</code></td><td>Releases every spare copy, always keeping one.</td></tr>
         </tbody>
       </table>
       <h3>Good to know</h3>
       <ul class="about-list">
         <li>Only fully evolved Pokémon can be released, and you always keep at least one copy.</li>
         <li>Rarer Pokémon pay more, up to 10,000 Pokecoins for a Legendary. Pokémon evolved with a stone pay extra.</li>
-        <li>Eevee, Mew, Celebi, Jirachi, Deoxys and the Unown ! and ? can never be released.</li>
+        <li>Mew, Celebi, Jirachi and Deoxys can never be released.</li>
       </ul>
     </section>
 
@@ -227,15 +227,15 @@
           <tr><td><code>!buddy equip eevee</code></td><td>Makes a Pokémon you own your Buddy. Friendship you earned with your old Buddy is kept.</td></tr>
           <tr><td><code>!buddy greet</code></td><td>Say hello. Banks the friendship you have earned so far and your Buddy greets you back.</td></tr>
           <tr><td><code>!buddy pet</code></td><td>+10 friendship. Uses a Pet Token. Tokens turn up in your bag while you watch.</td></tr>
-          <tr><td><code>!buddy feed</code></td><td>+25 friendship. Uses a Berry from your bag.</td></tr>
-          <tr><td><code>!buddy golbat</code></td><td>Your friendship points with any Pokémon line you name.</td></tr>
+          <tr><td><code>!buddy feed</code></td><td>+250 friendship. Uses a Berry from your bag.</td></tr>
+          <tr><td><code>!buddy golbat</code></td><td>Your friendship points apply to all Pokémon within that evolution line.</td></tr>
         </tbody>
       </table>
       <h3>Good to know</h3>
       <ul class="about-list">
         <li>Friendship is shared across a whole evolution line: points earned with Zubat count for Golbat too.</li>
         <li>Friendship unlocks evolutions for Golbat, Chansey, Pichu, Cleffa, Igglybuff, Togepi and Eevee's Espeon and Umbreon.</li>
-        <li>Berries come from the <a href="#shop">Pokémart</a> or channel points.</li>
+        <li>Berries can be bought in <a href="#shop"><code>!shop</code></a>.</li>
       </ul>
     </section>
 
@@ -254,7 +254,7 @@
         <li>An Egg hatches after 20 hours of watching. Time only counts while you are in the stream.</li>
         <li>One Egg at a time: hatch it before you pick up another.</li>
         <li>What can hatch: Pichu, Cleffa, Igglybuff, Togepi, Tyrogue, Smoochum, Elekid, Magby, Azurill, Wynaut.</li>
-        <li>Get Eggs from the <a href="#shop">Pokémart</a> or with channel points. Your Egg starts incubating the moment you get it, nothing to type.</li>
+        <li>Get Eggs from the <a href="#shop"><code>!shop</code></a>. Your Egg starts incubating the moment you get it!</li>
       </ul>
     </section>
 
@@ -310,8 +310,8 @@
         <li><strong>Watch.</strong> Pokecoins trickle in while you are in the stream. Subscribers earn a little extra.</li>
         <li><strong>Catch.</strong> Every catch pays. Catching a Legendary pays a lot, and everyone in chat gets a cut.</li>
         <li><strong>Stay through ad breaks.</strong> Everyone in chat gets 150 Pokecoins after every ad break, and a <a href="#bonus">!bonus</a> opens for 90 seconds on top.</li>
-        <li><strong>Release spares</strong> with <a href="#sell">!sell</a>.</li>
-        <li><strong>Win.</strong> Scromf hands out Pokecoins for predictions, challenges and good answers to the question of the day.</li>
+        <li><strong>Release spares</strong> with <a href="#sell">!release</a>.</li>
+        <li><strong>Win.</strong> Scromf hands out Pokecoins for predictions, victories, and squad leader placements!</li>
       </ul>
     </section>
 
