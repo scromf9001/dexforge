@@ -3,12 +3,12 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-17T21:23:13.746612+00:00",
+  "updated_at": "2026-10-18T17:31:01.790619+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 46,
-      "total_owned": 62,
+      "total_owned": 64,
       "completion_percent": 11.92,
       "variants_available": 33,
       "variants_owned": 0
@@ -150,20 +150,20 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 245,
-      "success": 92,
-      "accuracy_percent": 37.55,
+      "thrown": 252,
+      "success": 94,
+      "accuracy_percent": 37.3,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 132,
+          "thrown": 135,
           "success": 38,
-          "accuracy_percent": 28.79
+          "accuracy_percent": 28.15
         },
         "great ball": {
-          "thrown": 106,
-          "success": 49,
-          "accuracy_percent": 46.23
+          "thrown": 110,
+          "success": 51,
+          "accuracy_percent": 46.36
         },
         "ultra ball": {
           "thrown": 7,
@@ -177,32 +177,33 @@
         }
       }
     },
-    "pokecoins": 5661,
+    "pokecoins": 8106,
     "journey": {
-      "watch_hours": 238,
+      "watch_hours": 240,
       "follow_age": "5 Month(s), 24 Day(s)",
-      "sub_age": "<1 Day",
+      "sub_age": "1 Day(s)",
       "sub_months": 2,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 64,
-      "chat_messages": 4433,
-      "commands_run": 6415,
-      "times_tagged": 1279,
+      "streams_watched": 65,
+      "chat_messages": 4512,
+      "commands_run": 6597,
+      "times_tagged": 1303,
       "times_evolved": 7,
       "times_traded": 22,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 53.88,
-        "great ball": 43.27,
-        "ultra ball": 2.86,
+        "poke ball": 53.57,
+        "great ball": 43.65,
+        "ultra ball": 2.78,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 91
+        "Great Ball": 88,
+        "Ultra Ball": 3
       }
     }
   },
@@ -4143,7 +4144,7 @@
     },
     {
       "name": "Oddish",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 43,
       "form": "",
@@ -4244,7 +4245,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -5699,7 +5700,7 @@
     },
     {
       "name": "Poliwag",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 60,
       "form": "",
@@ -37523,7 +37524,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 21
+      "friendship_points": 196
     },
     {
       "name": "Deoxys",
@@ -37829,8 +37830,8 @@
     "primary_type": "Steel",
     "secondary_type": "Psychic",
     "evolution_line_id": "202",
-    "friendship_points": 21,
-    "times_pet": 18,
+    "friendship_points": 196,
+    "times_pet": 20,
     "times_fed": 0
   }
 }
