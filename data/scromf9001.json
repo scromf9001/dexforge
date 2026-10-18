@@ -3,13 +3,13 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-17T20:34:49.646520+00:00",
+  "updated_at": "2026-10-18T15:34:39.445736+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 214,
-      "total_owned": 1160,
-      "completion_percent": 55.44,
+      "unique_owned": 215,
+      "total_owned": 1163,
+      "completion_percent": 55.7,
       "variants_available": 33,
       "variants_owned": 9
     },
@@ -35,15 +35,15 @@
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 5,
+        "owned": 6,
         "total": 135,
-        "completion_percent": 3.7,
+        "completion_percent": 4.44,
         "total_lines": 73,
         "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 213,
+      "total_evolutions_owned": 214,
       "total_evolutions_available": 386,
       "lines_completed": 93,
       "total_lines": 202,
@@ -55,7 +55,7 @@
       "stage_owned": {
         "2": 80,
         "3": 23,
-        "1": 110
+        "1": 111
       }
     },
     "types": {
@@ -80,9 +80,9 @@
         "completion_percent": 58.82
       },
       "normal": {
-        "owned": 33,
+        "owned": 34,
         "total": 55,
-        "completion_percent": 60.0
+        "completion_percent": 61.82
       },
       "poison": {
         "owned": 15,
@@ -150,15 +150,15 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 3059,
-      "success": 931,
-      "accuracy_percent": 30.43,
+      "thrown": 3067,
+      "success": 934,
+      "accuracy_percent": 30.45,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 3059,
-          "success": 931,
-          "accuracy_percent": 30.43
+          "thrown": 3067,
+          "success": 934,
+          "accuracy_percent": 30.45
         },
         "great ball": {
           "thrown": 0,
@@ -177,9 +177,9 @@
         }
       }
     },
-    "pokecoins": 10811,
+    "pokecoins": 13367,
     "journey": {
-      "watch_hours": 1697,
+      "watch_hours": 1699,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -188,10 +188,10 @@
       "total_donated": 0.0,
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
-      "streams_watched": 500,
-      "chat_messages": 17562,
-      "commands_run": 87293,
-      "times_tagged": 4265,
+      "streams_watched": 501,
+      "chat_messages": 17616,
+      "commands_run": 87514,
+      "times_tagged": 4293,
       "times_evolved": 114,
       "times_traded": 31,
       "times_eggs_hatched": 34,
@@ -16361,7 +16361,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3222
+      "friendship_points": 3311
     },
     {
       "name": "Togetic",
@@ -16465,7 +16465,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3222,
+      "friendship_points": 3311,
       "friendship_requirement": 2500,
       "friendship_progress_percent": 100
     },
@@ -17415,7 +17415,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 8,
+      "count": 9,
       "owned": true,
       "pokedex_number": 187,
       "form": "",
@@ -26235,8 +26235,8 @@
     },
     {
       "name": "Zigzagoon",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 263,
       "form": "",
       "is_variant": false,
@@ -27697,7 +27697,7 @@
     },
     {
       "name": "Wingull",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 278,
       "form": "",
@@ -37839,7 +37839,7 @@
     "primary_type": "Fairy",
     "secondary_type": null,
     "evolution_line_id": "87",
-    "friendship_points": 3222,
+    "friendship_points": 3311,
     "times_pet": 7,
     "times_fed": 4
   }
