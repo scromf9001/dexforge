@@ -3,13 +3,13 @@
     "username": "waluraniumeaterfemboylove",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/00499f73-3f43-4a92-8a22-420eb881c600-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-10-17T21:31:18.462598+00:00",
+  "updated_at": "2026-10-20T18:17:21.945759+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 40,
-      "total_owned": 59,
-      "completion_percent": 10.36,
+      "unique_owned": 43,
+      "total_owned": 62,
+      "completion_percent": 11.14,
       "variants_available": 33,
       "variants_owned": 0
     },
@@ -35,15 +35,15 @@
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 3,
+        "owned": 6,
         "total": 135,
-        "completion_percent": 2.22,
+        "completion_percent": 4.44,
         "total_lines": 73,
         "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 40,
+      "total_evolutions_owned": 43,
       "total_evolutions_available": 386,
       "lines_completed": 3,
       "total_lines": 202,
@@ -53,15 +53,15 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 37,
+        "1": 40,
         "2": 3
       }
     },
     "types": {
       "grass": {
-        "owned": 3,
+        "owned": 4,
         "total": 33,
-        "completion_percent": 9.09
+        "completion_percent": 12.12
       },
       "fire": {
         "owned": 2,
@@ -69,9 +69,9 @@
         "completion_percent": 7.69
       },
       "water": {
-        "owned": 7,
+        "owned": 8,
         "total": 70,
-        "completion_percent": 10.0
+        "completion_percent": 11.43
       },
       "bug": {
         "owned": 7,
@@ -104,9 +104,9 @@
         "completion_percent": 14.29
       },
       "fighting": {
-        "owned": 1,
+        "owned": 2,
         "total": 13,
-        "completion_percent": 7.69
+        "completion_percent": 15.38
       },
       "psychic": {
         "owned": 4,
@@ -149,20 +149,20 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 129,
-      "success": 56,
-      "accuracy_percent": 43.41,
+      "thrown": 145,
+      "success": 58,
+      "accuracy_percent": 40.0,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 5,
-          "success": 0,
-          "accuracy_percent": 0.0
+          "thrown": 21,
+          "success": 1,
+          "accuracy_percent": 4.76
         },
         "great ball": {
           "thrown": 124,
-          "success": 56,
-          "accuracy_percent": 45.16
+          "success": 57,
+          "accuracy_percent": 45.97
         },
         "ultra ball": {
           "thrown": 0,
@@ -176,10 +176,10 @@
         }
       }
     },
-    "pokecoins": 2949,
+    "pokecoins": 4773,
     "journey": {
-      "watch_hours": 68,
-      "follow_age": "9 Month(s), 13 Day(s)",
+      "watch_hours": 72,
+      "follow_age": "9 Month(s), 15 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
       "subs_gifted": 0,
@@ -187,16 +187,16 @@
       "total_donated": 0.0,
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
-      "streams_watched": 59,
-      "chat_messages": 1742,
-      "commands_run": 2683,
-      "times_tagged": 204,
+      "streams_watched": 61,
+      "chat_messages": 1961,
+      "commands_run": 2970,
+      "times_tagged": 257,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 3.88,
-        "great ball": 96.12,
+        "poke ball": 14.48,
+        "great ball": 85.52,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
@@ -27165,8 +27165,8 @@
     },
     {
       "name": "Seedot",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 273,
       "form": "",
       "is_variant": false,
@@ -30293,8 +30293,8 @@
     },
     {
       "name": "Meditite",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 307,
       "form": "",
       "is_variant": false,
@@ -33241,8 +33241,8 @@
     },
     {
       "name": "Corphish",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 341,
       "form": "",
       "is_variant": false,
