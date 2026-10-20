@@ -3,13 +3,13 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-10-20T15:37:41.541854+00:00",
+  "updated_at": "2026-10-20T17:39:07.683404+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 176,
-      "total_owned": 299,
-      "completion_percent": 45.6,
+      "unique_owned": 177,
+      "total_owned": 300,
+      "completion_percent": 45.85,
       "variants_available": 33,
       "variants_owned": 6
     },
@@ -17,9 +17,9 @@
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 104,
+        "owned": 105,
         "total": 151,
-        "completion_percent": 68.87,
+        "completion_percent": 69.54,
         "total_lines": 78,
         "lines_completed": 38
       },
@@ -43,7 +43,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 176,
+      "total_evolutions_owned": 177,
       "total_evolutions_available": 386,
       "lines_completed": 66,
       "total_lines": 202,
@@ -53,16 +53,16 @@
         "3": 45
       },
       "stage_owned": {
+        "1": 99,
         "2": 63,
-        "1": 98,
         "3": 15
       }
     },
     "types": {
       "grass": {
-        "owned": 16,
+        "owned": 17,
         "total": 33,
-        "completion_percent": 48.48
+        "completion_percent": 51.52
       },
       "fire": {
         "owned": 11,
@@ -150,9 +150,9 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 1122,
-      "success": 516,
-      "accuracy_percent": 45.99,
+      "thrown": 1124,
+      "success": 517,
+      "accuracy_percent": 46.0,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -161,14 +161,14 @@
           "accuracy_percent": 28.57
         },
         "great ball": {
-          "thrown": 966,
+          "thrown": 967,
           "success": 470,
-          "accuracy_percent": 48.65
+          "accuracy_percent": 48.6
         },
         "ultra ball": {
-          "thrown": 64,
-          "success": 19,
-          "accuracy_percent": 29.69
+          "thrown": 65,
+          "success": 20,
+          "accuracy_percent": 30.77
         },
         "master ball": {
           "thrown": 1,
@@ -177,11 +177,11 @@
         }
       }
     },
-    "pokecoins": 16407,
+    "pokecoins": 15961,
     "journey": {
       "watch_hours": 379,
       "follow_age": "7 Month(s), 15 Day(s)",
-      "sub_age": "8 Month(s), 25 Day(s)",
+      "sub_age": "8 Month(s), 26 Day(s)",
       "sub_months": 9,
       "subs_gifted": 0,
       "bits_donated": 4302,
@@ -189,29 +189,29 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 189,
-      "chat_messages": 35536,
-      "commands_run": 50877,
-      "times_tagged": 7082,
+      "chat_messages": 35573,
+      "commands_run": 50947,
+      "times_tagged": 7099,
       "times_evolved": 136,
       "times_traded": 25,
       "times_eggs_hatched": 5,
       "ball_distribution": {
-        "poke ball": 8.11,
-        "great ball": 86.1,
-        "ultra ball": 5.7,
+        "poke ball": 8.1,
+        "great ball": 86.03,
+        "ultra ball": 5.78,
         "master ball": 0.09
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 60
+        "Great Ball": 59
       }
     }
   },
   "pokemon": [
     {
       "name": "Bulbasaur",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 1,
       "form": "",
       "is_variant": false,
@@ -8920,7 +8920,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 928
+      "friendship_points": 954
     },
     {
       "name": "Haunter",
@@ -9026,7 +9026,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 928
+      "friendship_points": 954
     },
     {
       "name": "Gengar",
@@ -9132,7 +9132,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": true,
-      "friendship_points": 928
+      "friendship_points": 954
     },
     {
       "name": "Onix",
@@ -37830,7 +37830,7 @@
     "primary_type": "Ghost",
     "secondary_type": "Poison",
     "evolution_line_id": "40",
-    "friendship_points": 928,
+    "friendship_points": 954,
     "times_pet": 75,
     "times_fed": 2
   }
