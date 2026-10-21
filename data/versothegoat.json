@@ -3,7 +3,7 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-10-21T15:32:32.043414+00:00",
+  "updated_at": "2026-10-21T15:36:04.137346+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
@@ -150,15 +150,15 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 1135,
+      "thrown": 1136,
       "success": 524,
-      "accuracy_percent": 46.17,
+      "accuracy_percent": 46.13,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 94,
+          "thrown": 95,
           "success": 28,
-          "accuracy_percent": 29.79
+          "accuracy_percent": 29.47
         },
         "great ball": {
           "thrown": 974,
@@ -177,7 +177,7 @@
         }
       }
     },
-    "pokecoins": 17329,
+    "pokecoins": 17845,
     "journey": {
       "watch_hours": 381,
       "follow_age": "7 Month(s), 16 Day(s)",
@@ -189,15 +189,15 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 190,
-      "chat_messages": 35719,
-      "commands_run": 51250,
-      "times_tagged": 7150,
+      "chat_messages": 35726,
+      "commands_run": 51273,
+      "times_tagged": 7154,
       "times_evolved": 136,
       "times_traded": 25,
       "times_eggs_hatched": 5,
       "ball_distribution": {
-        "poke ball": 8.28,
-        "great ball": 85.81,
+        "poke ball": 8.36,
+        "great ball": 85.74,
         "ultra ball": 5.81,
         "master ball": 0.09
       },
@@ -8920,7 +8920,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1046
+      "friendship_points": 1050
     },
     {
       "name": "Haunter",
@@ -9026,7 +9026,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1046
+      "friendship_points": 1050
     },
     {
       "name": "Gengar",
@@ -9132,7 +9132,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": true,
-      "friendship_points": 1046
+      "friendship_points": 1050
     },
     {
       "name": "Onix",
@@ -37830,7 +37830,7 @@
     "primary_type": "Ghost",
     "secondary_type": "Poison",
     "evolution_line_id": "40",
-    "friendship_points": 1046,
+    "friendship_points": 1050,
     "times_pet": 75,
     "times_fed": 2
   }
