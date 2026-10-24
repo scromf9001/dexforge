@@ -3,13 +3,13 @@
     "username": "nsx99x",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/84925440-9af3-4345-8c6f-ce8519653903-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-18T17:57:41.776025+00:00",
+  "updated_at": "2026-10-24T17:39:01.200654+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 184,
-      "total_owned": 673,
-      "completion_percent": 47.67,
+      "unique_owned": 187,
+      "total_owned": 681,
+      "completion_percent": 48.45,
       "variants_available": 33,
       "variants_owned": 4
     },
@@ -35,17 +35,17 @@
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 8,
+        "owned": 11,
         "total": 135,
-        "completion_percent": 5.93,
+        "completion_percent": 8.15,
         "total_lines": 73,
-        "lines_completed": 2
+        "lines_completed": 3
       }
     },
     "evolution": {
-      "total_evolutions_owned": 183,
+      "total_evolutions_owned": 186,
       "total_evolutions_available": 386,
-      "lines_completed": 74,
+      "lines_completed": 75,
       "total_lines": 202,
       "stage_totals": {
         "1": 202,
@@ -53,7 +53,7 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 115,
+        "1": 118,
         "2": 57,
         "3": 11
       }
@@ -105,9 +105,9 @@
         "completion_percent": 85.71
       },
       "fighting": {
-        "owned": 7,
+        "owned": 8,
         "total": 13,
-        "completion_percent": 53.85
+        "completion_percent": 61.54
       },
       "psychic": {
         "owned": 10,
@@ -115,9 +115,9 @@
         "completion_percent": 43.48
       },
       "rock": {
-        "owned": 7,
+        "owned": 8,
         "total": 21,
-        "completion_percent": 33.33
+        "completion_percent": 38.1
       },
       "ghost": {
         "owned": 1,
@@ -125,9 +125,9 @@
         "completion_percent": 12.5
       },
       "ice": {
-        "owned": 5,
+        "owned": 6,
         "total": 12,
-        "completion_percent": 41.67
+        "completion_percent": 50.0
       },
       "dragon": {
         "owned": 1,
@@ -150,15 +150,15 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 1124,
-      "success": 479,
-      "accuracy_percent": 42.62,
+      "thrown": 1153,
+      "success": 487,
+      "accuracy_percent": 42.24,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 329,
-          "success": 89,
-          "accuracy_percent": 27.05
+          "thrown": 358,
+          "success": 97,
+          "accuracy_percent": 27.09
         },
         "great ball": {
           "thrown": 794,
@@ -177,10 +177,10 @@
         }
       }
     },
-    "pokecoins": 4009,
+    "pokecoins": 7494,
     "journey": {
-      "watch_hours": 887,
-      "follow_age": "1 Year(s), 6 Month(s), 10 Day(s)",
+      "watch_hours": 895,
+      "follow_age": "1 Year(s), 6 Month(s), 16 Day(s)",
       "sub_age": "Not Subscribed",
       "sub_months": 8,
       "subs_gifted": 0,
@@ -188,25 +188,25 @@
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Not Subscribed",
-      "streams_watched": 308,
-      "chat_messages": 64970,
-      "commands_run": 78884,
-      "times_tagged": 9872,
+      "streams_watched": 311,
+      "chat_messages": 65464,
+      "commands_run": 79652,
+      "times_tagged": 9995,
       "times_evolved": 85,
       "times_traded": 3,
       "times_eggs_hatched": 16,
       "ball_distribution": {
-        "poke ball": 29.27,
-        "great ball": 70.64,
+        "poke ball": 31.05,
+        "great ball": 68.86,
         "ultra ball": 0.09,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 79,
+        "Great Ball": 99,
         "Master Ball": 1,
         "Moon Stone": 1,
-        "Ultra Ball": 67
+        "Ultra Ball": 68
       }
     }
   },
@@ -1099,7 +1099,7 @@
     },
     {
       "name": "Caterpie",
-      "count": 13,
+      "count": 14,
       "owned": true,
       "pokedex_number": 10,
       "form": "",
@@ -1687,7 +1687,7 @@
     },
     {
       "name": "Pidgey",
-      "count": 12,
+      "count": 13,
       "owned": true,
       "pokedex_number": 16,
       "form": "",
@@ -4147,7 +4147,7 @@
     },
     {
       "name": "Oddish",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 43,
       "form": "",
@@ -6543,7 +6543,7 @@
     },
     {
       "name": "Bellsprout",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 69,
       "form": "",
@@ -9951,7 +9951,7 @@
     },
     {
       "name": "Cubone",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 104,
       "form": "",
@@ -12503,7 +12503,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 440
+      "friendship_points": 920
     },
     {
       "name": "Vaporeon",
@@ -12611,7 +12611,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 440
+      "friendship_points": 920
     },
     {
       "name": "Jolteon",
@@ -12711,7 +12711,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 440
+      "friendship_points": 920
     },
     {
       "name": "Flareon",
@@ -12831,7 +12831,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 440
+      "friendship_points": 920
     },
     {
       "name": "Porygon",
@@ -18327,9 +18327,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 440,
+      "friendship_points": 920,
       "friendship_requirement": 2500,
-      "friendship_progress_percent": 17.6
+      "friendship_progress_percent": 36.8
     },
     {
       "name": "Umbreon",
@@ -18437,9 +18437,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 440,
+      "friendship_points": 920,
       "friendship_requirement": 2500,
-      "friendship_progress_percent": 17.6
+      "friendship_progress_percent": 36.8
     },
     {
       "name": "Murkrow",
@@ -30297,8 +30297,8 @@
     },
     {
       "name": "Meditite",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 307,
       "form": "",
       "is_variant": false,
@@ -32975,8 +32975,8 @@
     },
     {
       "name": "Solrock",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 338,
       "form": "",
       "is_variant": false,
@@ -33069,7 +33069,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -35325,8 +35325,8 @@
     },
     {
       "name": "Spheal",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 363,
       "form": "",
       "is_variant": false,
@@ -37833,7 +37833,7 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 440,
+    "friendship_points": 920,
     "times_pet": 15,
     "times_fed": 0
   }

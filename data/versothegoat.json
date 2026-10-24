@@ -3,13 +3,13 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-10-22T19:47:33.006985+00:00",
+  "updated_at": "2026-10-24T15:26:40.852357+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 183,
-      "total_owned": 308,
-      "completion_percent": 47.41,
+      "unique_owned": 184,
+      "total_owned": 311,
+      "completion_percent": 47.67,
       "variants_available": 33,
       "variants_owned": 6
     },
@@ -26,9 +26,9 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 58,
+        "owned": 59,
         "total": 100,
-        "completion_percent": 58.0,
+        "completion_percent": 59.0,
         "total_lines": 51,
         "lines_completed": 25
       },
@@ -43,7 +43,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 183,
+      "total_evolutions_owned": 184,
       "total_evolutions_available": 386,
       "lines_completed": 68,
       "total_lines": 202,
@@ -53,7 +53,7 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 105,
+        "1": 106,
         "2": 63,
         "3": 15
       }
@@ -100,9 +100,9 @@
         "completion_percent": 47.06
       },
       "fairy": {
-        "owned": 5,
+        "owned": 6,
         "total": 7,
-        "completion_percent": 71.43
+        "completion_percent": 85.71
       },
       "fighting": {
         "owned": 5,
@@ -150,15 +150,15 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 1143,
-      "success": 525,
-      "accuracy_percent": 45.93,
+      "thrown": 1147,
+      "success": 527,
+      "accuracy_percent": 45.95,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 99,
-          "success": 28,
-          "accuracy_percent": 28.28
+          "thrown": 103,
+          "success": 30,
+          "accuracy_percent": 29.13
         },
         "great ball": {
           "thrown": 976,
@@ -177,28 +177,28 @@
         }
       }
     },
-    "pokecoins": 21618,
+    "pokecoins": 23648,
     "journey": {
       "watch_hours": 383,
-      "follow_age": "7 Month(s), 17 Day(s)",
-      "sub_age": "8 Month(s), 28 Day(s)",
+      "follow_age": "7 Month(s), 19 Day(s)",
+      "sub_age": "8 Month(s), 29 Day(s)",
       "sub_months": 10,
       "subs_gifted": 0,
       "bits_donated": 4302,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 190,
-      "chat_messages": 35901,
-      "commands_run": 51553,
-      "times_tagged": 7200,
+      "streams_watched": 191,
+      "chat_messages": 35994,
+      "commands_run": 51711,
+      "times_tagged": 7223,
       "times_evolved": 136,
       "times_traded": 25,
-      "times_eggs_hatched": 5,
+      "times_eggs_hatched": 6,
       "ball_distribution": {
-        "poke ball": 8.66,
-        "great ball": 85.39,
-        "ultra ball": 5.86,
+        "poke ball": 8.98,
+        "great ball": 85.09,
+        "ultra ball": 5.84,
         "master ball": 0.09
       },
       "pokebag": {
@@ -8920,7 +8920,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1162
+      "friendship_points": 1207
     },
     {
       "name": "Haunter",
@@ -9026,7 +9026,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1162
+      "friendship_points": 1207
     },
     {
       "name": "Gengar",
@@ -9132,7 +9132,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": true,
-      "friendship_points": 1162
+      "friendship_points": 1207
     },
     {
       "name": "Onix",
@@ -9404,7 +9404,7 @@
     },
     {
       "name": "Krabby",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 98,
       "form": "",
@@ -16272,8 +16272,8 @@
     },
     {
       "name": "Togepi",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 175,
       "form": "",
       "is_variant": false,
@@ -17774,7 +17774,7 @@
     },
     {
       "name": "Sunkern",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 191,
       "form": "",
@@ -37830,7 +37830,7 @@
     "primary_type": "Ghost",
     "secondary_type": "Poison",
     "evolution_line_id": "40",
-    "friendship_points": 1162,
+    "friendship_points": 1207,
     "times_pet": 75,
     "times_fed": 2
   }
