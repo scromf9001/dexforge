@@ -3,13 +3,13 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-10-25T18:16:10.237579+00:00",
+  "updated_at": "2026-10-25T18:47:10.160130+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 186,
+      "unique_owned": 187,
       "total_owned": 319,
-      "completion_percent": 48.19,
+      "completion_percent": 48.45,
       "variants_available": 33,
       "variants_owned": 6
     },
@@ -35,15 +35,15 @@
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 18,
+        "owned": 19,
         "total": 135,
-        "completion_percent": 13.33,
+        "completion_percent": 14.07,
         "total_lines": 73,
         "lines_completed": 3
       }
     },
     "evolution": {
-      "total_evolutions_owned": 186,
+      "total_evolutions_owned": 187,
       "total_evolutions_available": 386,
       "lines_completed": 69,
       "total_lines": 202,
@@ -54,7 +54,7 @@
       },
       "stage_owned": {
         "1": 108,
-        "2": 63,
+        "2": 64,
         "3": 15
       }
     },
@@ -80,9 +80,9 @@
         "completion_percent": 58.82
       },
       "normal": {
-        "owned": 28,
+        "owned": 29,
         "total": 55,
-        "completion_percent": 50.91
+        "completion_percent": 52.73
       },
       "poison": {
         "owned": 14,
@@ -150,19 +150,19 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 1163,
-      "success": 535,
-      "accuracy_percent": 46.0,
+      "thrown": 1167,
+      "success": 537,
+      "accuracy_percent": 46.02,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 110,
-          "success": 33,
-          "accuracy_percent": 30.0
+          "thrown": 112,
+          "success": 34,
+          "accuracy_percent": 30.36
         },
         "great ball": {
-          "thrown": 982,
-          "success": 481,
+          "thrown": 984,
+          "success": 482,
           "accuracy_percent": 48.98
         },
         "ultra ball": {
@@ -177,7 +177,7 @@
         }
       }
     },
-    "pokecoins": 26402,
+    "pokecoins": 27376,
     "journey": {
       "watch_hours": 386,
       "follow_age": "7 Month(s), 20 Day(s)",
@@ -189,21 +189,21 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 192,
-      "chat_messages": 36304,
-      "commands_run": 52231,
-      "times_tagged": 7298,
-      "times_evolved": 136,
-      "times_traded": 25,
+      "chat_messages": 36377,
+      "commands_run": 52361,
+      "times_tagged": 7328,
+      "times_evolved": 137,
+      "times_traded": 26,
       "times_eggs_hatched": 6,
       "ball_distribution": {
-        "poke ball": 9.46,
-        "great ball": 84.44,
-        "ultra ball": 6.02,
+        "poke ball": 9.6,
+        "great ball": 84.32,
+        "ultra ball": 6.0,
         "master ball": 0.09
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 49
+        "Great Ball": 47
       }
     }
   },
@@ -3932,7 +3932,7 @@
     },
     {
       "name": "Zubat",
-      "count": 2,
+      "count": 1,
       "owned": true,
       "pokedex_number": 41,
       "form": "",
@@ -8920,7 +8920,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1368
+      "friendship_points": 1399
     },
     {
       "name": "Haunter",
@@ -9026,7 +9026,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1368
+      "friendship_points": 1399
     },
     {
       "name": "Gengar",
@@ -9132,7 +9132,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": true,
-      "friendship_points": 1368
+      "friendship_points": 1399
     },
     {
       "name": "Onix",
@@ -10370,7 +10370,7 @@
     },
     {
       "name": "Koffing",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 109,
       "form": "",
@@ -10451,7 +10451,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -29952,8 +29952,8 @@
     },
     {
       "name": "Aron",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 304,
       "form": "",
       "is_variant": false,
@@ -30066,8 +30066,8 @@
     },
     {
       "name": "Lairon",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 305,
       "form": "",
       "is_variant": false,
@@ -32538,8 +32538,8 @@
     },
     {
       "name": "Swablu",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 333,
       "form": "",
       "is_variant": false,
@@ -37830,7 +37830,7 @@
     "primary_type": "Ghost",
     "secondary_type": "Poison",
     "evolution_line_id": "40",
-    "friendship_points": 1368,
+    "friendship_points": 1399,
     "times_pet": 76,
     "times_fed": 2
   }
