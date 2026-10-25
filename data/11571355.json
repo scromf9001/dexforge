@@ -3,12 +3,12 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-25T18:37:26.781370+00:00",
+  "updated_at": "2026-10-25T20:58:55.428903+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 55,
-      "total_owned": 78,
+      "total_owned": 81,
       "completion_percent": 14.25,
       "variants_available": 33,
       "variants_owned": 0
@@ -17,9 +17,9 @@
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 25,
+        "owned": 26,
         "total": 151,
-        "completion_percent": 16.56,
+        "completion_percent": 17.22,
         "total_lines": 78,
         "lines_completed": 3
       },
@@ -35,9 +35,9 @@
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 11,
+        "owned": 10,
         "total": 135,
-        "completion_percent": 8.15,
+        "completion_percent": 7.41,
         "total_lines": 73,
         "lines_completed": 2
       }
@@ -85,9 +85,9 @@
         "completion_percent": 25.45
       },
       "poison": {
-        "owned": 2,
+        "owned": 3,
         "total": 18,
-        "completion_percent": 11.11
+        "completion_percent": 16.67
       },
       "electric": {
         "owned": 5,
@@ -140,9 +140,9 @@
         "completion_percent": 11.11
       },
       "steel": {
-        "owned": 2,
+        "owned": 1,
         "total": 11,
-        "completion_percent": 18.18
+        "completion_percent": 9.09
       }
     },
     "legendary": {
@@ -150,25 +150,25 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 299,
-      "success": 107,
-      "accuracy_percent": 35.79,
+      "thrown": 307,
+      "success": 110,
+      "accuracy_percent": 35.83,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 164,
-          "success": 45,
-          "accuracy_percent": 27.44
+          "thrown": 169,
+          "success": 46,
+          "accuracy_percent": 27.22
         },
         "great ball": {
-          "thrown": 121,
-          "success": 53,
-          "accuracy_percent": 43.8
+          "thrown": 123,
+          "success": 55,
+          "accuracy_percent": 44.72
         },
         "ultra ball": {
-          "thrown": 14,
+          "thrown": 15,
           "success": 9,
-          "accuracy_percent": 64.29
+          "accuracy_percent": 60.0
         },
         "master ball": {
           "thrown": 0,
@@ -177,9 +177,9 @@
         }
       }
     },
-    "pokecoins": 23017,
+    "pokecoins": 22795,
     "journey": {
-      "watch_hours": 257,
+      "watch_hours": 259,
       "follow_age": "6 Month(s), 2 Day(s)",
       "sub_age": "8 Day(s)",
       "sub_months": 2,
@@ -189,21 +189,21 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 69,
-      "chat_messages": 4952,
-      "commands_run": 7500,
-      "times_tagged": 1457,
+      "chat_messages": 4977,
+      "commands_run": 7577,
+      "times_tagged": 1468,
       "times_evolved": 7,
       "times_traded": 22,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 54.85,
-        "great ball": 40.47,
-        "ultra ball": 4.68,
+        "poke ball": 55.05,
+        "great ball": 40.07,
+        "ultra ball": 4.89,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 95,
-        "Ultra Ball": 6
+        "Great Ball": 99,
+        "Ultra Ball": 5
       }
     }
   },
@@ -3932,8 +3932,8 @@
     },
     {
       "name": "Zubat",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 41,
       "form": "",
       "is_variant": false,
@@ -5700,7 +5700,7 @@
     },
     {
       "name": "Poliwag",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 60,
       "form": "",
@@ -5789,7 +5789,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -17406,7 +17406,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 187,
       "form": "",
@@ -29952,8 +29952,8 @@
     },
     {
       "name": "Aron",
-      "count": 1,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 304,
       "form": "",
       "is_variant": false,
@@ -32326,7 +32326,7 @@
     },
     {
       "name": "Cacnea",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 331,
       "form": "",
@@ -37524,7 +37524,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1255
+      "friendship_points": 1387
     },
     {
       "name": "Deoxys",
@@ -37830,7 +37830,7 @@
     "primary_type": "Steel",
     "secondary_type": "Psychic",
     "evolution_line_id": "202",
-    "friendship_points": 1255,
+    "friendship_points": 1387,
     "times_pet": 25,
     "times_fed": 0
   }
