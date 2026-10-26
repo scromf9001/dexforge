@@ -3,13 +3,13 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-26T19:42:49.577424+00:00",
+  "updated_at": "2026-10-26T20:11:51.145717+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 58,
-      "total_owned": 83,
-      "completion_percent": 15.03,
+      "unique_owned": 59,
+      "total_owned": 84,
+      "completion_percent": 15.28,
       "variants_available": 33,
       "variants_owned": 0
     },
@@ -17,9 +17,9 @@
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 28,
+        "owned": 29,
         "total": 151,
-        "completion_percent": 18.54,
+        "completion_percent": 19.21,
         "total_lines": 78,
         "lines_completed": 4
       },
@@ -43,7 +43,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 58,
+      "total_evolutions_owned": 59,
       "total_evolutions_available": 386,
       "lines_completed": 12,
       "total_lines": 202,
@@ -53,7 +53,7 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 48,
+        "1": 49,
         "2": 9,
         "3": 1
       }
@@ -70,9 +70,9 @@
         "completion_percent": 11.54
       },
       "water": {
-        "owned": 14,
+        "owned": 15,
         "total": 70,
-        "completion_percent": 20.0
+        "completion_percent": 21.43
       },
       "bug": {
         "owned": 0,
@@ -150,15 +150,15 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 317,
-      "success": 114,
-      "accuracy_percent": 35.96,
+      "thrown": 320,
+      "success": 115,
+      "accuracy_percent": 35.94,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 176,
+          "thrown": 177,
           "success": 48,
-          "accuracy_percent": 27.27
+          "accuracy_percent": 27.12
         },
         "great ball": {
           "thrown": 125,
@@ -166,9 +166,9 @@
           "accuracy_percent": 44.8
         },
         "ultra ball": {
-          "thrown": 16,
-          "success": 10,
-          "accuracy_percent": 62.5
+          "thrown": 18,
+          "success": 11,
+          "accuracy_percent": 61.11
         },
         "master ball": {
           "thrown": 0,
@@ -177,7 +177,7 @@
         }
       }
     },
-    "pokecoins": 32015,
+    "pokecoins": 29673,
     "journey": {
       "watch_hours": 265,
       "follow_age": "6 Month(s), 3 Day(s)",
@@ -189,21 +189,21 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 70,
-      "chat_messages": 5101,
-      "commands_run": 7815,
-      "times_tagged": 1516,
+      "chat_messages": 5114,
+      "commands_run": 7855,
+      "times_tagged": 1520,
       "times_evolved": 8,
       "times_traded": 22,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 55.52,
-        "great ball": 39.43,
-        "ultra ball": 5.05,
+        "poke ball": 55.31,
+        "great ball": 39.06,
+        "ultra ball": 5.62,
         "master ball": 0.0
       },
       "pokebag": {
         "Great Ball": 97,
-        "Ultra Ball": 4
+        "Ultra Ball": 5
       }
     }
   },
@@ -826,8 +826,8 @@
     },
     {
       "name": "Squirtle",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 7,
       "form": "",
       "is_variant": false,
@@ -37524,7 +37524,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1717
+      "friendship_points": 1744
     },
     {
       "name": "Deoxys",
@@ -37830,7 +37830,7 @@
     "primary_type": "Steel",
     "secondary_type": "Psychic",
     "evolution_line_id": "202",
-    "friendship_points": 1717,
+    "friendship_points": 1744,
     "times_pet": 25,
     "times_fed": 0
   }
