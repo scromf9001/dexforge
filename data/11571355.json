@@ -3,7 +3,7 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-25T21:42:48.108994+00:00",
+  "updated_at": "2026-10-26T16:49:05.348679+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
@@ -150,15 +150,15 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 310,
+      "thrown": 312,
       "success": 111,
-      "accuracy_percent": 35.81,
+      "accuracy_percent": 35.58,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 172,
+          "thrown": 174,
           "success": 47,
-          "accuracy_percent": 27.33
+          "accuracy_percent": 27.01
         },
         "great ball": {
           "thrown": 123,
@@ -177,28 +177,28 @@
         }
       }
     },
-    "pokecoins": 25021,
+    "pokecoins": 28723,
     "journey": {
-      "watch_hours": 260,
+      "watch_hours": 262,
       "follow_age": "6 Month(s), 2 Day(s)",
-      "sub_age": "8 Day(s)",
+      "sub_age": "9 Day(s)",
       "sub_months": 2,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 69,
-      "chat_messages": 4997,
-      "commands_run": 7631,
-      "times_tagged": 1475,
+      "streams_watched": 70,
+      "chat_messages": 5047,
+      "commands_run": 7715,
+      "times_tagged": 1494,
       "times_evolved": 8,
       "times_traded": 22,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 55.48,
-        "great ball": 39.68,
-        "ultra ball": 4.84,
+        "poke ball": 55.77,
+        "great ball": 39.42,
+        "ultra ball": 4.81,
         "master ball": 0.0
       },
       "pokebag": {
@@ -37524,7 +37524,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1431
+      "friendship_points": 1544
     },
     {
       "name": "Deoxys",
@@ -37830,7 +37830,7 @@
     "primary_type": "Steel",
     "secondary_type": "Psychic",
     "evolution_line_id": "202",
-    "friendship_points": 1431,
+    "friendship_points": 1544,
     "times_pet": 25,
     "times_fed": 0
   }
