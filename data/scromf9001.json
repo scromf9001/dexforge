@@ -3,13 +3,13 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-25T21:44:37.266452+00:00",
+  "updated_at": "2026-10-26T16:48:46.235645+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 231,
-      "total_owned": 1208,
-      "completion_percent": 59.84,
+      "unique_owned": 232,
+      "total_owned": 1211,
+      "completion_percent": 60.1,
       "variants_available": 33,
       "variants_owned": 9
     },
@@ -35,15 +35,15 @@
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 21,
+        "owned": 22,
         "total": 135,
-        "completion_percent": 15.56,
+        "completion_percent": 16.3,
         "total_lines": 73,
         "lines_completed": 6
       }
     },
     "evolution": {
-      "total_evolutions_owned": 230,
+      "total_evolutions_owned": 231,
       "total_evolutions_available": 386,
       "lines_completed": 99,
       "total_lines": 202,
@@ -53,7 +53,7 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 126,
+        "1": 127,
         "2": 80,
         "3": 24
       }
@@ -70,9 +70,9 @@
         "completion_percent": 57.69
       },
       "water": {
-        "owned": 45,
+        "owned": 46,
         "total": 70,
-        "completion_percent": 64.29
+        "completion_percent": 65.71
       },
       "bug": {
         "owned": 20,
@@ -150,14 +150,14 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 3225,
-      "success": 987,
+      "thrown": 3235,
+      "success": 990,
       "accuracy_percent": 30.6,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 3225,
-          "success": 987,
+          "thrown": 3235,
+          "success": 990,
           "accuracy_percent": 30.6
         },
         "great ball": {
@@ -177,9 +177,9 @@
         }
       }
     },
-    "pokecoins": 36026,
+    "pokecoins": 37736,
     "journey": {
-      "watch_hours": 1727,
+      "watch_hours": 1729,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -188,10 +188,10 @@
       "total_donated": 0.0,
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
-      "streams_watched": 505,
-      "chat_messages": 18029,
-      "commands_run": 90015,
-      "times_tagged": 4394,
+      "streams_watched": 506,
+      "chat_messages": 18075,
+      "commands_run": 90203,
+      "times_tagged": 4415,
       "times_evolved": 118,
       "times_traded": 31,
       "times_eggs_hatched": 35,
@@ -11339,7 +11339,7 @@
     },
     {
       "name": "Staryu",
-      "count": 20,
+      "count": 21,
       "owned": true,
       "pokedex_number": 120,
       "form": "",
@@ -16361,7 +16361,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5007
+      "friendship_points": 5122
     },
     {
       "name": "Togetic",
@@ -16465,7 +16465,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5007,
+      "friendship_points": 5122,
       "friendship_requirement": 2500,
       "friendship_progress_percent": 100
     },
@@ -30303,7 +30303,7 @@
     },
     {
       "name": "Meditite",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 307,
       "form": "",
@@ -33083,8 +33083,8 @@
     },
     {
       "name": "Barboach",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 339,
       "form": "",
       "is_variant": false,
@@ -37839,7 +37839,7 @@
     "primary_type": "Fairy",
     "secondary_type": null,
     "evolution_line_id": "87",
-    "friendship_points": 5007,
+    "friendship_points": 5122,
     "times_pet": 7,
     "times_fed": 4
   }
