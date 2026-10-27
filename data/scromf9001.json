@@ -3,12 +3,12 @@
     "username": "scromf9001",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f86c512e-53d6-4871-89b0-2b1cb6ffa844-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-26T16:48:46.235645+00:00",
+  "updated_at": "2026-10-27T16:38:21.123298+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 232,
-      "total_owned": 1211,
+      "total_owned": 1215,
       "completion_percent": 60.1,
       "variants_available": 33,
       "variants_owned": 9
@@ -150,15 +150,15 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 3235,
-      "success": 990,
-      "accuracy_percent": 30.6,
+      "thrown": 3249,
+      "success": 994,
+      "accuracy_percent": 30.59,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 3235,
-          "success": 990,
-          "accuracy_percent": 30.6
+          "thrown": 3249,
+          "success": 994,
+          "accuracy_percent": 30.59
         },
         "great ball": {
           "thrown": 0,
@@ -177,9 +177,9 @@
         }
       }
     },
-    "pokecoins": 37736,
+    "pokecoins": 40298,
     "journey": {
-      "watch_hours": 1729,
+      "watch_hours": 1733,
       "follow_age": "Not Following",
       "sub_age": "Not Subscribed",
       "sub_months": 0,
@@ -188,10 +188,10 @@
       "total_donated": 0.0,
       "primary_role": "Streamer",
       "sub_tier": "Tier 3",
-      "streams_watched": 506,
-      "chat_messages": 18075,
-      "commands_run": 90203,
-      "times_tagged": 4415,
+      "streams_watched": 507,
+      "chat_messages": 18137,
+      "commands_run": 90451,
+      "times_tagged": 4434,
       "times_evolved": 118,
       "times_traded": 31,
       "times_eggs_hatched": 35,
@@ -8139,7 +8139,7 @@
     },
     {
       "name": "Doduo",
-      "count": 15,
+      "count": 16,
       "owned": true,
       "pokedex_number": 84,
       "form": "",
@@ -11339,7 +11339,7 @@
     },
     {
       "name": "Staryu",
-      "count": 21,
+      "count": 22,
       "owned": true,
       "pokedex_number": 120,
       "form": "",
@@ -16361,7 +16361,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5122
+      "friendship_points": 5385
     },
     {
       "name": "Togetic",
@@ -16465,7 +16465,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5122,
+      "friendship_points": 5385,
       "friendship_requirement": 2500,
       "friendship_progress_percent": 100
     },
@@ -17017,7 +17017,7 @@
     },
     {
       "name": "Marill",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 183,
       "form": "",
@@ -31995,7 +31995,7 @@
     },
     {
       "name": "Spinda",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 327,
       "form": "",
@@ -37839,8 +37839,8 @@
     "primary_type": "Fairy",
     "secondary_type": null,
     "evolution_line_id": "87",
-    "friendship_points": 5122,
-    "times_pet": 7,
+    "friendship_points": 5385,
+    "times_pet": 8,
     "times_fed": 4
   }
 }
