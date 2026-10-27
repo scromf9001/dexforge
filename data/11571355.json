@@ -3,13 +3,13 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-27T19:34:15.811329+00:00",
+  "updated_at": "2026-10-27T21:14:28.776590+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 60,
-      "total_owned": 88,
-      "completion_percent": 15.54,
+      "unique_owned": 62,
+      "total_owned": 92,
+      "completion_percent": 16.06,
       "variants_available": 33,
       "variants_owned": 0
     },
@@ -35,15 +35,15 @@
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 11,
+        "owned": 13,
         "total": 135,
-        "completion_percent": 8.15,
+        "completion_percent": 9.63,
         "total_lines": 73,
         "lines_completed": 3
       }
     },
     "evolution": {
-      "total_evolutions_owned": 60,
+      "total_evolutions_owned": 62,
       "total_evolutions_available": 386,
       "lines_completed": 12,
       "total_lines": 202,
@@ -53,7 +53,7 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 50,
+        "1": 52,
         "2": 8,
         "3": 2
       }
@@ -70,9 +70,9 @@
         "completion_percent": 11.54
       },
       "water": {
-        "owned": 15,
+        "owned": 16,
         "total": 70,
-        "completion_percent": 21.43
+        "completion_percent": 22.86
       },
       "bug": {
         "owned": 0,
@@ -120,9 +120,9 @@
         "completion_percent": 0.0
       },
       "ghost": {
-        "owned": 1,
+        "owned": 2,
         "total": 8,
-        "completion_percent": 12.5
+        "completion_percent": 25.0
       },
       "ice": {
         "owned": 1,
@@ -150,20 +150,20 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 333,
-      "success": 122,
-      "accuracy_percent": 36.64,
+      "thrown": 342,
+      "success": 126,
+      "accuracy_percent": 36.84,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 185,
-          "success": 53,
-          "accuracy_percent": 28.65
+          "thrown": 192,
+          "success": 56,
+          "accuracy_percent": 29.17
         },
         "great ball": {
-          "thrown": 128,
-          "success": 57,
-          "accuracy_percent": 44.53
+          "thrown": 130,
+          "success": 58,
+          "accuracy_percent": 44.62
         },
         "ultra ball": {
           "thrown": 20,
@@ -177,9 +177,9 @@
         }
       }
     },
-    "pokecoins": 33561,
+    "pokecoins": 35961,
     "journey": {
-      "watch_hours": 269,
+      "watch_hours": 271,
       "follow_age": "6 Month(s), 4 Day(s)",
       "sub_age": "10 Day(s)",
       "sub_months": 2,
@@ -189,20 +189,20 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 71,
-      "chat_messages": 5222,
-      "commands_run": 8099,
-      "times_tagged": 1553,
+      "chat_messages": 5255,
+      "commands_run": 8197,
+      "times_tagged": 1561,
       "times_evolved": 10,
       "times_traded": 22,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 55.56,
-        "great ball": 38.44,
-        "ultra ball": 6.01,
+        "poke ball": 56.14,
+        "great ball": 38.01,
+        "ultra ball": 5.85,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 94,
+        "Great Ball": 92,
         "Ultra Ball": 5
       }
     }
@@ -15030,7 +15030,7 @@
     },
     {
       "name": "Sentret",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 161,
       "form": "",
@@ -15091,7 +15091,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -26058,7 +26058,7 @@
     },
     {
       "name": "Poochyena",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 261,
       "form": "",
@@ -27688,8 +27688,8 @@
     },
     {
       "name": "Wingull",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 278,
       "form": "",
       "is_variant": false,
@@ -34672,8 +34672,8 @@
     },
     {
       "name": "Duskull",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 355,
       "form": "",
       "is_variant": false,
@@ -37524,7 +37524,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1966
+      "friendship_points": 2076
     },
     {
       "name": "Deoxys",
@@ -37830,8 +37830,8 @@
     "primary_type": "Steel",
     "secondary_type": "Psychic",
     "evolution_line_id": "202",
-    "friendship_points": 1966,
-    "times_pet": 25,
+    "friendship_points": 2076,
+    "times_pet": 26,
     "times_fed": 0
   }
 }
