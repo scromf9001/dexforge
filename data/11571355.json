@@ -3,13 +3,13 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-28T16:21:17.962489+00:00",
+  "updated_at": "2026-10-28T19:10:00.281977+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 63,
-      "total_owned": 93,
-      "completion_percent": 16.32,
+      "unique_owned": 65,
+      "total_owned": 96,
+      "completion_percent": 16.84,
       "variants_available": 33,
       "variants_owned": 0
     },
@@ -35,17 +35,17 @@
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 14,
+        "owned": 16,
         "total": 135,
-        "completion_percent": 10.37,
+        "completion_percent": 11.85,
         "total_lines": 73,
-        "lines_completed": 3
+        "lines_completed": 5
       }
     },
     "evolution": {
-      "total_evolutions_owned": 63,
+      "total_evolutions_owned": 65,
       "total_evolutions_available": 386,
-      "lines_completed": 12,
+      "lines_completed": 14,
       "total_lines": 202,
       "stage_totals": {
         "1": 202,
@@ -53,7 +53,7 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 53,
+        "1": 55,
         "2": 8,
         "3": 2
       }
@@ -70,9 +70,9 @@
         "completion_percent": 11.54
       },
       "water": {
-        "owned": 16,
+        "owned": 17,
         "total": 70,
-        "completion_percent": 22.86
+        "completion_percent": 24.29
       },
       "bug": {
         "owned": 0,
@@ -90,9 +90,9 @@
         "completion_percent": 16.67
       },
       "electric": {
-        "owned": 5,
+        "owned": 6,
         "total": 19,
-        "completion_percent": 26.32
+        "completion_percent": 31.58
       },
       "ground": {
         "owned": 4,
@@ -150,25 +150,25 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 343,
-      "success": 127,
-      "accuracy_percent": 37.03,
+      "thrown": 350,
+      "success": 130,
+      "accuracy_percent": 37.14,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 193,
+          "thrown": 196,
           "success": 57,
-          "accuracy_percent": 29.53
+          "accuracy_percent": 29.08
         },
         "great ball": {
-          "thrown": 130,
-          "success": 58,
-          "accuracy_percent": 44.62
+          "thrown": 131,
+          "success": 59,
+          "accuracy_percent": 45.04
         },
         "ultra ball": {
-          "thrown": 20,
-          "success": 12,
-          "accuracy_percent": 60.0
+          "thrown": 23,
+          "success": 14,
+          "accuracy_percent": 60.87
         },
         "master ball": {
           "thrown": 0,
@@ -177,10 +177,10 @@
         }
       }
     },
-    "pokecoins": 36547,
+    "pokecoins": 40698,
     "journey": {
-      "watch_hours": 271,
-      "follow_age": "6 Month(s), 4 Day(s)",
+      "watch_hours": 274,
+      "follow_age": "6 Month(s), 5 Day(s)",
       "sub_age": "11 Day(s)",
       "sub_months": 2,
       "subs_gifted": 0,
@@ -189,21 +189,21 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 72,
-      "chat_messages": 5263,
-      "commands_run": 8228,
-      "times_tagged": 1565,
+      "chat_messages": 5323,
+      "commands_run": 8342,
+      "times_tagged": 1579,
       "times_evolved": 10,
       "times_traded": 22,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 56.27,
-        "great ball": 37.9,
-        "ultra ball": 5.83,
+        "poke ball": 56.0,
+        "great ball": 37.43,
+        "ultra ball": 6.57,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 92,
-        "Ultra Ball": 5
+        "Great Ball": 91,
+        "Ultra Ball": 2
       }
     }
   },
@@ -2454,7 +2454,7 @@
     },
     {
       "name": "Pikachu",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 25,
       "form": "",
@@ -30676,8 +30676,8 @@
     },
     {
       "name": "Minun",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 312,
       "form": "",
       "is_variant": false,
@@ -30738,7 +30738,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -35952,8 +35952,8 @@
     },
     {
       "name": "Luvdisc",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 370,
       "form": "",
       "is_variant": false,
@@ -36022,7 +36022,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -37524,7 +37524,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2085
+      "friendship_points": 2254
     },
     {
       "name": "Deoxys",
@@ -37830,7 +37830,7 @@
     "primary_type": "Steel",
     "secondary_type": "Psychic",
     "evolution_line_id": "202",
-    "friendship_points": 2085,
+    "friendship_points": 2254,
     "times_pet": 26,
     "times_fed": 0
   }
