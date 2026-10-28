@@ -3,13 +3,13 @@
     "username": "nsx99x",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/84925440-9af3-4345-8c6f-ce8519653903-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-28T19:00:26.089027+00:00",
+  "updated_at": "2026-10-28T19:06:50.854070+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 202,
-      "total_owned": 672,
-      "completion_percent": 52.33,
+      "unique_owned": 204,
+      "total_owned": 668,
+      "completion_percent": 52.85,
       "variants_available": 33,
       "variants_owned": 4
     },
@@ -17,20 +17,20 @@
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 122,
+        "owned": 123,
         "total": 151,
-        "completion_percent": 80.79,
+        "completion_percent": 81.46,
         "total_lines": 78,
-        "lines_completed": 52
+        "lines_completed": 53
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 61,
+        "owned": 62,
         "total": 100,
-        "completion_percent": 61.0,
+        "completion_percent": 62.0,
         "total_lines": 51,
-        "lines_completed": 25
+        "lines_completed": 26
       },
       "3": {
         "generation": 3,
@@ -43,9 +43,9 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 201,
+      "total_evolutions_owned": 203,
       "total_evolutions_available": 386,
-      "lines_completed": 81,
+      "lines_completed": 83,
       "total_lines": 202,
       "stage_totals": {
         "1": 202,
@@ -54,15 +54,15 @@
       },
       "stage_owned": {
         "1": 126,
-        "2": 61,
+        "2": 63,
         "3": 14
       }
     },
     "types": {
       "grass": {
-        "owned": 15,
+        "owned": 16,
         "total": 33,
-        "completion_percent": 45.45
+        "completion_percent": 48.48
       },
       "fire": {
         "owned": 12,
@@ -95,9 +95,9 @@
         "completion_percent": 57.89
       },
       "ground": {
-        "owned": 9,
+        "owned": 10,
         "total": 17,
-        "completion_percent": 52.94
+        "completion_percent": 58.82
       },
       "fairy": {
         "owned": 6,
@@ -177,7 +177,7 @@
         }
       }
     },
-    "pokecoins": 12563,
+    "pokecoins": 10327,
     "journey": {
       "watch_hours": 913,
       "follow_age": "1 Year(s), 6 Month(s), 20 Day(s)",
@@ -189,10 +189,10 @@
       "primary_role": "Moderator",
       "sub_tier": "Not Subscribed",
       "streams_watched": 315,
-      "chat_messages": 66381,
-      "commands_run": 81157,
-      "times_tagged": 10191,
-      "times_evolved": 98,
+      "chat_messages": 66393,
+      "commands_run": 81193,
+      "times_tagged": 10194,
+      "times_evolved": 100,
       "times_traded": 3,
       "times_eggs_hatched": 17,
       "ball_distribution": {
@@ -10549,7 +10549,7 @@
     },
     {
       "name": "Rhyhorn",
-      "count": 4,
+      "count": 1,
       "owned": true,
       "pokedex_number": 111,
       "form": "",
@@ -10649,16 +10649,16 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
-      "evolvable_now": true,
+      "line_complete": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Rhydon",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 112,
       "form": "",
       "is_variant": false,
@@ -10757,7 +10757,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -12503,7 +12503,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2042
+      "friendship_points": 2049
     },
     {
       "name": "Vaporeon",
@@ -12611,7 +12611,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2042
+      "friendship_points": 2049
     },
     {
       "name": "Jolteon",
@@ -12711,7 +12711,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2042
+      "friendship_points": 2049
     },
     {
       "name": "Flareon",
@@ -12831,7 +12831,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 2042
+      "friendship_points": 2049
     },
     {
       "name": "Porygon",
@@ -17777,7 +17777,7 @@
     },
     {
       "name": "Sunkern",
-      "count": 6,
+      "count": 3,
       "owned": true,
       "pokedex_number": 191,
       "form": "",
@@ -17865,7 +17865,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
@@ -17873,8 +17873,8 @@
     },
     {
       "name": "Sunflora",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 192,
       "form": "",
       "is_variant": false,
@@ -17961,7 +17961,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
@@ -18327,9 +18327,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2042,
+      "friendship_points": 2049,
       "friendship_requirement": 2500,
-      "friendship_progress_percent": 81.68
+      "friendship_progress_percent": 81.96
     },
     {
       "name": "Umbreon",
@@ -18437,9 +18437,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2042,
+      "friendship_points": 2049,
       "friendship_requirement": 2500,
-      "friendship_progress_percent": 81.68
+      "friendship_progress_percent": 81.96
     },
     {
       "name": "Murkrow",
@@ -37833,7 +37833,7 @@
     "primary_type": "Normal",
     "secondary_type": null,
     "evolution_line_id": "67",
-    "friendship_points": 2042,
+    "friendship_points": 2049,
     "times_pet": 15,
     "times_fed": 0
   }
