@@ -3,13 +3,13 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-27T21:14:28.776590+00:00",
+  "updated_at": "2026-10-28T16:21:17.962489+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 62,
-      "total_owned": 92,
-      "completion_percent": 16.06,
+      "unique_owned": 63,
+      "total_owned": 93,
+      "completion_percent": 16.32,
       "variants_available": 33,
       "variants_owned": 0
     },
@@ -35,15 +35,15 @@
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 13,
+        "owned": 14,
         "total": 135,
-        "completion_percent": 9.63,
+        "completion_percent": 10.37,
         "total_lines": 73,
         "lines_completed": 3
       }
     },
     "evolution": {
-      "total_evolutions_owned": 62,
+      "total_evolutions_owned": 63,
       "total_evolutions_available": 386,
       "lines_completed": 12,
       "total_lines": 202,
@@ -53,7 +53,7 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 52,
+        "1": 53,
         "2": 8,
         "3": 2
       }
@@ -80,9 +80,9 @@
         "completion_percent": 0.0
       },
       "normal": {
-        "owned": 15,
+        "owned": 16,
         "total": 55,
-        "completion_percent": 27.27
+        "completion_percent": 29.09
       },
       "poison": {
         "owned": 3,
@@ -150,15 +150,15 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 342,
-      "success": 126,
-      "accuracy_percent": 36.84,
+      "thrown": 343,
+      "success": 127,
+      "accuracy_percent": 37.03,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 192,
-          "success": 56,
-          "accuracy_percent": 29.17
+          "thrown": 193,
+          "success": 57,
+          "accuracy_percent": 29.53
         },
         "great ball": {
           "thrown": 130,
@@ -177,28 +177,28 @@
         }
       }
     },
-    "pokecoins": 35961,
+    "pokecoins": 36547,
     "journey": {
       "watch_hours": 271,
       "follow_age": "6 Month(s), 4 Day(s)",
-      "sub_age": "10 Day(s)",
+      "sub_age": "11 Day(s)",
       "sub_months": 2,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 71,
-      "chat_messages": 5255,
-      "commands_run": 8197,
-      "times_tagged": 1561,
+      "streams_watched": 72,
+      "chat_messages": 5263,
+      "commands_run": 8228,
+      "times_tagged": 1565,
       "times_evolved": 10,
       "times_traded": 22,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 56.14,
-        "great ball": 38.01,
-        "ultra ball": 5.85,
+        "poke ball": 56.27,
+        "great ball": 37.9,
+        "ultra ball": 5.83,
         "master ball": 0.0
       },
       "pokebag": {
@@ -28534,8 +28534,8 @@
     },
     {
       "name": "Slakoth",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 287,
       "form": "",
       "is_variant": false,
@@ -37524,7 +37524,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2076
+      "friendship_points": 2085
     },
     {
       "name": "Deoxys",
@@ -37830,7 +37830,7 @@
     "primary_type": "Steel",
     "secondary_type": "Psychic",
     "evolution_line_id": "202",
-    "friendship_points": 2076,
+    "friendship_points": 2085,
     "times_pet": 26,
     "times_fed": 0
   }
