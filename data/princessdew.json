@@ -3,13 +3,13 @@
     "username": "princessdew",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/04ddfbf4-1224-49b6-97d9-dd81c40a8ce3-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-17T16:18:56.840610+00:00",
+  "updated_at": "2026-10-28T16:53:04.061515+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 133,
-      "total_owned": 311,
-      "completion_percent": 34.46,
+      "unique_owned": 137,
+      "total_owned": 319,
+      "completion_percent": 35.49,
       "variants_available": 33,
       "variants_owned": 5
     },
@@ -35,17 +35,17 @@
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 1,
+        "owned": 5,
         "total": 135,
-        "completion_percent": 0.74,
+        "completion_percent": 3.7,
         "total_lines": 73,
-        "lines_completed": 1
+        "lines_completed": 3
       }
     },
     "evolution": {
-      "total_evolutions_owned": 133,
+      "total_evolutions_owned": 137,
       "total_evolutions_available": 386,
-      "lines_completed": 36,
+      "lines_completed": 38,
       "total_lines": 202,
       "stage_totals": {
         "1": 202,
@@ -53,7 +53,7 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 95,
+        "1": 99,
         "2": 36,
         "3": 2
       }
@@ -70,9 +70,9 @@
         "completion_percent": 46.15
       },
       "water": {
-        "owned": 26,
+        "owned": 27,
         "total": 70,
-        "completion_percent": 37.14
+        "completion_percent": 38.57
       },
       "bug": {
         "owned": 10,
@@ -80,14 +80,14 @@
         "completion_percent": 29.41
       },
       "normal": {
-        "owned": 19,
+        "owned": 20,
         "total": 55,
-        "completion_percent": 34.55
+        "completion_percent": 36.36
       },
       "poison": {
-        "owned": 9,
+        "owned": 10,
         "total": 18,
-        "completion_percent": 50.0
+        "completion_percent": 55.56
       },
       "electric": {
         "owned": 11,
@@ -95,9 +95,9 @@
         "completion_percent": 57.89
       },
       "ground": {
-        "owned": 5,
+        "owned": 6,
         "total": 17,
-        "completion_percent": 29.41
+        "completion_percent": 35.29
       },
       "fairy": {
         "owned": 3,
@@ -150,25 +150,25 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 359,
-      "success": 152,
-      "accuracy_percent": 42.34,
+      "thrown": 372,
+      "success": 158,
+      "accuracy_percent": 42.47,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 9,
-          "success": 1,
-          "accuracy_percent": 11.11
+          "thrown": 12,
+          "success": 2,
+          "accuracy_percent": 16.67
         },
         "great ball": {
-          "thrown": 322,
-          "success": 137,
-          "accuracy_percent": 42.55
+          "thrown": 331,
+          "success": 142,
+          "accuracy_percent": 42.9
         },
         "ultra ball": {
-          "thrown": 22,
+          "thrown": 23,
           "success": 8,
-          "accuracy_percent": 36.36
+          "accuracy_percent": 34.78
         },
         "master ball": {
           "thrown": 6,
@@ -177,36 +177,36 @@
         }
       }
     },
-    "pokecoins": 10391,
+    "pokecoins": 37024,
     "journey": {
-      "watch_hours": 1282,
-      "follow_age": "2 Year(s)",
-      "sub_age": "1 Year(s), 6 Month(s), 22 Day(s)",
+      "watch_hours": 1302,
+      "follow_age": "2 Year(s), 11 Day(s)",
+      "sub_age": "1 Year(s), 7 Month(s), 2 Day(s)",
       "sub_months": 20,
       "subs_gifted": 54,
       "bits_donated": 971,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 3",
-      "streams_watched": 398,
-      "chat_messages": 18593,
-      "commands_run": 23140,
-      "times_tagged": 3429,
+      "streams_watched": 405,
+      "chat_messages": 18792,
+      "commands_run": 23486,
+      "times_tagged": 3488,
       "times_evolved": 29,
       "times_traded": 2,
-      "times_eggs_hatched": 22,
+      "times_eggs_hatched": 23,
       "ball_distribution": {
-        "poke ball": 2.51,
-        "great ball": 89.69,
-        "ultra ball": 6.13,
-        "master ball": 1.67
+        "poke ball": 3.23,
+        "great ball": 88.98,
+        "ultra ball": 6.18,
+        "master ball": 1.61
       },
       "pokebag": {
         "Berry": 2,
         "Egg": 1,
-        "Great Ball": 92,
-        "Master Ball": 1,
-        "Ultra Ball": 14
+        "Great Ball": 83,
+        "Master Ball": 3,
+        "Ultra Ball": 13
       }
     }
   },
@@ -3085,7 +3085,7 @@
     },
     {
       "name": "Nidoran (M)",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 32,
       "form": "",
@@ -4147,7 +4147,7 @@
     },
     {
       "name": "Oddish",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 43,
       "form": "",
@@ -14147,7 +14147,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 5681
+      "friendship_points": 6858
     },
     {
       "name": "Chikorita",
@@ -16095,7 +16095,7 @@
     },
     {
       "name": "Cleffa",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 173,
       "form": "",
@@ -18059,7 +18059,7 @@
     },
     {
       "name": "Wooper",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 194,
       "form": "",
@@ -31387,8 +31387,8 @@
     },
     {
       "name": "Wailmer",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 320,
       "form": "",
       "is_variant": false,
@@ -31989,8 +31989,8 @@
     },
     {
       "name": "Spinda",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 327,
       "form": "",
       "is_variant": false,
@@ -32043,7 +32043,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -32051,8 +32051,8 @@
     },
     {
       "name": "Trapinch",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 328,
       "form": "",
       "is_variant": false,
@@ -32791,8 +32791,8 @@
     },
     {
       "name": "Seviper",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 336,
       "form": "",
       "is_variant": false,
@@ -32865,7 +32865,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -37833,7 +37833,7 @@
     "primary_type": "Psychic",
     "secondary_type": null,
     "evolution_line_id": "78",
-    "friendship_points": 5681,
+    "friendship_points": 6858,
     "times_pet": 51,
     "times_fed": 4
   }
