@@ -3,13 +3,13 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-28T19:10:00.281977+00:00",
+  "updated_at": "2026-10-29T16:58:11.773221+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 65,
-      "total_owned": 96,
-      "completion_percent": 16.84,
+      "unique_owned": 66,
+      "total_owned": 98,
+      "completion_percent": 17.1,
       "variants_available": 33,
       "variants_owned": 0
     },
@@ -17,9 +17,9 @@
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 29,
+        "owned": 30,
         "total": 151,
-        "completion_percent": 19.21,
+        "completion_percent": 19.87,
         "total_lines": 78,
         "lines_completed": 4
       },
@@ -43,7 +43,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 65,
+      "total_evolutions_owned": 66,
       "total_evolutions_available": 386,
       "lines_completed": 14,
       "total_lines": 202,
@@ -53,7 +53,7 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 55,
+        "1": 56,
         "2": 8,
         "3": 2
       }
@@ -85,9 +85,9 @@
         "completion_percent": 29.09
       },
       "poison": {
-        "owned": 3,
+        "owned": 4,
         "total": 18,
-        "completion_percent": 16.67
+        "completion_percent": 22.22
       },
       "electric": {
         "owned": 6,
@@ -150,25 +150,25 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 350,
-      "success": 130,
-      "accuracy_percent": 37.14,
+      "thrown": 355,
+      "success": 132,
+      "accuracy_percent": 37.18,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 196,
-          "success": 57,
-          "accuracy_percent": 29.08
+          "thrown": 198,
+          "success": 58,
+          "accuracy_percent": 29.29
         },
         "great ball": {
-          "thrown": 131,
+          "thrown": 133,
           "success": 59,
-          "accuracy_percent": 45.04
+          "accuracy_percent": 44.36
         },
         "ultra ball": {
-          "thrown": 23,
-          "success": 14,
-          "accuracy_percent": 60.87
+          "thrown": 24,
+          "success": 15,
+          "accuracy_percent": 62.5
         },
         "master ball": {
           "thrown": 0,
@@ -177,11 +177,11 @@
         }
       }
     },
-    "pokecoins": 40698,
+    "pokecoins": 36678,
     "journey": {
-      "watch_hours": 274,
+      "watch_hours": 275,
       "follow_age": "6 Month(s), 5 Day(s)",
-      "sub_age": "11 Day(s)",
+      "sub_age": "12 Day(s)",
       "sub_months": 2,
       "subs_gifted": 0,
       "bits_donated": 0,
@@ -189,21 +189,23 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 72,
-      "chat_messages": 5323,
-      "commands_run": 8342,
-      "times_tagged": 1579,
+      "chat_messages": 5381,
+      "commands_run": 8459,
+      "times_tagged": 1599,
       "times_evolved": 10,
       "times_traded": 22,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 56.0,
-        "great ball": 37.43,
-        "ultra ball": 6.57,
+        "poke ball": 55.77,
+        "great ball": 37.46,
+        "ultra ball": 6.76,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 91,
-        "Ultra Ball": 2
+        "Great Ball": 89,
+        "Sun Stone": 1,
+        "Ultra Ball": 4,
+        "Water Stone": 1
       }
     }
   },
@@ -826,7 +828,7 @@
     },
     {
       "name": "Squirtle",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 7,
       "form": "",
@@ -2278,8 +2280,8 @@
     },
     {
       "name": "Ekans",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 23,
       "form": "",
       "is_variant": false,
@@ -37524,7 +37526,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2254
+      "friendship_points": 2349
     },
     {
       "name": "Deoxys",
@@ -37830,7 +37832,7 @@
     "primary_type": "Steel",
     "secondary_type": "Psychic",
     "evolution_line_id": "202",
-    "friendship_points": 2254,
+    "friendship_points": 2349,
     "times_pet": 26,
     "times_fed": 0
   }
