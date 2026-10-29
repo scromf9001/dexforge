@@ -3,12 +3,12 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-29T18:12:06.941854+00:00",
+  "updated_at": "2026-10-29T18:24:31.092877+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 67,
-      "total_owned": 101,
+      "total_owned": 102,
       "completion_percent": 17.36,
       "variants_available": 33,
       "variants_owned": 0
@@ -150,9 +150,9 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 361,
-      "success": 135,
-      "accuracy_percent": 37.4,
+      "thrown": 362,
+      "success": 136,
+      "accuracy_percent": 37.57,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
@@ -166,9 +166,9 @@
           "accuracy_percent": 44.78
         },
         "ultra ball": {
-          "thrown": 27,
-          "success": 17,
-          "accuracy_percent": 62.96
+          "thrown": 28,
+          "success": 18,
+          "accuracy_percent": 64.29
         },
         "master ball": {
           "thrown": 0,
@@ -177,9 +177,9 @@
         }
       }
     },
-    "pokecoins": 35274,
+    "pokecoins": 35372,
     "journey": {
-      "watch_hours": 276,
+      "watch_hours": 277,
       "follow_age": "6 Month(s), 6 Day(s)",
       "sub_age": "12 Day(s)",
       "sub_months": 2,
@@ -189,22 +189,22 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 72,
-      "chat_messages": 5442,
-      "commands_run": 8588,
-      "times_tagged": 1639,
+      "chat_messages": 5449,
+      "commands_run": 8605,
+      "times_tagged": 1644,
       "times_evolved": 10,
       "times_traded": 23,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 55.4,
-        "great ball": 37.12,
-        "ultra ball": 7.48,
+        "poke ball": 55.25,
+        "great ball": 37.02,
+        "ultra ball": 7.73,
         "master ball": 0.0
       },
       "pokebag": {
         "Great Ball": 88,
         "Sun Stone": 1,
-        "Ultra Ball": 4,
+        "Ultra Ball": 3,
         "Water Stone": 1
       }
     }
@@ -30678,7 +30678,7 @@
     },
     {
       "name": "Minun",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 312,
       "form": "",
@@ -37526,7 +37526,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2433
+      "friendship_points": 2445
     },
     {
       "name": "Deoxys",
@@ -37832,7 +37832,7 @@
     "primary_type": "Steel",
     "secondary_type": "Psychic",
     "evolution_line_id": "202",
-    "friendship_points": 2433,
+    "friendship_points": 2445,
     "times_pet": 27,
     "times_fed": 0
   }
