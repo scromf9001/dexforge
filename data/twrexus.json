@@ -3,13 +3,13 @@
     "username": "twrexus",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ead5c8b2-a4c9-4724-b1dd-9f00b46cbd3d-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-28T18:53:34.935758+00:00",
+  "updated_at": "2026-10-29T17:30:39.219775+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 0,
-      "total_owned": 0,
-      "completion_percent": 0.0,
+      "unique_owned": 5,
+      "total_owned": 5,
+      "completion_percent": 1.3,
       "variants_available": 33,
       "variants_owned": 0
     },
@@ -26,33 +26,35 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 0,
+        "owned": 2,
         "total": 100,
-        "completion_percent": 0.0,
+        "completion_percent": 2.0,
         "total_lines": 51,
-        "lines_completed": 0
+        "lines_completed": 1
       },
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 0,
+        "owned": 3,
         "total": 135,
-        "completion_percent": 0.0,
+        "completion_percent": 2.22,
         "total_lines": 73,
-        "lines_completed": 0
+        "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 0,
+      "total_evolutions_owned": 5,
       "total_evolutions_available": 386,
-      "lines_completed": 0,
+      "lines_completed": 2,
       "total_lines": 202,
       "stage_totals": {
         "1": 202,
         "2": 139,
         "3": 45
       },
-      "stage_owned": {}
+      "stage_owned": {
+        "1": 5
+      }
     },
     "types": {
       "grass": {
@@ -66,14 +68,14 @@
         "completion_percent": 0.0
       },
       "water": {
-        "owned": 0,
+        "owned": 2,
         "total": 70,
-        "completion_percent": 0.0
+        "completion_percent": 2.86
       },
       "bug": {
-        "owned": 0,
+        "owned": 1,
         "total": 34,
-        "completion_percent": 0.0
+        "completion_percent": 2.94
       },
       "normal": {
         "owned": 0,
@@ -101,9 +103,9 @@
         "completion_percent": 0.0
       },
       "fighting": {
-        "owned": 0,
+        "owned": 1,
         "total": 13,
-        "completion_percent": 0.0
+        "completion_percent": 7.69
       },
       "psychic": {
         "owned": 0,
@@ -116,9 +118,9 @@
         "completion_percent": 0.0
       },
       "ghost": {
-        "owned": 0,
+        "owned": 1,
         "total": 8,
-        "completion_percent": 0.0
+        "completion_percent": 12.5
       },
       "ice": {
         "owned": 0,
@@ -146,20 +148,20 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 0,
-      "success": 0,
-      "accuracy_percent": 0,
+      "thrown": 12,
+      "success": 5,
+      "accuracy_percent": 41.67,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 0,
-          "success": 0,
-          "accuracy_percent": 0
+          "thrown": 11,
+          "success": 4,
+          "accuracy_percent": 36.36
         },
         "great ball": {
-          "thrown": 0,
-          "success": 0,
-          "accuracy_percent": 0
+          "thrown": 1,
+          "success": 1,
+          "accuracy_percent": 100.0
         },
         "ultra ball": {
           "thrown": 0,
@@ -173,31 +175,35 @@
         }
       }
     },
-    "pokecoins": 1807,
+    "pokecoins": 6727,
     "journey": {
-      "watch_hours": 2,
-      "follow_age": "<1 Day",
-      "sub_age": "Not Subscribed",
-      "sub_months": 0,
+      "watch_hours": 5,
+      "follow_age": "1 Day(s)",
+      "sub_age": "<1 Day",
+      "sub_months": 1,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
-      "primary_role": "Follower",
-      "sub_tier": "Not Subscribed",
+      "primary_role": "Subscriber",
+      "sub_tier": "Tier 1",
       "streams_watched": 2,
-      "chat_messages": 102,
-      "commands_run": 120,
-      "times_tagged": 15,
+      "chat_messages": 230,
+      "commands_run": 356,
+      "times_tagged": 74,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 0,
-        "great ball": 0,
-        "ultra ball": 0,
-        "master ball": 0
+        "poke ball": 91.67,
+        "great ball": 8.33,
+        "ultra ball": 0.0,
+        "master ball": 0.0
       },
-      "pokebag": {}
+      "pokebag": {
+        "Egg": 1,
+        "Great Ball": 4,
+        "Ultra Ball": 1
+      }
     }
   },
   "pokemon": [
@@ -14753,8 +14759,8 @@
     },
     {
       "name": "Totodile",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 158,
       "form": "",
       "is_variant": false,
@@ -14839,7 +14845,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 129
     },
     {
       "name": "Croconaw",
@@ -14929,7 +14935,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 129
     },
     {
       "name": "Feraligatr",
@@ -15019,7 +15025,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 129
     },
     {
       "name": "Sentret",
@@ -18633,8 +18639,8 @@
     },
     {
       "name": "Misdreavus",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 200,
       "form": "",
       "is_variant": false,
@@ -18703,7 +18709,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -28135,8 +28141,8 @@
     },
     {
       "name": "Surskit",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 283,
       "form": "",
       "is_variant": false,
@@ -29281,8 +29287,8 @@
     },
     {
       "name": "Makuhita",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 296,
       "form": "",
       "is_variant": false,
@@ -35945,8 +35951,8 @@
     },
     {
       "name": "Luvdisc",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 370,
       "form": "",
       "is_variant": false,
@@ -36015,7 +36021,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -37816,5 +37822,15 @@
       "friendship_points": 0
     }
   ],
-  "companion": null
+  "companion": {
+    "name": "Totodile",
+    "pokedex_number": 158,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/158.svg",
+    "primary_type": "Water",
+    "secondary_type": null,
+    "evolution_line_id": "81",
+    "friendship_points": 129,
+    "times_pet": 0,
+    "times_fed": 0
+  }
 }
