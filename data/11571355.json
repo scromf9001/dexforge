@@ -3,13 +3,13 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-29T18:35:35.338282+00:00",
+  "updated_at": "2026-10-30T16:41:18.247667+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 68,
-      "total_owned": 103,
-      "completion_percent": 17.62,
+      "unique_owned": 69,
+      "total_owned": 106,
+      "completion_percent": 17.88,
       "variants_available": 33,
       "variants_owned": 0
     },
@@ -35,15 +35,15 @@
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 17,
+        "owned": 18,
         "total": 135,
-        "completion_percent": 12.59,
+        "completion_percent": 13.33,
         "total_lines": 73,
         "lines_completed": 5
       }
     },
     "evolution": {
-      "total_evolutions_owned": 68,
+      "total_evolutions_owned": 69,
       "total_evolutions_available": 386,
       "lines_completed": 15,
       "total_lines": 202,
@@ -53,16 +53,16 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 58,
+        "1": 59,
         "2": 8,
         "3": 2
       }
     },
     "types": {
       "grass": {
-        "owned": 5,
+        "owned": 6,
         "total": 33,
-        "completion_percent": 15.15
+        "completion_percent": 18.18
       },
       "fire": {
         "owned": 3,
@@ -150,15 +150,15 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 363,
-      "success": 137,
-      "accuracy_percent": 37.74,
+      "thrown": 369,
+      "success": 140,
+      "accuracy_percent": 37.94,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 200,
-          "success": 58,
-          "accuracy_percent": 29.0
+          "thrown": 205,
+          "success": 60,
+          "accuracy_percent": 29.27
         },
         "great ball": {
           "thrown": 135,
@@ -166,9 +166,9 @@
           "accuracy_percent": 45.19
         },
         "ultra ball": {
-          "thrown": 28,
-          "success": 18,
-          "accuracy_percent": 64.29
+          "thrown": 29,
+          "success": 19,
+          "accuracy_percent": 65.52
         },
         "master ball": {
           "thrown": 0,
@@ -177,34 +177,34 @@
         }
       }
     },
-    "pokecoins": 32966,
+    "pokecoins": 36254,
     "journey": {
-      "watch_hours": 277,
+      "watch_hours": 279,
       "follow_age": "6 Month(s), 6 Day(s)",
-      "sub_age": "12 Day(s)",
+      "sub_age": "13 Day(s)",
       "sub_months": 2,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 72,
-      "chat_messages": 5460,
-      "commands_run": 8634,
-      "times_tagged": 1650,
+      "streams_watched": 73,
+      "chat_messages": 5510,
+      "commands_run": 8750,
+      "times_tagged": 1660,
       "times_evolved": 10,
       "times_traded": 23,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 55.1,
-        "great ball": 37.19,
-        "ultra ball": 7.71,
+        "poke ball": 55.56,
+        "great ball": 36.59,
+        "ultra ball": 7.86,
         "master ball": 0.0
       },
       "pokebag": {
         "Great Ball": 87,
         "Sun Stone": 1,
-        "Ultra Ball": 6,
+        "Ultra Ball": 5,
         "Water Stone": 1
       }
     }
@@ -5510,7 +5510,7 @@
     },
     {
       "name": "Growlithe",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 58,
       "form": "",
@@ -17112,7 +17112,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 127
     },
     {
       "name": "Azumarill",
@@ -17218,7 +17218,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 127
     },
     {
       "name": "Sudowoodo",
@@ -25170,8 +25170,8 @@
     },
     {
       "name": "Treecko",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 252,
       "form": "",
       "is_variant": false,
@@ -27690,7 +27690,7 @@
     },
     {
       "name": "Wingull",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 278,
       "form": "",
@@ -29544,7 +29544,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 127
     },
     {
       "name": "Nosepass",
@@ -37526,7 +37526,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2456
+      "friendship_points": 2461
     },
     {
       "name": "Deoxys",
@@ -37826,14 +37826,14 @@
     }
   ],
   "companion": {
-    "name": "Jirachi",
-    "pokedex_number": 385,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/385.svg",
-    "primary_type": "Steel",
-    "secondary_type": "Psychic",
-    "evolution_line_id": "202",
-    "friendship_points": 2456,
-    "times_pet": 27,
+    "name": "Marill",
+    "pokedex_number": 183,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/183.svg",
+    "primary_type": "Water",
+    "secondary_type": "Fairy",
+    "evolution_line_id": "90",
+    "friendship_points": 127,
+    "times_pet": 28,
     "times_fed": 0
   }
 }
