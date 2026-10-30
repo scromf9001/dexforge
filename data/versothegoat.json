@@ -3,7 +3,7 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-10-30T17:24:06.286705+00:00",
+  "updated_at": "2026-10-30T18:27:04.759077+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
@@ -53,8 +53,8 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 117,
-        "2": 69,
+        "1": 116,
+        "2": 70,
         "3": 15
       }
     },
@@ -150,25 +150,25 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 1214,
-      "success": 563,
-      "accuracy_percent": 46.38,
+      "thrown": 1219,
+      "success": 565,
+      "accuracy_percent": 46.35,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 127,
-          "success": 39,
-          "accuracy_percent": 30.71
+          "thrown": 130,
+          "success": 40,
+          "accuracy_percent": 30.77
         },
         "great ball": {
-          "thrown": 1010,
-          "success": 502,
-          "accuracy_percent": 49.7
+          "thrown": 1011,
+          "success": 503,
+          "accuracy_percent": 49.75
         },
         "ultra ball": {
-          "thrown": 76,
+          "thrown": 77,
           "success": 21,
-          "accuracy_percent": 27.63
+          "accuracy_percent": 27.27
         },
         "master ball": {
           "thrown": 1,
@@ -177,9 +177,9 @@
         }
       }
     },
-    "pokecoins": 40774,
+    "pokecoins": 39336,
     "journey": {
-      "watch_hours": 398,
+      "watch_hours": 399,
       "follow_age": "7 Month(s), 25 Day(s)",
       "sub_age": "9 Month(s), 3 Day(s)",
       "sub_months": 10,
@@ -189,21 +189,22 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 196,
-      "chat_messages": 37266,
-      "commands_run": 53911,
-      "times_tagged": 7565,
-      "times_evolved": 141,
-      "times_traded": 28,
+      "chat_messages": 37335,
+      "commands_run": 54077,
+      "times_tagged": 7593,
+      "times_evolved": 142,
+      "times_traded": 29,
       "times_eggs_hatched": 6,
       "ball_distribution": {
-        "poke ball": 10.46,
-        "great ball": 83.2,
-        "ultra ball": 6.26,
+        "poke ball": 10.66,
+        "great ball": 82.94,
+        "ultra ball": 6.32,
         "master ball": 0.08
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 36
+        "Great Ball": 35,
+        "Ultra Ball": 1
       }
     }
   },
@@ -3558,7 +3559,7 @@
     },
     {
       "name": "Vulpix",
-      "count": 3,
+      "count": 2,
       "owned": true,
       "pokedex_number": 37,
       "form": "",
@@ -3647,7 +3648,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -8920,7 +8921,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2121
+      "friendship_points": 2159
     },
     {
       "name": "Haunter",
@@ -9026,7 +9027,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2121
+      "friendship_points": 2159
     },
     {
       "name": "Gengar",
@@ -9132,7 +9133,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": true,
-      "friendship_points": 2121
+      "friendship_points": 2159
     },
     {
       "name": "Onix",
@@ -30294,7 +30295,7 @@
     },
     {
       "name": "Meditite",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 307,
       "form": "",
@@ -32048,7 +32049,7 @@
     },
     {
       "name": "Trapinch",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 328,
       "form": "",
@@ -35322,8 +35323,8 @@
     },
     {
       "name": "Spheal",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 363,
       "form": "",
       "is_variant": false,
@@ -35412,8 +35413,8 @@
     },
     {
       "name": "Sealeo",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 364,
       "form": "",
       "is_variant": false,
@@ -37830,8 +37831,8 @@
     "primary_type": "Ghost",
     "secondary_type": "Poison",
     "evolution_line_id": "40",
-    "friendship_points": 2121,
-    "times_pet": 77,
+    "friendship_points": 2159,
+    "times_pet": 78,
     "times_fed": 2
   }
 }
