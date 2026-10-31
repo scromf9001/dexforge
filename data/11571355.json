@@ -3,13 +3,13 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-31T16:30:00.431079+00:00",
+  "updated_at": "2026-10-31T17:20:20.822940+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 71,
-      "total_owned": 107,
-      "completion_percent": 18.39,
+      "unique_owned": 73,
+      "total_owned": 111,
+      "completion_percent": 18.91,
       "variants_available": 33,
       "variants_owned": 0
     },
@@ -35,15 +35,15 @@
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 19,
+        "owned": 21,
         "total": 135,
-        "completion_percent": 14.07,
+        "completion_percent": 15.56,
         "total_lines": 73,
         "lines_completed": 6
       }
     },
     "evolution": {
-      "total_evolutions_owned": 71,
+      "total_evolutions_owned": 73,
       "total_evolutions_available": 386,
       "lines_completed": 16,
       "total_lines": 202,
@@ -53,16 +53,16 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 60,
+        "1": 62,
         "2": 8,
         "3": 3
       }
     },
     "types": {
       "grass": {
-        "owned": 6,
+        "owned": 7,
         "total": 33,
-        "completion_percent": 18.18
+        "completion_percent": 21.21
       },
       "fire": {
         "owned": 3,
@@ -70,9 +70,9 @@
         "completion_percent": 11.54
       },
       "water": {
-        "owned": 16,
+        "owned": 17,
         "total": 70,
-        "completion_percent": 22.86
+        "completion_percent": 24.29
       },
       "bug": {
         "owned": 2,
@@ -150,15 +150,15 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 383,
-      "success": 146,
-      "accuracy_percent": 38.12,
+      "thrown": 387,
+      "success": 150,
+      "accuracy_percent": 38.76,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 217,
-          "success": 64,
-          "accuracy_percent": 29.49
+          "thrown": 221,
+          "success": 68,
+          "accuracy_percent": 30.77
         },
         "great ball": {
           "thrown": 136,
@@ -177,7 +177,7 @@
         }
       }
     },
-    "pokecoins": 39964,
+    "pokecoins": 41360,
     "journey": {
       "watch_hours": 282,
       "follow_age": "6 Month(s), 6 Day(s)",
@@ -189,16 +189,16 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 74,
-      "chat_messages": 5624,
-      "commands_run": 9016,
-      "times_tagged": 1697,
+      "chat_messages": 5641,
+      "commands_run": 9084,
+      "times_tagged": 1704,
       "times_evolved": 13,
       "times_traded": 25,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 56.66,
-        "great ball": 35.51,
-        "ultra ball": 7.83,
+        "poke ball": 57.11,
+        "great ball": 35.14,
+        "ultra ball": 7.75,
         "master ball": 0.0
       },
       "pokebag": {
@@ -15031,7 +15031,7 @@
     },
     {
       "name": "Sentret",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 161,
       "form": "",
@@ -15167,7 +15167,7 @@
     },
     {
       "name": "Hoothoot",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 163,
       "form": "",
@@ -17111,7 +17111,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 292
+      "friendship_points": 351
     },
     {
       "name": "Azumarill",
@@ -17217,7 +17217,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 292
+      "friendship_points": 351
     },
     {
       "name": "Sudowoodo",
@@ -27167,8 +27167,8 @@
     },
     {
       "name": "Seedot",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 273,
       "form": "",
       "is_variant": false,
@@ -29543,7 +29543,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 292
+      "friendship_points": 351
     },
     {
       "name": "Nosepass",
@@ -35593,8 +35593,8 @@
     },
     {
       "name": "Clamperl",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 366,
       "form": "",
       "is_variant": false,
@@ -37831,8 +37831,8 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 292,
-    "times_pet": 28,
+    "friendship_points": 351,
+    "times_pet": 29,
     "times_fed": 0
   }
 }
