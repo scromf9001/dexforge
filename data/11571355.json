@@ -3,7 +3,7 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-30T18:32:58.281069+00:00",
+  "updated_at": "2026-10-31T16:16:26.849800+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
@@ -53,8 +53,8 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 62,
-        "2": 8,
+        "1": 61,
+        "2": 9,
         "3": 2
       }
     },
@@ -150,15 +150,15 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 379,
-      "success": 143,
-      "accuracy_percent": 37.73,
+      "thrown": 382,
+      "success": 145,
+      "accuracy_percent": 37.96,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 214,
-          "success": 62,
-          "accuracy_percent": 28.97
+          "thrown": 216,
+          "success": 63,
+          "accuracy_percent": 29.17
         },
         "great ball": {
           "thrown": 136,
@@ -166,9 +166,9 @@
           "accuracy_percent": 45.59
         },
         "ultra ball": {
-          "thrown": 29,
-          "success": 19,
-          "accuracy_percent": 65.52
+          "thrown": 30,
+          "success": 20,
+          "accuracy_percent": 66.67
         },
         "master ball": {
           "thrown": 0,
@@ -177,34 +177,34 @@
         }
       }
     },
-    "pokecoins": 38602,
+    "pokecoins": 39858,
     "journey": {
       "watch_hours": 281,
-      "follow_age": "6 Month(s), 7 Day(s)",
-      "sub_age": "13 Day(s)",
+      "follow_age": "6 Month(s), 6 Day(s)",
+      "sub_age": "14 Day(s)",
       "sub_months": 2,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 73,
-      "chat_messages": 5573,
-      "commands_run": 8888,
-      "times_tagged": 1677,
-      "times_evolved": 10,
+      "streams_watched": 74,
+      "chat_messages": 5601,
+      "commands_run": 8962,
+      "times_tagged": 1687,
+      "times_evolved": 11,
       "times_traded": 24,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 56.46,
-        "great ball": 35.88,
-        "ultra ball": 7.65,
+        "poke ball": 56.54,
+        "great ball": 35.6,
+        "ultra ball": 7.85,
         "master ball": 0.0
       },
       "pokebag": {
         "Great Ball": 86,
         "Sun Stone": 1,
-        "Ultra Ball": 5,
+        "Ultra Ball": 4,
         "Water Stone": 1
       }
     }
@@ -17112,7 +17112,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 239
+      "friendship_points": 278
     },
     {
       "name": "Azumarill",
@@ -17218,7 +17218,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 239
+      "friendship_points": 278
     },
     {
       "name": "Sudowoodo",
@@ -25170,7 +25170,7 @@
     },
     {
       "name": "Treecko",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 252,
       "form": "",
@@ -28144,7 +28144,7 @@
     },
     {
       "name": "Surskit",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 283,
       "form": "",
@@ -29544,7 +29544,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 239
+      "friendship_points": 278
     },
     {
       "name": "Nosepass",
@@ -35324,8 +35324,8 @@
     },
     {
       "name": "Spheal",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 363,
       "form": "",
       "is_variant": false,
@@ -35407,15 +35407,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Sealeo",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 364,
       "form": "",
       "is_variant": false,
@@ -37832,7 +37832,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 239,
+    "friendship_points": 278,
     "times_pet": 28,
     "times_fed": 0
   }
