@@ -3,13 +3,13 @@
     "username": "twrexus",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ead5c8b2-a4c9-4724-b1dd-9f00b46cbd3d-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-30T18:17:39.620690+00:00",
+  "updated_at": "2026-10-31T16:20:47.822091+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 8,
-      "total_owned": 9,
-      "completion_percent": 2.07,
+      "unique_owned": 10,
+      "total_owned": 11,
+      "completion_percent": 2.59,
       "variants_available": 33,
       "variants_owned": 0
     },
@@ -17,9 +17,9 @@
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 1,
+        "owned": 2,
         "total": 151,
-        "completion_percent": 0.66,
+        "completion_percent": 1.32,
         "total_lines": 78,
         "lines_completed": 0
       },
@@ -35,17 +35,17 @@
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 5,
+        "owned": 6,
         "total": 135,
-        "completion_percent": 3.7,
+        "completion_percent": 4.44,
         "total_lines": 73,
-        "lines_completed": 1
+        "lines_completed": 2
       }
     },
     "evolution": {
-      "total_evolutions_owned": 8,
+      "total_evolutions_owned": 10,
       "total_evolutions_available": 386,
-      "lines_completed": 2,
+      "lines_completed": 3,
       "total_lines": 202,
       "stage_totals": {
         "1": 202,
@@ -53,19 +53,19 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 8
+        "1": 10
       }
     },
     "types": {
       "grass": {
-        "owned": 0,
+        "owned": 2,
         "total": 33,
-        "completion_percent": 0.0
+        "completion_percent": 6.06
       },
       "fire": {
-        "owned": 1,
+        "owned": 2,
         "total": 26,
-        "completion_percent": 3.85
+        "completion_percent": 7.69
       },
       "water": {
         "owned": 2,
@@ -103,9 +103,9 @@
         "completion_percent": 0.0
       },
       "fighting": {
-        "owned": 2,
+        "owned": 1,
         "total": 13,
-        "completion_percent": 15.38
+        "completion_percent": 7.69
       },
       "psychic": {
         "owned": 0,
@@ -148,20 +148,20 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 31,
-      "success": 9,
-      "accuracy_percent": 29.03,
+      "thrown": 36,
+      "success": 11,
+      "accuracy_percent": 30.56,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 24,
+          "thrown": 26,
           "success": 6,
-          "accuracy_percent": 25.0
+          "accuracy_percent": 23.08
         },
         "great ball": {
-          "thrown": 6,
-          "success": 3,
-          "accuracy_percent": 50.0
+          "thrown": 9,
+          "success": 5,
+          "accuracy_percent": 55.56
         },
         "ultra ball": {
           "thrown": 1,
@@ -175,28 +175,28 @@
         }
       }
     },
-    "pokecoins": 9617,
+    "pokecoins": 12143,
     "journey": {
-      "watch_hours": 8,
-      "follow_age": "2 Day(s)",
-      "sub_age": "1 Day(s)",
+      "watch_hours": 9,
+      "follow_age": "3 Day(s)",
+      "sub_age": "2 Day(s)",
       "sub_months": 1,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 3,
-      "chat_messages": 386,
-      "commands_run": 676,
-      "times_tagged": 123,
+      "streams_watched": 4,
+      "chat_messages": 431,
+      "commands_run": 774,
+      "times_tagged": 144,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 77.42,
-        "great ball": 19.35,
-        "ultra ball": 3.23,
+        "poke ball": 72.22,
+        "great ball": 25.0,
+        "ultra ball": 2.78,
         "master ball": 0.0
       },
       "pokebag": {
@@ -3557,8 +3557,8 @@
     },
     {
       "name": "Vulpix",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 37,
       "form": "",
       "is_variant": false,
@@ -3649,7 +3649,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 41
     },
     {
       "name": "Ninetales",
@@ -3745,7 +3745,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 0
+      "friendship_points": 41
     },
     {
       "name": "Jigglypuff",
@@ -5599,7 +5599,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 88
+      "friendship_points": 91
     },
     {
       "name": "Arcanine",
@@ -5695,7 +5695,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 88
+      "friendship_points": 91
     },
     {
       "name": "Poliwag",
@@ -25167,8 +25167,8 @@
     },
     {
       "name": "Treecko",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 252,
       "form": "",
       "is_variant": false,
@@ -30293,8 +30293,8 @@
     },
     {
       "name": "Meditite",
-      "count": 1,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 307,
       "form": "",
       "is_variant": false,
@@ -34839,8 +34839,8 @@
     },
     {
       "name": "Tropius",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 357,
       "form": "",
       "is_variant": false,
@@ -34921,7 +34921,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -37823,13 +37823,13 @@
     }
   ],
   "companion": {
-    "name": "Growlithe",
-    "pokedex_number": 58,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/58.svg",
+    "name": "Vulpix",
+    "pokedex_number": 37,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/37.svg",
     "primary_type": "Fire",
     "secondary_type": null,
-    "evolution_line_id": "25",
-    "friendship_points": 88,
+    "evolution_line_id": "15",
+    "friendship_points": 41,
     "times_pet": 0,
     "times_fed": 0
   }
