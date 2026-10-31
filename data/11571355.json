@@ -3,12 +3,12 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-31T16:20:09.078310+00:00",
+  "updated_at": "2026-10-31T16:30:00.431079+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 71,
-      "total_owned": 110,
+      "total_owned": 107,
       "completion_percent": 18.39,
       "variants_available": 33,
       "variants_owned": 0
@@ -54,8 +54,8 @@
       },
       "stage_owned": {
         "1": 60,
-        "2": 9,
-        "3": 2
+        "2": 8,
+        "3": 3
       }
     },
     "types": {
@@ -150,15 +150,15 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 382,
-      "success": 145,
-      "accuracy_percent": 37.96,
+      "thrown": 383,
+      "success": 146,
+      "accuracy_percent": 38.12,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 216,
-          "success": 63,
-          "accuracy_percent": 29.17
+          "thrown": 217,
+          "success": 64,
+          "accuracy_percent": 29.49
         },
         "great ball": {
           "thrown": 136,
@@ -177,9 +177,9 @@
         }
       }
     },
-    "pokecoins": 39874,
+    "pokecoins": 39964,
     "journey": {
-      "watch_hours": 281,
+      "watch_hours": 282,
       "follow_age": "6 Month(s), 6 Day(s)",
       "sub_age": "14 Day(s)",
       "sub_months": 2,
@@ -189,23 +189,22 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 74,
-      "chat_messages": 5608,
-      "commands_run": 8977,
-      "times_tagged": 1693,
-      "times_evolved": 11,
+      "chat_messages": 5624,
+      "commands_run": 9016,
+      "times_tagged": 1697,
+      "times_evolved": 13,
       "times_traded": 25,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 56.54,
-        "great ball": 35.6,
-        "ultra ball": 7.85,
+        "poke ball": 56.66,
+        "great ball": 35.51,
+        "ultra ball": 7.83,
         "master ball": 0.0
       },
       "pokebag": {
         "Great Ball": 86,
         "Sun Stone": 1,
-        "Ultra Ball": 4,
-        "Water Stone": 1
+        "Ultra Ball": 4
       }
     }
   },
@@ -5702,7 +5701,7 @@
     },
     {
       "name": "Poliwag",
-      "count": 4,
+      "count": 1,
       "owned": true,
       "pokedex_number": 60,
       "form": "",
@@ -5791,15 +5790,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
     },
     {
       "name": "Poliwhirl",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 61,
       "form": "",
       "is_variant": false,
@@ -5894,8 +5893,8 @@
     },
     {
       "name": "Poliwrath",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 62,
       "form": "",
       "is_variant": false,
@@ -17112,7 +17111,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 282
+      "friendship_points": 292
     },
     {
       "name": "Azumarill",
@@ -17218,7 +17217,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 282
+      "friendship_points": 292
     },
     {
       "name": "Sudowoodo",
@@ -28144,7 +28143,7 @@
     },
     {
       "name": "Surskit",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 283,
       "form": "",
@@ -28229,7 +28228,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -29544,7 +29543,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 282
+      "friendship_points": 292
     },
     {
       "name": "Nosepass",
@@ -37832,7 +37831,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 282,
+    "friendship_points": 292,
     "times_pet": 28,
     "times_fed": 0
   }
