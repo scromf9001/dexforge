@@ -3,13 +3,13 @@
     "username": "bojangles3825",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-10-17T15:16:30.492276+00:00",
+  "updated_at": "2026-11-02T17:54:01.330534+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 45,
-      "total_owned": 65,
-      "completion_percent": 11.66,
+      "unique_owned": 48,
+      "total_owned": 70,
+      "completion_percent": 12.44,
       "variants_available": 33,
       "variants_owned": 0
     },
@@ -35,15 +35,15 @@
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 1,
+        "owned": 4,
         "total": 135,
-        "completion_percent": 0.74,
+        "completion_percent": 2.96,
         "total_lines": 73,
         "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 45,
+      "total_evolutions_owned": 48,
       "total_evolutions_available": 386,
       "lines_completed": 6,
       "total_lines": 202,
@@ -53,7 +53,7 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 40,
+        "1": 43,
         "2": 5
       }
     },
@@ -69,19 +69,19 @@
         "completion_percent": 11.54
       },
       "water": {
-        "owned": 4,
+        "owned": 5,
         "total": 70,
-        "completion_percent": 5.71
+        "completion_percent": 7.14
       },
       "bug": {
-        "owned": 7,
+        "owned": 8,
         "total": 34,
-        "completion_percent": 20.59
+        "completion_percent": 23.53
       },
       "normal": {
-        "owned": 8,
+        "owned": 9,
         "total": 55,
-        "completion_percent": 14.55
+        "completion_percent": 16.36
       },
       "poison": {
         "owned": 2,
@@ -149,20 +149,20 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 149,
-      "success": 50,
-      "accuracy_percent": 33.56,
+      "thrown": 168,
+      "success": 54,
+      "accuracy_percent": 32.14,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 134,
-          "success": 44,
-          "accuracy_percent": 32.84
+          "thrown": 150,
+          "success": 48,
+          "accuracy_percent": 32.0
         },
         "great ball": {
-          "thrown": 15,
+          "thrown": 18,
           "success": 6,
-          "accuracy_percent": 40.0
+          "accuracy_percent": 33.33
         },
         "ultra ball": {
           "thrown": 0,
@@ -176,33 +176,32 @@
         }
       }
     },
-    "pokecoins": 1352,
+    "pokecoins": 7390,
     "journey": {
-      "watch_hours": 151,
-      "follow_age": "2 Year(s)",
-      "sub_age": "6 Month(s), 28 Day(s)",
+      "watch_hours": 156,
+      "follow_age": "2 Year(s), 16 Day(s)",
+      "sub_age": "7 Month(s), 14 Day(s)",
       "sub_months": 8,
       "subs_gifted": 5,
-      "bits_donated": 2100,
+      "bits_donated": 4000,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 76,
-      "chat_messages": 1796,
-      "commands_run": 2862,
-      "times_tagged": 325,
+      "streams_watched": 81,
+      "chat_messages": 1928,
+      "commands_run": 3195,
+      "times_tagged": 366,
       "times_evolved": 2,
       "times_traded": 0,
-      "times_eggs_hatched": 0,
+      "times_eggs_hatched": 1,
       "ball_distribution": {
-        "poke ball": 89.93,
-        "great ball": 10.07,
+        "poke ball": 89.29,
+        "great ball": 10.71,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
-        "Egg": 1,
-        "Great Ball": 99,
+        "Great Ball": 96,
         "Ultra Ball": 5
       }
     }
@@ -3650,7 +3649,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 274
+      "friendship_points": 884
     },
     {
       "name": "Ninetales",
@@ -3746,11 +3745,11 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 274
+      "friendship_points": 884
     },
     {
       "name": "Jigglypuff",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 39,
       "form": "",
@@ -12500,7 +12499,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1
+      "friendship_points": 3
     },
     {
       "name": "Vaporeon",
@@ -12608,7 +12607,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1
+      "friendship_points": 3
     },
     {
       "name": "Jolteon",
@@ -12708,7 +12707,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1
+      "friendship_points": 3
     },
     {
       "name": "Flareon",
@@ -12828,7 +12827,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1
+      "friendship_points": 3
     },
     {
       "name": "Porygon",
@@ -18324,9 +18323,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1,
+      "friendship_points": 3,
       "friendship_requirement": 2500,
-      "friendship_progress_percent": 0.04
+      "friendship_progress_percent": 0.12
     },
     {
       "name": "Umbreon",
@@ -18434,9 +18433,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1,
+      "friendship_points": 3,
       "friendship_requirement": 2500,
-      "friendship_progress_percent": 0.04
+      "friendship_progress_percent": 0.12
     },
     {
       "name": "Murkrow",
@@ -22344,7 +22343,7 @@
     },
     {
       "name": "Swinub",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 220,
       "form": "",
@@ -28142,8 +28141,8 @@
     },
     {
       "name": "Surskit",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 283,
       "form": "",
       "is_variant": false,
@@ -29456,8 +29455,8 @@
     },
     {
       "name": "Azurill",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 298,
       "form": "",
       "is_variant": false,
@@ -31168,8 +31167,8 @@
     },
     {
       "name": "Carvanha",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 318,
       "form": "",
       "is_variant": false,
@@ -37824,14 +37823,14 @@
     }
   ],
   "companion": {
-    "name": "Eevee",
-    "pokedex_number": 133,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/133.svg",
-    "primary_type": "Normal",
+    "name": "Vulpix",
+    "pokedex_number": 37,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/37.svg",
+    "primary_type": "Fire",
     "secondary_type": null,
-    "evolution_line_id": "67",
-    "friendship_points": 1,
-    "times_pet": 0,
-    "times_fed": 0
+    "evolution_line_id": "15",
+    "friendship_points": 884,
+    "times_pet": 4,
+    "times_fed": 1
   }
 }
