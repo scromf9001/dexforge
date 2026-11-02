@@ -3,7 +3,7 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-11-02T18:52:07.417029+00:00",
+  "updated_at": "2026-11-02T18:52:48.401970+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
@@ -177,7 +177,7 @@
         }
       }
     },
-    "pokecoins": 47768,
+    "pokecoins": 47772,
     "journey": {
       "watch_hours": 405,
       "follow_age": "7 Month(s), 28 Day(s)",
@@ -189,9 +189,9 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 198,
-      "chat_messages": 37997,
-      "commands_run": 55182,
-      "times_tagged": 7819,
+      "chat_messages": 38000,
+      "commands_run": 55191,
+      "times_tagged": 7821,
       "times_evolved": 144,
       "times_traded": 31,
       "times_eggs_hatched": 7,
@@ -8920,7 +8920,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2552
+      "friendship_points": 2553
     },
     {
       "name": "Haunter",
@@ -9026,7 +9026,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2552
+      "friendship_points": 2553
     },
     {
       "name": "Gengar",
@@ -9132,7 +9132,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": true,
-      "friendship_points": 2552
+      "friendship_points": 2553
     },
     {
       "name": "Onix",
@@ -37830,7 +37830,7 @@
     "primary_type": "Ghost",
     "secondary_type": "Poison",
     "evolution_line_id": "40",
-    "friendship_points": 2552,
+    "friendship_points": 2553,
     "times_pet": 80,
     "times_fed": 2
   }
