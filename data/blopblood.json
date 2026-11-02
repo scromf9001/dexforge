@@ -3,13 +3,13 @@
     "username": "blopblood",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d81b7f66-4f5f-4eec-bd3d-64e0ba6d2b10-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-02T17:03:58.645261+00:00",
+  "updated_at": "2026-11-02T18:23:50.086140+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 260,
-      "total_owned": 1245,
-      "completion_percent": 67.36,
+      "unique_owned": 261,
+      "total_owned": 1246,
+      "completion_percent": 67.62,
       "variants_available": 33,
       "variants_owned": 11
     },
@@ -26,9 +26,9 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 85,
+        "owned": 86,
         "total": 100,
-        "completion_percent": 85.0,
+        "completion_percent": 86.0,
         "total_lines": 51,
         "lines_completed": 38
       },
@@ -43,7 +43,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 260,
+      "total_evolutions_owned": 261,
       "total_evolutions_available": 386,
       "lines_completed": 114,
       "total_lines": 202,
@@ -53,16 +53,16 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 153,
+        "1": 154,
         "3": 25,
         "2": 82
       }
     },
     "types": {
       "grass": {
-        "owned": 21,
+        "owned": 22,
         "total": 33,
-        "completion_percent": 63.64
+        "completion_percent": 66.67
       },
       "fire": {
         "owned": 21,
@@ -150,25 +150,25 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 2235,
-      "success": 1051,
-      "accuracy_percent": 47.02,
+      "thrown": 2242,
+      "success": 1052,
+      "accuracy_percent": 46.92,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 223,
+          "thrown": 226,
           "success": 71,
-          "accuracy_percent": 31.84
+          "accuracy_percent": 31.42
         },
         "great ball": {
-          "thrown": 1908,
+          "thrown": 1911,
           "success": 932,
-          "accuracy_percent": 48.85
+          "accuracy_percent": 48.77
         },
         "ultra ball": {
-          "thrown": 98,
-          "success": 42,
-          "accuracy_percent": 42.86
+          "thrown": 99,
+          "success": 43,
+          "accuracy_percent": 43.43
         },
         "master ball": {
           "thrown": 6,
@@ -177,9 +177,9 @@
         }
       }
     },
-    "pokecoins": 56822,
+    "pokecoins": 68342,
     "journey": {
-      "watch_hours": 1041,
+      "watch_hours": 1042,
       "follow_age": "1 Year(s), 3 Month(s), 24 Day(s)",
       "sub_age": "1 Year(s), 1 Month(s), 13 Day(s)",
       "sub_months": 14,
@@ -189,27 +189,27 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 299,
-      "chat_messages": 33019,
-      "commands_run": 52994,
-      "times_tagged": 6245,
+      "chat_messages": 33093,
+      "commands_run": 53112,
+      "times_tagged": 6262,
       "times_evolved": 74,
       "times_traded": 6,
       "times_eggs_hatched": 32,
       "ball_distribution": {
-        "poke ball": 9.98,
-        "great ball": 85.37,
-        "ultra ball": 4.38,
+        "poke ball": 10.08,
+        "great ball": 85.24,
+        "ultra ball": 4.42,
         "master ball": 0.27
       },
       "pokebag": {
         "Egg": 1,
         "Fire Stone": 1,
-        "Great Ball": 13,
+        "Great Ball": 10,
         "Leaf Stone": 1,
         "Master Ball": 1,
         "Moon Stone": 2,
         "Thunder Stone": 1,
-        "Ultra Ball": 5
+        "Ultra Ball": 4
       }
     }
   },
@@ -14154,8 +14154,8 @@
     },
     {
       "name": "Chikorita",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 152,
       "form": "",
       "is_variant": false,
@@ -16358,7 +16358,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1521
+      "friendship_points": 1601
     },
     {
       "name": "Togetic",
@@ -16462,9 +16462,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1521,
+      "friendship_points": 1601,
       "friendship_requirement": 2500,
-      "friendship_progress_percent": 60.84
+      "friendship_progress_percent": 64.04
     },
     {
       "name": "Natu",
@@ -37836,7 +37836,7 @@
     "primary_type": "Fairy",
     "secondary_type": null,
     "evolution_line_id": "87",
-    "friendship_points": 1521,
+    "friendship_points": 1601,
     "times_pet": 30,
     "times_fed": 0
   }
