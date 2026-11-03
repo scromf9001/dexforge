@@ -3,13 +3,13 @@
     "username": "bojangles3825",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-03T16:29:19.675753+00:00",
+  "updated_at": "2026-11-03T17:31:24.646138+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 51,
-      "total_owned": 64,
-      "completion_percent": 13.21,
+      "unique_owned": 54,
+      "total_owned": 67,
+      "completion_percent": 13.99,
       "variants_available": 33,
       "variants_owned": 0
     },
@@ -17,35 +17,35 @@
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 33,
+        "owned": 34,
         "total": 151,
-        "completion_percent": 21.85,
+        "completion_percent": 22.52,
         "total_lines": 78,
         "lines_completed": 3
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 13,
+        "owned": 14,
         "total": 100,
-        "completion_percent": 13.0,
+        "completion_percent": 14.0,
         "total_lines": 51,
-        "lines_completed": 3
+        "lines_completed": 4
       },
       "3": {
         "generation": 3,
         "region": "Hoenn",
-        "owned": 5,
+        "owned": 6,
         "total": 135,
-        "completion_percent": 3.7,
+        "completion_percent": 4.44,
         "total_lines": 73,
         "lines_completed": 1
       }
     },
     "evolution": {
-      "total_evolutions_owned": 51,
+      "total_evolutions_owned": 54,
       "total_evolutions_available": 386,
-      "lines_completed": 7,
+      "lines_completed": 8,
       "total_lines": 202,
       "stage_totals": {
         "1": 202,
@@ -53,7 +53,7 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 43,
+        "1": 46,
         "2": 7,
         "3": 1
       }
@@ -90,9 +90,9 @@
         "completion_percent": 16.67
       },
       "electric": {
-        "owned": 2,
+        "owned": 3,
         "total": 19,
-        "completion_percent": 10.53
+        "completion_percent": 15.79
       },
       "ground": {
         "owned": 3,
@@ -115,9 +115,9 @@
         "completion_percent": 13.04
       },
       "rock": {
-        "owned": 0,
+        "owned": 1,
         "total": 21,
-        "completion_percent": 0.0
+        "completion_percent": 4.76
       },
       "ghost": {
         "owned": 2,
@@ -135,9 +135,9 @@
         "completion_percent": 0.0
       },
       "dark": {
-        "owned": 0,
+        "owned": 1,
         "total": 9,
-        "completion_percent": 0.0
+        "completion_percent": 11.11
       },
       "steel": {
         "owned": 1,
@@ -150,20 +150,20 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 173,
-      "success": 56,
-      "accuracy_percent": 32.37,
+      "thrown": 179,
+      "success": 59,
+      "accuracy_percent": 32.96,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 155,
+          "thrown": 157,
           "success": 50,
-          "accuracy_percent": 32.26
+          "accuracy_percent": 31.85
         },
         "great ball": {
-          "thrown": 18,
-          "success": 6,
-          "accuracy_percent": 33.33
+          "thrown": 22,
+          "success": 9,
+          "accuracy_percent": 40.91
         },
         "ultra ball": {
           "thrown": 0,
@@ -177,11 +177,11 @@
         }
       }
     },
-    "pokecoins": 15872,
+    "pokecoins": 9420,
     "journey": {
-      "watch_hours": 157,
+      "watch_hours": 158,
       "follow_age": "2 Year(s), 17 Day(s)",
-      "sub_age": "7 Month(s), 14 Day(s)",
+      "sub_age": "7 Month(s), 15 Day(s)",
       "sub_months": 8,
       "subs_gifted": 5,
       "bits_donated": 4000,
@@ -189,21 +189,22 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 82,
-      "chat_messages": 1966,
-      "commands_run": 3338,
-      "times_tagged": 395,
+      "chat_messages": 1985,
+      "commands_run": 3417,
+      "times_tagged": 406,
       "times_evolved": 6,
       "times_traded": 1,
       "times_eggs_hatched": 1,
       "ball_distribution": {
-        "poke ball": 89.6,
-        "great ball": 10.4,
+        "poke ball": 87.71,
+        "great ball": 12.29,
         "ultra ball": 0.0,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 96,
-        "Ultra Ball": 5
+        "Egg": 1,
+        "Great Ball": 92,
+        "Ultra Ball": 10
       }
     }
   },
@@ -3650,7 +3651,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 952
+      "friendship_points": 1014
     },
     {
       "name": "Ninetales",
@@ -3746,7 +3747,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 952
+      "friendship_points": 1014
     },
     {
       "name": "Jigglypuff",
@@ -9572,8 +9573,8 @@
     },
     {
       "name": "Voltorb",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 100,
       "form": "",
       "is_variant": false,
@@ -17220,8 +17221,8 @@
     },
     {
       "name": "Sudowoodo",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 185,
       "form": "",
       "is_variant": false,
@@ -17302,7 +17303,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -26058,8 +26059,8 @@
     },
     {
       "name": "Poochyena",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 261,
       "form": "",
       "is_variant": false,
@@ -37830,7 +37831,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "15",
-    "friendship_points": 952,
+    "friendship_points": 1014,
     "times_pet": 5,
     "times_fed": 1
   }
