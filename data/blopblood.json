@@ -3,7 +3,7 @@
     "username": "blopblood",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d81b7f66-4f5f-4eec-bd3d-64e0ba6d2b10-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-02T20:51:44.479827+00:00",
+  "updated_at": "2026-11-03T18:35:43.203767+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
@@ -53,9 +53,9 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 157,
+        "1": 156,
         "3": 25,
-        "2": 82
+        "2": 83
       }
     },
     "types": {
@@ -150,15 +150,15 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 2259,
-      "success": 1061,
-      "accuracy_percent": 46.97,
+      "thrown": 2271,
+      "success": 1063,
+      "accuracy_percent": 46.81,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 233,
-          "success": 74,
-          "accuracy_percent": 31.76
+          "thrown": 244,
+          "success": 76,
+          "accuracy_percent": 31.15
         },
         "great ball": {
           "thrown": 1920,
@@ -166,9 +166,9 @@
           "accuracy_percent": 48.85
         },
         "ultra ball": {
-          "thrown": 100,
+          "thrown": 101,
           "success": 43,
-          "accuracy_percent": 43.0
+          "accuracy_percent": 42.57
         },
         "master ball": {
           "thrown": 6,
@@ -177,39 +177,39 @@
         }
       }
     },
-    "pokecoins": 71534,
+    "pokecoins": 85582,
     "journey": {
-      "watch_hours": 1045,
-      "follow_age": "1 Year(s), 3 Month(s), 25 Day(s)",
-      "sub_age": "1 Year(s), 1 Month(s), 13 Day(s)",
+      "watch_hours": 1048,
+      "follow_age": "1 Year(s), 3 Month(s), 26 Day(s)",
+      "sub_age": "1 Year(s), 1 Month(s), 14 Day(s)",
       "sub_months": 14,
       "subs_gifted": 0,
       "bits_donated": 1456,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 299,
-      "chat_messages": 33244,
-      "commands_run": 53375,
-      "times_tagged": 6290,
+      "streams_watched": 300,
+      "chat_messages": 33352,
+      "commands_run": 53581,
+      "times_tagged": 6312,
       "times_evolved": 74,
       "times_traded": 7,
       "times_eggs_hatched": 32,
       "ball_distribution": {
-        "poke ball": 10.31,
-        "great ball": 84.99,
-        "ultra ball": 4.43,
-        "master ball": 0.27
+        "poke ball": 10.74,
+        "great ball": 84.54,
+        "ultra ball": 4.45,
+        "master ball": 0.26
       },
       "pokebag": {
         "Egg": 1,
         "Fire Stone": 1,
-        "Great Ball": 1,
+        "Great Ball": 41,
         "Leaf Stone": 1,
         "Master Ball": 1,
         "Moon Stone": 2,
         "Thunder Stone": 1,
-        "Ultra Ball": 3
+        "Ultra Ball": 12
       }
     }
   },
@@ -3756,7 +3756,7 @@
     },
     {
       "name": "Jigglypuff",
-      "count": 15,
+      "count": 16,
       "owned": true,
       "pokedex_number": 39,
       "form": "",
@@ -9578,7 +9578,7 @@
     },
     {
       "name": "Voltorb",
-      "count": 20,
+      "count": 21,
       "owned": true,
       "pokedex_number": 100,
       "form": "",
@@ -16358,7 +16358,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1749
+      "friendship_points": 1911
     },
     {
       "name": "Togetic",
@@ -16462,9 +16462,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1749,
+      "friendship_points": 1911,
       "friendship_requirement": 2500,
-      "friendship_progress_percent": 69.96
+      "friendship_progress_percent": 76.44
     },
     {
       "name": "Natu",
@@ -35598,8 +35598,8 @@
     },
     {
       "name": "Clamperl",
-      "count": 3,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 366,
       "form": "",
       "is_variant": false,
@@ -35681,7 +35681,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -35778,8 +35778,8 @@
     },
     {
       "name": "Gorebyss",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 368,
       "form": "",
       "is_variant": false,
@@ -37836,7 +37836,7 @@
     "primary_type": "Fairy",
     "secondary_type": null,
     "evolution_line_id": "87",
-    "friendship_points": 1749,
+    "friendship_points": 1911,
     "times_pet": 30,
     "times_fed": 0
   }
