@@ -3,13 +3,13 @@
     "username": "twrexus",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ead5c8b2-a4c9-4724-b1dd-9f00b46cbd3d-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-03T16:25:26.569148+00:00",
+  "updated_at": "2026-11-03T16:51:56.475336+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 23,
-      "total_owned": 26,
-      "completion_percent": 5.96,
+      "unique_owned": 25,
+      "total_owned": 28,
+      "completion_percent": 6.48,
       "variants_available": 33,
       "variants_owned": 0
     },
@@ -17,18 +17,18 @@
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 6,
+        "owned": 7,
         "total": 151,
-        "completion_percent": 3.97,
+        "completion_percent": 4.64,
         "total_lines": 78,
         "lines_completed": 0
       },
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 6,
+        "owned": 7,
         "total": 100,
-        "completion_percent": 6.0,
+        "completion_percent": 7.0,
         "total_lines": 51,
         "lines_completed": 1
       },
@@ -43,7 +43,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 23,
+      "total_evolutions_owned": 25,
       "total_evolutions_available": 386,
       "lines_completed": 3,
       "total_lines": 202,
@@ -53,7 +53,7 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 23
+        "1": 25
       }
     },
     "types": {
@@ -78,9 +78,9 @@
         "completion_percent": 2.94
       },
       "normal": {
-        "owned": 3,
+        "owned": 5,
         "total": 55,
-        "completion_percent": 5.45
+        "completion_percent": 9.09
       },
       "poison": {
         "owned": 1,
@@ -148,9 +148,9 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 70,
-      "success": 26,
-      "accuracy_percent": 37.14,
+      "thrown": 72,
+      "success": 28,
+      "accuracy_percent": 38.89,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
@@ -159,9 +159,9 @@
           "accuracy_percent": 22.5
         },
         "great ball": {
-          "thrown": 26,
-          "success": 17,
-          "accuracy_percent": 65.38
+          "thrown": 28,
+          "success": 19,
+          "accuracy_percent": 67.86
         },
         "ultra ball": {
           "thrown": 4,
@@ -175,7 +175,7 @@
         }
       }
     },
-    "pokecoins": 16287,
+    "pokecoins": 16979,
     "journey": {
       "watch_hours": 18,
       "follow_age": "6 Day(s)",
@@ -187,21 +187,21 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 6,
-      "chat_messages": 826,
-      "commands_run": 1486,
-      "times_tagged": 318,
+      "chat_messages": 849,
+      "commands_run": 1528,
+      "times_tagged": 330,
       "times_evolved": 0,
       "times_traded": 0,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 57.14,
-        "great ball": 37.14,
-        "ultra ball": 5.71,
+        "poke ball": 55.56,
+        "great ball": 38.89,
+        "ultra ball": 5.56,
         "master ball": 0.0
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 10,
+        "Great Ball": 8,
         "Ultra Ball": 3
       }
     }
@@ -3649,7 +3649,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 607
+      "friendship_points": 630
     },
     {
       "name": "Ninetales",
@@ -3745,7 +3745,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 607
+      "friendship_points": 630
     },
     {
       "name": "Jigglypuff",
@@ -8129,8 +8129,8 @@
     },
     {
       "name": "Doduo",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 84,
       "form": "",
       "is_variant": false,
@@ -15165,8 +15165,8 @@
     },
     {
       "name": "Hoothoot",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 163,
       "form": "",
       "is_variant": false,
@@ -37829,7 +37829,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "15",
-    "friendship_points": 607,
+    "friendship_points": 630,
     "times_pet": 3,
     "times_fed": 0
   }
