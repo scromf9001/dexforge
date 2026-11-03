@@ -3,12 +3,12 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-03T16:27:22.115812+00:00",
+  "updated_at": "2026-11-03T17:23:24.752947+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 71,
-      "total_owned": 117,
+      "total_owned": 118,
       "completion_percent": 18.39,
       "variants_available": 33,
       "variants_owned": 0
@@ -150,25 +150,25 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 413,
-      "success": 161,
-      "accuracy_percent": 38.98,
+      "thrown": 416,
+      "success": 162,
+      "accuracy_percent": 38.94,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 238,
+          "thrown": 239,
           "success": 74,
-          "accuracy_percent": 31.09
+          "accuracy_percent": 30.96
         },
         "great ball": {
-          "thrown": 140,
-          "success": 64,
-          "accuracy_percent": 45.71
+          "thrown": 141,
+          "success": 65,
+          "accuracy_percent": 46.1
         },
         "ultra ball": {
-          "thrown": 35,
+          "thrown": 36,
           "success": 23,
-          "accuracy_percent": 65.71
+          "accuracy_percent": 63.89
         },
         "master ball": {
           "thrown": 0,
@@ -177,9 +177,9 @@
         }
       }
     },
-    "pokecoins": 42436,
+    "pokecoins": 43710,
     "journey": {
-      "watch_hours": 289,
+      "watch_hours": 290,
       "follow_age": "6 Month(s), 9 Day(s)",
       "sub_age": "17 Day(s)",
       "sub_months": 2,
@@ -189,22 +189,22 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 76,
-      "chat_messages": 5857,
-      "commands_run": 9586,
-      "times_tagged": 1826,
+      "chat_messages": 5883,
+      "commands_run": 9640,
+      "times_tagged": 1845,
       "times_evolved": 15,
       "times_traded": 30,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 57.63,
-        "great ball": 33.9,
-        "ultra ball": 8.47,
+        "poke ball": 57.45,
+        "great ball": 33.89,
+        "ultra ball": 8.65,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 82,
+        "Great Ball": 81,
         "Sun Stone": 1,
-        "Ultra Ball": 11
+        "Ultra Ball": 10
       }
     }
   },
@@ -17111,7 +17111,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 730
+      "friendship_points": 786
     },
     {
       "name": "Azumarill",
@@ -17217,7 +17217,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 730
+      "friendship_points": 786
     },
     {
       "name": "Sudowoodo",
@@ -26059,7 +26059,7 @@
     },
     {
       "name": "Poochyena",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 261,
       "form": "",
@@ -29543,7 +29543,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 730
+      "friendship_points": 786
     },
     {
       "name": "Nosepass",
@@ -37831,7 +37831,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 730,
+    "friendship_points": 786,
     "times_pet": 30,
     "times_fed": 0
   }
