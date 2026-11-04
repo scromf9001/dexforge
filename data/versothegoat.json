@@ -3,12 +3,12 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-11-03T18:49:41.308201+00:00",
+  "updated_at": "2026-11-04T17:24:18.894999+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 209,
-      "total_owned": 347,
+      "total_owned": 350,
       "completion_percent": 54.15,
       "variants_available": 33,
       "variants_owned": 6
@@ -150,25 +150,25 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 1270,
-      "success": 582,
-      "accuracy_percent": 45.83,
+      "thrown": 1278,
+      "success": 585,
+      "accuracy_percent": 45.77,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 156,
-          "success": 45,
-          "accuracy_percent": 28.85
+          "thrown": 157,
+          "success": 46,
+          "accuracy_percent": 29.3
         },
         "great ball": {
-          "thrown": 1029,
-          "success": 512,
-          "accuracy_percent": 49.76
+          "thrown": 1032,
+          "success": 514,
+          "accuracy_percent": 49.81
         },
         "ultra ball": {
-          "thrown": 84,
+          "thrown": 88,
           "success": 24,
-          "accuracy_percent": 28.57
+          "accuracy_percent": 27.27
         },
         "master ball": {
           "thrown": 1,
@@ -177,33 +177,33 @@
         }
       }
     },
-    "pokecoins": 45872,
+    "pokecoins": 47092,
     "journey": {
-      "watch_hours": 407,
-      "follow_age": "7 Month(s), 29 Day(s)",
-      "sub_age": "9 Month(s), 9 Day(s)",
+      "watch_hours": 409,
+      "follow_age": "7 Month(s), 30 Day(s)",
+      "sub_age": "9 Month(s), 10 Day(s)",
       "sub_months": 10,
       "subs_gifted": 0,
       "bits_donated": 4492,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 199,
-      "chat_messages": 38317,
-      "commands_run": 55726,
-      "times_tagged": 7913,
+      "streams_watched": 200,
+      "chat_messages": 38518,
+      "commands_run": 56055,
+      "times_tagged": 7981,
       "times_evolved": 146,
       "times_traded": 31,
       "times_eggs_hatched": 7,
       "ball_distribution": {
         "poke ball": 12.28,
-        "great ball": 81.02,
-        "ultra ball": 6.61,
+        "great ball": 80.75,
+        "ultra ball": 6.89,
         "master ball": 0.08
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 32
+        "Great Ball": 29
       }
     }
   },
@@ -2620,7 +2620,7 @@
     },
     {
       "name": "Sandshrew",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 27,
       "form": "",
@@ -7396,7 +7396,7 @@
     },
     {
       "name": "Ponyta",
-      "count": 4,
+      "count": 5,
       "owned": true,
       "pokedex_number": 77,
       "form": "",
@@ -8920,7 +8920,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2713
+      "friendship_points": 2793
     },
     {
       "name": "Haunter",
@@ -9026,7 +9026,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2713
+      "friendship_points": 2793
     },
     {
       "name": "Gengar",
@@ -9132,7 +9132,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": true,
-      "friendship_points": 2713
+      "friendship_points": 2793
     },
     {
       "name": "Onix",
@@ -26226,7 +26226,7 @@
     },
     {
       "name": "Zigzagoon",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 263,
       "form": "",
@@ -26287,7 +26287,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -37830,7 +37830,7 @@
     "primary_type": "Ghost",
     "secondary_type": "Poison",
     "evolution_line_id": "40",
-    "friendship_points": 2713,
+    "friendship_points": 2793,
     "times_pet": 81,
     "times_fed": 2
   }
