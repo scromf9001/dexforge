@@ -3,12 +3,12 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-11-04T17:24:18.894999+00:00",
+  "updated_at": "2026-11-05T16:07:23.117245+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 209,
-      "total_owned": 350,
+      "total_owned": 356,
       "completion_percent": 54.15,
       "variants_available": 33,
       "variants_owned": 6
@@ -150,25 +150,25 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 1278,
-      "success": 585,
-      "accuracy_percent": 45.77,
+      "thrown": 1291,
+      "success": 591,
+      "accuracy_percent": 45.78,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 157,
-          "success": 46,
-          "accuracy_percent": 29.3
+          "thrown": 163,
+          "success": 50,
+          "accuracy_percent": 30.67
         },
         "great ball": {
-          "thrown": 1032,
-          "success": 514,
-          "accuracy_percent": 49.81
+          "thrown": 1038,
+          "success": 516,
+          "accuracy_percent": 49.71
         },
         "ultra ball": {
-          "thrown": 88,
+          "thrown": 89,
           "success": 24,
-          "accuracy_percent": 27.27
+          "accuracy_percent": 26.97
         },
         "master ball": {
           "thrown": 1,
@@ -177,10 +177,10 @@
         }
       }
     },
-    "pokecoins": 47092,
+    "pokecoins": 48968,
     "journey": {
-      "watch_hours": 409,
-      "follow_age": "7 Month(s), 30 Day(s)",
+      "watch_hours": 411,
+      "follow_age": "8 Month(s)",
       "sub_age": "9 Month(s), 10 Day(s)",
       "sub_months": 10,
       "subs_gifted": 0,
@@ -188,22 +188,22 @@
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 200,
-      "chat_messages": 38518,
-      "commands_run": 56055,
-      "times_tagged": 7981,
+      "streams_watched": 201,
+      "chat_messages": 38859,
+      "commands_run": 56555,
+      "times_tagged": 8059,
       "times_evolved": 146,
       "times_traded": 31,
       "times_eggs_hatched": 7,
       "ball_distribution": {
-        "poke ball": 12.28,
-        "great ball": 80.75,
+        "poke ball": 12.63,
+        "great ball": 80.4,
         "ultra ball": 6.89,
         "master ball": 0.08
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 29
+        "Great Ball": 33
       }
     }
   },
@@ -1966,7 +1966,7 @@
     },
     {
       "name": "Rattata",
-      "count": 9,
+      "count": 11,
       "owned": true,
       "pokedex_number": 19,
       "form": "",
@@ -3082,7 +3082,7 @@
     },
     {
       "name": "Nidoran (M)",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 32,
       "form": "",
@@ -5340,7 +5340,7 @@
     },
     {
       "name": "Mankey",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 56,
       "form": "",
@@ -8920,7 +8920,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2793
+      "friendship_points": 2947
     },
     {
       "name": "Haunter",
@@ -9026,7 +9026,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2793
+      "friendship_points": 2947
     },
     {
       "name": "Gengar",
@@ -9132,7 +9132,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": true,
-      "friendship_points": 2793
+      "friendship_points": 2947
     },
     {
       "name": "Onix",
@@ -15342,7 +15342,7 @@
     },
     {
       "name": "Ledyba",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 165,
       "form": "",
@@ -15431,7 +15431,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -15534,7 +15534,7 @@
     },
     {
       "name": "Spinarak",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 167,
       "form": "",
@@ -15623,7 +15623,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -37830,8 +37830,8 @@
     "primary_type": "Ghost",
     "secondary_type": "Poison",
     "evolution_line_id": "40",
-    "friendship_points": 2793,
-    "times_pet": 81,
+    "friendship_points": 2947,
+    "times_pet": 82,
     "times_fed": 2
   }
 }
