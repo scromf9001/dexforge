@@ -3,7 +3,7 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-11-05T18:29:17.339221+00:00",
+  "updated_at": "2026-11-05T18:56:42.482305+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
@@ -150,9 +150,9 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 1303,
+      "thrown": 1305,
       "success": 598,
-      "accuracy_percent": 45.89,
+      "accuracy_percent": 45.82,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -161,9 +161,9 @@
           "accuracy_percent": 30.54
         },
         "great ball": {
-          "thrown": 1044,
+          "thrown": 1046,
           "success": 521,
-          "accuracy_percent": 49.9
+          "accuracy_percent": 49.81
         },
         "ultra ball": {
           "thrown": 91,
@@ -177,33 +177,33 @@
         }
       }
     },
-    "pokecoins": 51204,
+    "pokecoins": 51907,
     "journey": {
-      "watch_hours": 413,
+      "watch_hours": 414,
       "follow_age": "8 Month(s)",
       "sub_age": "9 Month(s), 11 Day(s)",
       "sub_months": 10,
       "subs_gifted": 0,
-      "bits_donated": 4492,
+      "bits_donated": 4587,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 201,
-      "chat_messages": 39171,
-      "commands_run": 57044,
-      "times_tagged": 8144,
+      "chat_messages": 39222,
+      "commands_run": 57141,
+      "times_tagged": 8159,
       "times_evolved": 148,
       "times_traded": 32,
       "times_eggs_hatched": 7,
       "ball_distribution": {
-        "poke ball": 12.82,
-        "great ball": 80.12,
-        "ultra ball": 6.98,
+        "poke ball": 12.8,
+        "great ball": 80.15,
+        "ultra ball": 6.97,
         "master ball": 0.08
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 27
+        "Great Ball": 25
       }
     }
   },
@@ -8920,7 +8920,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3081
+      "friendship_points": 3118
     },
     {
       "name": "Haunter",
@@ -9026,7 +9026,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 3081
+      "friendship_points": 3118
     },
     {
       "name": "Gengar",
@@ -9132,7 +9132,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": true,
-      "friendship_points": 3081
+      "friendship_points": 3118
     },
     {
       "name": "Onix",
@@ -37830,8 +37830,8 @@
     "primary_type": "Ghost",
     "secondary_type": "Poison",
     "evolution_line_id": "40",
-    "friendship_points": 3081,
-    "times_pet": 82,
+    "friendship_points": 3118,
+    "times_pet": 83,
     "times_fed": 2
   }
 }
