@@ -3,7 +3,7 @@
     "username": "bojangles3825",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-05T17:21:52.559232+00:00",
+  "updated_at": "2026-11-05T18:43:07.911577+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
@@ -53,8 +53,8 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 50,
-        "2": 12,
+        "1": 49,
+        "2": 13,
         "3": 1
       }
     },
@@ -150,15 +150,15 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 202,
-      "success": 70,
-      "accuracy_percent": 34.65,
+      "thrown": 207,
+      "success": 72,
+      "accuracy_percent": 34.78,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 169,
-          "success": 53,
-          "accuracy_percent": 31.36
+          "thrown": 174,
+          "success": 55,
+          "accuracy_percent": 31.61
         },
         "great ball": {
           "thrown": 32,
@@ -177,11 +177,11 @@
         }
       }
     },
-    "pokecoins": 18051,
+    "pokecoins": 16903,
     "journey": {
-      "watch_hours": 162,
+      "watch_hours": 163,
       "follow_age": "2 Year(s), 19 Day(s)",
-      "sub_age": "7 Month(s), 16 Day(s)",
+      "sub_age": "7 Month(s), 17 Day(s)",
       "sub_months": 8,
       "subs_gifted": 5,
       "bits_donated": 4000,
@@ -189,16 +189,16 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 84,
-      "chat_messages": 2070,
-      "commands_run": 3758,
-      "times_tagged": 457,
-      "times_evolved": 9,
-      "times_traded": 2,
+      "chat_messages": 2098,
+      "commands_run": 3852,
+      "times_tagged": 473,
+      "times_evolved": 10,
+      "times_traded": 3,
       "times_eggs_hatched": 1,
       "ball_distribution": {
-        "poke ball": 83.66,
-        "great ball": 15.84,
-        "ultra ball": 0.5,
+        "poke ball": 84.06,
+        "great ball": 15.46,
+        "ultra ball": 0.48,
         "master ball": 0.0
       },
       "pokebag": {
@@ -3559,8 +3559,8 @@
     },
     {
       "name": "Vulpix",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 37,
       "form": "",
       "is_variant": false,
@@ -3651,12 +3651,12 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1292
+      "friendship_points": 1356
     },
     {
       "name": "Ninetales",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 38,
       "form": "",
       "is_variant": false,
@@ -3747,7 +3747,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 1292
+      "friendship_points": 1356
     },
     {
       "name": "Jigglypuff",
@@ -4145,7 +4145,7 @@
     },
     {
       "name": "Oddish",
-      "count": 2,
+      "count": 1,
       "owned": true,
       "pokedex_number": 43,
       "form": "",
@@ -29289,7 +29289,7 @@
     },
     {
       "name": "Makuhita",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 296,
       "form": "",
@@ -31169,7 +31169,7 @@
     },
     {
       "name": "Carvanha",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 318,
       "form": "",
@@ -37831,7 +37831,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "15",
-    "friendship_points": 1292,
+    "friendship_points": 1356,
     "times_pet": 9,
     "times_fed": 1
   }
