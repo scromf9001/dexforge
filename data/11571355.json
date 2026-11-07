@@ -3,7 +3,7 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-07T18:42:26.118975+00:00",
+  "updated_at": "2026-11-07T19:14:57.767021+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
@@ -177,9 +177,9 @@
         }
       }
     },
-    "pokecoins": 16161,
+    "pokecoins": 17293,
     "journey": {
-      "watch_hours": 305,
+      "watch_hours": 306,
       "follow_age": "6 Month(s), 14 Day(s)",
       "sub_age": "21 Day(s)",
       "sub_months": 2,
@@ -189,9 +189,9 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 80,
-      "chat_messages": 6419,
-      "commands_run": 10847,
-      "times_tagged": 2066,
+      "chat_messages": 6431,
+      "commands_run": 10868,
+      "times_tagged": 2074,
       "times_evolved": 16,
       "times_traded": 30,
       "times_eggs_hatched": 0,
@@ -17111,7 +17111,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2060
+      "friendship_points": 2093
     },
     {
       "name": "Azumarill",
@@ -17217,7 +17217,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2060
+      "friendship_points": 2093
     },
     {
       "name": "Sudowoodo",
@@ -29543,7 +29543,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2060
+      "friendship_points": 2093
     },
     {
       "name": "Nosepass",
@@ -37831,7 +37831,7 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 2060,
+    "friendship_points": 2093,
     "times_pet": 38,
     "times_fed": 1
   }
