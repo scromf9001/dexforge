@@ -3,13 +3,13 @@
     "username": "litlpotatr",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/f52f8e70-e4df-4dcc-ae00-b135c209e5e4-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-06T18:15:09.338482+00:00",
+  "updated_at": "2026-11-07T17:42:30.091564+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 254,
-      "total_owned": 786,
-      "completion_percent": 65.8,
+      "unique_owned": 255,
+      "total_owned": 788,
+      "completion_percent": 66.06,
       "variants_available": 33,
       "variants_owned": 11
     },
@@ -26,9 +26,9 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 76,
+        "owned": 77,
         "total": 100,
-        "completion_percent": 76.0,
+        "completion_percent": 77.0,
         "total_lines": 51,
         "lines_completed": 34
       },
@@ -43,7 +43,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 254,
+      "total_evolutions_owned": 255,
       "total_evolutions_available": 386,
       "lines_completed": 110,
       "total_lines": 202,
@@ -55,7 +55,7 @@
       "stage_owned": {
         "1": 147,
         "3": 23,
-        "2": 84
+        "2": 85
       }
     },
     "types": {
@@ -70,9 +70,9 @@
         "completion_percent": 65.38
       },
       "water": {
-        "owned": 48,
+        "owned": 49,
         "total": 70,
-        "completion_percent": 68.57
+        "completion_percent": 70.0
       },
       "bug": {
         "owned": 21,
@@ -150,25 +150,25 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 1513,
-      "success": 719,
-      "accuracy_percent": 47.52,
+      "thrown": 1526,
+      "success": 723,
+      "accuracy_percent": 47.38,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 99,
-          "success": 29,
-          "accuracy_percent": 29.29
+          "thrown": 107,
+          "success": 31,
+          "accuracy_percent": 28.97
         },
         "great ball": {
-          "thrown": 1299,
-          "success": 646,
+          "thrown": 1303,
+          "success": 648,
           "accuracy_percent": 49.73
         },
         "ultra ball": {
-          "thrown": 107,
+          "thrown": 108,
           "success": 36,
-          "accuracy_percent": 33.64
+          "accuracy_percent": 33.33
         },
         "master ball": {
           "thrown": 8,
@@ -177,33 +177,33 @@
         }
       }
     },
-    "pokecoins": 178,
+    "pokecoins": 5307,
     "journey": {
-      "watch_hours": 1264,
-      "follow_age": "1 Year(s), 4 Month(s), 10 Day(s)",
-      "sub_age": "1 Year(s), 9 Month(s), 6 Day(s)",
+      "watch_hours": 1266,
+      "follow_age": "1 Year(s), 4 Month(s), 11 Day(s)",
+      "sub_age": "1 Year(s), 9 Month(s), 7 Day(s)",
       "sub_months": 22,
       "subs_gifted": 43,
       "bits_donated": 5090,
       "total_donated": 0.0,
       "primary_role": "Moderator",
       "sub_tier": "Tier 2",
-      "streams_watched": 374,
-      "chat_messages": 32731,
-      "commands_run": 52485,
-      "times_tagged": 6213,
-      "times_evolved": 97,
+      "streams_watched": 375,
+      "chat_messages": 32810,
+      "commands_run": 52676,
+      "times_tagged": 6236,
+      "times_evolved": 98,
       "times_traded": 22,
       "times_eggs_hatched": 34,
       "ball_distribution": {
-        "poke ball": 6.54,
-        "great ball": 85.86,
-        "ultra ball": 7.07,
-        "master ball": 0.53
+        "poke ball": 7.01,
+        "great ball": 85.39,
+        "ultra ball": 7.08,
+        "master ball": 0.52
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 14,
+        "Great Ball": 10,
         "Master Ball": 3,
         "Ultra Ball": 8,
         "Water Stone": 1
@@ -2281,7 +2281,7 @@
     },
     {
       "name": "Ekans",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 23,
       "form": "",
@@ -6273,7 +6273,7 @@
     },
     {
       "name": "Machop",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 66,
       "form": "",
@@ -14763,7 +14763,7 @@
     },
     {
       "name": "Totodile",
-      "count": 4,
+      "count": 1,
       "owned": true,
       "pokedex_number": 158,
       "form": "",
@@ -14846,15 +14846,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 2383
     },
     {
       "name": "Croconaw",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 159,
       "form": "",
       "is_variant": false,
@@ -16355,7 +16355,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1941
+      "friendship_points": 2112
     },
     {
       "name": "Togetic",
@@ -16459,9 +16459,9 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1941,
+      "friendship_points": 2112,
       "friendship_requirement": 2500,
-      "friendship_progress_percent": 77.64
+      "friendship_progress_percent": 84.48
     },
     {
       "name": "Natu",
@@ -26061,7 +26061,7 @@
     },
     {
       "name": "Poochyena",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 261,
       "form": "",
@@ -29291,7 +29291,7 @@
     },
     {
       "name": "Makuhita",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 296,
       "form": "",
@@ -37833,8 +37833,8 @@
     "primary_type": "Fairy",
     "secondary_type": null,
     "evolution_line_id": "87",
-    "friendship_points": 1941,
-    "times_pet": 62,
+    "friendship_points": 2112,
+    "times_pet": 64,
     "times_fed": 3
   }
 }
