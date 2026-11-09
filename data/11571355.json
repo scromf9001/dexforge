@@ -3,7 +3,7 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-08T19:10:48.895495+00:00",
+  "updated_at": "2026-11-09T16:18:06.809691+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
@@ -53,8 +53,8 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 67,
-        "2": 11,
+        "1": 66,
+        "2": 12,
         "3": 3
       }
     },
@@ -150,9 +150,9 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 483,
-      "success": 192,
-      "accuracy_percent": 39.75,
+      "thrown": 487,
+      "success": 194,
+      "accuracy_percent": 39.84,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
@@ -161,14 +161,14 @@
           "accuracy_percent": 30.19
         },
         "great ball": {
-          "thrown": 158,
+          "thrown": 160,
           "success": 73,
-          "accuracy_percent": 46.2
+          "accuracy_percent": 45.62
         },
         "ultra ball": {
-          "thrown": 60,
-          "success": 39,
-          "accuracy_percent": 65.0
+          "thrown": 62,
+          "success": 41,
+          "accuracy_percent": 66.13
         },
         "master ball": {
           "thrown": 0,
@@ -177,34 +177,34 @@
         }
       }
     },
-    "pokecoins": 22469,
+    "pokecoins": 26007,
     "journey": {
-      "watch_hours": 309,
+      "watch_hours": 310,
       "follow_age": "6 Month(s), 15 Day(s)",
-      "sub_age": "22 Day(s)",
+      "sub_age": "23 Day(s)",
       "sub_months": 2,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 81,
-      "chat_messages": 6490,
-      "commands_run": 11030,
-      "times_tagged": 2101,
-      "times_evolved": 16,
+      "streams_watched": 82,
+      "chat_messages": 6512,
+      "commands_run": 11110,
+      "times_tagged": 2112,
+      "times_evolved": 17,
       "times_traded": 30,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 54.87,
-        "great ball": 32.71,
-        "ultra ball": 12.42,
+        "poke ball": 54.41,
+        "great ball": 32.85,
+        "ultra ball": 12.73,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 64,
+        "Great Ball": 62,
         "Sun Stone": 1,
-        "Ultra Ball": 43
+        "Ultra Ball": 41
       }
     }
   },
@@ -12833,7 +12833,7 @@
     },
     {
       "name": "Porygon",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 137,
       "form": "",
@@ -17111,7 +17111,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2327
+      "friendship_points": 2419
     },
     {
       "name": "Azumarill",
@@ -17217,7 +17217,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2327
+      "friendship_points": 2419
     },
     {
       "name": "Sudowoodo",
@@ -29543,7 +29543,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2327
+      "friendship_points": 2419
     },
     {
       "name": "Nosepass",
@@ -34505,8 +34505,8 @@
     },
     {
       "name": "Shuppet",
-      "count": 2,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 353,
       "form": "",
       "is_variant": false,
@@ -34589,8 +34589,8 @@
     },
     {
       "name": "Banette",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 354,
       "form": "",
       "is_variant": false,
@@ -37831,8 +37831,8 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 2327,
-    "times_pet": 42,
+    "friendship_points": 2419,
+    "times_pet": 44,
     "times_fed": 1
   }
 }
