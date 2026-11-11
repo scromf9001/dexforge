@@ -3,13 +3,13 @@
     "username": "lamijamio",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-08T20:14:44.181823+00:00",
+  "updated_at": "2026-11-11T16:14:10.871047+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 234,
-      "total_owned": 670,
-      "completion_percent": 60.62,
+      "unique_owned": 235,
+      "total_owned": 671,
+      "completion_percent": 60.88,
       "variants_available": 33,
       "variants_owned": 12
     },
@@ -26,11 +26,11 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 71,
+        "owned": 72,
         "total": 100,
-        "completion_percent": 71.0,
+        "completion_percent": 72.0,
         "total_lines": 51,
-        "lines_completed": 34
+        "lines_completed": 35
       },
       "3": {
         "generation": 3,
@@ -43,9 +43,9 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 233,
+      "total_evolutions_owned": 234,
       "total_evolutions_available": 386,
-      "lines_completed": 97,
+      "lines_completed": 98,
       "total_lines": 202,
       "stage_totals": {
         "1": 202,
@@ -53,7 +53,7 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 145,
+        "1": 146,
         "2": 74,
         "3": 14
       }
@@ -120,9 +120,9 @@
         "completion_percent": 33.33
       },
       "ghost": {
-        "owned": 2,
+        "owned": 3,
         "total": 8,
-        "completion_percent": 25.0
+        "completion_percent": 37.5
       },
       "ice": {
         "owned": 7,
@@ -150,20 +150,20 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 1430,
-      "success": 690,
-      "accuracy_percent": 48.25,
+      "thrown": 1440,
+      "success": 691,
+      "accuracy_percent": 47.99,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 165,
+          "thrown": 172,
           "success": 55,
-          "accuracy_percent": 33.33
+          "accuracy_percent": 31.98
         },
         "great ball": {
-          "thrown": 1235,
-          "success": 621,
-          "accuracy_percent": 50.28
+          "thrown": 1238,
+          "success": 622,
+          "accuracy_percent": 50.24
         },
         "ultra ball": {
           "thrown": 21,
@@ -177,33 +177,33 @@
         }
       }
     },
-    "pokecoins": 64067,
+    "pokecoins": 62577,
     "journey": {
-      "watch_hours": 940,
-      "follow_age": "2 Year(s), 12 Day(s)",
-      "sub_age": "1 Year(s), 5 Month(s)",
+      "watch_hours": 942,
+      "follow_age": "2 Year(s), 14 Day(s)",
+      "sub_age": "1 Year(s), 5 Month(s), 3 Day(s)",
       "sub_months": 18,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 325,
-      "chat_messages": 8798,
-      "commands_run": 20573,
-      "times_tagged": 2015,
+      "streams_watched": 327,
+      "chat_messages": 8846,
+      "commands_run": 20696,
+      "times_tagged": 2031,
       "times_evolved": 105,
       "times_traded": 0,
       "times_eggs_hatched": 20,
       "ball_distribution": {
-        "poke ball": 11.54,
-        "great ball": 86.36,
-        "ultra ball": 1.47,
-        "master ball": 0.63
+        "poke ball": 11.94,
+        "great ball": 85.97,
+        "ultra ball": 1.46,
+        "master ball": 0.62
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 3,
+        "Great Ball": 20,
         "Master Ball": 1,
         "Ultra Ball": 3
       }
@@ -5602,7 +5602,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 26847
+      "friendship_points": 26962
     },
     {
       "name": "Arcanine",
@@ -5698,7 +5698,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 26847
+      "friendship_points": 26962
     },
     {
       "name": "Poliwag",
@@ -18642,8 +18642,8 @@
     },
     {
       "name": "Misdreavus",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 200,
       "form": "",
       "is_variant": false,
@@ -18712,7 +18712,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -37832,7 +37832,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "25",
-    "friendship_points": 26847,
+    "friendship_points": 26962,
     "times_pet": 51,
     "times_fed": 0
   }
