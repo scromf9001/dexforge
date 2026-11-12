@@ -3,12 +3,12 @@
     "username": "lamijamio",
     "avatar": "https://static-cdn.jtvnw.net/user-default-pictures-uv/75305d54-c7cc-40d1-bb9c-91fbe85943c7-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-11T20:13:53.156783+00:00",
+  "updated_at": "2026-11-12T17:36:23.210212+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 236,
-      "total_owned": 676,
+      "total_owned": 679,
       "completion_percent": 61.14,
       "variants_available": 33,
       "variants_owned": 12
@@ -150,20 +150,20 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 1461,
-      "success": 696,
-      "accuracy_percent": 47.64,
+      "thrown": 1468,
+      "success": 699,
+      "accuracy_percent": 47.62,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 185,
-          "success": 56,
-          "accuracy_percent": 30.27
+          "thrown": 188,
+          "success": 58,
+          "accuracy_percent": 30.85
         },
         "great ball": {
-          "thrown": 1246,
-          "success": 626,
-          "accuracy_percent": 50.24
+          "thrown": 1250,
+          "success": 627,
+          "accuracy_percent": 50.16
         },
         "ultra ball": {
           "thrown": 21,
@@ -177,33 +177,33 @@
         }
       }
     },
-    "pokecoins": 66213,
+    "pokecoins": 69483,
     "journey": {
-      "watch_hours": 946,
-      "follow_age": "2 Year(s), 15 Day(s)",
-      "sub_age": "1 Year(s), 5 Month(s), 3 Day(s)",
+      "watch_hours": 947,
+      "follow_age": "2 Year(s), 16 Day(s)",
+      "sub_age": "1 Year(s), 5 Month(s), 4 Day(s)",
       "sub_months": 18,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 327,
-      "chat_messages": 8896,
-      "commands_run": 20873,
-      "times_tagged": 2047,
+      "streams_watched": 328,
+      "chat_messages": 8923,
+      "commands_run": 20948,
+      "times_tagged": 2060,
       "times_evolved": 105,
       "times_traded": 0,
       "times_eggs_hatched": 20,
       "ball_distribution": {
-        "poke ball": 12.66,
-        "great ball": 85.28,
-        "ultra ball": 1.44,
-        "master ball": 0.62
+        "poke ball": 12.81,
+        "great ball": 85.15,
+        "ultra ball": 1.43,
+        "master ball": 0.61
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 12,
+        "Great Ball": 8,
         "Master Ball": 1,
         "Ultra Ball": 3
       }
@@ -5602,7 +5602,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 27196
+      "friendship_points": 27276
     },
     {
       "name": "Arcanine",
@@ -5698,7 +5698,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 27196
+      "friendship_points": 27276
     },
     {
       "name": "Poliwag",
@@ -8652,7 +8652,7 @@
     },
     {
       "name": "Shellder",
-      "count": 11,
+      "count": 12,
       "owned": true,
       "pokedex_number": 90,
       "form": "",
@@ -15032,7 +15032,7 @@
     },
     {
       "name": "Sentret",
-      "count": 19,
+      "count": 20,
       "owned": true,
       "pokedex_number": 161,
       "form": "",
@@ -31988,7 +31988,7 @@
     },
     {
       "name": "Spinda",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 327,
       "form": "",
@@ -37832,7 +37832,7 @@
     "primary_type": "Fire",
     "secondary_type": null,
     "evolution_line_id": "25",
-    "friendship_points": 27196,
+    "friendship_points": 27276,
     "times_pet": 51,
     "times_fed": 0
   }
