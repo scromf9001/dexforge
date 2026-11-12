@@ -3,12 +3,12 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-12T16:24:13.058852+00:00",
+  "updated_at": "2026-11-12T17:32:57.091032+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 87,
-      "total_owned": 154,
+      "total_owned": 156,
       "completion_percent": 22.54,
       "variants_available": 33,
       "variants_owned": 2
@@ -150,20 +150,20 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 504,
-      "success": 204,
-      "accuracy_percent": 40.48,
+      "thrown": 508,
+      "success": 206,
+      "accuracy_percent": 40.55,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 269,
-          "success": 82,
-          "accuracy_percent": 30.48
+          "thrown": 272,
+          "success": 83,
+          "accuracy_percent": 30.51
         },
         "great ball": {
-          "thrown": 166,
-          "success": 78,
-          "accuracy_percent": 46.99
+          "thrown": 167,
+          "success": 79,
+          "accuracy_percent": 47.31
         },
         "ultra ball": {
           "thrown": 69,
@@ -177,9 +177,9 @@
         }
       }
     },
-    "pokecoins": 19489,
+    "pokecoins": 10511,
     "journey": {
-      "watch_hours": 316,
+      "watch_hours": 317,
       "follow_age": "6 Month(s), 18 Day(s)",
       "sub_age": "26 Day(s)",
       "sub_months": 2,
@@ -189,22 +189,22 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 84,
-      "chat_messages": 6683,
-      "commands_run": 11481,
-      "times_tagged": 2184,
+      "chat_messages": 6732,
+      "commands_run": 11569,
+      "times_tagged": 2210,
       "times_evolved": 18,
       "times_traded": 30,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 53.37,
-        "great ball": 32.94,
-        "ultra ball": 13.69,
+        "poke ball": 53.54,
+        "great ball": 32.87,
+        "ultra ball": 13.58,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 56,
+        "Great Ball": 55,
         "Sun Stone": 1,
-        "Ultra Ball": 52
+        "Ultra Ball": 62
       }
     }
   },
@@ -3837,7 +3837,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 6668,
+      "friendship_points": 6736,
       "friendship_requirement": 2500,
       "friendship_progress_percent": 100
     },
@@ -3929,7 +3929,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 6668
+      "friendship_points": 6736
     },
     {
       "name": "Zubat",
@@ -15031,7 +15031,7 @@
     },
     {
       "name": "Sentret",
-      "count": 6,
+      "count": 7,
       "owned": true,
       "pokedex_number": 161,
       "form": "",
@@ -16269,7 +16269,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 6668
+      "friendship_points": 6736
     },
     {
       "name": "Togepi",
@@ -31987,7 +31987,7 @@
     },
     {
       "name": "Spinda",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 327,
       "form": "",
@@ -37825,14 +37825,16 @@
     }
   ],
   "companion": {
-    "name": "Marill",
-    "pokedex_number": 183,
-    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/183.svg",
-    "primary_type": "Water",
+    "name": "Jigglypuff",
+    "pokedex_number": 39,
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/39.svg",
+    "primary_type": "Normal",
     "secondary_type": "Fairy",
-    "evolution_line_id": "90",
-    "friendship_points": 2792,
+    "evolution_line_id": "16",
+    "friendship_points": 6736,
     "times_pet": 48,
-    "times_fed": 1
+    "times_fed": 1,
+    "friendship_requirement": 2500,
+    "friendship_progress_percent": 100
   }
 }
