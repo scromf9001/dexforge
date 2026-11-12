@@ -3,13 +3,13 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-11T18:37:53.379694+00:00",
+  "updated_at": "2026-11-12T16:24:13.058852+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 85,
-      "total_owned": 153,
-      "completion_percent": 22.02,
+      "unique_owned": 87,
+      "total_owned": 154,
+      "completion_percent": 22.54,
       "variants_available": 33,
       "variants_owned": 2
     },
@@ -26,11 +26,11 @@
       "2": {
         "generation": 2,
         "region": "Johto",
-        "owned": 27,
+        "owned": 29,
         "total": 100,
-        "completion_percent": 27.0,
+        "completion_percent": 29.0,
         "total_lines": 51,
-        "lines_completed": 8
+        "lines_completed": 9
       },
       "3": {
         "generation": 3,
@@ -43,9 +43,9 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 84,
+      "total_evolutions_owned": 86,
       "total_evolutions_available": 386,
-      "lines_completed": 19,
+      "lines_completed": 20,
       "total_lines": 202,
       "stage_totals": {
         "1": 202,
@@ -53,9 +53,9 @@
         "3": 45
       },
       "stage_owned": {
-        "1": 69,
+        "1": 70,
         "2": 12,
-        "3": 3
+        "3": 4
       }
     },
     "types": {
@@ -70,9 +70,9 @@
         "completion_percent": 15.38
       },
       "water": {
-        "owned": 19,
+        "owned": 21,
         "total": 70,
-        "completion_percent": 27.14
+        "completion_percent": 30.0
       },
       "bug": {
         "owned": 3,
@@ -150,25 +150,25 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 499,
-      "success": 201,
-      "accuracy_percent": 40.28,
+      "thrown": 504,
+      "success": 204,
+      "accuracy_percent": 40.48,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 268,
+          "thrown": 269,
           "success": 82,
-          "accuracy_percent": 30.6
+          "accuracy_percent": 30.48
         },
         "great ball": {
-          "thrown": 163,
-          "success": 76,
-          "accuracy_percent": 46.63
+          "thrown": 166,
+          "success": 78,
+          "accuracy_percent": 46.99
         },
         "ultra ball": {
-          "thrown": 68,
-          "success": 43,
-          "accuracy_percent": 63.24
+          "thrown": 69,
+          "success": 44,
+          "accuracy_percent": 63.77
         },
         "master ball": {
           "thrown": 0,
@@ -177,34 +177,34 @@
         }
       }
     },
-    "pokecoins": 15387,
+    "pokecoins": 19489,
     "journey": {
-      "watch_hours": 314,
+      "watch_hours": 316,
       "follow_age": "6 Month(s), 18 Day(s)",
-      "sub_age": "25 Day(s)",
+      "sub_age": "26 Day(s)",
       "sub_months": 2,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 83,
-      "chat_messages": 6626,
-      "commands_run": 11361,
-      "times_tagged": 2152,
-      "times_evolved": 17,
+      "streams_watched": 84,
+      "chat_messages": 6683,
+      "commands_run": 11481,
+      "times_tagged": 2184,
+      "times_evolved": 18,
       "times_traded": 30,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 53.71,
-        "great ball": 32.67,
-        "ultra ball": 13.63,
+        "poke ball": 53.37,
+        "great ball": 32.94,
+        "ultra ball": 13.69,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 59,
+        "Great Ball": 56,
         "Sun Stone": 1,
-        "Ultra Ball": 53
+        "Ultra Ball": 52
       }
     }
   },
@@ -15835,8 +15835,8 @@
     },
     {
       "name": "Chinchou",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 170,
       "form": "",
       "is_variant": false,
@@ -15915,7 +15915,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -16003,7 +16003,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -17009,7 +17009,7 @@
     },
     {
       "name": "Marill",
-      "count": 3,
+      "count": 1,
       "owned": true,
       "pokedex_number": 183,
       "form": "",
@@ -17108,15 +17108,15 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2669
+      "friendship_points": 2792
     },
     {
       "name": "Azumarill",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 184,
       "form": "",
       "is_variant": false,
@@ -17217,7 +17217,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2669
+      "friendship_points": 2792
     },
     {
       "name": "Sudowoodo",
@@ -29543,7 +29543,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2669
+      "friendship_points": 2792
     },
     {
       "name": "Nosepass",
@@ -35323,7 +35323,7 @@
     },
     {
       "name": "Spheal",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 363,
       "form": "",
@@ -37831,8 +37831,8 @@
     "primary_type": "Water",
     "secondary_type": "Fairy",
     "evolution_line_id": "90",
-    "friendship_points": 2669,
-    "times_pet": 47,
+    "friendship_points": 2792,
+    "times_pet": 48,
     "times_fed": 1
   }
 }
