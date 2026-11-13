@@ -3,23 +3,23 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-12T20:51:20.827765+00:00",
+  "updated_at": "2026-11-13T18:02:44.747035+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
-      "unique_owned": 89,
-      "total_owned": 161,
-      "completion_percent": 23.06,
+      "unique_owned": 90,
+      "total_owned": 166,
+      "completion_percent": 23.32,
       "variants_available": 33,
-      "variants_owned": 2
+      "variants_owned": 3
     },
     "generation_progress": {
       "1": {
         "generation": 1,
         "region": "Kanto",
-        "owned": 33,
+        "owned": 34,
         "total": 151,
-        "completion_percent": 21.85,
+        "completion_percent": 22.52,
         "total_lines": 78,
         "lines_completed": 4
       },
@@ -43,7 +43,7 @@
       }
     },
     "evolution": {
-      "total_evolutions_owned": 88,
+      "total_evolutions_owned": 89,
       "total_evolutions_available": 386,
       "lines_completed": 21,
       "total_lines": 202,
@@ -54,8 +54,8 @@
       },
       "stage_owned": {
         "1": 72,
-        "2": 12,
-        "3": 4
+        "3": 5,
+        "2": 12
       }
     },
     "types": {
@@ -75,9 +75,9 @@
         "completion_percent": 30.0
       },
       "bug": {
-        "owned": 3,
+        "owned": 4,
         "total": 34,
-        "completion_percent": 8.82
+        "completion_percent": 11.76
       },
       "normal": {
         "owned": 17,
@@ -150,25 +150,25 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 519,
-      "success": 211,
-      "accuracy_percent": 40.66,
+      "thrown": 526,
+      "success": 216,
+      "accuracy_percent": 41.06,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 276,
-          "success": 85,
-          "accuracy_percent": 30.8
+          "thrown": 278,
+          "success": 87,
+          "accuracy_percent": 31.29
         },
         "great ball": {
-          "thrown": 173,
-          "success": 82,
-          "accuracy_percent": 47.4
+          "thrown": 174,
+          "success": 83,
+          "accuracy_percent": 47.7
         },
         "ultra ball": {
-          "thrown": 70,
-          "success": 44,
-          "accuracy_percent": 62.86
+          "thrown": 74,
+          "success": 46,
+          "accuracy_percent": 62.16
         },
         "master ball": {
           "thrown": 0,
@@ -177,34 +177,34 @@
         }
       }
     },
-    "pokecoins": 14357,
+    "pokecoins": 9611,
     "journey": {
-      "watch_hours": 320,
-      "follow_age": "6 Month(s), 19 Day(s)",
-      "sub_age": "26 Day(s)",
+      "watch_hours": 322,
+      "follow_age": "6 Month(s), 20 Day(s)",
+      "sub_age": "27 Day(s)",
       "sub_months": 2,
       "subs_gifted": 0,
       "bits_donated": 0,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 84,
-      "chat_messages": 6807,
-      "commands_run": 11724,
-      "times_tagged": 2222,
+      "streams_watched": 85,
+      "chat_messages": 6905,
+      "commands_run": 11905,
+      "times_tagged": 2257,
       "times_evolved": 18,
-      "times_traded": 30,
+      "times_traded": 31,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 53.18,
-        "great ball": 33.33,
-        "ultra ball": 13.49,
+        "poke ball": 52.85,
+        "great ball": 33.08,
+        "ultra ball": 14.07,
         "master ball": 0.0
       },
       "pokebag": {
-        "Great Ball": 49,
+        "Great Ball": 48,
         "Sun Stone": 1,
-        "Ultra Ball": 61
+        "Ultra Ball": 68
       }
     }
   },
@@ -1277,8 +1277,8 @@
     },
     {
       "name": "Butterfree",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 12,
       "form": "",
       "is_variant": false,
@@ -3837,7 +3837,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 6935,
+      "friendship_points": 7071,
       "friendship_requirement": 2500,
       "friendship_progress_percent": 100
     },
@@ -3929,7 +3929,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 6935
+      "friendship_points": 7071
     },
     {
       "name": "Zubat",
@@ -4869,7 +4869,7 @@
     },
     {
       "name": "Diglett",
-      "count": 1,
+      "count": 3,
       "owned": true,
       "pokedex_number": 50,
       "form": "",
@@ -4946,7 +4946,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -14149,7 +14149,7 @@
     },
     {
       "name": "Chikorita",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 152,
       "form": "",
@@ -16269,7 +16269,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 6935
+      "friendship_points": 7071
     },
     {
       "name": "Togepi",
@@ -19533,8 +19533,8 @@
     },
     {
       "name": "Unown L",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 201,
       "form": "l",
       "is_variant": true,
@@ -19599,7 +19599,7 @@
           "evolution_stage": "1"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -37831,8 +37831,8 @@
     "primary_type": "Normal",
     "secondary_type": "Fairy",
     "evolution_line_id": "16",
-    "friendship_points": 6935,
-    "times_pet": 48,
+    "friendship_points": 7071,
+    "times_pet": 49,
     "times_fed": 1,
     "friendship_requirement": 2500,
     "friendship_progress_percent": 100

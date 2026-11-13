@@ -3,12 +3,12 @@
     "username": "versothegoat",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/1aac310c-1b9e-4cf0-bc50-b0e89960aeeb-profile_image-300x300.jpeg"
   },
-  "updated_at": "2026-11-12T17:25:23.709259+00:00",
+  "updated_at": "2026-11-13T18:43:43.653556+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 224,
-      "total_owned": 390,
+      "total_owned": 374,
       "completion_percent": 58.03,
       "variants_available": 33,
       "variants_owned": 7
@@ -54,8 +54,8 @@
       },
       "stage_owned": {
         "1": 133,
-        "2": 76,
-        "3": 15
+        "2": 77,
+        "3": 14
       }
     },
     "types": {
@@ -70,14 +70,14 @@
         "completion_percent": 53.85
       },
       "water": {
-        "owned": 42,
+        "owned": 43,
         "total": 70,
-        "completion_percent": 60.0
+        "completion_percent": 61.43
       },
       "bug": {
-        "owned": 24,
+        "owned": 23,
         "total": 34,
-        "completion_percent": 70.59
+        "completion_percent": 67.65
       },
       "normal": {
         "owned": 34,
@@ -150,25 +150,25 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 1394,
-      "success": 632,
-      "accuracy_percent": 45.34,
+      "thrown": 1407,
+      "success": 636,
+      "accuracy_percent": 45.2,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 195,
-          "success": 58,
-          "accuracy_percent": 29.74
+          "thrown": 202,
+          "success": 60,
+          "accuracy_percent": 29.7
         },
         "great ball": {
-          "thrown": 1095,
-          "success": 542,
-          "accuracy_percent": 49.5
+          "thrown": 1100,
+          "success": 544,
+          "accuracy_percent": 49.45
         },
         "ultra ball": {
-          "thrown": 103,
+          "thrown": 104,
           "success": 31,
-          "accuracy_percent": 30.1
+          "accuracy_percent": 29.81
         },
         "master ball": {
           "thrown": 1,
@@ -177,33 +177,33 @@
         }
       }
     },
-    "pokecoins": 4010,
+    "pokecoins": 8126,
     "journey": {
-      "watch_hours": 431,
-      "follow_age": "8 Month(s), 7 Day(s)",
-      "sub_age": "9 Month(s), 18 Day(s)",
+      "watch_hours": 434,
+      "follow_age": "8 Month(s), 8 Day(s)",
+      "sub_age": "9 Month(s), 19 Day(s)",
       "sub_months": 10,
       "subs_gifted": 0,
       "bits_donated": 5212,
       "total_donated": 0.0,
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
-      "streams_watched": 207,
-      "chat_messages": 41284,
-      "commands_run": 60318,
-      "times_tagged": 8553,
-      "times_evolved": 150,
-      "times_traded": 33,
+      "streams_watched": 208,
+      "chat_messages": 41636,
+      "commands_run": 60836,
+      "times_tagged": 8613,
+      "times_evolved": 151,
+      "times_traded": 34,
       "times_eggs_hatched": 8,
       "ball_distribution": {
-        "poke ball": 13.99,
-        "great ball": 78.55,
+        "poke ball": 14.36,
+        "great ball": 78.18,
         "ultra ball": 7.39,
         "master ball": 0.07
       },
       "pokebag": {
         "Egg": 1,
-        "Great Ball": 39,
+        "Great Ball": 34,
         "Master Ball": 2
       }
     }
@@ -1179,7 +1179,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": true,
+      "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -1269,7 +1269,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": true,
+      "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -1277,8 +1277,8 @@
     },
     {
       "name": "Butterfree",
-      "count": 1,
-      "owned": true,
+      "count": 0,
+      "owned": false,
       "pokedex_number": 12,
       "form": "",
       "is_variant": false,
@@ -1371,7 +1371,7 @@
           "evolution_stage": "3"
         }
       ],
-      "line_complete": true,
+      "line_complete": false,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -3933,7 +3933,7 @@
     },
     {
       "name": "Zubat",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 41,
       "form": "",
@@ -4677,7 +4677,7 @@
     },
     {
       "name": "Venonat",
-      "count": 3,
+      "count": 1,
       "owned": true,
       "pokedex_number": 48,
       "form": "",
@@ -4766,7 +4766,7 @@
         }
       ],
       "line_complete": true,
-      "evolvable_now": true,
+      "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -4869,7 +4869,7 @@
     },
     {
       "name": "Diglett",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 50,
       "form": "",
@@ -7397,7 +7397,7 @@
     },
     {
       "name": "Ponyta",
-      "count": 5,
+      "count": 6,
       "owned": true,
       "pokedex_number": 77,
       "form": "",
@@ -8921,7 +8921,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4185
+      "friendship_points": 4364
     },
     {
       "name": "Haunter",
@@ -9027,7 +9027,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 4185
+      "friendship_points": 4364
     },
     {
       "name": "Gengar",
@@ -9133,7 +9133,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": true,
-      "friendship_points": 4185
+      "friendship_points": 4364
     },
     {
       "name": "Onix",
@@ -12097,7 +12097,7 @@
     },
     {
       "name": "Magikarp",
-      "count": 19,
+      "count": 2,
       "owned": true,
       "pokedex_number": 129,
       "form": "",
@@ -12173,7 +12173,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -12181,8 +12181,8 @@
     },
     {
       "name": "Gyarados",
-      "count": 0,
-      "owned": false,
+      "count": 1,
+      "owned": true,
       "pokedex_number": 130,
       "form": "",
       "is_variant": false,
@@ -12265,7 +12265,7 @@
           "evolution_stage": "2"
         }
       ],
-      "line_complete": false,
+      "line_complete": true,
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
@@ -37831,7 +37831,7 @@
     "primary_type": "Ghost",
     "secondary_type": "Poison",
     "evolution_line_id": "40",
-    "friendship_points": 4185,
+    "friendship_points": 4364,
     "times_pet": 89,
     "times_fed": 2
   }
