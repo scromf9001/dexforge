@@ -3,12 +3,12 @@
     "username": "blopblood",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d81b7f66-4f5f-4eec-bd3d-64e0ba6d2b10-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-14T17:18:54.543807+00:00",
+  "updated_at": "2026-11-14T17:22:17.575804+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 274,
-      "total_owned": 1296,
+      "total_owned": 1297,
       "completion_percent": 70.98,
       "variants_available": 33,
       "variants_owned": 11
@@ -150,9 +150,9 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 2405,
-      "success": 1112,
-      "accuracy_percent": 46.24,
+      "thrown": 2406,
+      "success": 1113,
+      "accuracy_percent": 46.26,
       "most_used": "great ball",
       "details": {
         "poke ball": {
@@ -161,9 +161,9 @@
           "accuracy_percent": 32.2
         },
         "great ball": {
-          "thrown": 1996,
-          "success": 965,
-          "accuracy_percent": 48.35
+          "thrown": 1997,
+          "success": 966,
+          "accuracy_percent": 48.37
         },
         "ultra ball": {
           "thrown": 108,
@@ -177,7 +177,7 @@
         }
       }
     },
-    "pokecoins": 123697,
+    "pokecoins": 123759,
     "journey": {
       "watch_hours": 1075,
       "follow_age": "1 Year(s), 4 Month(s), 5 Day(s)",
@@ -189,22 +189,22 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 309,
-      "chat_messages": 34576,
-      "commands_run": 55687,
-      "times_tagged": 6517,
+      "chat_messages": 34580,
+      "commands_run": 55701,
+      "times_tagged": 6521,
       "times_evolved": 78,
       "times_traded": 7,
       "times_eggs_hatched": 33,
       "ball_distribution": {
-        "poke ball": 12.27,
-        "great ball": 82.99,
+        "poke ball": 12.26,
+        "great ball": 83.0,
         "ultra ball": 4.49,
         "master ball": 0.25
       },
       "pokebag": {
         "Egg": 1,
         "Fire Stone": 1,
-        "Great Ball": 5,
+        "Great Ball": 4,
         "Leaf Stone": 1,
         "Master Ball": 1,
         "Moon Stone": 2,
@@ -7060,7 +7060,7 @@
     },
     {
       "name": "Geodude",
-      "count": 25,
+      "count": 26,
       "owned": true,
       "pokedex_number": 74,
       "form": "",
@@ -34758,7 +34758,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1206
+      "friendship_points": 1209
     },
     {
       "name": "Dusclops",
@@ -34842,7 +34842,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1206
+      "friendship_points": 1209
     },
     {
       "name": "Tropius",
@@ -37836,7 +37836,7 @@
     "primary_type": "Ghost",
     "secondary_type": null,
     "evolution_line_id": "183",
-    "friendship_points": 1206,
+    "friendship_points": 1209,
     "times_pet": 30,
     "times_fed": 0
   }
