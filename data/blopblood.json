@@ -3,12 +3,12 @@
     "username": "blopblood",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d81b7f66-4f5f-4eec-bd3d-64e0ba6d2b10-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-17T16:58:29.090604+00:00",
+  "updated_at": "2026-11-17T18:48:56.848144+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 275,
-      "total_owned": 1301,
+      "total_owned": 1308,
       "completion_percent": 71.24,
       "variants_available": 33,
       "variants_owned": 11
@@ -150,25 +150,25 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 2428,
-      "success": 1119,
-      "accuracy_percent": 46.09,
+      "thrown": 2440,
+      "success": 1125,
+      "accuracy_percent": 46.11,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 302,
-          "success": 95,
-          "accuracy_percent": 31.46
+          "thrown": 308,
+          "success": 98,
+          "accuracy_percent": 31.82
         },
         "great ball": {
-          "thrown": 2010,
-          "success": 972,
-          "accuracy_percent": 48.36
+          "thrown": 2015,
+          "success": 974,
+          "accuracy_percent": 48.34
         },
         "ultra ball": {
-          "thrown": 110,
-          "success": 46,
-          "accuracy_percent": 41.82
+          "thrown": 111,
+          "success": 47,
+          "accuracy_percent": 42.34
         },
         "master ball": {
           "thrown": 6,
@@ -177,10 +177,10 @@
         }
       }
     },
-    "pokecoins": 113565,
+    "pokecoins": 112759,
     "journey": {
-      "watch_hours": 1078,
-      "follow_age": "1 Year(s), 4 Month(s), 8 Day(s)",
+      "watch_hours": 1080,
+      "follow_age": "1 Year(s), 4 Month(s), 9 Day(s)",
       "sub_age": "1 Year(s), 1 Month(s), 27 Day(s)",
       "sub_months": 15,
       "subs_gifted": 0,
@@ -189,27 +189,27 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 310,
-      "chat_messages": 34746,
-      "commands_run": 56007,
-      "times_tagged": 6569,
+      "chat_messages": 34820,
+      "commands_run": 56168,
+      "times_tagged": 6592,
       "times_evolved": 79,
       "times_traded": 7,
-      "times_eggs_hatched": 33,
+      "times_eggs_hatched": 34,
       "ball_distribution": {
-        "poke ball": 12.44,
-        "great ball": 82.78,
-        "ultra ball": 4.53,
+        "poke ball": 12.62,
+        "great ball": 82.58,
+        "ultra ball": 4.55,
         "master ball": 0.25
       },
       "pokebag": {
         "Egg": 1,
         "Fire Stone": 1,
-        "Great Ball": 51,
+        "Great Ball": 46,
         "Leaf Stone": 1,
         "Master Ball": 1,
         "Moon Stone": 2,
         "Thunder Stone": 1,
-        "Ultra Ball": 8
+        "Ultra Ball": 7
       }
     }
   },
@@ -2794,7 +2794,7 @@
     },
     {
       "name": "Nidoran (F)",
-      "count": 14,
+      "count": 15,
       "owned": true,
       "pokedex_number": 29,
       "form": "",
@@ -5346,7 +5346,7 @@
     },
     {
       "name": "Mankey",
-      "count": 12,
+      "count": 13,
       "owned": true,
       "pokedex_number": 56,
       "form": "",
@@ -16016,7 +16016,7 @@
     },
     {
       "name": "Pichu",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 172,
       "form": "",
@@ -17412,7 +17412,7 @@
     },
     {
       "name": "Hoppip",
-      "count": 16,
+      "count": 17,
       "owned": true,
       "pokedex_number": 187,
       "form": "",
@@ -18646,7 +18646,7 @@
     },
     {
       "name": "Misdreavus",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 200,
       "form": "",
@@ -33080,7 +33080,7 @@
     },
     {
       "name": "Barboach",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 339,
       "form": "",
@@ -34758,7 +34758,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1398
+      "friendship_points": 1509
     },
     {
       "name": "Dusclops",
@@ -34842,7 +34842,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 1398
+      "friendship_points": 1509
     },
     {
       "name": "Tropius",
@@ -35328,7 +35328,7 @@
     },
     {
       "name": "Spheal",
-      "count": 2,
+      "count": 3,
       "owned": true,
       "pokedex_number": 363,
       "form": "",
@@ -35411,7 +35411,7 @@
         }
       ],
       "line_complete": false,
-      "evolvable_now": false,
+      "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
       "friendship_points": 0
@@ -37836,7 +37836,7 @@
     "primary_type": "Ghost",
     "secondary_type": null,
     "evolution_line_id": "183",
-    "friendship_points": 1398,
+    "friendship_points": 1509,
     "times_pet": 30,
     "times_fed": 0
   }
