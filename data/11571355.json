@@ -3,12 +3,12 @@
     "username": "11571355",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/10435636-b747-4ef6-be59-04349b881017-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-20T16:10:22.520129+00:00",
+  "updated_at": "2026-11-20T16:25:32.721519+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 97,
-      "total_owned": 185,
+      "total_owned": 186,
       "completion_percent": 25.13,
       "variants_available": 33,
       "variants_owned": 4
@@ -150,15 +150,15 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 573,
-      "success": 236,
-      "accuracy_percent": 41.19,
+      "thrown": 575,
+      "success": 237,
+      "accuracy_percent": 41.22,
       "most_used": "poke ball",
       "details": {
         "poke ball": {
-          "thrown": 294,
+          "thrown": 295,
           "success": 91,
-          "accuracy_percent": 30.95
+          "accuracy_percent": 30.85
         },
         "great ball": {
           "thrown": 188,
@@ -166,9 +166,9 @@
           "accuracy_percent": 46.81
         },
         "ultra ball": {
-          "thrown": 91,
-          "success": 57,
-          "accuracy_percent": 62.64
+          "thrown": 92,
+          "success": 58,
+          "accuracy_percent": 63.04
         },
         "master ball": {
           "thrown": 0,
@@ -177,7 +177,7 @@
         }
       }
     },
-    "pokecoins": 11991,
+    "pokecoins": 12571,
     "journey": {
       "watch_hours": 338,
       "follow_age": "6 Month(s), 26 Day(s)",
@@ -189,22 +189,22 @@
       "primary_role": "Follower",
       "sub_tier": "Not Subscribed",
       "streams_watched": 90,
-      "chat_messages": 7210,
-      "commands_run": 12608,
-      "times_tagged": 2377,
+      "chat_messages": 7219,
+      "commands_run": 12632,
+      "times_tagged": 2382,
       "times_evolved": 19,
       "times_traded": 31,
       "times_eggs_hatched": 0,
       "ball_distribution": {
-        "poke ball": 51.31,
-        "great ball": 32.81,
-        "ultra ball": 15.88,
+        "poke ball": 51.3,
+        "great ball": 32.7,
+        "ultra ball": 16.0,
         "master ball": 0.0
       },
       "pokebag": {
         "Great Ball": 34,
         "Sun Stone": 1,
-        "Ultra Ball": 72
+        "Ultra Ball": 71
       }
     }
   },
@@ -3837,7 +3837,7 @@
       "evolvable_now": true,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 8031,
+      "friendship_points": 8046,
       "friendship_requirement": 2500,
       "friendship_progress_percent": 100
     },
@@ -3929,7 +3929,7 @@
       "evolvable_now": false,
       "requires_stone": true,
       "requires_trade": false,
-      "friendship_points": 8031
+      "friendship_points": 8046
     },
     {
       "name": "Zubat",
@@ -16269,7 +16269,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 8031
+      "friendship_points": 8046
     },
     {
       "name": "Togepi",
@@ -26363,7 +26363,7 @@
     },
     {
       "name": "Wurmple",
-      "count": 1,
+      "count": 2,
       "owned": true,
       "pokedex_number": 265,
       "form": "",
@@ -37831,7 +37831,7 @@
     "primary_type": "Normal",
     "secondary_type": "Fairy",
     "evolution_line_id": "16",
-    "friendship_points": 8031,
+    "friendship_points": 8046,
     "times_pet": 53,
     "times_fed": 1,
     "friendship_requirement": 2500,
