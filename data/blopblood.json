@@ -3,12 +3,12 @@
     "username": "blopblood",
     "avatar": "https://static-cdn.jtvnw.net/jtv_user_pictures/d81b7f66-4f5f-4eec-bd3d-64e0ba6d2b10-profile_image-300x300.png"
   },
-  "updated_at": "2026-11-21T19:23:05.965813+00:00",
+  "updated_at": "2026-11-21T20:45:52.552659+00:00",
   "trainer_stats": {
     "pokedex": {
       "total_available": 386,
       "unique_owned": 279,
-      "total_owned": 1325,
+      "total_owned": 1329,
       "completion_percent": 72.28,
       "variants_available": 33,
       "variants_owned": 11
@@ -150,20 +150,20 @@
       "total": 21
     },
     "pokeballs": {
-      "thrown": 2496,
-      "success": 1146,
-      "accuracy_percent": 45.91,
+      "thrown": 2504,
+      "success": 1150,
+      "accuracy_percent": 45.93,
       "most_used": "great ball",
       "details": {
         "poke ball": {
-          "thrown": 330,
-          "success": 108,
-          "accuracy_percent": 32.73
+          "thrown": 337,
+          "success": 111,
+          "accuracy_percent": 32.94
         },
         "great ball": {
-          "thrown": 2038,
-          "success": 982,
-          "accuracy_percent": 48.18
+          "thrown": 2039,
+          "success": 983,
+          "accuracy_percent": 48.21
         },
         "ultra ball": {
           "thrown": 122,
@@ -177,9 +177,9 @@
         }
       }
     },
-    "pokecoins": 115572,
+    "pokecoins": 116904,
     "journey": {
-      "watch_hours": 1089,
+      "watch_hours": 1091,
       "follow_age": "1 Year(s), 4 Month(s), 13 Day(s)",
       "sub_age": "1 Year(s), 2 Month(s), 1 Day(s)",
       "sub_months": 15,
@@ -189,22 +189,22 @@
       "primary_role": "Subscriber",
       "sub_tier": "Tier 1",
       "streams_watched": 313,
-      "chat_messages": 35253,
-      "commands_run": 56958,
-      "times_tagged": 6657,
+      "chat_messages": 35326,
+      "commands_run": 57081,
+      "times_tagged": 6671,
       "times_evolved": 81,
       "times_traded": 7,
       "times_eggs_hatched": 34,
       "ball_distribution": {
-        "poke ball": 13.22,
-        "great ball": 81.65,
-        "ultra ball": 4.89,
+        "poke ball": 13.46,
+        "great ball": 81.43,
+        "ultra ball": 4.87,
         "master ball": 0.24
       },
       "pokebag": {
         "Egg": 1,
         "Fire Stone": 1,
-        "Great Ball": 23,
+        "Great Ball": 22,
         "Leaf Stone": 1,
         "Master Ball": 1,
         "Moon Stone": 2,
@@ -10988,7 +10988,7 @@
     },
     {
       "name": "Horsea",
-      "count": 12,
+      "count": 13,
       "owned": true,
       "pokedex_number": 116,
       "form": "",
@@ -21130,7 +21130,7 @@
     },
     {
       "name": "Dunsparce",
-      "count": 8,
+      "count": 10,
       "owned": true,
       "pokedex_number": 206,
       "form": "",
@@ -34758,7 +34758,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2056
+      "friendship_points": 2139
     },
     {
       "name": "Dusclops",
@@ -34842,7 +34842,7 @@
       "evolvable_now": false,
       "requires_stone": false,
       "requires_trade": false,
-      "friendship_points": 2056
+      "friendship_points": 2139
     },
     {
       "name": "Tropius",
@@ -35328,7 +35328,7 @@
     },
     {
       "name": "Spheal",
-      "count": 3,
+      "count": 4,
       "owned": true,
       "pokedex_number": 363,
       "form": "",
@@ -37836,7 +37836,7 @@
     "primary_type": "Ghost",
     "secondary_type": null,
     "evolution_line_id": "183",
-    "friendship_points": 2056,
+    "friendship_points": 2139,
     "times_pet": 30,
     "times_fed": 0
   }
